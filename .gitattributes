@@ -1,0 +1,6 @@
+cen_pipeline/_raw_cache/*.xlsx filter=lfs diff=lfs merge=lfs -text
+cen_pipeline/_raw_cache/*.pdf filter=lfs diff=lfs merge=lfs -text
+cen_pipeline/cen_dataset/**/*.zip filter=lfs diff=lfs merge=lfs -text
+cen_pipeline/cen_dataset/**/*.rar filter=lfs diff=lfs merge=lfs -text
+cen_pipeline/cen_dataset/**/*.7z filter=lfs diff=lfs merge=lfs -text
+cen_pipeline/cen_dataset/**/*.dwg filter=lfs diff=lfs merge=lfs -text
