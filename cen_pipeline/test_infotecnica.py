@@ -92,6 +92,8 @@ if diagram is not None:
         print(output_path)
 
         downloaded = download_document(
+            "subestaciones",
+            installation["id"],
             diagram,
             output_path
         )
