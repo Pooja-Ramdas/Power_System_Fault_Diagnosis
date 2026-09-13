@@ -27,7 +27,7 @@ import pandas as pd
 from tqdm import tqdm
 
 import config
-from scraper import eaf_scraper, telemetry, topology, translate, infotecnica_api
+from scraper import eaf_scraper, telemetry, topology, translate, infotecnica_api, render_pdf
 
 
 def dir_size_mb(path):
@@ -67,7 +67,11 @@ def main():
     random.seed(config.RANDOM_SEED)
 
     # ---- 1. Scrape the EAF listing for every configured year -------------
-    session = eaf_scraper.new_session()
+    session = eaf_scraper.new_session()          # www.coordinador.cl (Cloudflare-cleared)
+    api_session = infotecnica_api._session()      # api-infotecnica.coordinador.cl (plain --
+                                                    # this API never needed the Cloudflare bypass,
+                                                    # and the `session` above's Chrome-impersonation
+                                                    # headers actually break it, so keep separate)
     all_entries = []
     for year in config.EAF_YEARS:
         print(f"[list] scraping EAF index for {year} ...")
@@ -91,7 +95,21 @@ def main():
     print(f"[list] processing {len(all_entries)} cases total")
 
     # ---- 2. Download + cache telemetry spreadsheets once ------------------
-    telemetry_dfs = {}
+    telemetry_dfs = {}          # aggregate fallback files, keyed by name
+    telemetry_by_year_range = {}  # per-plant files, keyed by (start_year, end_year)
+
+    for (y0, y1), url in config.TELEMETRY_XLSX_BY_YEAR_RANGE.items():
+        name = f"generation_by_plant_{y0}_{y1}"
+        dest = os.path.join(config.RAW_CACHE_DIR, f"{name}.xlsx")
+        try:
+            telemetry.download_once(url, dest, session=session)
+            df = telemetry.load_xlsx(dest)
+            telemetry_by_year_range[(y0, y1)] = df
+            print(f"[telemetry] loaded {name}: {df.shape[0]} rows, "
+                  f"columns={list(df.columns)[:6]}...")
+        except Exception as e:
+            print(f"[telemetry] WARNING could not load '{name}' ({url}): {e}")
+
     for name, url in config.TELEMETRY_XLSX_URLS.items():
         dest = os.path.join(config.RAW_CACHE_DIR, f"{name}.xlsx")
         try:
@@ -103,9 +121,15 @@ def main():
         except Exception as e:
             print(f"[telemetry] WARNING could not load '{name}' ({url}): {e}")
 
-    # Preferred order to try when slicing a window for a given case
-    telemetry_priority = ["hourly_generation", "generation_by_plant_2025",
-                           "generation_by_technology"]
+    # Preferred order to try for the AGGREGATE fallback (per-plant, year-
+    # matched files are always tried first for each case -- see below)
+    telemetry_priority = ["hourly_generation", "generation_by_technology"]
+
+    def year_range_for(year):
+        for (y0, y1) in telemetry_by_year_range:
+            if y0 <= year <= y1:
+                return (y0, y1)
+        return None
 
     # cache of installation lists per tipo, shared across all cases so we
     # only hit list_installations() once per type, not once per case
@@ -142,46 +166,80 @@ def main():
 
             # -- image modality --
             image_path = os.path.join(case_dir, "image.png")
-            image_is_real = False
+            diagram_source = "synthetic_fallback"
+            real_hit = None
             if config.USE_REAL_INFOTECNICA_IMAGES:
                 substations, line_pair = topology._parse_elements_from_description(
                     entry["description"]
                 )
                 candidates = list(substations) + (list(line_pair) if line_pair else [])
+                raw_dest_no_ext = os.path.join(case_dir, "official_diagram")
                 for name in candidates:
                     for tipo in ("subestaciones", "lineas"):
                         try:
-                            ok = infotecnica_api.fetch_real_diagram(
-                                tipo, name, image_path, installations_cache, session=session
+                            result = infotecnica_api.fetch_real_diagram(
+                                tipo, name, raw_dest_no_ext, installations_cache,
+                                session=api_session,
                             )
                         except Exception:
-                            ok = False
-                        if ok:
-                            image_is_real = True
+                            result = {"found": False}
+                        if result.get("found"):
+                            real_hit = result
                             break
-                    if image_is_real:
+                    if real_hit:
                         break
-            if not image_is_real:
+
+            if real_hit and real_hit["is_pdf"]:
+                try:
+                    render_pdf.render_pdf_page(real_hit["path"], image_path)
+                    diagram_source = "official_pdf"
+                except Exception as e:
+                    print(f"[image] PDF render failed for {case_id} ({e}); "
+                          f"using synthetic fallback")
+            elif real_hit:
+                # real official document acquired (e.g. .rar/.dwg) but not yet
+                # renderable to a pixel image -- keep the raw file (it's on
+                # disk at real_hit["path"], NOT deleted) and mark this case so
+                # a later DWG/archive->PNG conversion pass can pick it up
+                # without re-scraping. image.png still gets the synthetic
+                # fallback for now so every case has a directly usable image.
+                diagram_source = "official_archive_pending_conversion"
+
+            if diagram_source != "official_pdf":
                 topology.build_case_diagram(
                     entry["description"], image_path, dpi=config.DIAGRAM_DPI
                 )
+            image_is_real = diagram_source == "official_pdf"
 
             # -- numeric modality --
             telemetry_saved = False
-            for name in telemetry_priority:
-                if name not in telemetry_dfs:
-                    continue
+            yr = year_range_for(event_dt.year)
+            if yr and yr in telemetry_by_year_range:
                 try:
                     window = telemetry.extract_window(
-                        telemetry_dfs[name], event_dt,
+                        telemetry_by_year_range[yr], event_dt,
                         window_hours=config.TELEMETRY_WINDOW_HOURS,
                     )
                     if len(window) > 0:
                         window.to_csv(os.path.join(case_dir, "telemetry.csv"), index=False)
                         telemetry_saved = True
-                        break
                 except ValueError:
-                    continue
+                    pass
+            if not telemetry_saved:
+                for name in telemetry_priority:
+                    if name not in telemetry_dfs:
+                        continue
+                    try:
+                        window = telemetry.extract_window(
+                            telemetry_dfs[name], event_dt,
+                            window_hours=config.TELEMETRY_WINDOW_HOURS,
+                        )
+                        if len(window) > 0:
+                            window.to_csv(os.path.join(case_dir, "telemetry.csv"), index=False)
+                            telemetry_saved = True
+                            break
+                    except ValueError:
+                        continue
             if not telemetry_saved:
                 # still record the case; flag missing telemetry rather than
                 # silently dropping the whole case, so you can see coverage
@@ -194,7 +252,12 @@ def main():
                 "event_datetime": event_dt.isoformat(),
                 "fault_label": infer_fault_label(entry["description"]),
                 "telemetry_available": telemetry_saved,
-                "image_is_real_infotecnica": image_is_real,
+                "diagram_source": diagram_source,
+                "image_is_real_infotecnica": image_is_real,  # kept for backwards-compat
+                "pending_conversion_path": (
+                    os.path.relpath(real_hit["path"], config.OUTPUT_DIR)
+                    if diagram_source == "official_archive_pending_conversion" else None
+                ),
             }
             with open(os.path.join(case_dir, "meta.json"), "w", encoding="utf-8") as f:
                 json.dump(meta, f, ensure_ascii=False, indent=2)
@@ -205,6 +268,7 @@ def main():
                 "description": entry["description"],
                 "fault_label": meta["fault_label"],
                 "telemetry_available": telemetry_saved,
+                "diagram_source": diagram_source,
                 "image_is_real_infotecnica": image_is_real,
                 "image_path": f"{case_id}/image.png",
                 "telemetry_path": f"{case_id}/telemetry.csv",
@@ -230,12 +294,19 @@ def main():
         pd.DataFrame(manifest_rows).to_csv(manifest_path, index=False)
     print(f"\nDone. {len(manifest_rows)} cases built, {len(failures)} failed.")
     if manifest_rows:
-        n_real = sum(1 for r in manifest_rows if r["image_is_real_infotecnica"])
-        print(f"Real InfoTecnica diagrams: {n_real}/{len(manifest_rows)} "
-              f"({n_real/len(manifest_rows)*100:.0f}%) -- the rest used the "
-              f"generated schematic fallback. If this is 0%, the API field "
-              f"names in scraper/infotecnica_api.py likely need adjusting -- "
-              f"re-run probe_infotecnica.py.")
+        from collections import Counter
+        counts = Counter(r["diagram_source"] for r in manifest_rows)
+        n = len(manifest_rows)
+        print("Image modality source breakdown:")
+        for source in ("official_pdf", "official_archive_pending_conversion", "synthetic_fallback"):
+            c = counts.get(source, 0)
+            print(f"  {source:35s} {c:5d}  ({c/n*100:.1f}%)")
+        n_pending = counts.get("official_archive_pending_conversion", 0)
+        if n_pending:
+            print(f"\n{n_pending} cases have a real official document saved on disk "
+                  f"(CASE-XXXX/official_diagram.<ext>) but still need the "
+                  f"archive/DWG -> PNG conversion step to become image.png. "
+                  f"Nothing needs to be re-scraped for those when that's built.")
     print(f"Dataset size: {dir_size_mb(config.OUTPUT_DIR):.1f} MB "
           f"(cap was {config.DATASET_SIZE_HARD_CAP_MB} MB)")
     if failures:

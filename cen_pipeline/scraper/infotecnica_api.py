@@ -78,12 +78,37 @@ def list_documents(tipo, installation_id, session=None):
     return data[LIST_RESULTS_KEY] if (LIST_RESULTS_KEY and isinstance(data, dict)) else data
 
 
+def _doc_extension(doc):
+    ext = str(doc.get("extension", "")).lower().strip()
+    if ext and not ext.startswith("."):
+        ext = "." + ext
+    if not ext:
+        fn = str(doc.get("filename", ""))
+        if "." in fn:
+            ext = "." + fn.rsplit(".", 1)[-1].lower()
+    return ext
+
+
+def _doc_rank(doc):
+    """Lower is better. PDFs (and already-raster images, if any ever show
+    up) win outright since they need no further conversion; everything
+    else (rar/zip/7z/dwg) is usable but needs the archive/DWG conversion
+    step, so it's ranked behind a directly-usable PDF."""
+    ext = _doc_extension(doc)
+    if ext == ".pdf":
+        return 0
+    if ext in (".png", ".jpg", ".jpeg"):
+        return 0
+    if ext in (".rar", ".zip", ".7z", ".dwg"):
+        return 2
+    return 1
+
+
 def find_diagram_document(documents):
-    """Returns the first document whose nombre or filename mentions a
-    single-line-diagram keyword. NOTE: some installations have several
-    candidates (e.g. an older .rar and a newer, better .pdf) -- this just
-    takes the first match for now. Ranking by extension/date is a later
-    step, deliberately deferred until the basic download is verified."""
+    """Returns the BEST matching diagram document: prefers a directly
+    usable PDF/image over an archive (.rar/.zip/.dwg) when an installation
+    has both, since a PDF needs no further conversion step."""
+    matches = []
     for doc in documents:
         label = " ".join([
             str(doc.get(DOCUMENT_TYPE_FIELD, "")),
@@ -91,8 +116,11 @@ def find_diagram_document(documents):
             str(doc.get("filename", "")),
         ])
         if any(k in label.lower() for k in DIAGRAM_KEYWORDS):
-            return doc
-    return None
+            matches.append(doc)
+    if not matches:
+        return None
+    matches.sort(key=_doc_rank)
+    return matches[0]
 
 
 def download_document(tipo, installation_id, doc, dest_path, session=None):
@@ -117,30 +145,43 @@ def download_document(tipo, installation_id, doc, dest_path, session=None):
     return dest_path
 
 
-def fetch_real_diagram(tipo, installation_name, dest_path, installations_cache, session=None):
-    """High-level helper: returns True + writes dest_path if a real diagram
-    document was found and downloaded for the named installation, else False.
+def fetch_real_diagram(tipo, installation_name, dest_path_no_ext, installations_cache, session=None):
+    """High-level helper. Returns a dict:
+        {"found": False}
+      or
+        {"found": True, "path": <actual saved path, with real extension>,
+         "extension": ".pdf" | ".rar" | ".dwg" | ..., "is_pdf": bool,
+         "installation_name": <matched name>, "document": <doc metadata>}
 
-    NOTE: dest_path currently gets whatever bytes come back (which may be a
-    .rar/.zip/.pdf/.dwg, not necessarily a directly-usable image) -- that is
-    intentional for now per the staged plan: verify the raw download works
-    end to end first, decide on archive-extraction/conversion afterward,
-    and only then adjust what build_dataset.py does with the result.
+    `dest_path_no_ext` should be a path WITHOUT an extension (e.g.
+    ".../CASE-0001/diagram") -- the real extension is appended based on
+    what actually came back, since it may be a PDF, an archive, or (rarely)
+    something else, and saving arbitrary binary content under a ".png" name
+    would silently corrupt the image modality for that case.
     """
     if tipo not in installations_cache:
         installations_cache[tipo] = list_installations(tipo, session=session)
     inst = find_installation_by_name(installations_cache[tipo], installation_name)
     if inst is None:
-        return False
+        return {"found": False}
     try:
         docs = list_documents(tipo, inst[ID_FIELD], session=session)
     except Exception:
-        return False
+        return {"found": False}
     diagram = find_diagram_document(docs)
     if diagram is None:
-        return False
+        return {"found": False}
+    ext = _doc_extension(diagram) or ".bin"
+    dest_path = dest_path_no_ext + ext
     try:
         download_document(tipo, inst[ID_FIELD], diagram, dest_path, session=session)
-        return True
     except Exception:
-        return False
+        return {"found": False}
+    return {
+        "found": True,
+        "path": dest_path,
+        "extension": ext,
+        "is_pdf": ext == ".pdf",
+        "installation_name": inst.get(NAME_FIELD),
+        "document": diagram,
+    }

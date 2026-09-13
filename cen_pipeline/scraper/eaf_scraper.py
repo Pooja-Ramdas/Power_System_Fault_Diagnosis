@@ -21,13 +21,56 @@ TITLE_RE = re.compile(
 USER_AGENT = "Mozilla/5.0 (academic research script; multimodal fault diagnosis project)"
 
 
-def new_session():
+def new_session(bypass_cloudflare=True, headless=False):
+    """Returns a requests.Session ready to call www.coordinador.cl.
+
+    www.coordinador.cl sits behind a Cloudflare Turnstile challenge (see
+    scraper/cf_bypass.py) -- plain requests get a 403 "Just a moment..."
+    page. By default this solves that challenge once via a real Chrome
+    session and returns a plain requests.Session loaded with the resulting
+    cookies, which is enough for subsequent plain requests.get() calls.
+    Set bypass_cloudflare=False to get the old plain-requests behaviour
+    (useful for calling other, non-Cloudflare-protected domains like the
+    InfoTecnica API).
+    """
+    if bypass_cloudflare:
+        try:
+            import config
+            from scraper.cf_bypass import get_cloudflare_cleared_session
+            return get_cloudflare_cleared_session(
+                "https://www.coordinador.cl/", headless=headless,
+                version_main=getattr(config, "CHROME_MAJOR_VERSION", None),
+            )
+        except Exception as e:
+            print(f"[eaf_scraper] Cloudflare bypass unavailable/failed ({e}); "
+                  f"falling back to a plain session, which will likely 403 "
+                  f"against www.coordinador.cl. Run: pip install "
+                  f"undetected-chromedriver selenium")
     s = requests.Session()
     s.headers.update({"User-Agent": USER_AGENT})
     return s
 
 
 _session = new_session  # backwards-compat alias
+
+
+def _get_with_cf_retry(session, url, timeout=30):
+    """GET that, on a Cloudflare 403, re-solves the challenge once (mutating
+    `session`'s cookies/headers in place) and retries -- cf_clearance
+    cookies are time-limited, so a long run can hit this mid-way through."""
+    resp = session.get(url, timeout=timeout)
+    if resp.status_code == 403:
+        print(f"[eaf_scraper] got 403 on {url} -- re-solving Cloudflare challenge ...")
+        import config
+        from scraper.cf_bypass import get_cloudflare_cleared_session
+        fresh = get_cloudflare_cleared_session(
+            "https://www.coordinador.cl/",
+            version_main=getattr(config, "CHROME_MAJOR_VERSION", None),
+        )
+        session.cookies.update(fresh.cookies)
+        session.headers.update(fresh.headers)
+        resp = session.get(url, timeout=timeout)
+    return resp
 
 
 def list_eaf_entries(year, listing_url_template, max_pages=40, delay=1.0, session=None):
@@ -38,7 +81,7 @@ def list_eaf_entries(year, listing_url_template, max_pages=40, delay=1.0, sessio
     page = 1
     while page <= max_pages:
         url = base_url if page == 1 else f"{base_url}/?page={page}"
-        resp = session.get(url, timeout=30)
+        resp = _get_with_cf_retry(session, url, timeout=30)
         if resp.status_code != 200:
             break
         soup = BeautifulSoup(resp.text, "html.parser")
@@ -90,7 +133,7 @@ def list_eaf_entries(year, listing_url_template, max_pages=40, delay=1.0, sessio
 
 def download_pdf(url, dest_path, session=None, timeout=60):
     session = session or new_session()
-    r = session.get(url, timeout=timeout)
+    r = _get_with_cf_retry(session, url, timeout=timeout)
     r.raise_for_status()
     with open(dest_path, "wb") as f:
         f.write(r.content)
