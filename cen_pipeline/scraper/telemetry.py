@@ -263,7 +263,7 @@ def load_hourly_generation_sheet(xlsx_path, year):
         return None
 
     # Row 0 should be the header; find 'fecha' column index
-    header_row = raw.iloc[0].astype(str).str.lower().tolist()
+    header_row = [str(v).lower() for v in raw.iloc[0].tolist()]
     try:
         fecha_idx = next(i for i, v in enumerate(header_row) if "fecha" in v)
         hora_idx  = next(i for i, v in enumerate(header_row) if "hora" in v)
