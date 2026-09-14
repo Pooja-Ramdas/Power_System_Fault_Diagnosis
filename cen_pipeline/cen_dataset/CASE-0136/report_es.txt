@@ -1,0 +1,131 @@
+Estudio para análisis de falla EAF 472/2024
+“Falla en línea 33 kV Ciruelito - Recinto”
+Fecha de Emisión: 04-10-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 10/09/2024
+Hora 03:51
+Consumos desconectados (MW) 1.10
+Demanda previa del sistema (MW) 8441.4
+Porcentaje de desconexión 0.010 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 33 kV Ciruelito - Recinto / LT005CI1TR05----R013
+Tipo de instalación Línea de transmisión
+Tensión nominal 33 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Cooperativa de Consumo de Energía Eléctrica Chillán (Copelec) Ltda.
+RUT 80.237.700-2
+Representante Legal Patricio Lagos
+Dirección 18 de Septiembre 688, Chillán
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 33 kV Ciruelito - Recinto / LT005CI1TR05----R013
+Propietario elemento fallado Cooperativa de Consumo de Energía Eléctrica Chillán (Copelec) Ltda.
+RUT 80.237.700-2
+Representante Legal Patricio Lagos
+Dirección 18 de Septiembre 688, Chillán
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52F3, reconectador Las Vegas, correspondiente a
+la línea 33 kV Ciruelito - Recinto, debido a conductor cortado en la fase lateral de la estructura N°763
+de la línea, por causa desconocida, conforme lo informado por su propietario.
+d.2 Fenómeno Físico:
+OTR2: Origen no determinado.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se ha producido una falla en
+instalaciones del mismo propietario con un fenómeno físico similar, durante los últimos 24 meses
+móviles, correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+Nombre Acciones Correctivas de Corto Plazo Acciones Correctivas de Largo Plazo
+Copelec LTDA no indica acciones correctivas de Copelec LTDA no indica acciones correctivas de largo
+EAF 356-2024
+corto plazo. plazo.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido
+fallas en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 33 kV Ciruelito - Recinto. De acuerdo con
+lo indicado por su propietario en la plataforma Infotécnica del Coordinador, la línea entró en
+operación en junio de 1997, posee un conductor de cobre por fase de 33.62 mm2 y tiene un largo de
+19.1 km.
+Copelec Ltda. no remitió antecedentes respecto de los mantenimientos realizados a este elemento
+durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No informada.
+g. Proposición del propietario respecto del origen de la falla
+No informado.
+h. Comuna donde se presenta la falla
+8405: Coihueco.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(12/09/2024) (17/09/2024)
+Cooperativa de Consumo de Energía Eléctrica Chillán Ltda. (Copelec) 11/09/2024 No remitido
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Ciruelito - Recinto 33 kV ST Zonal - 03:51 07:57
+- Fechas y horas señaladas corresponden a lo informado por Cooperativa de Consumo de Energía Eléctrica Chillán Ltda.
+c. Consumos
+Pérdida de %
+Alimentador / Clientes
+Sub-Estación Comuna Consumo consumo H. Desc. H. Dispon. H. Norm.
+Paño Afectados
+(MW) pre-falla
+Coihueco y
+S/E Ciruelito Recinto 1.1 0.010 3138 03:51 07:57 07:57
+Pinto
+Total: 1.1 MW 0.010 % 3138
+- Fechas, horas y montos señalados corresponden a lo informado por Cooperativa de Consumo de Energía Eléctrica Chillán Ltda.
+3. Estimación de la energía no suministrada
+Pérdida de Tiempo
+Alimentador / Tipo de Tiempo ENS
+Sub-Estación Empresa Consumo Indispon.
+Paño Cliente Desc.(h) (MWh)
+(MW) (h)
+S/E Ciruelito Recinto Copelec Regulado 1.1 4.10 4.10 4.5
+Clientes Regulados : 4.5 MWh
+Clientes Libres : MWh
+Total : 4.5 MWh
+- Fechas, horas y montos señalados corresponden a lo informado por Cooperativa de Consumo de Energía Eléctrica Chillán Ltda.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación real respecto de los horarios de
+disponibilidad de las barras primarias respectivas para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 0.88 4.10 0.21
+Último 20 % 0.22 4.10 0.05
+100 % Total 1.10 4.10 0.27
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8441.4 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Colbún (U1),
+Colbún (U2) y Pehuenche (U1).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por Cooperativa de Consumo de Energía Eléctrica Chillán Ltda.:
+“- Fenómeno Físico: Origen no determinado.
+- Elemento: Conjunto aislación línea
+- Fenómeno Eléctrico: Flashover en línea
+- Operación de los interruptores: Opera según lo esperado
+…/…
+Se encuentra conductor cortado en aislador con señales de descarga (fase lateral calle)”.
+Por su parte, en función de los antecedentes presentados a la fecha de emisión del presente EAF, se
+solicitará la siguiente información adicional a la empresa Cooperativa de Consumo de Energía
+Eléctrica Chillán Ltda.:
+• Informe de Falla de 5 días asociado al evento en análisis, con el correspondiente nivel de detalle,
+incluyendo las comunas involucradas y los montos reales de consumos afectados.
+De forma complementaria, se adjunta el informe de falla preliminar de instalaciones, ingresado en el
+sistema Neomante del Coordinador Eléctrico Nacional por Cooperativa de Consumo de Energía
+Eléctrica Chillán Ltda. (Anexo N°1).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+Cooperativa de Consumo de Energía Eléctrica Chillán Ltda. informa:
+“Inspección con drone
+…/…

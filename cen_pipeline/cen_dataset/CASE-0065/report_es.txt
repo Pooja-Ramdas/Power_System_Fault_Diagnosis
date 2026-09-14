@@ -1,0 +1,270 @@
+Estudio para análisis de falla EAF 541/2024
+“Falla en el cierre del interruptor 52C11 de S/E Colo Colo”
+Fecha de Emisión: 29-11-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 09/11/2024
+Hora 15:29
+Consumos desconectados (MW) 3.9
+Demanda previa del sistema (MW) 9797.8
+Porcentaje de desconexión 0.040 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Paño C11 de S/E Colo Colo / PA311T0058SE044T0058
+Tipo de instalación Subestación
+Tensión nominal 66 y 15 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, las Condes, Región Metropolitana de
+Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Interruptor 52C11 de S/E Colo Colo / IM01T0058PA311T0058SE044T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 P14, las Condes, Región Metropolitana de
+Santiago.
+d.1 Origen y causa de la falla
+Durante maniobras de normalización, se produjo una orden de cierre remota al interruptor 52C11 de
+S/E Colo Colo la cual no se pudo concretar, debido a que el control asociado al dicho interruptor se
+encontraba en modo local. El interruptor 52C11 de S/E Colo Colo se encontraba previamente en estado
+abierto debido a falla en redes de media tensión (alimentador Ongolmo).
+d.2 Fenómeno Físico:
+OPE7: Error de operador.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica: “Se programa para el día 07-
+12-2022 la mejora en la descripción de la posición del interruptor 52E1 de
+S/E Avellano en el relé SEL 451”.
+La empresa Enel Green Power Chile S.A. indica: “Como acciones
+Desconexión
+correctivas, se considera la revisión del ajuste de la función de distancia
+forzada de la
+EAF 426-2022 20-11-2022 (21/21N) del relé correspondiente al sistema 2 de protección (SEL-311L)
+barra 13.2 kV de
+de la línea 66 kV Los Buenos Aires - Los Ángeles, con el objetivo de aclarar
+S/E Chocalán
+la operación de esté relé de protección, teniendo en cuenta la no operación
+del sistema 1 de protección, el cual corresponde a otro modelo (SEL-
+311C). Se revisarán diferencias en los algoritmos de operación de estos
+dos modelos de relé, junto con detalles específicos asociados a ajustes de
+ambos modelos de protección”.
+Apertura
+intempestiva del
+EAF 483-2022 21-12-2022 La empresa CGE Transmisión S.A. indica que no aplica.
+interruptor 52C4
+de S/E Paniahue
+Desconexión
+La empresa CGE Transmisión S.A. indica: “Se revisará la parametrización
+forzada del
+del relé SEL 387 T1//T2, en específico la necesidad de contar o no, con el
+EAF 119-2023 transformador 11-03-2023
+WD2 activo para el grupo de ajuste cuando está solo T1 en servicio. Esta
+N°1 66/23 kV de
+revisión se realizará durante el mes de abril”.
+S/E Nirivilo
+La empresa CGE Transmisión S.A. señala que:
+“Al determinar la causa de operación, se deshabilitan todas las funciones
+de protecciones en SE Colchagua”.
+“Adjudicatario de proyecto realiza un análisis de operación de protección
+para efectos de determinar la causa origen del evento, determinando una
+incorrecta habilitación de esquema en relé de futuro Paño B1 de SE
+Apertura Colchagua, el cual no se encontraba entregado a la operación. Se remite
+intempestiva del informe técnico de adjudicatario, para el cual cabe señalar que CGE
+EAF 121-2023 interruptor 52B1 12-03-2023 Transmisión está de acuerdo con la determinación en cuanto a que la
+de S/E San operación indeseada se debió a una incorrecta habilitación de esquema de
+Fernando protecciones diferencial de línea en extremo SE Colchagua, sin embargo
+no se encuentra de acuerdo con la conclusión que indica que este error se
+debe a falta de indicación Explicita en ECAP, lo anterior en consideración
+de la las faenas consideran bypass de Paño BT1 de SE Colchagua, en este
+sentido no existía forma de que este función opera correctamente,
+cuestión que debió se advertida por técnicos especialistas a cargo de la
+actividad”.
+La empresa CGE Transmisión S.A. señala que:
+“Se corrigió configuración del canal de comunicación para velocidad
+768kbps en ambos los extremos, máximo permitido por el equipo para
+Apertura
+este tipo de funcionalidades y el recomendado para este tipo de esquemas
+intempestiva del
+de tele protección y diferencial de línea con fibra directa entre ambos los
+EAF 122-2023 interruptor 52B1 13-03-2023
+extremos”.
+de S/E San
+“Se realizó monitoreo del canal diferencial durante algunas horas, luego
+Fernando
+del cambio en ambos los extremos de la velocidad de comunicaciones, y
+no se verificó ningún tipo de falla asociada al canal dejando por lo tanto
+el canal estable”.
+Pérdida de La empresa CGE Transmisión S.A. indica lo siguiente: “Se sobrescriben los
+EAF 135-2023 suministro de S/E 21-03-2023 registros de la protección asociada al Paño B4 de SE Ejercito, se realizará
+Tap Cerro Chepe la revisión y acciones correctivas necesarias para corregir este problema”.
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Apertura “Se realizará capacitación al personal en la operación manual de relés
+intempestiva del Reyrolle ARGUS 7RS224”.
+EAF 148-2023 30-03-2023
+interruptor 52C9 “Se dejará en panel del paño en la Subestación Perales manual breve paso
+de S/E Perales a paso para la operación del relé”.
+Desconexión La empresa CGE Transmisión S.A. señala que:
+forzada del “Se realiza apertura de válvula de paso que quedó cerrada”.
+transformador “Se instruye incorporar dentro del procedimiento, la instalación de señal
+EAF 267-2023 16-06-2023
+regulador N°3 visual sobre válvulas de transformadores, cuando estas sean cerradas
+110/110 kV de para fines de mantenimiento, evitando dejar cerrada de forma
+S/E Quillota involuntaria”.
+Desconexión
+forzada del
+transformador La empresa CGE Transmisión S.A. señala que “No Aplica”.
+EAF 534-2023 13-12-2023
+N°2 66/15 kV de
+S/E San Francisco
+de Mostazal
+La empresa CGE Transmisión S.A. indica:
+“Se realizará Estudio para ajustar adecuadamente los parámetros
+Apertura
+detectores de falla de las zonas 1 de las protecciones de los paños B1, B2
+intempestiva del
+EAF 039-2024 01-02-2024 y B3 de SE Escuadrón. Fecha estimada: 30/04/2024.
+interruptor 52B1
+Se implementará el Estudio de ajuste de los parámetros detectores de
+de S/E Escuadrón
+falla de las zonas 1 de las protecciones de los paños B1, B2 y B3 de SE
+Escuadrón. Fecha estimada: 31/05/2024”.
+Apertura
+La empresa CGE Transmisión S.A. indica lo siguiente: “Se cambió el ajuste
+intempestiva del
+EAF 144-2024 09-04-2024 normal (350 A) al alternativo (500 A) para realizar las maniobras de
+interruptor 52C11
+transferencia de carga.”
+de S/E Chivilcán
+Interrupción de
+suministro en
+La empresa CGE Transmisión S.A. señala lo siguiente: “Se normaliza
+EAF 164-2024 transformador 18-04-2024
+seguro mecánico del equipo porta fusible de la fase central.”
+66/15 kV N°3 de
+S/E Pillanlelbún
+Orden de cierre
+no exitosa del
+EAF 169-2024 22-04-2024 No se indican.
+interruptor 52E1
+de S/E San Javier
+Desconexión
+forzada de la La empresa CGE Transmisión S.A. señala lo siguiente: “El 11/05/2024 se
+EAF 208-2024 barra 13.2 kV N°2 10-05-2024 reemplazó el desconectador 89C5-1 de S/E San Joaquín, correspondiente
+de S/E San al 52C5 Alimentador Antena ICF N° 2024048577.”
+Joaquín (CGE)
+Desconexión
+intempestiva de CGE Transmisión S.A. y Compañía General de Electricidad S.A. no indican
+EAF 210-2024 10-05-2024
+barra N°2 15 kV acciones correctivas de corto plazo.
+de S/E Alameda
+La empresa CGE Transmisión S.A. indica lo siguiente:
+Desconexión “Se analizaron los eventos del relé SEL-387, junto con alarmas para
+forzada del descartar alguna operación mecánica propia del transformador.
+transformador Se informará limitación, para no ejecutar la trasferencia del BT al BR,
+EAF 235-2024 04-06-2024
+Nº10 110/69/13.8 estando en servicio el T10 de S/E Pan de Azúcar. Fecha: 30/06/2024
+kV de S/E Pan de Se compromete una revisión de proceso de elaboración de maniobras,
+Azúcar planes generales y particulares de recuperación de servicio. Fecha:
+30/06/2024.”
+Desconexión
+La empresa CGE Transmisión S.A. señala que “se realizará un análisis para
+forzada de la línea
+EAF 427-2024 06-09-2024 efectos de evitar que este tipo de maniobras genere la apertura por
+66 kV Malloa
+activación de funciones de protección”.
+Nueva - Pelequén
+Falla en el cierre
+del interruptor La empresa CGE Transmisión S.A. señala que “Se desactiva función HOT-
+EAF 521-2024 26-10-2024
+52C2 de S/E LINE”.
+Chimbarongo
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 2 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 068-2023 y EAF 506-2023.
+d.4 Fenómeno eléctrico
+FA90: Falla en sistema de control.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+La instalación donde se originó la falla corresponde al interruptor 52C11 de S/E Colo Colo, el cual,
+según lo informado por el propietario en la plataforma Infotécnica del Coordinador, es de la marca
+Merlin Gerin, modelo FG-2, posee una capacidad de ruptura asimétrica de 40 kA, y su entrada en
+operación fue en el año 2003.
+Al respecto, la empresa CGE Transmisión S.A. no adjunta información de los mantenimientos de esta
+instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Compañía General de Electricidad S.A. informa que la ubicación de sus consumos afectados
+es urbana.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+8101: Concepción.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(11-11-2024) (18-11-2024)
+CGE Transmisión S.A. 09-11-2024 25-11-2024
+Compañía General de Electricidad S.A. (CGE) 11-11-2024 13-11-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Colo Colo Ongolmo / C11 Concepción 3.90 0.040 4676 15:29 15:29 15:41
+Total: 3.9 MW 0.040 % 4676
+- Los montos y horarios señalados corresponden a lo informado por la empresa Compañía General de Electricidad S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Colo Colo Ongolmo / C11 CGE Regulado 3.90 0.00 0.20 0.8
+Clientes Regulados : 0.8 MWh
+Clientes Libres : MWh
+Total : 0.8 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Compañía General de Electricidad S.A.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados, debido a que la barra 15 kV de S/E Colo Colo, a la cual se conecta el alimentador
+Ongolmo, siempre estuvo disponible.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 3.12 0.20 15.60
+Último 20 % 0.78 0.20 3.90
+100 % Total 3.90 0.20 19.50
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9797.8 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Colbún (U1), El Toro (U1, U2, U3 y U4), Mejillones (IEM), PFV Diego Almagro Sur y PFV
+Malgarida.
+Estado y configuración previo a la falla
+El interruptor 52C11 de S/E Colo Colo se encontraba previamente en estado abierto, debido a falla en
+redes de media tensión (alimentador Ongolmo).
+Otros antecedentes relevantes
+Según lo informado por la empresa CGE Transmisión S.A.:
+Fenómeno Físico: Falla en sistema de control.
+Elemento: Sistema de Control.
+Fenómeno Eléctrico: -.
+Operación de los interruptores: No cierra cuando se le manda cerrar.
+Observaciones: Se coordina con turno zonal la revisión de protección asociada al paño C11, detectando
+que el equipo se encontraba con su control en modo local, normalizando dicha situación de forma
+inmediata.
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa CGE Transmisión S.A. indica: Relé no está sincronizado con GMT 0, se incorporará la
+sincronización Horaria”.
+c) Acciones correctivas a largo plazo:
+La empresa CGE Transmisión S.A. indica: “No hay”.
+Diagrama simplificado de las instalaciones previo a la falla

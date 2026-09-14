@@ -1,0 +1,210 @@
+Estudio para análisis de falla EAF 573/2024
+“Falla en la línea 2x220 kV Polpaico - El Salto”
+Fecha de Emisión: 31-12-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 09/12/2024
+Hora 15:30
+Consumos desconectados (MW) 60.03
+Demanda previa del sistema (MW) 10771.17
+Porcentaje de desconexión 0.557 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación LT 2x220 kV Polpaico - El Salto / LT001---------T0054
+Tipo de instalación Subestación
+Tensión nominal 220 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Región de Los Lagos
+c. Identificación del elemento fallado
+Nombre del elemento afectado Tramo LT 2x220 kV Polpaico - Tap El Manzano / LT001CI1TR01----T0054 &
+LT001CI2TR01----T0054
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Región de Los Lagos
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de ambos circuitos de la línea 2x220 kV Polpaico - El Salto por
+apertura automática de los interruptores 52J1 de S/E Polpaico (Transelec) y 52J2 de S/E El Salto
+(Circuito Nº2) y de los interruptores 52J5 de S/E Polpaico (Transelec) y 52J1 de S/E El Salto (Circuito
+Nº1), debido a la operación de sus protecciones de distancia residual en zona 1 provocado por un
+incendio cercano a la línea, en el tramo Polpaico - Tap El Manzano, que acortan distancias eléctricas en
+la línea de transmisión.
+d.2 Fenómeno Físico:
+INC1: Incendio bajo una línea o en proximidades de instalaciones.
+La empresa Sociedad Transmisora Metropolitana S.A. remite antecedentes probatorios del fenómeno
+físico declarado, según la Res. Ex. 30989-2019.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico durante los últimos 24 meses móviles, correspondiente al Estudio para Análisis de
+Falla EAF 016-2024.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en línea 110 kV San Sociedad Transmisora Metropolitana II S.A. indica que realizó la reparación del conductor
+EAF 072-2023 13-02-23
+Bernardo - Malloco cortado entre las estructuras N°30 y N°31 de la línea 110 kV San Bernardo - Malloco.
+Sociedad Transmisora Metropolitana S.A. señala lo siguiente: “Una vez que estaban las
+condiciones, este jueves 18 de enero se realizó a caballo una inspección visual de la línea en el
+Falla en la línea 2x220
+EAF 016-2024 14-01-2024 tramo en donde se desarrolló el incendio. Esta inspección permitió constatar que las
+kV Polpaico - El Salto
+instalaciones de la línea no sufrieron daños ni en sus estructuras, ni conductores y aislación. Se
+encontró evidencia de los puntos de descarga en el vano 122 a 123”
+La empresa STM II S.A. indica: “Ocurrida la falla en forma inmediata se coordinó el recorrido de
+la línea el cual solo pudo ser realizado al día siguiente, ya que en el sector personal de Conaf
+Falla en línea 44 kV Lo
+EAF 028-2024 24-01-2024 aun combatía el incendio. Una vez identificada la contaminación de la aislación y las descargas
+Prado - Curacaví N°2
+en desconectador se realizó un curso forzoso para realizar mantenimiento al mismo y cambio
+de aisladores en Torre 25”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido 1 falla en
+la misma instalación afectada durante los últimos 24 meses móviles, correspondiente al Estudio para
+análisis de Falla EAF 016-2024.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al tramo 2x220 kV Polpaico - Tap El Manzano de la
+línea 2x220 kV Polpaico - El Salto. El tramo 2x220 kV Polpaico - Tap Manzano está compuesto por las
+siguientes secciones tramo:
+• Circuito Nº1 de la sección tramo Polpaico - Estructura Nº1, la que posee un largo de 0.432 km,
+conductor AAAC con una capacidad nominal de 811.6 [MVA] (permanente a 25°C con sol y a
+tensión nominal), y cuya fecha de entrada en operación corresponde al año 1991, según lo
+informado por su propietario en la plataforma Infotécnica del Coordinador.
+• Circuito Nº1 de la sección tramo Estructura Nº1 - Tap Manzano, la que posee un largo de 8.012
+km, conductor AAAC con una capacidad nominal de 811.6 [MVA] (permanente a 25°C con sol
+y a tensión nominal), y cuya fecha de entrada en operación corresponde al año 1991, según
+lo informado por su propietario en la plataforma Infotécnica del Coordinador.
+• Circuito Nº2 de la sección tramo Polpaico - Estructura Nº1, la que posee un largo de 0.348 km,
+conductor AAAC con una capacidad nominal de 811.6 [MVA] (permanente a 25°C con sol y a
+tensión nominal), y cuya fecha de entrada en operación corresponde al año 1991, según lo
+informado por su propietario en la plataforma Infotécnica del Coordinador.
+• Circuito Nº2 de la sección tramo Estructura Nº1 - Tap Manzano, la que posee un largo de 8.012
+km, conductor AAAC con una capacidad nominal de 811.6 [MVA] (permanente a 25°C con sol
+y a tensión nominal), y cuya fecha de entrada en operación corresponde al año 1991, según
+lo informado por su propietario en la plataforma Infotécnica del Coordinador.
+Al respecto, la empresa Sociedad Transmisora Metropolitana S.A., adjunta información de los
+mantenimientos de esta instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Enel Distribución Chile S.A. informa que la ubicación de sus consumos afectados es urbana.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+h. Comuna donde se presenta la falla
+13303: Tiltil.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(11-12-2024) (16-12-2024)
+Sociedad Transmisora Metropolitana S.A. (STM) 09-12-2024 16-12-2024
+Enel Green Power Chile S.A. 09-12-2024 23-12-2024
+Enel Distribución Chile S.A. (ENEL) 09-12-2024 16-12-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+PFV El Manzano - 77 15:30 16:40
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 220 kV Polpaico - El Salto ST Zonal Circuito Nº2 15:30 15:45
+S/E Chicureo ST Zonal Barras Nº1 y Nº2 15:30 15:51
+Línea 220 kV Polpaico - El Salto ST Zonal Circuito Nº1 15:30 15:54
+S/E El Manzano ST Zonal Barras Nº3 15:30 15:54
+S/E El Manzano ST Zonal Barras Nº1, Nº2 y Nº4 15:30 15:55
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Chicureo E5 / Damasco NI 6.10 0.057 8685 15:30 15:51 15:51
+Chicureo E4 / Nororiente NI 4.10 0.038 1 15:30 15:51 15:51
+Chicureo E6 / Chamisero NI 4.14 0.038 2572 15:30 15:51 15:51
+Chicureo E3 / Algarrobal NI 4.97 0.046 2546 15:30 15:51 15:51
+Chicureo E1 / Piedra Roja NI 9.20 0.085 5093 15:30 15:51 15:51
+El Manzano E13 / Ovejería NI 9.21 0.086 68 15:30 15:54 15:55
+El Manzano La Dormida NI 2.37 0.022 1400 15:30 15:54 15:55
+El Manzano E6 / El Guindo NI 4.30 0.040 5062 15:30 15:55 15:55
+El Manzano E1 / Huechún NI 4.84 0.045 5570 15:30 15:55 15:55
+El Manzano ET4 / Proacer1 NI 7.10 0.066 1 15:30 15:55 15:55
+El Manzano ET2 / Proacer2 NI 3.70 0.034 1 15:30 15:55 15:55
+Total: 60.03 MW 0 .557 % 30999
+- Los montos y horarios señalados corresponden a lo informado por la empresa Enel Distribución Chile S.A.
+- NI: no informado.
+- De acuerdo con lo indicado por Enel Distribución S.A. en su Informe de Falla:
+• Los alimentadores Damasco y Nororiente se encontraban conectados a la barra 23 kV auxiliar asociado al transformador Nº1 de
+S/E Chicureo.
+• Los alimentadores Chamisero, Algarrobal y Piedra Roja se encontraban conectados a la barra 23 kV principal asociado al
+transformador Nº2 de S/E Chicureo.
+• Los alimentadores El Guindo y Huechún se encontraban conectados a la barra 23 kV principal asociado al transformador Nº1 de
+S/E El Manzano.
+• El alimentador Proacer1 se encontraba conectado a la barra 23 kV principal asociado al transformador Nº2 de S/E El Manzano.
+• Los alimentadores Ovejería y La Dormida se encontraban conectados a la barra 23 kV principal asociado al transformador Nº3
+de S/E El Manzano.
+• El alimentador Proacer2 se encontraba conectado a la barra 23 kV principal asociado al transformador Nº4 de S/E El Manzano.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Chicureo E5 / Damasco ENEL Regulado 6.10 0.35 0.35 2.1
+Chicureo E4 / Nororiente ENEL Regulado* 4.10 0.35 0.35 1.4
+Chicureo E6 / Chamisero ENEL Regulado 4.14 0.35 0.35 1.4
+Chicureo E3 / Algarrobal ENEL Regulado 4.97 0.35 0.35 1.7
+Chicureo E1 / Piedra Roja ENEL Regulado 9.20 0.35 0.35 3.2
+El Manzano E13 / Ovejería ENEL Regulado 9.21 0.40 0.42 3.8
+El Manzano La Dormida ENEL Regulado 2.37 0.40 0.42 1.0
+El Manzano E6 / El Guindo ENEL Regulado 4.30 0.42 0.42 1.8
+El Manzano E1 / Huechún ENEL Regulado 4.84 0.42 0.42 2.0
+El Manzano ET4 / Proacer1 ENEL Regulado* 7.10 0.42 0.42 3.0
+El Manzano ET2 / Proacer2 ENEL Regulado* 3.70 0.42 0.42 1.5
+Clientes Regulados : 22.9 MWh
+Clientes Libres : MWh
+Total : 22.9 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Enel Distribución Chile S.A.
+(*) Se presume que dichos alimentadores abastecen a clientes libres en redes de distribución.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias significativas entre los horarios de recuperación esperada y
+recuperación real para los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 48.02 0.42 115.26
+Último 20 % 12.01 0.42 28.81
+100 % Total 60.03 0.42 144.07
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10771.17 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Colbún (U1 y U2), El Toro (U1, U2, U3 y U4), Mejillones (CTM3), Pehuenche (U1 y U2) y PFV
+Diego Almagro Sur.
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 9 de diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 9 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+9 de diciembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 9 de
+diciembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión afectadas se encontraban en servicio normal en los momentos previos
+a la desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa Sociedad Transmisora Metropolitana S.A.:
+Fenómeno Físico: Incendio bajo una línea o en proximidad de instalaciones (natural o provocado).
+Elemento: Conductores.
+Fenómeno Eléctrico: Distancia Residual.
+Operación de los interruptores: Opera según lo esperado.
+Observaciones: El incendio comenzó 1 a 2 horas antes de la operación automática, a una distancia
+aproximada de 1,6 km. Por causa del incendio y a consecuencia del intenso humo sumado con la
+humedad en el aire producto del combate aéreo del incendio, en el sector de los vanos 23-24 a 28-29 de
+nuestra Línea 2x220 kV Polpaico - El Salto, se produce la operación automática de ambos circuitos. En
+inspección a dicha línea se detecta que debido a incendio existente en el momento de la falla se produjo
+entre el tramo de torres 24-25, posteriormente, cuando se pudo hacer ingreso al sector, se verificaron
+descargas en vano 24-25 fase inferior (C).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso, no obstante, a raíz de una falla previa en las instalaciones afectadas, la empresa STM
+S.A. posee un plan de acción en curso que consiste en implementar un esquema de teleprotección
+durante el año 2025 para efectos de regularizar las exigencias establecidas en la NTSySC.

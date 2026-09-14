@@ -1,0 +1,330 @@
+Estudio para análisis de falla EAF 595/2024
+“Desconexión forzada de la línea 66 kV Victoria - Collipulli”
+Fecha de Emisión: 16/01/2025
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 25/12/2024
+Hora 19:33
+Consumos desconectados (MW) 33.36
+Demanda previa del sistema (MW) 9272.64
+Porcentaje de desconexión 0.360 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Victoria - Collipulli / LT305CI1TR02T0058ST01T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 17, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Transformador de corriente del paño B1 de S/E Angol /
+TC01T0058PA017T0058SE028T0058 (*)
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 17, Las Condes.
+(*) Denominado como: “TC S/E ANGOL BT3” en la plataforma Infotécnica del Coordinador.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52B1 de S/E Victoria, correspondiente a la línea 66
+kV Victoria - Collipulli, junto con la apertura automática del interruptor 52B1 de S/E Angol, por medio
+de la operación de sus protecciones de distancia para fallas a tierra.
+La empresa CGE Transmisión S.A. señala que la operación de las protecciones anteriormente indicadas
+fue a causa de falla en la fase “C” del transformador de corriente asociado al paño B1 de S/E Angol,
+debido presumiblemente a defecto de fábrica en dicho equipo.
+d.2 Fenómeno Físico:
+OPE23: Defecto de fábrica.
+La empresa CGE Transmisión S.A. entrega los siguientes antecedentes probatorios para acreditar el
+fenómeno físico declarado:
+- Registro fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+- Informe de alerta por parte del representante de la marca del equipo donde se reconoce falla
+en el modelo.
+- Recomendaciones del fabricante en relación con la vida útil del equipo.
+- Recomendaciones del fabricante en relación con el mantenimiento del equipo.
+- Año de primera puesta en servicio y años efectivos en operación.
+Sin perjuicio de que se señala que el equipo fallado es de libre mantenimiento, se entiende que no
+aplica para el conjunto alambrado de control y conexionado primario, por lo tanto, se requiere lo
+siguiente:
+- Mantenciones o pruebas de los últimos 24 meses realizadas en el equipo o elemento que
+presenta defecto de fábrica, incluyendo el conjunto alambrado de control y conexionado
+primario.
+- Informe técnico de las posibles causas de la no detección del defecto desde su puesta en
+servicio, durante las mantenciones o pruebas realizadas.
+- Fecha de recepción del Informe de Alerta por parte del representante de la marca del equipo,
+señalando las acciones inmediatas realizadas.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: se ha producido 1 falla en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondientes a los Estudios para Análisis de la Falla de la siguiente tabla:
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+La empresa CGE Transmisión S.A. indica lo siguiente:
+Desconexión forzada “Retiro de Transformador T3 hacia fábrica para revisión interna para
+del transformador N°3 dar con causa raíz y reparación. En la posición del equipo fallado se
+EAF 500-2022 31/12/2022
+154/66 kV de S/E instalará un nuevo transformador durante las últimas semanas del mes
+Fátima de enero.
+Corrección de control por la activación constante de la IN104 y IN105.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 5 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 182-2023, EAF 502-2023, EAF 159-2024, EAF 225-2024 y EAF 330-2024.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al transformador de corriente del paño B1 de S/E
+Angol, el cual, según lo informado por su propietario es de la marca ARTECHE modelo CH-72, con razón
+600/5 y su puesta en servicio fue en el año 2015.
+Por otra parte, la empresa CGE Transmisión S.A. no remite los mantenimientos realizados al paño B1
+de S/E Angol, incluyendo al equipamiento primario y sistemas de control, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Frontel S.A. señala Densidad: “Baja” y “Muy Baja”.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor o Caso Fortuito.
+h. Comuna donde se presenta la falla
+9202: Collipulli.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(27/12/2024) (02/01/2025)
+CGE Transmisión S.A. 25/12/2024 09/01/2025
+Sistema de Transmisión del Sur S.A. (STS) 26/12/2024 06/01/2025
+Hidroangol S.A. 25/12/2024 27/12/2024
+Espinos S.A. 25/12/2024 15/01/2025
+Empresa Eléctrica de la Frontera S.A. (Frontel) 26/12/2024 27/12/2024
+Vientos de Renaico SpA No enviado No enviado
+Empresa de los Ferrocarriles del Estado (EFE) No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) Hora Desc. Hora Norm.
+00:48
+HP Río Picoiquén 1 1.2 19:33
+26/12/2024
+00:48
+HP Río Picoiquén 2 1.2 19:33
+26/12/2024**
+PE La Flor - 14.0* 19:33 19:35*
+00:59
+HP Renaico - 5.4 19:33
+26/12/2024
+01:04
+HP Alto Renaico - 1.1 19:33
+26/12/2024
+Total: 22.9 MW
+- Los montos y las horas indicadas corresponden a lo informado por las empresas Hidroangol SpA y Espinos S.A.
+- (*) Según el registro histórico del sistema SCADA del Coordinador.
+- (**) La unidad N°2 de la central HP Río Picoiquén queda fuera de servicio por bajo caudal.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 66 kV Victoria - Collipulli ST Zonal - 19:33 19:39
+00:16
+S/E Angol ST Zonal Transformador N°3 66/66 kV 19:33
+26/12/2024 *
+- Las horas señaladas corresponden a lo informado por la empresa CGE Transmisión S.A.
+- (*) Transformador permanece energizado en vacío desde la línea 66 kV Nahuelbuta - Angol.
+c. Consumos
+Pérdida de %
+Sub- Alimentador/ Clientes H. H. H.
+Comuna Consumo consumo
+Estación Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+00:16 00:07
+Angol Angol Ciudad / C1 Angol 0.90 0.010 1467 19:33
+26/12/2024 26/12/2024
+00:16 00:00
+Angol Angol - Tijeral / C3 Angol y Renaico 2.73 0.030 656 19:33
+26/12/2024 26/12/2024
+00:16
+Angol Angol - Tijeral / C3 Collipulli 1.00 0.010 715 19:33 20:38
+26/12/2024
+Angol, Collipulli,
+Angol - Los Sauces 00:16 00:16
+Angol Ercilla y Los 2.52 0.030 1587 19:33
+/ E1 26/12/2024 26/12/2024
+Sauces
+Collipulli Ciudad /
+Collipulli Collipulli 6.27 0.070 8451 19:33 19:39 19:40
+C1
+Collipulli Ciudad /
+Collipulli Curacautín 0.00 0.000 4 19:33 19:39 19:52
+C1
+Collipulli Ciudad /
+Collipulli Ercilla 0.32 0.000 650 19:33 19:39 19:38
+C1
+Collipulli Ciudad /
+Collipulli Mulchén 0.11 0.000 178 19:33 19:39 19:49
+C1
+Collipulli Ciudad /
+Collipulli Collipulli 0.18 0.000 2 19:33 19:39 19:39
+C1
+00:16 00:16
+Angol Deuco / C2 Angol 2.51 0.030 4488 19:33
+26/12/2024 26/12/2024
+Los Sauces - Angol y 00:16
+Los Sauces 0.64 0.010 788 19:33 22:33
+Lumaco / E3 Nacimiento 26/12/2024
+Los Sauces - 00:16
+Los Sauces Los Sauces 1.13 0.010 2245 19:33 22:17
+Lumaco / E3 26/12/2024
+Los Sauces - 00:16
+Los Sauces Lumaco 1.78 0.020 4563 19:33 19:49
+Lumaco / E3 26/12/2024
+Los Sauces - 00:16
+Los Sauces Purén 0.00 0.000 12 19:33 23:26
+Lumaco / E3 26/12/2024
+Los Sauces - 00:16
+Los Sauces Tirúa y Traiguén 0.03 0.000 90 19:33 19:52
+Lumaco / E3 26/12/2024
+Bosques - Cautín / 00:16 00:16
+Los Sauces Los Sauces 0.62 0.010 1 19:33
+E2 26/12/2024 26/12/2024
+Los Sauces - Purén 00:16
+Los Sauces Cañete y Tirúa 0.02 0.000 22 19:33 19:47
+/ E1 26/12/2024
+Los Sauces - Purén 00:16
+Los Sauces Contulmo 1.00 0.010 1854 19:33 19:48
+/ E1 26/12/2024
+Los Sauces - Purén 00:16 00:16
+Los Sauces Los Sauces 0.09 0.000 93 19:33
+/ E1 26/12/2024 26/12/2024
+Pérdida de %
+Sub- Alimentador/ Clientes H. H. H.
+Comuna Consumo consumo
+Estación Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Los Sauces - Purén 00:16
+Los Sauces Lumaco 0.03 0.000 34 19:33 19:50
+/ E1 26/12/2024
+Los Sauces - Purén 00:16
+Los Sauces Purén 2.39 0.030 4746 19:33 20:19
+/ E1 26/12/2024
+Nahuelbuta Roblería / C1 Renaico 0.24 0.000 1457 19:33 19:35 21:42
+Campo de Marte / 00:16 00:16
+Deuco Angol 3.95 0.040 5757 19:33
+C2 26/12/2024 26/12/2024
+00:16 00:16
+Deuco Rancagua / C1 Angol 4.80 0.050 7363 19:33
+26/12/2024 26/12/2024
+Renaico
+Paño B3 Collipulli* 0.10 0.000 1 19:33 19:35 19:35
+(FFCC)
+Total: 33.36 MW 0.360 % 47224
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE Transmisión S.A. y Frontel.
+- (*) Comuna correspondiente a la ubicación de la S/E, según lo declarado por el propietario en la plataforma Infotécnica del
+Coordinador.
+3. Estimación de la energía no suministrada
+Pérdida de Tiempo
+Sub- Tipo de Tiempo ENS
+Alimentador/ Paño Empresa Consumo Indispon.
+Estación Cliente Desc. (h) (MWh)
+(MW) (h)
+Angol Angol Ciudad / C1 Frontel Regulado 0.90 4.72 4.57 4.1
+Angol Angol - Tijeral / C3 Frontel Regulado* 2.73 4.72 4.45 12.1
+Angol Angol - Tijeral / C3 Frontel Regulado 1.00 4.72 1.08 1.1
+Angol Angol - Los Sauces / E1 Frontel Regulado* 2.52 4.72 4.72 11.9
+Collipulli Collipulli Ciudad / C1 Frontel Regulado 6.27 0.10 0.12 0.7
+Collipulli Collipulli Ciudad / C1 Frontel Regulado 0.00 0.10 0.32 0.0
+Collipulli Collipulli Ciudad / C1 Frontel Regulado 0.32 0.10 0.08 0.0
+Collipulli Collipulli Ciudad / C1 Frontel Regulado 0.11 0.10 0.27 0.0
+Collipulli Collipulli Ciudad / C1 Frontel Regulado* 0.18 0.10 0.10 0.0
+Angol Deuco / C2 Frontel Regulado* 2.51 4.72 4.72 11.8
+Los Sauces Los Sauces - Lumaco / E3 Frontel Regulado 0.64 4.72 3.00 1.9
+Los Sauces Los Sauces - Lumaco / E3 Frontel Regulado 1.13 4.72 2.73 3.1
+Los Sauces Los Sauces - Lumaco / E3 Frontel Regulado 1.78 4.72 0.27 0.5
+Los Sauces Los Sauces - Lumaco / E3 Frontel Regulado 0.00 4.72 3.88 0.0
+Los Sauces Los Sauces - Lumaco / E3 Frontel Regulado 0.03 4.72 0.32 0.0
+Los Sauces Bosques - Cautín / E2 Frontel Regulado 0.62 4.72 4.72 2.9
+Los Sauces Los Sauces - Purén / E1 Frontel Regulado 0.02 4.72 0.23 0.0
+Los Sauces Los Sauces - Purén / E1 Frontel Regulado 1.00 4.72 0.25 0.3
+Los Sauces Los Sauces - Purén / E1 Frontel Regulado 0.09 4.72 4.72 0.4
+Los Sauces Los Sauces - Purén / E1 Frontel Regulado 0.03 4.72 0.28 0.0
+Los Sauces Los Sauces - Purén / E1 Frontel Regulado 2.39 4.72 0.77 1.8
+Pérdida de Tiempo
+Sub- Tipo de Tiempo ENS
+Alimentador/ Paño Empresa Consumo Indispon.
+Estación Cliente Desc. (h) (MWh)
+(MW) (h)
+Nahuelbuta Roblería / C1 Frontel Regulado 0.24 24.03 2.15 0.5
+Deuco Campo de Marte / C2 Frontel Regulado 3.95 4.72 4.72 18.6
+Deuco Rancagua / C1 Frontel Regulado 4.80 4.72 4.72 22.6
+Renaico
+Paño B3 EFE Libre 0.10 0.03 0.03 0.0
+(FFCC)
+Clientes Regulados : 94.3 MWh
+Clientes Libres : 0.0 MWh
+Total : 94.3 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE Transmisión S.A. y Frontel.
+- (*) Incluye a clientes libres abastecidos desde redes de distribución.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecia que aproximadamente el 78% de los consumos afectados fue recuperado en un tiempo
+menor al esperado.
+• Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 26.69 4.71 5.67
+Último 20 % 6.67 4.71 1.42
+100 % Total 33.36 4.71 7.08
+01:12
+00:00
+22:48
+21:36
+20:24
+19:12
+18:00
+16:48
+15:36
+19:11
+19:35
+0%
+21:41
+19:35
+1%
+19:37
+19:39
+2%
+19:39
+19:39
+3%
+19:39 19:39
+19:40
+19:49
+21% 22%
+00:16 00:16
+00:16 00:16
+19:39 19:47 19:50 19:49 19:48
+19:52
+22% 22% 25% 30% 30%
+Recuperación esperada
+00:16
+19:52
+30%
+00:16
+20:19
+37%
+00:16 00:16
+22:17
+20:38
+40% 44%
+Recuperación real
+00:16
+22:33
+46%
+00:16
+23:25
+46%
+00:16
+00:00
+54%
+00:16
+00:06
+57%
+00:16
+00:15
+57%
+00:16
+00:16
+100%

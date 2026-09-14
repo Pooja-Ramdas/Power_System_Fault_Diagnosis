@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0566-2024",
+  "eaf_num": 566,
+  "year": 2024,
+  "description": "Falla en el cierre del interruptor 52E3 de S/E Santa Rosa (CGE)",
+  "date": "05-12-2024",
+  "time": "14:19",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/12/EAF-566-2024.pdf",
+  "case_id": "CASE-0040",
+  "event_datetime": "2024-12-05T14:19:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0040\\official_diagram.dwg"
+}

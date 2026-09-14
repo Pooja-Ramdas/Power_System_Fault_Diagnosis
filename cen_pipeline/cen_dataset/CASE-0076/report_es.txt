@@ -1,0 +1,159 @@
+Estudio para análisis de falla EAF 530/2024
+“Desconexión forzada de la barra 23 kV de S/E Los Vilos”
+Fecha de Emisión: 22/11/2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 03/11/2024
+Hora 21:26
+Consumos desconectados (MW) 14.00
+Demanda previa del sistema (MW) 9725.48
+Porcentaje de desconexión 0.144 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Los Vilos / SE025T0002
+Tipo de instalación Subestación
+Tensión nominal 220 kV y 23 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Minera Los Pelambres (*)
+RUT 96.790.240-3
+Representante Legal Mauricio Larraín (**)
+Dirección Av. Apoquindo N°4001, Piso 18, Las Condes
+- (*):Si bien en la plataforma Infotécnica del Coordinador la S/E Los Vilos tiene como propietario registrado a la empresa
+Transelec S.A., la barra 23 kV de S/E Los Vilos, correspondiente a la instalación afectada durante el evento, es propiedad de la
+empresa Minera Los Pelambres.
+- (**): Gerente General de la empresa Minera Los Pelambres registrado en la plataforma REUC del Coordinador.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Transformador N°1 220/23 kV de S/E Los Vilos / ET01L0051SE025T0002
+Propietario elemento fallado Minera Los Pelambres
+RUT 96.790.240-3
+Representante Legal Mauricio Larraín (*)
+Dirección Av. Apoquindo N°4001, Piso 18, Las Condes
+- (*): Gerente General de la empresa Minera Los Pelambres registrado en la plataforma REUC del Coordinador.
+d. Origen y causa de la falla
+Aperturas automáticas de los interruptores 52JT1 y 52ET1 de S/E Los Vilos, asociados al
+transformador N°1 220/23 kV, por acción de su relé maestro, y apertura del interruptor 52ET2,
+asociado al transformador N°2 220/23 kV, sin información del sistema de protección o control que
+comandó su apertura, provocando la desconexión forzada de la barra 23 kV de la S/E.
+A la fecha de emisión de este estudio, no se dispone de información respecto del origen y causa de
+falla que provocó las desconexiones forzadas del transformador N°1 220/23 kV y del interruptor
+52ET2 de S/E Los Vilos.
+d.2 Fenómeno Físico:
+OTR2: Origen no determinado. (*).
+(*): Fenómeno Físico declarado en el Informe de Falla de 48 horas de la empresa Minera Los Pelambres.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una falla
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 097-2024).
+d.4 Fenómeno eléctrico
+No informado.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+A la fecha de emisión de este estudio, no se cuenta con antecedentes para determinar cuál fue el
+elemento donde se produjo la falla.
+Al respecto, la empresa Minera Los Pelambres no remitió antecedentes correspondientes a los
+mantenimientos realizados durante los últimos 24 meses a los equipos de su propiedad ubicados en
+la S/E Los Vilos.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+No informado.
+h. Comuna donde se presenta la falla
+04203: Los Vilos.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(05/11/2024) (08/11/2024)
+Minera Los Pelambres 05/11/2024 No recibido
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Los Vilos ST Dedicado Transformador N°1 220/23 kV 21:26 (*)
+Los Vilos Dedicado Transformador N°2 220/23 kV 21:26 22:24
+Los Vilos Dedicado Barra 23 kV 21:26 22:24
+(*): De acuerdo con registros SCADA del Coordinador, a la fecha de emisión de este estudio los interruptores 52JT1 y 52ET1 de
+S/E Los Vilos, asociados al transformador N°1 220/23 kV, se mantienen abiertos.
+c. Consumos
+Sub-Estación Alimentador Comuna Pérdida de % Clientes H. H. H.
+/ Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Minera Los Pelambres - Salamanca 14.00 0.144 1 21:26 22:24 22:24
+Total: 14.00 MW 0.144 % 1
+- Los montos señalados corresponden a lo informado por la empresa Minera Los Pelambres.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Minera Los
+Minera Los Pelambres - Libre 14.00 0.97 0.97 13.5
+Pelambres
+Clientes Regulados : MWh
+Clientes Libres : 13.5 MWh
+Total : MWh
+- Los montos señalados corresponden a lo informado por la empresa Minera Los Pelambres.
+- Curva de recuperación esperada v/s recuperación real.
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+1
+1
+1
+1
+1
+:5
+:4
+:2
+:1
+:5
+:4
+:2
+:1
+:0
+5
+0
+6
+2
+7
+3
+8
+4
+0
+R e c u p e ra c ió n e s p e ra d
+1
+a
+0 0 .0 %
+R e c u p e ra c ió n re a l
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real de los
+consumos afectados.
+• Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 11.20 0.97 11.55
+Último 20 % 2.80 0.97 2.89
+100 % Total 14.00 0.97 14.43
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9725.48 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Colbún (U1 y U2), El Toro (U1, U2, U3 y U4), Pehuenche (U1), PFV Diego de Almagro y PFV
+Malgarida.
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 03 de noviembre de
+2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 03 de noviembre de 2024.

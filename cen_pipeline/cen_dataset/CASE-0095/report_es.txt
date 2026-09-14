@@ -1,0 +1,165 @@
+Estudio para análisis de falla EAF 511/2024
+“Falla en la línea 66 kV San Fernando - Teno”
+Fecha de Emisión: 14-11-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 22/10/2024
+Hora 16:42
+Consumos desconectados (MW) 12.98
+Demanda previa del sistema (MW) 10419.00
+Porcentaje de desconexión 0.125 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV San Fernando - Teno / LT046---------T058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 14, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Tramo Chimbarongo - Tap Quinta de la línea 66 kV San Fernando - Teno /
+LT046CI1TR03----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 14, Las Condes.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52B8 de S/E San Fernando, correspondiente a la
+línea 66 kV San Fernando - Teno, por operación de su protección de distancia residual, ante una falla
+monofásica en la fase B.
+Al respecto, la empresa CGE Transmisión S.A. declara que la causa de la falla fue el acortamiento de
+distancia entre el cable de guarda y el conductor de la fase derecha, entre las estructuras N°129 y
+N°130 del tramo de línea 66 kV Chimbarongo - Tap Quinta, debido a fuertes vientos presentes en la
+zona.
+d.2 Fenómeno Físico:
+OPE18: Disminución de distancia eléctrica.
+La empresa CGE Transmisión S.A. remite antecedentes para acreditar el origen de la falla
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se ha producido una falla en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondiente al Estudio para Análisis de Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea 66 kV
+EAF 056-2024 San Vicente de Tagua 07-02-2024
+La empresa CGE Transmisión S.A. señala lo siguiente: “Se retira el
+Tagua - Las Cabras
+empalme de las proximidades de la línea de alta tensión”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido ocho fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 197-2023, EAF 457-2023, EAF 480-2023, EAF 531-2023, EAF 241-2024, EAF
+369-2024, EAF 448-2024 y EAF 507-2024.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores de la línea 66 kV San Fernando -
+Teno, la cual, de acuerdo con los datos ingresados por la empresa propietaria en la plataforma
+Infotécnica del Coordinador, cuenta con conductores AAAC y Cu 67.4 mm2 con una longitud total de
+aproximadamente 24.58 km, cuya entrada en operación fue en el año 1948.
+Al respecto, la empresa CGE Transmisión S.A. remitió antecedentes respecto de los mantenimientos
+realizados durante los últimos 24 meses a la línea 66 kV San Fernando - Teno.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Cooperativa de Abastecimiento de Energía Eléctrica Curicó Ltda. declara una densidad D1
+muy baja para sus consumos afectados en S/E Quinta.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor o Caso Fortuito.
+La empresa CGE Transmisión S.A. remite los siguientes antecedentes en respaldo a la proposición del
+origen de la falla:
+• Mantenimientos de los últimos 24 meses de la línea 66 kV San Fernando - Teno.
+• Registro Fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+• Causa que genera la disminución de la distancia eléctrica.
+• Informe de interrupción de suministro.
+h. Comuna donde se presenta la falla
+6301: San Fernando.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(24-10-2024) (29-10-2024)
+CGE Transmisión S.A. 22-10-2024 08-11-2024
+Sistema de Transmisión del Sur S.A. (STS) 22-10-2024 29-10-2024
+Compañía General de Electricidad S.A. (CGE) No enviado No enviado
+Cooperativa de Abastecimiento de Energía Eléctrica Curicó Ltda. (CEC) 28-10-2024 28-10-2024
+Empresa de los Ferrocarriles del Estado (EFE) No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 66 kV San Fernando - Teno ST Zonal San Fernando - Chimbarongo 66 kV 16:42 16:47
+03:02
+LT 66 kV San Fernando - Teno ST Zonal Chimbarongo - Tap Quinta 66 kV 16:42
+24/10/2024
+- Las horas señaladas corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Pérdida de %
+Alimentador/ Clientes H. H. H.
+Sub-Estación Comuna Consumo consumo
+Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Teno,
+Quinta Morza / C2 2.50 0.024 1895 16:42 23:34 16:46
+Chimbarongo
+Chimbarongo San Enrique / C1 NI 3.66 (*) 0.035 16:42 16:48 16:48
+Chimbarongo Huemul / C2 NI 2.68 (*) 0.026 11648 (**) 16:42 16:48 16:48
+Chimbarongo Niebla / C3 NI 4.04 (*) 0.039 16:42 16:48 16:48
+Arranque hacia Chimbarongo
+Quinta (FFCC) 0.10 0.001 1 16:42 17:32 17:32
+EFE (***)
+Total: 12.98 MW 0.125 % 13544
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE Transmisión S.A., STS S.A. y CEC Ltda.
+- (*) Montos calculados a partir de las medidas de potencia informadas por CGE Transmisión S.A. en la cabecera de cada alimentador
+de S/E Chimbarongo, y considerando la generación de los PMGD conectados en las redes de distribución, obtenidas del registro de
+la Plataforma de Medidas del Coordinador Eléctrico Nacional.
+- (**) Monto informado por la empresa CGE Transmisión S.A. en su Informe de Falla de 48 horas.
+- (***) Comuna asociada a la ubicación de la subestación, informada por su propietario en la plataforma Infotécnica del Coordinador.
+- NI: No informado.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Quinta Morza / C2 CEC Regulado 2.50 6.87 0.07 0.2
+Chimbarongo San Enrique / C1 CGE Regulado 3.66 0.10 0.10 0.4
+Chimbarongo Huemul / C2 CGE Regulado 2.68 0.10 0.10 0.3
+Chimbarongo Niebla / C3 CGE Regulado 4.04 0.10 0.10 0.4
+Quinta (FFCC) Arranque hacia EFE EFE Libre 0.10 0.83 0.83 0.1
+Clientes Regulados : 1.3 MWh
+Clientes Libres : 0.1 MWh
+Total : 1.4 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE Transmisión S.A., STS S.A. y CEC Ltda.
+- Curva de recuperación esperada v/s recuperación real.
+00:00 23:34
+23:00
+22:00
+21:00
+20:00
+19:00
+18:00 17:32
+16:48 16:48 16:48
+17:00 17:32
+16:00 16:46 16:48 16:48 16:48
+19% 47% 68% 99% 100%
+Recuperación esperada Recuperación real
+Se aprecia que la recuperación real de los consumos afectados fue concretada en un tiempo menor o
+igual al esperado.
+• Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 10.38 0.10 103.84
+Último 20 % 2.60 0.83 3.13
+100 % Total 12.98 0.83 15.64
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10419.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Colbún (U1), El
+Toro (U1, U2, U3 y U4) y Ralco (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 22 de octubre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 22 de octubre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+22 de octubre de 2024.

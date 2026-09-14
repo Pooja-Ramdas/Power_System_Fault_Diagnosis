@@ -1,0 +1,165 @@
+Estudio para análisis de falla EAF 571/2024
+“Falla en la línea 2x220 kV Quillota - El Chacay”
+Fecha de Emisión: 31/12/2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 09/12/2024
+Hora 15:27
+Consumos desconectados (MW) 164.42
+Demanda previa del sistema (MW) 10771.17
+Porcentaje de desconexión 1.520 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 2x220 kV Quillota - El Chacay/ LT002---------T0053
+Tipo de instalación Línea
+Tensión nominal 220 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada MLP Transmisión S.A.
+RUT 77.107.802-8
+Representante Legal Mauricio Larraín
+Dirección Av. Apoquindo N°4001, Piso 18, Las Condes, Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 2x220 kV Quillota - El Chacay/ LT002---------T0053
+Propietario elemento fallado MLP Transmisión S.A.
+RUT 77.107.802-8
+Representante Legal Mauricio Larraín
+Dirección Av. Apoquindo N°4001, Piso 18, Las Condes, Santiago.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 2x220 kV Quillota - El Chacay por operación de las
+protecciones en ambos circuitos, por medio de sus funciones de distancia para fallas a tierra y esquema
+de teleprotección.
+La empresa MLP Transmisión S.A. señala que la falla se debió a descargas eléctricas causadas por la
+ionización del aire, por la densa columna de humo de un incendio de gran magnitud de pastizales y
+arbustos, entre las estructuras N°77 a la N°81 de la línea en cuestión.
+d.2 Fenómeno Físico:
+INC1: Incendio bajo una línea o en proximidades de instalaciones.
+La empresa MLP Transmisión S.A. remite los siguientes antecedentes (probatorios) para acreditar el
+fenómeno físico declarado:
+o Registro fotográfico con fecha y hora.
+o Declaración jurada de los hechos.
+o Mantenimientos realizados en la línea (corte y poda de árboles).
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por un
+fenómeno físico similar, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con un fenómeno físico similar, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una falla
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 205/2024).
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 2x220 kV Quillota - El Chacay, la cual posee
+183 km de largo aproximadamente, con un conductor por fase del tipo AAAC FLINT, con una capacidad
+nominal por circuito de 214 MVA (permanente a 25°C con sol y a tensión nominal) y cuya fecha de
+puesta en servicio fue en el año 1998, según lo informado por su propietario en la plataforma
+Infotécnica del Coordinador.
+La empresa MLP Transmisión S.A. remitió antecedentes respecto de los mantenimientos realizados
+durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Externa.
+h. Comuna donde se presenta la falla
+05702: Catemu.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (11/12/2024) Informe de 5 días (23/12/2024)
+MLP Transmisión S.A. 10/12/2024 16/12/2024
+Minera Los Pelambres 16/12/2024 16/12/2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 2x220 kV Quillota - El Chacay ST Dedicado Quillota - El Chacay 220 kV C1 15:27 16:24
+LT 2x220 kV Quillota - El Chacay ST Dedicado Quillota - El Chacay 220 kV C2 15:27 16:36
+- Los horarios señalados corresponden a lo informado por la empresa MLP Transmisión S.A. y al registro histórico del sistema SCADA
+del Coordinador.
+c. Consumos
+Sub-Estación Alimentador / Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) (**) pre-falla (**) (**)
+Transformador N°1
+Los Piuquenes Salamanca* 53.31 0.490 15:27 16:26 16:26
+220/23 kV
+Transformador N°2
+Los Piuquenes Salamanca* 53.24 0.490 15:27 16:26 16:26
+220/23 kV 1
+Transformador N°3
+Los Piuquenes Salamanca* 50.66 0.470 15:27 16:26 16:26
+220/23 kV
+Mauro S/E Completa Los Vilos* 7.21 0.070 15:27 16:39 16:39
+Total: 164.42 MW 1.520 % 1
+- (*) Comuna correspondiente a la ubicación de la subestación, según lo informado por su propietario en la plataforma Infotécnica
+del Coordinador.
+- (**) Los montos y horarios señalados fueron obtenidos del registro histórico del sistema SCADA del Coordinador. Al respecto,
+Minera Los Pelambres informa un monto total de 173 MW medidos en los paños J7 y J8 de S/E Quillota.
+3. Estimación de la energía no suministrada
+Pérdida de Tiempo Tiempo
+Tipo de ENS
+Sub-Estación Alimentador / Paño Empresa Consumo (MW) Indisp. (h) Desc. (h)
+Cliente (MWh)
+(*)
+Transformador N°1 Minera Los
+Los Piuquenes Libre 53.31 0.98 0.98 52.4
+220/23 kV Pelambres
+Transformador N°2 Minera Los
+Los Piuquenes Libre 53.24 0.98 0.98 52.4
+220/23 kV Pelambres
+Transformador N°3 Minera Los
+Los Piuquenes Libre 50.66 0.98 0.98 49.8
+220/23 kV Pelambres
+Minera Los
+Mauro S/E Completa Libre 7.21 1.20 1.20 8.7
+Pelambres
+Clientes Regulados : MWh
+Clientes Libres : 163.3 MWh
+Total : 163.3 MWh
+(*) Los montos señalados fueron obtenidos del registro histórico del sistema SCADA del Coordinador. Al respecto, Minera Los
+Pelambres informa un monto total de 173 MW medidos en los paños J7 y J8 de S/E Quillota.
+- Curva de recuperación esperada v/s recuperación real.
+No se observan diferencias entre el horario de recuperación real respecto del horario de
+disponibilidad de las barras primarias respectivas para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia Tiempo Velocidad de
+(MW) recuperación (h) recuperación
+(MW/h)
+Primer 80 % 131.54 0.98 133.77
+Último 20 % 32.88 1.20 27.40
+100 % Total 164.42 1.20 137.02
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10771.17 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Colbún (U1), Colbún
+(U2), El Toro (U1), El Toro (U2), El Toro (U3), El Toro (U4), Mejillones (CTM3), Pehuenche (U1),
+Pehuenche (U2) y PFV Diego de Almagro Sur.
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 09 de diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 09 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+09 de diciembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 09 de
+diciembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con la siguiente particularidad:
+• La S/E Tap Off Mauro se encontraba conectada al circuito N°1 de la línea 2x220 kV Quillota -
+El Chacay, a través del paño JL1 de dicha S/E.
+Otros antecedentes relevantes
+Según lo informado por MLP Transmisión S.A.
+“El lunes 09 de diciembre de 2024 a las 15:27 horas, se produjo la desconexión forzada de los paños
+J7 y J8 220 kV de la S/E Quillota, asociada a los circuitos 1 y 2 respectivamente de la línea Quillota -
+El Chacay 220 kV, los cuales son de propiedad de Minera Los Pelambres, pero operados por Transelec.
+Lo anterior, debido a fallas monofásicas en los circuitos 1 y 2, provocadas por incendios en las cercanías
+de la línea.”
+Según lo informado por Minera Los Pelambres.
+“Falla en la línea se asocia directamente a incendio en el sector de Catemu y que corresponde al sector
+reportado como punto de falla por las Protecciones de Quillota.”
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+o La empresa MLP Transmisión S.A. indica:
+“No Aplica. El comportamiento de las instalaciones de MLP transmisión S.A. fue correcto”.

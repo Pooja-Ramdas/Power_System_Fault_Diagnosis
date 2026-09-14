@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0589-2024",
+  "eaf_num": 589,
+  "year": 2024,
+  "description": "Falla en la línea 110 kV Tap Off Barriles – Mantos de la Luna",
+  "date": "20-12-2024",
+  "time": "12:39",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2025/01/EAF-589-2024.pdf",
+  "case_id": "CASE-0016",
+  "event_datetime": "2024-12-20T12:39:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_path": null
+}

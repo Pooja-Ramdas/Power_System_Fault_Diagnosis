@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0538-2024",
+  "eaf_num": 538,
+  "year": 2024,
+  "description": "Falla en la línea 66 kV Charrúa – Cabrero",
+  "date": "07-11-2024",
+  "time": "22:03",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/EAF-538-2024.pdf",
+  "case_id": "CASE-0068",
+  "event_datetime": "2024-11-07T22:03:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0068\\official_diagram.zip"
+}

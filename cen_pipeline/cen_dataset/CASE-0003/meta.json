@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0601-2024",
+  "eaf_num": 601,
+  "year": 2024,
+  "description": "Desconexión forzada de la línea 66 kV Central Laguna Verde – Litoral Central Nº1",
+  "date": "28-12-2024",
+  "time": "15:16",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2025/01/EAF-601-2024-V2.pdf",
+  "case_id": "CASE-0003",
+  "event_datetime": "2024-12-28T15:16:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "synthetic_fallback",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": null
+}

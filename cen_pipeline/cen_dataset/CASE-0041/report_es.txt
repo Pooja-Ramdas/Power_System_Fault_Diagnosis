@@ -1,0 +1,306 @@
+Estudio para análisis de falla EAF 565/2024
+“Desconexión forzada de la línea 110 kV Galleguillos - Caldera”
+Fecha de Emisión: 27-12-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 05/12/2024
+Hora 11:13
+Consumos desconectados (MW) 6.49
+Demanda previa del sistema (MW) 10814
+Porcentaje de desconexión 0.060 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Galleguillos - Caldera / LT200CI1TR02----T0058 (*)
+Tipo de instalación Línea de transmisión
+Tensión nominal 110 kV
+Segmento Transmisión zonal
+Propietario instalación fallada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Avenida Presidente Riesco 5561, piso 14, Las Condes
+(*) Nemotécnico corresponde al tramo 110 kV Tap Impulsión - Caldera.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Estructura N°127 de la línea 110 kV Galleguillos - Caldera / LT200CI1TR02--
+--T0058 (*)
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Avenida Presidente Riesco 5561, piso 14, Las Condes
+(*) Nemotécnico corresponde al tramo 110 kV Tap Impulsión - Caldera.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 110 kV Galleguillos - Caldera por operación de la
+protección direccional de sobrecorriente residual (67N) del paño H3 de S/E Galleguillos.
+La causa de la desconexión forzada se debió al acortamiento de la distancia eléctrica entre la fase B y
+la estructura N°127 de la línea Galleguillos - Caldera, durante trabajos programados a potencial de
+reparación de hebras cortadas.
+d.2 Fenómeno Físico:
+OPE1: Trabajos en instalaciones.
+Al respecto, la empresa CGE Transmisión S.A. remitió los siguientes antecedentes en respaldo al
+fenómeno físico declarado:
+• Copias de la solicitud y autorización de la actividad específica que se realizaba al momento de
+producirse la falla.
+• Informe técnico específico de la falla emitido por el responsable, con detalle pormenorizado
+del hecho que provoca la falla.
+• Registros de las protecciones asociadas a la falla.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+CGE Transmisión S.A. señala:
+Apertura intempestiva
+“Con fecha del 23-12-2022 se normalizó la hora del control del
+EAF 457-2022 del interruptor 52C2 de 11/12/2022
+reconectador 52C2. Además, la cadena de remate con descarga queda
+S/E San Carlos
+reemplazada por otra nueva”.
+Desconexión forzada
+La empresa CGE Transmisión S.A. señala: “Se realiza normalización
+EAF 478-2022 del transformador N°2 18/12/2022
+de equipo dañado bajo la SD N°2022116553”.
+66/23 kV de S/E Pucón
+La empresa CGE Transmisión S.A. indica: “No se observaron hebras
+cortadas en el conductor. No obstante, se programó la instalación de
+Falla en línea 66 kV Las
+EAF 043-2023 01/02/2023 preformadas de reparación en los puntos donde se produjo la descarga
+Arañas - El Peumo
+eléctrica. La intervención con líneas energizadas ya se realizó
+exitosamente el 08 de febrero 2023 bajo la solicitud N°2023009210”.
+La empresa CGE Transmisión S.A. indica:
+Falla en la línea 66 kV
+EAF 073-2023 14/02/2023 - “Suspensión del lavado".
+Punitaqui - El Sauce
+- "Reprogramación del lavado con desconexión de la LT 66 kV”.
+Falla en línea 2x66 kV
+La empresa CGE Transmisión S.A. indica: “Revisión del procedimiento
+EAF 110-2023 Talcahuano - Latorre 07/03/2023
+de trabajo de lavado de aislación”.
+N°2
+La empresa CGE Transmisión S.A. señala que:
+“Se suspenden las faenas de tala de los árboles entre las estructuras
+N°104 y N°105 de la línea LT 66KV Tomé - Mahns en forma
+Falla en línea 66 kV
+EAF 115-2023 08/03/2023 momentánea durante la investigación de los hechos y las medidas de
+Concepción - Mahns
+mejora. Por lo cual se realiza la revisión y mejora de procedimientos
+de trabajo con los proveedores para evitar la repetición de estos
+hechos”.
+La empresa CGE Transmisión S.A. señala lo siguiente:
+- “Se implementará una protección mecánica provisoria en la zona
+Desconexión forzada de los termómetros de los transformadores, que se usará durante
+del transformador las faenas, para prevenir operación al realizar movimientos o en
+EAF 173-2023 16/04/2023
+66/15 kV N°1 de S/E los desplazamientos”.
+Chiguayante - “Al inicio de las faenas en las cercanías de transformadores en
+servicio, se pondrá énfasis en el cumplimiento de los protocolos
+para delimitación de los lugres de trabajos en las subestaciones”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica las siguientes acciones
+correctivas de corto plazo:
+“Se ejecutará una revisión y pruebas en terreno y desde SCADA de
+órdenes y estados la unidad de control ABB RER615 asociada al
+Apertura intempestiva
+alimentador C1 Freire, con la finalidad de detectar cualquier eventual
+EAF 174-2023 del interruptor 52C1 de 17/04/2023
+error por este evento en cuestión. La revisión se enfocará en órdenes
+S/E Lautaro
+y estados de Apertura/Cierre, Habilitación y Bloqueo de residual,
+Bloqueo y habilitación de reconexión, visualización de señales
+analógicas, y el cambio del grupo de ajustes. Estos trabajos se
+realizarán a través de la SD N°2023039426 el 09/05/2023”.
+Apertura intempestiva
+La empresa CGE Transmisión S.A. indica: “No se consideran acciones
+EAF 222-2023 del interruptor 52CT2 23/05/2023
+correctivas de corto ni largo plazo”.
+de S/E Alameda
+La empresa CGE Transmisión S.A. señala que:
+Desconexión forzada
+“Debido a la operación, por error en la identificación de los blocks de
+del transformador N°2
+EAF 280-2023 24/06/2023 prueba de los paños BT1 y BT2 en planos elementales de corriente
+66/13.8 kV de S/E
+alterna, estos se modificarán a la brevedad, y se cambiara la
+Pukará
+identificación físicamente (mes de julio)”.
+La empresa CGE Transmisión S.A. indica: “Se determina por medio de
+Falla en sistema de la revisión realizada, que el problema se generó por falla del puerto
+EAF 342-2023 control del paño 52C3 11/08/2023 N°1 del equipo CISCO de la Sala TI en oficina de San Fernando, se
+de S/E Rosario logra levantar de manera provisoria con el enlace de telefónica y al
+final realizar el cambio del puerto N°1 al puerto N°2 del equipo Cisco”.
+La empresa CGE Transmisión S.A. indica: “Se determina por medio de
+Falla en sistema de la revisión realizada, que el problema se generó por falla del puerto
+EAF 343-2023 control del paño C2 de 11/08/2023 N°1 del equipo CISCO de la Sala TI en oficina de San Fernando, se
+S/E Rengo logra levantar de manera provisoria con el enlace de telefónica y al
+final realizar el cambio del puerto N°1 al puerto N°2 del equipo Cisco”.
+Falla en línea 66 kV
+EAF 403-2023 12/09/2023 No se indican.
+Cauquenes - La Vega
+La empresa CGE Transmisión S.A. señala que “se realizó inspección
+Apertura del
+visual al estado de los conductores del alimentador E4 23 kV para
+EAF 419-2023 interruptor 52E4 de SE 27/09/2023
+descartar algún daño ocasionado por el cortocircuito descartando esta
+Hernán Fuentes
+situación.”
+Apertura intempestiva
+de los interruptores
+EAF 521-2023 03/12/2023 La empresa CGE Trasmisión S.A. indica que “No aplica”.
+52BT1 y 52BT2 de S/E
+Cachapoal
+La empresa CGE Transmisión S.A. indica: “El día jueves 15 de febrero
+Apertura intempestiva 2024 de dejó la función SEF inhabilitada en el grupo de protección
+EAF 037-2024 del interruptor 52C2 de 30/01/2024 activo, de modo que, si es requerido, la habilitación se podrá realizar
+S/E Hualañé solamente en forma presencial con un computador conectado a la
+puerta de comunicación del control”.
+Falla en la línea 66 kV
+La empresa CGE Transmisión S.A. señala: “Reemplazo de aislación E-
+EAF 067-2024 Loma Colorada - 10/02/2024
+93 y limpieza manual de aislación estructura aledañas”.
+Escuadrón
+CGE Transmisión S.A. señala que “se revisa procedimiento enviado por
+Apertura intempestiva
+EATON y se modifica indicando que el cable de control sólo puede
+EAF 110-2024 del interruptor 52C5 de 19/03/2024
+insertarse con el control Form 6 apagado, para evitar así la
+S/E Bajo Melipilla
+polarización indeseada de uno de los contactos de apertura o cierre.”
+Desconexión forzada
+EAF 166-2024 de la barra Nº3 66 kV 19/04/2024 La empresa CGE Trasmisión S.A. indica que “No aplica”.
+de S/E Curicó
+Desconexión forzada
+del transformador N°1
+EAF 306-2024 14/07/2024 No se indican.
+66/15 kV de S/E San
+Miguel
+CGE Transmisión S.A. indica:
+“Se analizan eventos: se suspenden los trabajos de Proyecto
+Desconexión forzada
+Ampliación NUP1540; se revisa alambrado de control y posteriormente
+EAF 454-2024 de la línea 66 kV Ovalle 28/08/2024
+análisis causa raíz; se implementan medidas de control para evitar
+- Combarbalá
+otro evento: Reunión CGET-TRANSELEC-FERROVIAL- CyD; bloqueo de
+las protecciones 86”.
+CGE Transmisión S.A. indica:
+Falla en línea 66 kV
+EAF 497-2024 03/10/2024 “Suspensión de la actividad de lavado de línea. Inspección con Drone
+Ovalle - Punitaqui
+para determinar causa raíz.”
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica lo siguiente:
+“Se solicita a la empresa proveedora, ejecutante de lavado aislación,
+el desarrollar un reciclaje de la técnica correcta de lavado indicada en
+instructivo.
+En inspección externa a la S/E Tap Off La Negra se detecta la ejecución
+Desconexión forzada
+de trabajos realizados por terceros, en sitios aledaños, los cuales
+EAF 553-2024 de la línea 110 kV 22/11/2024
+involucraron y continuarán generando movimiento de tierra en el
+Liqcau - Alto Norte
+sector, aumentando el grado de contaminación de las instalaciones.
+Por lo anterior se establece mantener la rigurosidad con la periodicidad
+actual de lavado de aislación, la cual es cada 2 meses, para disminuir
+la posibilidad de ocurrencia de eventos, de acuerdo con la experiencia
+rescatada.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+La instalación donde se produjo la falla corresponde a la línea 110 kV Galleguillos - Caldera,
+específicamente en la estructura N°127, ubicada en el tramo 110 kV Tap Impulsión - Caldera. A
+continuación, se indican las características del tramo donde se produjo la falla de acuerdo con lo
+indicado en el aplicativo Infotécnica por su propietario:
+• Longitud del conductor: 54.8 km
+• Temperatura de diseño del conductor en régimen permanente: 75°C
+• Límite térmico permanente en verano con sol 25°C: 0.381 kA
+• Límite térmico permanente en invierno con sol 15°C: 0.434 kA
+• Sección del conductor: 125.08 mm2
+• Tipo de conductor: AAAC
+• Número de conductores por fase: 1
+• Fecha de entrada en operación: 17/02/2014
+La empresa CGE Transmisión S.A no remitió los mantenimientos realizados a la línea 110 kV
+Galleguillos - Caldera durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Compañía General de Electricidad S.A. indica “rural” para el caso de los alimentadores de
+S/E Caldera afectados por la falla.
+g. Proposición del propietario respecto del origen de la falla
+La empresa CGE Transmisión S.A. indica: interna.
+h. Comuna donde se presenta la falla
+03102: Caldera
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(07-12-2024) (12-12-2024)
+CGE Transmisión S.A. (CGET) 05-12-2024 20-12-2024
+Compañía General de Electricidad S.A. (CGE) 05-12-2024 12-12-2024
+Empresa Concesionaria de Servicios Sanitarios S.A. (ECONSSA) 05-12-2024 No remitido
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 110 kV Galleguillos - Caldera ST Zonal - 11:13 11:42
+- Las horas indicadas corresponden a lo indicado por la empresa CGE Transmisión S.A.
+c. Consumos
+Sub- Alimentador / Paño Comuna Pérdida de % Clientes H. H. H.
+Estación Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Caldera Rodillo / E1 Caldera 2.89 0.027 5831 11:13 11:42 11:42
+Caldera Bahía Inglesa / E2 Caldera 1.50 0.014 4127 11:13 11:42 11:42
+Caldera Desierto Florido / E4 Caldera 0.10 0.001 14 11:13 11:42 11:42
+Caldera Transformador N°2 / ET2 NI 2.00 0.018 1 11:13 11:42 11:42
+Total: 6.49 MW 0.060 % 9973
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A. y ECONSSA.
+- NI: No informado.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador / Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Caldera Rodillo / E1 CGE Regulado 2.89 0.48 0.48 1.4
+Caldera Bahía Inglesa / E2 CGE Regulado 1.50 0.48 0.48 0.7
+Caldera Desierto Florido / E4 CGE Regulado 0.10 0.48 0.48 0.0
+Caldera Transformador N°2 / ET2 ECONSSA Libre 2.00 0.48 0.48 1.0
+Clientes Regulados : 2.1 MWh
+Clientes Libres : 1.0 MWh
+Total : 3.1 MWh
+- Los montos señalados corresponden a lo informado por las empresas CGE S.A. y ECONSSA.
+- Curva de recuperación esperada v/s recuperación real.
+12:43
+12:28
+12:14
+12:00
+11:45
+11:31
+11:16
+11:02
+10:48
+10:33
+10:19
+44.5% 67.6% 69.2% 100.0%
+Recuperación real Recuperación esperada
+No se observan diferencias entre los horarios recuperación real respecto de los horarios de
+disponibilidad de las barras primarias respectivas para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Tiempo recuperación Velocidad de recuperación
+Rango Potencia (MW)
+(h) (MW/h)
+Primer 80 % 5.19 0.48 10.81
+Último 20 % 1.30 0.48 2.71
+100 % Total 6.49 0.48 13.52
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10814 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Canutillar (U1), El Toro (U1, U2, U3 y U4), Mejillones (IEM), PFV Diego Almagro Sur y Rapel
+(U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 05 de diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 05 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+05 de diciembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 05 de
+diciembre de 2024.

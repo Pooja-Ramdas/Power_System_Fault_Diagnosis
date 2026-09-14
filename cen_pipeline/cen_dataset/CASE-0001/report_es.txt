@@ -1,0 +1,103 @@
+Estudio para análisis de falla EAF 603/2024
+“Falla en la línea 66 kV Victoria - Collipulli”
+Fecha de Emisión: 21/01/2025
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 30/12/2024
+Hora 16:52
+Consumos desconectados (MW) 29.92
+Demanda previa del sistema (MW) 11482
+Porcentaje de desconexión 0.261 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Victoria - Collipulli / LT305CI1TR02----T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 17, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 66 kV Victoria - Collipulli / LT305CI1TR02----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 17, Las Condes.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52B1 de S/E Victoria, asociado a la línea 66 kV
+Victoria - Collipulli, debido a la caída de un árbol ubicado fuera de la franja de seguridad sobre los
+conductores entre las estructuras N°165 y N°166.
+d.2 Fenómeno Físico:
+ARB2: Caída de árbol sobre la línea o instalación.
+La empresa CGE Transmisión S.A. entrega los siguientes antecedentes probatorios para acreditar el
+fenómeno físico declarado:
+- Registro fotográfico con fecha, hora y coordenadas UTM del punto de falla. (*)
+- Distancia entre la línea y los árboles del sector donde se produce el contacto con los
+conductores (Croquis Probatorio ARB2 IF-2024005659.pptx).
+- Podas y mantenciones realizadas (24 meses móvil) en la zona específica donde se produce el
+contacto con los conductores.
+(*) La empresa menciona un documento llamado “Anexo V – Informe de Contratista” en donde viene el registro fotográfico. Sin
+embargo, dicho documento no se encuentra en la información enviada por la empresa.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico durante los últimos 24 meses móviles, correspondiente a los Estudios para Análisis de
+Falla EAF 248-2023, EAF 502-2023, EAF 551-2023 y EAF 336-2024.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondientes a los Estudios para Análisis de la Falla de la siguiente tabla:
+FALLA-ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en línea 66 kV
+EAF 010-
+Curanilahue - Tres 06-01-2023 CGE Transmisión S.A. señala que se realizó la reparación de la línea.
+2023
+Pinos
+Falla en línea 66 kV
+EAF 035-
+Los Peumos - 30-01-2023 La empresa CGE Transmisión S.A. señala que “No aplica”.
+2023
+Curacautín
+EAF 153- Falla en la línea 33 kV La empresa CGE Transmisión S.A. señala que “No se consideran
+03-04-2023
+2023 Hualte - Quirihue acciones correctivas”.
+EAF 186- Falla en la línea 33 kV La empresa CGE Transmisión S.A. señala que “No se consideran
+28-04-2023
+2023 Hualte - Quirihue acciones correctivas”.
+Falla en la línea 66 kV
+EAF 247-
+Los Peumos - 08-06-2023 La empresa CGE Transmisión S.A. señala: “No aplica”.
+2023
+Curacautín
+EAF 248- Falla en la línea 66 kV
+08-06-2023 La empresa CGE Transmisión S.A. señala: “No aplica”.
+2023 Victoria - Collipulli
+Falla en la línea 66 kV
+EAF 282- La empresa CGE Transmisión S.A. señala que “No se consideran
+Los Peumos - 24-06-2023
+2023 acciones correctivas”.
+Curacautín
+La empresa CGE Transmisión S.A. señala que: “Se realizó tala de
+EAF 286- Falla en línea 66 kV
+28-06-2023 árboles entre las estructuras N°66 y N°67 de la línea LT 66 kV Penco-
+2023 Concepción - Mahns
+Tomé en predio de Forestal Arauco”.
+Falla en la línea 66 kV
+EAF 306- La empresa CGE Transmisión S.A. señala que “No se consideran
+Los Peumos - 20-07-2023
+2023 acciones correctivas”.
+Curacautín
+Desconexión forzada
+EAF 324-
+de la línea 66 kV Los 31-07-2023 La empresa CGE Transmisión S.A. señala que “No aplica”.
+2023
+Maquis - Hualañé
+Falla en línea 66 kV
+EAF 357- La empresa CGE Transmisión S.A. señala que “no se consideran
+Los Peumos - 20-08-2023
+2023 acciones correctivas”.
+Curacautín
+Falla en línea 66 kV
+EAF 399-
+Los Peumos - 09-09-2023 La empresa CGE Transmisión S.A. señala que “No aplica”.
+2023
+Curacautín

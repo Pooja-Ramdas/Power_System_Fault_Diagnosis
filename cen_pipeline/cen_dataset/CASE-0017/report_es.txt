@@ -1,0 +1,164 @@
+Estudio para análisis de falla EAF 588/2024
+“Falla en línea 66 kV Illapel - Combarbalá”
+Fecha de Emisión: 14-01-2025
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 20/12/2024
+Hora 10:05
+Consumos desconectados (MW) 7.59
+Demanda previa del sistema (MW) 11056
+Porcentaje de desconexión 0.070 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea Illapel - Combarbalá 66 kV / LT292CI1TR05----T0058 (nemotécnico
+corresponde al tramo 66 kV Tap El Espino - Illapel)
+Tipo de instalación Línea de transmisión
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación fallada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 Piso 14, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea Illapel - Combarbalá 66 kV / LT292CI1TR05----T0058 (nemotécnico
+corresponde al tramo 66 kV Tap El Espino - Illapel)
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 Piso 14, Las Condes
+d.1 Origen y causa de la falla
+Se produjo una falla monofásica en la fase A de la línea 66 kV Illapel - Combarbalá despejada a través
+de la función de distancia (21/21N) desde su extremo Illapel.
+La causa de la desconexión forzada, de acuerdo con lo indicado por la empresa CGE Transmisión S.A.,
+se debió al corte de un puente en la estructura N°261 de la mencionada línea.
+d.2 Fenómeno Físico:
+OPE10: Falla de material, por fatiga, corrosión, trizadura, etc.
+Al respecto, la empresa CGE Transmisión S.A. remitió los antecedentes en respaldo al fenómeno físico
+declarado.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS_CP ACCIONES_CORRECTIVAS_LP
+La empresa CGE Transmisión S.A. señala que se
+Falla en el realizó reemplazo del reconectador del paño C3
+La empresa CGE Transmisión S.A. señala que no
+EAF 023/2023 interruptor 52C3 de 19/01/2023 Romeral por un nuevo reconectador Cooper
+aplica realizar acciones correctivas a largo plazo.
+S/E Rauquén Power Systems modelo NOVA y control Form6.
+Este reemplazo finalizó el 26 de enero de 2023.
+Falla en la línea 66
+EAF 069/2023 kV Parral - 13/02/2023 No se indica. No se indican.
+Cauquenes
+La empresa CGE Transmisión S.A. indica que
+realizará “revisión de la aislación de las fases La empresa CGE Transmisión S.A. indica lo siguiente:
+aledañas en la estructura E598, dentro del mes “Revisión de la aislación en la línea LT Tres Pinos-Lebu
+de febrero de 2024”. en los próximos 3 meses del 2024.”.
+La empresa Frontel S.A. no indica acciones La empresa Frontel S.A. no indica acciones
+correctivas. correctivas.
+Falla en línea 66 kV La empresa Parque Eólico Lebu-Toro SpA indica La empresa Parque Eólico Lebu-Toro SpA indica lo
+EAF 023/2024 20/01/2024
+Tres Pinos - Lebu lo siguiente: “Las protecciones de PEL, en caso siguiente: “Las protecciones de PEL, en caso de tener
+de tener algún comportamiento inadecuado, algún comportamiento inadecuado, serán revisadas
+serán revisadas por la empresa H. Briones, por la empresa H. Briones, quienes son expertos en el
+quienes son expertos en el manejo de estos manejo de estos equipos. De ser necesario, ante un
+equipos. De ser necesario, ante un comportamiento inadecuado, se realizaría una nueva
+comportamiento inadecuado, se realizaría una configuración”.
+nueva configuración”.
+La empresa CGE Transmisión S.A. señala que “se
+Falla en línea 66 kV La empresa CGE Transmisión S.A. señala que “no
+EAF 066/2024 09/02/2024 procedió a reparar la línea con conductor
+Parral - Cauquenes aplica”.
+cortado”.
+La empresa CGE Transmisión S.A. señala lo
+Falla en el cierre La empresa CGE Transmisión S.A. ejecutó labores de
+siguiente: “Actividades de Verificación de
+del interruptor mantenimiento preventivo al interruptor 52E5 de S/E
+EAF 195/2024 07/05/2024 interruptor, revisión y reparación de
+52E5 de S/E Mariscal, de acuerdo con la solicitud de desconexión
+enclavamiento mecánico, realizadas el 07-05-
+Mariscal N°2024047770.
+2024”.
+La empresa CGE Transmisión S.A. indica:
+“Revisión con dron de la línea de transmisión
+afectada, estructuras y cable de guardia, se
+pronostica su ejecución para los últimos días de junio
+La empresa CGE Transmisión S.A. indica: de 2024.
+Falla en la línea 110 “Retiro de tramo de cable de guardia dañado, Reparación de tierra de protección de fibra óptica,
+EAF 212/2024 kV La Estrella - 13/05/2024 realizado el día 13/05/2024. reparación de puesta tierra aislación de estructura
+Quelentaro Reparación de conductor de fase con hebras N°8, y revisión de preformada de reparación
+dañadas, realizado el día 13/05/2024”. estructura N°9, se pronostica su ejecución para los
+últimos días de junio de 2024.
+Lavado de estructuras de la línea de transmisión
+afectada, tramo cable de guardia, se pronostica su
+ejecución para los últimos días de julio de 2024”.
+La empresa CGE Transmisión S.A. indica:
+Desconexión
+“Con fecha 17-05-2024 se efectúa el reemplazo La empresa CGE Transmisión S.A. no indica acciones
+EAF 217/2024 forzada de los 17/05/2024
+del aislador de apoyo dañado y de los otros dos correctivas a largo plazo.
+transformadores
+como medida preventiva.”
+N°2 y N°3 66/23 kV
+de S/E Tres Pinos
+La empresa CGE Transmisión S.A. indica lo
+siguiente:
+“Se transfieren los consumos parciales de S/E La empresa CGE Transmisión S.A. indica lo siguiente:
+Falla en la línea 66 Marquesa a S/E Vicuña. “A la espera de informe del estado del conductor,
+EAF 227/2024 kV Pan de Azúcar - 28/05/2024 Se realiza reparación de conductor cortado, para el cual se planifica respuesta para el 30 de junio
+Marquesa vano entre estructuras N°18 y N°19. de 2024.”
+Se enviará a análisis un trozo de conductor
+afectado para determinar acciones posteriores
+en junio de 2024.”
+CGE Transmisión S.A. indica lo siguiente:
+Falla en cierre de
+“Se repara riel guía dañado equipo 52C14.
+EAF 272/2024 interruptor 52C14 17/06/2024 No se indican.
+Mayores detalles se pueden encontrar en Anexo
+de S/E Quiani
+Probatorios”.
+La empresa CGE Transmisión S.A. indica: “Se
+Falla en el cierre de solicitará el paño C5 para efectuar mediciones
+EAF 408/2024 interruptor 52C5 de 04/08/2024 No se indican. eléctricas y verificación de operación mecánica, a
+S/E Coronel realizarse como máximo al 30 de septiembre de
+2024”.
+La empresa CGE Transmisión S.A. indica:
+“Circuito 52E3 queda abierto con consumos
+Falla en pararrayos
+transferidos a S/E Marquesa. Se realiza retiro de La empresa CGE Transmisión S.A. indica: “Programar
+EAF 433/2024 del paño E3 de S/E 19/08/2024
+los puentes de pararrayos de las 3 fases para reemplazo de pararrayos. Fecha límite 20-12-2024”.
+Vicuña
+energizar cabecera (ejecutado el 20-08-2024).
+Mayores detalles en informe adjunto”
+La empresa CGE Transmisión S.A. indica:
+Falla en línea 66 kV “Se realiza el reemplazo del perno quebrado de
+EAF 504/2024 Alonso de Ribera - 12/10/2024 la estructura E12 de la línea LT Alonso de Ribera- No se indican.
+Chiguayante Chiguayante y luego se normaliza la estructura
+E12”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada durante los últimos 24 meses móviles (EAF 030/2023, EAF 134/2023 y
+EAF 578/2024)
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la falla corresponde al conductor de la fase A de la línea 66 kV Illapel -
+Combarbalá, específicamente en su tramo 66 kV Illapel - Tap El Espino, el cual, de acuerdo con lo
+declarado por su propietario en la plataforma Infotécnica del Coordinador, posee las siguientes
+características:
+Característica Est. 261 - Illapel 66 kV C1 Est. 239 - Est. 261 66 kV C1 Tap El Espino - Est. 239 66 kV C1
+Largo [km] 2.28 5.26 28.39
+Límite térmico permanente en
+0.25 0.249 0.24
+verano con sol 25°C [kA]
+Sección del conductor [mm2] 33.67 33.67 33.67
+Tipo de conductor Cobre desnudo Cobre desnudo Cobre desnudo
+La empresa CGE Transmisión S.A. adjunta información de los mantenimientos realizados a la línea 66
+kV Illapel - Combarbalá, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Compañía General de Electricidad S.A. indica “rural” para todos sus alimentadores
+afectados por la falla.
+g. Proposición del propietario respecto del origen de la falla
+Interna.

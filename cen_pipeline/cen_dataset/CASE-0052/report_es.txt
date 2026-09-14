@@ -1,0 +1,266 @@
+Estudio para análisis de falla EAF 554/2024
+“Falla en línea 154 kV Alto Jahuel - Rancagua - Punta de Cortés N°1”
+Fecha de Emisión: 13-12-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 23/11/2024
+Hora 01:03
+Consumos desconectados (MW) 78.29
+Demanda previa del sistema (MW) 9310.2
+Porcentaje de desconexión 0.841%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 154 kV Alto Jahuel - Punta de Cortés C1 / LT180---------T0002
+Tipo de instalación Línea
+Tensión nominal 154 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Santiago
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 154 kV Alto Jahuel - Punta de Cortés C1 / LT180---------T0002
+Propietario elemento fallado Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Santiago
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 154 kV Alto Jahuel - Rancagua - Punta de Cortés N°1,
+por operación de los sistemas de protección de los paños A1 de S/E Alto Jahuel, paños A1 y A2 de S/E
+Punta de Cortés y paño A2 de S/E Rancagua, ocasionando la apertura intempestiva de sus respectivos
+interruptores, provocado por un cortocircuito monofásico a tierra en la fase C de la línea mencionada.
+La empresa Transelec S.A. indica que el origen de la falla corresponde al robo de los conductores
+ubicados en los vanos comprendidos entre las estructuras N°151 y N°153.
+d.2 Fenómeno Físico:
+VAN3: Robo o hurto.
+La empresa Transelec S.A. remite los antecedentes probatorios para acreditar el fenómeno físico.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en línea 154 kV
+EAF 447-2022 09-12-2022 La empresa Transelec S.A. señala que “No aplica”.
+Maule - Parral
+Falla en línea 154 kV
+EAF 469-2022 16-12-2022 La empresa Transelec S.A. señala que “No aplica”.
+Maule - Parral
+Falla en línea 154 kV
+EAF 490-2022 23-12-2022 La empresa Transelec S.A. señala que “No aplica”.
+Maule - Parral
+Falla en línea 13.2 kV San
+EAF 011-2023 08-01-2023 No se señalan.
+Vicente - Molycop
+Falla en la línea 154 kV
+EAF 019-2023 15-01-2023 No se señalan.
+Maule - Parral
+La empresa Transelec S.A. indica: “De forma inmediata, se gestionó la normalización de la línea
+con 3 empresas contratistas, lo que contempló el reemplazo de los postes colapsados, ferretería
+y reposición del conductor robado. Considerando la urgencia de la normalización de la línea, se
+Falla en la línea 66 kV San
+EAF 259-2023 14-06-2023 mantuvo el conductor de cobre en los vanos afectados, y se reemplazó con conductor de aluminio
+Javier - Constitución
+lo faltante.
+Queda pendiente investigar el comportamiento de las protecciones del paño por las reconexiones
+automáticas observadas en las oscilografías y los registros de eventos”.
+La empresa Transelec S.A. indica:
+“En primer lugar, Transelec se compromete a mejorar la manera en que se registran las fallas
+para las protecciones asociadas al paño A9 de S/E Tinguiririca, de esta manera se evitaría que
+los eventos de la función Power Swing llenen el buffer de la protección, sobrescribiendo los
+Falla en la línea 2x154 kV
+eventos de la protección (razón por la cual no existen registros oscilográficos asociados a la
+EAF 326-2023 Alto Jahuel - Rancagua - 01-08-2023
+operación de esta protección).
+Punta de Cortés N°1
+Por otra parte, Transelec gestionará con CGE una modificación de ajuste de la protección
+asociada al paño A5 de S/E Nueva Punta de Cortés, para evitar de esa manera el envío de señales
+TDD innecesarias a los paños A4 y A6 de S/E Nueva Punta de Cortés (esta señal innecesaria fue
+la causante de la apertura indeseada del interruptor 52A6)”.
+Falla en línea 66 kV
+EAF 048-2024 04-02-2024 No se indican.
+Charrúa - Laja
+Falla en línea 66 kV
+EAF 141-2024 06-04-2024 No se indican.
+Charrúa - Laja
+Falla en línea 66 kV
+EAF 315-2024 21-07-2024 No se indican.
+Charrúa - Laja
+Falla en línea 66 kV
+EAF 437-2024 21-08-2024 No se indican.
+Charrúa - Laja
+Falla en la línea 66 kV
+EAF 470-2024 07-09-2024 No se indican.
+Charrúa - Laja
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 035/2024 y EAF 242/2024.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado en este evento corresponde a la línea 154 kV Alto Jahuel - Rancagua - Punta de
+Cortés C1. De acuerdo con lo informado por su propietario en la plataforma Infotécnica, se muestra a
+continuación las características de cada tramo.
+Tramo Alto Tramo Tap Tramo Tap Tramo Tap Tramo Tap Tramo Est.
+Jahuel – Tap Villaseca – Fátima - Tap Paine - Tap Tuniche – 144C – Nueva
+Villaseca 154 Tap Fátima Paine 154 kV Tuniche 154 Est. 144C 154 Punta de
+Concepto
+kV C1 154 C1 C1 kV C1 kV C1 Cortés 154 kV
+(ID 3457) (ID 3459) (ID 3461) (ID 3462) (ID 3463) C1
+(ID 3748)
+Tensión 154 kV 154 kV 154 kV 154 kV 154 kV 154 kV
+Conductor ACSR Grosbeak AAAC Greeley AAAC Greeley AAAC Greeley CU 400 MCM AAAC Greeley
+Nº de
+conductor por 1 1 1 1 1 1
+fase
+Tº de Diseño
+65ºC 60ºC 60ºC 60ºC 50ºC 75ºC
+del Conductor
+Capacidad de
+corriente a
+0,5036 kA 0,722 kA 0,722 kA 0,722 kA 0,4677 kA 0,5712 kA
+temperatura de
+operación
+Cable de
+No Aplica No No No No No
+Guardia
+Longitud del
+8,819 km 6,626 km 2,676 km 34,152 km 9,554 km 0,176 km
+Conductor
+PES 31-07-2020 31-07-2020 31-07-2020 31-07-2020 31-07-2020 05-02-2023
+Al respecto, la empresa Transelec S.A. no remitió antecedentes respecto de los mantenimientos
+realizados a la línea 154 kV Alto Jahuel - Rancagua - Punta de Cortés N°1 durante los últimos 24
+meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa CGE S.A. señala “Urbano / Rural” para sus alimentadores afectados.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+h. Comuna donde se presenta la falla
+06101: Rancagua.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (25-11-2024) Informe de 5 días (29-11-2024)
+Transelec S.A. 23-11-2024 29-11-2024
+CGE Transmisión S.A. 23-11-2024 29-11-2024
+Compañía General de Electricidad S.A. (CGE) 26-11-2024 27-11-2024
+CMPC Tissue S.A. (CMPC) 23-11-2024 29-11-2024
+Minera Valle Central S.A. (MVC) 24-11-2024 27-11-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+154 kV Alto Jahuel - Punta de Cortés ST Zonal Alto Jahuel - Tap Villaseca 154 kV C2 01:03 18:13*
+154 kV Alto Jahuel - Punta de Cortés ST Zonal Tap Villaseca - Tap Fátima 154 kV C2 01:03 18:13*
+154 kV Alto Jahuel - Punta de Cortés ST Zonal Tap Fátima - Tap Tuniche 154 kV C2 01:03 18:13*
+154 kV Alto Jahuel - Punta de Cortés ST Zonal Tap Tuniche - Punta de Cortés 154 kV C2 01:03 18:13*
+- Los horarios señalados corresponden a lo informado por la empresa Transelec S.A.
+(*): Se mantiene con puentes abiertos en la estructura N°160 del circuito N°1 de la línea 2x154 kV Alto Jahuel - Punta de Cortés
+hasta las 07:17 del día 28-11-2024.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Paine,
+Hospital Angostura / C1 1.07 0.011 1515 01:03 01:07 01:07
+Mostazal
+Hospital Champa / C2 Paine, Buin 5.14 0.055 5603 01:03 01:07 01:07
+Hospital Challay / C3 Paine 2.90 0.031 2875 01:03 01:07 01:07
+Santa Blanca /
+Isla de Maipo Talagante 0.00 0.000 3 01:03 01:08 01:08
+C2
+Isla de Maipo,
+Isla de Maipo Santelices / C3 1.85 0.020 2596 01:03 01:08 01:08
+Talagante
+Isla de Maipo,
+Isla de Maipo Trebulco / C4 2.10 0.023 5566 01:03 01:08 01:08
+Talagante
+Isla de Maipo Miraflores / C6 Isla de Maipo 5.70 0.061 3306 01:03 01:08 01:08
+Carampangue / Isla de Maipo,
+Isla de Maipo 4.69 0.050 9773 01:03 01:08 01:08
+E1 Talagante
+Las Parcelas / Isla de Maipo,
+Isla de Maipo 2.64 0.028 2018 01:03 01:08 01:08
+E2 Talagante
+Minera Valle Central - Requínoa 39.70 0.426 1 01:03 01:38 01:38
+Papelera Talagante Máquina N°1 Talagante 4.20 0.045 01:03 13:12 13:12
+Papelera Talagante Máquina N°2 Talagante 3.80 0.041 1 01:03 13:12 13:12
+Papelera Talagante Máquina N°3 Talagante 4.50 0.048 01:03 13:12 13:12
+Total: 78.29 MW 0.841% 33257
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A., CGE Transmisión S.A., CMPC Tissue
+S.A., MVC S.A. y Transelec S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Hospital Angostura / C1 CGE Regulado 1.07 0.07 0.07 0.1
+Hospital Champa / C2 CGE Regulado 5.14 0.07 0.07 0.3
+Hospital Challay / C3 CGE Regulado 2.90 0.07 0.07 0.2
+Isla de Maipo Santa Blanca / C2 CGE Regulado 0.00 0.08 0.08 0.0
+Isla de Maipo Santielices / C3 CGE Regulado 1.85 0.08 0.08 0.2
+Isla de Maipo Trebulco / C4 CGE Regulado 2.10 0.08 0.08 0.2
+Isla de Maipo Miraflores / C6 CGE Regulado 5.70 0.08 0.08 0.5
+Isla de Maipo Carampangue / E1 CGE Regulado 4.69 0.08 0.08 0.4
+Isla de Maipo Las Parcelas / E2 CGE Regulado 2.64 0.08 0.08 0.2
+Minera Valle Central - MVC Libre 39.70 0.58 0.58 23.2
+Papelera Talagante MP1 CMPC Libre 4.20 12.15 12.15 51.0
+Papelera Talagante MP2 CMPC Libre 3.80 12.15 12.15 46.2
+Papelera Talagante MP3 CMPC Libre 4.50 12.15 12.15 54.7
+Clientes Regulados : 2.1 MWh
+Clientes Libres : 175.1 MWh
+Total : 177.2 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A., CGE Transmisión S.A., CMPC Tissue
+S.A., MVC S.A. y Transelec S.A.
+- Curva de recuperación esperada v/s recuperación real.
+14:24
+1133::1122 1133::1122 1133::1122
+12:00
+09:36
+07:12
+04:48
+02:24
+0011::3388
+0011::0077 0011::0077 0011::0077 0011::0088 0011::0088 0011::0088 0011::0088 0011::0088 0011::0088
+00:00
+1% 8% 12% 12% 14% 17% 24% 30% 33% 84% 89% 94% 100%
+Recuperación real Recuperación esperada
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para
+los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 62.63 0.58 107.37
+Último 20 % 15.66 12.15 1.29
+100 % Total 78.29 12.15 6.44
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9310.2 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Canutillar (U2), El Toro (U1, U2, U3 y U4), Quintero (U1), Ralco (U1 y U2) y Rapel (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 23 de noviembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 23 de noviembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+23 de noviembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 23 de
+noviembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con la siguiente particularidad:
+• Los interruptores 52A2 de S/E Fátima y 52B1 de S/E Paine se encontraban abiertos, con ello la S/E
+Fátima se encontraba alimentada desde el circuito N°2 de la línea 2x154 kV Alto Jahuel - Rancagua
+- Punta de Cortés.
+• El interruptor 52B1 de S/E San Francisco de Mostazal se encontraba abierto, con ello dicha S/E se
+encontraba alimentada de forma radial desde S/E Rancagua, mientras que la S/E Hospital se
+encontraba alimentada desde S/E Paine.
+• El desconectador 89B1 de S/E El Monte se encontraba abierto, con ello dicha S/E se encontraba
+alimentada de forma radial desde S/E Melipilla.
+• La central térmica CMPC Tissue se encontraba con el turbogenerador en 19.62 MW en condición
+normal de operación y exportando al SEN 0.84 MW aproximadamente. El consumo total de las
+Máquinas Papeleras MP1, MP2 y MP3 era aproximadamente de 18.78 MW.
+• El interruptor 52B4 de S/E Isla de Maipo se encontraba abierto, con ellos dicha S/E se encontraba
+alimentada de forma radial desde S/E Paine.

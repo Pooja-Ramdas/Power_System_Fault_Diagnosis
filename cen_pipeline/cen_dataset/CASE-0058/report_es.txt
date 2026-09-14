@@ -1,0 +1,140 @@
+Estudio para análisis de falla EAF 548/2024
+“Falla en línea 66 kV Central Chapiquiña - Arica”
+Fecha de Emisión: 06-12-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 15/11/2024
+Hora 01:01
+Consumos desconectados (MW) 2.80
+Demanda previa del sistema (MW) 9214.70
+Porcentaje de desconexión 0.030 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Central Chapiquiña - Arica / LT152---------G0216
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Engie Energía Chile S.A.
+RUT 88.006.900-4
+Representante Legal Gabriel Marcuz
+Dirección Av. Isidora Goyenechea N°2800, Piso 16, Comuna Las Condes, Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Tramo Chapiquiña - Tap El Águila / LT152CI1TR01----G0216
+Propietario elemento fallado Engie Energía Chile S.A.
+RUT 88.006.900-4
+Representante Legal Gabriel Marcuz
+Dirección Av. Isidora Goyenechea N°2800, Piso 16, Comuna Las Condes, Santiago.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Central Chapiquiña - Arica, por operación de las
+protecciones en ambos extremos de la línea, ante una falla bifásica en las fases B y C.
+La causa de la falla fue la intervención de terceros, con el objetivo de robar los conductores de la línea
+en los vanos comprendidos entre las estructuras N°67 y N°81, causando además daños en las
+estructuras del tramo mencionado.
+d.2 Fenómeno Físico:
+VAN3: Robo o hurto.
+La empresa Engie Energía Chile S.A. remite los antecedentes probatorios para acreditar el fenómeno
+físico determinado por el Coordinador.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico, durante los últimos 24 meses móviles (EAF 533-2024).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se ha producido una falla en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Engie Energía Chile S.A. indica lo siguiente: “Se contrata
+Falla en la línea 66 kV brigada de patrullaje junto a guardias de seguridad ENGIE.
+EAF 533-2024 Central Chapiquiña - 05/11/2024 Adicionalmente se realizó apertura de puentes en las estructuras 255
+Arica y 278 para realizar reparación de la línea y estructuras afectadas por
+el robo.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una falla
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 533-2024).
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores de la línea 66 kV Central Chapiquiña
+- Arica, la cual, de acuerdo con lo informado por su propietario en la plataforma Infotecnica del
+Coordinador, cuenta con conductores Cu 3/0 AWG y con una longitud total de aproximadamente 83
+km.
+La empresa Engie Energía Chile S.A, propietaria de la instalación fallada, no remite información
+respecto a los mantenimientos realizados durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+Rural.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+h. Comuna donde se presenta la falla
+15101: Arica.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(17-11-2024) (22-11-2024)
+Engie Energía Chile S.A. (Engie) 15-11-2024 22-11-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 66 kV Central Chapiquiña - Arica ST Dedicado Arica - Tap Off El Águila 01:01 13:22
+Línea 66 kV Central Chapiquiña - Arica ST Dedicado Tap Off El Águila - Chapiquiña 01:01 15:00
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Lluta Quiborax / C2 Arica 2.80 0.030 1 01:01 13:22 13:22
+Total: 2.80 MW 0.030% 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa Engie Energía Chile S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Lluta Quiborax / C2 QUIBORAX Libre 2.80 12.35 12.35 34.6
+Clientes Regulados : MWh
+Clientes Libres : 34.6 MWh
+Total : 34.6 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Engie Energía Chile S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para
+los consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 2.24 12.35 0.18
+Último 20 % 0.56 12.35 0.05
+100 % Total 2.80 12.35 0.23
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9214.7 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las Andina
+(CTA), Atacama (TG2A y TG2B), El Toro (U1, U2 y U3), Mejillones (CTM3), Ralco (U1 y U2) y Rapel
+(U4).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa Engie Energía Chile S.A.:
+“Siendo las 01:01 Hr del día 15-11-2024, se produce apertura forzosa de LT 66 kV CH. Chapiquiña -
+S/E Arica por operación de protecciones 21-21N fase B y C a tierra en ambos extremos, afectando una
+demanda de 2,8 MW correspondiente a cliente Quiborax, a causa de robo de conductor con destrucción
+de postación entre estructuras 67 y 81”.
+14:24
+12:00
+09:36
+07:12
+04:48
+02:24
+00:00
+Recuperación real
+1133::2222
+100%
+Recuperación esperada
+Por otra parte, la empresa Engie Energía Chile S.A. indica que la central Chapiquiña quedó generando
+en isla, posterior a la desconexión forzada de la línea 66 kV Central Chapiquiña - Arica, abasteciendo
+a los consumos regulados en S/E Central Chapiquiña.
+De forma complementaria, se adjuntan los informes de falla de instalaciones ingresados en el sistema
+Neomante del Coordinador Eléctrico Nacional por la empresa Engie Energía Chile S.A. (Anexo N°1), y
+otros antecedentes aportados por la misma empresa (Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Engie S.A. indica: “Se contrata brigada de patrullaje junto a guardias de Seguridad engie
+para recorrido simultaneo en ambos extremos de la línea. Retiro de postes para montaje de nuevos y
+tendido de línea”.
+c) Acciones correctivas a largo plazo:
+La empresa Engie S.A. indica: “No aplica”.
+Diagrama simplificado de las instalaciones previo a la falla

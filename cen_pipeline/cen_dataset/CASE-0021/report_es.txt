@@ -1,0 +1,178 @@
+Estudio para análisis de falla EAF 584/2024
+“Falla en la línea 110 kV Cóndores - Cerro Dragón”
+Fecha de Emisión: 08-01-2025
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 16/12/2024
+Hora 05:51
+Consumos desconectados (MW) 21.22
+Demanda previa del sistema (MW) 8670.47
+Porcentaje de desconexión 0.245 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Cóndores - Cerro Dragón / LT032---------T0025
+Tipo de instalación Línea
+Tensión nominal 110 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Empresa de Transmisión Eléctrica Transemel S.A.
+RUT 96.893.220-9
+Representante Legal Rodrigo Guerrero
+Dirección Av. Presidente Riesco N°5561, piso 14, Las Condes, Santiago
+c. Identificación del elemento fallado
+Nombre del elemento afectado Sección de tramo 110 kV Cóndores - Tap Alto Hospicio /
+LT032CI1TR01T0025ST50T0025
+Propietario elemento fallado Empresa de Transmisión Eléctrica Transemel S.A.
+RUT 96.893.220-9
+Representante Legal Rodrigo Guerrero
+Dirección Av. Presidente Riesco N°5561, piso 14, Las Condes, Santiago
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 110 kV Cóndores - Cerro Dragón por la activación de la
+protección de distancia residual del paño H1 de S/E Cóndores.
+La Empresa de Transmisión Eléctrica Transemel S.A. declara que la causa de la interrupción fue por el
+contacto de un ave con la estructura N°1 de la mencionada línea.
+d.2 Fenómeno Físico:
+ANI1: Acción de animales, roedores o pájaros (por contacto directo u otro).
+La Empresa de Transmisión Eléctrica Transemel S.A. entrega los siguientes antecedentes probatorios
+para respaldar el fenómeno físico declarado:
+o Registro Fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+o Número de veces que la instalación se ha visto afectada por esta causa, con o sin afectación
+de suministro.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea 110 kV
+EAF 143_2023 27-03-2023 No se indican acciones correctivas.
+Guardiamarina - La Portada
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento en el que se originó la falla corresponde al tramo de 110 kV Cóndores - Tap Alto Hospicio
+de la línea 110 kV Cóndores - Cerro Dragón. Según los datos proporcionados por el propietario en su
+informe de falla de 5 días y los datos de Infotécnica del Coordinador, dicho tramo es un conductor tipo
+AAAC, con una sección de 235.8 mm2 y una longitud de 2.75 km, además, su fecha de entrada en
+operación fue en el año 2001.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Compañía General de Electricidad S.A. indica: “Urbana”.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza mayor.
+h. Comuna donde se presenta la falla
+1101: Iquique.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(18-12-2024) (23-12-2024)
+Empresa de Transmisión Eléctrica Transemel S.A. (Transemel) 16-12-2024 23-12-2024
+CGE Transmisión S.A. (CGE Tx) 16-12-2024 26-12-2024
+Compañía General de Electricidad S.A. (CGE Dx) 16-12-2024 16-12-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 110 kV Cóndores - Cerro Dragón ST Zonal Tramo 110 kV Cóndores - Tap Alto Hospicio 05:51 06:44
+Tramo 110 kV Tap Alto Hospicio - Cerro
+Línea 110 kV Cóndores - Cerro Dragón ST Zonal 05:51 06:44
+Dragón
+- Los horarios señalados corresponden a lo informado por Empresa de Transmisión Eléctrica Transemel S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Alto
+Boro / C26 0.37 0.004 2975 05:51 06:44 06:44
+Hospicio
+Alto
+Parcelas / C27 1.19 0.014 1177 05:51 06:44 06:44
+Hospicio
+Alto
+Aromos / C28 1.41 0.016 6405 05:51 06:44 06:44
+Hospicio
+Interc C Dragon Alto
+Alto Hospicio 0.03 0.000 2 05:51 06:44 06:44
+/ C29 Hospicio
+Alto
+Álamos / C30 2.17 0.025 6139 05:51 06:44 06:44
+Hospicio
+Alto
+Costanera / C31 2.46 0.028 7923 05:51 06:44 06:44
+Hospicio
+Alto
+Alto Molle / C33 2.86 0.033 9607 05:51 06:44 06:44
+Hospicio
+Aeropuerto /
+Iquique 3.49 0.040 10467 05:51 06:44 06:44
+C20
+Castro Ramos /
+Iquique 2.04 0.024 3300 05:51 06:44 06:44
+C24
+Cerro Dragón Dunas / C21 Iquique 2.12 0.024 4605 05:51 06:44 06:44
+Playa Brava /
+Iquique 2.11 0.024 7696 05:51 06:44 06:44
+C18
+Tadeo Haenke /
+Iquique 0.97 0.011 2354 05:51 06:44 06:44
+C19
+Total: 21.22 MW 0.245 % 62650
+- Los montos y horarios señalados corresponden a lo informado por Empresa de Transmisión Eléctrica Transemel S.A., CGE
+Transmisión S.A. y Compañía General de Electricidad S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Boro / C26 CGE Dx Regulado 0.37 0.88 0.88 0.3
+Parcelas / C27 CGE Dx Regulado 1.19 0.88 0.88 1.1
+Aromos / C28 CGE Dx Regulado 1.41 0.88 0.88 1.2
+Alto Hospicio Interc C Dragon / C29 CGE Dx Regulado 0.03 0.88 0.88 0.0
+Álamos / C30 CGE Dx Regulado 2.17 0.88 0.88 1.9
+Costanera / C31 CGE Dx Regulado 2.46 0.88 0.88 2.2
+Alto Molle / C33 CGE Dx Regulado 2.86 0.88 0.88 2.5
+Aeropuerto / C20 CGE Dx Regulado 3.49 0.88 0.88 3.1
+Castro Ramos / C24 CGE Dx Regulado 2.04 0.88 0.88 1.8
+Cerro Dragón Dunas / C21 CGE Dx Regulado 2.12 0.88 0.88 1.9
+Playa Brava / C18 CGE Dx Regulado 2.11 0.88 0.88 1.9
+Tadeo Haenke / C19 CGE Dx Regulado 0.97 0.88 0.88 0.9
+Clientes Regulados : 18.8 MWh
+Clientes Libres : MWh
+Total : 18.8 MWh
+- Los montos y horarios señalados corresponden a lo informado por Empresa de Transmisión Eléctrica Transemel S.A., CGE
+Transmisión S.A. y Compañía General de Electricidad S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se observa una diferencia entre la recuperación real y la esperada para los diferentes consumos
+afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 16.97 0.88 19.21
+Último 20 % 4.24 0.88 4.80
+100 % Total 21.22 0.88 24.02
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8670.47 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2 y U4), Kelar (TG1 y TG2), Mejillones (CTM3 y IEM), Ralco (U1 y U2) y Rapel
+(U1 y U4).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 16 de diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 16 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+16 de diciembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 16 de
+diciembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa CGE Transmisión S.A.:
+“El 16 de diciembre, a las 05:51 horas, se registró una falla en la Subestación Cóndores, perteneciente
+a Transemel. Este evento afectó a las subestaciones Alto Hospicio y Cerro Dragón, y con ello a la ciudad
+de Alto Hospicio y a una parte de Iquique. El servicio fue completamente restablecido a las 06:44 horas
+del mismo día, minimizando el tiempo de afectación para los usuarios.”.

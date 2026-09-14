@@ -1,0 +1,170 @@
+Estudio para análisis de falla EAF 464/2024
+“Falla en el paño C1 de S/E Casablanca”
+Fecha de Emisión: 27-09-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 03/09/2024
+Hora 11:49
+Consumos desconectados (MW) 0.03
+Demanda previa del sistema (MW) 10367.35
+Porcentaje de desconexión 0.000 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Paño C1 de S/E Casablanca / PA005T0057SE004T0057
+Tipo de instalación Paño
+Tensión nominal 12 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Desconectador 89C1-2 de S/E Casablanca /
+DC09T0057PA005T0057SE004T0057
+Propietario elemento fallado Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52C1 de S/E Casablanca, correspondiente al
+alimentador del mismo nombre, por medio de la operación de su protección de sobrecorriente
+residual.
+La empresa Chilquinta Transmisión S.A. señala que la falla fue a causa del desprendimiento de un
+cable ubicado en el lado carga del desconectador 89C1-2 de S/E Casablanca, el cual hizo contacto
+con la estructura soportante de los TT/CC del respectivo paño.
+d.2 Fenómeno Físico:
+OPE5: Conector suelto o mal instalado.
+La empresa Chilquinta Transmisión S.A. entrega los siguientes antecedentes probatorios para
+acreditar el fenómeno físico declarado:
+o Posibles causas que propician el desprendimiento del conductor.
+o Registro fotográfico, con fecha, hora y coordenadas UTM.
+o Registro público y conocido de las condiciones meteorológicas imperantes.
+Sin perjuicio de lo anterior, se encuentra pendiente el envío de la siguiente información:
+o Informe que indique las posibles causas de la no detección de la unión suelta o mal instalada
+en las mantenciones realizadas.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+La instalación fallada corresponde al desconectador 89C1-2 de S/E Casablanca, el cual, de acuerdo
+con lo informado por su propietario en la plataforma Infotécnica del Coordinador, es de disposición
+vertical con cuchillas giratorias, para un nivel de tensión máximo de 25 kV y una capacidad de 0.6
+kA, cuya fecha de entrada en operación fue el 01 de julio de 1996.
+La empresa Chilquinta Transmisión S.A. no remitió antecedentes respecto de los mantenimientos
+realizados en S/E Casablanca, en particular al elemento fallado, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Energía de Casablanca S.A. señala: “Rural”.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+5102: Casablanca.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (05-09-2024) Informe de 5 días (12-09-2024)
+Chilquinta Transmisión S.A. 05-09-2024 10-09-2024
+Energía de Casablanca S.A. 10-09-2024 10-09-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+c. Consumos
+Pérdida de %
+Alimentador/ Clientes H. H. H.
+Sub-Estación Comuna Consumo consumo
+Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Casablanca y
+Casablanca Casablanca / C1 0.01* 0.000 1732 11:49 18:48 13:08
+Algarrobo
+Casablanca y
+Casablanca Casablanca / C1 0.02* 0.000 1834 11:49 18:48 13:21
+Algarrobo
+Total: 0.03 MW 0.000 % 3566
+- Los montos y horarios señalados corresponden a lo informado por las empresas Chilquinta Transmisión S.A. y Energía de
+Casablanca S.A.
+- (*) Monto determinado en base a una proporción aproximada del número de clientes con respecto al total informado.
+3. Estimación de la energía no suministrada
+Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Alimentador/Paño Empresa
+Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Energía de
+Casablanca Casablanca / C1 Regulado 0.01* 6.98 1.32 0.0
+Casablanca
+Energía de
+Casablanca Casablanca / C1 Regulado 0.02* 6.98 1.53 0.0
+Casablanca
+Clientes Regulados : 0.0 MWh
+Clientes Libres : MWh
+Total : 0.0 MWh (**)
+- Los montos señalados corresponden a lo informado por las empresas Chilquinta Transmisión S.A. y Energía de Casablanca S.A.
+- (*) Monto determinado en base a una proporción aproximada del número de clientes con respecto al total informado.
+- (**) Valor total aproximado de 0.04 MWh.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecia que la recuperación total de los consumos afectados se concretó en un tiempo menor al
+esperado, debido a traspasos de carga por redes de media tensión.
+- Velocidad promedio de recuperación.
+Potencia Tiempo recuperación Velocidad de recuperación
+Rango
+(MW) (h) (MW/h)
+Primer 80 % 0.02 1.53 0.02
+Último 20 % 0.01 1.53 0.00
+100 % Total 0.03 1.53 0.02
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10367.35 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Colbún (U2), El
+Toro (U1), El Toro (U2), El Toro (U3), Ralco (U1) y Ralco (U2).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa Chilquinta Transmisión S.A.:
+“El martes 3 de septiembre del 2024, se produjo la apertura del interruptor 52C1 del Alimentador
+Casablanca, en S/E Casablanca. Lo anterior, debido a la señal de trip generada por la función de
+sobre corriente residual de tiempo inverso (51N) parametrizada en el control electrónico Form 6
+asociado al paño.
+Al momento de realizar la inspección en terreno, se identifica que el fenómeno físico causante de
+la operación tiene su origen en que el conductor dispuesto en el lado carga del desconectador
+89C1-2 (fase blanca) hace contacto con la estructura soportante del juego de TT/CC del paño C1.
+En la figura que se presenta a continuación, se puede apreciar lo descrito:
+Es importante señalar, que el contacto entre conductor y estructura se atribuye a que los fuertes
+vientos imperantes en la zona pueden haber mermado una unión, propiciando así las condiciones
+que desencadenaron el evento.
+La reparación en la instalación se efectúa en su totalidad durante la misma jornada que acontece
+el evento.”
+“Es importante referirse a las condiciones meteorológicas imperantes desde el lunes 26 de agosto
+hasta el martes 03 de septiembre del 2024, cuando una parte de la Región de Valparaíso,
+incluyendo particularmente los sectores del litoral, se encontraban incluidas en los informes de
+amenazas meteorológicas decretadas por Organismos Privados y Públicos como la DGAC, DMC y
+SENAPRED, los cuales anunciaban con certeza ocurrencias de vientos constantes, sostenidos y
+arrachados de 25 a 40 kilómetros por hora.”
+En función de los antecedentes presentados a la fecha de emisión del presente EAF, se solicitará la
+siguiente información:
+Chilquinta Transmisión S.A.:
+o Mantenimientos realizados a la S/E Casablanca, en particular al elemento fallado, durante los
+últimos 24 meses, junto con los antecedentes que acrediten su realización, indicando los
+principales hallazgos.
+o Informe que indique las posibles causas de la no detección de la unión suelta o mal instalada en
+las mantenciones realizadas.
+o Cronograma de trabajo, con fechas definidas, que incluya las tareas necesarias para la
+sincronización en forma automática de la estampa de tiempo de la protección del paño C1 de S/E
+Casablanca, con el fin de cumplir con la Hora Oficial (UTC - 0) establecida en la Norma Técnica de
+Seguridad y Calidad de Servicio (NTSyCS).
+De forma complementaria, se adjuntan los informes de falla de instalaciones ingresados en el
+sistema del Coordinador Eléctrico Nacional por Chilquinta Transmisión S.A. y Energía de Casablanca
+S.A. (Anexo N°1), y otros antecedentes aportados por dichas empresas. (Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Chilquinta Transmisión S.A. señala lo siguiente:
+“La reparación en la instalación se efectúa en su totalidad durante la misma jornada que
+acontece el evento.”
+c) Acciones correctivas a largo plazo:
+La empresa Chilquinta Transmisión S.A. no indica acciones correctivas a largo plazo.
+Diagrama simplificado de las instalaciones previo a la falla

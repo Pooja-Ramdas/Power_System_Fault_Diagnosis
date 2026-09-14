@@ -1,0 +1,279 @@
+Estudio para análisis de falla EAF 499/2024
+“Desconexión forzada de la barra N°2 12 kV de S/E San José”
+Fecha de Emisión: 28-10-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 07/10/2024
+Hora 20:28
+Consumos desconectados (MW) 8.17
+Demanda previa del sistema (MW) 10242.1
+Porcentaje de desconexión 0.080%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Barra N°2 12 kV de S/E San José / BA04T0835SE043T0835
+Tipo de instalación Barra
+Tensión nominal 12 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno
+3. Identificación del elemento fallado
+Nombre del elemento afectado Sistema de protección asociado al paño E6 de S/E San José /
+PA020T0054SE043T0835
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno
+(*): Nemotécnico corresponde al paño E6 de S/E San José.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la barra N°2 12 kV de S/E San José, por operación en respaldo
+de sus protecciones ante una falla en instalaciones de distribución, específicamente en el alimentador
+Pajaritos, la cual no fue despejada por la protección de la cabecera (Paño E6) debido a un retardo en
+la operación de dicha protección.
+d.2 Fenómeno Físico:
+OPE22: Error en programación de elementos de protección o control.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Sociedad Transmisora Metropolitana S.A. indica:
+Desconexión
+- “El martes 04 de abril mediante curso forzoso, una vez identificada la
+forzada de la
+diferencia en los ajustes de la protección de sobrecorriente del
+EAF 152_2023 barra 23 kV N°1 02-04-2023
+interruptor de la Barra MT1, se procedió a solicitar una intervención
+de S/E Las
+para su normalización y realizar las pruebas de estas. Adjuntamos el
+Acacias
+informe de esta atención”.
+La empresa Sociedad Transmisora Metropolitana S.A. indica:
+- “Ocurrida la operación del interruptor MT3, se procedió a realizar
+maniobras en los alimentadores, con el fin de reabastecer el
+suministro a los clientes. Una vez en la subestación, se revisó la
+instalación identificando un conductor de MT del alimentador Alcalde
+Guzmán y cables de control cortados. Este corte de conductores fue
+realizado por un delincuente que ingresó a la subestación con la
+intención de robar conductores eléctricos. No se logró identificar a este
+individuo. Se repararon los cables de control cortados y se normalizó
+la Barra MT3”.
+- “Al analizar los registros de las protecciones, se identificó que para la
+segunda falla la protección del alimentador Alcalde Guzmán no operó,
+Desconexión siendo despejada por la operación de la protección del interruptor
+forzada de la MT3. Se procedió a realizar pruebas a la protección del alimentador
+EAF 234_2023 01-06-2023
+barra N°3 12 kV Alcalde Guzmán, con resultado satisfactorio. Durante el mes de junio
+de S/E Quilicura de 2023, procederemos a reemplazar la protección del alimentador
+Alcalde Guzmán, esto como medida preventiva y con el espíritu de
+evitar una nueva operación no deseada de la protección del interruptor
+MT3, frente a fallas en este alimentador”.
+- “El pasado martes 06 de junio en la protección del alimentador Alcalde
+Guzmán, se cambió la programación de la oscilografía. Esto con el
+espíritu de contar con estos registros frente a otras fallas en este
+alimentador”.
+- “El pasado miércoles 07 de junio, se modificó el ajuste de la protección
+del alimentador Alcalde Guzmán, específicamente se modificó el
+Mínimo de Operación la unidad de sobrecorriente de tiempo inverso
+residual de 180 [A] a 120 [A], mejorando así la coordinación con la
+protección del interruptor MT3”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Sociedad Transmisora Metropolitana S.A. indica:
+“Una vez ocurrida la operación automática de las protecciones de la
+entrada de Barra Auxiliar 12kV N°4 y del acoplador de Barras MT4A-MT3,
+se procedió a reenergizar los alimentadores Chacón y Neptuno a través
+del Transformador N°2, minutos más tarde se realizaron intentos de
+reenergizar las Barras Principal N°4 y Auxiliar N°4 lo cual tuvo resultado
+positivo.
+Con fecha 24 de julio de 2023, se corrigió el desfase horario de las
+protecciones de la Barra Principal N°4, de la protección de la interconexión
+Desconexión de barras MT4A-MT3 y del alimentador Cerro Navia.
+forzada de barras Con fecha 28 de julio de 2023, se corrigió la descoordinación existente
+EAF 307_2023 12 kV N°4 y 22-07-2023 entre la protección del alimentador Cerro Navia y las protecciones de Barra
+Auxiliar de S/E Auxiliar N°4 y de la interconexión MT4A-MT3, específicamente se
+Pudahuel disminuyó el mínimo de operación y el lever de la unidad se sobrecorriente
+de tiempo inverso residual. Se adjunta el nuevo Print Out de la protección
+correspondiente.
+Durante la primera quincena de agosto, se corregirá el alambrado de las
+corrientes secundarias que ingresan al control del reconectador del
+alimentador Cerro Navia.
+Durante agosto 2023, nos reuniremos con el representante de la fábrica
+de estas celdas, para establecer un plan de acción para evaluar la
+operación de los interruptores y para establecer si así lo requiera, un plan
+de acción para evitar futuras operaciones similares”.
+La empresa STM S.A. indica:
+“Durante la atención de la falla, se verificó que las celdas de MT de la S/E
+Chicureo se encontraban en buenas condiciones, sin muestras de descarga
+o evidencias de falla. Se procedió a rescatar los registros de las
+protecciones.
+Analizados los registros de eventos y configuración de las protecciones, se
+identificó que la protección del alimentador Damasco tenía deshabilitada
+las unidades de sobrecorriente de fase, por lo que frente a la falla en sus
+redes de MT no operó. Lo que ocasionó que la protección del interruptor
+MT1A operara como respaldo despejando la falla.
+Revisando la historia de esta protección, se detectó que esta situación se
+Desconexión originó el pasado 09 de febrero de 2024, ocasión donde se realizó la
+forzada de barra investigación de la OA del interruptor MT1A ocurrida el pasado 17 de enero
+EAF 138_2024 auxiliar N°1 23 06-04-2024 de 2024. Durante el proceso de pruebas se deshabilitó la unidad de
+kV de S/E sobrecorriente de fase de la protección del alimentador Damasco,
+Chicureo lamentablemente una vez terminada las pruebas, no se volvió a habilitar.
+Adjuntamos los antecedentes de esta intervención. El pasado lunes 08 de
+abril de 2024, se volvió a habilitar la unidad de sobrecorriente de fase de
+la protección del alimentador Damasco, esta actividad se realizó mediante
+el permiso 12468.
+Desde la investigación realizada el 09 de febrero de 2024 a la fecha, no
+ha habido nuevas actividades programadas para la protección del
+alimentador Damasco.
+Complementariamente se revisó la coordinación de las protecciones del
+alimentador Damasco y del interruptor MT1A, verificando un adecuado
+paso de coordinación. Se adjunta el análisis de la coordinación de estas
+protecciones”.
+La empresa Sociedad Transmisora Metropolitana S.A. señala:
+“Durante la atención de la falla, se revisó el patio de MT de la subestación
+Santa Marta, sin identificar muestras de descarga eléctrica. Se procedió a
+resetear el relé maestro de la Barra MT1 (86T1) y se cerró el interruptor
+MT1P”.
+“Según lo informado por el despachador de turno, se produjo una falla en
+la red de MT del alimentador Ciudad Satélite y simultáneamente operó la
+protección del interruptor MT1P”.
+Desconexión de
+“Analizados los registros de eventos y configuración de las protecciones,
+barra N°1 12 kV
+EAF 194_2024 07-05-2024 se identificó que la protección del alimentador Satélite no actuó (estaba
+de S/E Santa
+bloqueada y fue reiniciada) y por lo que la falla fue despejada por la
+Marta
+protección del interruptor MT1P”.
+“El pasado viernes 10 de mayo de 2024, se realizaron pruebas a la
+protección del alimentador Ciudad Satélite con resultado satisfactorio. Se
+adjunta el informe de las pruebas realizadas”.
+“Complementariamente se revisó la coordinación de las protecciones del
+alimentador Ciudad Satélite y del interruptor MT1P, verificando un
+adecuado paso de coordinación. Se adjunta el análisis de la coordinación
+de estas protecciones sus print out”.
+Operación de
+La empresa STM S.A. indica: “En septiembre de 2024, se revisará el
+EAF 390_2024 EDAC-CEx en S/E 02-08-2024
+esquema EDACxCE implementado en la S/E San José.”
+San José
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se ha producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento fallado corresponde al sistema de protección asociado al interruptor 52E6 de S/E San José,
+correspondiente a un relé electromecánico, del cual, no se tiene información en la plataforma
+Infotécnica del Coordinador.
+La empresa Sociedad Transmisora Metropolitana S.A. remite los antecedentes correspondientes a los
+mantenimientos realizados en la S/E San José durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No se tiene información por parte de la empresa Enel Distribución Chile S.A.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+13117: Lo Prado.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(09-10-2024) (14-10-2024)
+Sociedad Transmisora Metropolitana S.A. (STM S.A.) 07-10-2024 14-10-2024
+Enel Distribución Chile S.A. (Enel Distribución) 07-10-2024 22-10-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E San José ST Zonal Barra 12 kV N°2 20:28 21:10
+- Los horarios señalados corresponden a lo informado por la empresa STM S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+S/E San José Talcahuano / E5 NI 0.67 0.007 1782 20:28 21:10 20:33
+S/E San José Pajaritos / E6 NI 0.57 0.006 1194 20:28 21:10 20:35
+S/E San José Pajaritos / E6 NI 0.30 0.003 1505 20:28 21:10 20:37
+S/E San José Pajaritos / E6 NI 0.28 0.003 698 20:28 21:10 20:38
+S/E San José Talcahuano / E5 NI 3.08 0.030 5078 20:28 21:10 20:40
+S/E San José Talcahuano / E5 NI 1.75 0.017 3536 20:28 21:10 20:45
+S/E San José Pajaritos / E6 NI 0.11 0.001 13 20:28 21:10 20:52
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+S/E San José Pajaritos / E6 NI 0.44 0.004 550 20:28 21:10 23:05
+S/E San José Pajaritos / E6 NI 0.97 0.009 1364 20:28 21:10 23:10
+Total: 8.17 MW 0.080% 15720
+- Los montos y horarios señalados corresponden a lo informado por las empresas Enel Distribución Chile S.A. y STM S.A.
+- NI: No se recibió dicha información por parte de la empresa Enel Distribución Chile S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E San José Talcahuano / E5 Enel Distribución Regulado 0.67 0.70 0.08 0.1
+S/E San José Pajaritos / E6 Enel Distribución Regulado 0.57 0.70 0.12 0.1
+S/E San José Pajaritos / E6 Enel Distribución Regulado 0.30 0.70 0.15 0.0
+S/E San José Pajaritos / E6 Enel Distribución Regulado 0.28 0.70 0.17 0.0
+S/E San José Talcahuano / E5 Enel Distribución Regulado 3.08 0.70 0.20 0.6
+S/E San José Talcahuano / E5 Enel Distribución Regulado 1.75 0.70 0.28 0.5
+S/E San José Pajaritos / E6 Enel Distribución Regulado 0.11 0.70 0.40 0.0
+S/E San José Pajaritos / E6 Enel Distribución Regulado 0.44 0.70 2.62 1.2
+S/E San José Pajaritos / E6 Enel Distribución Regulado 0.97 0.70 2.70 2.6
+Clientes Regulados : 5.1 MWh
+Clientes Libres : MWh
+Total : 5.1 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Enel Distribución Chile S.A. y STM S.A.
+- Curva de recuperación esperada v/s recuperación real.
+23:31
+23:02
+23:10
+23:05
+22:33
+22:04
+21:36
+21:07
+21:10 21:10 21:10 21:10 21:10 21:10 21:10 21:10 21:10
+20:38 20:52
+20:45
+20:33 20:35 20:37 20:38 20:40
+20:09
+19:40
+19:12
+4% 21% 34% 45% 65% 76% 85% 94% 100%
+Recuperación real Recuperación esperada
+Se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 6.54 0.28 23.07
+Último 20 % 1.63 2.70 0.61
+100 % Total 8.17 2.70 3.03
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10242.1 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Andina (CTA), Candelaria (U2), Canutillar (U1), El Toro (U1, U2, U3 y U4), Ralco (U1 y U2) y
+Rapel (U1, U2 y U4).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 07 de octubre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 07 de octubre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+07 de octubre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 07 de
+octubre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa STM S.A.:
+“El pasado lunes 07 de octubre, a las 20:28 horas, se produjo la operación automática (OA) del
+interruptor MT2 de la S/E San José, debido a una falla en la red de MT del alimentador Pajaritos.
+Se produjo una falla en la red de MT del alimentador Pajaritos, operado su protección simultáneamente
+con la protección del interruptor MT2.
+Durante el proceso de investigación se identificó que la protección del alimentador Pajaritos tenía un
+retardo en su operación, por lo que la protección del interruptor MT2, operó correctamente como
+respaldo.”

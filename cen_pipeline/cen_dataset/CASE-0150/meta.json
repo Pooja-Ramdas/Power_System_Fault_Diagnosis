@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0458-2024",
+  "eaf_num": 458,
+  "year": 2024,
+  "description": "Falla en línea 110 kV San Bernardo – Malloco",
+  "date": "30-08-2024",
+  "time": "15:05",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/09/EAF-458-2024.pdf",
+  "case_id": "CASE-0150",
+  "event_datetime": "2024-08-30T15:05:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0150\\official_diagram.dwg"
+}

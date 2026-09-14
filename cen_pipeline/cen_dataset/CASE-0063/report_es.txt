@@ -1,0 +1,225 @@
+Estudio para análisis de falla EAF 543/2024
+“Desconexión forzada de la barra 110 kV de S/E Chirre”
+Fecha de Emisión: 03/12/2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 12/11/2024
+Hora 11:23
+Consumos desconectados (MW) 0.82
+Demanda previa del sistema (MW) 9382
+Porcentaje de desconexión 0.008 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Chirre / SE045T0003
+Tipo de instalación Subestación
+Tensión nominal 110 y 23 kV
+Segmento Transmisión zonal
+Propietario instalación fallada Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno
+c. Identificación del elemento fallado
+Nombre del elemento afectado Barra 110 kV S/E Chirre / BA01T0003SE045T0003
+Propietario elemento fallado Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la barra 110 kV de S/E Chirre por operación de su protección
+diferencial de barras (87B).
+La causa de la desconexión forzada se debió, de acuerdo con lo indicado por la empresa Sistema de
+Transmisión del Sur S.A., por la acción de un ave.
+d.2 Fenómeno Físico:
+ANI1: Acción de animales, roedores o pájaros (por contacto directo u otro).
+Al respecto, la empresa Sistema de Transmisión del Sur S.A. remite los siguientes probatorios y
+antecedentes en respaldo al fenómeno físico declarado:
+• Registro fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+• Informar el número de veces que la instalación se ha visto afectada por esta causa, con o sin
+afectación de suministro.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Nombre Fecha Acciones Correctivas de Corto Plazo Acciones Correctivas de Largo Plazo
+EAF 423-2022 15/11/22 La empresa STS S.A. señala: “No hay”. No se indican.
+La empresa STS S.A. señala: “Se corrigió la conexión
+de T/C de Neutro 23 kV del transformador T1 de S/E
+EAF 268/2023 19/06/23 Puerto Montt a valor de razón 2500/5. Lo anterior se No se indican.
+realiza con fecha 23 de junio de 2023 de acuerdo con
+la solicitud de intervención SI 2023055207“.
+Las empresas SAESA y STS S.A. no
+Las empresas SAESA y STS S.A. no indican acciones
+EAF 272/2023 22/06/23 indican acciones correctivas de largo
+correctivas de corto plazo.
+plazo.
+Sistema de Transmisión del Sur S.A. señala que “no Sistema de Transmisión del Sur S.A.
+EAF 500/2023 16/11/23
+hay”. señala que “no hay”.
+Sistema de Transmisión del Sur S.A. señala que “no Sistema de Transmisión del Sur S.A.
+EAF 525/2023 08/12/23
+hay”. señala que “no hay”.
+Sistema de Transmisión del Sur S.A. señala que “no Sistema de Transmisión del Sur S.A.
+EAF 012/2024 11/01/24
+hay”. señala que “no hay”.
+Sistema de Transmisión del Sur S.A. señala que “no Sistema de Transmisión del Sur S.A.
+EAF 311/2024 17/07/24
+hay”. señala que “no hay”.
+La empresa STS S.A. señala que, durante el mes de
+octubre del 2024, mediante desconexión programada, Sistema de Transmisión del Sur S.A.
+EAF 423/2024 13/08/24
+realizarán trabajos en S/E Antillanca para aumentar la señala que “no hay”.
+protección anti-aves de la instalación.
+Sistema de Transmisión del Sur S.A. señala que “no Sistema de Transmisión del Sur S.A.
+EAF 450/2024 26/08/24
+hay”. señala que “no hay”.
+Sistema de Transmisión del Sur S.A. no
+Sistema de Transmisión del Sur S.A. señala que “no
+EAF 468/2024 06/09/24 indica acciones correctivas de largo
+hay”.
+plazo.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR87B: Protección diferencial de barra.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+De acuerdo con lo indicado por la empresa Sistema de Transmisión del Sur S.A., la falla se produjo en
+los aisladores que sostienen los chicotes de bajada desde la barra 110 kV hasta los transformadores
+de potencial de la barra.
+De acuerdo con lo indicado en el aplicativo Infotécnica por su propietario, la barra 110 kV de S/E Chirre
+posee las siguientes características:
+• Límite térmico permanente: 0.53 kA
+• Tipo de conductor: AAAC Canton
+• Sección del conductor: 200 mm2
+• Número de conductores por fase: 1
+• Fecha de entrada en operación: 28/02/2018
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Sociedad Austral de Electricidad S.A. no remitió sus Informes de Falla de 48 horas ni del
+quinto día, por lo tanto, no se cuenta con la calificación urbana o rural de los alimentadores de
+distribución en media tensión afectados.
+g. Proposición del propietario respecto del origen de la falla
+La empresa Sistema de Transmisión del Sur S.A. indica: Fuerza Mayor.
+h. Comuna donde se presenta la falla
+10301: Osorno
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (14/11/2024) Informe de 5 días (19/11/2024)
+Cumbres SpA 12/11/2024 15/11/2024
+Hidromocho S.A. 12/11/2024 14/11/2024
+Licán SpA 12/11/2024 02/12/2024
+Sistema de Transmisión del Sur S.A. (STS) 12/11/2024 20/11/2024
+Sociedad Austral de Electricidad S.A. (SAESA) No remitido No remitido
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+HP Cumbres U1 5.6 11:23 13:26
+HP Cumbres U2 5.6 11:23 13:16
+HP Licán U1 8.2 11:23 18:23
+HP Licán U2 8.7 11:23 13:08
+HP Mocho U1 12.8 11:23 13:13
+Total: 40.9 MW
+- Los montos y los horarios señalados corresponden a lo informado por las respectivas empresas propietarias de las unidades
+generadoras afectadas. En el caso del horario de normalización de la generación de la unidad N°1 de central Licán, fue obtenido
+desde el registro histórico del SCADA del Coordinador.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Subestación Chirre ST Zonal Barra principal 110 kV 11:23 12:55
+- Las horas indicadas corresponden a lo indicado por la empresa STS S.A.
+c. Consumos
+Sub- Alimentador / Comuna Pérdida de % Clientes H. H. H.
+Estación Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Lago Ranco, Río
+Chirre Futahuente / E1 0.41 0.004 4242 11:23 12:55 12:01
+Bueno
+Chirre Chiscaihue / E2 Puyehue, Río Bueno 0.41 0.004 1370 11:23 12:55 12:01
+Total: 0.82 MW 0.008 % 5612
+- Los montos y horarios señalados corresponden a lo informado por la empresa Sistema de Transmisión del Sur S.A. Además, puesto
+que en Infotécnica se identifican los PMGD “HP Los Portones Ampliación” (1 MW) y “HP Los Portones - Ampliación II” (0.22 MW)
+inyectando en S/E Chirre (en el caso del primero no se identifica el alimentador de inyección, por lo tanto, su generación se agregó
+arbitrariamente al alimentador Chiscaihue, mientras que en el caso del segundo se identifica su punto de conexión en el alimentador
+Futahuente, se agregó su generación a dicho alimentador), y considerando que no existen datos de estos PMGD en la Plataforma de
+Recepción de Medidas para Transferencias Económicas, se asumió que ambos generaban a plena capacidad previo a la falla.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador / Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Chirre Futahuente / E1 SAESA Regulado 0.41 1.53 0.63 0.3
+Chirre Chiscaihue / E2 SAESA Regulado 0.41 1.53 0.63 0.3
+Clientes Regulados : 0.6 MWh
+Clientes Libres : MWh
+Total : 0.6 MWh
+- Los montos señalados corresponden a lo informado por la empresa Sistema de Transmisión del Sur S.A., además de lo señalado
+al pie de la tabla del punto 2.c.
+- Curva de recuperación esperada v/s recuperación real.
+La diferencia entre los horarios recuperación real respecto de los horarios de disponibilidad de las barras
+primarias respectivas para recuperar los consumos afectados, responde a que los consumos fueron
+recuperados de forma temprana a través de traspasos de carga en redes de distribución de media
+tensión.
+- Velocidad promedio de recuperación.
+Tiempo recuperación Velocidad de recuperación
+Rango Potencia (MW)
+(h) (MW/h)
+Primer 80 % 0.66 0.63 1.05
+Último 20 % 0.16 0.63 0.25
+100 % Total 0.82 0.63 1.30
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9382 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales: Colbún (U2),
+Pehuenche (U1), PFV Almeyda, PFV Conejo y PFV El Romero.
+Estado y configuración previo a la falla
+Previo a la falla, las instalaciones de transmisión operaban de forma normal.
+Otros antecedentes relevantes
+De forma complementaria, se adjuntan los informes de falla de instalaciones ingresados en el sistema
+del Coordinador Eléctrico Nacional por Cumbres SpA, Hidromocho S.A., Licán SpA y Sistema de
+Transmisión del Sur S.A. (Anexo N°1) y otros antecedentes aportados por dichas empresas (Anexo
+N°2).
+Se solicitará a la empresa Sociedad Austral de Electricidad S.A. los informes de falla de 48 horas y de
+5 días asociados al evento en cuestión, con el detalle pormenorizado de los consumos afectados por
+cada alimentador en la S/E Chirre.
+1
+1
+1
+1
+1
+1
+1
+1
+3
+2
+2
+2
+1
+1
+0
+0
+9
+:2
+:5
+:2
+:0
+:3
+:0
+:3
+:0
+:3
+6
+7
+8
+0
+1
+2
+3
+4
+6
+5 0 .0
+R
+%
+e c u p e ra c ió n re a l R e c u p e ra c ió n e s p e
+1
+ra
+0
+d
+0
+a
+.0 %

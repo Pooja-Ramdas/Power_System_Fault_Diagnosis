@@ -31,23 +31,45 @@ import matplotlib.pyplot as plt
 import networkx as nx
 
 SE_RE = re.compile(
-    r"S/E\s+([A-Za-zÀ-ÿ0-9°.()\s]+?)"
-    r"(?=(?:\s*[,;()]|\s+asociad|\s+de\s+S/E|\s+ante\s|\s+y\s+el\b|$))"
+    r"(?:SS/EE|S/E|Subestaci[oó]n(?:es)?|SE)\s+([A-Za-zÀ-ÿ0-9°ºª#\/().\'’\s\ufffd]+?)"
+    r"(?=(?:\s*[,;]|\s+asociad|\s+de\s+(?:SS/EE|S/E|Subestaci[oó]n|SE)|\s+ante\s|\s+y\s+el\b|$))",
+    re.IGNORECASE,
 )
 LINE_RE = re.compile(
-    r"l[ií]neas?\s+(?:de\s+)?[\d×x]*\s*kV\s+([A-Za-zÀ-ÿ0-9°.\s]+?)\s*[–-]\s*([A-Za-zÀ-ÿ0-9°.\s]+?)"
-    r"(?=(?:\s*[,;]|\s+y\s+\d|$))",
+    r"l[ií]neas?\s+(?:de\s+)?(?:[\d×xX,.]*\s*kV\s+)?([A-Za-zÀ-ÿ0-9°ºª#\/().\'’\s\ufffd]+?)\s*[\-–—―−\x96\x97\ufffd]+\s*([A-Za-zÀ-ÿ0-9°ºª#\/().\'’\s\ufffd]+?)"
+    r"(?=(?:\s*[\-–—―−\x96\x97\ufffd]|\s*[,;]|\s+y\s+\d|\s+tramo\b|\s+circuito\b|$))",
+    re.IGNORECASE,
+)
+PLANT_RE = re.compile(
+    r"(?:Central(?:\s+Generadora|\s+Hidroel[eé]ctrica|\s+T[eé]rmica)?|central|Planta|Parque\s+(?:Fotovoltaico|E[oó]lico)|PE|PFV|PMGD|C\.?H\.?|C\.?T\.?)\s+([A-Za-zÀ-ÿ0-9°ºª#\/().\'’\s\ufffd]+?)"
+    r"(?=(?:\s*[,;]|\s+asociad|\s+ante\s|\s+y\s+el\b|$))",
     re.IGNORECASE,
 )
 
 
 def _parse_elements_from_description(description):
-    substations = [m.strip() for m in SE_RE.findall(description)]
+    substations = [m.strip(' .,;') for m in SE_RE.findall(description)]
+    expanded_subs = []
+    for s in substations:
+        parts = re.split(r"\s*,\s*|\s+y\s+|\s+e\s+", s)
+        for p in parts:
+            p_clean = p.strip(" .,;")
+            if p_clean and p_clean not in expanded_subs:
+                expanded_subs.append(p_clean)
+    substations = expanded_subs
+
     line_match = LINE_RE.search(description)
     line_pair = None
     if line_match:
-        line_pair = (line_match.group(1).strip(), line_match.group(2).strip())
+        line_pair = (line_match.group(1).strip(" .,;"), line_match.group(2).strip(" .,;"))
+
+    if not substations and not line_pair:
+        plants = [m.strip(" .,;") for m in PLANT_RE.findall(description)]
+        if plants:
+            substations = plants
+
     return substations, line_pair
+
 
 
 def build_case_diagram(description, out_path, dpi=110):

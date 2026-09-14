@@ -1,0 +1,243 @@
+Estudio para análisis de falla EAF 564/2024
+“Desconexión forzada de línea 66 kV Linares - Chacahuín”
+Fecha de Emisión: 26-12-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 04/12/2024
+Hora 15:31
+Consumos desconectados (MW) 32.70
+Demanda previa del sistema (MW) 10766
+Porcentaje de desconexión 0.304 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Linares - Chacahuín / LT191CI1TR01----T002
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Andrés Kuhlmann J.
+Dirección Orinoco 90, piso 14, Las Condes, Santiago
+c. Identificación del elemento fallado
+Excedente de generación proveniente desde la red de distribución de S/E
+Nombre del elemento fallado
+Chacahuín / SE100T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Ivan Arístides Quezada Escobar
+Av. Presidente Riesco N° 5561 piso 14, Las Condes, Región Metropolitana
+Dirección
+de Santiago.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Linares - Chacahuín por la operación de las
+protecciones de sobrecorriente de fase del paño B3 de S/E Linares, debido a un aumento del flujo de
+corriente por la línea producto del incremento de la generación proveniente de los PMGD de la zona,
+particularmente aquellos conectados a las redes de distribución de S/E Chacahuín.
+d.2 Fenómeno Físico:
+DIS2: Sobrecarga.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondientes a los Estudios de Análisis de Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA FENOMENO_FISICO ACCIONES_CORRECTIVAS
+La empresa Transelec S.A. señala que “en acuerdo con el CEN y
+para evitar reiteraciones de este evento, se realizó un cambio
+Desconexión forzada de
+de ajuste donde se aumenta el ángulo de inclinación de la
+EAF 448-2022 la línea 154 kV Charrúa - 09-12-2022 DIS2: Sobrecarga.
+función mordisco de carga para, disminuyendo la zona
+Parral
+protegida, brindar mayor flexibilidad ante situaciones
+operacionales indeseadas con carga altamente reactiva”.
+La empresa Transelec S.A. señala que “en acuerdo con el CEN y
+para evitar reiteraciones de este evento, se realizó un cambio
+Desconexión forzada de
+de ajuste donde se aumenta el ángulo de inclinación de la
+EAF 451-2022 la línea 154 kV Charrúa - 09-12-2022 DIS2: Sobrecarga.
+función mordisco de carga para, disminuyendo la zona
+Parral
+protegida, brindar mayor flexibilidad ante situaciones
+operacionales indeseadas con carga altamente reactiva”.
+La empresa Transelec S.A. señala que “en acuerdo con el CEN y
+para evitar reiteraciones de este evento, se realizó un cambio
+Desconexión forzada de
+de ajuste donde se aumenta el ángulo de inclinación de la
+EAF 470-2022 la línea 154 kV Charrúa - 09-12-2022 DIS2: Sobrecarga.
+función mordisco de carga para, disminuyendo la zona
+Parral
+protegida, brindar mayor flexibilidad ante situaciones
+operacionales indeseadas con carga altamente reactiva”.
+La empresa Transelec S.A. señala que “en acuerdo con el CEN y
+para evitar reiteraciones de este evento, se realizó un cambio
+Desconexión forzada de
+de ajuste donde se aumenta el ángulo de inclinación de la
+EAF 471-2022 la línea 154 kV Charrúa - 09-12-2022 DIS2: Sobrecarga.
+función mordisco de carga para, disminuyendo la zona
+Parral
+protegida, brindar mayor flexibilidad ante situaciones
+operacionales indeseadas con carga altamente reactiva”.
+La empresa Transelec S.A. señala que “en acuerdo con el CEN y
+para evitar reiteraciones de este evento, se realizó un cambio
+Desconexión forzada de
+de ajuste donde se aumenta el ángulo de inclinación de la
+EAF 473-2022 la línea 154 kV Charrúa - 16-12-2022 DIS2: Sobrecarga.
+función mordisco de carga para, disminuyendo la zona
+Parral
+protegida, brindar mayor flexibilidad ante situaciones
+operacionales indeseadas con carga altamente reactiva”.
+Apertura intempestiva del La empresa Transelec S.A. indica: “No Aplica. El
+EAF 024-2024 interruptor 52A4 de S/E 21-01-2024 DIS2: Sobrecarga. comportamiento de las instalaciones de Transelec fue
+Concepción correcto”.
+Desconexión forzada de
+EAF 064-2024 la línea 154 kV Itahue - 09-02-2024 DIS2: Sobrecarga. La empresa Transelec S.A. indica: “No Aplica.”
+Maule
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: no se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la desconexión forzada (operación de protecciones) corresponde a la
+línea 66 kV Linares - Chacahuín, la cual posee 0.5 km de largo aproximadamente, con un conductor
+por fase del tipo Cu 2/0 AWG, con una capacidad nominal de 244 [A] permanente a 25°C con sol
+(equivalente a 27.9 [MVA] a tensión nominal) y cuya fecha de puesta en servicio fue en el año 1980
+de acuerdo con los registros del Sistema Infotécnica del Coordinador.
+Por otra parte, la central que genera los excedentes intempestivos de generación que propician la
+desconexión forzada, corresponde al PMGD PFV San Antonio (denominado también La Ballica), el
+cual se conecta al alimentador Yerbas Buenas (paño C2) de S/E Chacahuín y tiene una potencia
+instalada de 9 MW.
+Transelec S.A. no remitió los antecedentes respecto de los mantenimientos realizados a este
+elemento durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+Compañía General de Electricidad S.A. señala Urbano y Rural para sus alimentadores. Luz Linares
+S.A. señala Rural para sus alimentadores.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+La empresa Transelec S.A. remite los siguientes antecedentes en respaldo a la proposición del origen
+de la falla:
+• Demanda de los últimos 24 meses.
+• Informe técnico de las posibles causas que propician la sobrecarga.
+• Ajuste de las protecciones de líneas y equipos involucrados.
+h. Comuna donde se presenta la falla
+7401: Linares
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(06/12/2024) (11/12/2024)
+Transelec S.A. 04/12/2024 11/12/2024
+CGE Transmisión S.A. 04/12/2024 17/12/2024
+Compañía General de Electricidad (CGE S.A.) 05/12/2024 09/12/2024
+Chilquinta Transmisión S.A. 05/12/2024 11/12/2024
+Luzlinares S.A. 04/12/2024 09/12/2024
+Hidroeléctrica Embalse Ancoa SpA 04/12/2024 No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+Embalse Ancoa 1 11.88 15:31 15:59
+Embalse Ancoa 2 11.95 15:31 15:54
+Total: 23.83 MW
+- Fechas, horas y montos señalados corresponden a la información obtenida desde los registros del SITR del Coordinador Eléctrico
+Nacional.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Linares - Chacahuín 66 kV ST Zonal 15:31 15:32
+Chacahuín - Panimávida 66 kV ST Zonal 15:31 15:35
+- Fechas y horas señaladas corresponden a lo informado por las empresas Transelec S.A. y Chilquinta Transmisión S.A.
+c. Consumos
+Pérdida de %
+Sub- Clientes
+Alimentador / Paño Comuna Consumo consumo H. Desc. H. Dispon. H. Norm.
+Estación Afectados
+(MW) pre-falla
+Chacahuín San Antonio / C1 Linares 5.40 0.050 9952 15:31 15:32 15:32
+Chacahuín Yerbas Buenas / C2 Linares 4.20 0.039 5868 15:31 15:32 15:32
+Linares,
+Yerbas
+Chacahuín Cunaco / C3 5.70 0.053 1431 15:31 15:32 15:32
+Buenas,
+Villa Alegre
+Linares,
+Chacahuín San Gabriel / C4 6.80 0.063 91 15:31 15:32 15:32
+Longaví
+Chacahuín Maipú / C5 Linares 3.70 0.034 4762 15:31 15:32 15:32
+Presidente Ibáñez /
+Chacahuín Linares 3.80 0.035 7814 15:31 15:32 15:32
+C6
+Panimávida Colbún / C1 Colbún 1.50 0.014 5647 15:31 15:35 15:35
+Colbún,
+Panimávida Panimávida / C2 1.60 0.015 5790 15:31 15:35 15:35
+Linares
+Total: 32.70 MW 0.304 % 41355
+- Horas y montos señalados corresponden a lo informado por Luz Linares S.A. y CGE S.A.
+3. Estimación de la energía no suministrada
+Pérdida de Tiempo
+Tipo de Tiempo ENS
+Sub-Estación Alimentador / Paño Empresa Consumo Indispon.
+Cliente Desc.(h) (MWh)
+(MW) (h)
+Chacahuín San Antonio / C1 CGE Regulado 5.40 0.02 0.02 0.1
+Chacahuín Yerbas Buenas / C2 CGE Regulado 4.20 0.02 0.02 0.1
+Chacahuín Cunaco / C3 CGE Regulado 5.70 0.02 0.02 0.1
+Chacahuín San Gabriel / C4 CGE Regulado 6.80 0.02 0.02 0.1
+Chacahuín Maipú / C5 CGE Regulado 3.70 0.02 0.02 0.1
+Chacahuín Presidente Ibáñez / C6 CGE Regulado 3.80 0.02 0.02 0.1
+Panimávida Colbún / C1 Luzlinares Regulado 1.50 0.07 0.07 0.1
+Panimávida Panimávida / C2 Luzlinares Regulado 1.60 0.07 0.07 0.1
+Clientes Regulados : 0.8 MWh
+Clientes Libres : MWh
+Total : 0.8 MWh
+- Montos señalados corresponden a lo informado por Luz Linares S.A. y CGE S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación real respecto de los horarios de
+disponibilidad de las barras primarias respectivas para recuperar consumos.
+- Velocidad promedio de recuperación.
+Velocidad de
+Rango
+Potencia Tiempo
+recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 26.16 0.02 1569.60
+Último 20 % 6.54 0.07 98.10
+100 % Total 32.70 0.07 490.50
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10766 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Canutillar (U1 y U2), Colbún (U1), El Toro (U1, U2, U3 y U4), PFV Diego Almagro Sur, Ralco
+(U1) y Rapel (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 04 de diciembre de
+2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 04 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+04 de diciembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 04 de
+diciembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por Transelec S.A.
+“A las 15:31 horas del 04 de diciembre de 2024, se produjo la desconexión forzada de la línea 66 kV
+Linares - Chacahuín, propiedad de Transelec, por operación de sus sistemas de protecciones,
+producto de una sobrecarga ocasionada por el aumento de las transferencias de potencia por esta
+línea. Cabe mencionar, que previo a la ocurrencia de la desconexión, se notificó al Coordinador
+Eléctrico Nacional (CEN) sobre la existencia de un riesgo de operación de protecciones, producto de
+un nivel elevado de carga en el paño B3 de S/E Linares, solicitando autorización para normalizar de
+inmediato en caso de producirse la apertura del interruptor. Al efectuarse el primer intento de cierre
+del interruptor B3 en S/E Linares, se produce la apertura del interruptor 52B1 en S/E Panimávida,
+producto de las condiciones sistémicas asociadas a un aumento en la corriente y disminución de la
+tensión en la línea, presuntamente debido a la perdida de sincronismo por la rápida reconexión
+manual. El interruptor 52B3 de S/E Linares se cierra a las 15:32 horas, normalizando la zona
+afectada de Chacahuín, mientras que a las 15:36 horas se cierra el interruptor 52B1 de S/E
+Panimávida en coordinación con Chilquinta”.
+Según lo informado por CGE Transmisión S.A.
+“A las 15:25 hrs. del día 04/12/2024 se produce la pérdida de suministro de SE Chacahuín desde la
+línea 66kV Linares – Ancoa de propiedad de Transelec, la cual se recupera inmediatamente”.
+Por otra parte, existieron instrucciones de parte del CDC del Coordinador a los CC de las empresas
+Chilquinta Transmisión S.A. y CGE Transmisión S.A., propietarias de las SS/EE Panimávida y

@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0514-2024",
+  "eaf_num": 514,
+  "year": 2024,
+  "description": "Desconexión forzada del transformador N°2 66/15 kV de S/E Cachapoal",
+  "date": "23-10-2024",
+  "time": "16:08",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/EAF-514-2024.pdf",
+  "case_id": "CASE-0092",
+  "event_datetime": "2024-10-23T16:08:00",
+  "fault_label": "transformer_fault",
+  "telemetry_available": true,
+  "diagram_source": "synthetic_fallback",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": null
+}

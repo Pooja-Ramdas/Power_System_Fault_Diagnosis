@@ -1,0 +1,382 @@
+Estudio para análisis de falla EAF 475/2024
+“Falla en línea 2x110 kV La Ruca - Ovalle N°1”
+Fecha de Emisión: 09-10-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 13/09/2024
+Hora 07:29
+Consumos desconectados (MW) 40.40
+Demanda previa del sistema (MW) 9985
+Porcentaje de desconexión 0.405 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 2x110 kV La Ruca - Ovalle C1 y C2, línea 2x110 kV La Ruca - El Peñón
+C2 / LT295CI1TR01----T0058, LT295CI2TR01----T0058 y LT294CI2TR01----
+T0058
+Tipo de instalación Línea de transmisión
+Tensión nominal 110 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 Piso 14, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 2x110 kV La Ruca - Ovalle C1 / LT295CI1TR01----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N° 5561 Piso 14, Las Condes
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 2x110 kV La Ruca - Ovalle y del circuito N°2 de la línea
+2x110 kV La Ruca - El Peñón, ante falla en el circuito N°1 de la línea 2x110 kV La Ruca - Ovalle,
+ocasionada por pérdida de aislación debido presumiblemente a la cercanía de algún objeto en la
+estructura N°55.
+d.2 Fenómeno Físico:
+DIS1: Pérdida de aislación.
+La empresa CGE Transmisión S.A. remite antecedentes (probatorios) con el fin de respaldar el
+fenómeno físico declarado.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+La empresa CGE Transmisión S.A señala las siguientes acciones correctivas
+de corto plazo:
+- “Inmediatamente se realiza revisión de las instalaciones, observándose
+daño en los aisladores Bushings de equipo compacto de medidas
+cabecera de alimentador Alto La Chimba, en el cual ocurrió falla con
+descarga durante faena de lavado de aislación, este compacto se
+encuentra instalado inmediatamente aguas abajo de 52E31, por lo cual
+Apertura del
+para poder eliminar el punto de falla y energizar las instalaciones se
+EAF 438-2022 interruptor 52E31 01-12-2022
+procedió a desconectar el compacto de medidas de red Media tensión”.
+de S/E La Portada
+- “Se paraliza faena de mantenimiento preventivo de lavado
+inmediatamente y se solicita a la empresa proveedora ejecutante de
+lavado aislación, el desarrollar una revisión de la técnica correcta de
+lavado indicada en instructivo.”.
+La empresa CGE Transmisión S.A señala las siguientes acciones correctivas
+de largo plazo:” Se realizará adquisición y planificará reemplazo de equipo
+compacto de medidas dañado.”
+La empresa CGE Transmisión S.A. indica como medida de corto plazo: “En
+mismo día 7 de marzo se realiza lavado de aislación programado con
+Falla en línea 66 anterioridad mediante solicitud 2023019032. Además, se realiza lavado de
+EAF 108-2023 kV Arenas Blancas 07-03-2023 aislación con desconexión de curso forzoso de estructura N°8 mediante
+- Puchoco solicitud 2023020554.”.
+La empresa CGE Transmisión S.A., como medida de largo plazo, indica que
+no aplica.
+La empresa CGE Transmisión S.A. indica como medida de corto plazo que,
+Desconexión debido a la contaminación presente en la zona, realizó lavado de aislación
+forzada de línea entre las estructuras N°38 y N°64 de la línea 66 kV Perales - Alonso de
+EAF 113-2023 07-03-2023
+66 kV Talcahuano Ribera, según solicitud de intervención de curso forzoso N°2023020664.
+- Perales La empresa CGE Transmisión S.A. indica como medida de largo plazo que
+“no se consideran” acciones correctivas a largo plazo
+La empresa CGE Transmisión S.A. señala lo siguiente como acciones
+correctivas de corto plazo:
+- “El 07/03/2023 a las 10:30 horas aproximadamente se reemplazó la
+aislación dañada en la estructura 86 de la LT 66 kV Loma Colorada –
+Falla en línea 66
+Escuadrón. Además, en esa misma oportunidad se realizó la limpieza
+EAF 118-2023 kV Loma Colorada 10-03-2023
+manual de toda la aislación de esa estructura.”
+- Escuadrón
+La empresa CGE Transmisión S.A. señala lo siguiente como acciones
+correctivas de largo plazo:
+- “Se ha programado Lavado de aislación de la línea Loma Colorada-
+Escuadrón para el día 5 de abril según Solicitud 2023027209.”
+La empresa CGE Transmisión S.A. señala: “Se programó una desconexión
+Falla en línea 66 por curso forzoso, con el fin de realizar el reemplazo del aislador y la
+EAF 132-2023 kV Hualañé - 18-03-2023 limpieza manual de los aisladores de las estructuras aledañas 29, 30, 32,
+Licantén 33 y 34 esto en la madrugada del 22 de marzo de acuerdo con la SD
+N°2023025016.”
+Desconexión La empresa CGE Transmisión S.A. indica que “debido a falla en pararrayos
+forzada de barra del Alimentador 52C6 Livilcar, se programará realizar a la brevedad
+EAF 422-2023 01-10-2023
+13.8 kV N°1 de medidas eléctricas a estos elementos para ver su condición final y se
+S/E Pukará reemplazarán los tres elementos en el mes de noviembre”.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+Falla en la línea 66 La empresa CGE Transmisión S.A. indica lo siguiente:
+EAF 444-2023 kV Tres Pinos - 18-10-2023 “Se realizará lavado de aislación de la línea 66 kV Tres Pinos - Lebu
+Lebu programada para el 15 de noviembre.”
+Falla en línea 66
+La empresa CGE Transmisión S.A. indica que “se realiza el reemplazo de la
+EAF 454-2023 kV Rancagua - 25-10-2023
+aislación con descarga”.
+Rosario
+La empresa CGE Transmisión S.A. indica lo siguiente:
+Falla en la línea 66 “Se realiza reemplazo de line post con señal de descargas en estructura E-
+EAF 455-2023 kV Tres Pinos - 26-10-2023 583.”
+Lebu “Se realizará lavado de aislación de la línea Tres Pinos-Lebu programada
+para el 15 de noviembre (solicitud CEN 2023098271).”
+La empresa CGE Transmisión S.A. indica lo siguiente:
+“Se realiza reemplazo de line post con señal de descargas en estructura E-
+583.”
+“Se realizará lavado de aislación de la línea Tres Pinos-Lebu programada
+para el 15 de noviembre (solicitud CEN 2023098271).”
+Falla en la línea 66 “Se realiza la corrección en la alimentación de Relé de Paño C3 de SE Lebu,
+EAF 456-2023 kV Tres Pinos - 27-10-2023 la cual presentaba un problema de contacto en conector J6 de dicho
+Lebu control.”
+La empresa Parque Eólico Lebu-Toro SpA indica lo siguiente:
+“Las protecciones de PEL, en caso de tener algún comportamiento
+inadecuado, serán revisadas por la empresa H. Briones, quienes son
+expertos en el manejo de estos equipos. De ser necesario, ante un
+comportamiento inadecuado, se realizaría una nueva configuración”.
+Falla en línea 66
+La empresa CGE Transmisión S.A. señala que: “Se realiza el cambio del
+EAF 480-2023 kV San Fernando - 04-11-2023
+aislador de la estructura N°121 de la línea 66 kV San Fernando - Teno.”
+Teno
+Falla en línea 66 La empresa CGE Transmisión S.A. indica: “El día 01-02-2024, mediante la
+EAF 036-2024 kV Los Maquis - 30-01-2024 SD 2024010903 se realiza el reemplazo de cadenas de aisladores con
+Hualañé evidencia de descarga”.
+Falla en línea 66 La empresa CGE Transmisión S.A. indica: “El día 01-02-2024, mediante la
+EAF 038-2024 kV Los Maquis - 31-01-2024 SD 2024010903 se realiza el reemplazo de cadenas de aisladores con
+Hualañé evidencia de descarga”.
+Falla en la línea 66
+La empresa CGE Transmisión S.A. señala: “Reemplazo de aislación E-93 y
+EAF 052-2024 kV Loma Colorada 07-02-2024
+limpieza manual de aislación estructura aledañas”.
+- Escuadrón
+Desconexión
+La empresa CGE Transmisión S.A. señala:
+forzada de los - “Se detectó diferencia de fecha, en los relés de protección, esta
+transformadores
+EAF 167-2024 21-04-2024 diferencia se corrigió el lunes 6 de mayo de 2024”.
+N°2 y N°3 66/23
+“El 22/05/2024 se realizó la reparación de mufa dañada del cable
+kV de S/E Tres
+subterráneo que une transformador T-3 con barra de 23 kV de Tres Pinos”.
+Pinos
+Desconexión
+La empresa CGE Transmisión S.A. señala:
+forzada de los - “Se detectó diferencia de fecha, en los relés de protección, esta
+transformadores
+EAF 168-2024 22-04-2024 diferencia se corrigió el lunes 6 de mayo de 2024”.
+N°2 y N°3 66/23
+“El 22/05/2024 se realizó la reparación de mufa dañada del cable
+kV de S/E Tres
+subterráneo que une transformador T-3 con barra de 23 kV de Tres Pinos”.
+Pinos
+Acciones correctivas a corto plazo: La empresa CGE Transmisión S.A.
+señala: “Se realizó la reparación de la mufa terminal el miércoles 24 de
+Apertura abril, ejecutándose los trabajos según SD 2024041583 de curso forzoso”.
+automática del “El 22/05/2024 se realizó la reparación de mufa dañada del cable
+EAF 170-2024 14-05-2024
+interruptor 52CT2 subterráneo que une transformador T-3 con barra de 23 kV de Tres Pinos”.
+de S/E San Pedro Acciones correctivas a largo plazo: La empresa CGE Transmisión S.A. indica
+“No aplica”
+La empresa CGE S.A. no indica acciones correctivas.
+Desconexión
+La empresa CGE Transmisión S.A. indica: “Debido al daño sufrido en los
+forzada de la
+EAF 232-2024 31-05-2024 pararrayos del paño C5, se realizó el reemplazo de los tres elementos el
+barra N°2 13.8 kV
+10/06/2024 con SDº2024056377”.
+de S/E Pukará
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 2 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 026-2023 y EAF 204-2024.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al circuito N°1 de la línea 2x110 kV La Ruca - Ovalle,
+la cual posee las siguientes características de acuerdo con lo declarado por su propietario en la
+plataforma Infotécnica:
+• Primer tramo La Ruca – Est. 63A
+o Longitud: 70 m
+o Límite térmico permanente en verano con sol 25°C: 0.907 kA
+o Conductor: ACAR 456.03 mm2
+o Fecha entrada en operación: 23-01-2023
+• Segundo tramo Est. 63A – Ovalle
+o Longitud: 15.65 km
+o Límite térmico permanente en verano con sol 25°C: 0.35 kA
+o Conductor: ACSR 107.2 mm2
+o Fecha entrada en operación: 1953
+La empresa CGE Transmisión S.A. remitió antecedentes respecto de los mantenimientos realizados
+durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Compañía General de Electricidad S.A. indica “Rural” para los consumos afectados.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor o caso fortuito.
+h. Comuna donde se presenta la falla
+04301: Ovalle.
+i. Fecha de entrega de la información al Coordinador
+Coordinado
+Info
+(1
+rm
+5/
+e
+0
+d
+9
+e
+/ 2
+4
+0
+8
+2
+h
+4
+o
+)
+r as In
+(
+f
+2
+o
+5
+rm
+/0
+e
+9
+d
+/
+e
+2 0
+5
+2
+d
+4
+í
+)
+a s
+CGE Transmisión S.A. (CGET) 13/09/2024 01/10/2024
+Compañía General de Electricidad S.A. (CGE) 16/09/2024 26/09/2024
+Enel Generación Chile S.A. 13/09/2024 04/10/2024
+Sociedad Austral de Transmisión Troncal S.A. (SATT) 13/09/2024 30/09/2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+HP Los Molles U1 4.8 07:29 07:58
+Total: 4.8 MW
+- Los montos y horarios señalados corresponden a lo informado por la empresa Enel Generación Chile S.A.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+2x110 kV La Ruca - Ovalle ST Zonal La Ruca - Ovalle C1 07:29 10:48
+2x110 kV La Ruca - Ovalle ST Zonal La Ruca - Ovalle C2 07:29 07:41
+2x110 kV La Ruca - El Peñón ST Zonal La Ruca - El Peñón C2 07:29 07:39
+- Horas señaladas corresponden a lo informado por CGE Transmisión S.A. y SATT S.A.
+c. Consumos
+Es
+S
+ta
+u
+c
+b
+i
+-
+ón
+Alime
+P
+n
+a
+t
+ñ
+a
+o
+d or /
+Comuna
+P
+C
+é
+o
+r
+n
+d
+s
+id
+u
+a
+m
+d
+o
+e
+con
+%
+su mo
+A
+C
+fe
+li
+c
+e
+t
+n
+a
+t
+d
+e
+o
+s
+s De
+H
+s
+.
+c . Dis
+H
+p
+.
+o n. No
+H
+r
+.
+m .
+(MW) pre-falla
+El Sauce Quilatapia / C1 Combarbalá 0.40 0.004 1398 7:29 7:33 7:33
+Punitaqui Delirio / C1 Punitaqui 0.00 0.000 72 7:29 7:33 7:33
+Punitaqui El Hinojo / C2 Punitaqui 2.70 0.027 3743 7:29 7:33 7:33
+Punitaqui,
+Punitaqui Huaquelón / C3 Monte Patria, 0.50 0.005 2088 7:29 7:33 7:33
+Combarbalá
+Punitaqui,
+Punitaqui Los Mantos / C4 1.60 0.016 2484 7:29 7:33 7:33
+Ovalle
+Punitaqui MAP / C6 No informado 0.40 0.004 No informado 7:29 7:33 7:33
+Monte Patria Tulahuén / C1 Monte Patria 1.48 0.015 2168 7:29 7:41 7:41
+Monte Patria El Palqui / C2 Monte Patria 1.13 0.011 2614 7:29 7:41 7:41
+Monte Patria San Lorenzo / E1 Monte Patria 3.30 0.033 3319 7:29 7:41 7:41
+Monte Patria Bellavista / E2 Monte Patria 1.49 0.015 3332 7:29 7:41 7:41
+Ovalle Socos / E1 Ovalle 4.17 0.042 8500 7:29 7:41 7:41
+Ovalle Hospital / E2 Ovalle 3.56 0.036 8269 7:29 7:41 7:41
+Ovalle Recoleta / E3 Ovalle 3.50 0.035 6617 7:29 7:41 7:41
+Ovalle Sotaqui / E7 Ovalle 3.43 0.034 5105 7:29 7:41 7:41
+Ovalle Quebrada Seca / E4 Ovalle 3.92 0.039 3618 7:29 7:41 7:41
+Ovalle Delta / E5 Ovalle 3.80 0.038 102 7:29 7:41 7:41
+Ovalle Benavente / E6 Ovalle 2.56 0.026 2492 7:29 7:41 7:41
+Ovalle San Luis / E8 Ovalle 2.46 0.025 11133 7:29 7:41 7:41
+Total: 40.40 MW 0.405 % >67054
+- Fechas y horas corresponden a los señalado por las empresas CGE Transmisión S.A. y CGE S.A.
+3. Estimación de la energía no suministrada
+Alimentador / Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación
+Paño
+Empresa
+Cliente Consumo (MW) Indispon. (h) Desc.(h) (MWh)
+El Sauce Quilatapia / C1 CGE Regulado 0.40 0.07 0.07 0.0
+Punitaqui Delirio / C1 CGE Regulado 0.00 0.07 0.07 0.0
+Punitaqui El Hinojo / C2 CGE Regulado 2.70 0.07 0.07 0.2
+Punitaqui Huaquelón / C3 CGE Regulado 0.50 0.07 0.07 0.0
+Punitaqui Los Mantos / C4 CGE Regulado 1.60 0.07 0.07 0.1
+Punitaqui MAP / C6 CGE Regulado 0.40 0.07 0.07 0.0
+Monte Patria Tulahuén / C1 CGE Regulado 1.48 0.20 0.20 0.3
+Monte Patria El Palqui / C2 CGE Regulado 1.13 0.20 0.20 0.2
+Monte Patria San Lorenzo / E1 CGE Regulado 3.30 0.20 0.20 0.7
+Monte Patria Bellavista / E2 CGE Regulado 1.49 0.20 0.20 0.3
+Ovalle Socos / E1 CGE Regulado 4.17 0.20 0.20 0.8
+Ovalle Hospital / E2 CGE Regulado 3.56 0.20 0.20 0.7
+Ovalle Recoleta / E3 CGE Regulado 3.50 0.20 0.20 0.7
+Ovalle Sotaqui / E7 CGE Regulado 3.43 0.20 0.20 0.7
+Ovalle Quebrada Seca / E4 CGE Regulado 3.92 0.20 0.20 0.8
+Ovalle Delta / E5 CGE Regulado 3.80 0.20 0.20 0.8
+Ovalle Benavente / E6 CGE Regulado 2.56 0.20 0.20 0.5
+Ovalle San Luis / E8 CGE Regulado 2.46 0.20 0.20 0.5
+Clientes Regulados : 7.3 MWh
+Clientes Libres : MWh
+Total : 7.3 MWh
+- Los montos señalados corresponden a lo señalado por las empresas CGE Transmisión S.A. y CGE S.A.
+- Curva de recuperación esperada v/s recuperación real.

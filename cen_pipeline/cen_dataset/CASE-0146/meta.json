@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0462-2024",
+  "eaf_num": 462,
+  "year": 2024,
+  "description": "Falla en línea 66 kV Bombeo 2 (SGO) – Bombeo 3 (SGO)",
+  "date": "01-09-2024",
+  "time": "00:59",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/09/EAF-462-2024.pdf",
+  "case_id": "CASE-0146",
+  "event_datetime": "2024-09-01T00:59:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "synthetic_fallback",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": null
+}

@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0591-2024",
+  "eaf_num": 591,
+  "year": 2024,
+  "description": "Falla en línea 66 kV Los Peumos – Curacautín",
+  "date": "23-12-2024",
+  "time": "15:29",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2025/01/EAF-591-2024.pdf",
+  "case_id": "CASE-0014",
+  "event_datetime": "2024-12-23T15:29:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0014\\official_diagram.zip"
+}

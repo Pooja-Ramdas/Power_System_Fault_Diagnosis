@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0593-2024",
+  "eaf_num": 593,
+  "year": 2024,
+  "description": "Desconexión forzada de la línea 110 kV Maipo – Pirque",
+  "date": "25-12-2024",
+  "time": "08:10",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2025/04/EAF-593-2024-v2.pdf",
+  "case_id": "CASE-0011",
+  "event_datetime": "2024-12-25T08:10:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0011\\official_diagram.rar"
+}

@@ -1,0 +1,277 @@
+Estudio para análisis de falla EAF 560/2024
+“Desconexión forzada de barras 66 kV de S/E Talca”
+Fecha de Emisión: 20-12-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 30/11/2024
+Hora 21:56
+Consumos desconectados (MW) 95.40
+Demanda previa del sistema (MW) 10137.00
+Porcentaje de desconexión 0.941 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Talca / SE061T005
+Tipo de instalación Subestación
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 16, Las Condes, Santiago.
+c. Identificación del elemento fallado
+Protección GE-D60 (sistema 2) del paño B6 de S/E Talca /
+Nombre del elemento fallado
+SP040T0061SE061T0058
+Propietario elemento fallado Alfa Transmisora de Energía S.A.
+RUT 76.218.856-2
+Representante Legal Alan Heinen Alves Da Silva
+Dirección Av. Apoquindo 4501 Of 1501, Las Condes, Santiago.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de las barras N°1 y N°2 de 66 kV de S/E Talca, por operación de la
+protección diferencial de barras, en forma coincidente con la maniobra de cierre del desconectador
+89B6-1 de la mencionada subestación, ante una orden proveniente del alambrado de control de la
+protección GE-D60 del paño B6, de propiedad de Alfa Transmisora de Energía S.A., específicamente de
+la vía de control asociada a la función de falla de interruptor (50BF), la cual había sido habilitada
+durante el mismo día como parte de los trabajos de comisionamiento para la puesta en servicio de la
+S/E El Ruil.
+d.2 Fenómeno Físico
+OPE26: Falla en sistema de protección o control.
+La empresa Alfa Transmisora de Energía S.A. remite antecedentes para acreditar el origen de la falla.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se ha producido una falla en
+instalaciones del mismo propietario con un fenómeno físico similar (homologado), durante los últimos
+24 meses móviles, correspondiente al Estudio para Análisis de Falla de la siguiente tabla:
+FALLA ID NOMBRE FALLA FECHA FALLA HORA FALLA ACCIONES CORRECTIVAS CP ACCIONES CORRECTIVAS LP
+Alfa Transmisora de Energía S.A. señala:
+- “Se realizan pruebas de laboratorio para
+identificar la operación indebida de la
+protección S1 ABB RED670 de S/E Colbún,
+asociada a la LT 1x220 kV Colbún - Machicura,
+detectándose mal ajustada la función “Falla de
+Fusible” en su bloque lógico “SDDRFUF”.
+- “Se planificará una intervención en la protección
+Desconexión forzada
+sistema N°1 ABB RED670 en SE Colbún el 06-10-
+de la línea 220 kV
+EAF 415-2023 21-09-23 15:30 2023, asociada a la LT 220 kV Colbún - No se indican.
+Colbún - Central
+Machicura, para realizar un ajuste en la forma
+Machicura
+de operación de la función “Falla de Fusible”
+para ello se cargará modificación de acuerdo
+con el hallazgo detectado en pruebas de
+laboratorio. Adicionalmente se realiza
+intervención el día 28-09-2023 con SI
+2023088353, dejando inhabilitado el sistema
+N°1 de protecciones ABB RED670 y con
+limitación técnica N°2023001525”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada (paño B6 de S/E Talca) durante los últimos 24 meses móviles. Con
+respecto a las barras de 66 kV de S/E Talca, estas se han visto afectadas por fallas durante los últimos
+24 meses móviles, correspondientes a los Estudios para Análisis de Falla EAF 032-2024 y EAF 302-
+2024.
+d.4 Fenómeno eléctrico
+PR87T: Protección diferencial transformador.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al alambrado de control del sistema 2 de protección
+del paño B6 de S/E Talca, el cual, según lo informado por el propietario, es de la marca General Electric,
+modelo UR D60 y posee habilitadas las funciones 21/21N, 67/67N, 51/51N, 60, SOTF, 68 y 50BF.
+La empresa Alfa Transmisora de Energía S.A. remite información sobre el último mantenimiento
+realizado a la protección GE-D60 (sistema 2) del paño B6 de S/E Talca.
+f. Ubicación urbana o rural según DS 327/1997
+CGE S.A. indica lo siguiente: “Rural” y “Urbano”.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+La empresa Alfa Transmisora de Energía S.A. remite los siguientes antecedentes en respaldo a la
+proposición del origen de la falla:
+• Último mantenimiento del equipo que produce la falla.
+• Informe técnico de las causas que propician la falla.
+h. Comuna donde se presenta la falla
+7101: Talca
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(02-12-2024) (06-12-2024)
+Alfa Transmisora de Energía S.A. 01-12-2024 06-12-2024
+CGE Transmisión S.A. 01-12-2024 16-12-2024
+Compañía General de Electricidad S.A. (CGE) 02-12-2024 05-12-2024
+Luzlinares S.A. (Luzlinares) 02-12-2024 04-12-2024
+Arauco Bioenergía SpA 30-11-2024 15-12-2024
+Prime Energía Quickstart SpA. 01-12-2024 16-12-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+Viñales 1 32.0 21:56 00:46 (01/12/2024)
+Total: 32.0 MW
+- Los montos y horarios señalados corresponden a lo informado por la empresa Arauco Bioenergía SpA.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+21:56 22:01
+S/E Talca ST Zonal Barra 66 kV N°1
+22:05 22:52
+21:56 21:59
+S/E Talca ST Zonal Barra 66 kV N°2
+22:05 22:11
+21:56 22:00
+Maule - Talca 66 kV N°1 ST Zonal Maule - Talca 66 kV N°1
+22:05 22:11
+21:56 21:59
+Maule - Talca 66 kV N°2 ST Zonal Maule - San Miguel 66 kV N°2
+22:05 22:11
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+21:56 21:59
+Maule - Talca 66 kV N°2 ST Zonal San Miguel - Talca 66 kV N°2
+22:05 22:11
+21:56 22:01
+Itahue - Talca 2x66 kV ST Zonal Itahue - Talca 66 kV N°1
+22:05 22:52
+Itahue - Talca 2x66 kV ST Zonal Itahue - Talca 66 kV N°2 21:56 22:55
+Talca - La Palma 66 kV ST Zonal Talca - La Palma 66 kV 21:56 22:15
+Talca - Piduco 66 kV ST Zonal Talca - Piduco 66 kV 21:56 22:14
+S/E Talca ST Zonal Transformador N°1 66/15 kV 21:56 23:08
+S/E Talca ST Zonal Transformador N°2 66/15 kV 21:56 22:14
+S/E Talca ST Zonal Transformador N°4 66/15 kV 21:56 22:57
+S/E Planta Constitución ST Dedicado Transformador 66/6 kV 21:56 22:31
+S/E Planta Viñales ST Dedicado Barra 13.2 kV 21:56 22:29
+S/E Central San Javier ST Dedicado Transformador 66/23 kV 22:05 22:27
+- Las horas indicadas corresponden a lo informado por las empresas CGE Transmisión S.A., Alfa Transmisora de Energía S.A., Arauco
+Bioenergía SpA y Prime Energía Quickstart SpA, además del registro histórico del SCADA del Coordinador Eléctrico Nacional.
+c. Consumos
+Pérdida de
+Alimentador % consumo Clientes H. H. H.
+Subestación Comuna Consumo
+/Paño pre-falla afectados Desc. Dispon. Norm.
+(MW)
+Piduco El Prado / C1 Talca, Maule 4.00 0.039 8293 21:56 22:14 22:14
+Piduco Mercado / C2 Talca 2.50 0.025 4179 21:56 22:14 22:14
+Talca,
+Piduco Arena / C3 2.90 0.029 8739 21:56 22:14 22:14
+Pencahue
+Talca,
+Piduco Plaza / C4 5.20 0.051 6145 21:56 22:14 22:14
+Pencahue
+Piduco Pucará / C5 Talca, Maule 4.00 0.039 8885 21:56 22:14 22:14
+Talca Estación / C2 Talca 5.40 0.053 12338 21:56 22:14 22:14
+Talca Tabaco / C4 Talca, Maule 3.60 0.036 8768 21:56 22:14 22:14
+Talca Vaccaro / C5 Talca 7.20 0.071 11511 21:56 22:14 22:14
+San Javier Vaquería / E1 San Javier 0.30 0.003 458 21:56 22:15 22:15
+La Palma Centenario / C2 San Javier 2.80 0.028 6857 21:56 22:15 22:15
+San Javier,
+Orilla de Maule / Yerbas
+La Palma 1.60 0.016 2963 21:56 22:15 22:15
+C1 Buenas,
+Maule
+La Palma Las Rosas / C5 San Javier 3.10 0.031 7894 21:56 22:15 22:15
+San Javier,
+La Palma Pueblecillo / C6 0.50 0.005 1434 21:56 22:15 22:15
+Maule
+San Javier,
+Nirivilo Los Naranjos / E1 Constitución, 0.70 0.007 2545 21:56 22:15 22:15
+Empedrado
+San Javier,
+Nirivilo Santa Olga / E2 Cauquenes, 2.50 0.025 4128 21:56 22:15 22:15
+Empedrado
+Pérdida de
+Alimentador % consumo Clientes H. H. H.
+Subestación Comuna Consumo
+/Paño pre-falla afectados Desc. Dispon. Norm.
+(MW)
+Constitución,
+Constitución Falucho / E10 3.90 0.038 7581 21:56 22:15 22:15
+Curepto
+Villa Alegre,
+Villa Alegre Abate Molina / C1 2.70 0.027 5371 21:56 22:15 22:15
+San Javier
+Villa Alegre,
+San Javier,
+Villa Alegre La Finca / C2 0.60 0.006 824 21:56 22:15 22:15
+Yerbas
+Buenas
+Constitución Las
+Constitución Constitución 11.10 0.109 2244 21:56 22:15 22:15
+Cañas / E2
+Talca Regional / C1 Talca 3.50 0.035 1495 21:56 22:22 22:22
+Talca Ferroviario / C7 Talca 3.20 0.032 7843 21:56 22:22 22:22
+Constitución Santa María / E3 Constitución 2.20 0.022 9449 21:56 22:15 22:34
+Constitución,
+Constitución Purapel / E9 3.20 0.032 1357 21:56 22:15 22:34
+Empedrado
+Talca, Maule,
+Pencahue,
+Talca Gualleco / C8 4.10 0.040 6588 21:56 22:22 22:37
+Curepto,
+Constitución
+Talca Varoli / C14 Talca 4.70 0.046 4502 21:56 22:57 22:57
+Talca Duao / C15 Talca, Maule 5.30 0.052 10102 21:56 22:57 22:57
+21:56 22:01 22:01
+Talca, San
+Talca Huilquilemu / C9 0.90 0.009 5881
+Clemente
+22:05 22:57 22:57
+21:56 22:01 22:01
+Piedras Blancas /
+Talca Talca, Maule 3.70 0.036 1798
+C10
+22:05 22:57 22:57
+Total: 95.40 MW 0.941% 160172
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A., Luzlinares S.A. y CGE Transmisión S.A.
+3. Estimación de la energía no suministrada
+Alimentador Pérdida de Tiempo Tiempo ENS
+Subestación Empresa Tipo de cliente
+/Paño Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Piduco El Prado / C1 CGE Regulado 4.00 0.30 0.30 1.2
+Piduco Mercado / C2 CGE Regulado 2.50 0.30 0.30 0.8
+Piduco Arena / C3 CGE Regulado 2.90 0.30 0.30 0.9
+Piduco Plaza / C4 CGE Regulado 5.20 0.30 0.30 1.6
+Piduco Pucará / C5 CGE Regulado 4.00 0.30 0.30 1.2
+Talca Estación / C2 CGE Regulado 5.40 0.30 0.30 1.6
+Talca Tabaco / C4 CGE Regulado 3.60 0.30 0.30 1.1
+Talca Vaccaro / C5 CGE Regulado 7.20 0.30 0.30 2.2
+San Javier Vaquería / E1 CGE Regulado 0.30 0.32 0.32 0.1
+La Palma Centenario / C2 CGE Regulado 2.80 0.32 0.32 0.9
+La Palma Orilla de Maule / C1 CGE Regulado 1.60 0.32 0.32 0.5
+Alimentador Pérdida de Tiempo Tiempo ENS
+Subestación Empresa Tipo de cliente
+/Paño Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+La Palma Las Rosas / C5 CGE Regulado 3.10 0.32 0.32 1.0
+La Palma Pueblecillo / C6 CGE Regulado 0.50 0.32 0.32 0.2
+Nirivilo Los Naranjos / E1 CGE Regulado 0.70 0.32 0.32 0.2
+Nirivilo Santa Olga / E2 CGE Regulado 2.50 0.32 0.32 0.8
+Constitución Falucho / E10 CGE Regulado 3.90 0.32 0.32 1.2
+Villa Alegre Abate Molina / C1 CGE Regulado 2.70 0.32 0.32 0.9
+Villa Alegre La Finca / C2 CGE Regulado 0.60 0.32 0.32 0.2
+Constitución Las
+Constitución Luzlinares Regulado 11.10 0.32 0.32 3.5
+Cañas / E2
+Talca Regional / C1 CGE Regulado 3.50 0.43 0.43 1.5
+Talca Ferroviario / C7 CGE Regulado 3.20 0.43 0.43 1.4
+Constitución Santa María / E3 CGE Regulado 2.20 0.32 0.63 1.4
+Constitución Purapel / E9 CGE Regulado 3.20 0.32 0.63 2.0
+Talca Gualleco / C8 CGE Regulado 4.10 0.43 0.68 2.8
+Talca Varoli / C14 CGE Regulado 4.70 1.02 1.02 4.8
+Talca Duao / C15 CGE Regulado 5.30 1.02 1.02 5.4
+0.08 0.08 0.1
+Talca Huilquilemu / C9 CGE Regulado 0.90
+0.87 0.87 0.8
+0.08 0.08 0.3
+Piedras Blancas /
+Talca CGE Regulado 3.70
+C10
+0.87 0.87 3.2
+Clientes Regulados : 43.8 MWh
+Clientes Libres : MWh
+Total : 43.8 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A., Luzlinares S.A. y CGE Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+23:00
+22:45
+22:30
+22:15
+22:00
+% % % % % % % % % % % % % % % % % % % % % % % % % % % %
+4 7 0 5 9 5 9 6 7 0 1 5 5 6 9 3 5 6 8 1 5 7 0 5 0 5 6 0
+1 1 1 2 2 3 3 4 4 4 4 4 4 5 5 5 6 7 7 7 8 8 9 9 9 0
+1
+Recuperación Esperada Recuperación Real

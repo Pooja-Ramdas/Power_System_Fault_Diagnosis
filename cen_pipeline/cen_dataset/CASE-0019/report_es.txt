@@ -1,0 +1,191 @@
+Estudio para análisis de falla EAF 586/2024
+“Falla en línea 110 kV Concón - Reñaca”
+Fecha de Emisión: 10-01-2025
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 18/12/2024
+Hora 02:26
+Consumos desconectados (MW) 17.21
+Demanda previa del sistema (MW) 10304.9
+Porcentaje de desconexión 0.170 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Concón - Reñaca / LT015CI1TR02----R003
+Tipo de instalación Línea de transmisión
+Tensión nominal 110 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso
+3. Identificación del elemento fallado
+Nombre del elemento afectado Línea 110 kV Concón - Reñaca / LT015CI1TR02----R003
+Propietario elemento fallado Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea de 110 kV Concón - Reñaca, por medio de la operación
+de su protección de distancia residual, producto de una falla originada por intento de robo de conductor.
+d.2 Fenómeno Físico:
+ACC2: Intervención de terceros.
+La empresa Chilquinta Transmisión S.A. envía los probatorios para acreditar el fenómeno físico
+determinado por el Coordinador.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Chilquinta Transmisión S.A. indica:
+“El mismo día sábado 03 de junio del 2023, se instaló una nueva postación, que incluyó crucetas y
+Falla en línea 44 kV El
+EAF 239-2023 03-06-2023 aisladores de pedestal nuevos, junto con la reparación de las tres fases entre las estructuras N°144
+Melón - Túnel El Melón
+a N°146 del circuito 1 de la línea 44 kV El Melón - Túnel El Melón, quedando disponible para su
+explotación”.
+Falla en línea 44 kV Las
+EAF 335-2023 Vegas - FFCC Los Andes 07-08-2023 La empresa Chilquinta Transmisión S.A. no indica acciones correctivas.
+N°1
+Falla en línea 2x44 kV
+EAF 393-2023 05-09-2023 No se indican.
+Las Vegas - Rungue N°2
+Falla en línea 66 kV
+EAF 442-2023 Laguna Verde - San 17-10-2023 No se indican.
+Antonio N°1
+La empresa Chilquinta Transmisión S.A. indica: “El mismo día viernes 26 de enero de 2024, se instaló
+una nueva postación que incluyó crucetas y aisladores poliméricos de pedestal nuevos para la línea
+44 kV El Melón - Túnel El Melón, quedando disponible para su explotación. Es del caso señalar, que
+Falla en línea 44 kV El
+EAF 030-2024 26-01-2024 hemos tomado todas las medidas correctivas que pueden realizarse desde el ámbito eléctrico, y
+Melón - Túnel El Melón
+adicionalmente, informamos que hemos dejado estos antecedentes por escrito al organismo
+encargado de implementar las medidas de fiscalización y/o paralización de trabajos, como lo es la
+Dirección de Obras Municipales de la Ilustre Municipalidad de Nogales.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores de la línea de 110 kV Concón -
+Reñaca, la cual, de acuerdo con los datos ingresados por la empresa propietaria en la plataforma
+Infotécnica del Coordinador, cuenta con conductores Cu 2/0 AWG, con una longitud total de
+aproximadamente 2.53 km, y su puesta en servicio se produjo durante el año 1960.
+Al respecto, la empresa Chilquinta Transmisión S.A. remite los antecedentes correspondientes a los
+mantenimientos realizados a la línea de 110 kV Concón - Reñaca, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Chilquinta Distribución S.A. indica “Regulado”, para todos los alimentadores afectados.
+g. Proposición del propietario respecto del origen de la falla
+Externa.
+h. Comuna donde se presenta la falla
+05103: Concón.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (20-12-2024) Informe de 5 días (26-12-2024)
+Chilquinta Transmisión S.A. 18-12-2024 18-12-2024
+Chilquinta Distribución S.A. (Chilquinta Dx) 20-12-2024 20-12-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 110 kV ST Zonal Concón - Tap Reñaca 110KV C1 02:26 5:38
+- Los horarios señalados corresponden a lo informado por la empresa Chilquinta Transmisión S.A.
+c. Consumos
+Sub- Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Estación Paño Consumo pre-falla Afectados Desc. Dispon. Norm.
+(MW)
+Reñaca Glorias Navales / C3 Viña del Mar 5.00 0.050 8291 02:26 5:38 03:00
+Alejandro Navarrete /
+Reñaca Viña del Mar 1.94 0.020 7460 02:26 5:38 02:57
+C4
+Reñaca Jorge Montt / C8 Viña del Mar 2.69 0.030 6044 02:26 5:38 03:06
+Viña del Mar,
+Reñaca Costa Brava / C6 1.88 0.020 6527 02:26 5:38 03:15
+Concón
+Viña del Mar,
+Reñaca Reñaca / C4 1.81 0.020 6977 02:26 5:38 05:43
+Concón
+Reñaca Montemar / C6 Viña del Mar 1.37 0.010 3983 02:26 5:38 05:42
+Reñaca Gomez Carreño / C7 Viña del Mar 2.52 0.020 14709 02:26 5:38 05:42
+Total: 17.21 MW 0.170% 53991
+- Los montos y horarios señalados corresponden a lo informado por la empresa Chilquinta Distribución S.A.
+3. Estimación de la energía no suministrada
+Sub- Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Estación Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Reñaca Glorias Navales / C3 Chilquinta Dx Regulado 5.00 3.2 0.57 2.8
+Alejandro Navarrete /
+Reñaca Chilquinta Dx Regulado 1.94 3.2 0.52 1.0
+C4
+Reñaca Jorge Montt / C8 Chilquinta Dx Regulado 2.69 3.2 0.67 1.8
+Reñaca Costa Brava / C6 Chilquinta Dx Regulado 1.88 3.2 0.82 1.5
+Reñaca Reñaca / C4 Chilquinta Dx Regulado 1.81 3.2 3.28 5.9
+Reñaca Montemar / C6 Chilquinta Dx Regulado 1.37 3.2 3.27 4.5
+Reñaca Gomez Carreño / C7 Chilquinta Dx Regulado 2.52 3.2 3.27 8.2
+Clientes Regulados : 25.7 MWh
+Clientes Libres : MWh
+Total : 25.7 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Chilquinta Distribución S.A.
+- Curva de recuperación esperada v/s recuperación real.
+7:12
+6:00 5:38 5:42
+5:38
+4:48
+3:36
+3:15
+3:00 2:57 3:06
+2:24
+1:12
+0:00
+29% 40% 56% 67% 77% 85% 100%
+Recuperación real Recuperación esperada
+Se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados, esto por las recuperaciones anticipadas de algunos alimentadores por redes
+de MT.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 13.77 3.27 4.21
+Último 20 % 3.44 3.27 1.05
+100 % Total 17.21 3.27 5.26
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10304.9 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angamos (ANG2), Guacolda (U1 y U4), Ralco (U1 y U2) y Rapel (U1, U2 y U4).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 18 de diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 18 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+18 de diciembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 18 de
+diciembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa Chilquinta Transmisión S.A.:
+“A las 02:25 horas del miércoles 18 de diciembre de 2024, se produjo la desconexión forzada de la
+línea de transmisión 110 kV Concón – Reñaca circuito 1, accionada por la función de distancia de la
+protección, en particular por la zona 1, afectando los consumos de la subestación (S/E) Reñaca.
+El Área de Mantenimiento Transmisión había iniciado el patrullaje de la línea de transmisión 110 kV
+Concón – Reñaca circuito 1, de manera pedestre y con apoyo de vehículo aéreo no tripulado (RPAS),
+siendo posible localizar e identificar el fenómeno físico causante de la falla eléctrica, consistente en la
+intervención de terceros no autorizada en las instalaciones, quienes de manera temeraria, intentaron
+robar el conductor eléctrico de la fase media en la estructura de tracción N° 48, generándose en
+consecuencia, el fenómeno eléctrico correspondiente a una sobre corriente monofásica a tierra.
+Paralelamente, personal de mantenimiento se dirige a la subestación (S/E) Concón con el equipo
+localizador de fallas, para realizar la prueba de continuidad a los conductores eléctricos de la línea,
+encontrándose ésta normal, con continuidad mecánica y eléctrica en sus tres fases y en toda su
+extensión de 9,3 [Km], hasta el final de la línea en la subestación (S/E) Reñaca.
+Una vez finalizada la inspección y verificado el estado normal de todos los componentes de la
+instalación, se informa al Centro Control Transmisión de Chilquinta Transmisión S.A., que la línea se
+encuentra en condiciones para ser energizada nuevamente.
+El Centro Control Transmisión de Chilquinta Transmisión S.A., posteriormente solicita la autorización
+al Coordinador Eléctrico Nacional de la energización de la línea de transmisión 110 kV Concón – Reñaca
+circuito 1, la que se produce de manera exitosa.”.

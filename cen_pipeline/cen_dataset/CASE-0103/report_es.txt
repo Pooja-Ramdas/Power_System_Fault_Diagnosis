@@ -1,0 +1,135 @@
+Estudio para análisis de falla EAF 503/2024
+“Desconexión forzada de barra 23 kV N°1 de S/E Lampa”
+Fecha de Emisión: 05-11-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 12/10/2024
+Hora 00:06
+Consumos desconectados (MW) 52.22
+Demanda previa del sistema (MW) 9106
+Porcentaje de desconexión 0.617%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Lampa / SE020T0835
+Tipo de instalación Subestación
+Tensión nominal 220 y 23 kV
+Segmento Transmisión dedicada
+Propietario instalación fallada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes 441, Osorno
+c. Identificación del elemento fallado
+Nombre del elemento afectado Alimentador N°1 Acería - AZA
+Propietario elemento fallado Enel Distribución Chile S.A.
+RUT 96.800.570-7
+Representante Legal Víctor Tavera Olivos (Gerente General)
+Dirección Santa Rosa 76, piso 8, Santiago
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada del alimentador N°1 Acería - AZA de S/E Lampa mediante la
+apertura del interruptor 52ET3A de esta S/E, correspondiente al interruptor general de la barra N°1 23
+kV de la subestación y, a la vez, hacía las veces de cabecera del alimentador indicado.
+La causa de la desconexión forzada, de acuerdo con lo informado por STM S.A., se debió a “una
+perturbación en la red de MT del alimentador Acería”.
+d.2 Fenómeno Físico:
+OPE6: Fallas en instalaciones de terceros u en otro segmento.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido 1 falla en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 513/2023).
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+Si bien no se tienen detalles del punto de falla, se presume un incremento inesperado de la demanda
+o una falla al interior de las instalaciones del cliente. Sociedad Transmisora Metropolitana S.A. remitió
+los antecedentes respecto de los mantenimientos realizados a S/E Lampa durante los últimos 24
+meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Enel Distribución Chile S.A señala: Externa
+h. Comuna donde se presenta la falla
+13302: Lampa
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(14-10-2024) (18-10-2024)
+Enel Distribución Chile S.A. (Enel Distribución) 12-10-2024 23-12-2024
+Sociedad Transmisora Metropolitana S.A. (STM S.A.) 12-10-2024 17-10-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Lampa ST Dedicado Barra 23 kV N°1 00:06 02:01
+- Las horas indicadas corresponden a lo indicado por la empresa STM S.A.
+c. Consumos
+Sub-Estación Alimentador / Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Lampa Acería - AZA / NI Lampa 52.22 0.617 1 00:06 02:01 02:01
+Total: 52.22 MW 0.617 % 1
+- Los montos y horarios señalados corresponden a lo informado por las empresas Enel Distribución Chile S.A. y STM S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador / Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo Indispon. Desc. (MWh)
+(MW) (h) (h)
+Lampa Acería - AZA / NI Enel Distribución Regulado 52.22 1.92 1.92 107.8
+Clientes Regulados : 107.8 MWh
+Clientes Libres : MWh
+Total : 107.8 MWh
+- Los montos señalados corresponden a lo informado por las empresas Enel Distribución Chile S.A. y STM S.A.
+- Curva de recuperación esperada v/s recuperación real.
+2:24
+2:09
+1:55
+1:40
+1:26
+1:12
+0:57
+0:43
+0:28
+0:14
+0:00
+100.0%
+Recuperación real Recuperación esperada
+No se observan diferencias entre los horarios de recuperación real respecto de los horarios de
+disponibilidad de las barras primarias respectivas para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Tiempo
+Rango Potencia (MW) recuperación
+recuperación (h)
+(MW/h)
+Primer 80 % 44.98 1.92 23.43
+Último 20 % 11.24 1.92 5.85
+100 % Total 56.22 1.92 29.28
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9106 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales: Angamos (AN1 y
+ANG2), Angostura (U1 y U2), Colbún (U1 y U2), Guacolda (U1 y U3) y Rapel (U1, U2 y U3).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 12 de octubre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 12 de octubre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+12 de octubre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 12 de
+octubre de 2024.
+Estado y configuración previo a la falla
+Previo a la falla, el alimentador N°1 Acerías - AZA de S/E Lampa se alimentaba desde el transformador
+N°3A 220/23 kV, de forma radial y exclusiva.
+Otros antecedentes relevantes
+Según lo señalado por Sociedad Transmisora Metropolitana S.A.:
+“El pasado sábado 12 de octubre de 2024 a las 00:06 hrs, se produjo la OA del interruptor del lado MT
+(MT3) del Transformador N°3 de la S/E Lampa, debido a una perturbación en la red de MT del
+alimentador Acería”.
+“Como se puede apreciar en el unilineal […], el alimentador Acería (E1) es la única carga conectada a
+la barra 23kV n°1 de la S/E Lampa (Tx Dedicada) y el interruptor 52ET3 es el primer elemento de corte
+ante una falla o perturbación en la red MT o aguas abajo. Por lo tanto, la operación de este interruptor
+es lo correcto para despejar cualquier falla aguas debajo de la instalación (segmento Dx o Cliente) y
+no afecta ningún otro consumo (barra dedicada cliente libre).

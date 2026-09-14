@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0512-2024",
+  "eaf_num": 512,
+  "year": 2024,
+  "description": "Falla en la línea 66 kV Los Ángeles – Central Parque Eólico Los Buenos Aires",
+  "date": "23-10-2024",
+  "time": "08:12",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/EAF-512-2024.pdf",
+  "case_id": "CASE-0094",
+  "event_datetime": "2024-10-23T08:12:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "synthetic_fallback",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": null
+}

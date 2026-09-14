@@ -1,0 +1,294 @@
+Estudio para análisis de falla EAF 583/2024
+“Desconexión forzada de barras 66 kV de S/E Talca”
+Fecha de Emisión: 07-01-2025
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 15/12/2024
+Hora 01:14
+Consumos desconectados (MW) 52.60
+Demanda previa del sistema (MW) 8988.00
+Porcentaje de desconexión 0.585 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Talca / SE061T005
+Tipo de instalación Subestación
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 16, Las Condes, Santiago.
+c. Identificación del elemento fallado
+Alambrado de control del paño BT4 de S/E Talca /
+Nombre del elemento fallado
+PA021T0058SE061T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 16, Las Condes, Santiago.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de las barras N°1 y N°2 de 66 kV de S/E Talca, durante pruebas en
+la protección SEL-311C (sistema 2) del paño BT4, cuyo interruptor se encontraba abierto.
+Específicamente, se realizó una inyección de corrientes secundarias en las entradas de las fases B y C
+de la protección mencionada, las cuales circularon además hacia la protección diferencial de barras sin
+el adecuado bloqueo de los circuitos de control, provocando su operación.
+d.2 Fenómeno Físico
+OPE7: Error de operador. (*)
+(*) Fenómeno físico determinado por el Coordinador. La empresa CGE Transmisión S.A. propuso “OPE1: Trabajos en instalaciones”.
+La empresa CGE Transmisión S.A. remite antecedentes para acreditar el origen de la falla.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido 18 fallas en
+instalaciones del mismo propietario con un fenómeno físico similar (homologado), durante los últimos
+24 meses móviles, correspondiente al Estudio para Análisis de Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Apertura intempestiva
+EAF 483-2022 del interruptor 52C4 de 21-12-2022 La empresa CGE Transmisión S.A. indica que no aplica.
+S/E Paniahue
+Desconexión forzada La empresa CGE Transmisión S.A. indica: “Se revisará la
+del transformador N°1 parametrización del relé SEL 387 T1//T2, en específico la necesidad
+EAF 119-2023 11-03-2023
+66/23 kV de S/E de contar o no, con el WD2 activo para el grupo de ajuste cuando está
+Nirivilo solo T1 en servicio. Esta revisión se realizará durante el mes de abril”.
+La empresa CGE Transmisión S.A. señala que:
+“Al determinar la causa de operación, se deshabilitan todas las
+funciones de protecciones en SE Colchagua”.
+- “Adjudicatario de proyecto realiza un análisis de operación de
+protección para efectos de determinar la causa origen del evento,
+determinando una incorrecta habilitación de esquema en relé de
+futuro Paño B1 de SE Colchagua, el cual no se encontraba
+entregado a la operación. Se remite informe técnico de
+Apertura intempestiva
+adjudicatario, para el cual cabe señalar que CGE Transmisión está
+EAF 121-2023 del interruptor 52B1 de 12-03-2023
+de acuerdo con la determinación en cuanto a que la operación
+S/E San Fernando
+indeseada se debió a una incorrecta habilitación de esquema de
+protecciones diferencial de línea en extremo SE Colchagua, sin
+embargo no se encuentra de acuerdo con la conclusión que indica
+que este error se debe a falta de indicación Explicita en ECAP, lo
+anterior en consideración de la las faenas consideran bypass de
+Paño BT1 de SE Colchagua, en este sentido no existía forma de
+que este función opera correctamente, cuestión que debió se
+advertida por técnicos especialistas a cargo de la actividad”.
+La empresa CGE Transmisión S.A. señala que:
+“Se corrigió configuración del canal de comunicación para velocidad
+768kbps en ambos los extremos, máximo permitido por el equipo para
+este tipo de funcionalidades y el recomendado para este tipo de
+Apertura intempestiva
+esquemas de tele protección y diferencial de línea con fibra directa
+EAF 122-2023 del interruptor 52B1 de 13-03-2023
+entre ambos los extremos”.
+S/E San Fernando
+“Se realizó monitoreo del canal diferencial durante algunas horas,
+luego del cambio en ambos los extremos de la velocidad de
+comunicaciones, y no se verificó ningún tipo de falla asociada al canal
+dejando por lo tanto el canal estable”.
+La empresa CGE Transmisión S.A. indica lo siguiente: “Se
+Pérdida de suministro
+sobrescriben los registros de la protección asociada al Paño B4 de SE
+EAF 135-2023 de S/E Tap Cerro 21-03-2023
+Ejercito, se realizará la revisión y acciones correctivas necesarias para
+Chepe
+corregir este problema”.
+“Se realizará capacitación al personal en la operación manual de relés
+Apertura intempestiva
+Reyrolle ARGUS 7RS224”.
+EAF 148-2023 del interruptor 52C9 de 30-03-2023
+- “Se dejará en panel del paño en la Subestación Perales manual
+S/E Perales
+breve paso a paso para la operación del relé”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. señala que:
+Desconexión forzada “Se realiza apertura de válvula de paso que quedó cerrada”.
+del transformador “Se instruye incorporar dentro del procedimiento, la instalación de
+EAF 267-2023 16-06-2023
+regulador N°3 110/110 señal visual sobre válvulas de transformadores, cuando estas sean
+kV de S/E Quillota cerradas para fines de mantenimiento, evitando dejar cerrada de
+forma involuntaria”.
+Desconexión forzada
+del transformador N°2 La empresa CGE Transmisión S.A. señala que “No Aplica”.
+EAF 534-2023 13-12-2023
+66/15 kV de S/E San
+Francisco de Mostazal
+La empresa CGE Transmisión S.A. indica:
+“Se realizará Estudio para ajustar adecuadamente los parámetros
+Apertura intempestiva detectores de falla de las zonas 1 de las protecciones de los paños B1,
+EAF 039-2024 del interruptor 52B1 de 01-02-2024 B2 y B3 de SE Escuadrón. Fecha estimada: 30/04/2024.
+S/E Escuadrón Se implementará el Estudio de ajuste de los parámetros detectores de
+falla de las zonas 1 de las protecciones de los paños B1, B2 y B3 de
+SE Escuadrón. Fecha estimada: 31/05/2024”.
+Apertura intempestiva La empresa CGE Transmisión S.A. indica lo siguiente: “Se cambió el
+EAF 144-2024 del interruptor 52C11 09-04-2024 ajuste normal (350 A) al alternativo (500 A) para realizar las
+de S/E Chivilcán maniobras de transferencia de carga.”
+Interrupción de
+suministro en
+La empresa CGE Transmisión S.A. señala lo siguiente: “Se normaliza
+EAF 164-2024 transformador 66/15 18-04-2024
+seguro mecánico del equipo porta fusible de la fase central.”
+kV N°3 de S/E
+Pillanlelbún
+Orden de cierre no
+EAF 169-2024 exitosa del interruptor 22-04-2024 No se indican.
+52E1 de S/E San Javier
+Desconexión forzada
+La empresa CGE Transmisión S.A. señala lo siguiente: “El 11/05/2024
+de la barra 13.2 kV
+EAF 208-2024 10-05-2024 se reemplazó el desconectador 89C5-1 de S/E San Joaquín,
+N°2 de S/E San
+correspondiente al 52C5 Alimentador Antena ICF N° 2024048577.”
+Joaquín (CGE)
+Desconexión
+intempestiva de barra CGE Transmisión S.A. y Compañía General de Electricidad S.A. no
+EAF 210-2024 10-05-2024
+N°2 15 kV de S/E indican acciones correctivas de corto plazo.
+Alameda
+La empresa CGE Transmisión S.A. indica lo siguiente:
+“Se analizaron los eventos del relé SEL-387, junto con alarmas para
+Desconexión forzada descartar alguna operación mecánica propia del transformador.
+del transformador Nº10 Se informará limitación, para no ejecutar la trasferencia del BT al BR,
+EAF 235-2024 04-06-2024
+110/69/13.8 kV de S/E estando en servicio el T10 de S/E Pan de Azúcar. Fecha: 30/06/2024
+Pan de Azúcar Se compromete una revisión de proceso de elaboración de maniobras,
+planes generales y particulares de recuperación de servicio. Fecha:
+30/06/2024.”
+Desconexión forzada
+La empresa CGE Transmisión S.A. señala que “se realizará un análisis
+de la línea 66 kV
+EAF 427-2024 06-09-2024 para efectos de evitar que este tipo de maniobras genere la apertura
+Malloa Nueva -
+por activación de funciones de protección”.
+Pelequén
+Falla en el cierre del
+La empresa CGE Transmisión S.A. señala que “Se desactiva función
+EAF 521-2024 interruptor 52C2 de 26-10-2024
+HOT-LINE”.
+S/E Chimbarongo
+¡Error! No se La empresa CGE Transmisión S.A. indica: Relé no está sincronizado
+EAF 541-2024 encuentra el origen 09-11-2024
+con GMT 0, se incorporará la sincronización Horaria”.
+de la referencia.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada (alambrado de control del paño BT4 de S/E Talca) durante los últimos
+24 meses móviles. Con respecto a las barras de 66 kV de S/E Talca, estas se han visto afectadas por
+tres fallas durante los últimos 24 meses móviles, correspondientes a los Estudios para Análisis de Falla
+EAF 032-2024, EAF 302-2024 y EAF 560-2024.
+d.4 Fenómeno eléctrico
+PR87B: Protección diferencial de barra.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al alambrado de control del paño BT4 de S/E Talca,
+particularmente en las entradas de corriente de las fases B y C de la protección SEL-311C (sistema 2).
+La empresa CGE Transmisión S.A. no remite información sobre los mantenimientos realizados durante
+los últimos 24 meses al elemento donde se originó la falla.
+f. Ubicación urbana o rural según DS 327/1997
+CGE S.A. indica lo siguiente: “Rural” y “Urbano”.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+La empresa CGE Transmisión S.A. remite los siguientes antecedentes en respaldo a la proposición del
+origen de la falla:
+• Detalle pormenorizado del error específico cometido por el personal habilitado.
+h. Comuna donde se presenta la falla
+7101: Talca
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(17-12-2024) (20-12-2024)
+CGE Transmisión S.A. 15-12-2024 02-01-2025
+Alfa Transmisora de Energía S.A. 15-12-2024 No aplica
+Compañía General de Electricidad S.A. (CGE) 16-12-2024 17-12-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Talca ST Zonal Barra 66 kV N°1 01:14 01:17
+S/E Talca ST Zonal Barra 66 kV N°2 01:14 01:18
+Maule - Talca 66 kV N°1 ST Zonal Maule - Talca 66 kV N°1 01:14 01:18
+Maule - Talca 66 kV N°2 ST Zonal San Miguel - Talca 66 kV N°2 01:14 01:18
+Itahue - Talca 2x66 kV ST Zonal Itahue - Talca 66 kV N°1 01:14 01:17
+Itahue - Talca 2x66 kV ST Zonal Itahue - Talca 66 kV N°2 01:14 01:18
+Talca - El Ruil 66 kV N°1 ST Zonal Talca - El Ruil 66 kV N°1 01:14 01:20
+Talca - El Ruil 66 kV N°2 ST Zonal Talca - El Ruil 66 kV N°2 01:14 01:38
+Talca - Piduco 66 kV ST Zonal Talca - Piduco 66 kV 01:14 01:19
+S/E Talca ST Zonal Transformador N°1 66/15 kV 01:14 01:19
+S/E Talca ST Zonal Transformador N°2 66/15 kV 01:14 01:19
+- Las horas indicadas corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Pérdida de %
+Sub- Alimentador Clientes H. H. H.
+Comuna Consumo consumo
+Estación /Paño afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Talca Huilquilemu / C9 Talca, San Clemente 0.70 0.008 5886 01:14 01:17 01:17
+Talca Piedras Blancas / C10 Talca, Maule 2.80 0.031 1798 01:14 01:17 01:17
+Piduco El Prado / C1 Talca 3.20 0.036 8293 01:14 01:19 01:19
+Piduco Mercado / C2 Talca 2.20 0.024 4179 01:14 01:19 01:19
+Piduco Arenal / C3 Talca, Pencahue 5.00 0.056 8738 01:14 01:19 01:19
+Piduco Plaza / C4 Talca, Pencahue 4.10 0.046 6145 01:14 01:19 01:19
+Piduco Pucará / C5 Talca, Maule 5.00 0.056 11444 01:14 01:19 01:19
+Talca Regional / C1 Talca 3.00 0.033 1496 01:14 01:19 01:19
+Talca Ferroviario / C7 Talca 2.50 0.028 7754 01:14 01:19 01:19
+Talca, Maule, Pencahue,
+Talca Gualleco / C8 2.50 0.028 4023 01:14 01:19 01:19
+Constitución, Curepto
+Talca Estación / C2 Talca 4.40 0.049 12242 01:14 01:19 01:19
+Talca Tabaco / C4 Talca, Maule 7.50 0.083 18878 01:14 01:19 01:19
+Talca Vaccaro / C5 Talca 9.70 0.108 16013 01:14 01:19 01:19
+Total: 52.60 MW 0.585% 106889
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A. y CGE Transmisión S.A.
+3. Estimación de la energía no suministrada
+Alimentador Pérdida de Tiempo Tiempo ENS
+Subestación Empresa Tipo de cliente
+/Paño Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Talca Huilquilemu / C9 CGE Regulado 0.70 0.05 0.05 0.0
+Talca Piedras Blancas / C10 CGE Regulado 2.80 0.05 0.05 0.1
+Piduco El Prado / C1 CGE Regulado 3.20 0.08 0.08 0.3
+Piduco Mercado / C2 CGE Regulado 2.20 0.08 0.08 0.2
+Piduco Arenal / C3 CGE Regulado 5.00 0.08 0.08 0.4
+Piduco Plaza / C4 CGE Regulado 4.10 0.08 0.08 0.3
+Piduco Pucará / C5 CGE Regulado 5.00 0.08 0.08 0.4
+Talca Regional / C1 CGE Regulado 3.00 0.08 0.08 0.2
+Talca Ferroviario / C7 CGE Regulado 2.50 0.08 0.08 0.2
+Talca Gualleco / C8 CGE Regulado 2.50 0.08 0.08 0.2
+Talca Estación / C2 CGE Regulado 4.40 0.08 0.08 0.4
+Talca Tabaco / C4 CGE Regulado 7.50 0.08 0.08 0.6
+Talca Vaccaro / C5 CGE Regulado 9.70 0.08 0.08 0.8
+Clientes Regulados : 4.1 MWh
+Clientes Libres : MWh
+Total : 4.1 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A. y CGE Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+01:45
+01:30
+01:19 01:19 01:19 01:19 01:19 01:19 01:19 01:19 01:19 01:19 01:19
+01:17 01:17
+01:15 01:19 01:19 01:19 01:19 01:19 01:19 01:19 01:19 01:19 01:19 01:19
+01:17 01:17
+01:00
+00:45
+1% 7% 13% 17% 26% 34% 44% 49% 54% 59% 67% 82% 100%
+Recuperación esperada Recuperación real
+No se aprecian diferencias entre el horario de recuperación real respecto del horario de disponibilidad
+de la barra primaria respectiva.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Potencia
+Rango recuperación recuperación
+(MW)
+(h) (MW/h)
+Primer 80 % 42.08 0.08 526.00
+Último 20 % 10.52 0.08 131.50
+100 % Total 52.60 0.08 657.50
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8988.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Atacama (TG2B), El Toro (U1, U2, U3 y U4), Mejillones (IEM), Ralco (U1 y U2) y Rapel (U1 y
+U4).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 15 de diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 15 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+15 de diciembre de 2024.

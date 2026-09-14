@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0598-2024",
+  "eaf_num": 598,
+  "year": 2024,
+  "description": "Desconexión forzada de línea 66 kV Rancagua – Codegua",
+  "date": "27-12-2024",
+  "time": "04:55",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2025/01/EAF-598-2024.pdf",
+  "case_id": "CASE-0006",
+  "event_datetime": "2024-12-27T04:55:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0006\\official_diagram.zip"
+}

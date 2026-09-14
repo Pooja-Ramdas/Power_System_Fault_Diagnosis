@@ -1,0 +1,156 @@
+Estudio para análisis de falla EAF 544/2024
+“Desconexión forzada de la línea 110 kV Ovalle - Illapel”
+Fecha de Emisión: 03/12/2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 12/11/2024
+Hora 13:56
+Consumos desconectados (MW) 5.20
+Demanda previa del sistema (MW) 10319.88
+Porcentaje de desconexión 0.050 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Ovalle - Illapel / LT015CI1TR02----T0058 y LT015CI1TR03----
+T0058
+Tipo de instalación Línea
+Tensión nominal 110 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 P14, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Desconectador 89HT1-1 de S/E Central Combarbalá /
+DC01G0417PA001G0417SE002G0417
+Propietario elemento fallado Prime Energía Quickstart SpA
+RUT 76.452.055-6
+Representante Legal José Arosa (*)
+Dirección Cerro El Plomo 5630 piso 14, Las Condes.
+(*): Gerente General de la empresa Prime Energía Quickstart SpA obtenido de la plataforma REUC del Coordinador.
+d. Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52H3 de S/E Illapel, asociado a la línea 110 kV
+Ovalle - Illapel, por operación de su protección direccional de sobrecorriente residual ante una falla
+en el desconectador 89HT1-1 de S/E Central Combarbalá, asociado al tramo 110 kV Tap Off
+Estructura N°248 - S/E Central Combarbalá.
+La causa de la falla es atribuida al contacto de un toldo, arrastrado por el viento, con el conductor de
+la fase C del extremo energizado del desconectador 89HT1-1 de S/E Central Combarbalá, asociado al
+tramo 110 kV Tap Off Estructura N°248 - S/E Central Combarbalá. El mencionado toldo estaba siendo
+utilizado durante un mantenimiento en S/E Central Combarbalá (según SD N°2024112559).
+d.2 Fenómeno Físico:
+CLI2: Objeto llevado por el viento hacia los conductores.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al desconectador 89HT1-1 de S/E Central
+Combarbalá, asociado al tramo 110 kV Tap Off Estructura N°248 - S/E Central Combarbalá, el cual,
+de acuerdo con lo informado por su propietario en la plataforma Infotecnica del Coordinador, cuenta
+con las siguientes características:
+Corriente nominal / Corriente admisible de corta duración: 2.5 kA / 40 kA
+Motorizado, disposición horizontal de
+Tipo de desconectador:
+apertura central.
+Corriente nominal / Corriente admisible de corta duración: 2.5 kA / 40 kA
+Nivel de tensión: 123 kV
+Fecha de puesta en servicio: 15-09-2021
+Al respecto, la empresa Prime Energía Quickstart SpA no remite información de los mantenimientos
+realizados a la S/E Central Combarbalá durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+No informado.
+h. Comuna donde se presenta la falla
+4302: Combarbalá.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(14/11/2024) (19/11/2024)
+CGE Transmisión S.A. 12/11/2024 27/11/2024
+Minera Altos de Punitaqui Ltda No enviado No enviado
+Prime Energía Quickstart SpA 12/11/2024 02/12/2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 110 kV Illapel - Ovalle ST Zonal Tap Punitaqui - Illapel 13:56 14:33
+LT 110 kV Illapel - Ovalle ST Zonal Ovalle - Tap Punitaqui 13:56 14:33
+c. Consumos
+Sub- Alimentador/ Comuna Pérdida de % Clientes H. H. H. Norm.
+Estación Paño Consumo consumo Afectados Desc. Dispon.
+(MW) pre-falla
+Punitaqui - - 5.20 0.050 1 13:56 14:33 14:33
+Total: 5.20 MW 0.050 % 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+3. Estimación de la energía no suministrada
+Sub- Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Estación Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Minera Altos de
+Punitaqui - Libre 5.20 0.62 0.62 3.2
+Punitaqui Ltda
+Clientes Regulados : MWh
+Clientes Libres : 3.2 MWh
+Total : 3.2 MWh
+- Los montos señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+1
+1
+1
+0
+0
+0
+0
+0
+6
+4
+2
+9
+7
+4
+2
+0
+:4
+:2
+:0
+:3
+:1
+:4
+:2
+:0
+8
+4
+0
+6
+2
+8
+4
+0
+R e c u p e ra c ió n e s p e ra d
+1
+a
+0 0 .0 %
+R e c u p e ra c ió n re a l
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real de los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 4.16 0.62 6.71
+Último 20 % 1.04 0.62 1.68
+100 % Total 5.20 0.62 8.39
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10319.88 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Canutillar (U1 y U2), Colbún (U1), El Toro (U1, U2 y U3), PFV Diego de Almagro Sur y Ralco
+(U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 12 de noviembre de
+2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 12 de noviembre de 2024.

@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0552-2024",
+  "eaf_num": 552,
+  "year": 2024,
+  "description": "Apertura intempestiva del interruptor 52F1 de S/E Quilmo II",
+  "date": "21-11-2024",
+  "time": "23:46",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/12/EAF-552-2024.pdf",
+  "case_id": "CASE-0054",
+  "event_datetime": "2024-11-21T23:46:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0054\\official_diagram.dwg"
+}

@@ -1,0 +1,193 @@
+Estudio para análisis de falla EAF 575/2024
+“Desconexión forzada de transformador 110/23 kV N°8 de S/E Chacabuco”
+Fecha de Emisión: 02-01-2025
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 10/12/2024
+Hora 03:28
+Consumos desconectados (MW) 13.78
+Demanda previa del sistema (MW) 8908
+Porcentaje de desconexión 0.155 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Transformador 110/23 kV N°8 de S/E Chacabuco / ET06T0054SE009T0835
+Tipo de instalación Subestación
+Tensión nominal 110/23 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+c. Identificación del elemento fallado
+Nombre del elemento fallado Pararrayos 23 kV del paño DT8 de S/E Chacabuco / PY16T0835SE009T0835
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada del transformador 110/23 kV N°8 de S/E Chacabuco por operación
+de su protección diferencial, debido a pérdida de aislación en pararrayos del paño DT8 de dicha
+subestación.
+d.2 Fenómeno Físico
+DIS1: Pérdida de aislación.
+La empresa Sociedad Transmisora Metropolitana S.A. envía antecedentes (probatorios) con la finalidad
+de respaldar el fenómeno físico declarado.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondiente al Estudio para Análisis de Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Sociedad Transmisora Metropolitana II S.A.
+señala:
+“Durante la atención de esta falla se identificó dañados dos
+aisladores (fase blanca y azul), los cuales tenían muestra de
+descarga eléctricas y de excremento de aves. El mismo día
+sábado 29 de abril de 2023 fueron remplazados estos
+aisladores”.
+Desconexión forzada de las “Durante la atención de esta falla, se identificó dañado el
+EAF 193_2023 barras 12 KV N°1 y N°3 de 29-04-2023 aislador de la fase azul. Este se encuentra contiguo al punto
+S/E Santa Rosa Sur de falla de la Barra MT1, la que operó unos milisegundos
+antes. Se reemplazo este aislador fallado y se normalizó la
+esta Barra”.
+“Para el mes de mayo de 2023 está programado un lavado de
+aislación con tensión a esta subestación. Durante el
+transcurso de este año se realizarán inspecciones para
+evaluar si se requiere realizar un lavado de aislación
+adicional”.
+La empresa Sociedad Transmisora Metropolitana II S.A.
+indica:
+“Ocurrida la operación del interruptor MT2P, se procedió a
+realizar las maniobras de realimentación de los clientes
+afectados. Al inspeccionar la sala de celdas, se identificó
+siniestrado el cubículo de la salida de cables de MT del
+Desconexión forzada de la alimentador Honduras”.
+EAF 262_2023 barra 12 kV N°2 de S/E Los 15-06-2023 “El viernes 16 de junio se procedió a trasladar el alimentador
+Domínicos Honduras desde la Barra MT3 a la Barra MT2 de S/E Los
+Domínicos. Adjuntamos los protocolos de pruebas de la
+protección de la nueva posición junto con el ECAP
+correspondiente”.
+“Durante el mes de julio 2023, se evaluará la viabilidad de
+recuperar la posición dañada del alimentador Honduras en la
+Barra MT3”.
+La empresa Sociedad Transmisora Metropolitana II S.A. indica
+que se revisó la instalación, identificando daño en los
+aisladores del desconectador lado barra principal del
+Desconexión forzada de
+alimentador Chicureo de S/E Batuco, procediendo a aislar la
+EAF 271_2023 barra 23 kV N°3 de S/E 22-06-2023
+zona afectada. Posteriormente, el domingo 25 de junio,
+Batuco
+mediante solicitud de desconexión de curso forzoso (SD
+N°2023057222), la empresa reemplazó todos los
+componentes dañados producto del arco eléctrico.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Sociedad Transmisora Metropolitana II S.A.
+señala:
+- “Ocurrida las operaciones automáticas, personal de la
+guardia de operaciones presente en la subestación, realizó
+una revisión visual de la Barra MT1 y de la Barra Auxiliar, sin
+identificar punto de falla visible. Acto seguido se coordinaron
+Desconexión forzada de las las pruebas de energización con resultado satisfactorio.
+EAF 479_2023 barras N°1 23 kV y Auxiliar 04-11-2023 Posteriormente personal de mantenimiento de equipos,
+23 kV de S/E San Pablo realizó una inspección exhaustiva de ambas barras,
+identificando descargas en 5 aisladores de soporte de barra.
+Específicamente 3 aisladores de la Barra Principal y 2
+aisladores de la Barra Auxiliar.
+Durante la madrugada del domingo 05 de noviembre
+mediante curso forzoso, se reemplazaron los 5 aisladores
+dañados”.
+Sociedad Transmisora Metropolitana II S.A. señala que
+“ocurrida la OA, inmediatamente se inició el patrullaje de la
+línea en forma pedestre y con drone encontrando signo de
+Falla en línea 110 kV Cerro descarga eléctrica en la estructura T58, en donde se encontró
+EAF 486_2023 08-11-2023
+Navia - Lo Aguirre N°2 signos de descarga en base de aislación y chisporroteos en
+conductor, tal como se observa en las fotografías. Durante el
+mes de diciembre 2023 se coordinará el reemplazo del
+aislador dañado.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido 1 falla en
+la misma instalación afectada durante los últimos 24 meses móviles, correspondiente al Estudio para
+análisis de Falla EAF 344-2023.
+d.4 Fenómeno eléctrico
+PR87T: Protección diferencial de transformador.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la falla corresponde al pararrayos del paño DT8 de S/E Chacabuco, del
+cual solo se tiene información de su tensión nominal (21 kV), de acuerdo con los registros del sistema
+Infotécnica del Coordinador.
+f. Ubicación urbana o rural según DS 327/1997
+Urbano.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+13125: Quilicura.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(12/12/2024) (17/12/2024)
+Sociedad Transmisora Metropolitana S.A. (STM) 10/12/2024 17/12/2024
+Enel Distribución Chile S.A. (Enel Distribución) 10/12/2024 19/12/2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Chacabuco ST Zonal Transformador 110/23 kV N°8 03:28 10:15
+S/E Chacabuco ST Zonal Barra 23 kV N°8 03:28 03:36
+- Las horas indicadas corresponden a lo informado por la empresa STM S.A.
+c. Consumos
+%
+Alimentador Pérdida de Clientes H. H. H.
+Subestación Comuna consumo
+/Paño Consumo (MW) afectados Desc. Dispon. Norm.
+pre-falla
+Chacabuco Galvarino No informado 2.02 0.023 121 3:28 3:36 3:37
+Chacabuco Sonda No informado 0.00 0.000 1 3:28 3:36 3:38
+Chacabuco Luna 2 No informado 0.00 0.000 1 3:28 3:36 3:38
+Chacabuco Cañaveral No informado 6.57 0.074 12254 3:28 3:36 3:38
+Chacabuco El Quillay No informado 0.75 0.008 83 3:28 3:36 3:38
+Chacabuco Galvarino No informado 0.68 0.008 563 3:28 3:36 3:47
+Chacabuco El Quillay No informado 0.80 0.009 98 3:28 3:36 5:11
+Chacabuco Galvarino No informado 1.63 0.018 1443 3:28 3:36 5:12
+Chacabuco El Quillay No informado 1.33 0.015 68 3:28 3:36 5:15
+Total: 13.78 MW 0.155 % 14632
+- Los montos y horarios señalados corresponden a lo informado por la empresa Enel Distribución Chile S.A.
+3. Estimación de la energía no suministrada
+Alimentador Tipo de Pérdida de Tiempo Tiempo ENS
+Subestación Empresa
+/Paño cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Chacabuco Galvarino Enel Distribución Regulado 2.02 0.13 0.15 0.3
+Chacabuco Sonda Enel Distribución Regulado 0.00 0.13 0.17 0.0
+Chacabuco Luna 2 Enel Distribución Regulado 0.00 0.13 0.17 0.0
+Chacabuco Cañaveral Enel Distribución Regulado 6.57 0.13 0.17 1.1
+Chacabuco El Quillay Enel Distribución Regulado 0.75 0.13 0.17 0.1
+Chacabuco Galvarino Enel Distribución Regulado 0.68 0.13 0.32 0.2
+Chacabuco El Quillay Enel Distribución Regulado 0.80 0.13 1.72 1.4
+Chacabuco Galvarino Enel Distribución Regulado 1.63 0.13 1.73 2.8
+Chacabuco El Quillay Enel Distribución Regulado 1.33 0.13 1.78 2.4
+Clientes Regulados : 8.3 MWh
+Clientes Libres : MWh
+Total : 8.3 MWh
+- Los montos señalados corresponden a lo informado por la empresa Enel Distribución Chile S.A.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecian diferencias de casi 2 horas entre el horario de recuperación real del último 12% de
+consumos, respecto del horario de disponibilidad de la barra primaria respectiva.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Potencia
+Rango recuperación recuperación
+(MW)
+(h) (MW/h)
+Primer 80 % 11.02 1.73 6.36
+Último 20 % 2.76 1.78 1.55
+100 % Total 13.78 1.78 7.73
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8908 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Atacama (TG2A y TG2B), El Toro (U1, U2, U3 y U4), Mejillones (CTM3 y IEM) y Ralco (U1 y
+U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 10 de diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 10 de diciembre de 2024.

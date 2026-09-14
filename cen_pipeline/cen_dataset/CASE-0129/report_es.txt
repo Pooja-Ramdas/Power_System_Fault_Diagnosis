@@ -1,0 +1,138 @@
+Estudio para análisis de falla EAF 479/2024
+“Desconexión forzada de barra 13.2 kV N°1 de S/E Teno”
+Fecha de Emisión: 11-10-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 17/09/2024
+Hora 08:46
+Consumos desconectados (MW) 6.30
+Demanda previa del sistema (MW) 9522.00
+Porcentaje de desconexión 0.066%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Teno / SE127T0058
+Tipo de instalación Subestación
+Tensión nominal 13.2 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 Piso 16, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Paño C8 de S/E Teno / PA058R0007SE127T0058
+Propietario elemento fallado Cooperativa de Abastecimiento de Energía Eléctrica Curicó Ltda.
+RUT 70.287.900-0
+Representante Legal Luis Alejandro Toledo Moreno (*)
+Dirección Camilo Henríquez N°153, Curicó.
+(*) Datos correspondientes al Gerente General de la empresa propietaria del elemento fallado, obtenidos de la plataforma REUC
+del Coordinador. No fueron remitidos los datos correspondientes al Representante Legal.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52CT1 de S/E Teno, correspondiente a la barra N°1
+13.2 kV de la mencionada S/E, por operación de su protección de sobrecorriente de fase, ante una
+falla ocurrida en el segmento de distribución, específicamente en el alimentador La Laguna, de
+propiedad de la empresa Cooperativa de Abastecimiento de Energía Eléctrica Curicó Ltda. (CEC Ltda.),
+la cual no fue despejada por las protecciones de la cabecera del alimentador (paño C8).
+La empresa CEC Ltda. no entregó los informes de falla de 48 horas y de 5 días, por lo que no se cuenta
+con información sobre el origen de la falla en sus instalaciones.
+d.2 Fenómeno Físico:
+OPE26: Falla en sistema de protección o control.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una falla
+en la misma instalación afectada, durante los últimos 24 meses móviles, correspondiente al Estudio
+para Análisis de Falla EAF 096-2024.
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se habría producido la falla corresponde al sistema de distribución ubicado aguas
+abajo del paño C8 de S/E Teno, la cual, según lo informado por la empresa CGE Transmisión S.A.,
+debió haber sido despejada por las protecciones asociadas a dicho paño.
+La empresa CEC Ltda. no envía información respecto a los mantenimientos realizados al elemento que
+debió haber despejado la falla, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa CGE S.A. indica “Urbano” y “Rural” para sus alimentadores afectados en S/E Teno.
+g. Proposición del propietario respecto del origen de la falla
+La empresa CGE Transmisión S.A. declara: “Externo”.
+h. Comuna donde se presenta la falla
+07308: Teno.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(19-09-2024) (27-09-2024)
+CGE Transmisión S.A. 17-09-2024 02-10-2024
+Compañía General de Electricidad S.A. (CGE S.A.) 19-09-2024 24-09-2024
+Cooperativa de Abastecimiento de Energía Eléctrica Curicó Ltda. (CEC Ltda.) No entregado No entregado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Teno ST Zonal Barra N°1 13.2 kV 08:46 10:13
+- Los horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Pérdida de %
+Alimentador / Clientes H. H.
+Sub-Estación Comuna Consumo consumo H. Norm.
+Paño Afectados Desc. Dispon.
+(MW) pre-falla
+S/E Teno Comalle / C1 Teno, Rauco 2.00 0.021 3964 08:46 10:13 09:06
+S/E Teno Vista Hermosa / C2 Teno 1.50 0.016 2388 08:46 10:13 09:25
+S/E Teno La Laguna / C8 N/I 2.00 0.021 2521 08:46 10:13 10:13 (*)
+S/E Teno Agrozzi / C3 Teno 0.80 0.008 23 08:46 10:13 10:19
+Total: 6.30 MW 0.066% 8896
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A. y CGE Transmisión S.A.
+- N/I: No informado.
+- (*): Se desconoce horario de normalización debido a que CEC Ltda. no entregó los Informes de Falla de 48 horas y de 5 días
+asociados a este evento. Se consideró el mismo horario de disponibilidad de la barra primaria respectiva.
+3. Estimación de la energía no suministrada
+Pérdida de Tiempo Tiempo
+Alimentador / Tipo de ENS
+Sub-Estación Empresa Consumo Indispon. Desc.
+Paño Cliente (MWh)
+(MW) (h) (h)
+S/E Teno Comalle / C1 CGE Regulado 2.00 1.45 0.33 0.7
+S/E Teno Vista Hermosa / C2 CGE Regulado 1.50 1.45 0.65 1.0
+S/E Teno La Laguna / C8 CEC Regulado 2.00 1.45 1.45 2.9
+S/E Teno Agrozzi / C3 CGE Regulado 0.80 1.45 1.55 1.2
+Clientes Regulados : 5.8 MWh
+Clientes Libres : MWh
+Total : 5.8 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A. y CGE Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+10:30
+10:19
+10:13
+10:15
+10:13 10:13 10:13 10:13
+10:00
+09:45
+09:30 09:25
+09:15
+09:06
+09:00
+08:45
+32% 56% 87% 100%
+Recuperación esperada Recuperación real
+El 56% de los consumos se recuperó en forma previa al horario de disponibilidad de la barra primaria
+respectiva.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación Velocidad de
+(h) recuperación (MW/h)
+Primer 80 % 5.04 1.45 3.48
+Último 20 % 1.26 1.55 0.81
+100 % Total 6.30 1.55 4.06
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9522.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Canutillar (U1 y
+U2), El Toro (U3 y U4), Nueva Renca (TG), Ralco (U1 y U2) y Taltal (U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 17 de septiembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 17 de septiembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+17 de septiembre de 2024.

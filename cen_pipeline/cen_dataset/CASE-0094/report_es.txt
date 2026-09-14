@@ -1,0 +1,399 @@
+Estudio para análisis de falla EAF 512/2024
+“Falla en la línea 66 kV Los Ángeles - Central Parque Eólico Los Buenos Aires”
+Fecha de Emisión: 15-11-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 23/10/2024
+Hora 08:12
+Consumos desconectados (MW) 37.04
+Demanda previa del sistema (MW) 9454.32
+Porcentaje de desconexión 0.390 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Barra 66 kV N°2 de S/E Los Ángeles / BA06T0058SE076T0058
+Tipo de instalación Barra
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 17, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 66 kV Los Ángeles - Central Parque Eólico Los Buenos Aires /
+LT299CI1TR01T0058ST01T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 17, Las Condes
+d.1 Origen y causa de la falla
+Se produjo la apertura automática de los interruptores 52B4 de S/E Los Ángeles y 52B1 de S/E Central
+Parque Eólico Los Buenos Aires, correspondientes a la línea 66 kV Los Ángeles - Central Parque Eólico
+Los Buenos Aires, por medio de la operación de sus sistemas de protecciones. Adicionalmente, en
+forma simultánea, se produjo la apertura automática del interruptor 52BT4 de S/E Los Ángeles,
+correspondiente a la barra 66 kV N°2 de dicha subestación, por medio de la operación de su protección
+de sobrecorriente residual, provocando pérdida de consumos adicionales.
+La empresa CGE Transmisión S.A. señala que la falla fue debido a daños en los aisladores de las
+estructuras N°83 y N°84 de la línea 66 kV Los Ángeles - Central Parque Eólico Los Buenos Aires,
+causados por la presencia de aves silvestres en el lugar.
+d.2 Fenómeno Físico:
+ANI1: Acción de animales, roedores o pájaros (por contacto directo u otro).
+Al respecto, la empresa CGE Transmisión S.A. remite los siguientes antecedentes en respaldo a la
+proposición del fenómeno físico declarado:
+• Registro Fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+• Número de veces que la instalación se ha visto afectada por esta causa (sin fallas previas por
+esta causa).
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por un
+fenómeno físico similar, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con un fenómeno físico similar, durante los últimos 24 meses.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Desconexión forzada del
+EAF 397_2022 transformador Nº2 de 28-10-2022 La empresa CGE Transmisión S.A. indica que no aplica.
+S/E Manso de Velasco
+Inhabilitar la protección de distancia electromecánica SLY81A 13D
+(sistema 2) en paño A7 de S/E Concepción, para realizar pruebas
+y evaluar su desempeño, considerando que existe un segundo
+sistema de protección que consiste en una diferencial de línea
+entre los interruptores 52A7 de S/E Concepción y los interruptores
+Desconexión de línea 154 52AT1 y 52AT2 de S/E Alonso de Ribera, implementadas en un relé
+EAF 412_2022 kV Concepción - Alonso 08-11-2022 digital SEL-387.
+de Ribera - Instalación de desviadores de vuelo en la línea 66 kV Alonso de
+Ribera - Colo Colo, entre las estructuras E19 y E20.
+- Remplazo de la protección de distancia electromecánica SLY81A
+13D (sistema 2) en paño A7 de S/E Concepción, por una protección
+de distancia digital.
+La empresa CGE Transmisión S.A. señala lo siguiente: “Se analizan
+eventos de relé SEL 387 T1. Se acude a la subestación y evalúan
+Desconexión del
+posibles daños a instalaciones. Se recibe información que un ave
+EAF 467_2022 transformador 115/14.2 15-12-2022
+habría producido descarga en instalación. Se descarta falla interna
+kV de S/E Las Compañías
+de transformador y decide solicitar su conexión.”
+“Se analizan eventos de relé SEL 387 T1.”
+La empresa CGE Transmisión S.A. indica: “Dada la saturación
+Desconexión del
+detectada en la corriente de la fase C del lado de media tensión,
+EAF 487_2022 transformador Nº4 66/15 23-12-2022
+se realizará una revisión del alambrado secundario de TTCC
+kV de S/E Talca
+asociados a Paño CT4”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+CGE Transmisión S.A. señala que se realizarán gestiones con la
+autoridad municipal para solicitar mayor fiscalización del sector
+comprendido entre las estructuras N°512 y N°548 de la línea 110
+kV Las Luces - Taltal, en donde se observa la aparición de basurales
+clandestinos, con acumulación de elementos y desechos orgánicos
+que atraen la presencia de aves carroñeras.
+Falla en línea 110 kV Las
+EAF 015-2023 11-01-2023 CGE Transmisión S.A. señala que se han instalado, en otras
+Luces - Taltal
+estructuras similares afectadas por aves, peinetas adicionales (en
+fase que sea posible sin acortar distancias) y disuasores de aves.
+Por lo anterior, y considerando que la estructura N°513, afectada
+por este evento, no cuenta con estos elementos, se considera
+realizar la instalación de estos dispositivos en una próxima
+desconexión programada del tramo de línea afectada.
+La empresa CGE Transmisión S.A. indica: “Al momento de los
+hechos, personal de CGE Transmisión se encontraba en
+subestación Combarbalá (por faenas programadas asociada a LT
+66 kV El Sauce - Combarbalá) y observó que algo había ocurrido
+en un pararrayos asociado al paño de transformación T1, por ende,
+la falla fue asociada inmediatamente a este hecho.
+Con esta información, se realizan maniobras locales para aislar
+equipo y se normalizan los consumos desde paño de
+transformación T3.
+Se ejecutan pruebas al transformador de poder T1, a los
+pararrayos y elementos fusibles que protegen al paralelo T1-T2.
+De dichas pruebas se determina que transformador, fusibles y
+pararrayos se encuentran íntegros para una nueva energización,
+Falla en línea 66 kV
+EAF 030_2023 26-01-2023 con excepción del pararrayos asociado a Fase 1 del transformador
+Illapel - Combarbalá
+T1.
+Se ejecutan maniobras para normalizar topología.
+El día 31 de enero se acude a la subestación Illapel para extraer
+eventos del paño B1, y al revisar esta información, se deduce que
+el día de la falla habrían ocurrido 2 eventos distintos, ya que la
+información de ambas operaciones no tenía misma fase fallada ni
+distancia de falla.
+Se solicita revisar LT por primer evento del relé, con distancia de
+falla 2,41 Km., desde S/E Illapel y se encuentra a los pies de
+estructura N°249 un ave muerta y descargas en aislación de fase
+3”.
+“Se realizará el reemplazo de pararrayos afectado en el
+transformador N°1 de S/E Combarbalá.”.
+La empresa CGE Transmisión S.A. indica: “Se detectó una
+diferencia horaria en el relé SEL-311C del paño BT6, el cual fue
+Falla en línea 66 kV El
+EAF 033_2023 29-01-2023 corregido durante la descarga de datos.
+Manco - Coronel Nº2
+En el relé SEL-311C del paño B1 de S/E El Manco se incluyó en los
+registros secuenciales las variables 79LO, 79RS y 79CY”.
+La empresa CGE Transmisión S.A. señala: “Se realiza
+sincronización reloj satelital y MCP1000 al momento de realizar la
+Apertura del interruptor
+EAF 084_2023 20-02-2023 descarga de los eventos”.
+52CT1 de S/E Tumbes
+“Reemplazo de pararrayos dañado y mediciones eléctricas al
+interruptor y aislación asociada al BBCC de S/E Tumbes”.
+La empresa CGE Transmisión S.A. indica: “Se analizan eventos. Ya
+realizado. Se realizan maniobras para aislar el banco de CCEE de
+la barra MT 23 kV en S/E El Peñón. Realizado el día de la falla.
+Desconexión forzada de Inspección exhaustiva del banco de condensadores”.
+EAF 133_2023 barra 23 kV de S/E El 19-03-2023 “Incorporación de sincronización horaria al relé SEL-311C en banco
+Peñón de CCEE. Pruebas eléctricas a todos los equipos del banco de
+CCEE. Reemplazo de equipos dañados según protocolos de
+pruebas ejecutadas. Sellar todas las posibles entradas de
+roedores con Espuma de Poliuretano Expansiva.”
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica lo siguiente:
+“El 29/03/2023 posterior a la falla se realiza el retiro carro
+interruptor desde celda paño E14 en S/E La Portada y se realiza
+transferencia de cargas de Alimentador Adasa a otros
+alimentadores de S/E La Portada, debido a la indisponibilidad
+operacional de interruptor 52E14 afectado por falla y con daños no
+reparables en lo inmediato.”
+“El 29/03/2023 desde las 17:00 horas en adelante se realiza
+sellado de accesos por ductos y trincheras que permiten entrada
+de roedores a switchgear de celdas, en sala eléctrica de S/E La
+Portada.”
+“Centro de control Transmisión informa a CEN la necesidad de
+utilizar el paño 52ET2 actualmente disponible en SE La Portada y
+con esto recuperar los consumos afectados, lo cual requiere
+trabajos en media Tensión para conexión de cargas a 52ET2,
+Desconexión forzada de configuración de Protección asociada con ajustes similares a 52E14
+EAF 145_2023 barra 23 kV N°1 de S/E 29-03-2023 para la carga a conectar y pruebas del relé utilizado.”
+La Portada “Se detecta un aumento descontrolado de roedores en los
+alrededores de S/E La Portada, por lo cual se tomará contacto con
+propietario de Arenera aledaña, para solicitar su acción con
+relación a ejecutar desratizaciones permanentes en sus
+instalaciones.”
+“Establecer comunicaciones con autoridades sectoriales dando a
+conocer del establecimiento de tomas irregulares tanto para
+vivienda como faenas de tipo industrial que generan desechos que
+atraen atraídos roedores, los que posteriormente se desplazan a
+la Subestación.”
+“Debido a la proliferación de roedores en las cercanías de la SE La
+Portada, se aumentará la frecuencia actual de dos meses de
+desratizado de la instalación, que en adelante se realizará cada un
+mes.”
+“Se realizará sellado de ductos y trincheras en patio de
+Subestación La Portada.”
+La empresa CGE Transmisión S.A. señala: “El día 03/04/2023 de
+realizó Control de plagas en S/E Tumbes. Se adjuntan informes en
+Desconexión del
+los anexos”.
+EAF 146_2023 transformador Nº1 66/15 29-03-2023
+“Se incorporará en el plan de inversiones el reemplazo de las
+kV de S/E Tumbes
+protecciones electromecánicas a digitales para mejorar la
+reportabilidad de eventos”.
+La empresa CGE Transmisión S.A. indica: “Se realiza reemplazo de
+aislación con descarga en estructura N°18 de L66kV San
+Fernando-Placilla detectada en inspección pedestre realizada la
+Falla en línea de 66 kV madrugada del 08/05/2023 en momentos de la emergencia.
+EAF 205_2023 07-05-2023
+San Fernando - Puquillay Además, se realiza inspección pedestre e inspección con dron a
+L66kV San Fernando-Placilla y L66kV Placilla-Puquillay detectando
+descarga en conductor y cruceta y ave a nivel de piso con
+descargas”.
+La empresa CGE Transmisión S.A. indica lo siguiente: “Se
+Falla en línea 66 kV Parral
+EAF 215_2023 18-05-2023 considerará la instalación de streamer shields en los 3 linepost de
+- Cauquenes
+la estructura N°54 y peinetas en la cruceta.”
+La empresa CGE Transmisión S.A. indica lo siguiente: “Corrección
+Desconexión de barra de la designación de fases en Control F6 del Paño ET1 de S/E
+EAF 232_2023 N°1 23 kV de S/E 30-05-2023 Constitución. Sincronización horaria del control F6 del interruptor
+Constitución 52ET1 de S/E Constitución. Reemplazo del interruptor 52ECE
+asociado al banco de condensadores de S/E Constitución”.
+CGE Transmisión S.A. señala que:
+“Se solicitará nuevamente gestiones a la autoridad municipal para
+pedir mayor fiscalización del sector, ahora comprendido entre las
+estructuras 500 y 548, en donde se observa la aparición de
+basurales clandestinos, con acumulación de elementos y desechos
+orgánicos que atraen la presencia de aves carroñeras.”
+“Se han instalado, en otras estructuras similares afectadas por
+aves, peinetas adicionales (en fase que sea posible sin acortar
+Falla en línea 110 kV Las
+EAF 270-2023 21-06-2023 distancias) y disuasores de aves, por lo anterior y considerando
+Luces - Taltal
+que la estructura ahora afectada N°507 no cuenta con estos
+elementos, se considera realizar la instalación de estos dispositivos
+en una próxima desconexión programada del tramo de línea
+afectada.”
+Minera Las Cenizas S.A. indica que:
+“Implementar un sistema que permita monitorear a distancia las
+subestaciones y poder interrogar los relés, para identificar las
+fallas.”
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+CGE Transmisión S.A. señala que: “Se han instalado, en otras
+estructuras similares afectadas por aves, peinetas adicionales (en
+fase que sea posible sin acortar distancias) y disuasores de aves,
+Falla en línea 110 kV Las
+EAF 299-2023 11-07-2023 por lo anterior y considerando que la estructura ahora afectada
+Luces - Taltal
+N°453 no cuenta con estos elementos, se considera realizar la
+instalación de estos dispositivos en una próxima desconexión
+programada del tramo de línea afectada”.
+La empresa CGE Transmisión S.A. indica que se realizó inspección
+visual al estado de la barra de 23 kV, para descartar algún daño
+ocasionado por el cortocircuito descartando esta situación. Se llevó
+Desconexión forzada de
+a cabo el reemplazo de fusibles y de bastones portafusibles
+EAF 302_2023 barra 23 kV de S/E 18-07-2023
+correspondientes a SSAA de la subestación, dañados por la
+Hernán Fuentes
+magnitud del cortocircuito. Se deben revisar los planos de la
+instalación para verificar el correcto alambrado de las señales de
+estado del interruptor hacia los relés de protección.
+Falla en barra de 66 kV de
+EAF 323_2023 31-07-2023 CGE Transmisión S.A. señala que “no aplica”.
+S/E Constitución
+La empresa CGE Transmisión S.A. indica:
+“Se analizan eventos de relé SEL 387 T1. Se acude a la subestación
+y evalúan posibles daños a instalaciones. Se encontró descarga en
+grillete de fijación de aislación a estructura de salida MT del
+Desconexión forzada del
+transformador. Se observan aves posadas en estructuras, con
+EAF 377_2023 transformador 115/14.2 26-08-2023
+dificultad para volar, por lo que se concluye que las descargas
+kV de S/E Las Compañías
+fueron provocadas por aves. Se descarta falla interna de
+transformador y decide solicita conexión”.
+“Se instalará protección aislada en las tres fases del cable de cobre
+que está en la zona de falla”.
+La empresa Sistema Austral de Transmisión Troncal S.A. S.A.
+Falla en línea 2x110 kV El señala que no hay acciones correctivas a corto plazo.
+EAF 390_2023 04-09-2023
+Peñón - La Ruca N°2 La empresa CGE Transmisión S.A. señala que “se corrige fecha en
+relé SEL 311C S2 del 03-09-23 al 04-09-2023”.
+CGE Transmisión S.A. señala que “se realizará análisis para
+Desconexión forzada de determinar la posibilidad de evitar la operación indeseada de Paño
+EAF 405_2023 línea 66 kV Punitaqui - El 13-09-2023 B1 de SE Punitaqui, frente a fallas aguas arriba considerando que
+Sauce la tensión permanece producto de plantas de generación de
+pequeña escala.”
+La empresa CGE Transmisión S.A. señala:
+“Con ocasión de la falla presentada, se procede al retiro del roedor
+encontrado en sector Transformadores de potenciales de paño CT1
+y se realiza el reemplazo de 3 fusibles dañados de media tensión
+del conjunto TTPP.
+Se realiza el sellado de ductos instalados por proyecto ampliación
+Desconexión forzada del
+S/E Centro (decreto), los cuales se encontraron con sus extremos
+transformador N°2
+EAF 420_2023 27-09-2023 abiertos, posibilitando en esta ocasión el ingreso de roedores hacia
+110/13.8 kV de S/E
+trincheras y Switchgear de media tensión.
+Centro
+Se realizará nueva revisión de trincheras y sellado de posibles
+puntos de ingreso de roedores a las celdas de MT de S/E Centro,
+ya que la empresa que ejecutaba ampliación en SE Centro
+desmovilizó a su personal, dejando las instalaciones en las cuales
+trabajaban, quedando algunas condiciones de riesgo por falta de
+sellado en canalizaciones tendidas.”
+- La empresa CGE Transmisión S.A. indica lo siguiente:
+“Se analizan eventos de relé SEL 387 T1. Se acude a la subestación
+y evalúan posibles daños a instalaciones. Se encontró ave con
+Desconexión forzada del
+descargas en patio lado MT del Transformador de Poder. Se
+EAF 450_2023 transformador N°1 21-10-2023
+descarta falla interna de transformador y se energiza exitosamente
+110/23 kV de S/E Vicuña
+el transformador.”
+- La empresa Compañía General de Electricidad S.A. no indica
+acciones correctivas.
+La empresa CGE Transmisión S.A. señala: “Se realiza reemplazo
+Desconexión forzada del
+del pararrayos dañados y reparación de fuga de aceite de
+transformador N°1
+EAF 493_2023 11-11-2023 transformador T-1 junto a sus mediciones eléctricas completas
+66/13.8 kV de S/E
+para verificar integridad del transformador, las cuales resultan
+Curanilahue
+exitosas.”
+La empresa CGE Transmisión S.A. señala lo siguiente:
+Falla en línea 66 kV “Se realizará la instalación de desviadores de vuelo entre E-31 y
+EAF 506_2023 Alonso de Ribera - Colo 18-11-2023 E-32 de la línea LT 66 kV Alonso de Ribera-Colocolo.”
+Colo “Existe una iniciativa de remplazo de protecciones de los paños B5
+y B6 en curso en el NUP 4295.”
+La empresa CGE Transmisión S.A. indica:
+Desconexión forzada de “Al día siguiente, 19 de febrero, se solicita la desconexión por
+EAF 078_2024 la barra 23 kV N°1 de S/E 18-02-2024 Curso Forzoso N°2024016714 para realizar limpieza de la
+Cabildo contaminación generada por la descarga y verificar el estado
+operacional del equipo.”
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. señala:
+Desconexión forzada de - “Se deberá sincronizar con horario UTC el relé SEL 387 del
+los transformadores N°1 transformador T2”.
+EAF 082_2024
+y N°2 154/66 kV de S/E
+20-02-2024
+- ”Se reemplazará el cable dañado. 30/06/2024”.
+Parral - “Se sellarán canaletas y ductos para evitar tránsito de roedores”.
+- “Se realizará cuando se reemplace el cable dañado 30/06/2024”.
+La empresa CGE Transmisión S.A. indica lo siguiente:
+- “Se retiraron del reporte de eventos SER las variables 59VS y
+59VP, de manera de evitar sobreescritura de registros relevantes
+en adelante.”
+- La empresa Sistema de Transmisión del Sur S.A. indica que no
+Falla en la línea 66 kV aplica.
+EAF 093_2024 Horcones - Curanilahue 02-03-2024 - La empresa Frontel S.A. no indica acciones correctivas a corto
+Norte plazo.
+- La empresa Parque Eólico Lebu - Toro SpA indica lo siguiente:
+“Las protecciones de PEL, en caso de tener algún comportamiento
+inadecuado, serán revisadas por la empresa H. Briones, quienes
+son expertos en el manejo de estos equipos. De ser necesario,
+ante un comportamiento inadecuado, se realizaría una nueva
+configuración.”
+La empresa CGE Transmisión S.A. indica que se agregará los
+Falla en línea 66 kV elementos 51G 51GT y 52A a los registros secuenciales (SER) para
+EAF 103_2024 Horcones - Curanilahue 10-03-2024 mejor entendimiento de futuras fallas en el relé SEL 311C del paño
+Norte 52BT2 de S/E Lebu según SD 2024030388 para el martes 2 de
+abril.
+La empresa CGE Transmisión S.A. indica lo siguiente:
+“Ocurrida la falla, personal de CGET realiza una revisión a distancia
+de las instalaciones, observándose que debido a la descarga
+ocasionada por ave en parte superior de equipo primario 52E30,
+existen daños en los bushings de lado fuente y carga de este
+equipo, lo cual imposibilita su puesta en servicio nuevamente. Por
+esta razón se procede a dejar fuera de servicio equipo 52E30,
+transfiriendo los consumos de este alimentador mediante red de
+Distribución para no afectar clientes finales. Se inicia la
+planificación para realizar reemplazo del equipo primario dañado a
+la brevedad posible. El reemplazo de equipo dañado se realiza
+Desconexión forzada de
+mediante solicitud de desconexión por curso forzoso SD
+EAF 106_2024 barra 23 kV N°3 de S/E 16-03-2024
+La Portada N°2024026968, que se adjunta, la cual se ejecutó con éxito el
+17/03/2024 entre las 01:14 y 04:53 horas, normalizándose la
+operación del equipo cabecera de Alimentador Arenales 52E30 en
+SE La Portada”.
+“Se estima que la proliferación de este tipo de aves(jote)se debe
+a los basurales clandestinos ubicados en las cercanías de la
+Subestación La Portada. La observación práctica muestra que
+estas aves por las noches buscan resguardo en las alturas, en este
+caso en postes y estructuras. Por ello, se incorporará un plan de
+chequeo al exterior y cercanías de la SE La Portada de modo de
+poder solicitar el retiro y/o control de dichos basurales clandestinos
+por parte de la autoridad competente, con el fin de lograr el
+alejamiento de estas aves de la subestación”.
+Desconexión del
+Las empresas CGE Transmisión S.A. y CGE S.A. no indican acciones
+EAF 163_2024 transformador 66/15 kV 18-04-2024
+correctivas de corto plazo.
+N°1 de S/E Pillanlelbún
+Falla en la línea 66 kV La empresa CGE Transmisión S.A. señala: “No aplica. Personal
+EAF 225_2024 17-06-2024
+Nahuelbuta - Angol verificó que no existían daños en la LT”.
+La empresa CGE Transmisión S.A. señala: “Se instalarán púas, las
+Desconexión forzada del
+cuales tendrán la finalidad de evitar el ingreso de animales en
+transformador N°5
+EAF 445_2024 23-08-2024 puntos energizados del transformador de poder y mitigar la
+154/66 kV de S/E
+ocurrencia de un evento de similares características. Fecha de
+Coronel
+ejecución 16 de septiembre.”.

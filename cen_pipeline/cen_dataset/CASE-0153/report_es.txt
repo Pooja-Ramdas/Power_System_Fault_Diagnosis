@@ -1,0 +1,181 @@
+Estudio para análisis de falla EAF 455/2024
+“Falla en línea 110 kV Puente Alto - Costanera”
+Fecha de Emisión: 23-09-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 28/08/2024
+Hora 20:18
+Consumos desconectados (MW) 56.75
+Demanda previa del sistema (MW) 10649.02
+Porcentaje de desconexión 0.533 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Puente Alto - Costanera / LT002CI1TR03T0055ST02T0055
+Tipo de instalación Línea
+Tensión nominal 110 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Transmisora Eléctrica Cordillera SpA
+RUT 77.282.314-2
+Representante Legal Mauricio Infante Esquerra (*)
+Dirección Veintiuno de Mayo 0164, Puente Alto, Región de Metropolitana de Santiago
+(*)
+(*) Datos correspondientes al Gerente General de la empresa propietaria de la instalación afectada, obtenidos de la plataforma
+REUC del Coordinador; no fueron remitidos los datos correspondientes al Representante Legal y dirección de la empresa.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 110 kV Puente Alto - Costanera / LT002CI1TR03T0055ST02T0055
+Propietario elemento fallado Transmisora Eléctrica Cordillera SpA
+RUT 77.282.314-2
+Representante Legal Mauricio Infante Esquerra (*)
+Dirección Veintiuno de Mayo 0164, Puente Alto, Región de Metropolitana de Santiago
+(*)
+(*) Datos correspondientes al Gerente General de la empresa propietaria de la instalación afectada, obtenidos de la plataforma
+REUC del Coordinador; no fueron remitidos los datos correspondientes al Representante Legal y dirección de la empresa.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 110 kV Puente Alto - Costanera por la apertura del
+interruptor 52H2 de S/E Puente Alto, debido a la operación de su protección de distancia en zona 1,
+provocada por el arco eléctrico ocasionado por contacto de volantín entre las estructuras Nº26 y Nº27.
+Adicionalmente, se produce la desconexión forzada de la línea 110 kV Las Vizcachas - Puente Alto por
+apertura automática de los interruptores 52H1 de S/E Las Vizcachas y 52H1 de S/E Puente Alto, debido
+a la operación de su protección diferencial de línea.
+d.2 Fenómeno Físico:
+CLI2: Objeto llevado por el viento hacia los conductores.
+La empresa Transmisora Eléctrica Cordillera SpA remites antecedentes (probatorios) con el fin de
+acreditar el origen de la falla.
+✓ Registro Fotográfico con fecha, hora y coordenadas del punto de falla.
+✓ Informe público y conocido que acredite condición del viento.
+✓ Especificar tipo de elemento arrastrado por el viento hacia los conductores.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se ha producido una
+falla en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado en este evento corresponde a la línea 1x110kV Puente Alto - Costanera, la cual
+tiene una longitud de 2.874 km, está compuesta por conductor AAC y cable de guardia OPGW de 79.9
+mm2, con una capacidad de 221.8 MVA (a 25ºC con sol a tensión nominal), de acuerdo con lo informado
+por su propietario en la plataforma Infotécnica del Cooordinador.
+Al respecto, la empresa Transmisora Eléctrica Cordillera SpA, adjunta información de los
+mantenimientos de esta instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Compañía General de Electricidad S.A. informa que la ubicación de sus consumos afectados
+es urbana.
+La Empresa Eléctrica Puente Alto S.A. no informa.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+h. Comuna donde se presenta la falla
+13201: Puente Alto.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(30-08-2024) (04-09-2024)
+Transmisora Eléctrica Cordillera SpA 29-08-2024 04-09-2024
+Compañía General de Electricidad S.A. 29-08-2024 03-09-2024
+Empresa Eléctrica Puente Alto S.A. No enviado 04-09-2024 *
+(*) Incorporado dentro de los antecedentes del IF de 5 días de la empresa Transmisora Eléctrica Cordillera SpA.
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 110 kV Vizcachas - Puente Alto ST Zonal Vizcachas - Puente Alto 20:18 22:28
+Línea 110 kV Puente Alto - Costanera ST Zonal Puente Alto - Costanera 20:18 22:48
+Línea 110 kV Puntilla - Puente Alto ST Dedicado Puntilla - Puente Alto 20:18 23:54
+S/E Puente Alto ST Zonal Barra 110 kV 20:18 22:31
+S/E Costanera ST Zonal Barra 110 kV 20:18 22:48
+S/E Puntilla ST Dedicado Barra 110 kV 20:18 23:54
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Costanera Aguirre Luco / C7 Puente Alto 5.87 0.055 1642* 20:18 22:48 20:34
+Santiago
+S/E Costanera Puente Alto 1.98 0.019 3123 20:18 22:48 20:37
+Menadier / C3
+S/E Costanera Industrial / C8 Puente Alto 4.43 0.042 412* 20:18 22:48 20:43
+S/E Costanera San Carlos / C9 Puente Alto 6.37 0.060 4885* 20:18 22:48 21:00
+Circunvalación /
+S/E Costanera Puente Alto 2.85 0.027 5278 20:18 22:48 21:39
+C6
+Cerro La Ballena /
+S/E Puente Alto Pirque 1.88 0.018 1022 20:18 22:31 22:50
+C1
+Cerro La Ballena /
+S/E Puente Alto Puente Alto 3.52 0.033 5308 20:18 22:31 22:50
+C1
+San José de
+S/E Puente Alto Casas Viejas / C2 4.72 0.044 3498 20:18 22:31 22:50
+Maipo
+S/E Puente Alto Casas Viejas / C2 Puente Alto 3.75 0.035 3638 20:18 22:31 22:50
+S/E Puente Alto Casas Viejas / C2 Pirque 0.03 0.000 3 20:18 22:31 22:50
+Camilo Henríquez
+S/E Puente Alto Puente Alto 3.51 0.033 2996* 20:18 22:31 22:52
+/ C6
+S/E Puente Alto Pie Andino / C10 Puente Alto 3.36 0.032 5310* 20:18 22:31 22:52
+Cajón del Maipo /
+S/E Puente Alto Puente Alto 2.56 0.024 5298* 20:18 22:31 22:53
+C4
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+San Francisco /
+S/E Puente Alto Puente Alto 7.67 0.072 5061* 20:18 22:31 22:53
+C5
+S/E Costanera Eyzaguirre / C5 Puente Alto 4.25 0.040 7702 20:18 22:48 23:37
+Total: 56.75 MW 0.533% 55176
+- Los montos y horarios señalados corresponden a lo informado por las empresas Compañía General de Electricidad S.A. y Eléctrica
+Puente Alto S.A.
+- (*) Incluye a clientes libres conectados a las redes de distribución.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Costanera Aguirre Luco / C7 EEPA Regulado 5.87* 2.50 0.27 1.6
+S/E Costanera Santiago Menadier / C3 EEPA Regulado 1.98 2.50 0.32 0.6
+S/E Costanera Industrial / C8 EEPA Regulado 4.43* 2.50 0.42 1.8
+S/E Costanera San Carlos / C9 EEPA Regulado 6.37* 2.50 0.70 4.5
+S/E Costanera Circunvalación / C6 EEPA Regulado 2.85 2.50 1.35 3.8
+S/E Puente Alto Cerro La Ballena / C1 CGE Regulado 1.88 2.22 2.53 4.8
+S/E Puente Alto Cerro La Ballena / C1 CGE Regulado 3.52 2.22 2.53 8.9
+S/E Puente Alto Casas Viejas / C2 CGE Regulado 4.72 2.22 2.53 12.0
+S/E Puente Alto Casas Viejas / C2 CGE Regulado 3.75 2.22 2.53 9.5
+S/E Puente Alto Casas Viejas / C2 CGE Regulado 0.03 2.22 2.53 0.1
+S/E Puente Alto Camilo Henríquez / C6 EEPA Regulado 3.51* 2.22 2.57 9.0
+S/E Puente Alto Pie Andino / C10 EEPA Regulado 3.36* 2.22 2.57 8.6
+S/E Puente Alto Cajón del Maipo / C4 EEPA Regulado 2.56* 2.22 2.58 6.6
+S/E Puente Alto San Francisco / C5 EEPA Regulado 7.67* 2.22 2.58 19.8
+S/E Costanera Eyzaguirre / C5 EEPA Regulado 4.25 2.50 3.32 14.1
+Clientes Regulados : 105.7 MWh
+Clientes Libres : MWh
+Total : 105.7 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Compañía General de Electricidad S.A. y Eléctrica
+Puente Alto S.A.
+- (*) Incluye a clientes libres conectados a las redes de distribución.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados. Se informan recuperación de consumos por redes de media tensión previos
+a la normalización de la línea.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 45.40 2.58 17.57
+Último 20 % 11.35 3.32 3.42
+100 % Total 56.75 3.32 17.11
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10649.02 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U1, U2 y U3), El Toro (U1, U2, U3 y U4), Mejillones (IEM), Nueva Renca (TG),
+Ralco (U1 y U2) y Rapel (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 28 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 28 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+28 de agosto de 2024.

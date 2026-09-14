@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0535-2024",
+  "eaf_num": 535,
+  "year": 2024,
+  "description": "Apertura intempestiva del interruptor 52CT1 de S/E Lord Cochrane",
+  "date": "06-11-2024",
+  "time": "17:46",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/EAF-535-2024.pdf",
+  "case_id": "CASE-0071",
+  "event_datetime": "2024-11-06T17:46:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0071\\official_diagram.dwg"
+}

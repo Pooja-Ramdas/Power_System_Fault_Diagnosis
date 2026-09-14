@@ -1,0 +1,135 @@
+Estudio para análisis de falla EAF 527/2024
+“Falla en el circuito N°1 de la línea 2x110 kV Ventanas - San Pedro”
+Fecha de Emisión: 22-11-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 01/11/2024
+Hora 06:54
+Consumos desconectados (MW) 16.90
+Demanda previa del sistema (MW) 8014.40
+Porcentaje de desconexión 0.211 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Tramo San Pedro - Tap Codelco Ventanas del circuito N°1 de la línea 2x110
+kV Ventanas - San Pedro / LT024CI2TR06----T061
+Tipo de instalación Línea
+Tensión nominal 110 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Compañía Transmisora del Norte Grande S.A.
+RUT 76.680.107-2
+Representante Legal Cristián Martinez Vergara
+Dirección Av. Argentina N°1 piso 9, Valparaíso.
+3. Identificación del elemento fallado
+Nombre del elemento afectado Tramo San Pedro - Tap Codelco Ventanas del circuito N°1 de la línea 2x110
+kV Ventanas - San Pedro / LT024CI2TR06----T061
+Propietario elemento fallado Compañía Transmisora del Norte Grande S.A.
+RUT 76.680.107-2
+Representante Legal Cristián Martinez Vergara
+Dirección Av. Argentina N°1 piso 9, Valparaíso.
+d.1 Origen y causa de la falla
+Se produjeron las aperturas automáticas de los interruptores 52H1 de S/E Ventanas y 52H1 de S/E
+San Pedro, asociados al circuito N°1 de la línea 2x110 kV Ventanas - San Pedro, y del interruptor 52H2
+de S/E Quillota, asociado a la línea 110 kV Quillota - San Pedro, por operación de sus respectivas
+protecciones ante una falla en la estructura N°29 de la línea 2x110 kV Ventanas - San Pedro.
+La causa de la falla es atribuida a una pérdida de aislación en el aislador polimérico de la fase superior
+de la estructura N°29 de la línea 2x110 kV Ventanas - San Pedro, por otra parte, la apertura del
+interruptor 52H2 de S/E Quillota se debe a una operación errónea de la protección diferencial de la
+línea.
+d.2 Fenómeno Físico:
+DIS1: Pérdida de aislación
+La empresa Compañía Transmisora del Norte Grande S.A. remite los antecedentes probatorios para
+acreditar el fenómeno físico.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una falla
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 200/2023).
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores del circuito N°1 de la línea 2x110
+kV San Pedro - Ventanas, la cual, de acuerdo con lo informado por su propietario en la plataforma
+Infotécnica del Coordinador, posee una longitud de 29.74 km con conductores del tipo ACCC, con una
+capacidad nominal de 221.5 MVA (permanente a 25°C con sol y a tensión nominal) y cuya entrada en
+operación fue durante el año 2000.
+Al respecto, la empresa Compañía Transmisora del Norte Grande S.A. remitió los antecedentes
+correspondientes a los mantenimientos realizados durante los últimos 24 meses a la línea 2x110 kV
+San Pedro - Ventanas.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+05105: Puchuncaví.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03-11-2024) (08-11-2024)
+Compañía Transmisora del Norte Grande S.A. (CTNG) 01-11-2024 08-11-2024
+Codelco Chile - División Ventanas (Codelco Ventanas) No enviado No enviado
+Transelec S.A. 01-11-2024 08-11-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 2x110 kV San Pedro - Ventanas N°1 ST Zonal San Pedro - Tap Codelco Ventanas 06:54 11:03
+LT 2x110 kV San Pedro - Ventanas N°1 ST Zonal Ventanas - Tap Codelco Ventanas 06:54 10:56
+LT 110 kV Quillota - San Pedro ST Zonal - 06:54 07:21
+- Los horarios señalados corresponden a lo informado por las empresas CTNG S.A. y Transelec S.A.
+c. Consumos
+Sub-Estación Alimentador Comuna Pérdida de % consumo Clientes H. H. H.
+/ Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Codelco Ventanas 1
+- SI 16.90 0.211 1 06:54 08:00 08:00
+Codelco Ventanas 2
+Total: 16.90 MW 0.211% 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa CTNG S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Codelco Ventanas 1
+Codelco
+- Libre 16.90 1.10 1.10 18.6
+Ventanas
+Codelco Ventanas 2
+Clientes Regulados : MWh
+Clientes Libres : 18.6 MWh
+Total : 18.6 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa CTNG S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para
+los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 13.52 1.10 12.29
+Último 20 % 3.38 1.10 3.07
+100 % Total 16.90 1.10 15.36
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8014.4 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Cipreses (U1), Colbún (U1), El Toro (U1, U2, U3 y U4), Mejillones (CTM3), Ralco (U1 y U2) y
+Rapel (U1, U2 y U4).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de noviembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de noviembre de 2024.
+08:24
+07:12
+06:00
+04:48
+03:36
+02:24
+01:12
+00:00
+R ecuperación real
+0088::0000
+100%
+R ecuperación esperada

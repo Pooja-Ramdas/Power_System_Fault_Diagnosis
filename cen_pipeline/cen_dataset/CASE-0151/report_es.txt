@@ -1,0 +1,187 @@
+Estudio para análisis de falla EAF 457/2024
+“Apertura automática del interruptor 52CT4 de S/E Central Queltehues”
+Fecha de Emisión: 24-09-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 29/08/2024
+Hora 23:51
+Consumos desconectados (MW) 0.15
+Demanda previa del sistema (MW) 10139.54
+Porcentaje de desconexión 0.000 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Transformador N°7 23/12 kV de S/E Central Queltehues /
+ET08G0010SE006G0010
+Tipo de instalación Transformador
+Tensión nominal 23 kV y 12 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada AES Andes S.A.
+RUT 94.272.000-9
+Representante Legal Javier Dib (*)
+Dirección Av. Los Conquistadores N°1730, oficina 1001.
+(*) Corresponde al Gerente General, obtenido desde la plataforma REUC del Coordinador.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Paño E2 de S/E Central Queltehues / PA024G0010SE006G0010
+Propietario elemento fallado AES Andes S.A.
+RUT 94.272.000-9
+Representante Legal Javier Dib (*)
+Dirección Av. Los Conquistadores N°1730, oficina 1001.
+(*) Corresponde al Gerente General, obtenido desde la plataforma REUC del Coordinador.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52CT4 de S/E Central Queltehues, asociado al
+transformador N°7 23/12 kV de dicha subestación, por medio de la operación de su protección de
+sobrecorriente de fases. Adicionalmente, en forma coincidente, se produjo la apertura automática del
+interruptor 52E2 de S/E Central Queltehues, por medio de la operación de su protección de
+sobrecorriente de fases.
+d.2 Fenómeno Físico:
+OPE6: Fallas en instalaciones de terceros u en otro segmento. (*)
+(*) Se presume en base a la operación de protecciones del alimentador 52E2 El Volcán de S/E
+Central Queltehues.
+La empresa AES Andes S.A. no entrega antecedentes probatorios para acreditar el fenómeno físico
+asociado al evento.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación sí ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles (EAF 253-2024).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una falla
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 253-2024).
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+La instalación afectada por la falla corresponde al transformador N°7 23/12 kV de S/E Central
+Queltehues, el cual, de acuerdo con lo informado por su propietario en la plataforma Infotécnica del
+Coordinador, cuenta con las siguientes características:
+Marca: ABB
+Potencia [MVA]: 10 MVA
+Tensión [kV]: 23/12 kV
+Grupo: YNd1
+Fecha de puesta en servicio: 26-03-2018
+La empresa AES Andes S.A. no remitió antecedentes respecto de los mantenimientos realizados en
+S/E Central Queltehues durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+Sin información.
+g. Proposición del propietario respecto del origen de la falla
+Interno.
+h. Comuna donde se presenta la falla
+13203: San José de Maipo.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (31-08-2024) Informe de 5 días (05-09-2024)
+AES Andes S.A. 30-08-2024 No enviado
+Aguas Andinas S.A. No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+11:46
+S/E Central Queltehues ST Dedicado Transformador N°7 23/12 kV 23:51
+(30-08-2024)
+- Los horarios señalados corresponden a lo informado por la empresa AES Andes S.A.
+c. Consumos
+Sub- Alimentador/ Comuna Pérdida de % Clientes H. H. H. Norm.
+Estación Paño Consumo consumo Afectados Desc. Dispon. (**)
+(MW) pre-falla (**)
+Central
+El Yeso / E1 SI 0.08* 0.000 23:51 11:46 11:46
+Queltehues
+1
+Central
+El Volcán / E2 SI 0.07* 0.000 23:51 11:46 12:00
+Queltehues
+Total: 0.15 MW 0.000 % 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa AES Andes S.A.
+- La empresa AES Andes S.A., en su Informe de Falla de 48 horas, menciona que los consumos afectados corresponden al
+cliente Aguas Andinas S.A.
+- (*) Como no se dispone del monto por cada alimentador, se divide el total informado entre la cantidad de alimentadores.
+- (**) Horario correspondiente al día 30 de agosto de 2024.
+- SI: Sin información.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Central
+El Yeso / E1 Aguas Andinas Libre 0.08* 11.92 11.92 1.0
+Queltehues
+Central
+El Volcán / E2 Aguas Andinas Libre 0.07* 11.92 12.15 0.9
+Queltehues
+Clientes Regulados : MWh
+Clientes Libres : 1.9 MWh
+Total : 1.9 MWh
+- Los montos señalados corresponden a lo informado por la empresa AES Andes S.A.
+- (*) Como no se dispone del monto por cada alimentador, se divide el total informado entre la cantidad de alimentadores.
+- Curva de recuperación esperada v/s recuperación real.
+12:02
+12:00
+12:00
+11:57
+11:54
+11:51
+11:48
+11:46
+11:45
+11:46 11:46
+11:42
+11:39
+11:36
+53% 100%
+Recuperación esperada Recuperación real
+No se aprecian diferencias significativas entre los horarios de recuperación esperada y recuperación
+real de los consumos afectados.
+- Velocidad promedio de recuperación.
+Potencia Tiempo recuperación Velocidad de recuperación
+Rango
+(MW) (h) (MW/h)
+Primer 80 % 0.12 12.15 0.01
+Último 20 % 0.03 12.15 0.00
+100 % Total 0.15 12.15 0.01
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10139.54 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales El Toro (U1), El
+Toro (U2), El Toro (U3), El Toro (U4), Mejillones (CTM3), Ralco (U1) y Ralco (U2).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa AES Andes S.A. en su Informe de Falla de 48 horas:
+“Protección de sobrecorriente temporizada de fase.”
+“AGUAS ANDINAS S.A. / Pérdida Estimada de Potencia:0.150 / Región: Metropolitana / Clientes
+Afectados: 1.”
+En función de los antecedentes presentados a la fecha de emisión del presente EAF, se solicitará la
+siguiente información:
+AES Andes S.A.:
+o Envío del Informe de Falla de 5 días asociado al evento en cuestión, con los registros
+oscilográficos y de eventos de las protecciones operadas en S/E Central Queltehues, junto con su
+respectivo análisis en base a sus ajustes.
+o Información respecto del origen y causa de la falla que provocó la desconexión forzada del
+transformador N°7 23/12 kV de S/E Central Queltehues, junto con sus correspondientes
+antecedentes respaldos y eventuales medidas correctivas para evitar su repetición. Ello, tomando
+en cuenta que existió operación de protecciones en el paño E2 de esta S/E, para efectos de
+normalizar alguna eventual pérdida de selectividad de las protecciones del paño CT4.
+o Antecedentes requeridos para el Fenómeno Físico asociado al evento en cuestión (OPE6: Fallas en
+instalaciones de terceros u en otro segmento), según Resolución Exenta SEC N°30989-2019, en
+particular la secuencia de operación de las protecciones, incluyendo un informe técnico (como
+operaron las protecciones y cómo debieron haber operado.).
+o Características de la instalación donde se produjo la falla. En particular, se deberá indicar: Marca
+del equipo, datos de placa, año de puesta en servicio, plan de mantención, vida útil del equipo, y
+si al momento de la falla existía algún retraso en inversiones pactadas en dicho equipo.
+o Datos de la empresa propietaria de la instalación fallada. En particular, se solicitará: Nombre
+Empresa, RUT, Representante Legal y Dirección.
+o Mantenimientos realizados a la S/E Central Queltehues, en particular del elemento fallado,
+durante los últimos 24 meses, junto con los antecedentes que acrediten su realización, indicando
+los principales hallazgos.
+Aguas Andinas S.A.:
+o Envío de los Informes de Falla de 48 horas y de 5 días asociado al evento en cuestión, con el
+detalle pormenorizado de los consumos afectados, junto con las eventuales maniobras realizadas
+para la recuperación de los consumos y normalización de las instalaciones.
+De forma complementaria, se adjuntan los informes de falla de instalaciones ingresados en el
+sistema del Coordinador Eléctrico Nacional por la empresa AES Andes S.A. (Anexo N°1), y otros
+antecedentes aportados por el Coordinador (Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa AES Andes S.A. señala: “Se investiga”
+c) Acciones correctivas a largo plazo:
+La empresa AES Andes S.A. señala: “Se investiga”

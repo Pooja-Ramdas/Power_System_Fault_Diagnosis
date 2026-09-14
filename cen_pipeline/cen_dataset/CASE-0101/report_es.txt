@@ -1,0 +1,328 @@
+Estudio para análisis de falla EAF 505/2024
+“Desconexión forzada del transformador N°3 110/23 kV de S/E Batuco”
+Fecha de Emisión: 06-11-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 14/10/2024
+Hora 20:33
+Consumos desconectados (MW) 14.89
+Demanda previa del sistema (MW) 9742.03
+Porcentaje de desconexión 0.153 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Batuco / SE005T0835
+Tipo de instalación Subestación
+Tensión nominal 110/23 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+c. Identificación del elemento fallado
+Nombre del elemento afectado Transformador N°3 110/23 kV de S/E Batuco / ET04T0835SE005T0835
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada del transformador N°3 110/23 kV de S/E Batuco por la operación
+automática de la válvula de alivio de presión del CTBC, dando paso a la apertura de los interruptores
+52HT3 y 52ET3 asociados a dicho transformador.
+La empresa Sociedad Transmisora Metropolitana S.A. atribuye la operación automática a la sulfatación
+de los switches de la válvula de alivio de presión del CTBC del transformador N°3.
+d.2 Fenómeno Físico:
+OPE26: Falla en sistema de protección o control
+La empresa Sociedad Transmisora Metropolitana S.A. entrega los siguientes antecedentes probatorios
+necesarios para acreditar el fenómeno físico:
+o Mantención de los últimos 24 meses del equipo involucrado.
+o Registro fotográfico del equipo involucrado.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa STM II S.A. señala:
+“Ocurrida la operación del interruptor MT3P, se procedió a realizar las
+maniobras de realimentación de los clientes afectados. Al analizar las
+alarmas recibidas se identificó una falla en el alimentador La Reina. Se
+Desconexión procedió a realizar las maniobras de normalización de la Barra MT3 principal.
+forzada de barra Al analizar los registros de las protecciones se identificó que la protección
+EAF 238-2023 03-06-2023
+12 kV N°3 de S/E del alimentador La Reina operó, pero su interruptor no abrió.
+La Reina El lunes 5 de junio de 2023, se realizó una revisión de todo el esquema de
+protección del alimentador La Reina (relé e interruptor). Se comprobó el
+correcto funcionamiento de la protección. Sin embargo, se identificó un
+problema intermitente en el mecanismo de apertura del interruptor
+(específicamente en el trinquete), el cual fue corregido.”
+La empresa STM II S.A. indica lo siguiente:
+“Una vez ocurrida la OA del interruptor MT2T, se procedió a transferir el
+alimentador Echeñique desde la Barra MT3T a la Barra MT3P. Personal de la
+Guardia de operaciones se encontraba presente en la subestación La Reina,
+por lo que se procedió a verificar el estado de la instalación, sin encontrar
+evidencias de explosión o descargar eléctricas. Acto seguido se procedió a
+energizar la Barra de Transferencia y la Barra MT3T.
+Personal de equipos realizó una evaluación de la instalación y realizaron
+Desconexión
+pruebas al interruptor del alimentador Ictinos, verificando su correcto
+forzada de la
+funcionamiento. Adjuntamos el informe de estas pruebas.
+barra de
+EAF 293-2023 05-07-23 Personal de protecciones rescató los registros de las protecciones del
+transferencia 12
+alimentador Ictinos y del Interruptor MT3T. La protección del interruptor
+kV N°2 de S/E La
+MT2T no generó oscilografías ni registros de eventos.
+Reina
+En la madrugada del miércoles 12 de julio de 2023, se realizaron pruebas a
+la protección del interruptor MT2T, con resultado satisfactorio. Adjuntamos
+informe de estas pruebas.
+Durante el mes de julio de 2023, se realizará una revisión y verificación del
+alambrado de los
+transformadores de corriente asociados a la protección del interruptor MT2T
+para identificar la causa de la operación y realizar las correcciones de ser
+necesario.”
+La empresa STM II S.A. indica:
+Desconexión
+“Una vez ocurrida la falla acudieron a la instalación personal de STM y
+forzada de los
+personal contratista, y se procedió a realizar una inspección visual del
+transformadores
+transformador de poder N°3, del panel de control en sala y de las
+EAF 397-2023 N°3 110/13.9 kV 07-09-2023
+protecciones mecánicas del equipo, encontrando un ducto de unión con
+y N°4 110/12.5
+fisura en la caja del relé de contraflujo del CTBC, el que se procede a limpiar,
+kV de S/E San
+secar y finalmente sellar para posteriormente poder normalizar el
+Cristóbal
+transformador”
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa STM II S.A. indica:
+““Inmediatamente ocurrida la OA del TR4, se envió personal de operaciones,
+mantenimiento de protecciones y de transformadores. Se realizó una
+Desconexión inspección visual de los equipos, sin identificar muestras visibles de
+forzada del descargas. Se procedió a rescatar los eventos de las protecciones y se
+transformador realizaron pruebas efectivas a estas con resultado satisfactorio.
+EAF 489-2023 10-11-2023
+N°4 220/23.5 kV Adicionalmente se realizó mantenimiento electromecánico al interruptor del
+de S/E El alimentador Proacer 1, quedando operativo.”
+Manzano Por otra parte, la empresa indica que normalizó inmediatamente el contacto
+deficiente en los transformadores de corriente del lado de 23.5 kV del
+transformador N°4, 110/23.5 kV, de S/E El Manzano, el cual provocó la
+operación de su protección diferencial.
+Apertura
+automática del La empresa Sociedad Transmisora Metropolitana II S.A. señala que “durante
+EAF 019-2024 interruptor 17-01-2024 la primera quincena de febrero de 2024, se realizará una revisión de las
+52ET1A de S/E protecciones del interruptor MT1A y del alimentador Damasco.”
+Chicureo
+La empresa STM S.A. indica lo siguiente: “Inmediatamente ocurrida la OA
+del Tr. N°2, se envió personal de operaciones, mantenimiento de
+protecciones y de equipos de maniobra. Se realizó una inspección visual de
+los equipos, no encontrando falla visible. Posterior a esto se solicita el cierre
+Desconexión del interruptor de 220 kV del Transformador N°2 energizándolo por el lado
+forzada del de alta tensión.
+EAF 125-2024 transformador 31-03-2024 En forma paralela, se realizaron pruebas de cierre y apertura manual del
+220/23 kV N°2 de interruptor del lado MT del Transformador N°2, con resultados
+S/E El Manzano satisfactorios, esperando a que por parte de la red de distribución se informe
+si se puede energizar nuevamente la línea.
+Durante el mes de abril de 2024, se realizará el mantenimiento al
+interruptor del lado MT del Transformador N°2 que se encuentra pendiente.
+Esto dependiendo de la disponibilidad del cliente Proacer.”
+Sociedad Metropolitana de Transmisión S.A. señala: “Una vez presente en
+la instalación, personal STM realizó una inspección visual sin identificar
+muestras de descarga eléctrica. Durante la inspección, se identificó operado
+el relé de contra flujo del CTBC y no se identificó otras protecciones
+operadas.
+Se revisó el monitor de gases del transformador encontrando los valores
+dentro de los parámetros normales.
+Se solicitó autorización para desconectar Transformador de poder N°2, se
+Desconexión
+procedió a instalar tierras de protección personal, posterior a esto, personal
+forzada del
+ejecutó la inspección de todas las cajas de unión de las protecciones
+EAF 198-2024 transformador 07-05-2024
+mecánicas las cuales se encuentran en la parte superior del Transformador.
+N°2 220/23 kV de
+Se identificó humedad en la caja de relé de contraflujo del CTBC, esto fue
+S/E Chicureo
+lo que ocasionó la OA de este transformador.
+Se procedió a limpiar, secar y sellar la caja de relé de contraflujo del CTBC,
+se revisaron todas las otras cajas para descartar que exista alguna en la
+misma condición, no se detectan anomalías. En el punto 11 se adjunta
+registro fotográfico.
+Cabe señalar que el cableado se encontró en buen estado.
+Una vez realizado el mantenimiento correctivo se energiza el transformador
+sin observaciones”.
+Sociedad Transmisora Metropolitana S.A. indica lo siguiente:
+“Ocurrida la OA, se coordinó la atención con la guardia de operaciones y
+personal de mantenimiento. Una vez presente en la instalación personal
+STM realizó una inspección, identificando operado el relé maestro del
+transformador N°1 y alarma de operación del relé Buchholz del CTBC del
+TR1. No se identificaron protecciones operadas (eléctricas y mecánicas).
+A las 11:39 horas se energizó el transformador N°1 y a las 11:45 se
+energiza la barra 12 kV. Luego se coordina con CGE la energización de los
+Falla en 3 alimentadores 12 kV de la barra N°1, todo sin novedad.
+transformador La madrugada del sábado 15 de junio se intervino el transformador para
+EAF 266-2024 14-06-2024
+N°1 110/12 kV de investigar en mayor detalle la causa de esta operación. Se revisaron todas
+S/E Malloco las cajas de unión de las protecciones mecánicas, las cuales se encuentran
+en la parte superior del Transformador, detectando humedad en la caja de
+conexión de la válvula alivio de presión, lo que fue la causa le esta operación
+automática.
+Se procedió a limpiar, secar y sellar esta caja, se revisaron todas las otras
+cajas de conexiones para descartar que exista alguna en la misma
+condición, no se detectan anomalías.
+Una vez realizado el mantenimiento correctivo, revisadas y selladas las
+demás uniones, se energizó el transformador sin observaciones”.
+Desconexión
+La empresa STM S.A. indica: “Nos encontramos en el proceso del reemplazo
+forzada de barra
+EAF 310-2024 17-07-2024 de la protección del interruptor MT3P, este debiese ser reemplazado antes
+N°3 12 kV de S/E
+de marzo de 2024”.
+Macul
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Sociedad Transmisora Metropolitana S.A. señala que “En el curso de la
+reparación de esta avería, se detectó que la posición del alimentador Aguas
+Claras estaba dañada, afectando tanto al interruptor como a las tulipas de
+contacto. Debido a la magnitud del daño en los componentes, se procedió a
+desconectar la posición del alimentador Aguas Claras de la Barra MT3. A
+Desconexión
+continuación, se organizó el traslado de este alimentador desde la Barra
+forzada de la
+EAF 380-2024 02-08-2024 MTN°3 a la posición N°45 de la Barra MT N°6, dentro de la misma
+barra 23 kV N°3
+subestación.
+de S/E Lo Boza
+Adicionalmente se efectuó la reparación del pararrayos del transformador
+N°3, el que fue energizado nuevamente el lunes 5 de agosto.”
+A su vez, esa empresa señala que “Se contactará a proveedor para solicitar
+repuestos de fábrica y evaluar si es posible la reparación de la posición
+siniestrada.”
+Operación del
+Sociedad Transmisora Metropolitana S.A. señala que “se debe verificar por
+SDAC en SS/EE
+qué no se ejecutó la orden de TRIP a la SE San José, siendo que el comando
+EAF 403-2024 Chacabuco, Lo 02-08-2024
+está activado en cuadro de alarmas del SDAC”, y que “Se debe corregir la
+Boza, Quilicura y
+estampa de tiempo del SDAC por parte de STM.”
+Pajaritos
+La empresa Sociedad Transmisora Metropolitana S.A. indica lo siguiente:
+“Las alarmas de la subestación indicaron la presencia de un polo a tierra.
+Desconexión Tras desconectar el Transformador de poder N°2, se procedió a inspeccionar
+forzada del todas las cajas de unión de las protecciones mecánicas, ubicadas en la parte
+EAF 412-2024 transformador 05-08-2024 superior del Transformador, durante esta revisión se detectó humedad en
+N°2 110/12 kV de la caja de conexión de la válvula alivio de presión, identificándose como el
+S/E La Cisterna motivo de la operación automática. Después de realizar el mantenimiento
+correctivo, revisar y sellar las demás uniones, se volvió a energizar el
+transformador sin ninguna observación adicional.”
+La empresa Sociedad Transmisora Metropolitana S.A. indica: “Una vez
+ocurrida la OA del interruptor MT1, se procedió a revisar y verificar la
+integridad de la instalación, encontrado operada su protección y su relé
+maestro (86B1). No se evidenció muestras de descargas o fallas en la
+instalación. El centro de control realizó maniobras en los interruptores 12
+Apertura del
+kV de los tres alimentadores abastecidos por esta barra. Se normalizó el
+interruptor 52CT1
+EAF 446-2024 25-08-2024 86B1 y se realizó una prueba con tensión en la Barra MT1 con resultado
+de S/E Lo
+satisfactorio. Posteriormente se cerraron los interruptores 12 kV de los tres
+Valledor
+alimentadores abastecidos por esta barra. La durante la madrugada del
+miércoles 28 de agosto de 2024, se realizó la verificación de las protecciones
+de los alimentadores Villa México y Suiza. Durante estas pruebas se
+identificó que la protección del alimentador Suiza se encontraba defectuosa.
+Se adjunta permiso de trabajo asociado a esta actividad”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 3 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 138-2023, EAF 271-2023 y EAF 008-2024.
+d.4 Fenómeno eléctrico
+BU63G: Buchholz.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al transformador N°3 110/23 kV de S/E Batuco, el
+cual, según los datos entregados por el propietario en el informe del quinto día, es un transformador
+marca ABB con número de serie PT0012/1, con una capacidad instalada de 37.5 MVA y voltaje nominal
+de 110/23 kV, con puesta en servicio el año 2000 y una vida útil estimada de 30 años.
+Al respecto, la empresa Sociedad Transmisora Metropolitana S.A. adjunta información de los
+mantenimientos de esta instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+Rural.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+13301: Colina.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(16-10-2024) (21-10-2024)
+Sociedad Transmisora Metropolitana S.A. (STM S.A.) 15-10-2024 21-10-2024
+Enel Distribución S.A. 15-10-2024 22-10-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Batuco ST Zonal Transformador N°3 110/23 kV 20:33 05:35 (*)
+S/E Batuco ST Zonal Barra N°3 20:33 20:36
+- Los horarios señalados corresponden a lo informado por la empresa Sociedad Transmisora Metropolitana S.A. y los registros SCADA
+del Coordinador.
+(*) Horario corresponde al día 15/10/2024.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Batuco Batuco / E22 Colina 3.02 0.031 954 20:33 20:36 20:36
+S/E Batuco Colina / E21 Colina 3.38 0.035 2585 20:33 20:36 20:36
+S/E Batuco Liray / E20 Colina 5.35 0.055 2871 20:33 20:36 20:37
+S/E Batuco Chicureo / E19 Colina 3.14 0.032 1476 20:33 20:36 20:38
+Total: 14.89 MW 0.152 % 7886
+- Los montos y horarios señalados corresponden a lo informado por las empresas Sociedad Transmisora Metropolitana S.A y Enel
+Distribución S.A.
+3. Estimación de la energía no suministrada
+Sub- Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Estación Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Batuco Batuco / E22 Enel Distribución S.A. Regulado 3.02 0.05 0.05 0.2
+S/E Batuco Colina / E21 Enel Distribución S.A. Regulado 3.38 0.05 0.05 0.2
+S/E Batuco Liray / E20 Enel Distribución S.A. Regulado 5.35 0.05 0.07 0.4
+S/E Batuco Chicureo / E19 Enel Distribución S.A. Regulado 3.14 0.05 0.08 0.3
+Clientes Regulados : 1.1 MWh
+Clientes Libres : MWh
+Total : 1.1 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Sociedad Transmisora Metropolitana S.A y Enel
+Distribución S.A.
+- Curva de recuperación esperada v/s recuperación real.
+20:38
+20:37 20:38
+20:36
+20:37
+20:36
+2200::3366 2200::3366 20:36 20:36
+20:35
+20:34
+20% 43% 79% 100%
+Recuperación real Recuperación esperada
+No se aprecian diferencias significativas entre los horarios de recuperación real respecto de los horarios
+de disponibilidad de las barras primarias respectivas para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 11.91 0.08 142.94
+Último 20 % 2.98 0.08 35.74
+100 % Total 14.89 0.08 178.68
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9742.03 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2, U3 y U4), Ralco (U1 y U2) y Rapel (U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 14 de octubre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 14 de octubre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+14 de octubre de 2024.

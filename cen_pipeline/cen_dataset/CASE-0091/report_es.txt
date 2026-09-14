@@ -1,0 +1,195 @@
+Estudio para análisis de falla EAF 515/2024
+“Falla en la línea 110 kV Pirque - Puente Alto CMPC”
+Fecha de Emisión: 18-11-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 24/10/2024
+Hora 06:36
+Consumos desconectados (MW) 34.35
+Demanda previa del sistema (MW) 8591.33
+Porcentaje de desconexión 0.400 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Pirque - Puente Alto CMPC/ LT003CI1TR02----L0079
+Tipo de instalación Línea
+Tensión nominal 110 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Bioenergías Forestales SpA. (*)
+RUT 6.188.197-3
+Representante Legal Enrique Donoso M.
+Dirección Agustinas 1343, piso 3, Santiago.
+- (*) Coordinado que reemplaza ante el Coordinador a la empresa propietaria Papeles Cordillera SpA.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Aislador de la estructura N°53 de la línea 110 kV Pirque - Puente Alto CMPC /
+LT003CI1TR02----L0079
+Propietario elemento fallado Bioenergías Forestales SpA. (*)
+RUT 6.188.197-3
+Representante Legal Enrique Donoso M.
+Dirección Agustinas 1343, piso 3, Santiago.
+- (*) Coordinado que reemplaza ante el Coordinador a la empresa propietaria Papeles Cordillera SpA.
+d. Origen y causa de la falla
+Se produjeron las aperturas automáticas de los interruptores 52H4 de S/E Pirque y 52H1 de S/E
+Puente Alto (CMPC), asociados a la línea 110 kV Pirque - Puente Alto CMPC, por operación de su
+esquema de teleprotección (85C), ante una falla atribuida a una descarga por pérdida de aislación
+entre el conductor de la fase B y un aislador en la estructura N°53 de la mencionada línea.
+d.2 Fenómeno Físico:
+DIS1: Pérdida de aislación.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico, durante los últimos 24 meses móviles (EAF 261-2023 y EAF 213-2024).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Bioenergías Forestales SpA señala que:
+- “Cambio de Aislación en estructura N°58 por falla de Línea
+1x110kV Pirque - CMPC [Puente Alto] realizado el 15 de junio
+2023”.
+- “Se programa una inspección visual pedestre para la LT
+110KV Maipo-Pirque y Pirque-Puente Alto (CMPC)”.
+- “Protocolización de los Sistemas de protección 1 y 2 del paño
+H1 de S/E CMPC Puente Alto 110 kV”.
+- “Como medida correctiva, para el S2 ABB REL670 se está
+realizando un nuevo análisis de la función Vector Shift (78VS)
+con el objetivo de verificar la correcta sensibilidad de la
+Falla en línea 110 kV Pirque función de protección, y de esta manera determinar un ajuste
+EAF 261-2023 15-06-2023
+- Puente Alto CMPC óptimo para la correcta operación del relé”.
+- “Interruptores 53H3 y 52H4 permanecen cerrados posterior
+al evento, sin registrarse la operación del sistema de
+protecciones respectivo en S/E Pirque 110 kV (propiedad de
+CELEO REDES). De lo anterior, se solicita al CEN exigir
+medidas correctivas al propietario de la instalación con el
+objetivo de garantizar la seguridad de las instalaciones del
+sistema eléctrico en 110 kV Maipo - Pirque - Puente Alto”.
+- La empresa Alfa Transmisora de Energía S.A. señala que:
+- “En coordinación con CMPC Cordillera se deberán realizar
+pruebas de disparo de la protección asociada al paño H4 de
+S/E Pirque”.
+Papeles Cordillera SpA señala que “una vez detectada la falla en
+Falla en línea 110 kV Pirque
+EAF 213-2024 15-05-2024 aislador, se programa el cambio de éste el mismo día según
+- Puente Alto CMPC
+solicitud de desconexión de curso forzoso N°2024049776”.
+La empresa Bioenergía Forestales SpA señala:
+“Posterior a la falla, se realiza una inspección visual pedestre a
+Línea de Transmisión 1x220 kV Charrúa - Celulosa Pacífico,
+Falla en la línea 220 kV tramo Charrúa - Tap Off María Dolores, a fin de identificar el
+EAF 220-2024 Charrúa - Celulosa Santa 22-05-2024 punto de falla y causa definitiva. Se identifica en la estructura
+Fe N°10 aisladores contaminados por aves y dispositivo mitigador
+de aves defectuoso. Posteriormente el día 24-05-2024 se
+procede con el reemplazo de emergencia del dispositivo, según
+la SDCF 2024052855”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 261-2023 y EAF 213-
+2024).
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a un aislador de la fase B en la estructura N°53 de
+la línea 110 kV Pirque - Puente Alto CMPC, la cual, de acuerdo con lo informado por su propietario en
+la plataforma Infotécnica del Coordinador, posee una longitud de 8.53 km con conductores del tipo
+ACSR 4/0 AWG Penguin, con una capacidad nominal de 48 MVA (permanente a 25°C con sol y a
+tensión nominal) y cuya entrada en operación fue durante el año 1997.
+Al respecto, la empresa Bioenergías Forestales SpA remitió los antecedentes correspondientes a los
+mantenimientos realizados durante los últimos 24 meses a la línea 110 kV Pirque - Puente Alto
+CMPC.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+La empresa Bioenergía Forestales SpA no señala una proposición respecto del origen de la falla.
+h. Comuna donde se presenta la falla
+132021: Puente Alto.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(26/10/2024) (05/11/2024)
+Bioenergías Forestales SpA 24/10/2024 04/11/2024
+Alfa Transmisora de Energía S.A. 24/10/2024 04/11/2024
+Colbún S.A. 24/10/2024 14/11/2024
+Pataguilla Solar SpA 14/11/2024 No recibido
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) Hora Desc. Hora Norm.
+HP Carena 3 2.30 06:36 20:24
+HP Carena 4 2.40 06:36 20:30
+Total: 4.70 MW
+- Los montos señalados corresponden a los informado por la empresa Colbún S.A.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 110 kV Pirque - Puente Alto CMPC ST Dedicada - 06:36 19:08
+LT 44 kV Carena - Puente Alto CMPC ST Dedicada - 06:36 20:00
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Papeles
+Puente Alto Puente
+Cordillera / 22.50 0.262 06:36 19:08 19:09
+(CMPC) Alto
+MP20
+Puente Alto Planta Chimolsa Puente 1
+2.50 0.029 06:36 19:08 19:38
+(CMPC) / C6 Alto
+Puente Alto Planta Softys PA Puente
+9.35 0.109 06:36 19:08 19:48
+(CMPC) / C1 Alto
+Total: 34.35 MW 0.400 % 1
+- Los montos señalados corresponden a lo informado por la empresa Bioenergías Forestales SpA.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Puente Alto Papeles Cordillera / Papeles
+Libre 22.50 12.53 12.55 282.4
+(CMPC) MP20 Cordillera SpA
+Puente Alto Planta Chimolsa / Papeles
+Libre 2.50 12.53 13.03 32.6
+(CMPC) C6 Cordillera SpA
+Puente Alto Planta Softys PA / Papeles
+Libre 9.35 12.53 13.20 123.4
+(CMPC) C1 Cordillera SpA
+Clientes Regulados : MWh
+Clientes Libres : 438.4 MWh
+Total : 438.4 MWh
+- Los montos señalados corresponden a lo informado por la empresa Bioenergías Forestales SpA.
+- Curva de recuperación esperada v/s recuperación real.
+22:48
+20:24
+18:00
+15:36
+13:12
+10:48
+08:24
+06:00
+65.5% 72.8% 100.0%
+Recuperación esperada Recuperación real
+No se aprecia una diferencia significativa entre los horarios de recuperación esperada y recuperación
+real de los consumos afectados.
+ Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 27.48 13.20 2.08
+Último 20 % 6.87 13.20 0.52
+100 % Total 34.35 13.20 2.60
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8591.33 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Andina (CTA), El Toro (U1, U2, U3 y U4), Ralco (U1 y U2) y Rapel (U1, U2 y U4).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 24 de octubre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 24 de octubre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+24 de octubre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 24 de
+octubre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades.
+o La generación de la Planta CMPC Cordillera se encontraba fuera de servicio, de acuerdo con la
+solicitud de curso forzoso SDCF N°2024052148.

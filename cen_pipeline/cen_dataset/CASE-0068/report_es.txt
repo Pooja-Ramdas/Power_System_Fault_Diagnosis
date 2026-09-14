@@ -1,0 +1,175 @@
+Estudio para análisis de falla EAF 538/2024
+“Falla en la línea 66 kV Charrúa - Cabrero”
+Fecha de Emisión: 28-11-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 07/11/2024
+Hora 22:03
+Consumos desconectados (MW) 42.84
+Demanda previa del sistema (MW) 10096.88
+Porcentaje de desconexión 0.440 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Charrúa - Cabrero / LT011---------T0003
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Tramo Estructura N°52 - Estructura N°59 de la línea 66 kV Charrúa - Cabrero
+/ LT011CI1TR01T0003ST03T0003
+Propietario elemento fallado Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática de los interruptores 52B4 de S/E Charrúa y 52BL de S/E Cabrero,
+correspondientes a la línea 66 kV Charrúa - Cabrero, por medio de la operación de sus protecciones.
+Al respecto, la empresa Sistema de Transmisión del Sur S.A., propietaria de la línea en cuestión, declara
+que la falla fue a causa del corte de un conductor en la red de distribución que, debido a su tensión
+mecánica, impacta en la línea de 66 kV Charrúa - Cabrero, entre las estructuras N°55 a N°59.
+d.2 Fenómeno Físico:
+OPE6: Fallas en instalaciones de terceros u en otro segmento.
+Al respecto, la empresa Sistema de Transmisión del Sur S.A. remite los siguientes antecedentes en
+respaldo a la proposición del fenómeno físico declarado:
+• Descripción de los hechos sucedidos.
+• Informe con la secuencia de operación de las protecciones.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA-ID NOMBRE_FALLA ACCIONES_CORRECTIVAS_CP ACCIONES_CORRECTIVAS_LP
+Operación EDAC-BF en S/E La empresa STS S.A. señala que “no La empresa STS S.A. señala que “no
+EAF 444-2024
+Melipulli aplica”. aplica”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 66 kV Charrúa - Cabrero, la cual, según la
+información declarada por su propietario en la plataforma Infotecnica del Coordinador, cuenta con
+conductores del tipo ACSR Linnet y ACCC Greeley, con una longitud total de aproximadamente 10.94
+km, y su puesta en servicio se produjo en el año 2014.
+Al respecto, la empresa Sistema de Transmisión del Sur S.A. no remitió los antecedentes
+correspondientes a los mantenimientos realizados durante los últimos 24 meses a la línea 66 kV
+Charrúa - Cabrero.
+f. Ubicación urbana o rural según DS 327/1997
+• La empresa Frontel S.A. declara densidad:” BAJA” y “MUY BAJA”.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+h. Comuna donde se presenta la falla
+8303: Cabrero.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(09-11-2024) (14-11-2024)
+Transelec S.A. 08-11-2024 14-11-2024
+Sistema de Transmisión del Sur S.A. (STS) 08-11-2024 14-11-2024
+Bioenergías Forestales SpA 07-11-2024 14-11-2024
+Neomas SpA 26-11-2024* 26-11-2024*
+Masisa S.A. (Masisa) 08-11-2024 14-11-2024**
+Sociedad Generadora Austral S.A. (Sagesa) 08-11-2024 14-11-2024**
+Empresa Eléctrica de la Frontera S.A. (Frontel) 08-11-2024 12-11-2024
+Cooperativa Eléctrica Charrúa Ltda. (Coelcha) No enviado No enviado
+(*) Información remitida en adelanto vía email en la fecha indicada, mientras Coordinado carga información en sistema Neomante.
+(**) Información idéntica a la cargada por STS S.A.
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) Hora Desc. Hora Norm.
+TER Laja 1 22:03 22:18
+3.28
+TER Laja 2 22:03 22:20
+Total: 3.28 MW
+- El monto y las horas indicadas corresponden a lo informado por la empresa Bioenergías Forestales SpA.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+00:57
+Charrúa - Cabrero 66 kV ST Zonal - 22:03
+08/11/2024
+- Las horas señaladas corresponden a lo informado por las empresas STS S.A. y Transelec S.A.
+c. Consumos
+Pérdida de %
+Sub- Alimentador/ Clientes H. H. H.
+Comuna Consumo consumo
+Estación Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Cabrero Cabrero - Salto del Laja / E1 Cabrero 0.54 0.010 122 22:03 22:50 22:26
+Cabrero Cabrero - Salto del Laja / E1 Laja 0.10 0.000 193 22:03 22:50 23:07
+Cabrero Cabrero - Salto del Laja / E1 Los Ángeles 0.65 0.010 43 22:03 22:50 22:28
+Bulnes,
+Cabrero Cabrero - Bulnes / E2 0.08 0.000 46 22:03 22:50 22:16
+Pemuco
+Cabrero Cabrero - Bulnes / E2 Cabrero 0.50 0.000 25 22:03 22:50 22:21
+Cabrero Cabrero - Bulnes / E2 Pemuco 0.59 0.010 451 22:03 22:50 22:18
+Cabrero Cabrero - Ciudad / E3 Cabrero 2.56 0.030 5066 22:03 22:50 23:33
+Cabrero Cabrero - Yumbel / E4 Cabrero 2.26 0.020 1788 22:03 22:50 22:50
+Cabrero Cabrero - Yumbel / E4 Hualqui 1.19 0.010 2506 22:03 22:50 22:24
+San
+Cabrero Cabrero - Yumbel / E4 0.13 0.000 171 22:03 22:50 22:17
+Rosendo
+Cabrero Cabrero - Yumbel / E4 Yumbel 3.85 0.040 9060 22:03 22:50 22:25
+Cabrero Cabrero - Yumbel / E4 Cabrero 0.28 0.000 2 22:03 22:50 22:29
+Cabrero Coelcha / C1 NI 6.91 0.070 NI 22:03 22:50 22:50
+Masisa Planta Cabrero / C2 Cabrero 13.73 0.140 1 22:03 23:01 23:01
+Fibranova Fibramold / C1 Cabrero 2.90 0.030 1 22:03 22:50 22:50
+Fibranova Andinos / C3 Cabrero 6.57 0.070 1 22:03 22:50 22:50
+Total: 42.84 MW 0.440 % >19476
+- Los montos y horarios señalados corresponden a lo informado por las empresas STS S.A., Frontel S.A., Masisa S.A. y Sociedad
+Generadora Austral S.A.
+- NI: No informado.
+3. Estimación de la energía no suministrada
+Sub- Tipo de Pérdida de Tiempo Tiempo ENS
+Alimentador/Paño Empresa
+Estación Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Cabrero Cabrero - Salto del Laja / E1 Frontel Regulado 0.54 0.78 0.38 0.2
+Cabrero Cabrero - Salto del Laja / E1 Frontel Regulado 0.10 0.78 1.07 0.1
+Cabrero Cabrero - Salto del Laja / E1 Frontel Regulado 0.65 0.78 0.42 0.3
+Cabrero Cabrero - Bulnes / E2 Frontel Regulado* 0.08 0.78 0.22 0.0
+Cabrero Cabrero - Bulnes / E2 Frontel Regulado 0.50 0.78 0.30 0.1
+Cabrero Cabrero - Bulnes / E2 Frontel Regulado 0.59 0.78 0.25 0.1
+Cabrero Cabrero - Ciudad / E3 Frontel Regulado 2.56 0.78 1.50 3.8
+Cabrero Cabrero - Yumbel / E4 Frontel Regulado 2.26 0.78 0.78 1.8
+Cabrero Cabrero - Yumbel / E4 Frontel Regulado 1.19 0.78 0.35 0.4
+Cabrero Cabrero - Yumbel / E4 Frontel Regulado 0.13 0.78 0.23 0.0
+Cabrero Cabrero - Yumbel / E4 Frontel Regulado 3.85 0.78 0.37 1.4
+Cabrero Cabrero - Yumbel / E4 Frontel Regulado* 0.28 0.78 0.43 0.1
+Cabrero Coelcha / C1 Coelcha Regulado 6.91 0.78 0.78 5.4
+Masisa Planta Cabrero / C2 Sagesa Libre 13.73 0.97 0.97 13.3
+Fibranova Fibramold / C1 Masisa Libre 2.90 0.78 0.78 2.3
+Fibranova Andinos / C3 Masisa Libre 6.57 0.78 0.78 5.1
+Clientes Regulados : 13.7 MWh
+Clientes Libres : 20.7 MWh
+Total : 34.4 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas STS S.A., Frontel S.A., Masisa S.A. y Sociedad
+Generadora Austral S.A.
+- (*) Incluye clientes libres de distribución.
+- Curva de recuperación esperada v/s recuperación real.
+No hay diferencias entre la recuperación real de los consumos versus el tiempo esperado.
+• Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 34.27 0.97 35.46
+Último 20 % 8.57 1.50 5.71
+100 % Total 42.84 1.50 28.56
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10096.88 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Canutillar (U1),
+Canutillar (U2), El Toro (U1), El Toro (U2), El Toro (U3), El Toro (U4), Mejillones (IEM), Ralco (U1),
+Ralco (U2) y Rapel (U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 07 de noviembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 07 de noviembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+07 de noviembre de 2024.

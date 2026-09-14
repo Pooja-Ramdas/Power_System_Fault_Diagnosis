@@ -1,0 +1,176 @@
+Estudio para análisis de falla EAF 555/2024
+“Desconexión forzada de la línea 110 kV Capricornio - Alto Norte”
+Fecha de Emisión: 16/12/2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 25/11/2024
+Hora 08:54
+Consumos desconectados (MW) 10.89
+Demanda previa del sistema (MW) 9736.63
+Porcentaje de desconexión 0.112 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Tramos de la línea 110 kV Capricornio - Alto Norte / LT022CI1TR01----
+G0216 y LT022CI1TR02----G0216
+Tipo de instalación Línea
+Tensión nominal 110 kV
+Segmento Transmisión dedicado
+Propietario instalación afectada Engie Energía Chile S.A.
+RUT 88.006.900-4
+Representante Legal Gabriel Marcuz
+Dirección Av. Isidora Goyenechea N°2800 piso 16, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Pararrayos del paño HT1 de S/E Tap Off El Negro /
+PA003G0216SE160G0216
+Propietario elemento fallado Engie Energía Chile S.A.
+RUT 88.006.900-4
+Representante Legal Gabriel Marcuz
+Dirección Av. Isidora Goyenechea N°2800 piso 16, Las Condes.
+d. Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 110 kV Capricornio - Alto Norte por operación de
+protecciones, ante una descarga en el pararrayos de la fase A del paño HT1 de S/E Tap Off El
+Negro.
+La descarga en el pararrayos de la fase A del paño HT1 de S/E Tap Off El Negro se originó durante
+trabajos de lavado de aislación en dicha S/E (según SD N°2024119586) y es atribuida a un
+desperfecto en el equipo.
+d.2 Fenómeno Físico:
+OPE10: Falla de material, por fatiga, corrosión, trizadura, etc.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se ha producido una falla en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Engie Energía Chile S.A. señala: “Realización de
+inspección pedestre, encontrando conductor cortado.
+Falla en línea 110 kV Arica
+EAF 341-2023 10/08/2023 Procediendo con el análisis y planificando la reparación al día
+- Pozo Almonte
+siguiente con luz día, dejando en servicio la línea el 11-08-2023
+a las 11:11 hrs.”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una
+falla en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 230-2024).
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al pararrayos del paño HT1 de S/E Tap Off El
+Negro, el cual, de acuerdo con el diagrama unilineal proporcionado por su propietario en la
+plataforma Infotécnica del Coordinador, posee las siguientes características:
+Cabe señalar que, de acuerdo con su ubicación, el pararrayos del paño HT1 se encuentra fuera de
+la zona de cobertura de las protecciones del transformador N°1 110/23 kV de S/E Tap Off el Negro.
+Al respecto, la empresa Engie Energía Chile S.A. remite información de los mantenimientos
+realizados a la S/E Tap Off El Negro durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Caso fortuito o fuerza mayor.
+La empresa Engie Energía Chile S.A. remite los siguientes antecedentes en respaldo a la
+proposición del origen de la falla:
+• Registro fotográfico.
+• Registros de inspecciones y mantenimientos a S/E Tap Off El Negro.
+h. Comuna donde se presenta la falla
+2101: Antofagasta.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días Instalación
+Coordinado
+(27/11/2024) (02/12/2024)
+Línea 110 kV Capricornio - Alto Norte y
+Engie Energía Chile S.A. 25/11/2024 02/12/2024
+S/E Tap Off El Negro
+Engie Energía Chile S.A. 26/11/2024 02/12/2024 S/E Liqcau (*)
+(*): De acuerdo con registros de la plataforma Infotécnica del Coordinador, el paño HT1 de S/E Liqcau es propiedad de la
+empresa Edelnor Transmisión S.A. y el Centro de Control asociado a dicha instalación es propiedad de la empresa Engie Energía
+Chile S.A. Para la falla analizada en este estudio la empresa Engie Energía S.A. envío el Informe de Falla de 5 días por la
+operación de protecciones del paño HT1 de S/E Liqcau.
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 110 kV Capricornio - Alto Norte ST Dedicado Capricornio - Tap El Negro 08:54 09:08
+LT 110 kV Capricornio - Alto Norte ST Dedicado Tap El Negro - Alto Norte 08:54 09:08
+S/E Liqcau ST Zonal Barra 110 kV 08:54 09:05
+c. Consumos
+Sub- Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Estación Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Tap Off El
+Albemarle / E1 Antofagasta 10.89 0.112 1 08:54 14:02 14:04
+Negro
+Total: 10.89 MW 0.112 % 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa Engie Energía Chile S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Tap Off El Negro Albemarle / E1 ALBEMARLE Libre 10.89 5.13 5.17 56.3
+Clientes Regulados : MWh
+Clientes Libres : 56.3 MWh
+Total : 56.3 MWh
+- Los montos señalados corresponden a lo informado por la empresa Engie Energía Chile S.A.
+- Curva de recuperación esperada v/s recuperación real.
+1
+1
+1
+1
+1
+0
+4
+3
+2
+1
+0
+8
+:5
+:4
+:3
+:1
+:0
+:5
+4
+2
+0
+8
+6
+4
+R e cu p e ra ció n e sp e ra d
+1
+a
+0 0 .0 %
+R e cu p e ra ció n re a l
+No se aprecian diferencias significativas entre los horarios de recuperación esperada y recuperación
+real de los consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 8.71 5.17 1.69
+Último 20 % 2.18 5.17 0.42
+100 % Total 10.89 5.17 2.11
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9736.63 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Colbún (U1 y U2), Mejillones (CTM3 y IEM), Ralco (U1 y U2) y Rapel (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 25 de noviembre de
+2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 25 de noviembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el
+día 25 de noviembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 25
+de noviembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades:
+- Las SS/EE Capricornio, Antofagasta y Liqcau se encontraban enmalladas en 110 kV, con el
+interruptor seccionador de barras 52HS abierto en S/E Antofagasta.
+- En S/E Tap Off El Negro se encontraban desarrollando trabajos de lavados de aislación, según
+SD N°2024119586:
+Otros antecedentes relevantes
+Antecedentes proporcionados por la empresa Engie Energía Chile S.A.:
+- “Siendo las 08:54 horas, se produce flash-Over, durante trabajo programado de lavado de
+aislación en S/E Tap-Off El Negro, según SI 2024119586 planificada, provocando la
+desconexión forzada de Línea 110kV Capricornio - Alto Norte y a su vez la desconexión
+indeseada del Paño 52HT1 en S/E Liqcau”.
+- “Pararrayos en mal estado fase A Lado 110 kV Transformador 110/23 kV en S/E Tap-Off El
+Negro”.

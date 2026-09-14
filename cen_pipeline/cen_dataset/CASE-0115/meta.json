@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0493-2024",
+  "eaf_num": 493,
+  "year": 2024,
+  "description": "Falla en línea 66 kV Victoria – Traiguén",
+  "date": "30-09-2024",
+  "time": "04:15",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/10/EAF-493-2024.pdf",
+  "case_id": "CASE-0115",
+  "event_datetime": "2024-09-30T04:15:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0115\\official_diagram.dwg"
+}

@@ -1,0 +1,173 @@
+Estudio para análisis de falla EAF 534/2024
+“Desconexión forzada de barra 12 kV N°1 de S/E Brasil”
+Fecha de Emisión: 27-11-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 06/11/2024
+Hora 12:24
+Consumos desconectados (MW) 28.19
+Demanda previa del sistema (MW) 9865.00
+Porcentaje de desconexión 0.286 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Brasil / SE006T0835
+Tipo de instalación Subestación
+Tensión nominal 110/12 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Interruptor 52CR1-3 (acoplador de barras N°1 y N°3 de 12 kV) de S/E
+Brasil / PA078T0054SE006T0835 (*)
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno.
+- (*) Nemotécnico corresponde al paño CR1-3 de S/E Brasil.
+d.1 Origen y causa de la falla
+En momentos en que la barra N°1 de 12 kV de S/E Brasil se encontraba energizada desde la barra
+N°3 de 12 kV, a través del interruptor 52CR1-3 (acoplador de barras), se produjo la apertura
+intempestiva de este, con la consiguiente desenergización de la barra N°1 de 12 kV.
+La empresa Sociedad Transmisora Metropolitana S.A. señala que la causa de la apertura intempestiva
+del mencionado interruptor fue un error operacional, durante trabajos programados sobre el
+interruptor 52CT1 (general de barra N°1 de 12 kV) de S/E Brasil, el cual se encontraba abierto.
+d.2 Fenómeno Físico:
+OPE7: Error de operador.
+La empresa Sociedad Transmisora Metropolitana S.A. remite antecedentes (probatorios) con el fin de
+acreditar el origen de la falla.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por un
+fenómeno físico similar, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido tres fallas en
+instalaciones del mismo propietario con un fenómeno físico similar, durante los últimos 24 meses,
+correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Sociedad Transmisora Metropolitana II S.A.
+indica:
+“Inmediatamente ocurrida la operación, personal de
+protecciones informó al despacho lo sucedido y se procedió
+a normalizar los relés maestros de las Barras MT4P y Barra
+MT4A. Despacho procedió a reenergizar los alimentadores
+Pudahuel, Chacón y Neptuno a través del Transformador
+N°2 y el alimentador Cerro Navia a través del Transformador
+N°3. Acto seguido, se realizó la prueba de energización de la
+Desconexión forzada de las
+Barra MT4 principal con resultado satisfactorio, pudiendo de
+EAF 337-2023 barras 12 kV N°4 y Auxiliar 09-08-2023
+esta forma reenergizar el alimentador Renca Bus 1.
+de S/E Pudahuel
+El 10 de agosto de 2023, se realizó una visita en conjunto
+con personal de ABB a subestación Pudahuel, con el fin de
+revisar las lógicas programadas en los IED´s. de estas
+celdas. Una vez finalizada la visita se determinó que el
+procedimiento más eficaz para revisar los enclavamientos y
+el alambrado sería solicitando las celdas para realizar
+pruebas efectivas de los relés maestros de barra. Esta
+actividad se realizará durante el mes de septiembre de
+2023”.
+Desconexión forzada de los
+transformadores N°2 y N°4
+EAF 476-2023 03-11-2023 La empresa STM II S.A. indica lo siguiente: “No hay”.
+110/12 kV de S/E San
+Joaquín
+La empresa Sociedad Transmisora Metropolitana II S.A.
+Desconexión forzada de la señala:
+EAF 513-2023 barra N°2 23 kV de S/E 26-11-2023 “Inmediatamente ocurrida la OA del interruptor MT del
+Lampa Transformador N°2 de la S/E Lampa, se avisó a despachador
+indicando lo sucedido y se coordinó su normalización”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+FA90: Falla en sistema de control.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+La instalación afectada por el error operacional corresponde al interruptor 52CR1-3 (acoplador de
+barras N°1 y N°3 de 12 kV) de S/E Brasil. Con respecto a la mencionada subestación, la empresa
+Sociedad Transmisora Metropolitana S.A. señala lo siguiente:
+“La subestación Brasil, es una subestación de bajada de 110/12 kV que se encuentra ubicada en
+avenida Mapocho #1841 comuna de San Fernando. En esta instalación se encuentran 4
+transformadores con una potencia instalada actualmente de 200 MVA aproximadamente,
+además de 14 alimentador conectado en la red de MT de Enel Distribución.
+Considerando el mantenimiento programado, la vida útil estimada de esta instalación es de 30
+años adicionales aproximadamente.”
+La empresa Sociedad Transmisora Metropolitana S.A. remite antecedentes de los mantenimientos
+realizados durante los últimos 24 meses a la S/E Brasil.
+f. Ubicación urbana o rural según DS 327/1997
+Urbana.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+La empresa Sociedad Transmisora Metropolitana S.A. remite los siguientes antecedentes en respaldo
+a la proposición del origen de la falla:
+• Registro Fotográfico con fecha y hora.
+• Detalle pormenorizado del error específico cometido por el personal habilitado.
+h. Comuna donde se presenta la falla
+13101 Santiago.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(08-11-2024) (13-11-2024)
+Sociedad Transmisora Metropolitana S.A. (STM) 06-11-2024 13-11-2024
+Enel Distribución Chile S.A. (Enel Distribución) 06-11-2024 13-11-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Brasil ST Zonal Barra N°1 12 kV 12:24 12:28
+- Las horas indicadas corresponden a lo informado por la empresa Sociedad Transmisora Metropolitana S.A.
+c. Consumos
+Pérdida de %
+Sub- Alimentador/ Clientes H. H. H.
+Comuna Consumo consumo
+Estación Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Brasil Santo Domingo / - 4.90 0.050 6656 12:24 12:28 12:28
+Brasil Artesano / - 3.80 0.039 2783 12:24 12:28 12:28
+Brasil Brasil / - Santiago, 4.67 0.047 5594 12:24 12:28 12:28
+Independencia,
+Brasil Riquelme / - Recoleta (*) 4.17 0.042 2512 12:24 12:28 12:28
+Brasil República / - 5.26 0.053 6865 12:24 12:28 12:28
+Brasil Mapocho / - 5.39 0.055 5864 12:24 12:28 12:28
+Total: 28.19 MW 0.286 % 30274
+- Los montos y horarios señalados corresponden a lo informado por las empresas Sociedad Transmisora Metropolitana S.A. y Enel
+Distribución Chile S.A.
+- (*) Enel Distribución Chile S.A. no indica el detalle de las comunas afectadas por alimentador, pero identifica estas comunas
+como las afectadas por este evento.
+3. Estimación de la energía no suministrada
+Sub- Alimentador Tipo de Pérdida de Tiempo Tiempo ENS
+Empresa
+Estación /Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Brasil Santo Domingo / - Enel Distribución Regulado 4.90 0.07 0.07 0.3
+Brasil Artesano / - Enel Distribución Regulado 3.80 0.07 0.07 0.3
+Brasil Brasil / - Enel Distribución Regulado 4.67 0.07 0.07 0.3
+Brasil Riquelme / - Enel Distribución Regulado 4.17 0.07 0.07 0.3
+Brasil República / - Enel Distribución Regulado 5.26 0.07 0.07 0.4
+Brasil Mapocho / - Enel Distribución Regulado 5.39 0.07 0.07 0.4
+Clientes Regulados : 2.0 MWh
+Clientes Libres : MWh
+Total : 2.0 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Sociedad Transmisora Metropolitana S.A. y Enel
+Distribución Chile S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación real respecto de los horarios de
+disponibilidad de las barras primarias respectivas.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Rango Potencia (MW)
+recuperación (h) recuperación (MW/h)
+Primer 80 % 22.55 0.07 322.17
+Último 20 % 5.64 0.07 80.54
+100 % Total 28.19 0.07 402.71
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9865.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Canutillar (U2),
+Colbún (U1), El Toro (U1, U2 y U3), PFV Diego de Almagro Sur y PFV Malgarida.
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 06 de noviembre de
+2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 06 de noviembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+06 de noviembre de 2024.

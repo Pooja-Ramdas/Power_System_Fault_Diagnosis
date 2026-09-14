@@ -1,0 +1,166 @@
+Estudio para análisis de falla EAF 528/2024
+“Apertura intempestiva del interruptor 52JT1 de S/E Esmeralda”
+Fecha de Emisión: 22-11-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 03/11/2024
+Hora 02:01
+Consumos desconectados (MW) 74.11
+Demanda previa del sistema (MW) 8021.00
+Porcentaje de desconexión 0.924 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Esmeralda / SE075T0025
+Tipo de instalación Subestación
+Tensión nominal 220/110/13.8 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Empresa de Transmisión Eléctrica Transemel S.A.
+RUT 96.893.220-9
+Representante Legal Rodrigo Guerrero
+Dirección Av. Presidente Riesco 5561, piso 14, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Interruptor 52JT1 de S/E Esmeralda / IM01T0025PA010T0025SE075T0025
+Propietario elemento fallado Empresa de Transmisión Eléctrica Transemel S.A.
+RUT 96.893.220-9
+Representante Legal Rodrigo Guerrero
+Dirección Av. Presidente Riesco 5561, piso 14, Las Condes.
+d. Origen y causa de la falla
+Se produjo la apertura intempestiva del interruptor 52JT1 de S/E Esmeralda, correspondiente al lado
+de 220 kV del transformador 220/110/13.8 kV, causada por la operación indeseada de la función de
+discrepancia de polos del controlador del interruptor, debido a presencia de humedad en bornera
+asociada a la mencionada función.
+d.2 Fenómeno Físico:
+OPE26: Falla en sistema de protección o control.
+La empresa Transemel S.A. remitió probatorios asociados al Fenómeno Físico indicado.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por un
+fenómeno físico similar (homologado), durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+FA90: Falla en sistema de control.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la falla corresponde al sistema de control (equipo GE-C30) del
+interruptor 52JT1 de S/E Esmeralda. Por otra parte, el mencionado interruptor es de marca ABB,
+modelo LTB245E1, posee una capacidad de ruptura asimétrica de 38.9 kA y su año de entrada en
+operación fue en 2001, de acuerdo con los registros del Sistema Infotécnica del Coordinador.
+Al respecto, la empresa remite información de los mantenimientos realizados a los equipos del paño
+JT1 de S/E Esmeralda, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa CGE S.A. indica ubicación urbana para sus consumos asociados.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+La empresa Transemel S.A. remite los siguientes antecedentes en respaldo a la proposición del
+origen de la falla:
+• Mantenimientos de los últimos 24 meses de los equipos del paño JT1 de S/E Esmeralda.
+h. Comuna donde se presenta la falla
+2101: Antofagasta.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(05/11/2024) (08/11/2024)
+Transemel S.A. 03/11/2024 11/11/2024
+CGE Transmisión S.A. 03/11/2024 18/11/2024
+Sociedad Austral de Transmisión Troncal S.A. (SATT) 03/11/2024 08/11/2024
+Compañía General de Electricidad S.A. (CGE) 03/11/2024 18/11/2024
+SQM Salar S.A. (SQM Salar) 03/11/2024 07/11/2024
+Fotovoltaica Norte Grande 5 SpA 04/11/2024 08/11/2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Esmeralda ST Zonal Transformador 220/110/13.8 kV 02:01 17:35
+Línea 110 kV Esmeralda - Uribe ST Dedicado Uribe - Tap Off Uribe 110 kV 02:01 05:36
+- Los horarios señalados corresponden a lo informado por las empresas Transemel S.A. y CGE Transmisión S.A.
+c. Consumos
+Pérdida de
+Sub- Alimentador/ % consumo Clientes H. H. H.
+Comuna Consumo
+Estación Paño pre-falla Afectados Desc. Dispon. Norm.
+(MW)
+La Portada Aeropuerto / E11 Antofagasta 2.88 0.036 3018 02:01 02:18 02:18
+La Portada Ricaventura / E12 Antofagasta 0.43 0.005 93 02:01 02:18 02:18
+La Portada Adasa / ET2 Antofagasta 0.52 0.006 18 02:01 02:18 02:18
+La Portada Alto La Chimba / E31 Antofagasta 4.55 0.057 11930 02:01 02:18 02:18
+La Portada Arenales / E30 Antofagasta 3.80 0.047 10623 02:01 02:18 02:18
+Centro Bolívar / C1 Antofagasta 3.24 0.040 4303 02:01 02:29 02:29
+Centro Borgoño / C2 Antofagasta 2.92 0.036 5294 02:01 02:29 02:29
+Centro Interconexión 1 / C4 Antofagasta 2.61 0.033 6462 02:01 02:29 02:29
+Centro Interconexión 2 / C5 Antofagasta 1.91 0.024 1304 02:01 02:29 02:29
+Centro 21 de Mayo / C6 Antofagasta 3.18 0.040 5950 02:01 02:29 02:29
+Centro Brasil / C7 Antofagasta 1.81 0.023 4150 02:01 02:29 02:29
+Centro Circunvalación / E2 Antofagasta 4.32 0.054 4991 02:01 02:34 02:34
+Sur Huáscar / C16 Antofagasta 1.13 0.014 2588 02:01 02:41 02:41
+Sur Coviefi / C17 Antofagasta 1.99 0.025 3746 02:01 02:41 02:41
+Sur Angamos / C19 Antofagasta 3.08 0.038 6762 02:01 02:41 02:41
+Centro Carrizo / E3 Antofagasta 0.03 0.000 3 02:01 02:34 02:49
+Pérdida de
+Sub- Alimentador/ % consumo Clientes H. H. H.
+Comuna Consumo
+Estación Paño pre-falla Afectados Desc. Dispon. Norm.
+(MW)
+Centro Alberto Hurtado / E5 Antofagasta 6.82 0.085 12328 02:01 02:34 02:49
+Sur Argentina / C18 Antofagasta 2.94 0.037 6650 02:01 02:41 02:56
+Uribe Minsal / E16 Antofagasta 0.72 0.009 11 02:01 05:36 05:36
+Uribe Los Morros / E17 Antofagasta 1.23 0.015 584 02:01 05:36 05:36
+Carbonato ET1 Antofagasta 24.00 0.299 1 02:01 05:52 05:55
+Total: 74.11 MW 0.924% 90809
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A., SQM Salar S.A. y CGE Transmisión
+S.A.
+3. Estimación de la energía no suministrada
+Pérdida de Tiempo
+Alimentador/ Tipo de Tiempo ENS
+Sub-Estación Empresa Consumo Indispon.
+Paño Cliente Desc. (h) (MWh)
+(MW) (h)
+La Portada Aeropuerto / E11 CGE Regulado 2.88 0.28 0.28 0.8
+La Portada Ricaventura / E12 CGE Regulado 0.43 0.28 0.28 0.1
+La Portada Adasa / ET2 CGE Regulado 0.52 0.28 0.28 0.1
+La Portada Alto La Chimba / E31 CGE Regulado 4.55 0.28 0.28 1.3
+La Portada Arenales / E30 CGE Regulado 3.80 0.28 0.28 1.1
+Centro Bolívar / C1 CGE Regulado 3.24 0.47 0.47 1.5
+Centro Borgoño / C2 CGE Regulado 2.92 0.47 0.47 1.4
+Centro Interconexión 1 / C4 CGE Regulado 2.61 0.47 0.47 1.2
+Centro Interconexión 2 / C5 CGE Regulado 1.91 0.47 0.47 0.9
+Centro 21 de Mayo / C6 CGE Regulado 3.18 0.47 0.47 1.5
+Centro Brasil / C7 CGE Regulado 1.81 0.47 0.47 0.8
+Centro Circunvalación / E2 CGE Regulado 4.32 0.55 0.55 2.4
+Sur Huáscar / C16 CGE Regulado 1.13 0.67 0.67 0.8
+Sur Coviefi / C17 CGE Regulado 1.99 0.67 0.67 1.3
+Sur Angamos / C19 CGE Regulado 3.08 0.67 0.67 2.1
+Centro Carrizo / E3 CGE Regulado 0.03 0.55 0.80 0.0
+Centro Alberto Hurtado / E5 CGE Regulado 6.82 0.55 0.80 5.5
+Sur Argentina / C18 CGE Regulado 2.94 0.67 0.92 2.7
+Uribe Minsal / E16 CGE Regulado 0.72 3.58 3.58 2.6
+Uribe Los Morros / E17 CGE Regulado 1.23 3.58 3.58 4.4
+Carbonato ET1 SQM Salar Libre 24.00 3.85 3.90 93.6
+Clientes Regulados : 32.5 MWh
+Clientes Libres : 93.6 MWh
+Total : 126.1 MWh
+- Los montos señalados corresponden a lo informado por las empresas CGE S.A., SQM Salar S.A. y CGE Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias significativas entre los horarios de recuperación real respecto de los
+horarios de disponibilidad de las barras primarias respectivas.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Rango Potencia (MW)
+recuperación (h) recuperación (MW/h)
+Primer 80 % 59.29 3.90 15.20
+Último 20 % 14.82 3.90 3.80
+100 % Total 74.11 3.90 19.00
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8021.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales El Toro (U1, U2,
+U3 y U4), Mejillones (CTM3), Ralco (U1 y U2) y Rapel (U1, U2 y U4).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 03 de noviembre de
+2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 03 de noviembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+03 de noviembre de 2024.

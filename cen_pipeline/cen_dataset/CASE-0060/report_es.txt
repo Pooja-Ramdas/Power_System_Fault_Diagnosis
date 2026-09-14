@@ -1,0 +1,201 @@
+Estudio para análisis de falla EAF 546/2024
+“Falla en línea 44 kV Catemu - Los Ángeles”
+Fecha de Emisión: 05-12-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 14/11/2024
+Hora 12:18
+Consumos desconectados (MW) 3.50
+Demanda previa del sistema (MW) 10270.72
+Porcentaje de desconexión 0.034 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 44 kV Catemu - Los Ángeles / LT059---------T0057
+Tipo de instalación Línea
+Tensión nominal 44 kV
+Segmento Transmisión Dedicado
+Propietario instalación afectada Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Sección de tramo de la línea 44 kV Catemu - Los Ángeles /
+LT059CI1TR02T0057ST01T0057
+Propietario elemento fallado Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52F1 de S/E Catemu, asociado a la línea 44 kV
+Catemu - Los Ángeles, por operación de su protección de distancia residual en zona 2.
+La empresa Chilquinta Transmisión S.A. indica que el origen de la falla fue a causa de un ave que
+redujo la distancia dieléctrica entre el puente conductor energizado de la fase lateral izquierda y la
+cruceta metálica que le entrega soporte a la cadena de aisladores de la estructura N°137.
+d.2 Fenómeno Físico:
+ANI1: Acción de animales, roedores o pájaros (por contacto directo u otro).
+Las empresas Chilquinta Transmisión S.A. entregan los siguientes antecedentes probatorios para
+acreditar el fenómeno físico declarado:
+o Registro Fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+o Número de veces que la instalación se ha visto afectada por esta causa, con o sin afectación
+de suministro.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico durante los últimos 24 meses móviles, correspondiente al Estudio para Análisis de
+Falla EAF 236-2024.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en línea 44 kV
+EAF 464_2022 Las Vegas - FFCC Los 14-12-2022 No se indican.
+Andes C1
+Falla en línea 44 kV
+EAF 214_2023 18-05-2023 No se indican.
+Calera - El Melón
+Falla en línea 110 kV La empresa Chilquinta Transmisión S.A. no indica acciones correctivas
+EAF 407_2023 14-09-2023
+Agua Santa - Placilla de corto plazo.
+Falla en línea 44 kV
+EAF 071_2024 Estancilla - FFCC 13-02-2024 No se indican
+Andes N°2
+Falla en línea 44 kV
+EAF 080_2024 18-02-2024 No se indican.
+La Calera - El Melón
+Falla en la línea 44 kV
+EAF 236_2024 04-06-2024 No se indican.
+Catemu - Los Ángeles
+La empresa Chilquinta Transmisión S.A. señala lo siguiente: “Como
+medida de mitigación, se procede a reemplazar los cables reparados
+Desconexión forzada
+por nuevos cables con fleje de cobre, que otorga mejor protección
+EAF 295_2024 de la barra 12 kV N°2 02-07-2024
+contra roedores.” “A modo de recaudo, se revisó la totalidad de
+de S/E La Calera
+canalizaciones de la subestación sin encontrar daño evidente en otros
+cables de control y protecciones de S/E La Calera.”
+La empresa Chilquinta Transmisión S.A. indica las siguientes acciones
+correctivas:
+“Como medida de precaución, el próximo sábado 12 de octubre del
+2024, con solicitud de desconexión SD 2024104033 en la plataforma
+Falla en línea 44 kV
+Neomante del Coordinador Eléctrico Nacional (CEN), se realizará el
+EAF 498-2024 FFCC Los Andes - 05-10-2024
+cambio de la cadena de aisladores de suspensión de la fase superior
+Juncal N°1
+de la estructura E11 y se instalarán discos antiguanos en las fases
+superiores de las estructuras 10 a la 14, correspondientes a la línea
+de transmisión 44 [kV] FF.CC. Los Andes - Hermanos Clark circuito N°
+1”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 3 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para Análisis de Falla EAF 536-2023, EAF 236-2024 y EAF 312-2024.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+La instalación afectada por la falla corresponde al tramo Catemu - Los Ángeles de la línea 44 kV
+Chagres - Los Ángeles. De acuerdo con lo informado por su propietario en la plataforma Infotécnica
+del Coordinador, el tramo afectado cuenta con una longitud de 21.2 km, con un conductor por fase del
+tipo CU 4 AWG y su fecha de puesta en servicio fue durante el año 1945.
+La empresa Chilquinta Transmisión S.A. sí remitió antecedentes respecto de los mantenimientos
+realizados a la línea 44 kV Catemu - Los Ángeles, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza mayor.
+h. Comuna donde se presenta la falla
+5402: Cabildo.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (18-11-2024) Informe de 5 días (21-11-2024)
+Chilquinta Transmisión S.A. (Chilquinta Tx) 14-11-2024 21-11-2024
+Compañía Minera Cerro Negro S.A. 04-12-2024 04-12-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 44 kV Catemu - Los Ángeles ST Dedicado Catemu - Los Ángeles 12:18 18:29
+- Los horarios señalados corresponden a lo informado por la empresa Chilquinta Transmisión S.A.
+c. Consumos
+Sub- Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Estación Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Cerro Negro - Cabildo 3.50 0.034 1 12:18 18:29 18:29
+Total: 3.50 MW 0.034 % 1
+- Los montos y horarios señalados corresponden a lo informado por las empresas Chilquinta Transmisión S.A. y Compañía Minera
+Cerro Negro S.A.
+3. Estimación de la energía no suministrada
+Sub- Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Estación Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Compañía Minera
+Cerro Negro - Libre 3.50 6.18 6.18 21.6
+Cerro Negro S.A.
+Clientes Regulados : MWh
+Clientes Libres : 21.6 MWh
+Total : 21.6 MWh
+- Los montos señalados corresponden a lo informado por las empresas Chilquinta Transmisión S.A. y Compañía Minera Cerro Negro
+S.A.
+- Curva de recuperación esperada v/s recuperación real.
+00:00
+00:00
+1188::2299
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+100%
+Recuperación real Recuperación esperada
+No se observan diferencias entre los horarios de recuperación esperada y la recuperación real para los
+distintos consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 2.80 6.18 0.45
+Último 20 % 0.70 6.18 0.11
+100 % Total 3.50 6.18 0.57
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10270.72 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2 y U3), PFV Diego Almagro Sur, PFV Malgárida y Ralco U1.
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 14 de noviembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 14 de noviembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+14 de noviembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 14 de
+noviembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa Chilquinta Transmisión S.A.:
+“A las 12:18 horas del jueves 14 de noviembre de 2024, se produjo la desconexión forzada de la línea
+de transmisión 44 [kV] Catemu - Los Ángeles circuito N° 1, accionada por la función de distancia
+residual (21N), afectando los consumos de nuestro único cliente Minera Cerro Negro en la subestación
+(S/E) Los Ángeles.
+El Área de Mantenimiento Transmisión, se dirige a la subestación (S/E) Catemu con el equipo
+localizador de fallas, para realizar la prueba de continuidad a los conductores eléctricos de la línea,
+encontrándose ésta normal, con continuidad mecánica y eléctrica en sus tres fases y en toda su
+extensión de 20,7 [Km], hasta el final de la línea en la subestación (S/E) Los Ángeles.
+Paralelamente, se había iniciado el patrullaje de la línea de transmisión 44 [kV] Catemu - Los Ángeles
+circuito N° 1, de manera pedestre y con apoyo de vehículo aéreo no tripulado (RPAS), siendo posible
+localizar e identificar el fenómeno físico causante de la falla eléctrica, caracterizándose por la presencia
+de un ave que redujo la distancia dieléctrica entre el puente conductor energizado de la fase lateral
+izquierda y la cruceta metálica que le entrega soporte a la cadena de aisladores de la estructura de
+tracción N° 137, ubicada a 11,7 kilómetros de la subestación (S/E) Catemu, generándose en
+consecuencia, el fenómeno eléctrico correspondiente a una sobre corriente monofásica a tierra.
+Una vez finalizada la inspección y reparada la instalación afectada, se verifica el estado normal de
+todos los componentes y se informa al Centro Control Transmisión de Chilquinta Transmisión S.A., que
+la línea se encuentra en condiciones para ser energizada nuevamente.
+El Centro Control Transmisión de Chilquinta Transmisión S.A., posteriormente solicita la autorización
+al Coordinador Eléctrico Nacional de la energización de la línea 44 [kV] Catemu - Los Ángeles circuito
+N° 1, la que se produce de manera exitosa”.

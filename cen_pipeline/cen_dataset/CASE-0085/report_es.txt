@@ -1,0 +1,281 @@
+Estudio para análisis de falla EAF 521/2024
+“Falla en el cierre del interruptor 52C2 de S/E Chimbarongo”
+Fecha de Emisión: 19/11/2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 26/10/2024
+Hora 19:46
+Consumos desconectados (MW) 1.40
+Demanda previa del sistema (MW) 8971.45
+Porcentaje de desconexión 0.016 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Chimbarongo / SE037T0058
+Tipo de instalación Subestación
+Tensión nominal 66 kV y 15 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento afectado Sistema de protección del paño C2 de S/E Chimbarongo /
+PA004T0058SE037T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes
+d. Origen y causa de la falla
+Se produjo una falla en el cierre del interruptor 52C2 de S/E Chimbarongo durante maniobras de
+recuperación de servicio, tras falla ocurrida previamente en redes de distribución, específicamente en
+el alimentador Huemul, protegido por el mencionado interruptor.
+La causa del no cierre del interruptor 52C2 de S/E Chimbarongo es atribuida a que en el sistema de
+protección del paño C2 se encontraba activada por error la protección “Hot Line Tag”, cuyo propósito
+es ejecutar un despeje más rápido que las protecciones habituales ante fallas en el alimentador durante
+trabajos de “líneas vivas”, donde la mencionada protección no permite el cierre del interruptor mientras
+se encuentre habilitada.
+d.2 Fenómeno Físico:
+OPE7: Error de operador.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica: “Se programa para el día 07-
+12-2022 la mejora en la descripción de la posición del interruptor 52E1 de
+S/E Avellano en el relé SEL 451”.
+La empresa Enel Green Power Chile S.A. indica: “Como acciones
+Desconexión
+correctivas, se considera la revisión del ajuste de la función de distancia
+forzada de la
+EAF 426-2022 20-11-2022 (21/21N) del relé correspondiente al sistema 2 de protección (SEL-311L)
+barra 13.2 kV de
+de la línea 66 kV Los Buenos Aires - Los Ángeles, con el objetivo de aclarar
+S/E Chocalán
+la operación de esté relé de protección, teniendo en cuenta la no operación
+del sistema 1 de protección, el cual corresponde a otro modelo (SEL-
+311C). Se revisarán diferencias en los algoritmos de operación de estos
+dos modelos de relé, junto con detalles específicos asociados a ajustes de
+ambos modelos de protección”.
+Apertura
+intempestiva del
+EAF 483-2022 21-12-2022 La empresa CGE Transmisión S.A. indica que no aplica.
+interruptor 52C4
+de S/E Paniahue
+Desconexión
+La empresa CGE Transmisión S.A. indica: “Se revisará la parametrización
+forzada del
+del relé SEL 387 T1//T2, en específico la necesidad de contar o no, con el
+EAF 119-2023 transformador 11-03-2023
+WD2 activo para el grupo de ajuste cuando está solo T1 en servicio. Esta
+N°1 66/23 kV de
+revisión se realizará durante el mes de abril”.
+S/E Nirivilo
+La empresa CGE Transmisión S.A. señala que:
+“Al determinar la causa de operación, se deshabilitan todas las funciones
+de protecciones en SE Colchagua”.
+“Adjudicatario de proyecto realiza un análisis de operación de protección
+para efectos de determinar la causa origen del evento, determinando una
+incorrecta habilitación de esquema en relé de futuro Paño B1 de SE
+Apertura Colchagua, el cual no se encontraba entregado a la operación. Se remite
+intempestiva del informe técnico de adjudicatario, para el cual cabe señalar que CGE
+EAF 121-2023 interruptor 52B1 12-03-2023 Transmisión está de acuerdo con la determinación en cuanto a que la
+de S/E San operación indeseada se debió a una incorrecta habilitación de esquema de
+Fernando protecciones diferencial de línea en extremo SE Colchagua, sin embargo
+no se encuentra de acuerdo con la conclusión que indica que este error se
+debe a falta de indicación Explicita en ECAP, lo anterior en consideración
+de la las faenas consideran bypass de Paño BT1 de SE Colchagua, en este
+sentido no existía forma de que este función opera correctamente,
+cuestión que debió se advertida por técnicos especialistas a cargo de la
+actividad”.
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. señala que:
+“Se corrigió configuración del canal de comunicación para velocidad
+768kbps en ambos los extremos, máximo permitido por el equipo para
+Apertura
+este tipo de funcionalidades y el recomendado para este tipo de esquemas
+intempestiva del
+de tele protección y diferencial de línea con fibra directa entre ambos los
+EAF 122-2023 interruptor 52B1 13-03-2023
+extremos”.
+de S/E San
+“Se realizó monitoreo del canal diferencial durante algunas horas, luego
+Fernando
+del cambio en ambos los extremos de la velocidad de comunicaciones, y
+no se verificó ningún tipo de falla asociada al canal dejando por lo tanto
+el canal estable”.
+Pérdida de La empresa CGE Transmisión S.A. indica lo siguiente: “Se sobrescriben los
+EAF 135-2023 suministro de S/E 21-03-2023 registros de la protección asociada al Paño B4 de SE Ejercito, se realizará
+Tap Cerro Chepe la revisión y acciones correctivas necesarias para corregir este problema”.
+Apertura “Se realizará capacitación al personal en la operación manual de relés
+intempestiva del Reyrolle ARGUS 7RS224”.
+EAF 148-2023 30-03-2023
+interruptor 52C9 “Se dejará en panel del paño en la Subestación Perales manual breve paso
+de S/E Perales a paso para la operación del relé”.
+Desconexión La empresa CGE Transmisión S.A. señala que:
+forzada del “Se realiza apertura de válvula de paso que quedó cerrada”.
+transformador “Se instruye incorporar dentro del procedimiento, la instalación de señal
+EAF 267-2023 16-06-2023
+regulador N°3 visual sobre válvulas de transformadores, cuando estas sean cerradas
+110/110 kV de para fines de mantenimiento, evitando dejar cerrada de forma
+S/E Quillota involuntaria”.
+Desconexión
+forzada del
+transformador La empresa CGE Transmisión S.A. señala que “No Aplica”.
+EAF 534-2023 13-12-2023
+N°2 66/15 kV de
+S/E San Francisco
+de Mostazal
+La empresa CGE Transmisión S.A. indica:
+“Se realizará Estudio para ajustar adecuadamente los parámetros
+Apertura
+detectores de falla de las zonas 1 de las protecciones de los paños B1, B2
+intempestiva del
+EAF 039-2024 01-02-2024 y B3 de SE Escuadrón. Fecha estimada: 30/04/2024.
+interruptor 52B1
+Se implementará el Estudio de ajuste de los parámetros detectores de
+de S/E Escuadrón
+falla de las zonas 1 de las protecciones de los paños B1, B2 y B3 de SE
+Escuadrón. Fecha estimada: 31/05/2024”.
+Apertura
+La empresa CGE Transmisión S.A. indica lo siguiente: “Se cambió el ajuste
+intempestiva del
+EAF 144-2024 09-04-2024 normal (350 A) al alternativo (500 A) para realizar las maniobras de
+interruptor 52C11
+transferencia de carga.”
+de S/E Chivilcán
+Interrupción de
+suministro en
+La empresa CGE Transmisión S.A. señala lo siguiente: “Se normaliza
+EAF 164-2024 transformador 18-04-2024
+seguro mecánico del equipo porta fusible de la fase central.”
+66/15 kV N°3 de
+S/E Pillanlelbún
+Orden de cierre
+no exitosa del
+EAF 169-2024 22-04-2024 No se indican.
+interruptor 52E1
+de S/E San Javier
+Desconexión
+forzada de la La empresa CGE Transmisión S.A. señala lo siguiente: “El 11/05/2024 se
+EAF 208-2024 barra 13.2 kV N°2 10-05-2024 reemplazó el desconectador 89C5-1 de S/E San Joaquín, correspondiente
+de S/E San al 52C5 Alimentador Antena ICF N° 2024048577.”
+Joaquín (CGE)
+Desconexión
+intempestiva de CGE Transmisión S.A. y Compañía General de Electricidad S.A. no indican
+EAF 210-2024 10-05-2024
+barra N°2 15 kV acciones correctivas de corto plazo.
+de S/E Alameda
+La empresa CGE Transmisión S.A. indica lo siguiente:
+Desconexión “Se analizaron los eventos del relé SEL-387, junto con alarmas para
+forzada del descartar alguna operación mecánica propia del transformador.
+transformador Se informará limitación, para no ejecutar la trasferencia del BT al BR,
+EAF 235-2024 04-06-2024
+Nº10 110/69/13.8 estando en servicio el T10 de S/E Pan de Azúcar. Fecha: 30/06/2024
+kV de S/E Pan de Se compromete una revisión de proceso de elaboración de maniobras,
+Azúcar planes generales y particulares de recuperación de servicio. Fecha:
+30/06/2024.”
+Desconexión
+La empresa CGE Transmisión S.A. señala que “se realizará un análisis para
+forzada de la línea
+EAF 427-2024 06-09-2024 efectos de evitar que este tipo de maniobras genere la apertura por
+66 kV Malloa
+activación de funciones de protección”.
+Nueva - Pelequén
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+No aplica.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento que causó un incremento en el tiempo de recuperación de consumos del alimentador
+Huemul de S/E Chimbarongo corresponde al equipo Control Form 6 del paño C2, el cual tenía habilitada
+de manera errónea la función “Hot Line Tag” la que no permite el cierre del interruptor mientras se
+mantenga operativa.
+La empresa CGE Transmisión S.A. no remitió antecedentes correspondientes a los mantenimientos
+realizados en S/E Chimbarongo durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No informado.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+6303: Chimbarongo.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(28/10/2024) (02/11/2024)
+CGE Transmisión S.A. 27/10/2024 14/11/2024
+Compañía General de Electricidad S.A. (CGE) No recibido No recibido
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla (**) (*) (**)
+Chimbarongo Huemul / C2 Chimbarongo 1.40 0.016 2100 19:46 19:46 20:33
+Total: 1.40 MW 0.016 % 2100
+- Montos y horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+- (*): Para este evento, la barra 15 kV de S/E Chimbarongo, a la cual se conecta el alimentador Huemul, siempre estuvo
+disponible.
+- (**): Clientes y horario de reposición de consumos declarados en el Informe de Falla de 48 horas de CGE Transmisión S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+(*)
+Chimbarongo Huemul / C2 CGE Regulado 1.40 0.00 0.78 1.1
+Clientes Regulados : 1.1 MWh
+Clientes Libres : MWh
+Total : 1.1 MWh
+- Montos señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+- (*): Para este evento, la barra 15 kV de S/E Chimbarongo, a la cual se conecta el alimentador Huemul, siempre estuvo
+disponible.
+- Curva de recuperación esperada v/s recuperación real.
+20:38
+20:24
+20:09
+19:55
+19:40
+19:26
+19:12
+100.0%
+Recuperación real Recuperación esperada
+Para el evento analizado en este estudio, la barra 15 kV de S/E Chimbarongo, a la cual se conecta el
+alimentador Huemul, siempre estuvo disponible. La diferencia de tiempo entre la recuperación
+esperada y la recuperación real es atribuida a la imposibilidad de cerrar el interruptor 52C2 de S/E
+Chimbarongo, debido a la habilitación errónea de la función “Hot Line Tag” en su sistema de protección.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 1.12 0.78 1.44
+Último 20 % 0.28 0.78 0.36
+100 % Total 1.40 0.78 1.79
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8971.45 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Cipreses (U1), El Toro (U1, U2, U3 y U4), Ralco (U1 y U2) y Tocopilla (U16).
+Estado y configuración previo a la falla
+Previo a la falla en el cierre del interruptor 52C2 de S/E Huemul, este equipo se encontraba abierto
+debido a una operación de protecciones registrada a las 18:15 horas del 26/10/2024.
+Otros antecedentes relevantes
+Según lo informado por la empresa CGE Transmisión S.A.:
+“El día 26 de octubre a las 18:15 horas se produce la desconexión forzada del interruptor 52C2 de SE
+Chimbarongo con un desprendimiento de carga de 1,4 MW.
+Luego hacer una revisión de las redes de MT, se inician las maniobras de normalización del circuito
+Huemul (52C2) de SE Chimbarongo, no ejecutándose la orden remota de cierre del equipo (19:46
+horas).
+A las 21:22 se envía personal para la revisión en terreno del equipo, identificando activada la función
+HOT-LINE. La cual bloquea el cierre del equipo luego de una operación por protecciones, la activación
+de esta función se realizó por un error operacional el día 24-10-2024 a las 3:19 horas.
+Se realiza el bloqueo de la función HOT-LINE, informando al centro de operaciones que se encuentran
+las condiciones para la normalización de los consumos. A las 22:29 se da la orden de cierre del 52C2
+Cto. Huemul en S/E Chimbarongo recuperando el 100% de sus consumos asociados”.
+“El día 24 de octubre del 2024 a las 3:19 horas, brigada de Operaciones de Rancagua, luego de realizar
+las maniobras de normalización de la falla ocurrida en la LT San Fernando - Teno (SD 2024004841)
+realizó una revisión de los reconectadores MT de la subestación para verificar el correcto suministro a
+los sistemas de distribución.
+Personal de la brigada al momento de revisar el reconectador 52C2 de SE Chimbarongo,
+inadvertidamente opera el Switch que habilita la función HOT-LINE TAG. Como se aprecia en la imagen
+el Switch sobresale del panel del equipo, lo que genera que el operador lo pasara a enganchar con sus
+guantes.

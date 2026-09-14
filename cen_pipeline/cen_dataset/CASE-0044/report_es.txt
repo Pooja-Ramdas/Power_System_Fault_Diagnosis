@@ -1,0 +1,171 @@
+Estudio para análisis de falla EAF 562/2024
+“Desconexión forzada de las barras N°1 y N°2 15 kV de S/E Chiguayante”
+Fecha de Emisión: 20/12/2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/12/2024
+Hora 01:45
+Consumos desconectados (MW) 11.90
+Demanda previa del sistema (MW) 8695.67
+Porcentaje de desconexión 0.137 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Chiguayante / SE035T0058
+Tipo de instalación Subestación
+Tensión nominal 66 kV y 15 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 P14, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Reconectador de la red MT del alimentador Villuco /
+PA009T0058SE035T0058 (*)
+Propietario elemento fallado Compañía General de Electricidad S.A.
+RUT 76.411.321-7
+Representante Legal Iván Quezada Escobar (**)
+Dirección Av. Presidente Riesco N°5561 P14, Las Condes.
+(*): Corresponde al código del paño C5 de S/E Chiguayante, asociado al alimentador Villuco.
+(**): Gerente General de la empresa Compañía General de Electricidad S.A. obtenido de la plataforma REUC del Coordinador.
+d. Origen y causa de la falla
+Se produjeron las desconexiones forzadas de las barras N°1 y N°2 15 kV de S/E Chiguayante debido
+a la apertura automática del interruptor 52C3 de S/E Ejército, durante la ejecución de trabajos
+programados en S/E Chiguayante (según SD N°2024116639, N°2024116637, N°2024116638 y
+N°2024116640) que requerían que las mencionadas barras 15 kV estuvieran desconectadas de sus
+respectivos transformadores N°1 y N°2 66/15 kV, estando energizadas desde los paños C3 y C4 de
+S/E Ejército, mediante enmalles MT.
+La causa de la desconexión es atribuida a que inadvertidamente se encontraba abierto un
+reconectador de la red MT del alimentador Villuco (paño C5) de S/E Chiguayante, lo cual impidió
+materializar el enmalle MT necesario entre dicho alimentador y el alimentador Prat (paño C4) de S/E
+Ejército, quedando toda la carga de S/E Chiguayante abastecida solamente desde el paño C3 de S/E
+Ejército, a través del enmalle entre los alimentadores Las Violetas (paño C6) de S/E Chiguayante y
+Chepe (paño C3) de S/E Ejército.
+d.2 Fenómeno Físico:
+OPE6: Fallas en instalaciones de terceros u en otro segmento.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico, durante los últimos 24 meses móviles (EAF 561-2024).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Apertura intempestiva del interruptor 52CT8
+EAF 528-2023 10-12-2023 No se señalan.
+de S/E Pan de Azúcar
+Desconexión forzada de barras 23 kV N°1 y N°2
+EAF 542-2024 10-11-2024 No se indican acciones correctivas.
+de S/E Alcones
+Desconexión forzada de las barras N°1 y N°2
+EAF 561-2024 01-12-2024 No se señalan.
+15 kV de S/E Chiguayante
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una falla
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 561-2024).
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento que originó la desconexión forzada de las barras N°1 y N°2 15 kV de S/E Chiguayante
+corresponde a un reconectador perteneciente a la red MT del alimentador Villuco (paño C5) de S/E
+Chiguayante, el cual inadvertidamente se encontraba abierto.
+Al respecto, la empresa Compañía General de Electricidad S.A. no remite información de las
+características del reconectador ni de sus mantenimientos durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No informado.
+g. Proposición del propietario respecto del origen de la falla
+Externa.
+h. Comuna donde se presenta la falla
+8103: Chiguayante.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03/12/2024) (06/12/2024)
+CGE Transmisión S.A. 01/12/2024 17/12/2024
+Compañía General de Electricidad S.A. (CGE) No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Chiguayante ST Zonal Barra N°1 15 kV 01:45 01:51
+S/E Chiguayante ST Zonal Barra N°2 15 kV 01:45 01:51
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla (*)
+Chiguayante Manuel Rodríguez / C2 SI 3.20 0.037 SI 01:45 01:51 01:51
+Chiguayante Biobío / C3 SI 2.20 0.025 SI 01:45 01:51 01:51
+Chiguayante Hualqui / C4 SI 3.90 0.045 SI 01:45 01:51 01:51
+Chiguayante Villuco / C5 SI 0.80 0.009 SI 01:45 01:51 01:51
+Chiguayante Las Violetas / C6 SI 0.60 0.007 SI 01:45 01:51 01:51
+Ejército Chepe / C3 SI 1.20 0.014 SI 01:45 01:45 01:52
+Total: 11.90 MW 0.137 % SI
+- Los montos y horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+- SI: Sin información.
+- (*): Para este evento, la barra N°1 15 kV de S/E Ejército, a la cual se conecta el alimentador Chepe, siempre estuvo disponible.
+3. Estimación de la energía no suministrada
+Sub- Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Estación Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+(*)
+Manuel Rodríguez /
+Chiguayante CGE Regulado 3.20 0.10 0.10 0.3
+C2
+Chiguayante Biobío / C3 CGE Regulado 2.20 0.10 0.10 0.2
+Chiguayante Hualqui / C4 CGE Regulado 3.90 0.10 0.10 0.4
+Chiguayante Villuco / C5 CGE Regulado 0.80 0.10 0.10 0.1
+Chiguayante Las Violetas / C6 CGE Regulado 0.60 0.10 0.10 0.1
+Ejército Chepe / C3 CGE Regulado 1.20 0.00 0.12 0.1
+Clientes Regulados : 1.2 MWh
+Clientes Libres : MWh
+Total : 1.2 MWh
+- Los montos señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+- (*): Para este evento, la barra N°1 15 kV de S/E Ejército, a la cual se conecta el alimentador Chepe, siempre estuvo disponible.
+- Curva de recuperación esperada v/s recuperación real.
+01:56
+01:48
+01:41
+01:34
+01:27
+01:20
+26.9% 45.4% 78.2% 84.9% 89.9% 100.0%
+Recuperación esperada Recuperación real
+Para el evento analizado en este estudio, la barra N°1 15 kV de S/E Ejército, a la cual se conecta el
+alimentador Chepe, siempre estuvo disponible. La diferencia de tiempo entre la recuperación
+esperada y la recuperación real para el último 10.1% de los consumos afectados, asociados al
+alimentador Chepe de S/E Ejército, corresponde al tiempo en desarmar el enmalle MT entre las
+SS/EE Chiguayante y Ejército para posteriormente reponer el suministro de los consumos de las
+barras 15 kV de S/E Chiguayante a través de los transformadores N°1 y N°2 66/15 kV de esta última
+S/E y de normalizar los consumos del alimentador Chepe desde la barra N°1 15 kV de S/E Ejército.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 9.52 0.10 95.20
+Último 20 % 2.38 0.12 19.83
+100 % Total 11.90 0.12 99.17
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8695.67 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Colbún (U1), Kelar (TG1), Mejillones (CTM3 y IEM), Ralco (U1 y U2) y Rapel (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de diciembre de
+2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+01 de diciembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 01 de
+diciembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades:
+- Debido al comienzo de los trabajos programados (SD N°2024116639, N°2024116637,
+N°2024116638 y N°2024116640) por la puesta en servicio del proyecto NUP 3259 “Ampliación
+S/E Chiguayante”, las barras N°1 y N°2 15 kV de S/E Chiguayante se encontraban acopladas
+(cerrado 89CS) y abastecidas desde el paño C3 de S/E Ejército, a través de un enmalle MT entre
+los alimentadores Las Violetas (paño C6) de S/E Chiguayante y Chepe (paño C3) de S/E Ejército.
+Si bien también se encontraba cerrado el límite de zona entre el alimentador Villuco (paño C5) de
+S/E Chiguayante y el alimentador Prat (paño C4) de S/E Ejército, se encontraba abierto un
+reconectador del alimentador Villuco en otro punto de su red, por lo cual no se materializó el
+enmalle efectivo que era necesario entre las barras MT de las SS/EE Chiguayante y Ejército a
+través de los mencionados alimentadores.
+Adicionalmente, a las 01:24 horas del 01-12-2024 se realizó un intento no exitoso de realizar los
+mismos trabajos programados (evento analizado en el EAF 561-2024).

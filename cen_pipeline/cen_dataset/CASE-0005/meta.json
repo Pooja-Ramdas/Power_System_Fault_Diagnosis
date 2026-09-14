@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0599-2024",
+  "eaf_num": 599,
+  "year": 2024,
+  "description": "Desconexión forzada de línea 154 kV Montenegro – Monterrico",
+  "date": "27-12-2024",
+  "time": "06:37",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2025/01/EAF-599-2024.pdf",
+  "case_id": "CASE-0005",
+  "event_datetime": "2024-12-27T06:37:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0005\\official_diagram.zip"
+}

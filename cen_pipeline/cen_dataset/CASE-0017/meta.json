@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0588-2024",
+  "eaf_num": 588,
+  "year": 2024,
+  "description": "Falla en línea 66 kV Illapel – Combarbalá",
+  "date": "20-12-2024",
+  "time": "10:05",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2025/01/EAF-588-2024.pdf",
+  "case_id": "CASE-0017",
+  "event_datetime": "2024-12-20T10:05:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0017\\official_diagram.zip"
+}

@@ -1,0 +1,280 @@
+Estudio para análisis de falla EAF 476/2024
+“Falla en línea 66 kV San Vicente de Tagua Tagua - Las Cabras”
+Fecha de Emisión: 09-10-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 14/09/2024
+Hora 08:37
+Consumos desconectados (MW) 8.96
+Demanda previa del sistema (MW) 8762
+Porcentaje de desconexión 0.102%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV San Vicente de Tagua Tagua - Las Cabras /
+LT041CI1TR01----T0058
+Tipo de instalación Línea de Transmisión
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación fallada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Avenida Presidente Riesgo N°5561, piso 14, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 66 kV San Vicente de Tagua Tagua - Las Cabras /
+LT041CI1TR01----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 Piso 16, Las Condes
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV San Vicente de Tagua Tagua - Las Cabras, por
+operación de sus protecciones (función de distancia de fase en zona 1) en el extremo San Vicente de
+Tagua Tagua.
+La causa de la falla se debió al choque de un vehículo contra la estructura N°21 de la línea, ocasionando
+su colapso y daños estructurales.
+d.2 Fenómeno Físico:
+ACC3: Vehículos terrestres.
+La resolución exenta 30989-2019 de la Superintendencia de Electricidad y Combustibles (SEC) requiere
+los siguientes probatorios y antecedentes para el Fenómeno Físico indicado:
+• Registro fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+• Declaración jurada del representante legal que señale: hechos del evento, si el vehículo es de
+un tercero o propio, número de veces que ha ocurrido este tipo de falla en la instalación.
+• Parte policial.
+• Vista aérea de Google Earth, Maps y/o Street, incluyendo coordenadas UTM.
+• Si es reiterada (24 meses móviles), informar las medidas de seguridad existentes en la
+instalación el objeto de evitar este tipo de incidente (describir cuáles).
+La empresa CGE Transmisión S.A. remitió los probatorios y antecedentes solicitados por la SEC.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondiente al Estudio para Análisis de Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. realizó trabajos de
+Falla en la línea 33 kV reparación del conductor cortado entre las estructuras N°449
+EAF 414_2022 08-11-2022
+Hualte - Quirihue y N°450, además de reemplazo de la cruceta en la estructura
+N°448.
+Falla en línea 66 kV
+EAF 021_2023 17-01-2023 CGE Transmisión S.A. señala que “no aplica”.
+Cocharcas - Hualte
+La empresa CGE Transmisión S.A. señala:
+• “Se detectó una diferencia en el horario del relé, que será
+corregido el miércoles 8 de febrero mediante solicitud del
+Falla en la línea 66 kV Loma
+EAF 028_2023 24-01-2023 Neomante 2023010052”.
+Colorada - Escuadrón
+• “Se realizará el aplome de la estructura N°70 y el
+reemplazo de porta line-post de la fase central de la línea
+durante el mes de abril del 2023”.
+La empresa CGE Transmisión S.A. indica:
+• “Se realizará el despeje de los escombros y materiales
+dejados bajo la línea LT Alonso de Ribera-Chiguayante
+entre las estructuras E79 y E80”.
+• “Instalación de señalética en los conductores de la línea
+Falla en la línea 66 kV
+LT Alonso de Ribera-Chiguayante entre las estructuras
+EAF 066_2023 Alonso de Ribera - 12-02-2023
+E79 y E80”.
+Chiguayante
+• “Está en desarrollo el proyecto NUP 3415, que remplazará
+los TTCC y las protecciones electromecánicas a digitales
+en el paño B2, para devolver la transferencia de la línea
+Chiguayante desde el paño BR al paño B2, agregando
+características de registros de eventos y oscilográfico”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+• La empresa CGE Transmisión S.A. indica:
+• “En LT 66kV Buin - Alto Jahuel, se realiza el retiro de la
+Desconexión forzada de la
+estructura dañada y se libera pista de carretera dado que,
+EAF 067_2023 línea 66 kV Alto Jahuel - 12-02-2023
+al caer la estructura, esta cae sobre una pista de carretera
+Buin
+5 SUR. Se programa y ejecuta su reemplazo el martes
+14.02.2023”
+“Desconexión forzada de la La empresa CGE Transmisión S.A. señala que “se
+EAF 129_2023 línea 66 kV Los Maquis - 14-03-2023 reemplazaron las baterías del control y se corrigió el horario
+Hualañé de la unidad de control”.
+La empresa CGE Transmisión S.A. indica:
+• “Se transfieren los consumos de S/E El Sauce nodo Elqui
+Falla en línea 66 kV Illapel -
+EAF 134_2023 21-03-2023 (S/E Ovalle)”.
+Combarbalá
+• “Se coordina y ejecuta con contratista la reparación de
+líneas cortadas y reemplazo de postes quebrados”.
+La empresa CGE Transmisión S.A.:
+• “Instalación de señalética bajo los conductores de la línea
+Falla en la línea 66 kV
+66 kV Alonso de Ribera - Chiguayante entre las
+EAF 149_2023 Alonso de Ribera - 31-03-2023
+estructuras E79 y E80”.
+Chiguayante
+• “Está en desarrollo el proyecto NUP 3415, que remplazará
+los TTCC y las protecciones electromecánicas a digitales”.
+Falla en línea 66 kV Victoria
+EAF 208_2023 12-05-2023 La empresa CGE Transmisión S.A. señala que “no aplica”.
+- Traiguén
+La empresa CGE Transmisión S.A. señala lo siguiente:
+• “Se cambian 2 aisladores Line Post de losa por dos
+aisladores Line Post Poliméricos, como también 1 aislador
+Line Post de Losa por uno del mismo tipo”.
+• “Se reparó cable N°2 AWG”.
+• “Se instalará barra de contención para proteger los
+tirantes de la estructura N°35”.
+Falla en la línea 66 kV
+EAF 236_2023 02-06-2023 • “Dentro de los próximos 8 meses se reemplazará la
+Parinacota - Quiani
+aislación de losa de tres estructuras por aisladores
+polimérico”.
+La empresa Transemel S.A. señala lo siguiente:
+• “Transemel S.A. En un plazo de 1 mes realizara el
+diagnóstico y revisión de relés por parte del fabricante, y
+en caso de ser necesario, realizara una actualización de
+los correspondientes firmwares.”
+La empresa CGE Transmisión S.A. indica:
+“Se realiza modificación en el grupo de protecciones del relé
+SEL 311C relacionado con el interruptor 52BT1, dejando el
+Falla en la línea 66 kV grupo 1 como activo.
+EAF 244_2023 07-06-2023
+Cocharcas - Hualte Se instruye al contratista que modifique, y corrija las
+indicaciones de los grupos de ajustes que corresponden a
+cada relé, de acuerdo con la nueva situación por la ampliación
+de la subestación (NUP 1189)”.
+La empresa CGE Transmisión S.A. señala que:
+Desconexión forzada de la “En LT 66 kV Buin - E 103, se realiza el retiro de la estructura
+EAF 315_2023 línea 66 kV Alto Jahuel - 27-07-2023 dañada y durante el mismo día se realiza el reemplazo de
+Buin (CGE) esta. Los trabajos se concluyen durante la madrugada del día
+28 de Julio, normalizando así la topología de la línea”.
+Falla en el circuito N°1 de la
+EAF 424_2023 línea 2x66 kV Loncoche - 02-10-2023 La empresa CGE Transmisión S.A. señala que: “No aplica”.
+Villarrica
+Falla en la línea 66 kV
+La empresa CGE Transmisión S.A. indica: “Se reemplaza la
+EAF 061_2024 Rancagua – San Francisco 09-02-2024
+estructura afectada”.
+de Mostazal
+Falla en línea 66 kV
+EAF 084_2024 21-02-2024 La empresa CGE Transmisión S.A. señala que: “No aplica”.
+Concepción - Penco
+Desconexión forzada de
+EAF 096_2024 02-03-2024 La empresa CGE Transmisión S.A. señala que: “No aplica”.
+barra 13.2 kV N°1 S/E Teno
+Falla en línea 66 kV Parral - La empresa CGE Transmisión S.A. señala que “se realizó la
+EAF 292_2024 25-06-2024
+Cauquenes reparación del conductor cortado”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 3 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 060-2023, EAF 368-2023 y EAF 056-2024.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la falla corresponde a la estructura N°21 de la línea 66 kV San Vicente
+de Tagua Tagua - Las Cabras. De acuerdo con lo indicado por su propietario en el aplicativo Infotécnica
+del Coordinador, la mencionada línea posee las siguientes características:
+• Largo: 25.73 km
+• Temperatura de diseño del conductor en régimen permanente: 75°C
+• Límite térmico permanente en verano con sol 25°C: 0.308 kA
+• Sección del conductor: 99.16 mm2
+• Tipo de conductor: AAAC
+• Número de conductores por fase: 1
+• Año de entrada en operación: 1991
+CGE Transmisión S.A. no remitió los antecedentes respecto de los mantenimientos realizados a este
+elemento durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+Sin información, CGE S.A. no remitió su Informe de Falla del quinto día.
+g. Proposición del propietario respecto del origen de la falla
+CGE Transmisión S.A. señala: “Fuerza Mayor o Caso Fortuito”.
+h. Comuna donde se presenta la falla
+06117: San Vicente de Tagua Tagua
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(16-09-2024) (25-09-2024)
+CGE Transmisión S.A. 14-09-2024 02-10-2024
+Compañía General de Electricidad S.A. 28-09-2024 No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+San Vicente de Tagua Tagua - Las Cabras 66 kV ST Zonal - 08:37 15:54
+- Las horas indicadas corresponden a lo indicado por la empresa CGE Transmisión S.A.
+c. Consumos
+Sub-Estación Alimentador / Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Las Cabras La Rosa / C1 N/I 2.49 0.028 N/I 8:37 16:11 10:29
+El Manzano Los Cisnes / C1 N/I 0.94 0.011 N/I 8:37 16:06 16:59
+Las Cabras Cocalán / C2 N/I 1.96 0.022 N/I 8:37 16:11 17:31
+El Manzano El Estero / C2 N/I 2.71 0.031 N/I 8:37 16:06 19:11
+Las Cabras El Carmen / C5 N/I 0.86 0.010 N/I 8:37 16:11 21:33
+Total: 8.96 MW 0.102 % N/I
+- Los montos y horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+- En cada subestación afectada, a los montos de pérdida de consumos declarados por CGE Transmisión S.A. por alimentador se les
+adicionó, proporcional al monto de pérdida de consumo, la generación total de los PMGD que inyectaban en cada S/E. Esto último
+fue obtenido desde la Plataforma de Recepción de Medidas de Transferencias Económicas (PRMTE) del Coordinador.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador / Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Las Cabras La Rosa / C1 CGE Regulado 2.49 7.57 1.87 4.6
+El Manzano Los Cisnes / C1 CGE Regulado 0.94 7.48 8.37 7.9
+Las Cabras Cocalán / C2 CGE Regulado 1.96 7.57 8.90 17.4
+El Manzano El Estero / C2 CGE Regulado 2.71 7.48 10.57 28.6
+Las Cabras El Carmen / C5 CGE Regulado 0.86 7.57 12.93 11.1
+Clientes Regulados : 69.6 MWh
+Clientes Libres : MWh
+Total : 69.6 MWh
+- Los montos señalados corresponden a lo informado por la empresa CGE Transmisión S.A. y a lo indicado en la Plataforma de
+Recepción de Medidas de Transferencias Económicas (PRMTE) del Coordinador.
+- Curva de recuperación esperada v/s recuperación real.
+0:00
+21:36
+19:12
+16:48
+14:24
+12:00
+9:36
+7:12
+4:48
+2:24
+0:00
+27.8% 38.3% 60.2% 90.4% 100.0%
+Recuperación real Recuperación esperada
+Se observan diferencias entre los horarios de recuperación real respecto de los horarios de
+disponibilidad de las barras primarias respectivas para recuperar los consumos afectados. Esto se debe
+principalmente a que algunos consumos fueron recuperados mediante traspasos de carga a través de
+redes de media tensión. La demora en la recuperación del último 10% de los consumos afectados
+puede explicarse por la falla en el cierre del interruptor 52C5 de S/E Las Cabras.
+- Velocidad promedio de recuperación.
+Velocidad de
+Tiempo
+Rango Potencia (MW) recuperación
+recuperación (h)
+(MW/h)
+Primer 80 % 7.17 10.57 0.68
+Último 20 % 1.79 12.93 0.14
+100 % Total 8.96 12.93 0.69
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8762 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales: Colbún (U1 y U2),
+Mejillones (CTM3), Pehuenche (U1 y U2) y San Isidro II (TG+TV).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 14 de septiembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 14 de septiembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+14 de septiembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 14 de
+septiembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión operaban de forma normal previo a la desconexión forzada.
+Otros antecedentes relevantes
+Según lo señalado por CGE Transmisión S.A.:
+“El sábado 14.09.2024 el Centro de Operación de Transmisión (COT) informa que a las 08:37 hrs se
+produce la apertura del interruptor 52B4 de SE San Vicente de Tagua Tagua provocando la pérdida de
+consumos de los Transformadores N°1 y N°2 de S/E Las Cabras y el T1 y T2 de S/E El Manzano, con
+una potencia desconectada de 7,68 MW.
+Una vez informado el evento, se coordinan los recursos para el recorrido de la línea y se instruye a la
+brigada pesada iniciar traslados para reunir y preparar materiales ante una posible faena de reparación.

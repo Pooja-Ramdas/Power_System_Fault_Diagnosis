@@ -1,0 +1,141 @@
+Estudio para análisis de falla EAF 501/2024
+“Desconexión forzada del transformador N°3 220/6.9 kV de S/E Farellón”
+Fecha de Emisión: 04-11-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 10/10/2024
+Hora 08:22
+Consumos desconectados (MW) 50.00
+Demanda previa del sistema (MW) 9329.84
+Porcentaje de desconexión 0.536 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Farellón / SE079L0120
+Tipo de instalación Subestación
+Tensión nominal 220/6.9 kV
+Segmento Transmisión Dedicado
+Propietario instalación afectada Minera Escondida Ltda.
+RUT 79587210-8
+Representante Legal Álvaro Yañez Y.
+Dirección Avenida de la Minería 501 Antofagasta.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Transformador N°3 220/6.9 kV de S/E Farellón / ET04L0120SE079L0120
+Propietario elemento fallado Minera Escondida Ltda.
+RUT 79587210-8
+Representante Legal Álvaro Yañez Y.
+Dirección Avenida de la Minería 501 Antofagasta.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada del transformador N°3 220/6.9 kV de S/E Farellón por la operación
+de la protección diferencial 87T, abriendo los interruptores 52JT3 y 52DT3 asociados a dicho
+transformador.
+La empresa Minera Escondida Ltda. atribuye la operación de la protección diferencial a un cable mal
+ajustado perteneciente a la fase B.
+d.2 Fenómeno Físico:
+OPE26: Falla en sistema de protección o control
+La empresa Minera Escondida Ltda. entrega los siguientes antecedentes probatorios necesarios para
+acreditar el fenómeno físico.
+o Mantención de los últimos 24 meses del equipo involucrado.
+o Registro oscilográfico y de eventos de las protecciones involucradas.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se ha producido una falla en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Minera Escondida Ltda. indica: “Se realizó la atención de
+la falla en terreno, revisando las protecciones y el transformador. Se
+Desconexión
+concluyó que el equipo operó por una falsa señal de temperatura.
+transformador T3
+EAF 405_2022 02-11-2022 Durante una desconexión del transformador se revisarán las señales
+220/69 kV de S/E
+que llegan al equipo Qualitrol. Por el momento queda levantado el
+Sulfuros
+disparo por sobretemperatura del equipo y el Qualitrol en
+observación”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR87T: Proteccion diferencial transformador.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al transformador N°3 220/6.9 kV de S/E Farellón, el
+cual, según los datos informados por el propietario y respaldados por la plataforma Infotécnica del
+Coordinador, es un transformador marca ABB trifásico con configuración Dyn1, con capacidad de 36
+MVA y voltaje nominal de 220/6.9 kV, con conexión neutro sólidamente aterrizado en el lado BT y con
+puesta en servicio el año 2019.
+Al respecto, la empresa Minera Escondida Ltda. adjunta información de los mantenimientos de esta
+instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+2101: Antofagasta.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(14-10-2024) (17-10-2024)
+Minera Escondida Ltda. 10-10-2024 17-10-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Farellón ST Dedicado Transformador N°3 220/6.9 kV 08:22 11:17
+S/E Farellón ST Dedicado Barra N°3 08:22 11:22
+- Los horarios señalados corresponden a lo informado por la empresa Minera Escondida Ltda. y los registros SCADA del Coordinador.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Farellón - Antofagasta 50.00 0.536 1 08:22 11:22 11:22
+Total: 50.00 MW 0.536 % 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa Minera Escondida Ltda.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Minera Escondida
+S/E Farellón - Libre 50.00 3.00 3.00 150.0
+Ltda.
+Clientes Regulados : MWh
+Clientes Libres : 150.0 MWh
+Total : 150.0 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Minera Escondida Ltda.
+- Curva de recuperación esperada v/s recuperación real.
+00:00
+00:00
+1111::2222
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+100%
+Recuperación real Recuperación esperada
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 40.00 3.00 13.33
+Último 20 % 10.00 3.00 3.33
+100 % Total 50.00 3.00 16.67
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9329.84 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U1 y U2), El Toro (U1, U2, U3 y U4), Ralco (U1 y U2), Rapel (U1 y U2 y U4).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 10 de octubre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 10 de octubre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+10 de octubre de 2024.

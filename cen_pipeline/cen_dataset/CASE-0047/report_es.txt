@@ -1,0 +1,218 @@
+Estudio para análisis de falla EAF 559/2024
+“Apertura intempestiva del interruptor 52CL3 de S/E Central Queltehues”
+Fecha de Emisión: 20-12-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 30/11/2024
+Hora 16:38
+Consumos desconectados (MW) 1.51
+Demanda previa del sistema (MW) 9309.1
+Porcentaje de desconexión 0.016 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Central Queltehues / SE006G0010
+Tipo de instalación Subestación
+Tensión nominal 110 kV, 23 kV y 12 kV
+Segmento Transmisión Dedicada
+Propietario instalación afectada AES Andes S.A.
+RUT 94.272.000-9
+Representante Legal Javier Dib
+Dirección Los Conquistadores 1730, piso 10, Providencia, Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Paño C3 de S/E Central Queltehues / PA030G0010SE006G0010 (*)
+Propietario elemento fallado Compañía General de Electricidad S.A.
+RUT 76.411.321-7
+Representante Legal Iván Quezada Escobar (**)
+Dirección Av. Presidente Riesco N° 5561, piso 14, Las Condes, Santiago
+(*) Código de equipo que en el aplicativo Infotécnica del Coordinador aparece de propiedad de AES Andes S.A., sin embargo, en
+planos cargados en este aplicativo, así como declaraciones de la mencionada empresa, se indica que la propiedad es de Compañía
+General de Electricidad S.A.
+(**): Gerente General de la empresa Compañía General de Electricidad S.A. obtenido de la plataforma REUC del Coordinador.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52CL3 de S/E Central Queltehues, asociado a la
+barra del patio de alimentadores 12 kV de la subestación, por operación en respaldo de la protección
+de sobrecorriente temporizada de tierra, 50N, ante el no despeje de la falla por el dispositivo de
+protección del paño C3 de esta S/E.
+La empresa AES Andes S.A. informa que el origen de la falla fue la caída de un árbol sobre los
+conductores del alimentador San José (conectado al paño C3).
+d.2 Fenómeno Físico:
+OPE22: Error en programación de elementos de protección o control.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+CO51: Sobrecorriente de neutro temporizado.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde presumiblemente se originó la falla corresponde al interruptor 52C3 de S/E Central
+Queltehues, cuyas características técnicas no se encuentran registradas en la plataforma Infotécnica,
+de propiedad de la empresa Compañía General de Electricidad S.A., según planos de este aplicativo y
+declaración del Informe de Falla de 5 días de la empresa AES Andes S.A.
+El elemento afectado por la falla corresponde al interruptor 52CL3 de S/E Central Queltehues, el cual
+corresponde a un equipo tripolar marca Siemens, modelo 8DA10, 1600 A de corriente nominal y 31,5
+kA de capacidad de ruptura, cuya fecha de entrada en operación fue en el año 2016, en este caso de
+propiedad de la empresa AES Andes S.A.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa CGE S.A. indica: “Rural”.
+g. Proposición del propietario respecto del origen de la falla
+Interna *
+(*) Dada la omisión de la proposición del origen de la falla de parte de la empresa propietaria.
+h. Comuna donde se presenta la falla
+13203: San José de Maipo.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(31-10-2024) (06-12-2024)
+Compañía General de Electricidad S.A. (CGE) 03-12-2024 06-12-2023
+AES Andes S.A. 30-11-2024 06-12-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Central Queltehues ST Dedicado Barra 12 kV 16:38 21:41
+c. Consumos
+Alimentador / Pérdida de % consumo Clientes H. H. H.
+Sub-Estación Comuna
+Paño Consumo (MW) pre-falla Afectados Desc. Disp. Norm.
+Central San José de
+Volcán / C1 0.01 0.000 7 16:38 21:41 21:53
+Queltehues Maipo
+Central San José de
+Bocatoma / C2 0.00 0.000 15 16:38 21:41 21:53
+Queltehues Maipo
+Central San José de
+San José / C3 1.50 0.016 1995 16:38 21:41 21:53
+Queltehues Maipo
+Total: 1.51 MW 0.016% 2017
+- Los montos y tiempos señalados corresponden a lo informado por la empresa CGE S.A.
+3. Estimación de la energía no suministrada
+Tipo de Pérdida de Tiempo Tiempo ENS
+Sub- Estación Alimentador / Paño Empresa
+Cliente Consumo (MW) Indisp. (h) Desc. (h) (MWh)
+Central Queltehues Volcán / C1 CGE Regulado 0.01 5.05 5.25 0.10
+Central Queltehues Bocatoma / C2 CGE Regulado 0.00 5.05 5.25 0.00
+Central Queltehues San José / C3 CGE Regulado 1.50 5.05 5.25 7.90
+Clientes Regulados : 8.0 MWh
+Clientes Libres : MWh
+Total : 8.0 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa CGE S.A.
+- Curva de recuperación esperada v/s recuperación real.
+21:56
+21:53 21:53 21:53
+21:50
+21:47
+21:44
+21:41
+21:41 21:41
+21:38
+21:36
+21:33
+Volcán / C1 Boca Toma / C1 San José / C1
+Recuperación real Recuperación esperada
+Se observan diferencias entre la recuperación de los consumos y la disponibilidad de la barra de 12 kV
+de la S/E Central Queltehues (12 minutos).
+- Velocidad promedio de recuperación.
+Tiempo
+Potencia Velocidad de
+Rango recuperación
+(MW) recuperación (MW/h)
+(h)
+Primer 80 % 1.21 5.25 0.23
+Último 20 % 0.30 5.25 0.06
+100 % Total 1.51 5.25 0.29
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9309.1 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U3), Colbún (U1), PE Cabo Leones (III), PE Cerro Tigre, PFV Almeyda, PFV
+Atacama Solar y PFV el Romero.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Otros antecedentes presentados por AES Andes S.A.
+“Se produce apertura del interruptor 12 kV 52CL3 lo que provoca la pérdida de suministro a barra de
+12 kV que alimenta las siguientes LMT 12 kV: 1.- Bocatoma Maipo 52C2 (interruptor queda cerrado).
+2.- San José de Maipo 52C3 (interruptor queda cerrado)”.
+Debido a que la protección asociada al paño C3, alimentador San Jose de Maipo, no es de la propiedad
+de AES Andes, para obtener las curvas de sobrecorriente temporizada se debe trabajar en conjunto
+con CGE. Sin embargo, existe un Estudio de Coordinación de Protección (ECAP) desarrollado durante
+2024 para dar finalmente solución a la descoordinación de las protecciones en la subestación
+Queltehues, respecto de los paños C3 y CL3. Para este estudio, AES Andes ya envió observaciones y
+nos encontramos a la espera de la respuesta y finalización por parte de CGE.”.
+Otros antecedentes presentados por Compañía General de Electricidad S.A.
+“A las 16:38 hrs. se produce apertura del interruptor 12 kV 52CL3 lo que provoca la pérdida de
+suministro a barra de 12 kV que alimenta las siguientes LMT 12 kV: 1.- Bocatoma Maipo 52C2
+(interruptor queda cerrado). 2.- Bocatoma Maipo (interruptor permanece cerrado). 2.- San José de
+Maipo 52C3 (interruptor queda cerrado).”.
+En función de los antecedentes presentados a la fecha de emisión del presente EAF, se solicitará la
+siguiente información adicional a la empresa CGE S.A.:
+• Tomado los antecedentes declarados por la empresa AES Andes S.A. y el aplicativo Infotecnica
+del Coordinador, la causa raíz de la no apertura del interruptor 52C3 de la S/E Central
+Queltehues con los respectivos antecedentes de respaldo, frente a una falla que habría ocurrido
+en las redes de distribución del alimentador San José.
+• Proposición de su representada respecto de si la causa que provoca la apertura intempestiva
+de interruptor 52C3 de S/E Central Queltehues es calificada como Interna, Caso Fortuito o
+Fuerza Mayor.
+• Dependiendo de la propuesta y del Fenómeno Físico que produce la falla, se deberán enviar los
+Probatorios y Antecedentes correspondientes, de acuerdo con lo estipulado en la Resolución
+Exenta N°30989 de la SEC.
+• Registros y análisis de los sistemas de protección asociados al interruptor 52C3 de la S/E
+Central Queltehues.
+• Ajustes de los dispositivos de protección y control asociados al interruptor 52C3 de la S/E
+Central Queltehues.
+• Características de la instalación del interruptor 52C3 de la S/E Central Queltehues. En
+particular, se debe indicar: Marca del equipo, datos de placa, año de puesta en servicio, plan
+de mantención, vida útil del equipo, y si al momento de la falla existía algún retraso en
+inversiones pactadas en dicho equipo.
+• Registro de los parámetros eléctricos del equipamiento que integra el paño C3 de la S/E Central
+Queltehues, y normalización de la propiedad de cada uno de estos equipos en la plataforma
+Infotécnica del Coordinador, donde alguno de ellos aparece como propiedad de la empresa AES
+Andes S.A.
+• Plan de trabajo para la revisión del equipamiento primario que integra el paño C3 de la S/E
+Central Queltehues y de su sistema de control asociado. Lo anterior, con el fin de determinar
+las causas que propiciaron la no apertura del interruptor 52C3 para el evento en evaluación.
+• Plan de trabajo para la revisión conjunta con la empresa AES Andes S.A. de la coordinación de
+protecciones entre los interruptores 52C3 y 52CL3 de S/E Central Queltehues (ECAP en
+desarrollo), y en función de sus resultados un cronograma de trabajo para su implementación
+en sitio.
+• Eventuales acciones correctivas y/o preventivas adoptadas.
+• Motivos que retrasaron la recuperación de los consumos afectados una vez energizada la barra
+de 12 kV de la S/E Central Queltehues (12 minutos de retraso).
+• Revisión del horario de recuperación de los consumos afectados del alimentador Volcán, dado
+que la empresa AES Andes S.A. reportó el cierre del interruptor 52C1 de S/E Central Queltehues
+a las 21:52 horas.
+• Mantenimientos realizados en los equipos que componen el paño C3 de S/E Central Queltehues,
+durante los últimos 24 meses, junto con los antecedentes que acrediten su realización.
+• Motivos que propiciaron la no entrega de la información citada en las viñetas anteriores en
+tiempo y forma, junto con las acciones que su representada realizará para evitar una nueva
+ocurrencia de omisión de dichos antecedentes.
+En función de los antecedentes presentados a la fecha de emisión del presente EAF, se solicitará la
+siguiente información adicional a la empresa AES Andes S.A.:
+• Plan de trabajo para la revisión conjunta con la empresa Compañía General de Electricidad S.A.
+de la coordinación de protecciones entre los interruptores 52C3 y 52CL3 de S/E Central
+Queltehues (ECAP en desarrollo), comprometido en su Informe de Falla de 5 días, y en función
+de sus resultados un cronograma de trabajo para su implementación en sitio.
+• Normalización de la propiedad del equipamiento que integra el paño C3 de la S/E Central
+Queltehues en el aplicativo Infotecnica del Coordinador, ya que en su Informe de Falla se indica
+que el equipo involucrado es de propiedad de la empresa Compañía General de Electricidad
+S.A., sin embargo, en dicha plataforma se indica que el mencionado paño está registrado como
+parte de la propiedad de AES Andes S.A.
+,
+Con la información disponible para elaborar el presente EAF, se deduce que el desempeño no selectivo
+de las protecciones asociadas al paño C3 de S/E Central Queltehues, frente a una falla que habría
+ocurrido en el alimentador San José, provocaron desde el punto de vista de la afectación del suministro
+eléctrico una pérdida excesiva de 0.01 MW de consumos en esta S/E, que equivalen a 0.1 MWh de
+ENS, según el detalle que se muestra en la siguiente tabla:
+Tipo de Pérdida de Tiempo ENS
+Sub- Estación Alimentador / Paño Empresa
+Cliente Consumo (MW) Desc. (h) (MWh)
+Central Queltehues Volcán / C1 CGE Regulado 0.01 5.25 0.10
+Central Queltehues Bocatoma / C2 CGE Regulado 0.00 5.25 0.00
+De forma complementaria, se adjuntan los informes de falla ingresados en el sistema Neomante del
+Coordinador Eléctrico Nacional por las empresas AES Andes S.A. y CGE S.A. (Anexo N°1) y otros
+antecedentes aportados por dichas empresas (Anexo N°2).

@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0531-2024",
+  "eaf_num": 531,
+  "year": 2024,
+  "description": "Falla en línea 66 kV San Javier – Constitución",
+  "date": "04-11-2024",
+  "time": "03:31",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/EAF-531-2024.pdf",
+  "case_id": "CASE-0075",
+  "event_datetime": "2024-11-04T03:31:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0075\\official_diagram.zip"
+}

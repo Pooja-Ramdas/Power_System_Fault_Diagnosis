@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0455-2024",
+  "eaf_num": 455,
+  "year": 2024,
+  "description": "Falla en línea 110 kV Puente Alto – Costanera",
+  "date": "28-08-2024",
+  "time": "20:18",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/09/EAF-455-2024.pdf",
+  "case_id": "CASE-0153",
+  "event_datetime": "2024-08-28T20:18:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0153\\official_diagram.dwg"
+}

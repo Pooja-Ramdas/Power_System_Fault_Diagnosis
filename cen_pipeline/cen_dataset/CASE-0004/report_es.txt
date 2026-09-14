@@ -1,0 +1,98 @@
+Estudio para análisis de falla EAF 600/2024
+“Falla en línea 66 kV Charrúa - Lucero”
+Fecha de Emisión: 20-01-2025
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 28/12/2024
+Hora 01:21
+Consumos desconectados (MW) 5.74
+Demanda previa del sistema (MW) 10030.1
+Porcentaje de desconexión 0.057 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Tramo Tap Santa Clara - Los Tilos Bulnes 66 kV C1/ LT271CI1TR08----T0058
+Tipo de instalación Línea de transmisión
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 17, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Tramo Tap Santa Clara - Los Tilos Bulnes 66 kV C1/ LT271CI1TR08----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 17, Las Condes.
+d.1 Origen y causa de la falla
+Se produjo un cortocircuito monofásico en la línea 66 kV Charrúa - Lucero, despejado por medio de
+las protecciones del paño B6 de S/E Charrúa, originado por robo de conductor entre las estructuras
+110 y 112 en las tres fases de la línea 66 kV Charrúa - Lucero, específicamente, en el tramo Tap Santa
+Clara - Los Tilos Bulnes.
+La empresa CGE Transmisión S.A. indica que durante el evento también se presentó intento de robo
+de cable en vano 17-18 del tramo de línea 66 kV Charrúa - Tap Santa Clara.
+d.2 Fenómeno Físico:
+VAN3: Robo o hurto.
+La empresa remitió los probatorios asociados al Fenómeno Físico indicado y que son requeridos por la
+Resolución Exenta N°30989-2019 de la Superintendencia de Electricidad y Combustibles.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación ha sido afectada por el mismo
+fenómeno físico, durante los últimos 24 meses móviles (EAF 383/2023 y EAF 324-2024).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: se han producido 24 fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica: “Se realiza recorrido
+e inspección visual de la LT el reemplazo de postes y herrajes
+en estructuras N°388 y N°389 el reemplazo por nuevo
+conductor en vano N°389 N°390 producto del robo. Mayor
+Falla en línea 66 kV
+EAF 029-2023 24-01-2023 detalle se encuentra en informe técnico MSTI y Anexo III
+Curanilahue - Tres Pinos
+probatorias adjunto. Por otra se detectó un punto a mejorar en
+la ecuación que lleva al relé al estado lockout (79DTL). En la
+ecuación drive to Lockout (79DTL) donde dice SOTF debe decir
+SOTFT.”
+Falla en línea 66 kV Lucero La empresa CGE Transmisión S.A. indica que no aplican acciones
+EAF 031-2023 27-01-2023
+- Chillán correctivas de corto plazo.
+CGE Transmisión S.A. señala que:
+- “Se reparan los cables afectados por terceros, asociados a
+Desconexión línea 66 kV
+corrientes, potenciales y estados de diversos paños”.
+EAF 316-2023 Horcones - Curanilahue 27-07-2023
+- “Se implementó medida de protección mecánica sobre
+Norte
+cámaras subterráneas destinadas a canalizaciones de cables
+de control”.
+CGE Transmisión S.A. señala que el día 06 de agosto del 2023,
+Falla en línea 66 kV San y una vez identificada la causa de la falla a las 08:30 de la
+EAF 334-2023 Fernando - San Vicente 06-08-2023 mañana del mismo día, se procede con la reposición del
+Tagua Tagua conductor robado entre las estructuras 18 y 20A, finalizando los
+trabajos a las 15:30 horas.
+Falla en línea 66 kV La empresa CGE Transmisión S.A. indica: “Se realizaron labores
+EAF 380-2023 29-08-2023
+Rancagua - Rosario de reparación del conductor cortado en la línea de Transmisión.”
+Falla en la línea 66 kV
+EAF 383-2023 30-08-2023 La empresa CGE Transmisión S.A. señala: “No aplica”.
+Charrúa - Lucero
+La empresa CGE Transmisión S.A. señala lo siguiente:
+Falla en la línea 66 kV San “Reparación de línea AT San Fernando - Chimbarongo.
+EAF 457-2023 27-10-2023
+Fernando - Teno Realización de pruebas eléctricas transformador T3 San
+Fernando”.
+La empresa STS S.A. señala: “Sistema de Transmisión de Sur
+Falla en línea 66 kV Lucero S.A. revisará en el mediano plazo el comportamiento de la
+EAF 481-2023 06-11-2023
+- Chillán protección de distancia sistema 2 EFACEC TPU-D500 asociada
+al paño B2 de S/E Lucero”.
+Falla en línea 66 kV Lucero
+EAF 015-2024 14-01-2024 La empresa CGE Transmisión S.A. señala que no aplica.
+- Chillán
+La empresa CGE Transmisión S.A. indica: “Se informa mediante
+carta a propietario del terreno el riesgo que representa
+Falla en línea 66 kV mantener estos árboles (fuera de faja) de gran altura en el
+EAF 073-2024 14-02-2024
+Curanilahue - Tres Pinos sector (fecha 16-02-2024).”
+“Se coordina la autorización para efectuar tala de árboles (fecha
+15-03-2024)”.

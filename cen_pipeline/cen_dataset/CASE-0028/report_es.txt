@@ -1,0 +1,285 @@
+Estudio para análisis de falla EAF 578/2024
+“Falla en la línea 66 kV Illapel - Combarbalá”
+Fecha de Emisión: 06/01/2025
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 12/12/2024
+Hora 15:09
+Consumos desconectados (MW) 4.26
+Demanda previa del sistema (MW) 10957.42
+Porcentaje de desconexión 0.039 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Tramo Illapel - Tap El Espino de la línea 66 kV Illapel - Combarbalá /
+LT292CI1TR05----T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Conductores del tramo Illapel - Tap El Espino de la línea 66 kV Illapel -
+Combarbalá / LT292CI1TR05----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+d. Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52B1 de S/E Illapel, asociado a la línea 66 kV
+Illapel - Combarbalá, por operación de su protección de distancia residual ante una falla en el
+conductor de la fase A, entre las estructuras N°128 y N°129 de la mencionada línea.
+La causa de la falla es atribuida, presumiblemente, a una maquinaria pesada de terceros que acortó
+distancia con el conductor de la fase A, entre las estructuras N°128 y N°129 de la línea 66 kV Illapel
+- Combarbalá.
+d.2 Fenómeno Físico:
+ACC3: Vehículos terrestres.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico, durante los últimos 24 meses móviles (EAF 134-2023).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en línea 66 kV
+EAF 021_2023 17-01-2023 CGE Transmisión S.A. señala que “no aplica”.
+Cocharcas - Hualte
+La empresa CGE Transmisión S.A. señala:
+• “Se detectó una diferencia en el horario del relé, que
+será corregido el miércoles 8 de febrero mediante
+Falla en la línea 66 kV
+EAF 028_2023 24-01-2023 solicitud del Neomante 2023010052”.
+Loma Colorada - Escuadrón
+• “Se realizará el aplome de la estructura N°70 y el
+reemplazo de porta line-post de la fase central de la
+línea durante el mes de abril del 2023”.
+La empresa CGE Transmisión S.A. indica:
+• “Se realizará el despeje de los escombros y materiales
+dejados bajo la línea LT Alonso de Ribera-Chiguayante
+entre las estructuras E79 y E80”.
+• “Instalación de señalética en los conductores de la línea
+Falla en la línea 66 kV LT Alonso de Ribera-Chiguayante entre las estructuras
+EAF 066_2023 Alonso de Ribera - 12-02-2023 E79 y E80”.
+Chiguayante • “Está en desarrollo el proyecto NUP 3415, que
+remplazará los TTCC y las protecciones electromecánicas
+a digitales en el paño B2, para devolver la transferencia
+de la línea Chiguayante desde el paño BR al paño B2,
+agregando características de registros de eventos y
+oscilográfico”.
+• La empresa CGE Transmisión S.A. indica:
+• “En LT 66kV Buin - Alto Jahuel, se realiza el retiro de la
+Desconexión forzada de la
+estructura dañada y se libera pista de carretera dado
+EAF 067_2023 línea 66 kV Alto Jahuel - 12-02-2023
+que, al caer la estructura, esta cae sobre una pista de
+Buin
+carretera 5 SUR. Se programa y ejecuta su reemplazo el
+martes 14.02.2023”
+“Desconexión forzada de la La empresa CGE Transmisión S.A. señala que “se
+EAF 129_2023 línea 66 kV Los Maquis - 14-03-2023 reemplazaron las baterías del control y se corrigió el horario
+Hualañé de la unidad de control”.
+La empresa CGE Transmisión S.A. indica:
+• “Se transfieren los consumos de S/E El Sauce nodo Elqui
+Falla en línea 66 kV Illapel
+EAF 134_2023 21-03-2023 (S/E Ovalle)”.
+- Combarbalá
+• “Se coordina y ejecuta con contratista la reparación de
+líneas cortadas y reemplazo de postes quebrados”.
+La empresa CGE Transmisión S.A.:
+• “Instalación de señalética bajo los conductores de la
+Falla en la línea 66 kV línea 66 kV Alonso de Ribera - Chiguayante entre las
+EAF 149_2023 Alonso de Ribera - 31-03-2023 estructuras E79 y E80”.
+Chiguayante • “Está en desarrollo el proyecto NUP 3415, que
+remplazará los TTCC y las protecciones electromecánicas
+a digitales”.
+Falla en línea 66 kV Victoria
+EAF 208_2023 12-05-2023 La empresa CGE Transmisión S.A. señala que “no aplica”.
+- Traiguén
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. señala lo siguiente:
+• “Se cambian 2 aisladores Line Post de losa por dos
+aisladores Line Post Poliméricos, como también 1
+aislador Line Post de Losa por uno del mismo tipo”.
+• “Se reparó cable N°2 AWG”.
+• “Se instalará barra de contención para proteger los
+tirantes de la estructura N°35”.
+Falla en la línea 66 kV
+EAF 236_2023 02-06-2023 • “Dentro de los próximos 8 meses se reemplazará la
+Parinacota - Quiani
+aislación de losa de tres estructuras por aisladores
+polimérico”.
+La empresa Transemel S.A. señala lo siguiente:
+• “Transemel S.A. En un plazo de 1 mes realizara el
+diagnóstico y revisión de relés por parte del fabricante, y
+en caso de ser necesario, realizara una actualización de
+los correspondientes firmwares.”
+La empresa CGE Transmisión S.A. indica:
+“Se realiza modificación en el grupo de protecciones del relé
+SEL 311C relacionado con el interruptor 52BT1, dejando el
+Falla en la línea 66 kV grupo 1 como activo.
+EAF 244_2023 07-06-2023
+Cocharcas - Hualte Se instruye al contratista que modifique, y corrija las
+indicaciones de los grupos de ajustes que corresponden a
+cada relé, de acuerdo con la nueva situación por la
+ampliación de la subestación (NUP 1189)”.
+La empresa CGE Transmisión S.A. señala que:
+“En LT 66 kV Buin - E 103, se realiza el retiro de la
+Desconexión forzada de la
+estructura dañada y durante el mismo día se realiza el
+EAF 315_2023 línea 66 kV Alto Jahuel - 27-07-2023
+reemplazo de esta. Los trabajos se concluyen durante la
+Buin (CGE)
+madrugada del día 28 de Julio, normalizando así la topología
+de la línea”.
+Falla en el circuito N°1 de
+EAF 424_2023 la línea 2x66 kV Loncoche - 02-10-2023 La empresa CGE Transmisión S.A. señala que: “No aplica”.
+Villarrica
+Falla en la línea 66 kV
+La empresa CGE Transmisión S.A. indica: “Se reemplaza la
+EAF 061_2024 Rancagua - San Francisco 09-02-2024
+estructura afectada”.
+de Mostazal
+Falla en línea 66 kV
+EAF 084_2024 21-02-2024 La empresa CGE Transmisión S.A. señala que: “No aplica”.
+Concepción - Penco
+Desconexión forzada de
+EAF 096_2024 02-03-2024 La empresa CGE Transmisión S.A. señala que: “No aplica”.
+barra 13.2 kV N°1 S/E Teno
+Falla en línea 66 kV Parral - La empresa CGE Transmisión S.A. señala que “se realizó la
+EAF 292_2024 25-06-2024
+Cauquenes reparación del conductor cortado”.
+La empresa CGE Transmisión S.A. indica las siguientes
+acciones correctivas a corto plazo:
+Falla en línea 66 kV San
+- “Reemplazo de estructura N°21 en LT66kV San Vicente
+EAF 476-2024 Vicente de Tagua Tagua - 14-09-2024
+TT - Las Cabras”.
+Las Cabras
+- “Se reemplaza tarjeta actuadora del interruptor 52C5
+Cto. El Carmen de SE Las Cabras”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 030-2023 y EAF 134-
+2023).
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la falla corresponde al conductor de la fase A de la línea 66 kV Illapel -
+Combarbalá, específicamente en su tramo 66 kV Illapel - Tap El Espino, el cual, de acuerdo con lo
+declarado por su propietario en la plataforma Infotécnica del Coordinador, posee las siguientes
+características:
+Característica Est. 261 - Illapel 66 kV C1 Est. 239 - Est. 261 66 kV C1 Tap El Espino - Est. 239 66 kV C1
+Largo [km] 2.28 5.26 28.39
+Límite térmico permanente
+0.25 0.249 0.24
+en verano con sol 25°C [kA]
+Característica Est. 261 - Illapel 66 kV C1 Est. 239 - Est. 261 66 kV C1 Tap El Espino - Est. 239 66 kV C1
+Sección del conductor [mm2] 33.67 33.67 33.67
+Tipo de conductor Cobre desnudo Cobre desnudo Cobre desnudo
+La empresa CGE Transmisión S.A. no adjunta información de los mantenimientos realizados a la línea
+66 kV Illapel - Combarbalá, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Compañía General de Electricidad S.A. declara: “Rural” para los alimentadores Ciudad
+(paño C1) e Industrial (paño C2) de S/E Combarbalá.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor o caso fortuito.
+La empresa CGE Transmisión S.A. entrega los siguientes antecedentes probatorios, para acreditar el
+origen de la falla:
+• Informe de Interrupción de suministro.
+• Informe de inspección pedestre.
+• Registros fotográficos.
+• Declaración Jurada.
+h. Comuna donde se presenta la falla
+4201: Illapel.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(14/12/2024) (19/12/2024)
+CGE Transmisión S.A. 12/12/2024 27/12/2024
+Compañía General de Electricidad S.A. (CGE) 12/12/2024 02/01/2025
+ENTEL PCS Telecomunicaciones S.A. (ENTEL) No recibido No recibido
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 66 kV Illapel - Combarbalá ST Zonal Tap El Espino - Illapel 15:09 17:24
+00:36
+LT 66 kV Illapel - Combarbalá ST Zonal Combarbalá - Tap El Espino 15:09
+24/12/2024
+c. Consumos
+Sub- Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Estación Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Combarbalá Ciudad / C1 Combarbalá 1.73 0.016 3217 15:09 15:15 15:15
+Combarbalá Industrial / C2 Combarbalá 2.43 0.022 1696 15:09 15:15 15:15
+El Espino Radio Estación El Espino NI 0.10 0.001 1 15:09 17:24 17:24
+Total: 4.26 MW 0.039 % 4914
+- Los montos y horarios señalados corresponden a lo informado por la empresa CGE S.A.
+- Información sobre los consumos de S/E El Espino declarada por la empresa CGE Transmisión S.A., en su Informe de Falla de 48
+horas.
+- NI: No informado.
+3. Estimación de la energía no suministrada
+Sub- Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Estación Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Combarbalá Ciudad / C1 CGE Regulado 1.73 0.10 0.10 0.2
+Combarbalá Industrial / C2 CGE Regulado 2.43 0.10 0.10 0.2
+El Espino Radio Estación El Espino ENTEL Libre 0.10 2.25 2.25 0.2
+Clientes Regulados : 0.4 MWh
+Clientes Libres : 0.2 MWh
+Total : 0.6 MWh
+- Los montos señalados corresponden a lo informado por la empresa CGE S.A.
+- Información sobre los consumos de S/E El Espino declarada por la empresa CGE Transmisión S.A., en su Informe de Falla de 48
+horas.
+- Curva de recuperación esperada v/s recuperación real.
+17:45
+17:30
+17:15
+17:00
+16:45
+16:30
+16:15
+16:00
+15:45
+15:30
+15:15
+15:00
+40.6% 97.7% 100.0%
+Recuperación real Recuperación esperada
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real de los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 3.41 0.10 34.08
+Último 20 % 0.85 2.25 0.38
+100 % Total 4.26 2.25 1.89
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10957.42 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2, U3 y U4), PFV Diego Almagro Sur y Ralco (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 12 de diciembre de
+2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 12 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+12 de diciembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 12 de
+diciembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades:
+- La S/E Combarbalá se encontraba operando de manera radial desde S/E Illapel (condición normal
+de operación), con el interruptor 52B2 abierto, asociado a la línea 66 kV El Sauce - Combarbalá,
+y con el interruptor 52B1 cerrado, asociado a la línea 66 kV Illapel - Combarbalá.
+Otros antecedentes relevantes
+Antecedentes proporcionados por la empresa CGE Transmisión S.A.:
+“El día 12 de diciembre de 2024 a las 15:09 hrs., se produce la operación de la protección del
+interruptor 52B1, en S/E Illapel, asociado a la línea de 66 kV Illapel - Combarbalá, la cual afectó los
+consumos de la subestación Combarbalá.
+Una vez ocurrido el evento, se procede con las maniobras de recuperación de servicio abriendo el
+52B1 de S/E Combarbalá dejando aislada con esto la LT 66 kV Illapel-Combarbalá y se procede con
+el cierre del interruptor 52B2 en S/E Combarbalá, para restituir los servicios, recuperando suministro
+de S/E Combarbalá a las 15:15 hrs.

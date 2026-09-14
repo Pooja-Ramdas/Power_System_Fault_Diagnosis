@@ -1,0 +1,188 @@
+Estudio para análisis de falla EAF 525/2024
+“Falla en línea 110 kV Maitencillo - Las Compañías”
+Fecha de Emisión: 21-11-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 29/10/2024
+Hora 03:00
+Consumos desconectados (MW) 9.50
+Demanda previa del sistema (MW) 8617
+Porcentaje de desconexión 0.111%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Maitencillo - Las Compañías / LT240CI1TR05----T0002 (*)
+Tipo de instalación Línea de transmisión
+Tensión nominal 110 kV
+Segmento Transmisión zonal
+Propietario instalación fallada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes
+- (*) Nemotécnico corresponde al tramo 110 kV Tap Romeral - Incahuasi.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Cadena de aislación de la fase A de la estructura N°147 del tramo 110 kV
+Tap Romeral - Incahuasi / LT240CI1TR05----T0002 (*)
+Propietario elemento fallado Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes
+- (*) Nemotécnico corresponde al tramo 110 kV Tap Romeral - Incahuasi.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 110 kV Maitencillo - Las Compañías por operación de las
+protecciones direccionales de sobrecorriente residual (67N) de sus extremos, tras falla monofásica en
+el tramo 110 kV Tap Romeral - Incahuasi.
+La causa de la falla se debió a un cortocircuito en la cadena de aislación de la fase A de la estructura
+N°147, producto de la presencia de excremento de ave.
+d.2 Fenómeno Físico:
+ANI1: Acción de animales, roedores o pájaros (por contacto directo u otro).
+La empresa Transelec S.A. remitió los probatorios y antecedentes asociados al Fenómeno Físico
+indicado.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico, durante los últimos 24 meses móviles (EAF 162/2023, EAF 271/2024 y EAF
+402/2024).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+La empresa CGE Transmisión S.A. y Transelec S.A. señala que “no
+Falla en la línea 154
+EAF 093-2023 17-03-2023 aplica” ejecutar acciones correctivas a corto y largo plazo
+kV Maule - Parral
+Chilquinta Transmisión S.A. no indica acciones correctivas
+La empresa Transelec S.A. señala lo siguiente: “No aplica. Si bien esta
+línea posee elementos de mitigación contra aves, la estructura donde
+ocurre la falla no los posee por tratarse de una estructura de anclaje
+con disposición de cadena de aislación en posición horizontal, lo que
+hace que estas medidas no sean efectivas para evitar el modo de falla
+Falla en la línea 110 indicado.”
+EAF 162-2023 kV Maitencillo - Las 28-04-2023 La empresa CGE Transmisión S.A. señala que “no aplica” ejecutar
+Compañías acciones correctivas a corto plazo.
+La empresa CGE S.A. no indica acciones correctivas a corto plazo.
+Las empresas Transelec S.A. y CGE S.A. no indican acciones correctivas
+a largo plazo.
+La empresa CGE Transmisión S.A. señala que “no aplica” ejecutar
+acciones correctivas a largo plazo
+La empresa Transelec S.A. indica: “Al momento de conocer la causa de
+la desconexión se ejecutaron las siguientes acciones correctivas:
+1. Posterior a la recuperación del servicio, el personal de terreno
+de Transelec es movilizado para recorrer la línea 110 kV Maitencillo -
+Falla en la línea 110
+Las Compañías en busca del punto de falla mediante inspección visual
+EAF 271-2024 kV Maitencillo - Las 16-06-2024
+pedestre e inspección con drones. Mediante esto se evidencia presencia
+Compañías
+de excremento en cadena de aisladores de la estructura N° 561 y
+muestras evidentes de acortamiento de distancia en el mismo punto.
+2. Se procede a la limpieza de la cadena de aisladores
+contaminada con excremento.”.
+La empresa Transelec S.A. indica:
+“Posterior a la recuperación del servicio, personal de terreno de
+Transelec es movilizado para recorrer la línea 110 kV Maitencillo - Las
+Compañías en busca del punto de falla a través inspección visual
+Falla en la línea 110 pedestre, sin embargo, debido a las adversas condiciones
+EAF 402-2024 kV Maitencillo - Las 02-08-2024 meteorológicas presentes en la zona y considerando que se había
+Compañías logrado reenergizar la línea, se decide continuar al día siguiente.
+A las 14:00 horas del 03 de agosto se detecta en la estructura N°75 la
+presencia de un Ave con indicios de electrocución, se procede a realizar
+una inspección de la línea y se aprecia que los indicios de descarga son
+únicamente superficiales”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 7 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 162-2023, EAF 347-2023, EAF 448-2023, EAF 248-2024, EAF 271-2024, EAF
+322-2024 y EAF 402-2024.
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+La instalación donde se presentó la falla corresponde a la línea 110 kV Maitencillo - Las Compañías,
+específicamente en la cadena de aisladores de la fase A de la estructura N°147 que se encuentra en el
+tramo 110 kV Incahuasi - Romeral. La empresa Transelec S.A. remite la siguiente información:
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Compañía General de Electricidad S.A. indica “urbano” para el caso del alimentador
+Domeyko de S/E Incahuasi.
+g. Proposición del propietario respecto del origen de la falla
+No se indica.
+h. Comuna donde se presenta la falla
+04104: La Higuera
+Comuna estimada por el Coordinador en base a la información remitida por Transelec S.A.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(31-10-2024) (07-11-2024)
+CGE Transmisión S.A. (CGET) 29-10-2024 05-11-2024
+Compañía General de Electricidad S.A. (CGE) 29-10-2024 05-11-2024
+Compañía Minera del Pacífico S.A. (CMP) 31-10-2024 31-10-2024
+Enel Green Power S.A. (EGP) 29-10-2024 06-11-2024
+Transelec S.A. 29-10-2024 07-11-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 110 kV Maitencillo - Las Compañías ST Zonal 110 kV Maitencillo - Algarrobo 03:00 03:05
+Línea 110 kV Maitencillo - Las Compañías ST Zonal 110 kV Algarrobo - Dos Amigos 03:00 03:05
+Línea 110 kV Maitencillo - Las Compañías ST Zonal 110 kV Dos Amigos - Pajonales 03:00 03:05
+Línea 110 kV Maitencillo - Las Compañías ST Zonal 110 kV Pajonales - Incahuasi 03:00 03:05
+Línea 110 kV Maitencillo - Las Compañías ST Zonal 110 kV Incahuasi - Romeral 03:00 03:05
+Línea 110 kV Maitencillo - Las Compañías ST Zonal 110 kV Romeral - Las Compañías 03:00 03:15
+- Las horas indicadas corresponden a lo indicado por las empresas CGE Transmisión S.A. y Transelec S.A.
+c. Consumos
+Sub- Alimentador / Comuna Pérdida de % consumo Clientes H. H. H.
+Estación Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Incahuasi Domeyko / E1 Vallenar 0.65 0.008 481 3:00 3:05 3:05
+Incahuasi La Higuera / E2 NI 1.80 0.021 2493 3:00 3:05 3:05
+Pajonales NA NI 0.35 0.004 1 3:00 3:05 3:05
+Romeral NA La Serena* 6.70 0.078 1 3:00 3:35 3:35
+Total: 9.50 MW 0.111 % 2976
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE Transmisión S.A., Compañía General de
+Electricidad S.A., Compañía Minera del Pacífico S.A. y Enel Green Power S.A.
+- NI: No informado.
+- (*) Comuna citada corresponde a aquella indicada por el propietario de la S/E Romeral en el aplicativo Infotécnica.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador / Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Incahuasi Domeyko / E1 CGE Regulado 0.65 0.08 0.08 0.1
+Incahuasi La Higuera / E2 CGE Regulado 1.80 0.08 0.08 0.2
+Pajonales - ESO Libre 0.35 0.08 0.08 0.0
+Romeral - CMP Libre 6.70 0.58 0.58 3.9
+Clientes Regulados : 0.3 MWh
+Clientes Libres : 3.9 MWh
+Total : 4.2 MWh
+- Los montos señalados corresponden a lo informado por las empresas CGE Transmisión S.A., Compañía General de Electricidad
+S.A., Compañía Minera del Pacífico S.A. y Enel Green Power S.A.
+- Curva de recuperación esperada v/s recuperación real.
+3:43
+3:36
+3:28
+3:21
+3:14
+3:07
+3:00
+2:52
+2:45
+6.8% 25.8% 29.5% 100.0%
+Recuperación real Recuperación esperada
+No se observan diferencias entre los horarios recuperación real respecto de los horarios de
+disponibilidad de las barras primarias respectivas para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Tiempo recuperación Velocidad de recuperación
+Rango Potencia (MW)
+(h) (MW/h)
+Primer 80 % 7.60 0.58 13.10
+Último 20 % 1.90 0.58 3.28
+100 % Total 9.50 0.58 16.38
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8617 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales: Angamos (ANG2),
+Angostura (U2), Cipreses (U1), Cochrane (CCH1 y CCH2), Colbún (U2), Guacolda (U1), Mejillones
+(CTM3), Pehuenche (U1 y U2), Quintero (TG1) y Rapel (U1, U2 y U3).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 29 de octubre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 29 de octubre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+29 de octubre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 29 de
+octubre de 2024.

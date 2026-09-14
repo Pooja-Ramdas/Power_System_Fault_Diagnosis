@@ -1,0 +1,164 @@
+Estudio para análisis de falla EAF 459/2024
+“Apertura automática del interruptor 52CT de S/E Laja”
+Fecha de Emisión: 25-09-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 31/08/2024
+Hora 05:02
+Consumos desconectados (MW) 3.80
+Demanda previa del sistema (MW) 8625.6
+Porcentaje de desconexión 0.044 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Barra Nº1 13.8 kV S/E Laja / BA02T0002SE022T0002
+Tipo de instalación Barra
+Tensión nominal 13.8 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Santiago
+c. Identificación del elemento fallado
+Nombre del elemento fallado Redes de media tensión de S/E Laja (*)
+Propietario elemento fallado Empresa Eléctrica de la Frontera S.A.
+RUT 76.073.164-1
+Representante Legal Francisco Alliende A.
+Dirección Bulnes N°441, Osorno
+(*): Punto presunto de falla en base a lo informado por la empresa Transelec S.A.
+d.1 Origen y causa de la falla
+La apertura automática del interruptor 52CT de S/E Laja se produce “debido a la actuación de sus
+sistemas de protección ante una falla bifásica en las fases A y B, coincidente con maniobras
+realizadas por Frontel en sus instalaciones” de media tensión abastecidas desde S/E Laja, según lo
+informado por Transelec S.A.
+d.2 Fenómeno Físico:
+OPE6: Fallas en instalaciones de terceros u en otro segmento.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: se ha producido una falla en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA ACCIONES_CORRECTIVAS_CP ACCIONES_CORRECTIVAS_LP
+La empresa Transelec S.A. indica lo siguiente: “No aplica. El
+comportamiento de las instalaciones de Transelec fue correcto”. La empresa Transelec S.A. indica lo siguiente:
+“No aplica. El comportamiento de las
+Desconexión forzada
+La empresa Enel Generación Chile S.A. indica lo siguiente: “Se instalaciones de Transelec fue correcto”.
+EAF 480-2022 de la barra Nº2 220
+realiza normalización de gas SF6 de interruptor 52TG2, queda con
+kV de S/E Paposo
+presión de 7,5 Bar, sin fugas. Se comienza con el proceso de La empresa Enel Generación Chile S.A. no
+revisión de los eventos asociado a esta falla, la unidad TG2 queda indica acciones correctivas a largo plazo.
+indisponible.”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: no se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla correspondería a las redes de media tensión abastecidas desde
+S/E Laja, las cuales están asociadas a los alimentadores Laja - Ciudad y Laja - San Rosendo de dicha
+S/E, de propiedad de Empresa Eléctrica de la Frontera S.A.
+La empresa Transelec S.A. no remitió antecedentes respecto de los mantenimientos realizados
+durante los últimos 24 meses en S/E Laja.
+f. Ubicación urbana o rural según DS 327/1997
+No informado.
+g. Proposición del propietario respecto del origen de la falla
+Transelec S.A. señala “Fuerza Mayor – Falla en instalaciones de Terceros”
+Transelec S.A. remite en respaldo a la proposición del origen de la falla lo siguiente:
+ Informe de interrupción de suministro.
+ Si “Falla corresponde a la misma empresa propietaria, pero en distinto segmento”: NO.
+h. Comuna donde se presenta la falla
+8304: Laja.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (02/09/2024) Informe de 5 días (06/09/2024)
+Transelec S.A. 31/08/2024 06/09/2024
+Empresa Eléctrica de La Frontera
+No enviado No enviado
+S.A. (Frontel)
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Laja ST Zonal Barra 13.8 kV 05:02 05:06
+- Fechas y horas señaladas corresponden a lo informado por Transelec S.A.
+c. Consumos
+Pérdida de %
+Alimentador / Clientes H. H. H.
+Sub-Estación Comuna Consumo consumo
+Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Laja S/E Completa No Informado 3.80 0.044 No Informado 05:02 05:06 05:06
+Total: 3.80 MW 0.044 % No Informado
+- Horas y montos señalados corresponden a lo informado por Transelec S.A.
+3. Estimación de la energía no suministrada
+Alimentador / Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Empresa
+Paño Cliente Consumo (MW) Indispon. (h) Desc.(h) (MWh)
+S/E Laja S/E Completa Frontel Regulado 3.80 0.07 0.07 0.3
+Clientes Regulados : 0.3 MWh
+Clientes Libres : MWh
+Total : 0.3 MWh
+- Horas y montos señalados corresponden a lo informado por Transelec S.A.
+- Curva de recuperación esperada v/s recuperación real.
+06:00 05:06
+04:48
+05:06
+03:36
+02:24
+01:12
+00:00
+S/E Laja - S/E Completa
+Recuperación Esperada Recuperación Real
+No se aprecian diferencias entre los horarios de recuperación real respecto de los horarios de
+disponibilidad de las barras primarias para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Potencia Tiempo Velocidad de
+Rango
+(MW) recuperación (h) recuperación (MW/h)
+Primer 80 % 3.04 0.07 45.60
+Último 20 % 0.76 0.07 11.40
+100 % Total 3.80 0.07 57.00
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8625.6 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Angostura (U1),
+Angostura (U2), Angostura (U3), El Toro (U1), El Toro (U2), El Toro (U3), El Toro (U4), Mejillones
+(IEM), Nehuenco (TG2), Ralco (U1), Ralco (U2), Rapel (U1) y Rapel (U2).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por Transelec S.A.:
+“A las 05:02 horas del jueves 31 de agosto del 2024, se produjo la desconexión forzada del paño CT
+de la S/E Laja (en adelante “El Paño”), propiedad de Transelec, S.A., asociado a alimentadores de
+distribución propiedad de Frontel S.A., debido a la actuación de sus sistemas de protección ante una
+falla bifásica en las fases A y B, coincidente con maniobras realizadas por Frontel en sus
+instalaciones; La falla es detectada por la función de sobrecorriente temporizada de fase y despejada
+en 300 ms, operando correctamente de acuerdo con sus ajustes.
+Respecto a la recuperación del servicio, a las 05:05 horas, en coordinación con Frontel, se realiza una
+reconexión manual de prueba sin éxito, dado que la falla bifásica en las fases A y B sigue presente.
+Posteriormente, el paño se reconecta a las 05:06 horas, en coordinación con Frontel, posterior a que
+ellos revirtiesen las maniobras realizadas.”
+Por su parte, en función de los antecedentes presentados a la fecha de emisión del presente EAF, se
+solicitará la siguiente información adicional:
+Empresa Eléctrica de la Frontera S.A.:
+ Antecedentes detallados respecto de los trabajos realizados en sus redes de media tensión
+conectadas a S/E Laja y de la falla ocurrida, según lo mencionado por Transelec S.A. en su
+Informe de Falla.
+ Análisis del desempeño de las protecciones asociadas a los interruptores de cabecera de los
+alimentadores conectados a S/E Laja, donde se habría presentado alguna falla, para efectos de
+descartar o bien normalizar alguna falta de selectividad con respecto a las protecciones del paño
+CT de esta S/E.
+De forma complementaria, se adjuntan los informes de falla de instalaciones, ingresados en el
+sistema Neomante del Coordinador Eléctrico Nacional por Transelec S.A. (Anexo N°1) y Otros
+antecedentes aportados por Transelec S.A. (Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+Transelec S.A. señala que “No aplica. El comportamiento de las instalaciones de Transelec fue
+correcto.”
+c) Acciones correctivas a largo plazo:
+Transelec S.A. señala que “No aplica. El comportamiento de las instalaciones de Transelec fue
+correcto.”
+Diagrama simplificado de las instalaciones previo a la falla

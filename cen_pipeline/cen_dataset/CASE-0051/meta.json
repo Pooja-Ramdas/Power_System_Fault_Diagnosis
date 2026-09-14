@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0555-2024",
+  "eaf_num": 555,
+  "year": 2024,
+  "description": "Desconexión forzada de la línea 110 kV Capricornio – Alto Norte",
+  "date": "25-11-2024",
+  "time": "08:54",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/12/EAF-555-2024.pdf",
+  "case_id": "CASE-0051",
+  "event_datetime": "2024-11-25T08:54:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0051\\official_diagram.dwg"
+}

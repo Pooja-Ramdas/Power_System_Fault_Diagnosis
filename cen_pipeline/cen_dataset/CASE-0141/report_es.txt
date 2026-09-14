@@ -1,0 +1,134 @@
+Estudio para análisis de falla EAF 467/2024
+“Falla en línea 220 kV Cardones - Seccionadora Llano de Llampos”
+Fecha de Emisión: 02-10-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 06/09/2024
+Hora 06:51
+Consumos desconectados (MW) 25.8
+Demanda previa del sistema (MW) 9176.87
+Porcentaje de desconexión 0.281 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Cerro Negro Norte / LT005CI1TR01L0203ST01L0203
+Tipo de instalación Subestación
+Tensión nominal 220 kV
+Segmento Transmisión Dedicado
+Propietario instalación afectada Compañía Minera del Pacifico S.A.
+RUT 94.638.000-8 (*)
+Representante Legal Francisco Carvajal P. (*)
+Dirección Avda. Pedro Pablo Muñoz 675, Las Serena, Región de Coquimbo. (*)
+(*) Datos obtenidos de la plataforma REUC del Coordinador, dado que no fueron remitidos. El dato de representante legal
+corresponde al Gerente General de la empresa propietaria de la instalación afectada.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 220 kV Cardones - Seccionadora Llano de Llampos /
+LT005CI1TR01L0203ST01L0203
+Propietario elemento fallado Tecnocap S.A.
+RUT 76.369.130-6 (*)
+Representante Legal Andrés Sepúlveda Alcaíno (*)
+Dirección Gertrudis Echeñique N° 220, Las Condes, Región Metropolitana de Santiago.
+(*)
+(*) Datos obtenidos de la plataforma REUC del Coordinador, dado que no fueron remitidos. El dato de representante legal
+corresponde al Gerente General de la empresa propietaria de la instalación afectada.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 220 kV Cardones - Seccionadora Llano de Llampos por
+apertura automática del interruptor 52J8 de S/E Cardones, debido a la operación de su protección de
+distancia. Además, se produjo la apertura del interruptor 52J1 de S/E Seccionadora Llano de Llampos
+y la apertura del interruptor 52J1 de S/E Cerro Negro Norte.
+La empresa Tecnocap S.A., a través de los informes de falla de la empresa Compañía Minera del Pacifico
+S.A., indica que la falla se produce por presunta acción de ave sin entregar mayores antecedentes.
+d.2 Fenómeno Físico:
+OTR2: Origen no determinado.
+La empresa Tecnocap S.A. indica que el origen de la falla se encuentra en investigación y se presume
+acción de ave sobre la línea 220 kV Cardones - Seccionadora Llano de Llampos, sin embargo, no se
+remiten antecedentes (probatorios) con el fin de acreditar el origen de la falla.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 220kV Cardones - Seccionadora Llano de
+Llampos, la cual tiene una longitud de 46 km, está compuesta por conductor AAAC y cable de guardia
+de 94.5 mm2, con una capacidad de 205.4 MVA (a 25ºC con sol a tensión nominal), de acuerdo con lo
+informado por su propietario en la plataforma Infotécnica del Coordinador.
+Al respecto, la empresa Tecnocap S.A., propietaria de la instalación, no adjunta información de los
+mantenimientos de esta instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Interno.
+h. Comuna donde se presenta la falla
+8110: Copiapó.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(08-09-2024) (13-09-2024)
+Compañía Minera del Pacifico S.A. 07-09-2024 07-09-2024
+Amanecer Solar SpA 06-09-2024 No enviado
+Tecnocap S.A. No enviado 07-09-2024 (*)
+(*) Incorporado dentro de los antecedentes del IF de 5 días de la empresa Compañía Minera del Pacifico S.A.
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 220 kV Cardones - Seccionadora Cardones - Seccionadora Llano de
+ST Dedicado 06:51 06:55
+Llano de Llampos Llampos
+Línea 220 kV Seccionadora Llano de Seccionadora Llano de Llampos - Cerro
+ST Dedicado 06:51 06:55
+Llampos - Cerro Negro Norte Negro Norte
+S/E Cerro Negro Norte ST Dedicado Barra 220 kV 06:51 07:51
+Línea 220 kV Cerro Negro Norte -
+ST Dedicado Cerro Negro Norte - Totoralillo (CAP CMP) 06:51 07:51
+Totoralillo (CAP CMP)
+S/E Totoralillo (CAP CMP) ST Dedicado Barra 220 kV 06:51 07:51
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Cerro Negro Norte - Copiapó 25.80 0.281 1 06:51 06:55 07:51
+Total: 25.8 MW 0.281 % 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa Compañía Minera del Pacifico S.A. en su informe de
+falla de 48 horas.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+/ Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Minera Cerro
+S/E Cerro Negro Norte - Libre 25.80 0.07 1.00 25.8
+Negro Norte
+Clientes Regulados : MWh
+Clientes Libres : 25.8 MWh
+Total : 25.8 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Compañía Minera del Pacifico S.A. en su informe de
+falla de 48 horas.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 20.64 1.00 20.64
+Último 20 % 5.16 1.00 5.16
+100 % Total 25.80 1.00 25.80
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9176.87 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U1), Atacama (U2TG2AB), El Toro (U1, U2, U3 y U4), Kelar (UTG1), Mejillones
+(IEM), Nueva Renca (TG), Ralco (U1 y U2) y Rapel (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 06 de septiembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 06 de septiembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+06 de septiembre de 2024.

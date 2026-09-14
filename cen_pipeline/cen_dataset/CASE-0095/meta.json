@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0511-2024",
+  "eaf_num": 511,
+  "year": 2024,
+  "description": "Falla en la línea 66 kV San Fernando – Teno",
+  "date": "22-10-2024",
+  "time": "16:42",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/EAF-511-2024.pdf",
+  "case_id": "CASE-0095",
+  "event_datetime": "2024-10-22T16:42:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_path": null
+}

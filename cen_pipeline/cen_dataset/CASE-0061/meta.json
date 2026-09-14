@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0545-2024",
+  "eaf_num": 545,
+  "year": 2024,
+  "description": "Desconexión forzada de la barra 23 kV de S/E Los Vilos",
+  "date": "13-11-2024",
+  "time": "11:41",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/12/EAF-545-2024.pdf",
+  "case_id": "CASE-0061",
+  "event_datetime": "2024-11-13T11:41:00",
+  "fault_label": "busbar_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_path": null
+}

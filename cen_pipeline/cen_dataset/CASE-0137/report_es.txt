@@ -1,0 +1,133 @@
+Estudio para análisis de falla EAF 471/2024
+“Apertura intempestiva del interruptor 52H2 de S/E Mejillones”
+Fecha de Emisión: 03-10-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 09/09/2024
+Hora 16:49
+Consumos desconectados (MW) 8.00
+Demanda previa del sistema (MW) 9831.63
+Porcentaje de desconexión 0.081 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Mejillones - El Lince / LT041CI1TR01L0660ST64L0660
+Tipo de instalación Línea
+Tensión nominal 110 kV
+Segmento Transmisión Dedicado
+Propietario instalación afectada Minera HMC S.A.
+RUT 76.102.677-1
+Representante Legal José Miguel Ibañez Anrique
+Dirección Asturias 280 Oficina 401, Las Condes, Región Metropolitana de Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 110 kV Mejillones - El Lince / LT041CI1TR01L0660ST64L0660
+Propietario elemento fallado Minera HMC S.A.
+RUT 76.102.677-1
+Representante Legal José Miguel Ibañez Anrique
+Dirección Asturias 280 Oficina 401, Las Condes, Región Metropolitana de Santiago.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 110 kV Mejillones - El Lince por apertura automática del
+interruptor 52H2 de S/E Mejillones, debido a la operación de su protección de distancia en zona 1,
+provocada por el corte de conductores en la línea de media tensión 23 kV Mejillones City-Gate
+ocasionado por un camión de alta carga de propiedad de terceros que pasa a llevar dos de sus fases,
+lo cual, por efecto látigo, produce un acercamiento de los conductores a tierra de la línea 110 kV
+Mejillones - El Lince, la cual cruza por arriba de la línea de media tensión.
+d.2 Fenómeno Físico:
+ACC3: Vehículos terrestres. (*)
+(*) La Fenómeno Físico determinado por el Coordinador Eléctrico Nacional, a partir de la información entregada por
+la empresa Minera HMC S.A.
+La empresa Minera HMC S.A. indica como fenómeno físico ACC2: Intervención de terceros, sin remitir
+antecedentes (probatorios).
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 3 fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles, correspondiente a los Estudio
+para análisis de Falla EAF 171-2023, EAF 181-2023 y 198-2023.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado en este evento corresponde a la línea 110kV Mejillones - El Lince, la cual tiene
+una longitud de 74 km, está compuesta por conductor AAAC, con una capacidad de 110 MVA (a 25ºC
+con sol a tensión nominal), de acuerdo con lo informado por su propietario en la plataforma Infotécnica.
+Al respecto, la empresa Minera HMC S.A. no adjunta información de los mantenimientos de esta
+instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+h. Comuna donde se presenta la falla
+2102: Mejillones.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (11-09-2024) Informe de 5 días (16-09-2024)
+Minera HMC S.A. 09-09-2024 25-09-2024 (*)
+(*) IF de 5 días preliminar fue entregado el día 16-09-2024 y la versión final el día 25-09-2024.
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 110 kV Mejillones - El Lince ST Dedicado Mejillones - El Lince 16:49 17:35
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+00:46
+S/E Mejillones 52H2 Mejillones 8.00 0.081 1 16:49 17:35
+(*)
+Total: 8.00 MW 0.081 % 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa Minera HMC S.A.
+(*) Se presumen que horario corresponde al día 10/09/2024.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Mejillones 52H2 Minera HMC Libre 8.00 0.77 7.95 63.6
+Clientes Regulados : MWh
+Clientes Libres : 63.6 MWh
+Total : 63.6 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Minera HMC S.A.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 6.40 7.95 0.81
+Último 20 % 1.60 7.95 0.20
+100 % Total 8.00 7.95 1.01
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9831.63 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U3), Candelaria (U2), Colbún (U1 y U2), El Toro (U1, U2, U3 y U4), Mejillones
+(IEM), Nueva Renca (TG) y Ralco (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 09 de septiembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 09 de septiembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+09 de septiembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 09 de
+septiembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa Minera HMC S.A.:
+Fenómeno Físico: Falla en instalaciones de terceros u en otro segmento.
+Elemento: Interruptores.
+Fenómeno Eléctrico: Distancia (admitancia, impedancia o reactancia).
+Operación de los interruptores: Opera según lo esperado.
+Observaciones: Siendo las 16:49 se produce desconexión forzada de la línea 110 kV Mejillones - El Lince,
+quedando Minera HMC S.A. sin suministro (Pérdida de consumos de 8 MW). Camión de carga alta pasa
+a llevar línea 23 kV Mejillones City-Gate, propiedad de GNL Mejillones, cortando dos fases de esa línea a
+tierra. El efecto látigo por inducción produce una falla a tierra en la línea 110 kV Mejillones - El Lince, que
+cruza por arriba a la línea de 23 KV produciendo la apertura del Interruptor H2 de la línea 110 kV
+Mejillones - El Lince, produciendo un corte total de energía eléctrica en faena Michilla de Minera HMC
+S.A.

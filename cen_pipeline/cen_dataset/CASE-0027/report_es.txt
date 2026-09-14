@@ -1,0 +1,179 @@
+Estudio para análisis de falla EAF 579/2024
+“Desconexión forzada del interruptor 52F1 de S/E Quilmo II”
+Fecha de Emisión: 07-01-2025
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 13/12/2024
+Hora 22:58
+Consumos desconectados (MW) 3.83
+Demanda previa del sistema (MW) 10510.6
+Porcentaje de desconexión 0.040 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Paño F1 de S/E Quilmo II / PA003R0013SE006R0013
+Tipo de instalación Subestación
+Tensión nominal 33 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Cooperativa de Consumo de Energía Eléctrica de Chillán Ltda.
+RUT 80.237.700-2
+Representante Legal Patricio Lagos
+Dirección 18 de Septiembre #688, Chillán.
+c. Identificación del elemento fallado
+Nombre del elemento fallado LT 33 kV Quilmo II - Ciruelito - Recinto / LT005CI1TR05R0013ST05R0013 *
+Propietario elemento fallado Cooperativa de Consumo de Energía Eléctrica de Chillán Ltda.
+RUT 80.237.700-2
+Representante Legal Patricio Lagos
+Dirección 18 de Septiembre #688, Chillán.
+(*) Código correspondiente al tramo 33 kV Ciruelito - Recinto.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada del interruptor 52F1 de S/E Quilmo II, asociado a la línea 33 kV
+Quilmo II - Ciruelito, debido a una falla originada por colisión de vehículo particular sobre la estructura
+N°288 de la línea 33 kV Quilmo II - Ciruelito - Recinto.
+d.2 Fenómeno Físico
+ACC3: Vehículos terrestres.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se ha producido una falla en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondiente al Estudio para Análisis de Falla de la siguiente tabla:
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Cooperativa de Consumo de Energía Eléctrica Chillán Ltda. informa
+“Producto de la colisión vehicular, uno de los involucrados resulta fallecido
+Falla en la línea
+en el lugar, por lo que, se otorga acceso a la zona para iniciar los trabajos
+EAF 283-2024 33 kV Quilmo - 21/06/2024
+de reparación a las 17:42 horas. Luego de peritaje SIAT e instrucción de
+Tap Lajuelas
+Fiscalía de Chillan.
+Parte de carabineros 957. Fiscalía Chillán.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una falla
+en la misma instalación afectada durante los últimos 24 meses móviles: EAF 552-2024.
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento fallado por este evento corresponde a la línea 33 kV Quilmo II - Ciruelito - Recinto, de la
+cual no se tienen antecedentes, de acuerdo con los registros del Sistema Infotécnica del Coordinador.
+f. Ubicación urbana o rural según DS 327/1997
+Rural.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor, externa.
+h. Comuna donde se presenta la falla
+16101: Chillán.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(15/12/2024) (28/11/2024)
+Cooperativa de Consumo de Energía Eléctrica de Chillán Ltda.
+14/12/2024 29/11/2024
+(Copelec)
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+05:10
+LT 33 kV Quilmo II - Ciruelito ST Zonal LT 33 kV Quilmo II - Ciruelito 22:58
+14/12/2024
+05:10
+LT 33 kV Ciruelito - Recinto ST Zonal LT 33 kV Ciruelito - Recinto 22:58
+14/12/2024
+- Las horas indicadas corresponden a lo informado por la empresa Copelec.
+c. Consumos
+Pérdida de %
+Alimentador Clientes H. H.
+Subestación Comuna Consumo consumo H. Dispon.
+/Paño afectados Desc. Norm.
+(MW) pre-falla
+Chillán,
+05:10 05:10
+Ciruelito Recinto / - Coihueco, Pinto, 3.02 0.030 4229 22:58
+14/12/2024 14/12/2024
+San Ignacio
+Pinto, El 3096 05:10 05:10
+Recinto Invernada / - 0.81 0.010 22:58
+Carmen 14/12/2024 14/12/2024
+Total: 3.83 MW 0.040 % 7325
+- Los montos y horarios señalados corresponden a lo informado por la empresa Copelec.
+3. Estimación de la energía no suministrada
+Alimentador Tipo de Pérdida de Tiempo Tiempo ENS
+Subestación Empresa
+/Paño cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Ciruelito Recinto / - Copelec Regulado 3.02 6.20 6.20 18.7
+Recinto Invernada / - Copelec Regulado 0.81 6.20 6.20 5.0
+Clientes Regulados : 23.7 MWh
+Clientes Libres : MWh
+Total : 23.7 MWh
+- Los montos señalados corresponden a lo informado por la empresa Copelec.
+- Curva de recuperación esperada v/s recuperación real.
+00:00
+00:00
+14-12-2024 5:10 14-12-2024 5:10
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+Recinto Invernada
+Recuperación real Recuperación esperada
+No se aprecian diferencias entre el horario de recuperación real respecto del horario de disponibilidad
+de la barra primaria respectiva.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Potencia
+Rango recuperación recuperación
+(MW)
+(h) (MW/h)
+Primer 80 % 2.42 6.20 0.39
+Último 20 % 0.60 6.20 0.10
+100 % Total 3.02 6.20 0.49
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10510.6.0 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angamos (ANG1 y ANG2), Angostura (U1 y U2), Cochrane (CCH1 y CCH2), Colbún (U1 y U2),
+Guacolda (U5) y Pehuenche (U1 y U2).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo indicado por la empresa Copelec:
+“Una vez registrada la operación de la protección 52F1 alimentador Quilmo2- Ciruelito, centro de
+control y jefe de turno coordinan recorrido de LAT 33 kv con móviles respectivos se verifica
+postación chocada por vehículo de terceros, por ende se bloquea zona de trabajo y se realiza
+trabajos de reparación correspondientes para posterior normalizar”.
+En función de los antecedentes presentados a la fecha de emisión del presente EAF, se solicitará la
+siguiente información:
+Copelec
+ Se detectó que las pérdidas de consumo reportadas en el Informe de Falla de 5 días coinciden
+con el contenido de la columna “Cpph equivalente [MW]” de la hoja de cálculo “Formato Envío
+Cliente Regulado” del archivo: “1.2.- Calculo ENS COPELEC interrupción 13-12-2024.xlsx”, así
+como también los campos de las columnas “Pérdida de consumo [MW]” para clientes regulados
+están vacíos. Se aclara que las pérdidas de consumo afectados por la falla a reportar en los
+Informes de Falla deben de coincidir con el contenido de las columnas “Pérdida de consumo
+[MW]”, tanto para clientes libres como regulados, distinto a lo reportado en las columnas “Cpph
+equivalente [MW]” que están destinadas para el proceso de la Norma Técnica de
+Indisponibilidad de Suministro y Compensaciones. Por lo anterior, se solicita actualizar los
+antecedentes que sustenten las pérdidas de consumo efectivas por el evento de falla en las
+respectivas columnas.
+ Cronograma de trabajo para la actualización de la información técnica en el aplicativo
+Infotecnica del Coordinador, tanto de S/E Quilmo II como de S/E Quilmo. Lo anterior, debido a
+que no se tiene el antecedente del cambio de conexión de la línea 33 kV Quilmo II - Ciruelito
+- Recinto (actualmente identificada como línea 33 kV Quilmo - Recinto - Ciruelito en dicha
+plataforma). Actualizar, además, los diagramas unilineales de las SS/EE e incorporar nuevo
+elemento (tramos de línea), según corresponda.
+De forma complementaria, se adjunta el informe de falla ingresado en el sistema Neomante del
+Coordinador por la empresa Copelec Ltda. (Anexo N°1) y otros antecedentes aportados por dicha
+empresa (Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con un plan de acción en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Copelec Ltda. señala: “Luego de informado el evento, se gestiona inspección de la línea
+con móviles de turno. Una vez detectada la causa de falla y evaluado los daños producto de la colisión
+de vehículo particular sobre estructura N°288 de la LT 33kV Quilmo II - Ciruelito - Recinto, se procede
+a realizar reemplazo de la estructura antes mencionada.”
+c) Acciones correctivas a largo plazo:
+La empresa Copelec Ltda. no indica acciones correctivas de largo plazo.

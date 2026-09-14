@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0550-2024",
+  "eaf_num": 550,
+  "year": 2024,
+  "description": "Desconexión forzada del transformador 220/110 kV de S/E Antillanca",
+  "date": "20-11-2024",
+  "time": "11:49",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/12/EAF-550-2024.pdf",
+  "case_id": "CASE-0056",
+  "event_datetime": "2024-11-20T11:49:00",
+  "fault_label": "transformer_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0056\\official_diagram.dwg"
+}

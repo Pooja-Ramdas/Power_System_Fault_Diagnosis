@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0495-2024",
+  "eaf_num": 495,
+  "year": 2024,
+  "description": "Apertura intempestiva del interruptor 52C4 de S/E San Antonio",
+  "date": "30-09-2024",
+  "time": "12:12",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/10/EAF-495-2024.pdf",
+  "case_id": "CASE-0113",
+  "event_datetime": "2024-09-30T12:12:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_path": null
+}

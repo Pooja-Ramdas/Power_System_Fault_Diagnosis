@@ -1,0 +1,305 @@
+Estudio para análisis de falla EAF 465/2024
+“Desconexión forzada del transformador N°1 220/110 kV de S/E Quelentaro”
+Fecha de Emisión: 30-09-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 04/09/2024
+Hora 08:48
+Consumos desconectados (MW) 46.21
+Demanda previa del sistema (MW) 9032.90
+Porcentaje de desconexión 0.512 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Transformador Nº1 220/110 kV de S/E Quelentaro /
+ET01T0058SE200T0058
+Tipo de instalación Transformador
+Tensión nominal 220 kV y 110 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+3. Identificación del elemento fallado
+Nombre del elemento afectado Transformador Nº1 220/110 kV de S/E Quelentaro /
+ET01T0058SE200T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada del transformador 220/110 kV N°1 de S/E Quelentaro, por operación
+de su protección de sobrecorriente de fase, a causa de sobrecarga, debido al aumento en la generación
+conectada en el sistema de transmisión aguas abajo de la S/E.
+d.2 Fenómeno Físico:
+DIS2: Sobrecarga.
+La empresa CGE Transmisión S.A. remite los antecedentes probatorios para acreditar el fenómeno
+físico.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FECHA HORA
+FALLA ID NOMBRE FALLA ACCIONES CORRECTIVAS CP ACCIONES CORRECTIVAS LP
+FALLA FALLA
+Desconexión del
+transformador T1 La empresa CGE Transmisión S.A
+EAF 433-2022 27-11-22 12:17 La empresa CGE Transmisión S.A señala: “No aplica”.
+66/23 kV de S/E señala: “No aplica”.
+Pucón
+La empresa CGE Transmisión S.A. indica que realizó revisión de los
+parámetros de ajuste de la protección operada, y análisis de los
+Apertura del detectores de falla asociados a la protección de distancia del paño
+La empresa CGE Transmisión
+EAF 440-2022 interruptor 52B2 03-12-22 19:58 BT2 de S/E Graneros, con el propósito de evitar la reiteración del
+S.A. indica que no aplica.
+de S/E Paine fenómeno observado durante la falla de la referencia, debido a la
+incursión de la impedancia aparente hacia la zona 1 en instantes
+posteriores a la apertura del paño B2 de S/E Paine.
+La empresa CGE Transmisión
+S.A. indica que no aplica. La
+Apertura del La empresa Energía Pacífico S.A. no señala acciones correctivas a empresa Energía Pacífico S.A. no
+EAF 440-2022 interruptor 52B2 03-12-22 19:58 corto plazo. La empresa CGE S.A. no señala acciones correctivas a señala acciones correctivas a
+de S/E Paine corto plazo. largo plazo. La empresa CGE S.A.
+no señala acciones correctivas a
+largo plazo.
+La empresa CGE Transmisión S.A. indica que, con el objetivo de
+Apertura del evitar la operación indeseada de la protección diferencial 87T al
+La empresa CGE Transmisión
+EAF 440-2022 interruptor 52B2 03-12-22 19:58 momento de energización del transformador T1 de S/E Graneros,
+S.A. indica que no aplica.
+de S/E Paine se procede a reajustar umbral diferencial asociado a la función de
+frenado de Inrush, disminuyendo su valor.
+Apertura del
+CGE Transmisión S.A. señala que se coordina con el despacho de
+interruptor 52CT CGE Transmisión S.A. señala que
+EAF 452-2022 09-12-22 21:33 CGE Distribución para bajar los consumos del transformador,
+de S/E San no aplica.
+normalizando posibles transferencias realizadas.
+Clemente
+Apertura del
+interruptor 52BT1 La empresa CGE Transmisión
+EAF 459-2022 11-12-22 21:24 La empresa CGE Transmisión S.A. indica que no aplica.
+de S/E Reguladora S.A. indica que no aplica.
+Rapel
+Desconexión
+La empresa CGE Transmisión S.A. señala que se gestiona la revisión La empresa CGE Transmisión
+forzada de barra
+EAF 460-2022 12-12-22 20:26 y sincronización de los equipos de protección, mediante SD S.A. no indica acciones
+15 kV de S/E El
+N°2022117652, programada para el 24-01-2023. correctivas de largo plazo.
+Manzano
+La empresa CGE Transmisión S.A. indica como medida correctiva La empresa CGE Transmisión
+Desconexión de que se ha adoptado como norma no hacer este tipo de maniobras S.A. indica que no aplica
+línea 66 kV en paralelo, durante el tiempo de mayores demandas, razón por la acciones correctivas a largo
+EAF 465-2022 14-12-22 15:19
+Rancagua - cual las maniobras en redes MT para control de la transferencia en plazo. La empresa CGE S.A. no
+Cachapoal C1 transformadores se han estado realizando con microcorte. La indican acciones correctivas de
+empresa CGE S.A. no indican acciones correctivas de corto plazo. largo plazo.
+CGE Transmisión S.A. señala que en consideración de la diferencia
+Apertura del
+en la corriente observada por el relé SEL-587 en el Winding 1 y CGE Transmisión S.A. señala que
+EAF 468-2022 interruptor 52BT 15-12-22 15:41
+Winding 2, asociado al transformador de S/E Paniahue, se realizará no aplica.
+de S/E Paniahue
+revisión del esquema de protección.
+FECHA HORA
+FALLA ID NOMBRE FALLA ACCIONES CORRECTIVAS CP ACCIONES CORRECTIVAS LP
+FALLA FALLA
+Apertura del
+CGE Transmisión S.A. señala que se coordinó con el despacho de
+interruptor 52CT CGE Transmisión S.A. señala que
+EAF 486-2022 22-12-22 12:23 CGE Distribución para bajar los consumos del transformador, y que
+de S/E San no aplica.
+se realizará la corrección horaria del control Form 5 del paño CT.
+Clemente
+La empresa STS S.A. indica: En el caso de que se cambie la topología
+de la red y esta implique el cierre del interruptor 52B1 de S/E
+Apertura del Nahuelbuta, quedando esta energizada a través de S/E Negrete, La empresa STS S.A. no indica
+EAF 488-2022 interruptor 52B1 23-12-22 00:42 sumado a que exista una baja demanda en la zona, se sugerirá al acciones correctivas de largo
+de S/E Negrete CDC del Coordinador limitar las centrales de la zona por control de plazo.
+transferencia de la línea 66 kV Negrete - Central PE Los Buenos
+Aires.
+- La empresa CGE Transmisión
+- La empresa CGE Transmisión S.A. señala que “no se consideran” S.A. señala que “no se
+acciones correctivas a corto plazo. consideran” acciones
+Falla en línea 66 kV - Copelec Ltda. indica que “no aplica” señalar acciones correctivas correctivas a largo plazo.
+EAF 005-2023 04-01-23 19:29
+Monterrico - Parral a corto plazo. - CGE S.A., Copelec Ltda. y
+- CGE S.A. y Luzparral Transmisión S.A. no señalan acciones Luzparral Transmisión S.A., no
+correctivas a corto plazo. señalan acciones correctivas a
+largo plazo.
+Apertura
+La empresa CGE Transmisión
+intempestiva del La empresa CGE Transmisión S.A. señala que no se consideran
+EAF 006-2023 04-01-23 21:36 S.A. señala que no se consideran
+interruptor 52BT1 acciones correctivas.
+acciones correctivas.
+de S/E Parral
+Desconexión del
+La empresa CGE Transmisión
+transformador La empresa CGE Transmisión S.A. señala que no se consideran
+EAF 036-2023 30-01-23 20:26 S.A. señala que no se consideran
+154/66 kV de S/E acciones correctivas.
+acciones correctivas.
+Parral
+Apertura
+La empresa CGE Transmisión
+intempestiva del
+La empresa CGE Transmisión S.A. indica que no aplican acciones S.A. indica que no aplican
+EAF 088-2023 interruptor 52BT1 21-02-23 20:44
+correctivas de corto plazo. acciones correctivas a largo
+de S/E San Vicente
+plazo.
+de Tagua Tagua
+La empresa SAGESA indica que
+durante el segundo semestre de
+Desconexión 2023 realizará el reemplazo del
+La empresa CGE Transmisión indica que se incorporarán elementos
+forzada de barra interruptor 52BT1 de la
+EAF 127-2023 14-03-23 10:43 adicionales de frecuencia y de escalones EDAC, para que sean
+66 kV N°1 de S/E subestación Central Coronel,
+presentados en los registros secuenciales y oscilográficos.
+Coronel por un nuevo equipo que
+asegure una mayor
+confiabilidad.
+Las empresas Arauco Bioenergía
+Desconexión S.A., CGE Transmisión S.A.,
+Las empresas Arauco Bioenergía S.A., CGE Transmisión S.A., Parque
+forzada de línea 66 Parque Eólico Lebu-Toro SpA y
+EAF 216-2023 18-05-23 22:25 Eólico Lebu-Toro SpA, Frontel S.A. y STS S.A., no indican acciones
+kV Coronel - El STS S.A., no indican acciones
+correctivas a corto plazo.
+Manco correctivas a largo plazo.
+Apertura La empresa CGE Transmisión S.A. indica: “SD N°2023088337
+La empresa CGE Transmisión
+intempestiva del Modificación de ajustes de protecciones y readecuaciones
+EAF 404-2023 12-09-23 19:29 S.A. no indica acciones
+interruptor 52ET necesarias de las instalaciones, según ECAP aprobado para S/E
+correctivas de largo plazo.
+de S/E Pucón Pucón por aumento de capacidad.”
+Apertura
+automática del
+EAF 546-2023 27-12-23 10:24 No se indican. No se indican.
+interruptor 52CT
+de S/E El Manzano
+Apertura
+intempestiva del CGE Transmisión S.A informa: “Se monitorea la carga y se realizan
+EAF 548-2023 27-12-24 20:42 No se indican.
+interruptor 52CT1 transferencias con el objetivo de disminuir la carga en el sistema”.
+de S/E Mandinga
+La empresa CGE Transmisión S.A. señala: “El día 04-01-2024 se ha
+realizado bajo el curso Forzoso N°2024001639, mediante el cual se
+Apertura
+realizó aumento de Pick de Paño CT3 de SE Parral para efectos
+automática del
+EAF 004-2024 03-01-24 21:56 permitir la operación a plena carga de transformador T3 sin riesgo No se indican.
+interruptor 52CT3
+de operación indeseada. Para tales efectos se ha desarrollado El
+de S/E Parral
+ECAP N°01-2024 mediante el cual se respalda que los ajustes
+implementas mantienen la coordinación vigente”.
+Apertura
+automática del
+EAF 005-2024 05-01-24 08:57 No se indican. No se indican.
+interruptor 52CT
+de S/E El Manzano
+Apertura
+automática del
+EAF 044-2024 02-02-24 19:36 No se indican. No se indican.
+interruptor 52CT
+de S/E El Manzano
+FECHA HORA
+FALLA ID NOMBRE FALLA ACCIONES CORRECTIVAS CP ACCIONES CORRECTIVAS LP
+FALLA FALLA
+La empresa CGE Transmisión S.A. indica:
+“Luego de investigar con personal de segmento de distribución
+acerca del origen de los aumentos intempestivos de carga en SE El
+Manzano, se ha determina que estos obedecen a que durante
+contingencia climática ocurrida en Abril de 2023 la red de
+Apertura distribución se vio afectada por dichos acontecimientos , por lo
+automática del anterior se transfirió parte de la carga del alimentador El Carmen
+EAF 050-2024 06-02-24 08:30 No se indican.
+interruptor 52CT de SE Las Cabras al alimentador El Estero de SE El Manzano, en un
+de S/E El Manzano principio se consideró que la transferencia sería de unos 50 A, sin
+embargo, en los últimos meses esta carga transferida alcanzo
+valores entorno los 80A.
+El día 14-02-2024 se normalizó la tropología de la zona, quedando
+la totalidad de la carga del
+circuito El Carmen trasferida a SE Las Cabras”.
+La empresa CGE Transmisión S.A. indica:
+“Se comunica a segmento de Dx de CGE, que causa de operación
+Desconexión del
+de Paño BT1 de SE San Vicente de Tagua Tagua se debió a una
+transformador N°1
+operación por sobrecarga debido a aumento intempestivo de carga
+EAF 054-2024 66/15 kV de S/E 07-02-24 19:18 No se indican.
+registrada por transformador T1 de dicha subestación y se solicita
+San Vicente de
+que se tomen las medidas correspondientes tendiente a evitar la
+Tagua Tagua
+sobrecarga Transformadores producto de transferencias en red
+Dx”.
+CGE Transmisión S.A. indica lo siguiente: “Luego de determinar un
+punto de falla en la LT Maule - San Miguel, se procede en forma
+CGE Transmisión S.A. indica que
+inmediata a realizar la acción correctiva de la línea. Ver informe
+“no aplica” ejecutar acciones
+“2024000536 540 553 579 ANEXO V atención Falla LT Maule Talca
+correctivas a largo plazo.
+07-02-2024. Se propone como medida preventiva la
+Arauco Bioenergía S.A. indica
+implementación de elemento de sobrecorriente de fase en equipos
+que “no se necesitan” acciones
+relé digitales actualmente instalados en las subestaciones Maule y
+correctivas a largo plazo.
+Desconexión Talca, de manera de permitir el control de cargas extremas en las
+Transelec S.A. indica lo
+forzada de la línea líneas Maule - Talca, Maule - San Miguel y San Miguel - Talca para
+EAF 057-2024 07-02-24 19:56 siguiente: “No aplica, ya que la
+2x66 kV Maule - efecto de evitar daños en las líneas durante procesos transitorios
+falla fue en instalaciones de
+Talca rápidos como los ocurridos en el evento analizado en el presente
+terceros y las protecciones de
+informe.”
+Transelec operaron
+Arauco Bioenergía SpA. indica que “no se necesitan” acciones
+correctamente.”
+correctivas a corto plazo.
+CGE S.A. no indica acciones
+Transelec S.A. indica lo siguiente: “No aplica, ya que la falla fue en
+correctivas a largo plazo.
+instalaciones de terceros y las protecciones de Transelec operaron
+correctamente.”
+CGE S.A. no indica acciones correctivas a corto plazo.
+La empresa CGE Transmisión S.A. indica que: “Se comunica a La empresa CGE Transmisión
+segmento de Dx de CGE, que causa de operación de Paño BT1 de SE S.A. indica que no aplican
+Desconexión San Vicente de Tagua Tagua se debió a una operación por acciones correctivas a largo
+forzada del sobrecarga debido a aumento intempestivo de carga registrada plazo.
+transformador N°1 por transformador T1 de dicha subestación y se solicita que se
+EAF 059-2024 07-02-24 21:01
+66/15 kV de S/E tomen las medidas correspondientes tendiente a evitar la La empresa Compañía
+San Vicente de sobrecarga Transformadores producto de transferencias en red General de Electricidad S.A.
+Tagua Tagua Dx”. no indica acciones
+La empresa Compañía General de Electricidad S.A. no indica correctivas.
+acciones correctivas.
+Apertura
+automática del La empresa CGE Transmisión
+EAF 069-2024 12-02-24 20:22 La empresa CGE Transmisión S.A. indica que “No aplica”.
+interruptor 52CT S.A. señala que no aplica.
+de S/E El Manzano
+La empresa CGE Transmisión
+S.A. señala que “Se tiene el
+Apertura del La empresa CGE Transmisión S.A. indica que “Se monitorea la carga proyecto de ampliación de S/E
+EAF 121-2024 interruptor 52CT1 27-03-24 19:20 y se realizan transferencias con el objetivo de disminuir la carga en Mandinga, NUP 1554,
+de S/E Mandinga el sistema”. actualmente cerrado por
+aplicación de artículo 157 del
+Reglamento de Transmisión”.
+Apertura
+La empresa CGE Transmisión
+intempestiva del La empresa CGE Transmisión S.A. indica: “No hay acciones de corto
+EAF 171-2024 24-04-24 06:34 S.A. indica: “No hay acciones de
+interruptor 52C1 plazo”.
+corto plazo”.
+de S/E San Pedro

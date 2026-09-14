@@ -1,0 +1,189 @@
+Estudio para análisis de falla EAF 481/2024
+“Falla en línea 66 kV Chiguayante - Quilacoya”
+Fecha de Emisión: 11-10-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 19/09/2024
+Hora 03:11
+Consumos desconectados (MW) 0.10
+Demanda previa del sistema (MW) 8216
+Porcentaje de desconexión 0.001 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Chiguayante - Quilacoya / LT018CI1TR01----L0011
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Empresa de los Ferrocarriles del Estado (EFE)
+RUT 61.216.000-7
+Representante Legal Sebastián Andrés Derteano Herrera
+Dirección Morandé 115, piso 6, Santiago
+c. Identificación del elemento fallado
+Conductores del tramo Chiguayante - Quilacoya 66KV / LT018CI1TR01----
+Nombre del elemento fallado
+L0011
+Propietario elemento fallado Empresa de los Ferrocarriles del Estado (EFE)
+RUT 61.216.000-7
+Representante Legal Sebastián Andrés Derteano Herrera
+Dirección Morandé 115, piso 6, Santiago
+d.1 Origen y causa de la falla
+Se produjo una falla en la línea 66 kV Chiguayante - Quilacoya, perteneciente a la Empresa de los
+Ferrocarriles del Estado, provocando la apertura forzada del interruptor 52B1 de S/E Chiguayante.
+A la fecha de emisión de este estudio, no se cuenta con antecedentes respecto del origen y causa de
+la falla en la línea 66 kV Chiguayante - Quilacoya.
+d.2 Fenómeno Físico:
+OTR2: Origen no determinado.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico durante los últimos 24 meses móviles, correspondiente a los Estudios para Análisis de
+Falla EAF 434-2022, EAF 445-2022, EAF 446-2022, EAF 455-2022, EAF 492-2022, EAF 495-2022, EAF
+045-2023, EAF 053-2023, EAF 139-2023, EAF 188-2023, EAF 283-2023, EAF 430-2023 y EAF 255-
+2024.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Apertura del interruptor 52B1 La empresa CGE Transmisión S.A. indica que no aplican
+EAF 434-2022 27-11-2022
+de S/E Chiguayante acciones correctivas a corto ni largo plazo.
+Apertura del interruptor 52B1 La empresa CGE Transmisión S.A. indica que no aplican
+EAF 445-2022 06-12-2022
+de S/E Chiguayante acciones correctivas a corto ni largo plazo.
+Apertura del interruptor 52B1 La empresa CGE Transmisión S.A. indica que no aplican
+EAF 446-2022 07-12-2022
+de S/E Chiguayante acciones correctivas a corto ni largo plazo.
+Apertura del interruptor 52B1 La empresa CGE Transmisión S.A. indica que no aplican
+EAF 455-2022 10-12-2022
+de S/E Chiguayante acciones correctivas a corto ni largo plazo.
+Apertura del interruptor 52B1 La empresa CGE Transmisión S.A. indica que no aplican
+EAF 492-2022 24-12-2022
+de SE Chiguayante acciones correctivas a corto ni largo plazo.
+Apertura del interruptor 52B1 La empresa CGE Transmisión S.A. indica que no aplican
+EAF 495-2022 25-12-2022
+de SE Chiguayante acciones correctivas a corto ni largo plazo.
+Apertura del interruptor 52B1
+EAF 045-2023 03-02-2023 La empresa CGE Transmisión S.A. indica que “no aplica”.
+de S/E Chiguayante
+Apertura del interruptor 52B1
+EAF 053-2023 06-02-2023 La empresa CGE Transmisión S.A. indica que “no aplica”.
+de S/E Chiguayante
+Apertura del interruptor 52B1
+EAF 077-2023 16-02-2023 La empresa CGE Transmisión S.A. indica que “no aplica”.
+de S/E Chiguayante
+Apertura del interruptor 52B1
+EAF 139-2023 25-03-2023 La empresa CGE Transmisión S.A. indica que “no aplica”.
+de S/E Chiguayante
+Apertura del interruptor 52B1
+EAF 188-2023 28-04-2023 La empresa CGE Transmisión S.A. indica que “no aplica”.
+de S/E Chiguayante
+Apertura del interruptor 52B1
+EAF 283-2023 25-06-2023 La empresa CGE Transmisión S.A. indica que “no aplica”.
+de S/E Chiguayante
+Falla en la línea 66 kV
+EAF 430-2023 30-10-2023 La empresa CGE Transmisión S.A. indica que “no aplica”.
+Chiguayante - Quilacoya
+Desconexión forzada de la línea
+EAF 255-2024 13-06-2024 La empresa CGE Transmisión S.A. indica que “no aplica”.
+66 kV Chiguayante - Quilacoya
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 6 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 434-2022, EAF 445-2022, EAF 446-2022, EAF 455-2022, EAF 492-2022, EAF
+495-2022, EAF 045-2023, EAF 053-2023, EAF 139-2023, EAF 188-2023, EAF 283-2023, EAF 430-2023
+y EAF 255-2024.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 66 kV Chiguayante - Quilacoya.
+Al respecto, a la fecha de emisión de este estudio, la Empresa de los Ferrocarriles del Estado no ha
+remitido los antecedentes correspondientes a las características del elemento afectado por la falla ni a
+los mantenimientos realizados a la línea 66 kV Chiguayante - Quilacoya, durante los últimos 24 meses.
+Adicionalmente, en la plataforma Infotécnica del Coordinador, la Ficha Técnica de la mencionada línea
+no cuenta con datos válidos.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+No informada.
+h. Comuna donde se presenta la falla
+8103: Chiguayante.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (23-09-2024) Informe de 5 días (26-09-2024)
+Empresa de los Ferrocarriles del Estado (EFE) No enviado No enviado
+CGE Transmisión S.A. 19-09-2024 03-10-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 66 kV Chiguayante - Quilacoya ST Dedicado - 03:11 07:14
+c. Consumos
+Sub-Estación Alimentador Comuna Pérdida de % Clientes H. H. H.
+/ Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Quilacoya - Chiguayante 0,10 0,001 1 03:11 07:14 07:14
+Total: 0.10 MW 0.001 % 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A. como suministrador del cliente
+libre EFE, además a lo observado en el sistema SCADA e informe diario del Coordinador del día 19 de septiembre de 2024.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador / Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indisp. (h) Desc. (h) (MWh)
+S/E Quilacoya - EFE Libre 0,10 4,05 4,05 0,40
+Clientes Regulados : MWh
+Clientes Libres : 0.4 MWh
+Total : 0.4 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A. como suministrador del cliente
+libre EFE.
+- Curva de recuperación esperada v/s recuperación real.
+00:00
+00:00
+0077::1144
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+100%
+Recuperación real Recuperación esperada
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia Tiempo Velocidad de
+(MW) recuperación (h) recuperación
+(MW/h)
+Primer 80 % 0,08 4,05 0,02
+Último 20 % 0,02 4,05 0,00
+100 % Total 0,10 4,05 0,02
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8216 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales: Angamos (ANG1, ANG2), Colbún (U2), Guacolda (U1), Pehuenche (U1) y Tocopilla (U16).
+Estado y configuración previo a la falla
+Previo a la falla en la línea 66 kV Chiguayante - Quilacoya, las instalaciones de transmisión se
+encontraban en servicio normal.
+Otros antecedentes relevantes
+Otros antecedentes presentados por CGE Transmisión S.A.
+“El día 19 de Septiembre del 2024, a las 03:11 horas, se produce la apertura por protecciones del
+interruptor 52B1 de la subestación Chiguayante, que corresponde al paño de salida de la LT 66 kV
+Chiguayante - Quilacoya de propiedad de FESUR, con una pérdida de consumos de 0,1 MW
+aproximadamente.
+De inmediato se coordina la revisión de protecciones operadas en S/E Chiguayante, además se coordina
+con FESUR la revisión de sus instalaciones. FESUR solicita el cierre del interruptor 52B1 de S/E
+Chiguayante resultando con éxito a las 07:14 horas.”.
+Por su parte, la Empresa de los Ferrocarriles del Estado no presenta información referente a la falla en
+la línea 66 kV Chiguayante - Quilacoya. Por ello, se solicitará a esta empresa los correspondientes
+informes de falla de 48 horas y de 5 días que establece la NTSyCS.
+De forma complementaria, se adjunta el informe de falla de instalaciones ingresado en el sistema
+Neomante del Coordinador Eléctrico Nacional por la empresa CGE Transmisión S.A. (Anexo N°1),
+informe de falla de 5 días aportado por esta empresa y antecedentes solicitados a EFE (Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con auditorías u otro tipo de mantenimientos en curso.
+b) Acciones correctivas a corto plazo:
+- La empresa CGE Transmisión S.A. indica “No Aplica”.
+- La Empresa de los Ferrocarriles del Estado (EFE) no informa.
+c) Acciones correctivas a largo plazo:
+- La empresa CGE Transmisión S.A. indica “No Aplica”.
+- La Empresa de los Ferrocarriles del Estado (EFE) no informa.
+Diagrama simplificado de las instalaciones previo a la falla

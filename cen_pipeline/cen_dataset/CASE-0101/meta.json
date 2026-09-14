@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0505-2024",
+  "eaf_num": 505,
+  "year": 2024,
+  "description": "Desconexión forzada del transformador N°3 110/23 kV de S/E Batuco",
+  "date": "14-10-2024",
+  "time": "20:33",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/EAF-505-2024.pdf",
+  "case_id": "CASE-0101",
+  "event_datetime": "2024-10-14T20:33:00",
+  "fault_label": "transformer_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0101\\official_diagram.zip"
+}

@@ -1,0 +1,147 @@
+Estudio para análisis de falla EAF 556/2024
+“Desconexión forzada del transformador N°2 66/13.2 kV de S/E Linares Norte”
+Fecha de Emisión: 16-12-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 25/11/2024
+Hora 09:55
+Consumos desconectados (MW) 8.55
+Demanda previa del sistema (MW) 9736.63
+Porcentaje de desconexión 0.088 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Linares Norte / SE030T0057
+Tipo de instalación Subestación
+Tensión nominal 66/13.2 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso
+c. Identificación del elemento fallado
+Nombre del elemento afectado Sistema de protección 2 del paño CT2 asociado al transformador N°2
+66/13.2 kV de S/E Linares Norte / SP012T0057SE030T0057
+Propietario elemento fallado Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada del transformador N°2 66/13.2 kV de S/E Linares Norte por la
+actuación de su relé maestro, ante la operación de la protección de sobrecorriente de fase del paño
+CT2, dando paso a la apertura de los interruptores 52BT2 y 52CT2 asociados a dicho transformador.
+La empresa Chilquinta Transmisión S.A. declara que la operación del relé maestro coincidió con la
+reconexión del reconectador Copefrut ubicado en la red de distribución.
+d.2 Fenómeno Físico:
+OPE22: Error en programación de elementos de protección o control.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico durante los últimos 24 meses móviles, correspondiente a los Estudios para Análisis de
+Falla EAF 438-2023, EAF 443-2023, EAF 107-2024, EAF 289-2024 y EAF 508-2024.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Operación EDAC-CEx
+en
+EAF 453_2022 10-12-2022 No se indican.
+S/E San Rafael
+(Chilquinta)
+Operación EDAC-BF
+EAF 013_2023 en 09-01-2023 No se indican acciones correctivas de corto ni largo plazo
+S/E San Sebastián
+Chilquinta Transmisión S.A. no señala acciones correctivas a corto
+Operación EDAC-CEx
+plazo. Sin perjuicio de lo anterior, la empresa informa que “se realizará
+en
+EAF 223_2023 23-05-2023 una revisión completa del interruptor 52C4 asociado al alimentador San
+S/E San Rafael
+Vicente, y que “se enviará informe con resultados obtenidos el 30 de
+(Chilquinta)
+junio del 2023”.
+Operación EDAC-CEx
+en
+EAF 490_2023 10-11-2023 No se indican.
+S/E San Rafael
+(Chilquinta)
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 7 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 126-2023, EAF 421-2023, EAF 438-2023, EAF 443-2023, EAF 107-2024, EAF
+289-2024 y EAF 508-2024.
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento que emitió la orden de apertura al relé maestro del transformador N°2 66/13.2 kV de S/E
+Linares Norte, corresponde al sistema de protecciones del paño CT2 de dicha subestación, el cual,
+según lo informado por su propietario en la plataforma Infotécnica del Coordinador, es un relé SEL-751
+con funciones 51/51N y cuya fecha de entrada en operación fue el 01 de diciembre de 2019.
+La empresa Chilquinta Transmisión S.A. no presenta los mantenimientos realizados a dicha subestación
+durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No se indica.
+g. Proposición del propietario respecto del origen de la falla
+Externa.
+La empresa Chilquinta Transmisión S.A. no entrega antecedentes de respaldo a la proposición del
+origen de la falla.
+h. Comuna donde se presenta la falla
+7401: Linares.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (27-11-2024) Informe de 5 días (02-12-2024)
+Chilquinta Transmisión S.A. 25-11-2024 02-12-2024
+Luzlinares S.A. 25-11-2024 12-12-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Linares Norte ST Zonal Transformador N°2 66/13.2 kV 09:55 10:22
+S/E Linares Norte ST Zonal Barra N°2 13.2 kV 09:55 10:23
+- Los horarios señalados corresponden a lo informado por la empresa Chilquinta Transmisión S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H. Norm.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon.
+Linares Norte Industrial / CT2 Linares 8.55 0.088 1836 09:55 10:23 10:23
+Total: 8.55 MW 0.088 % 1836
+- Los montos y horarios señalados corresponden a lo informado por las empresas Chilquinta Transmisión S.A. y Luzlinares S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Linares Norte Industrial / CT2 Luzlinares S.A. Regulado 8.55 0.47 0.47 4.0
+Clientes Regulados : 4.0 MWh
+Clientes Libres : MWh
+Total : 4.0 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Chilquinta Transmisión S.A. y Luzlinares S.A.
+- Curva de recuperación esperada v/s recuperación real.
+00:00
+00:00
+1100::2233
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+100%
+Recuperación real Recuperación esperada
+No se observa diferencia entre la recuperación real y la esperada para los consumos del alimentador
+Industrial de S/E Linares Norte.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 6.84 0.47 14.66
+Último 20 % 1.71 0.47 3.66
+100 % Total 8.55 0.47 18.32
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9736.63 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Colbún (U2), Mejillones (CTM3, IEM), PFV Diego Almagro Sur, Ralco (U1 y U2) y Rapel (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 25 de noviembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 25 de noviembre de 2024.
+Movimiento de centrales e informe diario del CDC

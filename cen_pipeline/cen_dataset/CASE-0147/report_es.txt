@@ -1,0 +1,241 @@
+Estudio para análisis de falla EAF 461/2024
+“Falla en desconectadores 89B1 y 89B2 de S/E Nirivilo”
+Fecha de Emisión: 25-09-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 31/08/2024
+Hora 23:31
+Consumos desconectados (MW) 5.0
+Demanda previa del sistema (MW) 9473
+Porcentaje de desconexión 0.053%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV San Javier - Constitución / LT188CI1TR02----T0002*
+Tipo de instalación Línea de Transmisión
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación fallada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Santiago.
+(*) Nemotécnico corresponde al tramo 66 kV San Javier - Tap Nirivilo.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Control de los desconectadores 89B1 y 89B2 de S/E Nirivilo /
+DC30T0058PA004T0058SE211T0058 y DC31T0058PA005T0058SE211T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 Piso 16, Las Condes
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV San Javier - Constitución, por operación de sus
+protecciones, coincidente con la apertura intempestiva y bajo carga de los desconectadores 89B1 y
+89B2 de S/E Nirivilo.
+Se desconoce la causa de la apertura intempestiva de los mencionados desconectadores.
+d.2 Fenómeno Físico:
+OTR2: Origen no determinado.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondiente al Estudio para Análisis de Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. señala: “El mismo día se realiza la
+reparación de puente y conductor cortado de fase central en
+estructura N°225, se adjuntan respaldos de la reparación. Dado los
+Falla en línea 2x66 kV
+años de servicio del conductor y las transferencias actuales que se
+EAF 391-2022 Padre Las Casas - 21-10-2022
+realizan en las líneas de 66kV Pitrufquén-Padre las Casas, se
+Pitrufquén N°1
+contempla el desarrollo de estudio asociado al reemplazo de
+conductores del vano comprendido entre estructuras 225 y 226 del
+mencionado tramo. Horizonte estimado: diciembre de 2022”.
+CGE Transmisión S.A. señala:
+Desconexión de línea “inspección pedestre de la línea 66 KV Curanilahue - Tres Pinos en
+EAF 429-2022 66 kV Curanilahue - 22-11-2022 busca de la causa de falla”.
+Tres Pinos “revisión del alambrado de control y variables ABIERTO y CERRADO
+en SCADA del DDCC 89B de S/E Tres Pinos”.
+La empresa CGE Transmisión S.A. indica: “Se debe revisar la
+sincronización satelital del relé MiCOM P437, ya que presenta registros
+Desconexión de línea que señalan no sincronizados y, en efecto, los tiempos estampados no
+EAF 449-2022 66 kV La Palma - San 09-12-2022 son los mismos del relé principal. También se debe revisar el registro
+Javier de eventos y de sociografía para depurar los datos presentados en el
+registro de eventos y agregar información faltante en los registros
+oscilográficos”.
+Falla en línea 66 kV
+EAF 020-2023 16-01-2023 No se indican.
+Tres Pinos - Lebu
+Falla en línea 66 kV
+EAF 060-2023 San Vicente Tagua 09-02-2023 No se indican.
+Tagua - El Manzano
+Falla en línea 66 kV
+EAF 065-2023 Loma Colorada - 12-02-2023 No se indican.
+Escuadrón
+Falla en el interruptor
+EAF 068-2023 52C7 de S/E Colo 13-02-2023 No se indican.
+Colo
+La empresa CGE Transmisión S.A. indica:
+• “Se realizaron pruebas efectivas sobre equipos de protección
+asociados al alimentador Costanera 52E4 el día 24-02-2023. Sin
+encontrar anormalidades.
+• Se realizaron pruebas efectivas sobre equipos de protección
+asociados al alimentador Antumalal 52E3 el día 01-03-2023. Sin
+encontrar anormalidades.
+• Se programan pruebas efectivas sobre equipos de protección
+asociados al alimentador Curarrehue 52E5 a realizar durante el mes
+de marzo, cuya desconexión depende de la disponibilidad del
+sistema de Distribución.
+• Habilitación de registro de eventos por partida de funciones
+Apertura del
+51/51N en las cabeceras de los alimentadores 52E3, 52E4 y 52E5.
+EAF 087-2023 interruptor 52ET de 21-02-2023
+Programado para el 06-04-2023.
+S/E Pucón
+• Se programa normalización de sincronización horaria de relé SEL-
+751A y de los relés asociados a los alimentadores de cabecera 52E3,
+52E4 y 52E5, según SD 2023019877 para el 06-04-2023.
+• Elaboración de un estudio de coordinación de protecciones para
+detectar posibles mejoras en la coordinación entre paño ET y
+cabeceras MT de S/E Pucón, bajo el método que considera las
+condiciones de carga de los alimentadores (método completo) y
+además se simularán fallas resistivas entre fases, comprometido
+para 31/03/2023”.
+“Implementación los posibles cambios de ajustes que determine el
+Estudio de Coordinación de Protecciones definido en las Acciones
+Correctivas de Corto Plazo. Fecha 31/04/2023.”
+CGE Transmisión S.A. indica: “Desconexión de S/E Nancagua para
+Apertura del realizar revisión de los SS/AA, banco de baterías y cargador. Revisión
+EAF 091-2023 interruptor 52BT de 22-02-2023 y ensayos de equipos primarios. SD N°2023020690 y SD
+S/E Nancagua N°2023020691. CGE S.A. no indica acciones correctivas a corto
+plazo”.
+CGE Transmisión S.A. indica: “Se realizará la elaboración de un
+estudio de coordinación de protecciones para detectar posibles
+mejoras en la coordinación entre el paño ET y cabeceras MT de S/E
+Pucón, bajo el método que considera las condiciones de carga de los
+Apertura del
+alimentadores (método completo) y además se simularán fallas
+EAF 092-2023 interruptor 52ET de 23-02-2023
+resistivas entre fases comprometido para 31/03/2023.”
+S/E Pucón
+CGE Transmisión S.A. indica: “Se realizará la implementación de
+posibles cambios de ajustes que determine el Estudio de Coordinación
+de Protecciones definido en las Acciones Correctivas de Corto Plazo.
+Fecha 31/04/2023”.
+CGE Transmisión S.A. indica: “Se solicitará las instalaciones de los
+Desconexión de barra
+alimentadores Alcázar y Paillihue para realizar pruebas efectivas de la
+EAF 097-2023 15 kV N°2 de S/E Los 01-03-2023
+lógica adaptativa sobre la protección del 52CT5. Lo anterior se
+Ángeles
+ejecutará bajo las SD N°2023020928 y SD N°2023020932”.
+Desconexión forzada
+EAF 102-2023 de barra 15 kV N°2 05-03-2023 No se indican.
+de S/E Colchagua
+Falla en línea 66 kV
+La empresa CGE Transmisión S.A. indica que no aplican acciones
+EAF 104-2023 Arenas Blancas - 06-03-2023
+correctivas a corto plazo.
+Puchoco
+Falla en línea 66 kV
+La empresa CGE Transmisión S.A. señala: “No se consideran acciones
+EAF 109-2023 Loma Colorada - 07-03-2023
+correctivas de corto plazo”.
+Escuadrón
+Falla en línea 2x66 kV
+La empresa CGE Transmisión S.A. indica que no aplica acciones
+EAF 123-2023 Loncoche - Villarrica 13-03-2023
+correctivas a corto plazo.
+N°1
+Desconexión forzada CGE Transmisión S.A. señala que “no aplica, debido a que relé operó
+del transformador correctamente frente a la perturbación de variables eléctricas, en
+EAF 207-2023 11-05-2023
+110/13.8 kV de S/E particular la magnitud de tensión, que fue provocada aparentemente
+Alto Hospicio por maniobras en instalaciones de terceros”.
+Falla en línea 66 kV
+EAF 258-2023 13-06-2023 No se indican.
+Negrete - Nahuelbuta
+La empresa CGE Transmisión S.A. indica “No aplica”. Por su parte,
+respecto del evento ocurrido a las 07:45 horas en la línea 66 kV
+Temuco - Padre las Casas N°2:
+• “Modificación de ajuste por mejora para generar registros
+oscilográficos por las reconexiones y cierres de las protecciones de
+las nuevas instalaciones de SS/EE Padre las Casas y Pitrufquén.
+Fecha estimada de implementación 30 julio del 2023.
+• Revisión señal reloj satelital en la protección SEL-351A del paño
+BT7 en S/E Temuco y/o reemplazo de cable IRIG-B. Fecha estimada
+Falla en línea 66 kV
+de implementación 30 julio del 2023.
+EAF 295-2023 Pitrufquén - Padre Las 07-07-2023
+• Instalación de peinetas en estructuras comunes de la LT 66 kV
+Casas
+Padre las Casas - Temuco N°1
+y N°2. Fecha estimada de implementación 30 Octubre del 2023.
+• Revisión de Block de pruebas del paño B6 de S/E Temuco y
+ejecución pruebas de control sobre el paño B6. Fecha estimada de
+implementación 30 julio del 2023.
+• Revisión de las instalaciones con el modelo del Block de pruebas en
+SS/EE Loncoche y Pullinque y ejecución de las pruebas de control
+sobre los paños correspondientes. Fecha estimada de implementación
+30 agosto del 2023”.
+La empresa CGE Transmisión S.A. señala:
+Desconexión de línea • "Normalizar sincronización horaria a través de protocolo de
+EAF 301-2023 110 kV El Edén - Alto 15-07-2023 comunicación IRIG-B en relé D60, por diferencia en la estampa de
+del Carmen tiempo registrada respecto del horario real de la falla según reloj
+satelital”.
+La empresa CGE Transmisión S.A. indica:
+Falla en pararrayos • “Por curso forzoso N°2023068404, se desconecta pararrayo
+EAF 319-2023 del paño E2 de S/E 29-07-2023 asociado al alimentador Rivadavia 52E2 para su revisión.
+Vicuña • Se realizará informe en base a los resultados obtenidos en punto
+anterior”.
+Desconexión de barra
+EAF 330-2023 15 kV N°2 de S/E San 03-08-2023 No se indican.
+Francisco de Mostazal
+Desconexión de línea
+EAF 345-2023 66 kV Negrete - 13-08-2023 No se indican.
+Nahuelbuta
+Desconexión de
+EAF 359-2023 barras 13.2 kV N°1 y 21-08-2023 No se indican.
+N°2 de S/E Ranguilí
+Apertura del
+EAF 365-2023 interruptor 52C2 de 22-08-2023 No se indican.
+S/E Marchigüe
+Falla en línea 2x66 kV
+EAF 389-2023 Loncoche - Villarrica 03-09-2023 CGE Transmisión S.A. señala que “no aplica.”
+N°1
+La empresa CGE Transmisión S.A. indica:
+“Dado lo antiguo del conductor y las transferencias actuales de
+líneas de 66 kV Pitrufquén-Padre las Casas, se contempla el
+Falla en la línea 66 kV desarrollo de reemplazo conductores vano entre estructuras 225 y
+EAF 412-2023 Pitrufquén - Padre de 17-09-2023 226 del mencionado tramo.
+las Casas N°1 Actualmente se está desarrollando el proyecto comercial, con el fin
+obtener los montos y ejecutar las licitaciones para designar empresa
+que ejecute la compra de los materiales y ferreterías requeridas junto
+con los trabajos de reemplazo”.
+La empresa CGE Transmisión S.A. señala:
+Falla en línea 66 kV
+EAF 475-2023 03-11-2023 “La distancia de falla indicada por el relé GE-D30 del paño B5 de S/E
+Cocharcas - Hualte
+Cocharcas deberá ser chequeado con una maleta de pruebas”.
+Falla en línea 66 kV
+EAF 494-2023 11-11-2023 No se indican.
+Lautaro - Llaima
+La empresa CGE Transmisión S.A. indica:
+Falla en cierre de “Revisión de las comunicaciones entre el centro de Control de
+EAF 501-2023 interruptor 52C2 de 16-11-2023 operaciones y S/E San Joaquín. Para mayor detalle ver Anexo 2 con
+S/E San Joaquín informe de revisión de comunicaciones de proveedor Integración de
+Sistema”.
+Apertura intempestiva
+EAF 529-2023 del interruptor 52E2 10-12-2023 No se indican.
+de S/E Vicuña
+La empresa CGE Transmisión S.A. señala:
+“Se realiza inspección pedestre e inspección con Dron. Se realiza
+mantenimiento preventivo a la totalidad de las estructuras del tramo
+de línea Chimbarongo - TAP Quinta:
+Falla en línea 66 kV - SD 2023115148: DP LT Chimbarongo - TAP Quinta 15 de diciembre
+EAF 531-2023 10-12-2023
+San Fernando - Teno del 2023.
+- SD 2023115187: DP LT Chimbarongo - TAP Quinta 18 de diciembre
+del 2023
+- SD 2023115188: DP LT Chimbarongo - TAP Quinta 19 de diciembre
+del 2023.”

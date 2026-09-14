@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0603-2024",
+  "eaf_num": 603,
+  "year": 2024,
+  "description": "Falla en la línea 66 kV Victoria – Collipulli",
+  "date": "30-12-2024",
+  "time": "15:52",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2025/01/EAF-603-2024.pdf",
+  "case_id": "CASE-0001",
+  "event_datetime": "2024-12-30T15:52:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0001\\official_diagram.dwg"
+}

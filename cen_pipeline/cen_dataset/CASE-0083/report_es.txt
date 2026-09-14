@@ -1,0 +1,161 @@
+Estudio para análisis de falla EAF 523/2024
+“Apertura intempestiva del interruptor 52ET1 de S/E Calbuco”
+Fecha de Emisión: 20-11-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 28/10/2024
+Hora 11:02
+Consumos desconectados (MW) 11.77
+Demanda previa del sistema (MW) 10276.00
+Porcentaje de desconexión 0.115 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Calbuco / SE027T0003
+Tipo de instalación Subestación
+Tensión nominal 110/23 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Barra de 23 kV de S/E Calbuco / BA01T0003SE027T0003
+Propietario elemento fallado Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno.
+d.1 Origen y causa de la falla
+Se produjo la apertura intempestiva del interruptor 52ET1 de S/E Calbuco, por operación de sus
+protecciones de sobrecorriente de fase y residual de tiempo definido, debido a una falla cuya causa y
+ubicación no han sido determinadas, aunque a partir de los antecedentes presentados por STS S.A.,
+se presume que habría estado ubicada en la barra de 23 kV de S/E Calbuco o en algunos de los
+equipos conectados a ella.
+d.2 Fenómeno Físico
+OTR2: Origen no determinado.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido tres fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+FALLA ID NOMBRE FALLA FECHA FALLA HORA FALLA ACCIONES CORRECTIVAS CP ACCIONES CORRECTIVAS LP
+La empresa STS S.A. indica que con
+fecha 6 de junio de 2023, bajo Informe
+de Limitación N°2023000993, se elimina La empresa STS S.A. indica que se
+provisoriamente la operación por 50BF propone modificar la protección falla de
+en la matriz de disparo de relé interruptor (50BF) de 66 kV, la cual está
+diferencial de barra 66 kV (87B), la cual radicada actualmente en cada uno de los
+Desconexión forzada de
+se recibe como señal digital desde las sistemas de protección de cada paño de
+EAF 242-2023 barra 66 kV de S/E 06-06-23 05:21
+protecciones del transformador N°1 ó 66 kV, trasladando esta protección al
+Panguipulli
+N°2. Se realiza inspección visual en propio relé diferencial de barra 66 kV
+armario de protección diferencial de (87B). Con ello, se pretende aumentar la
+barra 66 kV (87B) en S/E Panguipulli, sin confiabilidad del sistema de
+encontrar evidencia de daño o anomalía protecciones.
+por algún agente externo en cualquiera
+de sus componentes.
+Desconexión forzada de
+Sistema de Transmisión del Sur S.A. Sistema de Transmisión del Sur S.A.
+EAF 505-2023 línea 66 kV Las Violetas - 18-11-23 15:51
+señala que “no aplica”. señala que “no aplica”.
+Imperial
+Operación EDAC-BF en La empresa STS S.A. señala que “no La empresa STS S.A. señala que “no
+EAF 374-2024 01-08-24 23:18
+SS/EE Dalcahue y Pid Pid aplica”. aplica”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado por la falla corresponde a la barra de 23 kV de S/E Calbuco, compuesta por un
+conductor por fase de Aluminio 20.7 mm, con un límite térmico permanente de 0.491 kA y cuya
+fecha de puesta en servicio fue en el año 2009, de acuerdo con lo señalado por su propietario en el
+Informe de Falla de 5 días.
+La empresa STS S.A. no remitió antecedentes respecto de los mantenimientos realizados a este
+elemento durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa SAESA indica densidad D2 baja para sus consumos afectados en S/E Calbuco.
+g. Proposición del propietario respecto del origen de la falla
+Interno.
+h. Comuna donde se presenta la falla
+10102: Calbuco
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(30/10/2024) (06/11/2024)
+Sistema de Transmisión del Sur S.A. (STS) 28/10/2024 07/11/2024
+Sociedad Austral de Electricidad S.A. (SAESA) 29/10/2024 30/10/2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Calbuco ST Zonal Barra 23 kV 11:02 12:38
+- Los horarios señalados corresponden a lo informado por la empresa STS S.A.
+c. Consumos
+Alimentador Pérdida de % consumo Clientes H. H. H.
+Subestación Comuna
+/Paño Consumo (MW) pre-falla afectados Desc. Dispon. Norm.
+Calbuco Calbuco / E2 Puerto Montt 0.06 0.001 116 11:02 12:38 11:09
+Calbuco Calbuco / E2 Calbuco 0.09 0.001 1 11:02 12:38 11:10
+Calbuco Calbuco / E2 Calbuco 4.23 0.041 6382 11:02 12:38 12:07
+Calbuco Caicaen / E1 Calbuco 6.46 0.063 4068 11:02 12:38 12:43
+Calbuco Calbuco / E2 Calbuco 0.93 0.009 2 11:02 12:38 12:46
+Total: 11.77 MW 0.115% 10569
+- Los montos y horarios señalados corresponden a lo informado por las empresas SAESA y STS S.A.
+3. Estimación de la energía no suministrada
+Alimentador Tipo de Pérdida de Tiempo Tiempo ENS
+Subestación Empresa
+/Paño cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Calbuco Calbuco / E2 SAESA Regulado 0.06 1.60 0.12 0.0
+Calbuco Calbuco / E2 SAESA Regulado* 0.09 1.60 0.13 0.0
+Calbuco Calbuco / E2 SAESA Regulado 4.23 1.60 1.08 4.6
+Calbuco Caicaen / E1 SAESA Regulado* 6.46 1.60 1.68 10.9
+Calbuco Calbuco / E2 SAESA Regulado* 0.93 1.60 1.73 1.6
+Clientes Regulados : 17.1 MWh
+Clientes Libres : MWh
+Total : 17.1 MWh
+- Los montos señalados corresponden a lo informado por las empresas SAESA y STS S.A.
+- (*) Incluye clientes libres en redes de distribución de SAESA.
+- Curva de recuperación esperada v/s recuperación real.
+El 37% de los consumos se recuperó en forma anterior respecto del horario de disponibilidad de la
+barra primaria respectiva.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Potencia
+Rango recuperación recuperación
+(MW)
+(h) (MW/h)
+Primer 80 % 9.42 1.68 5.60
+Último 20 % 2.35 1.73 1.36
+100 % Total 11.77 1.73 6.80
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10276.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Colbún (U1 y U2), El Toro (U1, U3 y U4) y PFV Malgarida.
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 28 de octubre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 28 de octubre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+28 de octubre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 28 de
+octubre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+No hay.
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con un plan de acción en curso.
+b) Acciones correctivas a corto plazo:
+La empresa STS S.A. señala lo siguiente:
+“Sistema de transmisión del Sur S.A. corregirá la estampa de tiempo y fecha de las protecciones
+paños ET1, E1 y E2 de S/E Calbuco antes de 31 de diciembre 2024.”
+La empresa SAESA no señala acciones correctivas a largo plazo.
+c) Acciones correctivas a largo plazo:
+Las empresas STS S.A. y SAESA no señalan acciones correctivas a largo plazo.

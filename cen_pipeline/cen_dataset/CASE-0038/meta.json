@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0568-2024",
+  "eaf_num": 568,
+  "year": 2024,
+  "description": "Desconexión forzada del transformador 154/23 kV N°3 de S/E Minera Valle Central",
+  "date": "07-12-2024",
+  "time": "13:55",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/12/EAF-568-2024.pdf",
+  "case_id": "CASE-0038",
+  "event_datetime": "2024-12-07T13:55:00",
+  "fault_label": "transformer_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0038\\official_diagram.7z"
+}

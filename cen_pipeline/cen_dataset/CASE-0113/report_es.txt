@@ -1,0 +1,214 @@
+Estudio para análisis de falla EAF 495/2024
+“Apertura intempestiva del interruptor 52C4 de S/E San Antonio”
+Fecha de Emisión: 21-10-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 30/09/2024
+Hora 12:12
+Consumos desconectados (MW) 2.02
+Demanda previa del sistema (MW) 10779.87
+Porcentaje de desconexión 0.019 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E San Antonio / SE019T0057
+Tipo de instalación Subestación
+Tensión nominal 12 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Jaime Acevedo Salinas
+Dirección Avenida Argentina N°1, piso 9, Edificio Plaza Barón
+c. Identificación del elemento fallado
+Nombre del elemento afectado Banco de CCEE BC2A 12 kV de S/E San Antonio / EC03T0057SE019T0057
+Propietario elemento fallado Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Jaime Acevedo Salinas
+Dirección Avenida Argentina N°1, piso 9, Edificio Plaza Barón
+d.1 Origen y causa de la falla
+Se produjo la apertura intempestiva del interruptor 52C4 de S/E San Antonio durante el desarrollo de
+trabajos en las redes de media tensión del alimentador Llolleo, cuyo paño C4 protege tanto al
+alimentador como al banco de CCEE BC2A de 12 kV de la misma subestación.
+La empresa Chilquinta Transmisión S.A. presume que la apertura del interruptor 52C4 de S/E San
+Antonio se debe a la detección de una corriente de desbalance de neutro de dicho banco de
+condensadores, cuyo origen no pudo ser determinado, que fue registrada en el relé GE-12IAC53
+destinado a su protección, el cual se asocia de forma externa a la unidad de control Form6 del
+interruptor 52C4.
+d.2 Fenómeno Físico:
+OTR2: Origen no determinado.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Desconexión de línea
+La empresa Chilquinta Transmisión S.A. no indica acciones correctivas
+EAF 443-2022 44 kV Las Vegas- 05-12-2022
+a corto y largo plazo.
+FFCC Rungue 2
+La empresa Chilquinta Transmisión S.A. indica: “Se tomó la
+determinación de dejar los reguladores de tensión Tapcon asociados
+a los bancos autotransformadores N°1 y N°2 de S/E Agua Santa en
+local y automático, dejado fuera todos los mandos del controlador
+Apertura
+MiCOM C264”. “Se efectuará una migración de los comandos desde el
+EAF 292-2023 interruptores 52C2 y 04-07-2023
+controlador MiCOM C264 a la remota Kingfisher instalada en S/E Agua
+52C4 S/E Playa Ancha
+Santa, a más tardar el día 31 julio del 2023”. La empresa Chilquinta
+Distribución S.A. no indica acciones correctivas a corto plazo.
+Las empresas Chilquinta Transmisión S.A. y Chilquinta Distribución
+S.A. no indican acciones correctivas a largo plazo.
+Falla en línea 44 kV
+La empresa Chilquinta Transmisión S.A. no indica acciones correctivas
+EAF 428-2023 FFCC Los Andes - 04-10-2023
+a corto y largo plazo.
+Hnos Clark 1
+Falla en línea 44 kV La empresa Chilquinta Transmisión S.A. no indica acciones correctivas
+EAF 536-2023 14-12-2023
+Catemu - Los Ángeles a corto y largo plazo.
+La empresa Chilquinta Transmisión S.A. no indica acciones correctivas.
+La empresa Chilquinta Distribución S.A. indica “No aplica, causa
+Falla en línea 2x44 kV
+externa a la distribución”.
+EAF 206-2024 FFCC Los Andes - 08-05-2024
+La empresa Chilquinta Transmisión S.A. no indica acciones correctivas.
+Juncal N°1
+La empresa Chilquinta Distribución S.A. indica “No aplica, causa
+externa a la distribución”.
+Chilquinta Transmisión S.A. señala que, a las 12:00 horas del día de
+Desconexión del trafo la falla, “realizó limpieza, secado y sellado provisorio” de la “caja de
+EAF 224-2024 T3 110/23 kV S/E 25-05-2024 protección de flujo inverso del CTBC”, la cual “contenía humedad”.
+San Rafael Chilquinta Transmisión S.A. no señala acciones correctivas de largo
+plazo.
+Falla en cierre del
+La empresa Chilquinta Transmisión S.A. no indica acciones correctivas
+EAF 288-2024 52CT1 de S/E Juncal 23-06-2024
+a corto y largo plazo.
+Portillo
+Falla en línea 44 kV La empresa Chilquinta Transmisión S.A. no indica acciones correctivas.
+EAF 389-2024 FFCC Los Andes - 02-08-2024 La empresa Chilquinta Distribución S.A. indica “No aplica, causa
+Juncal N°1 externa a la distribución”.
+Falla en línea 44 kV La empresa Chilquinta Transmisión S.A. no indica acciones correctivas.
+EAF 393-2024 FFCC Los Andes - 02-08-2024 La empresa Chilquinta Distribución S.A. indica “No aplica, causa
+Juncal N°1 externa a la distribución”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 4 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 372-2022, EAF 075-2023, EAF 164-2023 y EAF 442-2023.
+d.4 Fenómeno eléctrico
+CO51: Corriente de neutro temporizado.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El equipo donde se originó la falla corresponde al banco de condensadores BC2A de 12 kV conectado
+al paño C4 de S/E San Antonio, asociado al alimentador Llolleo. Según lo informado por el propietario
+en la plataforma Infotecnica del Coordinador, el banco de CCEE es de 1.8 MVAr de capacidad y fue
+puesto en servicio en el año 1980. Por su parte, la protección del paño C4 corresponde a un
+reconectador marca COOPER POWER SYSTEMS, con una unidad de control Form6. A su vez, la
+protección del banco de condensadores posee un relé marca GE, modelo 12IAC53, que está alambrado
+a la unidad de control Form6.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Chilquinta Distribución S.A. indica: urbano.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+5601: San Antonio.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(02-10-2024) (07-10-2024)
+Chilquinta Transmisión S.A. 02-10-2024 07-10-2024
+Chilquinta Distribución S.A. 03-10-2024 03-10-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E San Antonio ST Zonal Banco de condensadores 2A 12:12 (*)
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E San Antonio LLolleo / C4 San Antonio 2.02 0.019 7714 12:12 12:12 12:21
+Total: 2.02 MW 0.019 % 7714
+- Los montos y horarios señalados corresponden a lo informado por las empresas Chilquinta Transmisión S.A. y Chilquinta
+Distribución S.A.
+(*) No se registra hora de normalización a la fecha de publicación del presente EAF.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E San Chilquinta
+LLolleo / C4 Regulado 2.02 0.15 0.15 0.3
+Antonio Distribución S.A.
+Clientes Regulados : 0.3 MWh
+Clientes Libres : MWh
+Total : 0.3 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Chilquinta Transmisión S.A. y Chilquinta
+Distribución S.A.
+- Curva de recuperación esperada v/s recuperación real.
+12:23
+12:21
+12:20
+12:21
+12:18
+12:17
+12:15
+12:14
+12:12
+12:11
+12:12
+12:10
+12:08
+12:07
+100%
+Recuperación real Recuperación esperada
+Se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 1.62 0.15 10.77
+Último 20 % 0.40 0.15 2.69
+100 % Total 2.02 0.15 13.47
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10779.87 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U1 y U2), Colbún (U1 y U2), El Toro (U1, U2 y U3 y U4).
+Estado y configuración previo a la falla
+En el alimentador Llolleo, asociado al paño C4 de S/E San Antonio, se desarrollaban trabajos con redes
+energizadas de distribución previo al evento.
+Otros antecedentes relevantes
+Según lo informado por la empresa Chilquinta Transmisión S.A.:
+“Ante el evento acontecido el lunes 30 de septiembre del 2024 en el Alimentador Llolleo, es importante
+precisar que el interruptor 52CBC2A es un equipo de maniobras (sin cámara de extensión de arco), el
+cual tiene la capacidad de seguir la posición del interruptor 52C4.
+Además, el relé GE 12IAC53 al momento de operar, emite una señal que se encuentra alambrada al
+control Form 6, provocando un “ext trip” desencadenando la apertura del interruptor 52C4, y en
+consecuencia, el interruptor 52CBC2A queda abierto.
+Por otro lado, la corriente de desbalance (3I0) que genera la operación del relé GE 12IAC53, tiene su
+origen en un elemento constitutivo del banco de condensadores 2A de S/E San Antonio.
+Es importante señalar, que dada la obsolescencia tecnológica del equipo de protección y el esquema
+de control asociado al banco en comento, Chilquinta Transmisión S.A. se encuentra desarrollando un
+Proyecto que tiene por finalidad reemplazar los antiguos dispositivos de control y protección, por otros
+nuevos que permitan el registro de eventos y oscilografías, teniendo como fecha estimada de puesta
+en servicio Julio del 2025”.
+En función de los antecedentes presentados a la fecha de emisión del presente EAF, se solicitará la
+siguiente información a la empresa Chilquinta S.A.:
+• Cronograma de actividades, con fechas definidas, para llevar a cabo el reemplazo de los relés
+de protección asociados al banco de condensadores BC2A de S/E San Antonio, por equipos que
+permitan disponer de registros de falla.
+• Considerando la determinación del fenómeno físico propuesto como “Origen no determinado”,
+la entrega de resultados de los análisis posteriores a la investigación de la apertura del
+interruptor 52C4 de S/E San Antonio, que permitan dilucidar la posible causa raíz de su origen,
+junto con sus respectivos respaldos y eventuales medidas correctivas para evitar su repetición.
+A su vez, se adjuntan los informes de falla de instalaciones ingresados en el sistema Neomante del
+Coordinador Eléctrico Nacional por las empresas Chilquinta Transmisión S.A. y Chilquinta Distribución
+S.A. (Anexo N°1), e informes de falla de 5 días aportados por las mismas empresas (Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Chilquinta Transmisión S.A. no indica acciones correctivas.
+La empresa Chilquinta Distribución S.A. no indica acciones correctivas.

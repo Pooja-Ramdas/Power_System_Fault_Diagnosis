@@ -1,0 +1,476 @@
+Estudio para análisis de falla EAF 540/2024
+“Falla en el cierre del interruptor 52C8 de S/E Colo Colo”
+Fecha de Emisión: 29-11-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 09/11/2024
+Hora 15:15
+Consumos desconectados (MW) 3.30
+Demanda previa del sistema (MW) 9926.10
+Porcentaje de desconexión 0.037 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación S/E Colo Colo / SE044T0058
+Tipo de instalación Subestación
+Tensión nominal 66 y 15 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+3. Identificación del elemento fallado
+Nombre del elemento afectado Sistema de control asociado al paño C8 de S/E Colo Colo /
+PA007T0058SE044T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+d.1 Origen y causa de la falla
+Con ocasión de maniobras de normalización del interruptor 52C8 de S/E Colo Colo, asociado al
+alimentador Tres Pascualas, el cual se encontraba abierto previamente debido a una falla en las redes
+de media tensión, a las 15:15 horas se dio una orden de cierre remoto, la cual no fue recibida por el
+mencionado interruptor.
+La empresa CGE Transmisión S.A. indica que la causa de la demora en la recuperación de los consumos
+se debió a una intermitencia en el sistema de comunicaciones asociado al control del paño C8, lo cual
+imposibilitó realizar su cierre remoto oportunamente.
+d.2 Fenómeno Físico:
+OPE26: Falla en sistema de protección o control
+La empresa CGE Transmisión S.A. remite los antecedentes probatorios para acreditar el fenómeno
+físico determinado por el Coordinador.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Desconexión
+forzada de barra
+EAF 419-2022 12-11-2022 No aplica.
+66 kV de S/E
+Escuadrón
+CGE Transmisión S.A. señala que revisará y realizará el mejoramiento en
+Desconexión el cableado de control asociado al relé Form 6 del paño CT1 de S/E San
+forzada de la barra Miguel. También revisará y corregirá la correspondencia de fases de las
+EAF 424-2022 19-11-2022
+15 kV de S/E San unidades de control, ya que la unidad de control Form 6 del paño C1 vio
+Miguel la falla en fase C, la unidad de control Form 6 del paño CT1 la vio en fase
+A y el relé de respaldo del paño CT1 SEL-387 la vio en fase C.
+La empresa CGE Transmisión S.A. indica que durante el mes de diciembre
+Falla en el de 2022 entrará en servicio la comunicación al sistema SCADA, a través
+EAF 427-2022 interruptor 52C6 21-11-2022 de un enlace de fibra óptica en la S/E Fátima, el que pasará a ser la vía
+de S/E Fátima principal de comunicación, quedando como primer respaldo el de
+radioenlace y como segundo respaldo la conexión vía red móvil 3G/4G.
+La empresa CGE Transmisión S.A. señala que se realiza un análisis de la
+falla, determinando la necesidad de realizar la verificación del equipo de
+protección F60 del alimentador 52C30. Se programa a la brevedad el
+servicio de verificación de la protección F60 del alimentador 52C30. Se
+Desconexión
+programa a la brevedad un servicio de modificación de la configuración
+forzada de la barra
+EAF 485-2022 22-12-2022 del control y las comunicaciones del trip remoto entre el relé F60 del paño
+13.8 kV de S/E
+CT1 hacia el relé F60 del paño C30, donde se eliminará la lógica
+Alto Hospicio
+responsable del trip remoto.
+La empresa CGE Transmisión S.A. señala que se contempla el reemplazo
+del equipo reconectador actual del paño C30 por un equipo reconectador
+NOJA RC15, a ejecutarse el primer semestre de 2023.
+CGE Transmisión S.A. señala que se realizó la instalación de un relé (SEL-
+Desconexión 351) en forma provisoria, para efectos de determinar el origen de la señal
+forzada del de apertura, produciéndose una nueva falla el 05.01.23 en la cual fue
+EAF 002-2023 transformador Nº1 04-01-2023 posible determinar la causa de la operación. Una vez determinado el
+154/66 kV de S/E elemento de protección que genera la operación en forma espuria del relé
+Talcahuano maestro, se realizan mediciones determinando que el switch asociado a
+dicha válvula falló, por lo cual se realiza su reemplazo.
+Falla en
+desconectador
+EAF 012-2023 09-01-2023 No se indican.
+89B1 de S/E Tap
+Off Santa Clara
+Desconexión de
+transformador Nº1
+EAF 051-2023 06-02-2023 No aplica.
+66/13.2 kV de S/E
+Victoria
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica las siguientes acciones
+correctivas de corto plazo:
+“La primera acción ya fue realizada y correspondió a una inspección de
+diagnóstico al interruptor 52CT1, efectuada el domingo 12/02/2023 en
+horas de madrugada (SD N°2023011474). En esta inspección se pudo
+determinar el daño en las bobinas de apertura del interruptor 52CT1, por
+lo que no fue posible recuperar el equipo al servicio. Se retiraron estos
+elementos dañados con el fin de solicitar la fabricación de las bobinas de
+reemplazo, para realizar la reparación a la brevedad. Como medida de
+mitigación provisoria, se direccionaron por programación las señales de
+apertura del relé SEL-387 asociado al paño CT1 hacia el 52BT1”.
+“También el mismo domingo 12/02/2023, se desconectó el reconectador
+Desconexión
+52C10 para realizar pruebas efectivas de apertura con inyección de
+forzada de
+corriente primaria, las que resultaron exitosas y se programó el control
+EAF 054-2023 transformadores 06-02-2023
+con la fecha correcta incluyendo el año a fin de evitar la pérdida de datos.
+66/13.2 kV de S/E
+Cabe indicar que el 52C10 y sus protecciones fueron auditadas por
+Curicó
+personal técnico a solicitud del Coordinador Eléctrico Nacional el año 2022,
+encontrándose en buen estado. En vista de que durante las pruebas de la
+Auditoría Técnica y las pruebas del Domingo 12/02/2023 el 52C10 se
+encontró normal pero no abrió durante la falla del 06/02/2023, se
+programó su reemplazo para el Domingo 26/02/2023”.
+“Respecto del relé de respaldo SEL751A dañado, se estima su reemplazo
+dentro del mes de abril del 2023”.
+La empresa CGE Transmisión S.A. indica la siguiente acción correctiva de
+largo plazo:
+“Finalmente, se reemplazará el tablero de distribución de corriente
+continua, con el fin de actualizar los interruptores termomagnéticos en un
+plazo estimado de tres meses”.
+Apertura
+La empresa CGE Transmisión S.A. señala que se realizó el reemplazo de
+intempestiva del
+EAF 071-2023 13-02-2023 los equipos de los paños E2 y E3 (NUP 3702 de plataforma PGP), de
+interruptor 52ET1
+acuerdo con el Curso Forzoso N°2023014094 del 17-02-2023.
+de S/E Marquesa
+Falla en
+interruptor 52C3
+La empresa CGE Transmisión S.A. indica que realizó revisión de unidad de
+EAF 074-2023 de S/E San 14-02-2023
+control y pruebas locales con el equipo.
+Francisco de
+Mostazal
+Desconexión
+La empresa CGE Transmisión S.A. indica lo siguiente:
+forzada del
+“Se programa de acuerdo con SD 2023024484, la revisión y habilitación
+EAF 103-2023 transformador N°4 05-03-2023
+de alarmas de equipos asociados al transformador N°4. Considera labores
+66/15 kV de S/E
+SCADA en sistema de la subestación y NODO San Fernando.”.
+San Fernando
+Desconexión La empresa CGE Transmisión S.A. indica que corrigió el mal contacto en
+forzada de la barra la bornera de la celda del alimentador Paillihue (52C11) de S/E Los
+EAF 107-2023 06-03-2023
+15 kV N°2 de S/E Ángeles, durante trabajos programados según las solicitudes SD
+Los Ángeles N°2023020928 y SD N°2023020932 del 12-03-2023.
+Falla en
+interruptor 52C3
+EAF 170-2023 de S/E San 15-04-2023 No se indican.
+Francisco de
+Mostazal
+La empresa CGE Transmisión S.A. indica: “Se realiza reemplazo de RTU
+Apertura N°1 y dispositivos electrónicos afectados por un cortocircuito en los
+intempestiva del servicios auxiliares de corriente continua del gabinete de RTU N°1, se
+EAF 182-2023 28-04-2023
+interruptor 52B1 presume falla en fuentes de poder o en componentes de la RTU.
+de S/E Angol Posteriormente se realizan pruebas efectivas exitosas sobre control y
+operación del interruptor 52B1 de S/E Angol.”.
+La empresa CGE Transmisión S.A. indica: “Se realizarán pruebas
+Falla en
+operativas del reconectador 52C3, que comprenda órdenes de cierre y de
+EAF 187-2023 interruptor 52C3 28-04-2023
+apertura, tanto remotas desde SCADA como locales en caseta, y en el
+de S/E Chacahuín
+panel propio del control del 52C3.”
+La empresa CGE Transmisión S.A. señala que:
+“Se gestionará la aclaración de la responsabilidad de los elementos que
+hoy existen en el paño C6 de S/E Vallenar, pues no registran dentro de
+los activos de CGET y Transelec desconoce su responsabilidad en el paño.
+Desconexión de Infotecnica indica propiedad Transelec (Paño ID 2794)”.
+barra 13.8 kV de Se gestionará estudio de ajustes de coordinación de protecciones al paño
+EAF 227-2023 24-05-2023
+S/E Tap Off El C6 para asegurar la selectividad en la operación de las protecciones, que,
+Edén debido al aumento de los niveles de cortocircuito, no estaría siendo
+selectivo en su operación.
+Se gestionará pruebas al control y reconectador del paño C6 debido al no
+poder acceder a
+los eventos por Software y panel”.
+Falla en el
+EAF 274-2023 interruptor 52C1 23-06-2023 CGE Transmisión S.A. señala que no aplica.
+de S/E Las Arañas
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica: “Se realiza reemplazo de batería
+de control F5 asociado a 52E23 Latorre, no observándose alarmas activas
+Falla en por falla de baterías luego del reemplazo. Se realiza monitoreo del estado
+EAF 304-2023 interruptor 52E23 19-07-2023 de la nueva batería, constatándose que esta se encuentra con parámetros
+de S/E Calama normales de funcionamiento. Cabe destacar que la última inspección
+operacional realizada a SE Calama fue realizada el 07/07/2023. En esa
+oportunidad no se detectó indicación de falla batería”.
+Falla en el La empresa CGE Transmisión S.A. indica lo siguiente: “Se reemplaza el
+EAF 305-2023 interruptor 52C2 19-07-2023 interruptor NOVA27, cabecera del paño C2, alimentador Naltagua de S/E
+de S/E El Monte El Monte.”
+Apertura
+intempestiva del La empresa CGE Transmisión S.A. indica: “Se programan pruebas del
+EAF 366-2023 21-08-2023
+interruptor 52CT1 conjunto Relé - Reconectador del paño C3. (fecha 07-09-2023).”
+de S/E Punitaqui
+Falla en sistema
+La empresa CGE Transmisión S.A. indica: “Se realiza intervención en nodo
+de control del
+EAF 408-2023 14-09-2023 Scada Temuco para normalizar intermitencia de datos según SDCF
+paño C6 de S/E
+2023083822”.
+Chivilcán
+La empresa CGE Transmisión S.A. indica:
+“Se realiza la desconexión de rama de control que genera el trip desde la
+Desconexión válvula de alivio, para efecto de asegurar que dicho equipo no genere
+forzada del operaciones indeseadas sobre el transformador. Lo anterior mientras se
+EAF 414-2023 transformador N°5 21-09-2023 realiza el cambio de válvula.
+66/23 kV de S/E Mediante la SD Nº2023083073, se realiza la desconexión del
+Pullinque transformador T5 el día sábado 30 de septiembre de 2023. Esto con la
+finalidad de verificar las dimensiones del equipo y características técnicas,
+para efecto de permitir el cambio de dicho equipo.”
+Falla en control del
+La empresa CGE Transmisión S.A. señala que reemplazó la tarjeta
+paño C3 de S/E
+EAF 426-2023 03-10-2023 actuadora del reconectador 52C3 de S/E San Francisco de Mostazal.
+San Francisco de
+La empresa CGE S.A. no señala acciones correctivas a corto plazo.
+Mostazal
+Falla en el sistema
+de control del La empresa CGE Transmisión S.A. indica: “Se reemplaza tarjeta actuadora
+EAF 432-2023 07-10-2023
+paño C2 de S/E del interruptor 52C2 Cto. Cocalán en SE Las Cabras.”
+Las Cabras
+La empresa CGE Transmisión S.A. indica:
+“Se detectó discrepancia en la fase en falla reportada por el SEL 387 y el
+SEL 351, en sus canales asociados al enrollado de MT del transformador
+de poder T1. Se programará actividad en terreno para investigar y
+solucionar la discrepancia, antes del 31 de diciembre de 2023.
+Se detectó también una diferencia horaria en los relés que será corregida
+Apertura del en la misma actividad.
+EAF 445-2023 interruptor 52CT1 19-10-2023 Por medio de la revisión de los ajustes y de los eventos registrados se
+de S/E Latorre analizará el motivo de la no operación de las protecciones del 52C3
+Riquelme y se corregirán sus ajustes si fuere necesario. Se programará
+actividad antes del 31 de diciembre de 2023.
+Si no se descubre el problema con la actividad anterior, se realizarán
+pruebas efectivas al reconectador 52C3 para encontrar y corregir la causa
+de la no operación en esta falla. Se programará actividad antes del 31 de
+diciembre de 2023”.
+La empresa CGE Transmisión S.A. indica lo siguiente: “Se realizará la
+revisión del ajuste de sobrecorriente residual de la protección SEL-387 del
+Transformador T4. Bajo la SD N°2023103207 se desactivará la función de
+sobrecorriente residual, hasta que se verifique su coordinación,
+manteniendo operativa la función de sobrecorriente residual en la
+protección SEL-311C del sistema 2”.
+Desconexión
+La empresa CGE Transmisión S.A. indica lo siguiente: “El 30 de noviembre
+forzada del
+del 2023, se enviará al CEN una solicitud de modificación no relevante
+EAF 464-2023 transformador N°4 28-10-2023
+SMNR, junto al estudio de homologación de ajustes por el proyecto de
+154/66 kV de S/E
+reemplazo de las protecciones del transformador T4 en S/E Los Ángeles.
+Los Ángeles
+El reemplazo será por protecciones de la misma marca y modelo, pero de
+última generación esto con el fin de habilitar su comunicación remota y
+conexión a un nuevo reloj satelital, que también se colocará en la caseta
+del transformador T4 para regularizar la estampa de tiempo. La puesta en
+servicio del reemplazo de protecciones del Transformador T4 en S/E Los
+Ángeles se realizará la segunda semana del mes de marzo del 2024”.
+La empresa CGE Transmisión S.A. indica lo siguiente: “Se realizará la
+revisión del ajuste de sobrecorriente residual de la protección SEL-387 del
+Transformador T4. Bajo la SD N°2023103207 se desactivará la función de
+Desconexión
+sobrecorriente residual, hasta que se verifique su coordinación,
+forzada del
+manteniendo operativa la función de sobrecorriente residual en la
+EAF 469-2023 transformador N°4 29-10-2023
+protección SEL-311C del sistema 2”.
+154/66 kV de S/E
+La empresa CGE Transmisión S.A. indica lo siguiente: “El 30 de noviembre
+Los Ángeles
+del 2023, se enviará al CEN una solicitud de modificación no relevante
+SMNR, junto al estudio de homologación de ajustes por el proyecto de
+reemplazo de las protecciones del transformador T4 en S/E Los Ángeles.
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+El reemplazo será por protecciones de la misma marca y modelo, pero de
+última generación esto con el fin de habilitar su comunicación remota y
+conexión a un nuevo reloj satelital, que también se colocará en la caseta
+del transformador T4 para regularizar la estampa de tiempo. La puesta en
+servicio del reemplazo de protecciones del Transformador T4 en S/E Los
+Ángeles se realizará la segunda semana del mes de marzo del 2024.” “Lo
+anterior además trae incluido como mejora la instalación de un nuevo reloj
+satelital en esta caseta de control, lo cual solucionará el inconveniente de
+la estampa de tiempo de las protecciones instaladas en esa caseta, en
+particular a las protecciones del paño A2 de S/E Los Ángeles analizadas.
+La instalación del reloj satelital se espera realizar antes de las Puesta en
+servicio de las protecciones comprometidas para el mes de marzo del 2024
+ya que no requiere autorización vía plataforma PGP, por lo que solo se
+espera de la llegada del equipo, la cual se estima en enero del 2024,
+periodo en el cual se instalará el nuevo reloj satelital”.
+La empresa CGE Transmisión S.A. indica lo siguiente:
+“Se realizará la sincronización horaria de relés en S/E Escuadrón, paños
+C1 y CT2. Comprometido para febrero 2024.
+Desconexión
+Al momento de la inspección en terreno, se pudo notar que el relé SEL-
+forzada del
+387 presentaba una falla de memoria, falla que no había presentado
+EAF 533-2023 transformador 12-12-2023
+anteriormente y que obligó a realizar un reinicio de la unidad.
+66/15 kV N°2 de
+Posteriormente, se realizaron pruebas a nivel de comando y revisión de
+S/E Escuadrón
+operatividad, lo cual resultó exitoso.
+Se realizarán pruebas al relé SEL-387 para verificar operación, con fecha
+al 31 marzo 2024”.
+CGE Transmisión S.A. señala lo siguiente:
+“Se inhabilitan las protecciones vía software del relé GE-D30 del T4 el día
+05-01-2024 mediante ICF N°2024001995. Lo anterior, debido a que en
+este relé están asociados los estados, control scada y alarmas de los
+equipos del paño HT4.
+Se investiga la probabilidad de falla del relé maestro 86BH asociado al
+esquema 50BF y 87B.
+Se revisan las canalizaciones de control para descartar problemas
+asociados a cables de control dañados. Trabajos realizados el 02 y 04 de
+enero 2024.
+Desconexión
+Se gestionará la normalización de sincronización horaria de los relés GE
+EAF 003-2024 forzada barra 110 02-01-2024
+T60 del paño HT4 y GE T60 protección diferencial de barra 110kV para la
+kV de S/E Copiapó
+primera semana de febrero.
+Se gestionará durante el mes de febrero un ECAP para revisar y mejorar
+si es necesario el ajuste del detector de fallas zona 1, asociados a la
+protección de distancia del relé 311C de S/E Caldera, para evitar su
+apertura por fallas aguas arriba.
+En atención a la emergencia, se realiza el reemplazo inmediato del control
+e interruptor del paño E1” de S/E Hernán Fuentes.”
+CGE Transmisión S.A. señala que “Se inician coordinaciones para
+programar el reemplazo en el mes de marzo 2024 del relé GE-D30 del
+paño T4 por constantes reinicios”.
+CGE Transmisión S.A. señala lo siguiente:
+“Dado que el evento del 2 de enero aún se estaba analizando y,
+considerando este segundo suceso, se optó por apagar la unidad mediante
+Desconexión
+intervención de curso forzoso N°2024002522, mientras se espera la
+forzada de la barra
+EAF 011-2024 08-01-2024 respuesta del fabricante.
+13.8 kV N°2 de
+Se inician coordinaciones para reemplazar el relé GE-D30 del paño HT4,
+S/E Copiapó
+trabajos que se esperan finalizar en el mes de marzo 2024, si es que se
+cuenta con la aprobación del Coordinador Electrico Nacional.
+Normalizar sincronización horaria de los relés GE T60 del paño HT4”.
+La empresa CGE Transmisión S.A. señala:
+“El día de la falla (28/01/2024) personal de Mantenimiento de CGE
+Transmisión acude a SE Rosario, se realizaron pruebas del 52C1 y se
+concluyó que este interruptor, por mal funcionamiento interno, se bloquea
+luego de una apertura por protecciones, no obedeciendo posteriores
+ordenes de cierre. Se extrajo el 52C1 de su celda, se revisó encontrándose
+todo normal y se volvió a insertar, con lo cual este interruptor se
+Falla en el desbloqueó y quedó nuevamente en condiciones de obedecer orden de
+EAF 034-2024 interruptor 52C1 28-01-2024 cierre.
+de S/E Rosario Como se sospecha mal funcionamiento interno del interruptor 52C1, que
+no cierra ante orden de cierre luego de ocurrida una apertura por falla, se
+intercambiará este por el interruptor 52CS de SE Rosario, el cual no tiene
+apertura por protecciones. Esto se realizará durante el mes de Marzo
+2024”.
+La empresa CGE Transmisión S.A. señala:
+“Se contactará con el fabricante del interruptor, para que corrijan el
+problema. Se espera tener respuesta del fabricante al 31/05/2024”.
+Falla en cierre de La empresa CGE Transmisión S.A. señala:
+EAF 047-2024 interruptor 52E2 03-02-2024 “Revisión de las comunicaciones entre el centro de Control de operaciones
+de S/E Illapel y Nodo Aconcagua. Realizado al día siguiente post falla.
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Corrección de horario en protección SEL-651R del 52E2 S/E Illapel
+(sincronizada, en una hora menos). Se realizará este miércoles 14 de
+febrero”.
+Desconexión La empresa CGE Transmisión S.A. indica:
+forzada barra 23 “Se realiza el reemplazo inmediato del control e interruptor del paño E3,
+EAF 076-2024 16-02-2024
+kV S/E Hernán en atención a la emergencia asociada al informe de falla IF2024000767
+Fuentes ocurrida el 16-02-2024”
+La empresa CGE Transmisión S.A. indica: “Se reemplaza tarjeta actuadora
+Falla en
+del interruptor 52C2 Cto Peñuela en SE Placilla. En Anexo, se puede
+EAF 133-2024 interruptor 52C2 03-04-2024
+encontrar un registro fotográfico de la tarjeta actuadora y la actividad de
+de S/E Placilla
+reemplazo”.
+Falla en el
+La empresa CGE Transmisión S.A. señala “Se reemplaza reconectador
+EAF 145-2024 interruptor 52C1 10-04-2024
+52C1 Cto. El Almendro en SE Loreto”.
+de S/E Loreto
+Desconexión
+forzada de la barra La empresa CGE Transmisión S.A. indica: “Se reemplaza tarjeta actuadora
+EAF 182-2024 N°2 15 kV de S/E 29-04-2024 del interruptor 52C5 Cto. Peumo en S/E San Vicente TT, de acuerdo con
+San Vicente de registro fotográfico de Anexo III”
+Tagua Tagua
+La empresa CGE Transmisión S.A. indica: “Anteriormente, el 10 de marzo
+de 2024, de acuerdo con SD 2024019124, asociada a acciones correctivas
+de IF2024000365 se revisó el alambrado y se realizaron pruebas en el
+relé y en interruptor, no pudiendo recrear el problema detectado. Sin
+Falla en el cierre embargo, se logró acotar el problema a un elemento de control o mecánico
+del interruptor al interior del interruptor, descartando problemas en el relé y en el control
+EAF 191-2024 06-05-2024
+52C7 de S/E externo a este”.
+Mahns “Se programará visita con representante de fábrica de las celdas para una
+revisión detallada de su comportamiento. Esta revisión estará concluida a
+fines del mes de junio de 2024, quedando un registro de aviso interno
+CGET ID9488”.
+La empresa CGE S.A. no indica acciones correctivas de corto plazo.
+Falla en el cierre
+del interruptor
+EAF 228-2024 28-05-2024 No se indican.
+52C1 de S/E
+Rosario
+La empresa CGE Transmisión S.A. señala: “El 14/06/2024 se reemplazó el
+Falla en cierre del
+reconectador y con esto posteriormente se puso en servicio el alimentador
+EAF 265-2024 interruptor 52C7 14-06-2024
+C7 Ferroviario”.
+de S/E Talca
+La empresa CGE S.A. no señala acciones correctivas a corto plazo.
+CGE Transmisión S.A. indica lo siguiente:
+Desconexión
+“El 19/06/2024 se realizó secado, limpieza y sellado de caja de
+forzada del
+agrupamiento asociada a control de relé Buchholz”.
+EAF 280-2024 transformador N°2 19-06-2024
+“Al 15/09/2024 se revisarán y se les realizará mantención y sellado a
+69/15 kV de S/E
+todas las restantes cajas de agrupamiento de señales del transformador
+Coronel
+T2 de SE Coronel”.
+La empresa CGE Transmisión S.A. señala:
+“Revisión y reinicio de las comunicaciones entre el Centro de Control de
+Operaciones, nodo Coquimbo y los equipos de la subestación, tal como se
+Falla en cierre del
+indica en el Informe Técnico”.
+EAF 294-2024 interruptor 52C1 02-07-2024
+“El día 02 de julio de 2024, al notar la existencia de un desfase entre el
+de S/E El Sauce
+horario programado en el relé de protección, correspondiente al
+interruptor 52C1 de la S/E El Sauce, y el horario UTC correspondiente, se
+realiza la corrección y se subsana esta situación”.
+La empresa CGE Transmisión S.A. indica: “Ocurrida la falla, personal de
+CGET realizó una revisión a distancia de las instalaciones, observándose
+que no existen evidencias a la vista en la barra del 23KV del
+Transformador N°3 de la causa origen de la falla que provocó la apertura
+de 52ET3. No se detectaron elementos habilitados o deshabilitados
+erróneamente en paneles de controles asociados a 52E30 o 52E31,
+tampoco se encontraron errores de programación en la configuración de
+ajustes de cada control. Con lo observado en eventos y oscilografías
+extraídas desde los controles de 52E30 y 52E31 no fue posible establecer
+desde donde proviene la falla que no está en barra de 23 KV de T3.
+Desconexión
+Utilizando oscilografías adicionales extraídas posteriormente desde
+forzada de la barra
+EAF 296-2024 04-07-2024 protección SEL 387 T3 y desde medidores ION de las cabeceras de los
+23 kV N°3 de S/E
+alimentadores Arenales (E30) y Alto La Chimba, fue posible establecer que
+La Portada
+la falla que produce la apertura de 52ET3 proviene de la red de
+Distribución, específicamente del Alimentador Alto La Chimba (E31) y que
+se debe investigar por qué no ocurre la detección de falla y operación de
+52E31.
+El día 11/07/2024 mediante solicitud CEN SD 2024071402 la cual se
+ejecutó entre las 00:00 y 14:12 horas, se realizó la desconexión del Paño
+E31 en SE La portada y se desarrollaron pruebas de inyección secundaria,
+utilizando equipo MET, al control SEL 651R-2, las cuales arrojaron buenos
+resultados en cuanto a la detección y operación de relé ante fallas. Al
+realizar pruebas de inyección primaria de corriente al conjunto equipo

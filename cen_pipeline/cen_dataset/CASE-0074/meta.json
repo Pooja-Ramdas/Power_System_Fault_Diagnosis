@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0532-2024",
+  "eaf_num": 532,
+  "year": 2024,
+  "description": "Falla en el cierre del interruptor 52C3 de S/E San Francisco de Mostazal",
+  "date": "04-11-2024",
+  "time": "08:52",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/EAF-532-2024.pdf",
+  "case_id": "CASE-0074",
+  "event_datetime": "2024-11-04T08:52:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_path": null
+}

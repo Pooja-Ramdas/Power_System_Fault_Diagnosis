@@ -1,0 +1,133 @@
+Estudio para análisis de falla EAF 568/2024
+“Desconexión forzada del transformador 154/23 kV N°3 de S/E Minera Valle Central”
+Fecha de Emisión: 30-12-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 07/12/2024
+Hora 13:55
+Consumos desconectados (MW) 13.3
+Demanda previa del sistema (MW) 10058
+Porcentaje de desconexión 0.132 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Minera Valle Central / SE001L049
+Tipo de instalación Subestación
+Tensión nominal 154 kV, 23 kV y 4.16 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Minera Valle Central S.A.
+RUT 96.595.400-7
+Representante Legal Christian Cáceres Meneses (*)
+Dirección Av. Colihue Km 13 Requínoa, Rancagua.
+(*): Corresponde al Gerente General de la empresa Minera Valle Central S.A., obtenido de la plataforma REUC del Coordinador.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Alimentador 23 kV A-01 de S/E Minera Valle Central /
+PA045L0049SE001L0049
+Propietario elemento fallado Minera Valle Central S.A.
+RUT 96.595.400-7
+Representante Legal Christian Cáceres Meneses (*)
+Dirección Av. Colihue Km 13 Requínoa, Rancagua.
+(*): Corresponde al Gerente General de la empresa Minera Valle Central S.A., obtenido de la plataforma REUC del Coordinador.
+d. Origen y causa de la falla
+Se produjo la desconexión forzada del transformador N°3 154/23 kV de S/E Minera Valle Central, por
+operación de la protección de sobrecorriente residual del paño AT3, por contacto de ave con
+seccionador fusible en alimentador 23 kV A-01 de esta S/E.
+d.2 Fenómeno Físico:
+ANI1: Acción de animales, roedores o pájaros (por contacto directo u otro).
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se ha producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una falla
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 401-2023).
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento desconectado corresponde al transformador Nº3 154/23 kV de S/E Minera Valle Central,
+el cual, de acuerdo con lo informado por la empresa en la plataforma Infotécnica del Coordinador,
+cuenta con las siguientes características:
+Marca: ABB
+Tensión nominal: 154/23 kV
+Capacidad nominal ONAN / ONAF: 20 MVA / 25 MVA
+Grupo de conexión: Dyn1
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Interno.
+h. Comuna donde se presenta la falla
+6116: Requínoa.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(09/12/2024) (13/12/2024)
+Minera Valle Central S.A. 10/12/2024 12/12/2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Minera Valle Central ST Dedicado Transformador N°3 154/23 kV 13:55 14:27
+-
+Horarios corresponden a lo informado por la empresa Minera Valle Central S.A.
+c. Consumos
+Sub-Estación Alimentador Comuna Pérdida de % consumo Clientes H. H. H.
+/ Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+S/E Minera Valle
+- Requínoa 13.3 0.132 1 13:55 14:27 14:27
+Central
+Total: 13.3 MW 0.132 % 1
+-
+Los montos y horarios señalados corresponden a lo informado por la empresa Minera Valle Central S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo Indispon. Desc. (h) (MWh)
+(MW) (h)
+Minera Valle Central - Minera Valle Central Libre 13.30 0.53 0.53 7.1
+Clientes Regulados : MWh
+Clientes Libres : 7.1 MWh
+Total : 7.1 MWh
+-
+Los montos señalados corresponden a lo informado por la empresa Minera Valle Central S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real de los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Potencia
+Rango recuperación recuperación
+(MW)
+(h) (MW/h)
+Primer 80 % 10.64 0.53 19.95
+Último 20 % 2.66 0.53 4.99
+100 % Total 13.30 0.53 24.94
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10058 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2, U3 y U4), Mejillones (IEM), PFV Diego Almagro Sur y Ralco (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 07 diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 07 diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+07 diciembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 07
+diciembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades.
+- Las centrales TER Esperanza y TER Colihues se encontraban fuera de servicio.
+Otros antecedentes relevantes
+Según lo informado por la empresa Minera Valle Central S.A.:
+“A las 13:55 del 7 de diciembre se produce la apertura del interruptor 52AT3 por operación de
+protección 51. En inspección realizada se identifica falla provocada por ave en seccionador fusible
+de línea 23 kV del alimentador A01. Se procede a aislar la falla y recuperar servicio.”
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Minera Valle Central S.A. no señala acciones correctivas a corto plazo.
+c) Acciones correctivas a largo plazo:
+La empresa Minera Valle Central S.A. no señala acciones correctivas a largo plazo.

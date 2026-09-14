@@ -1,0 +1,219 @@
+Estudio para análisis de falla EAF 483/2024
+“Falla en línea 44 kV FFCC Los Andes - Juncal N°1”
+Fecha de Emisión: 14-10-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 23/09/2024
+Hora 02:42
+Consumos desconectados (MW) 0.39
+Demanda previa del sistema (MW) 8305
+Porcentaje de desconexión 0.005 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 44 kV FFCC Los Andes - Juncal, Circuito Nº1 /
+LT027CI1TR01T0057ST01T0057
+Tipo de instalación Línea
+Tensión nominal 44 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso, Región de Valparaíso.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 44 kV FFCC Los Andes - Juncal, Circuito Nº1 /
+LT027CI1TR01T0057ST01T0057
+Propietario elemento fallado Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso, Región de Valparaíso.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52F3 de S/E Los Andes (FFCC), asociado al circuito
+N°1 de la línea 2x44 kV Los Andes - Juncal, por operación de su protección de distancia en zona 2,
+debido a pérdida de aislación durante frente de mal tiempo en la zona.
+d.2 Fenómeno Físico
+DIS1: Pérdida de aislación
+La empresa Chilquinta Transmisión S.A. envía antecedentes (probatorios) con el fin de respaldar el
+fenómeno físico declarado.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico durante los últimos 24 meses móviles, correspondiente a los Estudios para Análisis de
+Falla EAF 221-2024, EAF 284-2024, EAF 285-2024 y EAF 291-2024.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en línea 2x44 kV
+EAF 379-2022 15/10/2022 No se indican.
+Las Vegas - FFCC Andes
+Falla línea 44 kV Tap San
+EAF 463-2022 13/12/2022 No se indican.
+Felipe - San Felipe N°1
+Falla en línea 44 kV Las
+EAF 499-2022 29/12/2022 No se indican.
+Vegas - Rungue N°2
+Falla en línea 66 kV
+EAF 164-2023 Laguna Verde - San 07/04/2023 No se indican.
+Antonio N°2
+Falla en línea 44 kV Las
+EAF 180-2023 Vegas - FFCC Rungue 24/04/2023 No se indican.
+N°2
+Chilquinta Transmisión S.A. señala que:
+“Como medida correctiva inmediata a la pérdida de aislación del
+transformador de corriente de la fase central del alimentador
+Pocochay, se retira el equipo afectado, se limpian y se mide la
+Desconexión forzada de aislación de los principales equipos involucrados con la descarga
+EAF 353-2023 barra 12 kV de S/E 19/08/2023 disruptiva acaecida, confirmando que se encuentran en buen
+Mayaca estado y dispuestos para su explotación. Posteriormente y como
+medida de recaudo, el día jueves 24 de agosto de 2023, se
+sustituye cada uno de los equipos involucrados en la
+indisponibilidad, por tres (3) nuevos transformadores de corriente
+correspondiente al alimentador Pocochay.”
+Falla en línea 2x44 kV Las empresas Chilquinta Distribución S.A. y Chilquinta
+EAF 221-2024 FFCC Los Andes - Juncal 23/05/2024 Transmisión S.A. no indican acciones correctivas de corto ni largo
+N°1 plazo.
+Falla en línea 2x44 kV
+EAF 262-2024 FFCC Los Andes - 14/06/2024 No se indican.
+Hermanos Clark N°1
+Falla en línea 2x44 kV
+La empresa Chilquinta Transmisión S.A. no indica acciones
+EAF 284-2024 FFCC Los Andes - Juncal 21/06/2024
+correctivas.
+N°1
+Falla en la línea 2x44 kV La empresa Chilquinta Transmisión S.A. y Chilquinta Distribución
+EAF 285-2024 21/06/2024
+FFCC Los Andes - Juncal S.A. no indican acciones correctivas.
+Falla en línea 2x44 kV
+La empresa Chilquinta Transmisión S.A. y Chilquinta Distribución
+EAF 286-2024 FFCC Los Andes - Juncal 21/06/2024
+S.A. no indican acciones correctivas.
+N°2
+EAF 291-2024
+Falla en línea 2x44 kV
+24/06/2024 No existen acciones correctivas a corto plazo informadas.
+FFCC Andes - Juncal N°1
+EAF 397-2024
+Falla en línea 2x44 kV
+02/08/2024 No existen acciones correctivas a corto plazo informadas.
+FFCC Andes - Juncal N°2
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 5 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 206-2024, EAF 221-2024, EAF 284-2024, EAF 285-2024 y EAF 291-2024.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 2x44 kV FFCC Los Andes - Hermanos Clark,
+circuito N°1, la cual, según los datos informados por la empresa Chilquinta Transmisión S.A. en la
+plataforma Infotécnica del Coordinador, cuenta con conductores ACSR Pigeon, con un trazado estimado
+de 48,8 km y con un cable de guardia del tipo OPGW.
+Al respecto, la empresa Chilquinta Transmisión S.A. envía información de los mantenimientos de esta
+instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+Urbana.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+5301: Los Andes.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(25-09-2024) (30-09-2024)
+Chilquinta Transmisión S.A. 23-09-2024 30-09-2024
+Chilquinta Distribución S.A. 25-09-2024 25-09-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+FFCC Los Andes - Hermanos Clark 44 KV ST Zonal FFCC Los Andes - Riecillos C1 02:42 06:19
+FFCC Los Andes - Hermanos Clark 44 KV ST Zonal Riecillos - Río Blanco C1 02:42 06:19
+FFCC Los Andes - Hermanos Clark 44 KV ST Zonal Río Blanco - Juncal C1 02:42 06:19
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Juncal Portillo Portillo / CT1 Los Andes 0.39 0.005 16 2:42 6:19 6:19
+Total: 0.39 MW 0.005 % 16
+- Los montos y horarios señalados corresponden a lo informado por la empresa Chilquinta Distribución S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Chilquinta
+Juncal Portillo Portillo / CT1 Regulado 0.39 3.62 3.62 1.4
+Distribución
+Clientes Regulados : 1.4 MWh
+Clientes Libres : MWh
+Total : 1.4 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Chilquinta Distribución S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 0.31 3.62 0.09
+Último 20 % 0.08 3.62 0.02
+100 % Total 0.39 3.62 0.11
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8305 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Mejillones (CTM3), El Toro (U1 y U3), Rapel (U2), Ralco (U1 y U2) y Tocopilla (U16).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada. La S/E Riecillos se encontraba alimentada desde los dos circuitos de la línea 2x44
+kV Los Andes - Juncal. Por otra parte, la S/E Río Blanco se encontraba energizada desde el circuito N°2
+de la línea 2x44 kV FFCC Los Andes - Juncal, mientras que la S/E Juncal Portillo se encontraba
+energizada desde el circuito Nº1 de la línea mencionada.
+Otros antecedentes relevantes
+Según lo informado por la empresa Chilquinta Transmisión S.A.:
+“Lunes 23 de septiembre de 2024
+A las 02:42 horas, madrugada del lunes 23 de septiembre de 2024, se produjo la desconexión forzada
+de la línea de transmisión 44 [kV] FF.CC. Los Andes - Hermanos Clark circuito N°1, accionada por la
+función de distancia de la protección, en particular por la zona 2, afectando los consumos de la
+subestación (S/E) Juncal.
+El Área de Mantenimiento Transmisión, se dirige a la subestación (S/E) FF.CC. Los Andes con el equipo
+localizador de fallas, para realizar la prueba de continuidad a los conductores eléctricos de la línea,
+encontrándose ésta normal, con continuidad mecánica y eléctrica en sus tres fases y en toda su
+extensión de 48,8 [Km], entre las subestaciones (SS/EE) FF.CC. Los Andes y Juncal.
+Procede contextualizar que, a causa del empeoramiento de las condiciones meteorológicas imperantes
+en la zona cordillerana, y en base a nuestros principios de seguridad y protección de la integridad física
+de todo nuestro personal propio como contratistas, sólo se pudo realizar un patrullaje visual de la línea
+44 [kV] FF.CC. Los Andes - Hermanos Clark circuito N° 1, verificándose el estado normal de todos los
+componentes propios de las instalaciones de Chilquinta Transmisión S.A., por lo que se procede a
+informar al Centro Control Transmisión de Chilquinta Transmisión S.A., que la línea se encuentra en
+condiciones para ser energizada por medio del cierre del interruptor en S/E FF.CC. Los Andes.
+El Centro Control Transmisión de Chilquinta Transmisión S.A., posteriormente solicita la autorización
+al Coordinador Eléctrico Nacional, de la energización de la línea 44 [kV] FF.CC. Los Andes - Hermanos
+Clark circuito N° 1, la que se produce de manera exitosa.
+Es importante contextualizar las condiciones meteorológicas dominantes desde la noche del viernes 20
+hasta la madrugada del lunes 23 de septiembre del 2024, cuando una vasta parte de la Región de
+Valparaíso incluyendo el sector cordillerano, se encontraba incluido en los informes de amenazas
+meteorológicas decretadas por Organismos Privados y Públicos como la DGAC, DMC, Delegación
+Presidencial Provincial y SENAPRED, los cuales anunciaban con certeza ocurrencias de vientos normales
+a moderados y precipitaciones con mayor intensidad.
+De este modo, con el aviso A349-1/2024 por vientos normales a moderados con probabilidades de
+viento blanco, se daba a conocer a la población de este evento meteorológico y se hizo de público
+conocimiento que la situación afectaría desde la región de Valparaíso hasta el Biobío.
+Martes 24 de septiembre de 2024
+Realización del segundo patrullaje de la línea de transmisión 44 [kV] FF.CC. Los Andes - Hermanos
+Clark circuito N°1, de manera pedestre y con sistema de aeronave pilotada a distancia (RPAS),
+identificando el fenómeno físico causante de la falla eléctrica, el cual fue provocado por la pérdida de
+aislación con evidencia de descargas en el manto de los conductores de la fase superior y media, en
+el vano comprendido entre las estructuras N°187 a N°188, el que se encuentra a 47,9 kilómetros de
+la subestación (S/E) FF.CC. Los Andes.”
+De forma complementaria, se adjuntan los informes de falla de instalaciones ingresados en el sistema
+Neomante del Coordinador Eléctrico Nacional por las empresas Chilquinta Transmisión S.A. y Chilquinta
+Distribución S.A. (Anexo N°1), e informes de falla de 5 días aportados por las mismas empresas (Anexo
+N°2).
+Acciones preventivas y/o correctivas
+La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento en
+curso.
+a) Acciones correctivas a corto plazo:
+La empresa Chilquinta Transmisión S.A. no indica acciones correctivas.
+La empresa Chilquinta Distribución S.A. indica “No aplica, causa externa a la distribución”.
+b) Acciones correctivas a largo plazo:
+La empresa Chilquinta Transmisión S.A. no indica acciones correctivas.
+La empresa Chilquinta Distribución S.A. indica “No aplica, causa externa a la distribución”.
+Diagrama simplificado de las instalaciones previo a la falla

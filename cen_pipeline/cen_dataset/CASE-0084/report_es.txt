@@ -1,0 +1,179 @@
+Estudio para análisis de falla EAF 522/2024
+“Falla en línea 66 kV Nancagua - Paniahue”
+Fecha de Emisión: 20-11-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 28/10/2024
+Hora 08:44
+Consumos desconectados (MW) 11.40
+Demanda previa del sistema (MW) 8984.80
+Porcentaje de desconexión 0.127 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Puquillay - Nancagua / LT308CI1TR01----T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+3. Identificación del elemento fallado
+Nombre del elemento afectado Línea 66 kV Nancagua - Paniahue / LT207CI1TR01----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52B2 de S/E Puquillay, correspondiente a la línea 66
+kV Puquillay - Nancagua, por medio de la operación de su protección de distancia de fase en zona 1.
+La empresa CGE Transmisión S.A. indica que la causa de la falla fue el acortamiento de la distancia de
+una máquina retroexcavadora con la línea 66 kV Nancagua - Paniahue, entre las estructuras N°210 y
+N°211, provocando la operación de protecciones en S/E Puquillay. Lo anterior, es producto de trabajos
+no autorizados dentro de la franja de seguridad.
+d.2 Fenómeno Físico:
+ACC2: Intervención de terceros.
+La empresa CGE Transmisión S.A. remite los antecedentes probatorios para acreditar el fenómeno
+físico.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FECHA HORA
+FALLA ID NOMBRE FALLA ACCIONES CORRECTIVAS CP ACCIONES CORRECTIVAS LP
+FALLA FALLA
+La empresa CGE Transmisión S.A.
+Falla en línea 66 kV La empresa CGE Transmisión S.A. señala que “No se
+EAF 046_2023 03-02-2023 23:40 señala que “No se consideran
+Concepción - Mahns consideran acciones correctivas”.
+acciones correctivas”.
+La empresa CGE Transmisión S.A. indica: “Se envía
+La empresa CGE Transmisión S.A.
+Falla en línea 66 kV carta a la empresa Portuaria Cabo Froward S.A.
+EAF 094_2023 25-02-2023 6:51:00 indica que no aplican acciones
+Arenas Blancas - Puchoco solicitando el retiro de las instalaciones que emplaza
+correctivas a largo plazo.
+bajo la línea en el más breve plazo posible.”
+La empresa CGE Transmisión S.A. indica:
+“Inmediatamente se acudió al lugar del evento y se
+realizó la acción de retiro de árbol que se encontraba
+sobre la línea. Posteriormente se coordinó con la
+La empresa CGE Transmisión S.A.
+Falla en línea 66 kV empresa forestal el apoyo de la tala de los árboles
+EAF 096_2023 03-02-2023 23:40 señala que no se contemplan
+Concepción - Mahns más cercanos entre las estructuras N°103 y N°104 de
+acciones correctivas adicionales.
+la línea LT 66KV Tomé-Mahns (fuera de franja) para
+lo cual ya se han realizado actividades y se
+contempla terminar aproximadamente el 31 de
+marzo de 2023.”
+CGE Transmisión S.A. señala que “no
+Falla en línea 66 kV CGE Transmisión S.A. señala que “no se consideran”
+EAF 203_2023 06-05-2023 16:12 se consideran” acciones correctivas
+Curanilahue - Tres Pinos acciones correctivas a corto plazo.
+a largo plazo.
+Falla en la línea 66 kV Los
+EAF 204_2023 04-05-2023 17:26 No se indican. No se indican.
+Peumos - Curacautín
+La empresa CGE Transmisión S.A. señala que “se
+Falla en línea 66 kV
+EAF 235_2023 01-06-2023 13:37 normalizará la fecha y hora de protección 52B3 SE No se indican.
+Andalicán - Horcones N°2
+Horcones.”
+La empresa CGE Transmisión S.A. indica:
+“Se reparó tramo de línea afectado entre la
+estructura 154 y 155, en forma adicional se realizó
+inspección visual con camión cesta y con drone de los
+Falla en línea 110 kV
+EAF 296_2023 08-07-2023 02:09 vanos adyacentes para descartar daño en el No se indican.
+Cerrillos - Los Loros
+conductor”.
+“Se realiza mejora en relé D60 en la lógica de registro
+de eventos, para evitar sobreescritura por activación
+de elemento de señalización PH DIR1 BLK A”.
+Falla en la línea 66 kV La empresa CGE Transmisión S.A. señala que “No La empresa CGE Transmisión S.A.
+EAF 318_2023 29-07-2023 11:55
+Victoria - Collipulli aplica”. señala que “No aplica”.
+La empresa CGE Transmisión S.A.
+señala que “Está en desarrollo el
+Falla en línea 66 kV
+La empresa CGE Transmisión S.A. señala que “No se proyecto NUP 3415, que remplazará
+EAF 423_2023 Alonso de Ribera- 02-10-2023 09:39
+requiere”. los TTCC y las protecciones
+Chiguayante
+electromecánicas a digitales en el
+paño B2, para devolver la
+FECHA HORA
+FALLA ID NOMBRE FALLA ACCIONES CORRECTIVAS CP ACCIONES CORRECTIVAS LP
+FALLA FALLA
+transferencia de la línea
+Chiguayante desde el Paño BR al
+paño B2, agregando características
+de registros de eventos y
+oscilográfico”.
+La empresa CGE Transmisión S.A. indica:
+“- Se realizó reparación de conductor cortado fase
+lateral de línea Alonso de Ribera-Chiguayante entre
+Falla en línea 66 kV estructuras E12-E13.
+La empresa CGE Transmisión S.A.
+EAF 127_2024 Alonso de Ribera - 01-04-2024 18:44 - Para un mejor entendimiento de futuras fallas, se
+indica: “No hay”.
+Chiguayante incluirá en el listado de registros SER del relé SEL
+311C las variables 50G1 y 50P1.
+- La diferencia horaria observada en relé, se corrigió
+durante la descarga de eventos.”.
+La empresa CGE Transmisión S.A. para la La empresa CGE Transmisión S.A.
+desconexión de la línea 110 kV Tap Off Alto Melipilla señala para la desconexión del
+Falla en la línea 110 kV
+- Bajo Melipilla, lo siguiente: Transformador Nº1 66/13.8 kV El
+EAF 152_2024 Tap Off Alto Melipilla - 13-04-2024 20:06
+“Se evalúa reparación o reemplazo de fibra óptica Paico lo siguiente:
+Bajo Melipilla
+dañada, para recuperar funciones de protección “No hay”.
+diferencial de línea.”
+La empresa CGE Transmisión S.A. indica: “Se realizan
+Falla en línea 66 kV La empresa CGE Transmisión S.A.
+EAF 159_2024 15-04-2024 08:52 labores de reparación conductor cortado. Mayores
+Nahuelbuta - Angol indica: “No aplica”.
+detalles en informe Técnico en Anexo VI.”
+La empresa CGE Transmisión S.A. indica lo siguiente:
+“Aumentar en la protección SEL 311C del paño B4 de
+la S/E Itahue la cantidad de parámetros que se
+programan en los Registros SER para información
+Desconexión forzada de
+más completa cuando ocurra una operación o La empresa CGE Transmisión S.A.
+EAF 185_2024 la línea 66 kV Itahue - 02-05-2024 08:52
+evento. Entre otros se agregarán los elementos indica: “No aplica”.
+Talca N°1
+involucrados en la reconexión automática y los que
+aparecen en la ecuación de TRIP. Lo anterior quedo
+programado para realizarse el día 20-05-2024 con
+Solicitud de Intervención al CEN N°2024049443.”
+La empresa CGE Transmisión S.A. indica:
+“Recorrido de LT66Kv San Fernando - Placilla para
+identificar el punto de falla.
+Reparación de conductor cortado entre las E19 a E20
+Falla en línea 66 kV San La empresa CGE Transmisión S.A.
+EAF 432_2024 19-08-2024 10:51 de LT66kV San Fernando - Placilla, lo cual fue
+Fernando - Placilla indica: “No aplica”.
+ocasionado por tala no autorizada de árboles fuera
+de la franja de seguridad.
+Se repara puente cortado en E1 LT66kV San
+Fernando - Placilla”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se ha producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 66 kV Nancagua - Paniahue, la que posee
+una longitud de 14.69 km y un conductor por fase de cobre desnudo de 33.6 mm2, cuya fecha de
+entrada en operación fue el año 1960 de acuerdo con los registros de la plataforma Infotecnica del
+Coordinador.
+La empresa CGE Transmisión S.A. no remite los antecedentes respecto de mantenimientos realizados
+a instalaciones de su propiedad, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La Compañía General de Electricidad S.A. indica: “Urbano” y “Rural”.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor o Caso Fortuito.

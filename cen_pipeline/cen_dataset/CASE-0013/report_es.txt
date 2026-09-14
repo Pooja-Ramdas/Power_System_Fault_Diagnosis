@@ -1,0 +1,233 @@
+Estudio para análisis de falla EAF 592/2024
+“Falla en línea 66 kV Picarte - Corral”
+Fecha de Emisión: 16-01-2025
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 25/12/2024
+Hora 03:40
+Consumos desconectados (MW) 1.73
+Demanda previa del sistema (MW) 8737.45
+Porcentaje de desconexión 0.020 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Picarte - Corral / LT006CI1TR01----T003
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes N°441, Osorno
+c. Identificación del elemento fallado
+Nombre del elemento afectado Conductores de la línea 66 kV Picarte - Corral / LT006CI1TR01----T003
+Propietario elemento fallado Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes N°441, Osorno
+d. Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Picarte - Corral por operación de protecciones,
+ante una falla atribuida a la caída de un árbol sobre los conductores de la línea, entre las estructuras
+N°13473 y N°13474.
+d.2 Fenómeno Físico:
+ARB2: Caída de árbol sobre la línea o instalación.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico similar, durante los últimos 24 meses móviles (EAF 014-2023, EAF 016-2023 y EAF
+085-2023).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+EAF 014-2023 Falla en la línea 66 kV Picarte - Corral 09/01/2023 No se indican.
+EAF 016-2023 Falla en la línea 66 kV Picarte - Corral 11/01/2023 No se indican.
+Falla en la línea 110 kV Antillanca -
+EAF 027-2023 23/01/2023 No se indican.
+Río Bonito
+EAF 085-2023 Falla en línea 66 kV Picarte - Corral 20/02/2023 No se indican.
+Falla en línea 110 kV Antillanca - Río
+EAF 224-2023 23/05/2023 No se indican.
+Bonito
+EAF 246-2023 Falla en la línea 66 kV Picarte - Corral 08/06/2023 No se indican.
+STS S.A. señala “retiro el árbol de la línea 110 kV
+EAF 328-2023 Falla en línea 110 kV Castro - Chonchi 02/08/2023
+Castro - Chonchi el día 02-08-23”.
+Falla en línea 66 kV Angol - Los
+EAF 098-2024 05/03/2024 La empresa STS S.A. señala que “No hay”.
+Sauces
+EAF 128-2024 Falla en línea 110 kV Ancud - Chiloé 02/04/2024 No se indican.
+Falla en línea 220 kV Nueva Ancud - Los coordinados involucrados no indicaron acciones
+EAF 129-2024 02/04/2024
+Chiloé correctivas.
+La empresa Sistema de Transmisión del Sur S.A.
+señala: “Sistema de Transmisión del Sur S.A. el día
+Falla en la línea 66 kV Licanco - Las
+EAF 132-2024 03/04/2024 03/04/24 Bajo el permiso de trabajo de curso forzoso
+Violetas
+N°2024-02564 (ID Interna) Tala y retira el árbol
+sobre la línea 66 kV Licanco - Las Violetas”.
+Falla en línea 110 kV Antillanca - Río No se señalan acciones correctivas a corto plazo por
+EAF 174-2024 27/04/2024
+Bonito parte de los Coordinados involucrados.
+Sistema de Transmisión del Sur S.A. señala que “el
+Falla en línea 66 kV Barro Blanco - día 31/07/24 mediante permiso de trabajo de código
+EAF 325-2024 31/07/2024
+Pichil interno realizó el retiro y tala del árbol que se
+encontraba sobre la línea 66 kV Barro Blanco - Pichil”.
+Sistema de Transmisión del Sur S.A señala: "el día
+Falla en línea 66 kV Licanco - Las 01/08/24 Bajo el permiso de trabajo de curso forzoso
+EAF 341-2024 01-08-2024
+Violetas de código interno retira el árbol sobre la línea 66 kV
+Licanco - Las Violetas".
+La empresa Sistema de Transmisión del Sur S.A
+indica: “Sistema de Transmisión del Sur S.A. el día
+06/08/24 mediante permiso de trabajo de curso
+forzoso de código interno reparo los conductores
+Falla en la línea 66 kV Tres Pinos -
+EAF 409-2024 04-08-2024 dañados de la línea 66 kV Tres Pinos - Cañete.”
+Cañete
+La empresa CGE Transmisión S.A. indica: “Se detectó
+una diferencia horaria en SEL311C de 14 segundos.
+Se revisará conexionado IRIGB existente, para
+asegurar su correcto funcionamiento”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 014-2023, EAF 016-2023,
+EAF 064-2023, EAF 085-2023, EAF 219-2023, EAF 176-2024 y EAF 326-2024).
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores de la línea 66 kV Picarte - Corral,
+la cual, de acuerdo con lo informado por su propietario en la plataforma Infotécnica del Coordinador,
+cuenta con una longitud de 30.7 km de largo aproximadamente, con un conductor por fase del tipo Cu
+2, con una capacidad nominal de 17.7 MVA (permanente a 25°C con sol y a tensión nominal) y cuya
+fecha de puesta en servicio fue durante el año 1944.
+La empresa Sistema de Transmisión del Sur S.A. no remitió antecedentes respecto de los
+mantenimientos realizados sobre esta instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa SAESA S.A. señala: “Baja” y “Muy Baja”.
+g. Proposición del propietario respecto del origen de la falla
+Externo.
+La empresa Sistema de Transmisión del Sur S.A. remite los siguientes antecedentes en respaldo a la
+proposición del origen de la falla:
+• Registro fotográfico con fecha, hora y coordenadas del punto de falla.
+h. Comuna donde se presenta la falla
+14102: Corral.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(27/12/2024) (02/01/2025)
+Sistema de Transmisión del Sur S.A. (STS) 25/12/2024 07/01/2025
+Sociedad Austral de Electricidad S.A. (SAESA) 25/12/2024 26/12/2024 (*)
+(*): La empresa SAESA S.A. solamente remite la planilla “Información cálculo de Energía no Suministrada, Norma Técnica de
+Indisponibilidad de Suministro y Compensaciones”. No remite el Informe de Falla de 5 días.
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 66 kV Picarte - Corral ST Zonal - 03:40 14:12
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Corral Corral / C2 Corral 0.87 0.010 03:40 14:24 04:18
+2253
+Corral Corral / C2 Corral 0.22 0.002 03:40 14:24 14:24
+Corral La Aguada / C1 Corral 0.50 0.006 2 (*) 03:40 14:24 04:42
+Corral San Juan / C3 Corral 0.14 0.002 1860 03:40 14:24 14:31
+Total: 1.73 MW 0.020 % 4115
+- Los montos señalados corresponden a lo informado por la empresa SAESA S.A., que incluye clientes libres de distribución (*).
+- Los horarios señalados corresponden a lo informado por la empresa STS S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Corral Corral / C2 SAESA Regulado 0.87 10.73 0.63 0.6
+Corral Corral / C2 SAESA Regulado 0.22 10.73 10.73 2.4
+Corral La Aguada / C1 SAESA Regulado 0.50 (*) 10.73 1.03 0.5
+Corral San Juan / C3 SAESA Regulado 0.14 10.73 10.85 1.5
+Clientes Regulados : 5.0 MWh
+Clientes Libres : MWh
+Total : 5.0 MWh
+- Los montos señalados corresponden a lo informado por la empresa SAESA S.A., que incluye clientes libres de distribución (*).
+- Los horarios señalados corresponden a lo informado por la empresa STS S.A.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecia una diferencia entre el horario de recuperación esperada y recuperación real para el primer
+79.2% de los consumos afectados, debido a la recuperación de consumos mediante la generación local
+instalada en el alimentador Corral (paño C2), previo a la normalización de la línea 66 kV Picarte -
+Corral.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 1.38 10.73 0.13
+Último 20 % 0.35 10.85 0.03
+100 % Total 1.73 10.85 0.16
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8737.45 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2, U3 y U4), Kelar (TG1 y TG2), Mejillones (IEM), Ralco (U1 y U2) y Rapel (U1).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+1
+1
+1
+0
+0
+0
+0
+0
+6
+4
+2
+9
+7
+4
+2
+0
+:4
+:2
+:0
+:3
+:1
+:4
+:2
+:0
+8
+4
+0
+6
+2
+8
+4
+0
+5 0 .3 %
+R e c u p e ra
+7 9
+c ió
+.2 %
+n re a l R e c u p e
+9 1 .9 %
+ra c ió n e s p e ra d a
+1 0 0 .0 %
+Otros antecedentes relevantes
+Según lo informado por la empresa STS S.A.:
+“árbol sobre la línea entre las estructuras 13473 - 13474 de LT 66 kV Picarte - Corral”.
+En función de los antecedentes presentados a la fecha de emisión del presente EAF, se solicitará la
+siguiente información adicional:
+• STS S.A.: Registros oscilográficos y de eventos, junto con el análisis respectivo en función de sus
+ajustes, del cierre no exitoso del interruptor 52B4 de S/E Picarte registrado a las 06:47 horas.
+De forma complementaria, se adjuntan los informes de fallas ingresados en el sistema Neomante del
+Coordinador Eléctrico Nacional por las empresas Sistema de Transmisión del Sur S.A. y Sociedad
+Austral de Electricidad S.A. (Anexo N°1) y otros antecedentes aportados por las mismas empresas
+(Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Sistema de Transmisión del Sur S.A. señala:
+- “el día 25-12-24 bajo permiso de trabajo de código interno realizo el retiro de árbol sobre la línea
+66 kV Picarte - Corral”.
+c) Acciones correctivas a largo plazo:
+No se indican.
+Diagrama simplificado de las instalaciones previo a la falla

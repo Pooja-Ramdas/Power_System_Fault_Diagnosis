@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0554-2024",
+  "eaf_num": 554,
+  "year": 2024,
+  "description": "Falla en línea 154 kV Alto Jahuel – Rancagua – Punta de Cortés N°1",
+  "date": "23-11-2024",
+  "time": "01:03",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/12/EAF-554-2024.pdf",
+  "case_id": "CASE-0052",
+  "event_datetime": "2024-11-23T01:03:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "synthetic_fallback",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": null
+}

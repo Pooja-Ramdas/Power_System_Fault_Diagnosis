@@ -1,0 +1,181 @@
+Estudio para análisis de falla EAF 577/2024
+“Desconexión forzada del transformador N°1 110/23 kV de S/E Batuco”
+Fecha de Emisión: 03-01-2025
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 11/12/2024
+Hora 04:38
+Consumos desconectados (MW) 20.79
+Demanda previa del sistema (MW) 8862.09
+Porcentaje de desconexión 0.233 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Batuco / SE005T0835
+Tipo de instalación Subestación
+Tensión nominal 110/23 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+c. Identificación del elemento fallado
+Nombre del elemento afectado Cámara de extinción de arco de la fase B del interruptor 52E2 de S/E
+Batuco / IM01T0835PA015T0054SE005T0835 (*)
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+(*) Código correspondiente al interruptor 52E2 de S/E Batuco.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada del transformador 110/23 kV N°1 de S/E Batuco por la actuación
+de su protección de sobrecorriente de neutro, frente a una falla originada en la red de distribución del
+alimentador Portezuelo, que no pudo ser despejada en su totalidad por su interruptor de cabecera
+debido a una falla destructiva en su estructura.
+La empresa Sociedad Transmisora Metropolitana S.A. presume que el siniestro en la estructura del
+interruptor 52E2 de S/E Batuco, asociado al alimentador Portezuelo, fue debido a la degradación o fuga
+de gas SF6 que se utilizaba para la extinción de los arcos eléctricos.
+d.2 Fenómeno Físico:
+OPE16: Fuga o degradación del dieléctrico (ej. SF6, aceite, etc.).
+La empresa Sociedad Transmisora Metropolitana S.A. entrega los siguientes antecedentes probatorios
+para respaldar el fenómeno físico declarado:
+o Registro Fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Desconexión de
+transformador T4 La empresa Sociedad Transmisora Metropolitana S.A. no indica
+EAF 226_2024 27-05-2024
+110/12 kV de S/E acciones correctivas.
+Vitacura
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 5 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para Análisis de Falla EAF 138-2023, EAF 271-2023, EAF 008-2024, EAF 505-2024 y EAF 574-2024.
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la cámara extinción de arcos del interruptor 52E2
+de S/E Batuco, el cual, según lo informado por su propietario en la plataforma Infotécnica del
+Coordinador, es de tipo tripolar marca Lorenzetti, modelo Fluarc Fb4, con un tiempo de apertura de
+3.75 ciclo, con aislación de gas SF6.
+La empresa Sociedad Transmisora Metropolitana S.A. emite los mantenimientos realizados a la
+mencionada subestación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Enel Distribución Chile S.A. indica: “Urbana”.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+13301: Colina.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (13-12-2024) Informe de 5 días (18-12-2024)
+Sociedad Transmisora Metropolitana S.A. (STM) 11-12-2024 18-12-2024
+Enel Distribución Chile S.A. (Enel Dx) 13-12-2024 20-12-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Batuco ST Zonal Transformador N°1 110/23 kV 04:38 06:15
+- Los horarios señalados corresponden a lo informado por la empresa Sociedad Transmisora Metropolitana S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Batuco Coquimbito / E1 3.41 0.038 138 04:38 06:16 04:50
+Batuco Coquimbito / E1 1.26 0.014 68 04:38 06:16 04:53
+Batuco Claro Liray / E6 4.66 0.053 1560 04:38 06:16 04:54
+Batuco Lo Pinto / E3 2.15 0.024 3 04:38 06:16 06:32
+Batuco Portezuelo / E2 1.22 0.014 506 04:38 06:16 04:46
+Batuco Portezuelo / E2 2.70 0.030 387 04:38 06:16 04:51
+Colina
+Batuco Portezuelo / E2 0.47 0.005 549 04:38 06:16 05:54
+Batuco Portezuelo / E2 0.31 0.003 788 04:38 06:16 06:07
+Batuco Portezuelo / E2 1.87 0.021 825 04:38 06:16 06:15
+Batuco Portezuelo / E2 1.15 0.013 2651 04:38 06:16 06:21
+Batuco Portezuelo / E2 1.49 0.017 100 04:38 06:16 06:27
+Batuco Portezuelo / E2 0.10 0.001 48 04:38 06:16 06:54
+Total: 20.79 MW 0.233 % 7623
+- Los montos y horarios señalados corresponden a lo informado por las empresas Sociedad Transmisora Metropolitana S.A. y Enel
+Distribución Chile S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Batuco Coquimbito / E1 Enel Dx Regulado 3.41 1.63 0.20 0.7
+Batuco Coquimbito / E1 Enel Dx Regulado 1.26 1.63 0.25 0.3
+Batuco Claro Liray / E6 Enel Dx Regulado 4.66 1.63 0.27 1.2
+Batuco Lo Pinto / E3 Enel Dx Regulado 2.15 1.63 1.90 4.1
+Batuco Portezuelo / E2 Enel Dx Regulado 1.22 1.63 0.13 0.2
+Batuco Portezuelo / E2 Enel Dx Regulado 2.70 1.63 0.22 0.6
+Batuco Portezuelo / E2 Enel Dx Regulado 0.47 1.63 1.27 0.6
+Batuco Portezuelo / E2 Enel Dx Regulado 0.31 1.63 1.48 0.5
+Batuco Portezuelo / E2 Enel Dx Regulado 1.87 1.63 1.62 3.0
+Batuco Portezuelo / E2 Enel Dx Regulado 1.15 1.63 1.72 2.0
+Batuco Portezuelo / E2 Enel Dx Regulado 1.49 1.63 1.82 2.7
+Batuco Portezuelo / E2 Enel Dx Regulado 0.10 1.63 2.27 0.2
+Clientes Regulados : 16.0 MWh
+Clientes Libres : MWh
+Total : 16.0 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Sociedad Transmisora Metropolitana S.A. y Enel
+Distribución Chile S.A.
+- Curva de recuperación esperada v/s recuperación real.
+06:43 06:16 06:16
+06:54
+06:32
+06:14
+06:27
+06:16 06:16 06:21
+06:16 06:16 06:15 06:16
+06:16
+05:45
+05:16
+04:53 04:54
+04:48
+04:50
+04:19
+03:50
+03:21
+16% 22% 45% 55% 87% 92% 100% 100%
+Recuperación real Recuperación esperada
+Se observa una diferencia entre la recuperación real y la esperada para los diferentes consumos
+afectados. La normalización anticipada de los consumos se debió a traspasos de carga en redes de
+distribución.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 16.63 1.62 10.29
+Último 20 % 4.16 2.27 1.83
+100 % Total 20.79 2.27 9.17
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8862.09 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Atacama (TG2A y TG2B), El Toro (U1, U2, U3 y U4), Mejillones (IEM), Ralco (U1 y U2) y Rapel
+(U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 11 de diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 11 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+11 de diciembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 11 de
+diciembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa Sociedad Transmisora Metropolitana S.A:
+“El miércoles 11 de diciembre de 2024, a las 04:38 horas, se produjo la operación automática (OA)
+del Transformador N°1 de la S/E Batuco, acción provocada por la actuación de su protección
+sobrecorriente de neutro. Esta protección operó luego que una falla en la red de distribución del
+alimentador Portezuelo fuera detectada por su protección, pero no fue despejada oportunamente,
+debido a que el interruptor de cabecera de dicho alimentador experimentó una falla destructiva en
+cámara de extinción de arco (fase blanca). El medio de extinción de arco de estas cámaras es a través
+del gas SF6, por lo que presumiblemente la fuga parcial o degradación de este gas dieléctrico causó
+que la corriente de falla no fuese extinguida en esta fase y esa corriente de falla terminó evolucionando
+a una falla destructiva del interruptor.

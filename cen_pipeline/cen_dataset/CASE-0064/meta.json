@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0542-2024",
+  "eaf_num": 542,
+  "year": 2024,
+  "description": "Desconexión forzada de barras 23 kV N°1 y N°2 de S/E Alcones",
+  "date": "10-11-2024",
+  "time": "10:16",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/EAF-542-2024.pdf",
+  "case_id": "CASE-0064",
+  "event_datetime": "2024-11-10T10:16:00",
+  "fault_label": "busbar_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_path": null
+}

@@ -1,0 +1,181 @@
+Estudio para análisis de falla EAF 596/2024
+“Falla en línea 66 kV Loncoche - Villarrica N°2”
+Fecha de Emisión: 16-01-2025
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 25/12/2024
+Hora 20:31
+Consumos desconectados (MW) 25.50
+Demanda previa del sistema (MW) 9272.64
+Porcentaje de desconexión 0.275 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Loncoche - Villarrica N°2 / LT193---------T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 16, las Condes, Santiago, Chile
+c. Identificación del elemento fallado
+Nombre del elemento afectado Transformador de corriente del paño B7 de S/E Loncoche /
+TC01T0058PA015T0058SE129T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 16, las Condes, Santiago, Chile
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Loncoche - Villarrica N°2 por la operación de su
+protección de distancia en zona 1 del paño B7 de S/E Loncoche.
+La empresa CGE Transmisión S.A. presume que la causa de la interrupción fue por un defecto de fábrica
+en uno de los TTCC del mencionado paño.
+d.2 Fenómeno Físico:
+OPE23: Defecto de fábrica.
+La empresa CGE Transmisión S.A. entrega los siguientes antecedentes probatorios para respaldar el
+fenómeno físico declarado:
+• Informe técnico de las posibles causas que propician el desperfecto.
+• Informe del fabricante, donde se indique o reconozca dicho defecto.
+• Datos de placa si corresponde, año de primera puesta en servicio y años efectivos de operación.
+• Recomendaciones del fabricante en relación con las mantenciones y vida útil del elemento.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión indica:
+“Retiro de Transformador T3 hacia fábrica para revisión interna
+Desconexión forzada del para dar con causa raíz y reparación. En la posición del equipo
+EAF 500_2022 transformador N°3 154/66 31-12-2022 fallado se instalará un nuevo transformador durante las últimas
+kV de S/E Fátima semanas del mes de enero.
+Corrección de control por la activación constante de la IN104 y
+IN105”.
+Desconexión forzada de la
+“Se realiza el reemplazo del Transformador de corriente dañado
+EAF 595_2024 línea 66 kV Victoria - 25-12-2024
+del paño B1 en S/E Angol a través de la SD N°2024132400.”
+Collipulli
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido 1 falla en
+la misma instalación afectada durante los últimos 24 meses móviles, correspondiente al Estudio para
+Análisis de Falla EAF 358-2024.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento en el que se originó la falla corresponde al TC de la fase A asociado al paño B7 de S/E
+Loncoche, el cual, según los datos proporcionados por el propietario en la plataforma Infotécnica del
+Coordinador, es de la marca Arteche, modelo CH-72, con entrada en operación el año 2014.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Compañía General de Electricidad S.A. indica: “Urbana/Rural”.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza mayor o caso fortuito.
+h. Comuna donde se presenta la falla
+9109: Loncoche.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(27-12-2024) (02-01-2025)
+CGE Transmisión S.A. (CGE Tx) 26-12-2024 09-01-2025
+Compañía General de Electricidad S.A. (CGE Dx) 26-12-2024 30-12-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 66 kV Loncoche - Villarrica N°2 ST Zonal Loncoche - Estructura N°326 20:31 22:38
+LT 66 kV Loncoche - Villarrica N°2 ST Zonal Estructura N°326 - Villarrica 20:31 22:38
+LT 66 kV Villarrica - Pucón ST Zonal Villarrica - Estructura N°419 20:31 22:42
+LT 66 kV Villarrica - Pucón ST Zonal Estructura N°419 - Pucón 20:31 22:42
+S/E Villarrica ST Zonal Barra 23 kV 20:31 22:42
+S/E Pucón ST Zonal Barra 23 kV 20:31 22:42
+- Los horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Pucón /
+Villarrica Volcán / E1 3.30 0.036 8177 20:31 22:42 22:42
+Villarrica
+Villarrica Correntoso / E2 Villarrica 1.60 0.017 3777 20:31 22:42 22:42
+Villarrica Colo Colo / E3 Villarrica 4.50 0.049 10753 20:31 22:42 22:42
+Villarrica Ñancul / E4 Villarrica 1.30 0.014 1670 20:31 22:42 22:42
+Villarrica Candelaria / E5 Villarrica 1.40 0.015 3298 20:31 22:42 22:42
+Pucón /
+Pucón Antumalal / E3 1.30 0.014 1281 20:31 22:42 22:44
+Villarrica
+Pucón /
+Pucón Curarrehue / E5 7.70 0.083 17130 20:31 22:42 22:44
+Curarrehue
+Pucón Costanera / E4 Pucón 1.98 (*) 0.021 20:31 22:42 22:32
+6580
+Pucón Costanera / E4 Pucón 2.42 0.026 20:31 22:42 22:46
+Total: 25.50 MW 0.275 % 52666
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE Transmisión S.A. y Compañía General de
+Electricidad S.A.
+(*) Corresponde al 45% de los consumos del alimentador Costanera, según informa CGE Transmisión S.A. en su Informe de Falla
+de 5 días.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Villarrica Volcán / E1 CGE Dx Regulado 3.30 2.18 2.18 7.2
+Villarrica Correntoso / E2 CGE Dx Regulado 1.60 2.18 2.18 3.5
+Villarrica Colo Colo / E3 CGE Dx Regulado 4.50 2.18 2.18 9.8
+Villarrica Ñancul / E4 CGE Dx Regulado 1.30 2.18 2.18 2.8
+Villarrica Candelaria / E5 CGE Dx Regulado 1.40 2.18 2.18 3.1
+Pucón Antumalal / E3 CGE Dx Regulado 1.30 2.18 2.22 2.9
+Pucón Curarrehue / E5 CGE Dx Regulado 7.70 2.18 2.22 17.1
+Pucón Costanera / E4 CGE Dx Regulado 1.98 2.18 2.02 4.0
+Pucón Costanera / E4 CGE Dx Regulado 2.42 2.18 2.25 5.4
+Clientes Regulados : 55.8 MWh
+Clientes Libres : MWh
+Total : 55.8 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE Transmisión S.A. y Compañía General de
+Electricidad S.A.
+- Curva de recuperación esperada v/s recuperación real.
+Se observa la recuperación anticipada de una parte de los consumos del alimentador Costanera por
+posibles maniobras de transferencia en redes de distribución y/o por generación local.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 20.40 2.22 9.20
+Último 20 % 5.10 2.25 2.27
+100 % Total 25.50 2.25 11.33
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9272.64 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Canutillar (U2), El Toro (U1, U2 y U3), Mejillones (CTM3), Quintero (U1), Ralco (U1 y U2) y
+Rapel (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 25 de diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 25 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+25 de diciembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 25 de
+diciembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con la siguiente particularidad:
+• Los interruptores 52B4 de S/E Loncoche y 52B4 de S/E Villarrica se encontraban abiertos con
+ocasión de una falla previa, por lo cual las SS/EE Villarrica y Pucón se encontraban alimentadas
+por el circuito N°2 de la línea 66 kV Loncoche - Villarrica.
+Otros antecedentes relevantes
+Según lo informado por la empresa CGE Transmisión S.A.:
+“A las 20:31 hrs del día 25/12/2024 se produjo la desconexión forzada, por operación de protecciones,
+de línea 66 kV Loncoche-Villarrica 2. Lo anterior en medio de fuerte ola de calor en la zona.
+Como primera medida Despacho COT coordinó el respaldo de consumos mediante generación local,
+comenzando la recuperación parcial de consumos del circuito 52E4 Costanera de S/E Pucón desde las
+20:37 hrs.
+Por otro lado, mientras la brigada se disponía a trasladarse a la línea 2 a inspeccionar de acuerdo con
+los datos indicado por las protecciones, instante en que se le informa de un fuerte ruido proveniente
+de la subestación Loncoche, con este antecedente personal se dirige a la instalación encontrando en
+ella un TC dañado con pérdida de material producto de su explosión.
+Posterior al hallazgo indicado, se procedió a desconectar el paño B7 y así aislar el equipo en falla, bajo
+esta condición se energiza el paño BR y Línea en vacío mediante la Barra de Transferencia, siendo
+estas maniobras ejecutadas exitosamente, recuperando los consumos de SE Villarrica a las 22:42hrs
+y de SE Pucón a las 22:44hrs del mismo día 25.12.2024”.

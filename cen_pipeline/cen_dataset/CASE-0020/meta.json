@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0585-2024",
+  "eaf_num": 585,
+  "year": 2024,
+  "description": "Falla en la línea 66 kV Teno – Curicó",
+  "date": "17-12-2024",
+  "time": "05:44",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2025/01/EAF-585-2024.pdf",
+  "case_id": "CASE-0020",
+  "event_datetime": "2024-12-17T05:44:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0020\\official_diagram.dwg"
+}

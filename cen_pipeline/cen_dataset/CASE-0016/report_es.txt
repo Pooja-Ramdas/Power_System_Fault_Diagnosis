@@ -1,0 +1,123 @@
+Estudio para análisis de falla EAF 589/2024
+“Falla en la línea 110 kV Tap Off Barriles - Mantos de la Luna”
+Fecha de Emisión: 14-01-2025
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 20/12/2024
+Hora 12:39
+Consumos desconectados (MW) 6.5
+Demanda previa del sistema (MW) 11091.09
+Porcentaje de desconexión 0.059 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Tap Off Barriles - Mantos de la Luna /
+LT046CI1TR01L0111ST72L0111
+Tipo de instalación Línea
+Tensión nominal 110 kV
+Segmento Transmisión Dedicado
+Propietario instalación afectada Grace S.A.
+RUT 99.565.400-8
+Representante Legal Gonzalo Diestre Flaño
+Dirección Av. Los Conquistadores #1700, piso 13 Oficina A, Providencia, Región
+Metropolitana de Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 110 kV Tap Off Barriles - Mantos de la Luna /
+LT046CI1TR01L0111ST72L0111
+Propietario elemento fallado Grace S.A.
+RUT 99.565.400-8
+Representante Legal Gonzalo Diestre Flaño
+Dirección Av. Los Conquistadores #1700, piso 13 Oficina A, Providencia, Región
+Metropolitana de Santiago.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 110 kV Tap Off Barriles - Mantos de la Luna por apertura
+automática del interruptor 52HT1 de S/E Tap Off Barriles, debido a la operación de su protección de
+distancia residual en zona 1, sin causa aparente.
+La empresa Grace S.A. realiza pruebas al pararrayos de S/E Mantos de la Luna, el cual presenta bajo
+nivel de aislación en su componente de la fase C.
+d.2 Fenómeno Físico:
+DIS5: Vida útil de equipo o número de operaciones.
+La empresa Grace S.A. indica como fenómeno físico DIS5: Vida útil de equipo o número de operaciones,
+sin entregar los siguientes antecedentes (probatorios) con el fin de acreditar el origen de la falla.
+• Datos de placa del equipo.
+• Mantenciones realizadas en los últimos 24 meses sobre el elemento o equipo.
+• Recomendaciones del fabricante en relación con las mantenciones y vida útil del elemento.
+• Fecha de primera puesta en servicio y años efectivos de operación.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido 1 falla en
+la misma instalación afectada durante los últimos 24 meses móviles, correspondiente al Estudio para
+análisis de Falla EAF 424-2024.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+La instalación donde se presume se originó la falla corresponde al pararrayos fase C de S/E Mantos de
+la Luna, el cual no cuenta con antecedentes en la plataforma Infotécnica del Coordinador.
+El elemento afectado en este evento corresponde a la línea 1x110 kV Tap Off Barriles - Mantos de la
+Luna, la cual tiene una longitud de 27 km, está compuesta por conductor AAAC Alliance, con una
+capacidad de 75.3 MVA (a 25ºC con sol a tensión nominal), de acuerdo con lo informado por su
+propietario en la plataforma Infotécnica del Coordinador.
+Al respecto, la empresa Grace S.A. no adjunta información de los mantenimientos de estas
+instalaciones durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Grace S.A. informa que la ubicación de sus consumos afectados es rural.
+g. Proposición del propietario respecto del origen de la falla
+I.- Fuerza Mayor.
+h. Comuna donde se presenta la falla
+2301: Tocopilla.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(22-12-2024) (30-12-2024)
+Grace S.A. (GRACE) 21-12-2024 30-12-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 110 kV Tap Off Barriles - Mantos
+ST Dedicado Tap Off Barriles - Mantos de la Luna 12:39 19:20
+de la Luna
+S/E Mantos de la Luna ST Dedicado Transformador Nº1 110/23 kV 12:39 19:21
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Mantos de la Luna HT1 Tocopilla 6.50 0.059 1 12:39 19:21 19:21
+Total: 6.5 MW 0.059 % 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa Grace S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Mantos de la Luna HT1 GRACE Libre 6.50 6.70 6.70 43.5
+Clientes Regulados : 0 MWh
+Clientes Libres : 43.5 MWh
+Total : 43.5 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Grace S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 5.20 6.70 0.78
+Último 20 % 1.30 6.70 0.19
+100 % Total 6.50 6.70 0.97
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 11091.09 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2 y U4), Mejillones (IEM), Pehuenche (U1 y U2), PFV Diego Almagro Sur y PFV
+Usya.
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 20 de diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 20 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+20 de diciembre de 2024.

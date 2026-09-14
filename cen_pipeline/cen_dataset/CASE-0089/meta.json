@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0517-2024",
+  "eaf_num": 517,
+  "year": 2024,
+  "description": "Falla en línea 66 kV Negrete – Nahuelbuta",
+  "date": "24-10-2024",
+  "time": "11:49",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/EAF-517-2024.pdf",
+  "case_id": "CASE-0089",
+  "event_datetime": "2024-10-24T11:49:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0089\\official_diagram.dwg"
+}

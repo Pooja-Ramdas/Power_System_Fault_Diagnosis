@@ -1,0 +1,197 @@
+Estudio para análisis de falla EAF 508/2024
+“Desconexión forzada del transformador N°2 66/13.2 kV de S/E Linares Norte”
+Fecha de Emisión: 14-11-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 22/10/2024
+Hora 03:40
+Consumos desconectados (MW) 3.00
+Demanda previa del sistema (MW) 8441.32
+Porcentaje de desconexión 0.036 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Linares Norte / SE030T0057
+Tipo de instalación Subestación
+Tensión nominal 66/13.2 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso
+c. Identificación del elemento fallado
+Nombre del elemento afectado Sistema de protección 2 del paño CT2 asociado al transformador N°2
+66/13.2 kV de S/E Linares Norte / SP012T0057SE030T0057
+Propietario elemento fallado Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada del transformador N°2 66/13.2 kV de S/E Linares Norte por la
+actuación de su relé maestro, ante la operación de la protección de sobrecorriente de fase del paño
+CT2, dando paso a la apertura de los interruptores 52BT2 y 52CT2 asociados a dicho transformador.
+La empresa Chilquinta Transmisión S.A. declara que la operación del relé maestro coincidió con la
+reconexión del reconectador Copefrut ubicado en la red de distribución.
+d.2 Fenómeno Físico:
+OPE6: Fallas en instalaciones de terceros u en otro segmento
+La empresa Chilquinta Transmisión S.A. no entrega los siguientes antecedentes probatorios necesarios
+para acreditar el fenómeno físico:
+o Informe técnico que contenga como operaron las protecciones y como debieron haber operado
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico durante los últimos 24 meses móviles, correspondiente a los Estudios para Análisis de
+Falla EAF 438-2023, EAF 443-2023, EAF 107-2024 y EAF 289-2024.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Desconexión forzada del La empresa Chilquinta Transmisión S.A. no indica acciones
+EAF 438_2023
+transformador N°2
+12-10-2023
+correctivas.
+66/13.2 kV de S/E La empresa Luzlinares S.A. indica en su Informe de Falla de 48
+Linares Norte horas lo siguiente: “Falla Externa”.
+Desconexión forzada del
+transformador N°1
+EAF 443_2023 17-10-2024 No se indican.
+66/13.2 kV de S/E
+Linares Norte
+Desconexión forzada del
+transformador N°2 Las empresas Chilquinta Transmisión S.A. y Luzlinares S.A. no
+EAF 107-2024 17-03-2024
+66/13.2 kV de S/E indican acciones correctivas a corto plazo.
+Linares Norte
+La empresa Chilquinta Transmisión S.A. indica las siguientes
+Desconexión forzada del
+acciones correctivas: “Dado el evento ocurrido, se enviará carta
+transformador N°1
+EAF 289-2024 23-06-2024 formal indicando el desbalance anormal registrado, lo
+66/13.2 kV de S/E
+cual produjo la operación del relé maestro del Transformador de
+Linares Norte
+poder N°1”.
+Desconexión forzada de
+EAF 366-2024 la barra 12 kV N°2 de S/E 01-08-2024 No se indican.
+Concón
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 6 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 126-2023, EAF 421-2023, EAF 438-2023, EAF 443-2023, EAF 107-2024 y
+EAF 289-2024.
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento que emitió la orden de apertura al relé maestro del transformador N°2 66/13.2 kV de S/E
+Linares Norte, corresponde al sistema de protecciones del paño CT2 de dicha subestación, el cual,
+según lo informado por su propietario en la plataforma Infotécnica del Coordinador, es un relé SEL-751
+con funciones 51/51N y cuya fecha de entrada en operación fue el 01 de diciembre de 2019.
+La empresa Chilquinta Transmisión S.A., propietaria de la S/E Linares Norte, no presenta los
+mantenimientos realizados a dicha subestación, incluyendo a los sistemas de control y protecciones,
+durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No se indica.
+g. Proposición del propietario respecto del origen de la falla
+Externa.
+h. Comuna donde se presenta la falla
+7401: Linares.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (24-10-2024) Informe de 5 días (29-10-2024)
+Chilquinta Transmisión S.A. 22-10-2024 29-10-2024
+Luzlinares S.A. 22-10-2024 07-11-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Linares Norte ST Zonal Transformador N°2 66/23 kV 03:40 04:36
+S/E Linares Norte ST Zonal Barra N°2 13.2 kV 03:40 04:36
+- Los horarios señalados corresponden a lo informado por la empresa Chilquinta Transmisión S.A. y los registros SCADA del
+Coordinador.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H. Norm.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. (*)
+Linares Norte Industrial / CT2 Linares 3.00 0.036 1806 03:40 04:36 04:36
+Total: 3.00 MW 0.036 % 1806
+- Los montos y horarios señalados corresponden a lo informado por las empresas Chilquinta Transmisión S.A. y Luzlinares S.A.
+(*) Hora declarada por Chilquinta Transmisión S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Linares Norte Industrial / CT2 Luzlinares S.A. Regulado 3.00 0.93 0.93 2.8
+Clientes Regulados : 2.8 MWh
+Clientes Libres : MWh
+Total : 2.8 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Chilquinta Transmisión S.A. y Luzlinares S.A.
+- Curva de recuperación esperada v/s recuperación real.
+00:00
+00:00
+0044::3366
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+100%
+Recuperación real Recuperación esperada
+No se observa diferencia entre la recuperación real y la esperada para los consumos del alimentador
+Industrial de S/E Linares Norte.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 2.40 0.93 2.57
+Último 20 % 0.60 0.93 0.64
+100 % Total 3.00 0.93 3.21
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8441.32 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Andina (UCTA), Cipreses (U1), El Toro (U1, U2, U3 y U4), Mejillones (CTM3), Ralco (U1 y
+U2), Rapel (U1, U2 y U4).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Las empresas Chilquinta Transmisión S.A y Luzlinares S.A. no declaran otros antecedentes relevantes.
+Se solicitará a la empresa Chilquinta Transmisión S.A. lo siguiente:
+o Aclaración de porqué actuó el relé maestro asociado al transformador N°2 66/13.2 kV de S/E
+Linares Norte, considerando que declara que habría ocurrido una falla en la red de distribución,
+la cual se tuvo que haber despejado mediante la actuación de la protección asociada al
+reconectador Copefrut, equipo que habría operado con reconexión automática.
+o Revisión de la coordinación de protecciones con las instalaciones ubicadas aguas abajo del
+paño CT2 de S/E Linares Norte, en función de los antecedentes solicitados a la empresa
+Luzlinares S.A. producto del análisis de este estudio.
+o Medidas correctivas adoptadas que eviten la propagación de la falla ocurrida en la red de
+distribución, hacia instalaciones ubicadas aguas arriba.
+Se solicitará a la empresa Luzlinares S.A. lo siguiente:
+o Tomando como antecedente lo declarado por la empresa Chilquinta Transmisión S.A., que
+indica que hubo una falla detectada aguas abajo del reconectador Copefrut, conectado al
+alimentador abastecido desde el paño CT2 de S/E Linares Norte, donde se presentó la apertura
+con reconexión de dicho reconectador en el horario de las 03:39:48 horas y posterior operación
+de protecciones del paño CT2 en el horario de las 04:29:07 horas, una vez normalizado el
+cierre dicho reconectador, el envío de los antecedentes que den cuenta de cómo operaron las
+protecciones asociadas al reconectador Copefrut (registros oscilográficos y de eventos, tiempos
+de operación de las funciones activadas, tiempos de apertura del reconectador), junto con su
+respectivo análisis en función de sus ajustes.
+o Revisión de la coordinación de protecciones con las instalaciones ubicadas en S/E Linares
+Norte, aguas arriba del reconectador Copefrut, en función de los antecedentes solicitados a la
+empresa Chilquinta Transmisión S.A. producto del análisis de este estudio.
+o Medidas correctivas adoptadas que eviten la propagación de la falla ocurrida en la red de
+distribución, hacia instalaciones ubicadas aguas arriba.
+De forma complementaria, se adjuntan los informes de falla de instalaciones ingresados en el sistema
+del Coordinador Eléctrico Nacional por Chilquinta Transmisión S.A. y Luzlinares S.A. (Anexo N°1) y
+otros antecedentes aportados por Chilquinta Transmisión S.A. y Luzlinares S.A. (Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Chilquinta transmisión S.A. no indica acciones correctivas a corto plazo.
+La empresa Luzlinares S.A. no indican acciones correctivas a corto plazo.
+c) Acciones correctivas a largo plazo:
+La empresa Chilquinta transmisión S.A. no indica acciones correctivas a largo plazo.
+La empresa Luzlinares S.A. no indican acciones correctivas a largo plazo.
+Diagrama simplificado de las instalaciones previo a la falla

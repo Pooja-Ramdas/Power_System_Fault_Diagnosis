@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0562-2024",
+  "eaf_num": 562,
+  "year": 2024,
+  "description": "Desconexión forzada de las barras N°1 y N°2 15 kV de S/E Chiguayante",
+  "date": "01-12-2024",
+  "time": "01:45",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/12/EAF-562-2024.pdf",
+  "case_id": "CASE-0044",
+  "event_datetime": "2024-12-01T01:45:00",
+  "fault_label": "busbar_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_path": null
+}

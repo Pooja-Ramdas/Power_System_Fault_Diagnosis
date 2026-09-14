@@ -1,0 +1,206 @@
+Estudio para análisis de falla EAF 558/2024
+“Desconexión forzada de la línea 66 kV Paine - Isla de Maipo”
+Fecha de Emisión: 20-12-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 30/11/2024
+Hora 16:32
+Consumos desconectados (MW) 23.55
+Demanda previa del sistema (MW) 9763.18
+Porcentaje de desconexión 0.241 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Paine - Isla de Maipo / LT099CI1TR05T0058ST01T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Ivan Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N° 5561 piso 14, Las Condes, Región Metropolitana
+de Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 66 kV Paine - Isla de Maipo / LT099CI1TR05T0058ST01T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Ivan Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N° 5561 piso 14, Las Condes, Región Metropolitana
+de Santiago.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Paine - Isla de Maipo por apertura automática del
+interruptor 52B3 de S/E Paine, debido a la operación de su protección de distancia en zona 2 provocada
+por la caída de un árbol sobre la línea, debido a la tala de árboles no autorizada en un área exterior a
+la franja de seguridad.
+d.2 Fenómeno Físico:
+ARB2: Caída de árbol sobre la línea o instalación.
+La empresa CGE Transmisión S.A. indica que la tala de árboles no fue autorizada ni coordinada con la
+empresa, y que tampoco hubo trabajos programados asociados al corte y poda de árboles sobre la
+línea 66 kV Paine - Isla de Maipo.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA-ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en línea
+La empresa CGE Transmisión S.A. indica que no aplican acciones
+EAF 496-2022 66 kV Tres Pinos - 26-12-2022
+correctivas a corto ni largo plazo.
+Lebu
+Falla en línea
+EAF 010-2023 66 kV Curanilahue 06-01-2023 CGE Transmisión S.A. señala que se realizó la reparación de la línea.
+- Tres Pinos
+Falla en línea
+EAF 035-2023 66 kV Los Peumos 30-01-2023 La empresa CGE Transmisión S.A. señala que “No aplica”.
+- Curacautín
+Falla en la línea
+La empresa CGE Transmisión S.A. señala que “No se consideran acciones
+EAF 153-2023 33 kV Hualte - 03-04-2023
+correctivas”.
+Quirihue
+Falla en la línea
+La empresa CGE Transmisión S.A. señala que “No se consideran acciones
+EAF 186-2023 33 kV Hualte - 28-04-2023
+correctivas”.
+Quirihue
+Falla en la línea
+EAF 247-2023 66 kV Los Peumos 08-06-2023 La empresa CGE Transmisión S.A. señala: “No aplica”.
+- Curacautín
+Falla en la línea
+EAF 248-2023 66 kV Victoria - 08-06-2023 La empresa CGE Transmisión S.A. señala: “No aplica”.
+Collipulli
+Falla en la línea
+La empresa CGE Transmisión S.A. señala que “No se consideran acciones
+EAF 282-2023 66 kV Los Peumos 24-06-2023
+correctivas”.
+- Curacautín
+Falla en línea La empresa CGE Transmisión S.A. señala que: “Se realizó tala de árboles
+EAF 286-2023 66 kV Concepción 28-06-2023 entre las estructuras N°66 y N°67 de la línea LT 66 kV Penco-Tomé en
+- Mahns predio de Forestal Arauco”.
+Falla en la línea
+La empresa CGE Transmisión S.A. señala que “No se consideran acciones
+EAF 306-2023 66 kV Los Peumos 20-07-2023
+correctivas”.
+- Curacautín
+Desconexión
+forzada de la línea
+EAF 324-2023 31-07-2023 La empresa CGE Transmisión S.A. señala que “No aplica”.
+66 kV Los Maquis
+- Hualañé
+Falla en línea
+La empresa CGE Transmisión S.A. señala que “no se consideran acciones
+EAF 357-2023 66 kV Los Peumos 20-08-2023
+correctivas”.
+- Curacautín
+Falla en línea
+EAF 399-2023 66 kV Los Peumos 09-09-2023 La empresa CGE Transmisión S.A. señala que “No aplica”.
+- Curacautín
+La empresa CGE Transmisión S.A. señala lo siguiente: “Está en desarrollo
+el proyecto NUP 3415, que remplazará los TTCC y las protecciones
+Falla en línea
+electromecánicas a digitales en el paño B2, para devolver la transferencia
+66 kV Alonso de
+EAF 406-2023 14-09-2023 de la línea Chiguayante desde el Paño BR al paño B2, agregando
+Ribera -
+características de registros de eventos y oscilográfico. La fecha esperada
+Chiguayante
+de puesta en servicio declarada en el cronograma PGP es el 30 de
+noviembre de 2023.”
+FALLA-ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en línea
+EAF 446-2023 66 kV Los Peumos 19-10-2023 La empresa CGE Transmisión S.A. señala que “No aplica”.
+- Curacautín
+Falla en línea
+EAF 458-2023 66 kV Los Peumos 28-10-2023 No se indican.
+- Curacautín
+Falla en la línea
+CGE Transmisión S.A. señala: “Se realiza la reparación de la estructura
+EAF 459-2023 66 kV Cauquenes 28-10-2023
+afectada”.
+- La Vega
+La empresa CGE Transmisión S.A. indica lo siguiente: “Mejora en ajuste
+Falla en la línea del registro secuencial de eventos (SER) para mitigar variables por
+EAF 461-2023 154 kV Charrúa - 28-10-2023 sobreescritura, en ambos sistemas de protecciones asociados al paño A9
+Los Ángeles de S/E Charrúa. Adicionalmente, se realizará el reemplazo de cable IRIG-
+B, asociado al sistema de protecciones N°2”.
+Falla en la línea
+EAF 466-2023 66 kV Cauquenes 29-10-2023 CGE Transmisión S.A. señala: “No aplica”.
+- La Vega
+Falla en línea La empresa STS S.A. señala que se revisará en el corto plazo estudio de
+EAF 502-2023 66 kV Victoria - 17-11-2023 ajuste de elementos de retención de armónicos asociados a protección
+Collipulli 87T del Transformador N°1 de S/E Nahuelbuta.
+La empresa CGE Transmisión S.A. indica que “no aplica”. La empresa
+Frontel S.A. no indica acciones correctivas. La empresa Parque Eólico
+Falla en la línea Lebu-Toro SpA indica lo siguiente: “Las protecciones de PEL, en caso de
+EAF 541-2023 66 kV Tres Pinos - 19-12-2023 tener algún comportamiento inadecuado, serán revisadas por la empresa
+Lebu H. Briones, quienes son expertos en el manejo de estos equipos. De ser
+necesario, ante un comportamiento inadecuado, se realizaría una nueva
+configuración”.
+La empresa CGE Transmisión S.A. señala lo siguiente: “Se realizan las
+Falla en la línea
+gestiones con la empresa dueña del predio (Forestal Arauco), para realizar
+EAF 551-2023 66 kV Victoria - 30-12-2023
+faenas de tala de árboles en vano E162 y E163 de la LT66kV Collipulli -
+Collipulli
+Victoria. Según 2024001621”.
+Falla en línea CGE Transmisión S.A. indica que realizó la reparación del conductor
+EAF 118-2024 66 kV Guindo - 22-02-2023 cortado entre las estructuras N°132 y N°133 de la línea 66 kV Guindo -
+Coronel N°1 Coronel N°1.
+Falla en línea
+EAF 178-2024 66 kV Los Peumos 29-04-2024 No se señalan acciones correctivas.
+- Curacautín
+La empresa CGE Transmisión S.A. señala lo siguiente: “Gestiones con
+Falla en línea
+propietarios para talar árboles fuera de faja entre las estructuras E87 y
+EAF 181-2024 2x66 kV Guindo - 29-04-2024
+E88 de la línea LT 66KV Guindo - Coronel N1 y N2. Esta actividad será
+Coronel
+finalizada a fines de agosto de 2024.”
+Falla en línea
+CGE Transmisión S.A. señala que “no aplica.” Frontel S.A. no indica
+EAF 183-2024 66 kV Los Peumos 30-04-2024
+acciones correctivas.
+- Curacautín
+La empresa CGE Transmisión S.A. que “se realizan trabajos de inspección
+Falla en línea
+y reparación en la línea 66 kV Los Peumos - Curacautín, para mayor
+EAF 250-2024 66 kV Los Peumos 12-06-2024
+abundamiento revisar Anexo V.I Informe Técnico de MSI.”, La empresa
+- Curacautín”
+Frontel S.A. no indica acciones correctivas a corto plazo.
+Falla en línea CGE Transmisión S.A. señala que se gestiona con propietario la tala o poda
+EAF 282-2024 66 kV Talcahuano 20-06-2024 árboles fuera de faja entre las estructuras E-06 y E-17 de la línea LT 66 kV
+- Latorre N°1 Talcahuano-Latorre N°1. Esto mediante el envío de Carta.
+Falla en línea
+La empresa CGE Transmisión S.A. señala que “no aplica”. La empresa STS
+EAF 316-2024 66 kV Teno - 22-07-2024
+S.A. señala que “no aplica”.
+Curicó
+La empresa CGE Transmisión S.A. señala lo siguiente:“Si bien se advierte
+un adecuado despeje de la falla, en tiempos de zona 2, esto es 0,3
+segundos, en el análisis se descubre un error en la aplicación de la
+Falla en línea ecuación TC (torque control o direccionalidad) del ajuste de sobre
+EAF 319-2024 66 kV Itahue - 24-07-2024 corriente del relé SEL 311C del paño B2 de Talca, lo que impide la
+Talca N°2 activación de la función de sobrecorriente de fase (51P). Los ajustes de la
+función 5 1 son: 51PP=3,75 51PC=U3 51PTD=2,8 51PTC=M3PT Este
+último ajuste debe ser corregido a 51PTC=M3P+32QF. Esto se realizará el
+día 08.08.24 con SD CEN N°2024080904.”
+La empresa CGE Transmisión S.A. indica: “Se realiza retiro de árboles,
+Falla en la línea
+reparación del tramo afectado, tala de árboles fuera de la franja con
+EAF 336-2024 66 kV Victoria - 01-08-2024
+proyección a la línea. Mayores detalles se pueden encontrar en Anexo
+Collipulli
+probatorios (informe de trabajos MSTI)”.
+Falla en línea
+La empresa CGE Transmisión S.A. indica: “Se realizó la unión del
+EAF 344-2024 66 kV Pitrufquén - 01-08-2024
+conductor cortado entre estructuras 44 y 45 de la línea de transmisión”.
+Lastarria N°2
+Falla en línea
+EAF 365-2024 66 kV Negrete - 01-08-2024 La empresa CGE Transmisión S.A. indica: “No aplica”.
+Nahuelbuta
+Falla en línea La empresa CGE Transmisión S.A. indica: “Se realiza retiro del árbol, y
+EAF 404-2024 66 kV Los Maquis 02-08-2024 reparación del tramo de línea dañado. Mayor detalle se puede encontrar
+- Hualañé en informe técnico en Anexo III de empresa Ollagua Spa.”

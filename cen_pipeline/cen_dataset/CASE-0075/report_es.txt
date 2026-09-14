@@ -1,0 +1,264 @@
+Estudio para análisis de falla EAF 531/2024
+“Falla en línea 66 kV San Javier - Constitución”
+Fecha de Emisión: 25-11-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 04/11/2024
+Hora 03:31
+Consumos desconectados (MW) 4.00
+Demanda previa del sistema (MW) 8262.1
+Porcentaje de desconexión 0.048%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV San Javier - Constitución / LT188CI1TR02----T0002
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Santiago
+3. Identificación del elemento fallado
+Nombre del elemento afectado Línea 66 kV San Javier - Constitución / LT188CI1TR02----T0002
+Propietario elemento fallado Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Santiago
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV San Javier - Constitución por operación de su
+esquema de teleprotección, ante una falla atribuida a una pérdida de aislación producto excremento
+de ave en el aislador central tipo linepost de la estructura N°265 de la mencionada línea.
+d.2 Fenómeno Físico:
+DIS1: Pérdida de aislación
+La empresa Transelec S.A. remite los antecedentes probatorios para acreditar el fenómeno físico.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Acciones correctivas a corto plazo: Transelec S.A. señala que “Con el
+objetivo de disminuir la suspensión de materiales contaminantes sobre los
+aisladores de las estructuras, que se exponen en ambientes altamente
+contaminantes, se había implementado cobertura siliconada en ciertos
+tramos de la instalación, cuya naturaleza requiere una frecuencia de lavado
+mucho menor que sin cobertura. Sin embargo, se produjo la pérdida de
+aislación por materiales contaminantes en la instalación. Inmediatamente
+después de la ocurrencia de falla, entró en evaluación retomar el lavado de
+las estructuras como medida provisoria, mientras se analiza la calidad de
+la cobertura aplicada a los aisladores”.
+CGE Transmisión S.A. señala “Falla ocurrida en instalaciones de terceros,
+por lo que no hay acciones de corto plazo de responsabilidad de CGE
+Transmisión S.A.”.
+Falla en línea 110 Hidroeléctrica Río Huasco S.A. señala que “no aplica”.
+EAF 407-2022 kV Maitencillo - 06-11-2022
+Vallenar Acciones correctivas a largo plazo: Transelec S.A. señala que “Con el
+objetivo de disminuir la suspensión de materiales contaminantes sobre los
+aisladores de las estructuras, que se exponen en ambientes altamente
+contaminantes, se había implementado cobertura siliconada en ciertos
+tramos de la instalación, cuya naturaleza requiere una frecuencia de lavado
+mucho menor que sin cobertura. Sin embargo, se produjo la pérdida de
+aislación por materiales contaminantes en la instalación. Inmediatamente
+después de la ocurrencia de falla, entró en evaluación retomar el lavado de
+las estructuras como medida provisoria, mientras se analiza la calidad de
+la cobertura aplicada a los aisladores”.
+CGE Transmisión S.A. señala “Falla ocurrida en instalaciones de terceros,
+por lo que no hay acciones de corto plazo de responsabilidad de CGE
+Transmisión S.A.”.
+Hidroeléctrica Río Huasco S.A. señala que “no aplica”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Transelec S.A. señala lo siguiente:
+“Dentro de las acciones correctivas de corto plazo realizadas a las
+instalaciones tras la confirmación de causa de falla por contaminación del
+pararrayos de la fase B del paño J2 de S/E Lagunas, se procede a realizar
+la desvinculación del equipo afectado y al lavado del resto de los equipos
+afectados por contaminación. Como acciones a largo plazo se está
+evaluando su reemplazo, con fecha por informar. En relación a la operación
+indeseada de la protección Siemens 7SL87, sistema 1 del paño J1 de S/E
+Matilla, indicamos como acción correctiva a corto plazo, la deshabilitación
+de la operación de la zona 1 con la finalidad de poder evitar posibles
+Falla en la línea
+operaciones indeseadas mientras continua la investigación de la causa de
+EAF 255-2023 220 kV San 13-06-23
+su operación el día 13 de junio de 2023. Junto con ello y por las mismas
+Simón - Lagunas
+razones, se deshabilitó de manera preventiva la operación de la zona 1 del
+sistema 2, relé Siemens 7SL87 del paño J1 de S/E Matilla. Por otro lado,
+como acciones correctivas a largo plazo indicamos que se han realizado las
+consultas pertinentes al fabricante sobre la operación del relé en cuestión
+y de manera paralela nos encontramos realizando pruebas en laboratorio
+que nos permitan poder determinar la causa operación indebida”.
+Como acciones de largo plazo, la empresa Transelec S.A. indica que evalúa
+el reemplazo del pararrayos fallado en el paño J2 de S/E Lagunas con fecha
+por confirmar.
+La empresa Transelec S.A. señala lo siguiente:
+“Dentro de las acciones correctivas de corto plazo realizadas a las
+instalaciones tras la confirmación de causa de falla por contaminación del
+pararrayos de la fase B del paño J2 de S/E Lagunas, se procede a realizar
+la desvinculación del equipo afectado y al lavado del resto de los equipos
+afectados por contaminación. Como acciones a largo plazo se está
+evaluando su reemplazo, con fecha por informar. En relación a la operación
+indeseada de la protección Siemens 7SL87, sistema 1 del paño J1 de S/E
+Matilla, indicamos como acción correctiva a corto plazo, la deshabilitación
+de la operación de la zona 1 con la finalidad de poder evitar posibles
+Falla en la línea
+operaciones indeseadas mientras continua la investigación de la causa de
+EAF 256-2023 220 kV San 13-06-23
+su operación el día 13 de junio de 2023. Junto con ello y por las mismas
+Simón - Lagunas
+razones, se deshabilitó de manera preventiva la operación de la zona 1 del
+sistema 2, relé Siemens 7SL87 del paño J1 de S/E Matilla. Por otro lado,
+como acciones correctivas a largo plazo indicamos que se han realizado las
+consultas pertinentes al fabricante sobre la operación del relé en cuestión
+y de manera paralela nos encontramos realizando pruebas en laboratorio
+que nos permitan poder determinar la causa operación indebida.”.
+Como acciones de largo plazo, la empresa Transelec S.A. indica que evalúa
+el reemplazo del pararrayos fallado en el paño J2 de S/E Lagunas con fecha
+por confirmar.
+La empresa Transelec S.A. señala lo siguiente:
+“Dentro de las acciones correctivas de corto plazo realizadas a las
+instalaciones tras la confirmación de causa de falla por contaminación del
+pararrayos de la fase B del paño J2 de S/E Lagunas, se procede a realizar
+la desvinculación del equipo afectado y al lavado del resto de los equipos
+afectados por contaminación. Como acciones a largo plazo se está
+evaluando su reemplazo, con fecha por informar. En relación a la operación
+indeseada de la protección Siemens 7SL87, sistema 1 del paño J1 de S/E
+Matilla, indicamos como acción correctiva a corto plazo, la deshabilitación
+de la operación de la zona 1 con la finalidad de poder evitar posibles
+Falla en línea 220
+operaciones indeseadas mientras continua la investigación de la causa de
+EAF 257-2023 kV Lagunas - San 13-06-23
+su operación el día 13 de junio de 2023. Junto con ello y por las mismas
+Simón
+razones, se deshabilitó de manera preventiva la operación de la zona 1 del
+sistema 2, relé Siemens 7SL87 del paño J1 de S/E Matilla. Por otro lado,
+como acciones correctivas a largo plazo indicamos que se han realizado las
+consultas pertinentes al fabricante sobre la operación del relé en cuestión
+y de manera paralela nos encontramos realizando pruebas en laboratorio
+que nos permitan poder determinar la causa operación indebida.”.
+Como acciones de largo plazo, la empresa Transelec S.A. indica que evalúa
+el reemplazo del pararrayos fallado en el paño J2 de S/E Lagunas con fecha
+por confirmar.
+Acciones correctivas a corto plazo: Transelec S.A. señala que “se solicita
+intervenciones de Curso Forzoso para ejecutar labores de lavado de las
+estructura N°84 y las adyacentes a esta las cuales se materializaron entre
+los días 22 y 24 de marzo del 2024 y que en base a lo anterior de manera
+Falla en línea
+preventiva se realiza lavado de estructuras de la línea 220 kV Pan de Azúcar
+220kV Pan de
+EAF 116-2024 22-03-2024 - Minera TECK CDA entre las estructuras N°02 a N°36 N°75 a N°107 y
+Azúcar-Minera
+N°110 a N°129”.
+Teck CDA
+Acciones correctivas a largo plazo: Transelec S.A. señala que posterior a la
+falla se inicia un análisis de causa raíz y se definirá un plan de acción para
+evitar la reiteración de esta falla.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Desconexión
+forzada de la La empresa Transelec S.A. indica: “Reemplazo de aislador fallado fase C,
+EAF 218-2024 línea 13.8 kV San 19-05-2024 plan de reemplazo de aisladores similares en las demás fases, además de
+Vicente - los aisladores similares en paños aledaños”.
+Inchalam
+Falla en la línea
+La empresa Transelec S.A. indica: “No Aplica. El comportamiento de las
+EAF 477-2024 66 kV Charrúa - 15-09-2024
+instalaciones de Transelec fue correcto”.
+Laja
+Falla en el circuito La empresa Transelec S.A. señala:
+N°1 de la línea 66 “Se aprecia en los eventos de los sistemas 1 de ambos extremos,
+EAF 502-2024 11-10-2024
+kV Pullinque - Los protecciones SEL 411L sobreescritura de registros debido a una alarma de
+Lagos software. Se estima corregir este hallazgo dentro del mes de noviembre”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 401-2022, EAF 402-2022, EAF 482-2022, EAF 076-2023, EAF 259-2023, EAF
+072-2024, EAF 360-2024 y EAF 440-2024.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores de la línea 66 kV San Javier -
+Constitución, la cual, de acuerdo con lo informado por su propietario, cuenta con conductores Cu 2/0
+AWG y Copperweld 3/8, con una longitud total de aproximadamente 79.64 km, y su puesta en servicio
+se produjo durante el año 1975.
+Al respecto, la empresa Transelec S.A. no remitió antecedentes respecto de los mantenimientos
+realizados a la línea 66 kV San Javier - Constitución durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa CGE S.A. señala “Urbano / Rural” para el alimentador Purapel de S/E Constitución y para
+los alimentadores Los Naranjos y Santa Olga de S/E Nirivilo.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+h. Comuna donde se presenta la falla
+07406: San Javier.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (06-11-2024) Informe de 5 días (11-11-2024)
+CGE Transmisión S.A. 04-11-2024 20-11-2024
+Transelec S.A. 04-11-2024 11-11-2024
+Arauco Bioenergía SpA 04-11-2024 17-11-2024
+Prime Energía Quickstart SpA (Prime) 04-11-2024 No enviado
+Compañía General de Electricidad S.A. (CGE) 04-11-2024 08-11-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 66 kV San Javier - Constitución ST Zonal San Javier - Tap Nirivilo 03:31 03:37
+LT 66 kV San Javier - Constitución ST Zonal Tap Nirivilo - Tap Central San Javier 03:31 03:37
+LT 66 kV San Javier - Constitución ST Zonal Tap Central San Javier - Constitución 03:31 03:37
+- Los horarios señalados corresponden a lo informado por la empresa Transelec S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+San Javier,
+Nirivilo Los Naranjos / E1 Constitución, 0.44 0.005 2550 03:31 03:37 03:37
+Empedrado
+San Javier,
+Nirivilo Santa Olga / E2 Cauquenes, 1.26 0.015 4121 03:31 03:37 03:37
+Empedrado
+Constitución Purapel / E9 Constitución 2.30 0.028 1348 03:31 03:31(*) 03:38
+Total: 4.00 MW 0.048% 8019
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A., CGE Transmisión S.A. y Transelec S.A.
+(*): Para este evento, las barras MT de S/E Constitución, a las cuales se conecta el alimentador Purapel, siempre estuvieron
+disponibles.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Nirivilo Los Naranjos / E1 CGE Regulado 0.44 0.10 0.10 0.0
+Nirivilo Santa Olga / E2 CGE Regulado 1.26 0.10 0.10 0.1
+Constitución Purapel / E9 CGE Regulado 2.30 0.00 0.12 0.3
+Clientes Regulados : 0.4 MWh
+Clientes Libres : MWh
+Total : 0.4 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas las empresas CGE S.A., CGE Transmisión S.A. y
+Transelec S.A.
+- Curva de recuperación esperada v/s recuperación real.
+03:38
+03:38
+03:37
+0033::3377 0033::3377
+03:36
+03:34
+03:33
+03:31
+03:31
+03:30
+03:28
+03:27
+11% 43% 100%
+Recuperación real Recuperación esperada
+Para los consumos de S/E Nirivilo (primer 43% de los consumos afectados) no se aprecia una
+diferencia entre los horarios de recuperación esperada y recuperación real.
+Por otra parte, debido a que para el evento analizado en este estudio las barras MT de S/E
+Constitución siempre estuvieron disponibles, la diferencia de tiempo entre la recuperación
+esperada y la recuperación real del alimentador Purapel (57% de los consumos afectados) es
+atribuida al periodo de tiempo en que se mantuvo operando en isla eléctrica la S/E Constitución,
+mientras se normalizaba la línea 66 kV San Javier - Constitución.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 3.20 0.12 27.43
+Último 20 % 0.80 0.12 6.86
+100 % Total 4.00 0.12 34.29

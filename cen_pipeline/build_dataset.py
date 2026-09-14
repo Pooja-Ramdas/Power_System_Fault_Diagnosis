@@ -95,41 +95,103 @@ def main():
     print(f"[list] processing {len(all_entries)} cases total")
 
     # ---- 2. Download + cache telemetry spreadsheets once ------------------
-    telemetry_dfs = {}          # aggregate fallback files, keyed by name
-    telemetry_by_year_range = {}  # per-plant files, keyed by (start_year, end_year)
+    # Per-plant wide-format sheets, melted to long once at startup.
+    # Keyed by event year -> melted long-format DataFrame with 'timestamp' col.
+    telemetry_by_year = {}   # year (int) -> melted df  (or None if unavailable)
 
+    # Map: event year -> (xlsx_path, meta_key, multi_sheet_keys)
+    # multi_sheet_keys: for the 2020-2023 file which has 2 data sheets
+    _year_to_source = {
+        2016: ("generation_by_plant_2016_2019.xlsx", ["2016_2019"]),
+        2017: ("generation_by_plant_2016_2019.xlsx", ["2016_2019"]),
+        2018: ("generation_by_plant_2016_2019.xlsx", ["2016_2019"]),
+        2019: ("generation_by_plant_2016_2019.xlsx", ["2016_2019"]),
+        2020: ("generation_by_plant_2020_2023.xlsx", ["2020_2022"]),
+        2021: ("generation_by_plant_2020_2023.xlsx", ["2020_2022"]),
+        2022: ("generation_by_plant_2020_2023.xlsx", ["2020_2022"]),
+        2023: ("generation_by_plant_2020_2023.xlsx", ["2023"]),
+        2024: ("generation_by_plant_2024_2024.xlsx", ["2024"]),
+        2025: ("generation_by_plant_2025_2025.xlsx", ["2025"]),
+    }
+
+    # Download the xlsx files (cached after first run)
     for (y0, y1), url in config.TELEMETRY_XLSX_BY_YEAR_RANGE.items():
         name = f"generation_by_plant_{y0}_{y1}"
         dest = os.path.join(config.RAW_CACHE_DIR, f"{name}.xlsx")
         try:
             telemetry.download_once(url, dest, session=session)
-            df = telemetry.load_xlsx(dest)
-            telemetry_by_year_range[(y0, y1)] = df
-            print(f"[telemetry] loaded {name}: {df.shape[0]} rows, "
-                  f"columns={list(df.columns)[:6]}...")
         except Exception as e:
-            print(f"[telemetry] WARNING could not load '{name}' ({url}): {e}")
+            print(f"[telemetry] WARNING: could not download '{name}': {e}")
 
+    # Download the aggregate hourly_generation.xlsx (for fallback)
+    hourly_gen_path = os.path.join(config.RAW_CACHE_DIR, "hourly_generation.xlsx")
     for name, url in config.TELEMETRY_XLSX_URLS.items():
-        dest = os.path.join(config.RAW_CACHE_DIR, f"{name}.xlsx")
+        if name != "hourly_generation":
+            continue
         try:
-            telemetry.download_once(url, dest, session=session)
-            df = telemetry.load_xlsx(dest)
-            telemetry_dfs[name] = df
-            print(f"[telemetry] loaded {name}: {df.shape[0]} rows, "
-                  f"columns={list(df.columns)[:6]}...")
+            telemetry.download_once(url, hourly_gen_path, session=session)
         except Exception as e:
-            print(f"[telemetry] WARNING could not load '{name}' ({url}): {e}")
+            print(f"[telemetry] WARNING: could not download hourly_generation: {e}")
 
-    # Preferred order to try for the AGGREGATE fallback (per-plant, year-
-    # matched files are always tried first for each case -- see below)
-    telemetry_priority = ["hourly_generation", "generation_by_technology"]
+    # Melt each required sheet once upfront, filtered to just the dates we need.
+    # Pre-compute: for each meta_key, the set of date objects needed across all
+    # cases that map to that sheet. We expand ±1 day to safely cover window edges.
+    _loaded_meta_keys = {}   # meta_key -> melted df, shared across years
+    event_years = set(e.get("year") or datetime.strptime(
+        f"{e['date']} {e['time']}", "%d-%m-%Y %H:%M").year for e in all_entries)
 
-    def year_range_for(year):
-        for (y0, y1) in telemetry_by_year_range:
-            if y0 <= year <= y1:
-                return (y0, y1)
-        return None
+    # Build: meta_key -> set of date objects (from event_dt ±1 day for window buffer)
+    from datetime import date as _date, timedelta as _td
+    _meta_key_needed_dates = {}
+    for entry in all_entries:
+        try:
+            ev_dt = datetime.strptime(f"{entry['date']} {entry['time']}", "%d-%m-%Y %H:%M")
+            yr = ev_dt.year
+        except Exception:
+            continue
+        if yr not in _year_to_source:
+            continue
+        _, mk_list = _year_to_source[yr]
+        # ±1 day around event to cover the 48h window boundaries
+        for delta in (-1, 0, 1):
+            d = (ev_dt + _td(days=delta)).date()
+            for mk in mk_list:
+                _meta_key_needed_dates.setdefault(mk, set()).add(d)
+
+    for yr in sorted(event_years):
+        if yr in telemetry_by_year:
+            continue
+        if yr not in _year_to_source:
+            telemetry_by_year[yr] = None
+            continue
+        fname, meta_keys = _year_to_source[yr]
+        xlsx_path = os.path.join(config.RAW_CACHE_DIR, fname)
+        if not os.path.exists(xlsx_path):
+            print(f"[telemetry] WARNING: {fname} not found in cache, skipping year {yr}")
+            telemetry_by_year[yr] = None
+            continue
+        # load / reuse each meta_key sheet (with date filter for speed)
+        frames = []
+        for mk in meta_keys:
+            if mk not in _loaded_meta_keys:
+                needed = _meta_key_needed_dates.get(mk)
+                n_dates = len(needed) if needed else 0
+                print(f"[telemetry] loading sheet '{mk}' from {fname} "
+                      f"(filtering to {n_dates} unique dates) ...")
+                try:
+                    _loaded_meta_keys[mk] = telemetry.load_wide_sheet(
+                        xlsx_path, mk, needed_dates=needed
+                    )
+                    print(f"[telemetry] '{mk}' -> {len(_loaded_meta_keys[mk])} rows")
+                except Exception as e:
+                    print(f"[telemetry] WARNING: could not load sheet '{mk}': {e}")
+                    _loaded_meta_keys[mk] = None
+            if _loaded_meta_keys[mk] is not None:
+                frames.append(_loaded_meta_keys[mk])
+        telemetry_by_year[yr] = pd.concat(frames, ignore_index=True) if frames else None
+
+    # Also load the aggregate hourly-generation per-year fallback sheets lazily
+    _hourly_gen_by_year = {}   # year -> df (loaded on demand)
 
     # cache of installation lists per tipo, shared across all cases so we
     # only hit list_installations() once per type, not once per case
@@ -213,36 +275,35 @@ def main():
 
             # -- numeric modality --
             telemetry_saved = False
-            yr = year_range_for(event_dt.year)
-            if yr and yr in telemetry_by_year_range:
-                try:
+            ev_year = event_dt.year
+            # Try per-plant wide-format df first (year-matched)
+            per_plant_df = telemetry_by_year.get(ev_year)
+            if per_plant_df is not None and len(per_plant_df) > 0:
+                window = telemetry.extract_window(
+                    per_plant_df, event_dt,
+                    window_hours=config.TELEMETRY_WINDOW_HOURS,
+                )
+                if len(window) > 0:
+                    window.to_csv(os.path.join(case_dir, "telemetry.csv"), index=False)
+                    telemetry_saved = True
+            # Fallback: hourly_generation.xlsx (system-wide aggregate, long-format)
+            if not telemetry_saved and os.path.exists(hourly_gen_path):
+                if ev_year not in _hourly_gen_by_year:
+                    _hourly_gen_by_year[ev_year] = telemetry.load_hourly_generation_sheet(
+                        hourly_gen_path, ev_year
+                    )
+                agg_df = _hourly_gen_by_year.get(ev_year)
+                if agg_df is not None and len(agg_df) > 0:
                     window = telemetry.extract_window(
-                        telemetry_by_year_range[yr], event_dt,
+                        agg_df, event_dt,
                         window_hours=config.TELEMETRY_WINDOW_HOURS,
                     )
                     if len(window) > 0:
                         window.to_csv(os.path.join(case_dir, "telemetry.csv"), index=False)
                         telemetry_saved = True
-                except ValueError:
-                    pass
             if not telemetry_saved:
-                for name in telemetry_priority:
-                    if name not in telemetry_dfs:
-                        continue
-                    try:
-                        window = telemetry.extract_window(
-                            telemetry_dfs[name], event_dt,
-                            window_hours=config.TELEMETRY_WINDOW_HOURS,
-                        )
-                        if len(window) > 0:
-                            window.to_csv(os.path.join(case_dir, "telemetry.csv"), index=False)
-                            telemetry_saved = True
-                            break
-                    except ValueError:
-                        continue
-            if not telemetry_saved:
-                # still record the case; flag missing telemetry rather than
-                # silently dropping the whole case, so you can see coverage
+                # Still record the case; flag missing telemetry rather than
+                # silently dropping the whole case, so you can see coverage.
                 pd.DataFrame().to_csv(os.path.join(case_dir, "telemetry.csv"), index=False)
 
             # -- metadata --

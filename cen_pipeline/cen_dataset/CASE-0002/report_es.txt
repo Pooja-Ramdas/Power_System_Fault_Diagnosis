@@ -1,0 +1,281 @@
+Estudio para análisis de falla EAF 602/2024
+“Desconexión forzada de barra N°3 15 kV de S/E Chiguayante”
+Fecha de Emisión: 21-01-2025
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 30/12/2024
+Hora 00:55
+Consumos desconectados (MW) 4.60
+Demanda previa del sistema (MW) 9914.78
+Porcentaje de desconexión 0.046 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Chiguayante / SE035T0058
+Tipo de instalación Subestación
+Tensión nominal 66/15 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 16, las Condes, Santiago, Chile
+c. Identificación del elemento fallado
+Nombre del elemento afectado Lógica adaptativa del paño CT3 de S/E Chiguayante /
+PA605T0058SE035T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 16, las Condes, Santiago, Chile
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la barra N°3 15 kV de S/E Chiguayante por la operación de
+sobrecorriente residual del paño CT3, ante una falla ocurrida en la red de distribución del paño C4,
+ambos paños de la mencionada S/E.
+La empresa CGE Transmisión S.A. señala que la causa se debe a la incorrecta implementación de la
+lógica adaptativa asociada al paño CT3.
+d.2 Fenómeno Físico:
+OPE22: Error en programación de elementos de protección o control.
+La empresa CGE Transmisión S.A. remitió los antecedentes solicitados por la Resolución Exenta 30989-
+2019 para el Fenómeno Físico indicado.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica:
+• Revisión de direccionamiento de comandos y estados del
+Falla en interruptor 52E31
+EAF 058_2023 08-02-2023 interruptor 52E31 en sistema SCADA.
+de S/E La Portada
+Normalización de direccionamiento y estados con pruebas
+efectivas en desconexión de 52E31.
+CGE Transmisión S.A. señala:
+“Mediante la SD2023033726 se realizará mejora en el ajuste de
+los supervisores de elementos de protección de distancia
+Desconexión del asociado a relé SEL 311C de Paño BT2 de SE Angol.”
+EAF 165_2023 transformador T2 66/23 kV 09-04-2023 “Dicha mejora consiste en realizar el reajuste de los
+SE Angol supervisores asociados a los elementos de distancia en dicho
+Paño, lo cual no requiere análisis de coordinación de
+protecciones. El cambio por realizar se detalle en informe
+denominado Informe-Angol BT2-RevA”.
+La empresa CGE Transmisión S.A. señala:
+• “Se analizan los eventos.
+• Se realizaron pruebas al SEL-351R de paño C1 el 26/04/2023
+Desconexión forzada de la según DCF N° 2023037949.
+EAF 177_2023 barra 13.2 kV de S/E Monte 23-04-2023 • Se realizó Sincronización del SEL 351A 52CT1 el 26/04/2023
+Patria según DCF N° 2023037949.
+El 27/04/2023 se realizó corrección en la lógica de control de
+ajustes direccionales en SEL 351R 52C1 según ICF
+2023038339.”
+La empresa CGE Transmisión S.A. señala:
+• “Se analizan los eventos.
+• Se realizaron pruebas al SEL-351R de paño C1 el 26/04/2023
+Desconexión forzada de la según DCF N° 2023037949.
+EAF 178_2023 barra 13.2 kV de S/E Monte 23-04-2023 • Se realizó Sincronización del SEL 351A 52CT1 el 26/04/2023
+Patria según DCF N° 2023037949.
+El 27/04/2023 se realizó corrección en la lógica de control de
+ajustes direccionales en SEL 351R 52C1 según ICF
+2023038339.”
+Apertura del interruptor
+EAF 274_2023 23-06-2023 No se indican.
+52C1 de S/E Las Arañas
+Apertura intempestiva del La empresa CGE Transmisión S.A. señala que realizará revisión
+EAF 441_2023 interruptor 52B3 de S/E 16-10-2023 del enlace entre el reloj satelital y la protección SEL-311C del
+Pumahue paño B3 de S/E Pumahue, ante inconsistencia en el registro.
+La empresa CGE Transmisión S.A. señala:
+• “El día 13/11/2023 se corrigieron los ajustes de las
+protecciones de los paños C6 y C7, deshabilitando las
+Aperturas intempestivas de
+funciones de baja frecuencia 81”.
+EAF 495_2023 los interruptores 52C6 y 12-11-2023
+“Se programará una revisión del conexionado secundario de los
+52C7 de S/E Pukará
+TTPP de los alimentadores, con el fin de confirmar su estado y
+en particular su conexión a tierra, para el mes de
+Diciembre/2023”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. señala:
+• “El día 13/11/2023 se corrigieron los ajustes de las
+protecciones de los paños C6 y C7, deshabilitando las
+Aperturas intempestivas de
+funciones de baja frecuencia 81”.
+EAF 496_2023 los interruptores 52C6 y 13-11-2023
+“Se programará una revisión del conexionado secundario de los
+52C7 de S/E Pukará
+TTPP de los alimentadores, con el fin de confirmar su estado y
+en particular su conexión a tierra, para el mes de
+Diciembre/2023”.
+La empresa CGE Transmisión S.A. señala que el 28 de
+diciembre, según la solicitud de desconexión de curso forzoso
+N°2023121622, se realiza el reemplazo y carga de una nueva
+estrategia de control en la RTU del SCADA de S/E Las Arañas,
+Apertura intempestiva del
+con el objeto de corregir la condición anormal detectada.
+EAF 547_2023 interruptor 52E1 de S/E Las 27-12-2023
+Posteriormente, se realizaron pruebas de apertura y cierre sobre
+Arañas
+el interruptor 52HT1, comprobando su correcto funcionamiento
+y confirmando que dichos comandos no actúan sobre el 52E1.
+También se verificó que la misma situación anormal no estuviese
+presente en algún otro equipo de la S/E.
+CGE Transmisión S.A. señala lo siguiente:
+• “La operación indeseada se produce debido a una incorrecta
+programación de la Salida digital Out104 para el grupo 2 de
+ajustes de Relé SEL 311 de Paño B1 de SE Talca: Para corregir
+Desconexión forzada de las
+dicha condición de corrige dicha ecuación de grupo 2 de ajuste
+EAF 032_2024 barras N°1 y N°2 de 66 kV 27-01-2024
+haciendo Out104=TRIP, lo cual es realizado el día domingo 28
+de S/E Talca
+de enero a las 16:00 horas.
+“Se programará la realización de la habilitación de la
+sincronización satelital a los tres relés de la protección
+diferencial de barras, SEL 487B fase A, B y C.”
+CGE Transmisión S.A. señala:
+• “El día 7-05-2024 se realizó el cambio a los ajustes normales
+del control Form 4C del interruptor 52C6, según SD
+2024040005 (previa aprobación del coordinador eléctrico
+nacional).
+• Se coordinó con centro de operaciones de transmisión (COT),
+Desconexión forzada de
+mantener el 52C6 solo en ajuste Normal, ya que con este
+EAF 209_2024 barra N°2 15 kV de S/E 10-05-2024
+ajuste existe correcta selectividad con el 52CT2.
+Alameda
+• Se gestiona la confección del nuevo Estudio de Coordinación
+de Protecciones para el 52C6 de modo de solucionar la
+operación no selectiva cuando están los ajustes alternativos
+activos.
+Fecha realización del estudio: 30/06/2024
+Fecha implementación del estudio: 31/07/2024”.
+CGE Transmisión S.A. indica lo siguiente: “Debido a que la
+Apertura intempestiva del
+operación de relé se debió a un error en la programación, se
+EAF 281_2024 interruptor 52C2 de S/E 20-06-2024
+procede con el bloqueo de la función de Falla Sensitiva a Tierra
+Hualañé
+en el relé.”
+La empresa CGE Transmisión S.A. indica lo siguiente:
+“Se realiza recorrido de la LT110kV Portezuelo - La Estrella sin
+novedades. Se realiza recorrido de la LT66kV Portezuelo -
+Marchigüe sin novedades. Se realiza recorrido de la LT66kV
+Marchigue - Alcones sin novedades. Se realiza recorrido de la
+Apertura automática del LT66kV Marchigue - Lihueimo sin novedades. Se revisa
+EAF 438_2024 interruptor 52HL1 de S/E 21-08-2024 alambrado de control de TTCC 110kV Paño HL1 sin novedades.
+Portezuelo Descarga de eventos paños HT1, HT2, BT1, BT2, B1 y B2 de S/E
+Portezuelo. Inspección de S/E Portezuelo sin novedades. Se
+deshabilita teleprotección de la LT110kV Portezuelo - La estrella.
+Se realiza cambio de ajuste de protección 52HL1 de S/E
+Portezuelo de corriente direccional de neutro de polarización
+Dual a Voltaje según SD 2024086731.”
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica lo siguiente:
+“Se realiza recorrido de la LT110kV Portezuelo - La Estrella sin
+novedades.
+Se realiza recorrido de la LT66kV Portezuelo - Marchigüe sin
+novedades.
+Se realiza recorrido de la LT66kV Marchigüe - Alcones sin
+novedades.
+Se realiza recorrido de la LT66kV Marchigüe - Lihueimo sin
+Apertura automática del novedades.
+EAF 439_2024 interruptor 52HL1 de S/E 21-08-2024 Se revisa alambrado de control de TTCC 110kV Paño HL1 sin
+Portezuelo novedades.
+Descarga de eventos paños HT1, HT2, BT1, BT2, B1 y B2 de S/E
+Portezuelo.
+Inspección de S/E Portezuelo sin novedades.
+Se deshabilita teleprotección de la LT110kV Portezuelo - La
+estrella.
+Se realiza cambio de ajuste de protección 52HL1 de S/E
+Portezuelo de corriente direccional de neutro de polarización
+Dual a Voltaje según SD 2024086731”.
+La empresa CGE Transmisión S.A. indica: “Una vez ocurrida la
+Desconexión forzada del apertura del 52BT2 S/E Cachapoal, se procede a realizar la
+EAF 514_2024 transformador N°2 66/15 kV 23-10-2024 corrección inmediata de los ajustes de la función 50BF del
+de S/E Cachapoal interruptor 52CT2, con el fin de evitar futuras operaciones
+indeseadas”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido 1 falla en
+la misma instalación afectada durante los últimos 24 meses móviles, correspondiente al Estudio para
+Análisis de Falla EAF 173-2023.
+d.4 Fenómeno eléctrico
+SO50IR: Sobrecorriente instantánea de residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al sistema de comunicación entre el relé EFACEC-
+S220 del paño CT3 y el relé Cooper-F6 del paño C4, ambos de S/E Chiguayante. El sistema de
+comunicación corresponde a la lógica adaptativa propuesta en el NUP 3259, con el objetivo de ajustar
+los tiempos de coordinación, en base a la NTSyCS actual, ante fallas en la barra 15 kV de S/E
+Chiguayante.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Compañía General de Electricidad S.A. indica “Urbana” referido al alimentador Machasa.
+La empresa Compañía General de Electricidad S.A. no se pronuncia con respecto al alimentador
+Hualqui.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+8103: Chiguayante.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(02-01-2025) (07-01-2025)
+CGE Transmisión S.A. (CGE Tx) 30-12-2024 15-01-2025
+Compañía General de Electricidad S.A. (CGE Dx) 30-12-2024 03-01-2025
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Chiguayante ST Zonal Barra N°3 15 kV 00:55 01:00
+- Los horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Sub-Estación Alimentador Comuna Pérdida de % consumo Clientes H. H. H.
+/Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Chiguayante Machasa / C1 Chiguayante 0.00 0.000 0 00:55 01:00 01:02
+Chiguayante,
+Chiguayante Hualqui / C4 1.84 (*) 0.019 00:55 01:00 01:08
+Hualqui
+13845
+Chiguayante, 01:34
+Chiguayante Hualqui / C4 2.76 0.028 00:55 01:00
+Hualqui (**)
+Total: 4.60 MW 0.046 % 13845
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE Transmisión S.A. y Compañía General de
+Electricidad S.A.
+(*) Corresponde al 40% de los consumos del alimentador Hualqui, según informa CGE Transmisión S.A. en su Informe de Falla de
+5 días.
+(**) Horario de conexión en redes de distribución informado por CGE Transmisión S.A. en su Informe de Falla de 5 días.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Chiguayante Machasa / C1 CGE Dx Regulado 0.00 0.08 0.12 0.0
+Chiguayante Hualqui / C4 CGE Dx Regulado 1.84 0.08 0.22 0.4
+Chiguayante Hualqui / C4 CGE Dx Regulado 2.76 0.08 0.65 1.8
+Clientes Regulados : 2.2 MWh
+Clientes Libres : MWh
+Total : 2.2 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE Transmisión S.A. y Compañía General de
+Electricidad S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecia una diferencia significativa entre los horarios de recuperación esperada y recuperación
+real de los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 3.68 0.65 5.66
+Último 20 % 0.92 0.65 1.42
+100 % Total 4.60 0.65 7.08
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9914.78 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Canutillar (U2), El Toro (U1, U2, U3 y U4) y Ralco (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 30 de diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 30 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+30 de diciembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 30 de
+diciembre de 2024.

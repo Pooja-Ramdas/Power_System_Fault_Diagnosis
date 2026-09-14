@@ -1,0 +1,249 @@
+Estudio para análisis de falla EAF 514/2024
+“Desconexión forzada del transformador N°2 66/15 kV de S/E Cachapoal”
+Fecha de Emisión: 15-11-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 23/10/2024
+Hora 16:08
+Consumos desconectados (MW) 15.73
+Demanda previa del sistema (MW) 9654
+Porcentaje de desconexión 0.162%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Cachapoal / SE032T0058
+Tipo de instalación Subestación
+Tensión nominal 66 y 15 kV
+Segmento Transmisión zonal
+Propietario instalación fallada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Avenida Presidente Riesco N°5561 Piso 14, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento afectado Función 50BF del relé SEL-387 del paño CT2 de S/E Cachapoal /
+SP162T0058SE032T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Avenida Presidente Riesco N°5561 Piso 14, Las Condes
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada del transformador N°2 66/15 kV de S/E Cachapoal por operación
+incorrecta de la función 50BF del paño CT2, implementada en el relé SEL-387, tras falla en redes de
+media tensión abastecidas desde el mencionado transformador.
+La causa de la operación incorrecta de la función 50BF se debió a una configuración errónea en sus
+parámetros.
+d.2 Fenómeno Físico:
+OPE22: Error en programación de elementos de protección o control.
+La empresa CGE Transmisión S.A. remitió los probatorios asociados al Fenómeno Físico indicado, de
+acuerdo con la Resolución Exenta N°30989-2019 de la Superintendencia de Electricidad y
+Combustibles. En este caso particular, no aplica remitir los mantenimientos de los últimos 24 meses
+realizados sobre el equipo donde existió el error de programación, ya que este fue puesto en servicio
+4 días antes de presentarse la falla (según las Solicitudes de Intervención y/o Desconexión Neomante
+N°2024103354, N°2024097618 y N°2024097624).
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA ID NOMBRE FALLA ACCIONES CORRECTIVAS CP ACCIONES CORRECTIVAS LP
+La empresa CGE Transmisión S.A. indica:
+“Se realiza en forma inmediata la inspección visual
+del transformador T1 de SE Constitución,
+confirmando que no existen operaciones de las
+protecciones mecánicas de este.
+Se realiza la extracción de aceite para realizar
+análisis de Cromatográfico y Físico - químico. Los
+resultados del Análisis permiten concluir que el
+Desconexión forzada transformador se encuentra en condiciones de
+del transformador mantenerse en servicio.
+EAF 409-2022 No se indican.
+66/23 kV N°1 de S/E Se realizan pruebas eléctricas de emergencia a
+Constitución Transformador.
+Una vez determinado que operación se debió a la
+conexión externa de un conjunto de
+Transformadores en Central Constitución, es que se
+determinó realizar la modificación del ajuste de
+umbral de operación de la protección diferencial,
+para efecto de evitar la operación indeseada de esta
+frente a energización de Central Constitución de
+propiedad de Elektragen.”
+La empresa CGE Transmisión S.A. indica:
+Falla en interruptor • Revisión de direccionamiento de comandos y
+EAF 058-2023 52E31 de S/E La estados del interruptor 52E31 en sistema SCADA. No se indican.
+Portada • Normalización de direccionamiento y estados con
+pruebas efectivas en desconexión de 52E31.
+CGE Transmisión S.A. señala:
+“Mediante la SD2023033726 se realizará mejora en
+el ajuste de los supervisores de elementos de
+protección de distancia asociado a relé SEL 311C de
+Desconexión del Paño BT2 de SE Angol.”
+EAF 165-2023 transformador T2 “Dicha mejora consiste en realizar el reajuste de los No se indican.
+66/23 kV SE Angol supervisores asociados a los elementos de distancia
+en dicho Paño, lo cual no requiere análisis de
+coordinación de protecciones. El cambio por realizar
+se detalle en informe denominado Informe-Angol
+BT2-RevA”.
+La empresa CGE Transmisión S.A. señala:
+Desconexión forzada
+• “Se analizan los eventos.
+EAF 177-2023 de la barra 13.2 kV No se indican.
+• Se realizaron pruebas al SEL-351R de paño C1 el
+de S/E Monte Patria
+26/04/2023 según DCF N° 2023037949.
+• Se realizó Sincronización del SEL 351A 52CT1 el
+26/04/2023 según DCF N° 2023037949.
+• El 27/04/2023 se realizó corrección en la lógica
+de control de ajustes direccionales en SEL 351R
+52C1 según ICF 2023038339.”
+La empresa CGE Transmisión S.A. señala:
+• “Se analizan los eventos.
+• Se realizaron pruebas al SEL-351R de paño C1
+Desconexión forzada el 26/04/2023 según DCF N° 2023037949.
+EAF 178-2023 de la barra 13.2 kV • Se realizó Sincronización del SEL 351A 52CT1 el No se indican.
+de S/E Monte Patria 26/04/2023 según DCF N° 2023037949.
+• El 27/04/2023 se realizó corrección en la lógica
+de control de ajustes direccionales en SEL 351R
+52C1 según ICF 2023038339.”
+Apertura La empresa CGE Transmisión S.A. señala que
+intempestiva del realizará revisión del enlace entre el reloj satelital y
+EAF 441-2023 No se indican.
+interruptor 52B3 de la protección SEL-311C del paño B3 de S/E
+S/E Pumahue Pumahue, ante inconsistencia en el registro.
+La empresa CGE Transmisión S.A. señala:
+• “El día 13/11/2023 se corrigieron los ajustes de
+las protecciones de los paños C6 y C7,
+Aperturas deshabilitando las funciones de baja frecuencia
+intempestivas de los 81”.
+EAF 495-2023 No se indican.
+interruptores 52C6 y • “Se programará una revisión del conexionado
+52C7 de S/E Pukará secundario de los TTPP de los alimentadores, con
+el fin de confirmar su estado y en particular su
+conexión a tierra, para el mes de
+Diciembre/2023”.
+La empresa CGE Transmisión S.A. señala:
+• “El día 13/11/2023 se corrigieron los ajustes de
+las protecciones de los paños C6 y C7,
+Aperturas deshabilitando las funciones de baja frecuencia
+intempestivas de los 81”.
+EAF 496-2023 No se indican.
+interruptores 52C6 y • “Se programará una revisión del conexionado
+52C7 de S/E Pukará secundario de los TTPP de los alimentadores, con
+el fin de confirmar su estado y en particular su
+conexión a tierra, para el mes de
+Diciembre/2023”.
+La empresa CGE Transmisión S.A. señala que el 28
+de diciembre, según la solicitud de desconexión de
+curso forzoso N°2023121622, se realiza el
+reemplazo y carga de una nueva estrategia de
+La empresa CGE Transmisión
+control en la RTU del SCADA de S/E Las Arañas, con
+Apertura S.A. señala que “no se requiere”
+el objeto de corregir la condición anormal
+intempestiva del ejecutar acciones correctivas a
+EAF 547-2023 detectada. Posteriormente, se realizaron pruebas
+interruptor 52E1 de largo plazo.
+de apertura y cierre sobre el interruptor 52HT1,
+S/E Las Arañas
+comprobando su correcto funcionamiento y
+confirmando que dichos comandos no actúan sobre
+el 52E1. También se verificó que la misma situación
+anormal no estuviese presente en algún otro equipo
+de la S/E.
+CGE Transmisión S.A. señala lo siguiente:
+• “La operación indeseada se produce debido a una
+incorrecta programación de la Salida digital
+Out104 para el grupo 2 de ajustes de Relé SEL
+311 de Paño B1 de SE Talca: Para corregir dicha
+Desconexión forzada
+condición de corrige dicha ecuación de grupo 2 CGE Transmisión S.A. señala que
+de las barras N°1 y
+EAF 032-2024 de ajuste haciendo Out104=TRIP, lo cual es “No aplica”.
+N°2 de 66 kV de S/E
+realizado el día domingo 28 de enero a las 16:00
+Talca
+horas.
+• “Se programará la realización de la habilitación
+de la sincronización satelital a los tres relés de la
+protección diferencial de barras, SEL 487B fase
+A, B y C.”
+CGE Transmisión S.A. señala:
+• “El día 7-05-2024 se realizó el cambio a los
+ajustes normales del control Form 4C del
+interruptor 52C6, según SD 2024040005 (previa
+aprobación del coordinador eléctrico nacional). CGE Transmisión S.A. no señala
+Desconexión forzada • Se coordinó con centro de operaciones de acciones correctivas de largo
+EAF 209-2024 de barra N°2 15 kV transmisión (COT), mantener el 52C6 solo en plazo.
+ajuste Normal, ya que con este ajuste existe
+de S/E Alameda
+correcta selectividad con el 52CT2.
+• Se gestiona la confección del nuevo Estudio de
+Coordinación de Protecciones para el 52C6 de
+modo de solucionar la operación no selectiva
+cuando están los ajustes alternativos activos.
+Fecha realización del estudio: 30/06/2024
+Fecha implementación del estudio: 31/07/2024”.
+Apertura CGE Transmisión S.A. indica lo siguiente: “Debido a
+CGE Transmisión S.A. indica: “No
+intempestiva del que la operación de relé se debió a un error en la
+EAF 281-2024 aplica”.
+interruptor 52C2 de programación, se procede con el bloqueo de la
+S/E Hualañé función de Falla Sensitiva a Tierra en el relé.”
+La empresa CGE Transmisión S.A. indica lo
+siguiente:
+“Se realiza recorrido de la LT110kV Portezuelo - La
+Estrella sin novedades. Se realiza recorrido de la
+LT66kV Portezuelo - Marchigüe sin novedades. Se
+realiza recorrido de la LT66kV Marchigue - Alcones
+sin novedades. Se realiza recorrido de la LT66kV
+Apertura automática
+Marchigue - Lihueimo sin novedades. Se revisa CGE Transmisión S.A. indica: “No
+del interruptor
+EAF 438-2024 alambrado de control de TTCC 110kV Paño HL1 sin aplica”.
+52HL1 de S/E
+novedades. Descarga de eventos paños HT1, HT2,
+Portezuelo
+BT1, BT2, B1 y B2 de S/E Portezuelo. Inspección de
+S/E Portezuelo sin novedades. Se deshabilita
+teleprotección de la LT110kV Portezuelo - La
+estrella. Se realiza cambio de ajuste de protección
+52HL1 de S/E Portezuelo de corriente direccional de
+neutro de polarización Dual a Voltaje según SD
+2024086731.”
+La empresa CGE Transmisión S.A. indica lo
+siguiente:
+“Se realiza recorrido de la LT110kV Portezuelo - La
+Estrella sin novedades.
+Se realiza recorrido de la LT66kV Portezuelo -
+Marchigüe sin novedades.
+Se realiza recorrido de la LT66kV Marchigüe -
+Alcones sin novedades.
+Apertura automática Se realiza recorrido de la LT66kV Marchigüe - La empresa CGE Transmisión
+del interruptor S.A. indica lo siguiente: “No
+EAF 439-2024 Lihueimo sin novedades.
+52HL1 de S/E aplica”.
+Portezuelo Se revisa alambrado de control de TTCC 110kV
+Paño HL1 sin novedades.
+Descarga de eventos paños HT1, HT2, BT1, BT2, B1
+y B2 de S/E Portezuelo.
+Inspección de S/E Portezuelo sin novedades.
+Se deshabilita teleprotección de la LT110kV
+Portezuelo - La estrella.
+Se realiza cambio de ajuste de protección 52HL1 de
+S/E Portezuelo de corriente direccional de neutro de
+polarización Dual a Voltaje según SD 2024086731”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido 1 falla en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 521/2023).
+d.4 Fenómeno eléctrico
+FA50BF: Falla de interruptor.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde existía el error de programación corresponde al relé SEL-387 del paño CT2 de S/E
+Cachapoal, el cual fue puesto en servicio 4 días antes de presentarse la falla (según las Solicitudes de
+Intervención y/o Desconexión Neomante N°2024103354, 2024097618 y 2024097624. El único
+antecedente relevante que amerita mención, es que la empresa CGE Transmisión S.A. entregó vía
+Plataforma de Gestión de Proyectos del Coordinador un acta de declaración de ejecución satisfactoria
+de la configuración de los relés de protección asociados al proyecto NUP 4281, individualizando al
+mencionado equipo en el Anexo de este documento.
+f. Ubicación urbana o rural según DS 327/1997
+No informado.
+g. Proposición del propietario respecto del origen de la falla
+Interna.

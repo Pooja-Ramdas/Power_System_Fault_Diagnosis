@@ -1,0 +1,258 @@
+Estudio para análisis de falla EAF 473/2024
+“Falla en línea 66 kV Bombeo 2 (SGO) - Bombeo 3 (SGO)”
+Fecha de Emisión: 04-10-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 10/09/2024
+Hora 21:07
+Consumos desconectados (MW) 4.00
+Demanda previa del sistema (MW) 9941.02
+Porcentaje de desconexión 0.040 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Bombeo 2 (SGO) - Bombeo 3 (SGO) / LT003CI1TR03----L0151
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Caitan SpA
+RUT 76.786.103-6
+Representante Legal Cristián Abarca
+Dirección Av. Manquehue Norte N°160, piso 9, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento afectado Conductor de la fase A de la línea 66 kV Bombeo 2 (SGO) - Bombeo 3 (SGO)
+/ LT003CI1TR03----L0151
+Propietario elemento fallado Caitan SpA
+RUT 76.786.103-6
+Representante Legal Carlos Moreno
+Dirección Av. Manquehue Norte N°160, piso 9, Las Condes
+d. Origen y causa de la falla
+Se produjo la apertura automática de los interruptores 52B2 de S/E Bombeo 2 (SGO) y 52B1 de S/E
+Bombeo 3 (SGO), asociados a la línea 66 kV Bombeo 2 (SGO) - Bombeo 3 (SGO), por operación de
+su protección diferencial ante una falla atribuida a un ave que provocó una descarga por
+acercamiento entre el conductor de la fase A y la estructura N°8 de la línea.
+d.2 Fenómeno Físico:
+ANI1: Acción de animales, roedores o pájaros (por contacto directo u otro).
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico, durante los últimos 24 meses móviles (EAF 081-2023, EAF 233-2023, EAF 499-
+2023, EAF 539-2023, EAF 077-2024, EAF 092-2024, EAF 101-2024, EAF 149-2024, EAF 173-2024,
+EAF 462-2024 y EAF 466-2024).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Caitan SpA señala que “la falla es una condición de
+fuerza mayor producto de las condiciones del entorno, no
+Falla en línea 66 kV
+EAF 081_2023 18-02-2023 obstante, semanalmente se realiza inspección de línea y se
+Bombeo 2 - Bombeo 3
+efectúa saneamiento cuando se identifica desechos que pudieran
+atraer a aves de carroña.”
+La empresa Caitan SpA señala que “La falla es una condición
+fortuita producto de las condiciones del entorno, la cual en lo
+que va del año se ha generado dos veces, una en febrero y la
+Falla en línea 66 kV que se está informando, la afectación del suministro es el
+EAF 233_2023 18-02-2023
+Bombeo 2 - Bombeo 3 consumo propio, no obstante, por ser reiterativa la falla,
+semanalmente se realiza inspección de línea y se efectúa
+saneamiento cuando se identifica desechos que pudieran atraer
+a aves de carroña.”
+La empresa Caitan SpA señala que “La falla es una condición
+fortuita producto de las condiciones del entorno, la cual en lo
+que va del año se ha generado dos veces, una en febrero y la
+Falla en línea 66 kV que se está informando, la afectación del suministro es el
+EAF 499_2023 01-06-2023
+Bombeo 2 - Bombeo 3 consumo propio, no obstante, por ser reiterativa la falla,
+semanalmente se realiza inspección de línea y se efectúa
+saneamiento cuando se identifica desechos que pudieran atraer
+a aves de carroña.”
+La empresa Caitan SpA. indica:
+“La falla es una condición fortuita producto de las condiciones
+del entorno, la cual en lo que va del año se ha generado cuatro
+Falla en línea 66 kV veces, una en febrero, dos en junio y la que se está informando,
+EAF 539_2023 16-11-2023
+Bombeo 2 - Bombeo 3 la afectación el suministro es el consumo propio, no obstante,
+por ser reiterativa la falla, semanalmente se realiza inspección
+de línea y se efectúa saneamiento cuando se identifica desechos
+que pudieran atraer a aves de carroña”.
+La empresa Caitan SpA. indica:
+“La falla es una condición fortuita producto de las condiciones
+del entorno, la cual en lo que va del año se ha generado cuatro
+Falla en línea 66 kV E. veces, una en febrero, dos en junio y la que se está informando,
+EAF 077_2024 17-02-2024
+Bombeo 2 - E. Bombeo 3 la afectación el suministro es el consumo propio, no obstante,
+por ser reiterativa la falla, semanalmente se realiza inspección
+de línea y se efectúa saneamiento cuando se identifica desechos
+que pudieran atraer a aves de carroña”.
+La empresa Caitan SpA señala:
+“La falla es una condición fortuita producto de las condiciones
+del entorno, la cual en lo que va del año se ha generado cuatro
+Falla en línea 66 kV
+veces, una en febrero, dos en junio y la que se está informando,
+EAF 092_2024 Bombeo 2 (SGO) - 01-03-2024
+la afectación el suministro es el consumo propio, no obstante,
+Bombeo 3 (SGO)
+por ser reiterativa la falla, semanalmente se realiza inspección
+de línea y se efectúa saneamiento cuando se identifica desechos
+que pudieran atraer a aves de carroña”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Caitan SpA señala:
+“La falla es una condición fortuita producto de las condiciones
+del entorno, la cual en lo que va del año se ha generado cuatro
+Falla en línea 66 kV
+veces, una en febrero, dos en junio y la que se está informando,
+EAF 101_2024 Bombeo 2 (SGO) - 10-03-2024
+la afectación el suministro es el consumo propio, no obstante,
+Bombeo 3 (SGO)
+por ser reiterativa la falla, semanalmente se realiza inspección
+de línea y se efectúa saneamiento cuando se identifica desechos
+que pudieran atraer a aves de carroña”.
+La empresa Caitan SpA señala:
+“La falla es una condición fortuita producto de las condiciones
+del entorno, la cual en lo que va del año se ha generado cuatro
+Falla en línea 66 kV
+veces, una en febrero, dos en junio y la que se está informando,
+EAF 149_2024 Bombeo 2 (SGO) - 13-04-2024
+la afectación el suministro es el consumo propio, no obstante,
+Bombeo 3 (SGO)
+por ser reiterativa la falla, semanalmente se realiza inspección
+de línea y se efectúa saneamiento cuando se identifica desechos
+que pudieran atraer a aves de carroña”.
+La empresa Caitan SpA señala:
+“La falla es una condición fortuita producto de las condiciones
+del entorno, la cual en lo que va del año se ha generado cuatro
+Falla en línea 66 kV
+veces, una en febrero, dos en junio y la que se está informando,
+EAF 173_2024 Bombeo 2 (SGO) - 24-04-2024
+la afectación el suministro es el consumo propio, no obstante,
+Bombeo 3 (SGO)
+por ser reiterativa la falla, semanalmente se realiza inspección
+de línea y se efectúa saneamiento cuando se identifica desechos
+que pudieran atraer a aves de carroña”.
+La empresa Caitan SpA indica:
+“La falla es una condición fortuita producto de las condiciones
+del entorno, la cual en lo que va del año se ha generado cuatro
+Falla en línea 66 kV
+veces, una en febrero, dos en junio y la que se está informando,
+EAF 462_2024 Bombeo 2 (SGO) - 01-09-2024
+la afectación el suministro es el consumo propio, no obstante,
+Bombeo 3 (SGO)
+por ser reiterativa la falla, semanalmente se realiza inspección
+de línea y se efectúa saneamiento cuando se identifica desechos
+que pudieran atraer a aves de carroña”.
+La empresa Caitan SpA señala:
+“La falla es una condición fortuita producto de las condiciones
+Falla en línea 66 kV del entorno, la cual en lo que va del año se ha generado en
+EAF 466_2024 Bombeo 2 (SGO) - 05-09-2024 reiteradas ocasiones, la afectación el suministro es el consumo
+Bombeo 3 (SGO) propio, no obstante, por ser reiterativa la falla, semanalmente
+se realiza inspección de línea y se efectúa saneamiento cuando
+se identifica desechos que pudieran atraer a aves de carroña”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 081-2023, EAF 233-2023,
+EAF 499-2023, EAF 539-2023, EAF 077-2024, EAF 092-2024, EAF 101-2024, EAF 149-2024, EAF
+173-2024, EAF 462-2024 y EAF 466-2024).
+d.4 Fenómeno eléctrico
+PR87L: Protección diferencial de línea.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al conductor de la fase A de la línea 66 kV Bombeo
+2 (SGO) - Bombeo 3 (SGO), la cual, de acuerdo con lo informado por su propietario en la plataforma
+Infotécnica del Coordinador, posee una longitud de 32.5 km, un tipo de conductor AAAC Cairo, y con
+fecha de entrada en operación durante el mes de marzo del año 2020.
+Al respecto, la empresa Caitan SpA remite información correspondiente a los mantenimientos
+realizados a la línea durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+La empresa Caitan SpA remite los siguientes antecedentes en respaldo a la proposición del origen de
+la falla:
+• Informe de Interrupción de Suministro.
+• Registros fotográficos de la instalación fallada.
+h. Comuna donde se presenta la falla
+2102: Mejillones
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(12-09-2024) (17-09-2024)
+Caitan SpA 11-09-2024 26-09-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 66 kV Bombeo 2 (SGO) - Bombeo 3 (SGO) ST Dedicado - 21:07 22:33
+c. Consumos
+Sub-Estación Alimentador Comuna Pérdida de % Clientes H. H. H.
+/Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Bombeo 3 (SGO) - Mejillones 4.00 0.040 1 21:07 22:33 22:33
+Total: 4.00 MW 0.040 % 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa Caitan SpA
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. Desc. (MWh)
+(h) (h)
+S/E Bombeo 3 (SGO) - Caitan SpA Libre 4.00 1.43 1.43 5.7
+Clientes Regulados : MWh
+Clientes Libres : 5.7 MWh
+Total : 5.7 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Caitan SpA
+- Curva de recuperación esperada v/s recuperación real.
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+1
+1
+1
+1
+:4
+:3
+:1
+:0
+:4
+:3
+:1
+:0
+5
+0
+5
+0
+5
+0
+5
+0
+R e cu p e ra ció n e sp e ra d
+1
+a
+0 0 .0 %
+R e cu p e ra ció n re a l
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real de los
+consumos afectados por la falla.
+- Velocidad promedio de recuperación.
+Rango Potencia Tiempo Velocidad de
+(MW) recuperación (h) recuperación
+(MW/h)
+Primer 80 % 3.20 1.43 2.24
+Último 20 % 0.80 1.43 0.56
+100 % Total 4.00 1.43 2.80
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9941.02 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2 y U3), Mejillones (IEM), Quintero (U1) y Ralco (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 10 de septiembre de
+2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 10 de septiembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+10 de septiembre de 2024.

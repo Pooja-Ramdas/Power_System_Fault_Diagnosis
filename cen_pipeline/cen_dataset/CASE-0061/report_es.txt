@@ -1,0 +1,160 @@
+Estudio para análisis de falla EAF 545/2024
+“Desconexión forzada de la barra 23 kV de S/E Los Vilos”
+Fecha de Emisión: 04-12-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 13/11/2024
+Hora 11:41
+Consumos desconectados (MW) 6.64
+Demanda previa del sistema (MW) 10158.43
+Porcentaje de desconexión 0.070 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Barra 23 kV de S/E Los Vilos / BA02L0051SE025T0002
+Tipo de instalación Barra
+Tensión nominal 23 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Minera Los Pelambres
+RUT 96.790.240-3
+Representante Legal Mauricio Larraín *
+Dirección Av. Apoquindo N°4001, Piso 18, Las Condes.
+(*) Datos extraídos desde la plataforma REUC del Coordinador; en el caso del Representante Legal, corresponde al gerente general
+informado en la mencionada plataforma.
+c. Identificación del elemento fallado
+Esquema de control y protecciones del transformador N°1 220/23 kV de S/E
+Nombre del elemento fallado
+Los Vilos / ET01L0051SE025T0002
+Propietario elemento fallado Minera Los Pelambres
+RUT 96.790.240-3
+Representante Legal Mauricio Larraín *
+Dirección Av. Apoquindo N°4001, Piso 18, Las Condes.
+(*) Datos extraídos desde la plataforma REUC del Coordinador; en el caso del Representante Legal, corresponde al gerente general
+informado en la mencionada plataforma.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52ET2 de S/E Los Vilos, correspondiente al lado 23
+kV del transformador N°2 220/23 kV, debido a una operación inadecuada del sistema de protecciones
+del transformador N°1 220/23 kV. Adicionalmente, por el mismo motivo, se produjo la apertura
+automática del interruptor 52E2 de dicha subestación.
+La empresa Minera Los Pelambres declara que la anormalidad en el sistema de protecciones del
+transformador N°1 220/23 kV de S/E Los Vilos afectó de manera errónea al interruptor de salida del
+transformador N°2 220/23 kV de dicha subestación, donde se comprueba una operación cruzada de
+las protecciones mecánicas de dichos equipos.
+d.2 Fenómeno Físico:
+OPE21: Error en conexionado en elementos de poder, protección o control.
+La empresa Minera Los Pelambres no remite los antecedentes (probatorios) para acreditar el fenómeno
+físico declarado, lo que se detalla a continuación:
+• Mantenimientos de los últimos 24 meses realizados en el equipo o elemento donde existe el
+error de conexionado.
+• Registro fotográfico con fecha, hora y coordinadas UTM.
+• Secuencia de operación de protecciones, incluyendo un informe técnico (cómo operaron las
+protecciones y cómo debieron haber operado).
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación sí ha sido afectada por el mismo
+fenómeno físico, durante los últimos 24 meses móviles (EAF 097-2024 y EAF 530-2024).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Minera Los Pelambres indica:
+“Se bloquea 50BF de transformador 2, se revisa lógica de operación
+Desconexión forzada para mejorarla y se continúa con los trabajos de mejora y
+EAF 097-2024 de la barra 23 kV de 05/03/2024 normalización de alambrado y conexionado del sistema de control y
+S/E Los Vilos protecciones del transformador 2”.
+“Revisar el sistema de control y protecciones, además de la lógica de
+operación de la protección 50 BF del transformador 1”.
+La empresa Minera Los Pelambres, en su Informe de 48 horas,
+indica:
+Desconexión forzada “Revisión a todos los sistemas de control, mecánicos, de medición,
+EAF 530-2024 de la barra 23 kV de 03/11/2024 niveles y pruebas al transformador. Determinar la causa de la falla y
+S/E Los Vilos realizar todas las acciones correctivas que correspondan. Revisión de
+ajustes y comandos, tomando en consideración la perdida de energía
+por el circuito 2”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido dos fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 097-2024 y EAF 530-
+2024).
+d.4 Fenómeno eléctrico
+EN86: Enclavamiento.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los esquemas de protección del transformador N°1
+220/23 kV de S/E Los Vilos, cuyo transformador, según lo informado por su propietario en la plataforma
+Infotécnica del Coordinador, es de la marca Weg con una capacidad de 30 MVA y su entrada en
+operación fue el 23 de noviembre de 2022.
+La empresa Minera Los Pelambres no remitió los mantenimientos realizados durante los últimos 24
+meses al transformador N°1 220/23 kV de S/E Los Vilos, junto a sus sistemas de control y protecciones.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Interno, de acuerdo con lo indicado por Minera Los Pelambres en su Informe de Falla de 48 horas.
+h. Comuna donde se presenta la falla
+04203: Los Vilos.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(15-11-2024) (20-11-2024)
+Minera Los Pelambres 15-11-2024 29-11-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Los Vilos ST Dedicado Barra 23 kV 11:41 11:56
+- Las horas señalas corresponden a lo informado por la empresa Minera Los Pelambres.
+c. Consumos
+Pérdida de
+Alimentador / % consumo Clientes H. H. H.
+S/E Comuna Consumo
+Paño pre-falla Afectados Desc. Disp. Norm.
+(MW)
+Los Vilos ET2 Los Vilos 6.64* 0.070 1 11:41 11:56 11:56
+Total: 6.64 MW 0.070 % 1
+- Los horarios señalados corresponden a lo informado por la empresa Minera Los Pelambres.
+- (*) Según el registro histórico del sistema SCADA del Coordinador.
+3. Estimación de la energía no suministrada
+Alimentador / Tipo de Pérdida de Tiempo Tiempo ENS
+S/E Empresa
+Paño Cliente Consumo (MW) Indisp. (h) Desc. (h) (MWh)
+Los Vilos ET2 Minera Los Pelambres Libre 6.64* 0.25 0.25 1.7
+Clientes Regulados : MWh
+Clientes Libres : 1.7 MWh
+Total : 1.7 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Minera Los Pelambres.
+- (*) Según el registro histórico del sistema SCADA del Coordinador.
+- Curva de recuperación esperada v/s recuperación real.
+No se observan diferencias entre el horario de recuperación real y el horario de disponibilidad de la
+barra primaria respectiva en S/E Los Vilos.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Rango Potencia (MW) recuperación recuperación
+(h) (MW/h)
+Primer 80 % 5.31 0.25 21.25
+Último 20 % 1.33 0.25 5.31
+100 % Total 6.64 0.25 26.56
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10158.43 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Canutillar (U1),
+Colbún (U1), El Toro (U1), El Toro (U2), El Toro (U3) y PFV MALGARIDA.
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 13 de noviembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 13 de noviembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+13 de noviembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 13 de
+noviembre de 2024.
+Estado y configuración previo a la falla
+Previo a la falla, el transformador N°1 220/23 kV de S/E Los Vilos se encontraba fuera de servicio
+mediante la SDCF N°2024121689 vigente a la fecha.
+Otros antecedentes relevantes
+Según lo señalado por Minera Los Pelambres en sus Informes de Falla de 48 horas y de 5 días:
+“Personal de mantenimiento realizando limpieza en relés mecánicos de transformador T1 (el que se
+encontraba fuera de servicio), activa uno de estos relés, lo cual origina operación de desenganche
+sobre los interruptores 52ET2 y 52E2 asociados al transformador T2.”
+“Se concluye que todas las fallas ocurridas en este período están relacionadas entre sí y
+corresponden a una operación inadecuada del sistema de protecciones del transformador T1. Esta
+anormalidad se manifiesta en su propio sistema de protecciones, que en lugar de operar sobre el
+mismo transformador T1, afecta de manera errónea el interruptor de salida del transformador T2.
+Se comprueba una operación cruzada entre las protecciones mecánicas del transformador T1 hacia
+el transformador T2. Lo correcto es que este sistema debe operar en forma separada e
+independiente, apuntando cada sistema de protección a su propio transformador.”

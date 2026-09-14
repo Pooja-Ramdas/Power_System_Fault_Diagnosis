@@ -1,0 +1,141 @@
+Estudio para análisis de falla EAF 581/2024
+“Desconexión forzada de línea 66 kV Tap Off Nueva Victoria - Sur Viejo”
+Fecha de Emisión: 07-01-2025
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 14/12/2024
+Hora 15:41
+Consumos desconectados (MW) 3.30
+Demanda previa del sistema (MW) 10269
+Porcentaje de desconexión 0.032 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Tap Off Nueva Victoria - Sur Viejo / LT164CI1TR01----L0132
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Sociedad Química y Minera de Chile S.A.
+RUT 93.007.000-9
+Representante Legal Pablo Altimiras (*)
+Dirección Los Militares 4290, Piso 6, Santiago.
+(*) Corresponde al Gerente General, según lo declarado por la empresa en la plataforma REUC del Coordinador.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 66 kV Tap Off Nueva Victoria - Sur Viejo / LT164CI1TR01----L0132
+Propietario elemento fallado Sociedad Química y Minera de Chile S.A.
+RUT 93.007.000-9
+Representante Legal Pablo Altimiras (*)
+Dirección Los Militares 4290, Piso 6, Santiago.
+(*) Corresponde al Gerente General, según lo declarado por la empresa en la plataforma REUC del Coordinador.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Tap Off Nueva Victoria - Sur Viejo, por operación
+de su protección diferencial de línea.
+La empresa Sociedad Química y Minera de Chile S.A. no determina la causa de la falla, sin embargo,
+se presume que corresponde a una pérdida de aislación.
+d.2 Fenómeno Físico:
+DIS1: Pérdida de aislación
+La empresa Sociedad Química y Minera de Chile S.A. no remite los antecedentes probatorios para
+acreditar el fenómeno físico determinado por el Coordinador.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación sí ha sido afectada por el mismo
+fenómeno físico, durante los últimos 24 meses móviles (EAF 576/2024).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Desconexión forzada de
+EAF 576-2024 línea 66 kV Tap Off Nueva 10-12-2024 La empresa Sociedad Química y Minera de Chile S.A. indica: “En análisis”.
+Victoria - Sur Viejo
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una falla
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 576/2024).
+d.4 Fenómeno eléctrico
+PR87L: Protección diferencial de línea.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores de la línea 66 kV Tap Off Nueva
+Victoria - Sur Viejo, la cual, de acuerdo con lo informado por su propietario en la plataforma Infotecnica
+del Coordinador, cuenta con conductores tipo AAAC Alliance y con una longitud total de
+aproximadamente 16.4 km.
+La empresa Sociedad Química y Minera de Chile S.A., propietaria de la instalación fallada, no remite
+información respecto a los mantenimientos realizados durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Interna *
+(*) Dada la omisión de la proposición del origen de la falla de parte de la empresa propietaria.
+h. Comuna donde se presenta la falla
+02302: María Elena.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (16-12-2024) Informe de 5 días (20-12-2024)
+Sociedad Química y Minera de Chile S.A. (SQM) 14-12-2024 21-12-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 66 kV Tap Off Nueva Victoria - Sur Viejo ST Dedicado - 15:41 16:10
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Sur Viejo - María Elena 3.30 0.032 1 15:41 16:10 16:10
+Total: 3.30 MW 0.032% 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa Sociedad Química y Minera de Chile S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Sur Viejo - SQM Libre 3.30 0.48 0.48 1.6
+Clientes Regulados : MWh
+Clientes Libres : 1.6 MWh
+Total : 1.6 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Sociedad Química y Minera de Chile S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para
+los consumos afectados.
+- Velocidad promedio de recuperación.
+Potencia Tiempo Velocidad de
+Rango
+(MW) recuperación (h) recuperación (MW/h)
+Primer 80 % 2.64 0.48 5.46
+Último 20 % 0.66 0.48 1.37
+100 % Total 3.30 0.48 6.83
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10269 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2, U3 y U4), Mejillones (CTM3 y IEM), PFV Diego Almagro Sur, Ralco (U1 y U2)
+y Rapel (U1 y U4).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+19:12
+16:48
+14:24
+12:00
+09:36
+07:12
+04:48
+02:24
+00:00
+Recuperación real
+1166::1100
+100%
+Recuperación esperada
+Otros antecedentes relevantes
+Según lo informado por la empresa Sociedad Química y Minera de Chile S.A.:
+“Opera la protección 87L, origen no determinado”.
+De forma complementaria, se adjuntan los informes de falla de instalaciones ingresados en el sistema
+Neomante del Coordinador Eléctrico Nacional por la empresa Sociedad Química y Minera de Chile S.A.
+(Anexo N°1), y otros antecedentes aportados por la misma empresa (Anexo N°2).
+Por otra parte, en función de los antecedentes presentados a la fecha de emisión del presente Estudio
+para Análisis de Falla, se solicitará la siguiente información adicional:
+Sociedad Química y Minera de Chile S.A.:
+• Indicar el resultado de la investigación que permita determinar el origen definitivo de la falla, e
+indicar eventuales medidas correctivas.
+• Lavado y/o mantenciones de los últimos 24 meses, en específico del punto de falla, de manera de
+acreditar si la causa de la falla obedece a la falta de mantenimiento de algún equipamiento.
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Sociedad Química y Minera de Chile S.A. indica: “Se continua investigación para establecer
+causa de la falla”.
+c) Acciones correctivas a largo plazo:
+La empresa Sociedad Química y Minera de Chile S.A. indica: “En análisis”.
+Diagrama simplificado de las instalaciones previo a la falla

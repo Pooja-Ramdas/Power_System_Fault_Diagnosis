@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0506-2024",
+  "eaf_num": 506,
+  "year": 2024,
+  "description": "Falla en la línea 33 kV Hualte – Quirihue",
+  "date": "17-10-2024",
+  "time": "23:29",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/EAF-506-2024.pdf",
+  "case_id": "CASE-0100",
+  "event_datetime": "2024-10-17T23:29:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0100\\official_diagram.dwg"
+}

@@ -1,0 +1,234 @@
+Estudio para análisis de falla EAF 456/2024
+“Falla en el circuito N°1 de la línea 2x110 kV El Salto - Cerro Navia”
+Fecha de Emisión: 24-09-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 29/08/2024
+Hora 04:14
+Consumos desconectados (MW) 113.07
+Demanda previa del sistema (MW) 8409.3
+Porcentaje de desconexión 1.345 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Tramo El Salto - San Cristóbal del circuito N°1 de la línea 2x110 kV El Salto
+- Cerro Navia / LT050CI1TR02----T0054
+Tipo de instalación Línea
+Tensión nominal 110 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes N°441, Osorno
+c. Identificación del elemento fallado
+Nombre del elemento afectado Cruceta de la estructura N°9 del tramo El Salto - San Cristóbal del circuito
+N°1 de la línea 2x110 kV El Salto - Cerro Navia / LT050CI1TR02----T0054
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes N°441, Osorno
+d. Origen y causa de la falla
+Se produjo la desconexión forzada del circuito N°1 de la línea 2x110 kV El Salto - Cerro Navia por
+operación de su esquema de teleprotección, ante una falla cuya causa es atribuida al acortamiento de
+distancia provocado por un ave, entre el conductor de la fase superior del circuito N°1 y una cruceta
+de la estructura N°9 de la línea.
+d.2 Fenómeno Físico:
+ANI1: Acción de animales, roedores o pájaros (por contacto directo u otro).
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa STM II S.A. señala: “Ocurrida la operación de la barra
+N°3 se devolvió el alimentador Cacique a la barra N°2 y se
+realizaron maniobras en la red MT para realimentar los
+Desconexión barras 23 kV alimentadores de la barra N°3 y recuperar el 100% de los clientes.
+EAF 008-2024 07-01-2024
+N°3 y Aux. N°1 SE Batuco Una vez en la subestación personal especializado revisó la
+instalación identificando aislador de soporte de desconectador
+fase roja interconexión barra auxiliar - barra transferencia dañado
+se aísla el punto dañado y se normaliza la barra N°3.”
+La empresa STM S.A. señala lo siguiente:
+“Debido a esta falla se dañaron aisladores de la barra principal, lo
+cuales tuvieron que ser reemplazados antes de volver a
+Desconexión forzada barra
+EAF 156-2024 15-04-2024 energizarla.
+1 12 kV S/E Santa Raquel
+Se procedió a verificar el resto de los componentes, se aisló el
+interruptor del alimentador Olivares, se reemplazaron los
+aisladores de la Barra MT1 y se reenergizó.”
+- La empresa Sociedad Transmisora Metropolitana S.A. señala:
+“Al revisar la integridad de los componentes, se identificó un
+gato muerto sobre el interruptor 12 kV del Transformador N°3.
+Este ocasionó una descarga eléctrica sobre el interruptor,
+Desconexión forzada del
+específicamente entre los bushing lado Transformador. Debido
+EAF 406-2024 transformador N°3 110/12 02-08-2024
+a esta falla no se evidenció daño visible, por lo cual se retiró el
+kV de S/E Santa Rosa Sur
+animal del equipo y se ejecutaron pruebas del interruptor, las
+cuales fueron satisfactorias. Se procedió a verificar el resto de
+los componentes, sin encontrar equipos y materiales dañados
+producto de la operación.”
+Sociedad Transmisora Metropolitana S.A. señala que:
+“Tras generar la Operación Automática, personal de
+mantenimiento acude a la instalación a inspeccionar los
+componentes asociados al punto donde se provocó la falla, y el
+personal de PPCC obtiene los registros de las protecciones
+Desconexión forzada del operadas.
+EAF 421_2024 transformador Nº3 110/12 11-08-2024 Se encuentra un gato muerto en el piso, en la base de la
+kV de S/E La Reina estructura que soporta la bajada de los cables 12 kV del
+transformador que van al interruptor MT ubicado en la sala de
+celdas. Se detecta la presencia de arco eléctrico en los aisladores
+de soporte de la barra, la cual concuerda con el análisis de las
+protecciones operadas. Se ejecuta mantenimiento correctivo a
+todos los componentes involucrados”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 381-2024, EAF 382-2024,
+EAF 383-2024, EAF 386-2024 y EAF 387-2024).
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al circuito Nº1 de la línea 2x110 kV Cerro Navia - El
+Salto, la cual, según lo informado por la empresa Sociedad Transmisora Metropolitana S.A. en su
+Informe de Falla de 5 días, cuenta con las siguientes características:
+• Línea original data de 1922.
+• Largo total de la Línea: 40.9 km.
+• Retraso en inversiones pactadas: No hay retrasos en inversiones pactadas para la instalación.
+La empresa Sociedad Transmisora Metropolitana S.A. remitió antecedentes respecto de los
+mantenimientos realizados durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Enel Distribución S.A. señala “Urbano” para los alimentadores afectados de S/E Chacabuco.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+La empresa Sociedad Transmisora Metropolitana S.A. remite los siguientes antecedentes en respaldo a
+la proposición del origen de la falla:
+• Registro fotográfico.
+h. Comuna donde se presenta la falla
+13107: Huechuraba.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(31-08-2024) (05-09-2024)
+Sociedad Transmisora Metropolitana S.A. (STM) 29-08-2024 05-09-2024
+Enel Distribución S.A. 29-08-2024 09-09-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 2x110 kV El Salto - Cerro Navia C1 ST Zonal El Salto - San Cristobal 04:14 08:36
+LT 2x110 kV El Salto - Cerro Navia C1 ST Zonal San Cristobal - Tap Recoleta 04:14 08:36
+LT 2x110 kV El Salto - Cerro Navia C1 ST Zonal Tap Recoleta - Tap Chacabuco 04:14 08:36
+LT 2x110 kV El Salto - Cerro Navia C1 ST Zonal Tap Chacabuco - Tap Quilicura 04:14 08:36
+LT 2x110 kV El Salto - Cerro Navia C1 ST Zonal Tap Quilicura - Tap Lo Boza 04:14 08:36
+LT 2x110 kV El Salto - Cerro Navia C1 ST Zonal Tap Lo Boza - Cerro Navia 04:14 08:36
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Recoleta (*) SI SI 20.00 0.238 SI 04:14 04:16 04:16
+Lo Boza (*) SI SI 29.00 0.345 SI 04:14 04:17 04:17
+S/E Chacabuco Araucaria SI 5.80 0.069 96 04:14 04:19 04:19
+S/E Chacabuco Ascenty SI 3.43 0.041 2 04:14 04:19 04:19
+S/E Chacabuco Caupolicán SI 4.13 0.049 99 04:14 04:19 04:19
+S/E Chacabuco Fresia SI 0.93 0.011 52 04:14 04:19 04:19
+S/E Chacabuco La Reserva SI 3.69 0.044 113 04:14 04:19 04:19
+S/E Chacabuco Lautaro SI 4.51 0.054 93 04:14 04:19 04:19
+S/E Chacabuco Los Boldos SI 7.27 0.086 295 04:14 04:19 04:19
+S/E Chacabuco Luna SI 5.16 0.061 1 04:14 04:19 04:19
+S/E Chacabuco Luna 4 SI 7.50 0.089 1 04:14 04:19 04:19
+S/E Chacabuco Maulén SI 1.68 0.020 76 04:14 04:19 04:19
+S/E Chacabuco Mejillones SI 4.00 0.048 1212 04:14 04:19 04:19
+S/E Chacabuco San Ignacio SI 4.61 0.055 22 04:14 04:19 04:19
+S/E Chacabuco Santa Isabel SI 5.53 0.066 9951 04:14 04:19 04:19
+S/E Chacabuco Totoral SI 5.83 0.069 94 4:14 04:19 04:19
+Total: 113.07 MW 1.345 % >12107
+- Los montos señalados corresponden a lo informado por la empresa Enel Distribución S.A.
+- (*): Montos de consumos afectados y horarios de normalización de suministro de las SS/EE Recoleta y Lo Boza obtenidos desde
+el sistema SCADA del Coordinador.
+- Debido a la operación del esquema de transferencia automática de carga, los consumos de la barra 110 kV N°1 de S/E Quilicura
+no se vieron afectados por la falla en el circuito N°1 de la línea 2x110 kV El Salto - Cerro Navia (indisponibilidad menor a un 1
+minuto).
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo Indispon. Desc. (MWh)
+(MW) (h) (h)
+S/E Recoleta (*) SI ENEL DISTRIBUCIÓN Regulado 20.00 0.03 0.03 0.7
+Lo Boza (*) SI ENEL DISTRIBUCIÓN Regulado 29.00 0.05 0.05 1.4
+S/E Chacabuco Araucaria ENEL DISTRIBUCIÓN Regulado 5.80 0.08 0.08 0.5
+S/E Chacabuco Ascenty ENEL DISTRIBUCIÓN Regulado 3.43 0.08 0.08 0.3
+S/E Chacabuco Caupolicán ENEL DISTRIBUCIÓN Regulado 4.13 0.08 0.08 0.3
+S/E Chacabuco Fresia ENEL DISTRIBUCIÓN Regulado 0.93 0.08 0.08 0.1
+S/E Chacabuco La Reserva ENEL DISTRIBUCIÓN Regulado 3.69 0.08 0.08 0.3
+S/E Chacabuco Lautaro ENEL DISTRIBUCIÓN Regulado 4.51 0.08 0.08 0.4
+S/E Chacabuco Los Boldos ENEL DISTRIBUCIÓN Regulado 7.27 0.08 0.08 0.6
+S/E Chacabuco Luna ENEL DISTRIBUCIÓN Regulado 5.16 0.08 0.08 0.4
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo Indispon. Desc. (MWh)
+(MW) (h) (h)
+S/E Chacabuco Luna 4 ENEL DISTRIBUCIÓN Regulado 7.50 0.08 0.08 0.6
+S/E Chacabuco Maulén ENEL DISTRIBUCIÓN Regulado 1.68 0.08 0.08 0.1
+S/E Chacabuco Mejillones ENEL DISTRIBUCIÓN Regulado 4.00 0.08 0.08 0.3
+S/E Chacabuco San Ignacio ENEL DISTRIBUCIÓN Regulado 4.61 0.08 0.08 0.4
+S/E Chacabuco Santa Isabel ENEL DISTRIBUCIÓN Regulado 5.53 0.08 0.08 0.5
+S/E Chacabuco Totoral ENEL DISTRIBUCIÓN Regulado 5.83 0.08 0.08 0.5
+Clientes Regulados : 7.4 MWh
+Clientes Libres : MWh
+Total : 7.4 MWh
+- Los montos señalados corresponden a lo informado por la empresa Enel Distribución S.A.
+- (*): Montos de consumos afectados y tiempos de indisponibilidad y desconexión de las SS/EE Recoleta y Lo Boza obtenidos
+desde el sistema SCADA del Coordinador.
+- Debido a la operación del esquema de transferencia automática de carga, los consumos de la barra 110 kV N°1 de S/E Quilicura
+no se vieron afectados por la falla en el circuito N°1 de la línea 2x110 kV El Salto - Cerro Navia (indisponibilidad menor a un 1
+minuto).
+- Curva de recuperación esperada v/s recuperación real.
+04:20
+04:19
+04:18
+04:17
+04:16
+04:15
+04:14
+Recuperación real Recuperación esperada
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real de los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 90.46 0.08 1130.70
+Último 20 % 22.61 0.08 282.68
+100 % Total 113.07 0.08 1413.38
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8409.3 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Atacama (TG1A, TG1B y TV1C), El Toro (U1, U2, U3 y U4), Ralco (U1 y U2) y Rapel (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 29 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 29 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+29 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 29 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa Sociedad Transmisora Metropolitana S.A.:
+“El pasado 29 de agosto a las 04:14 horas, se produjo la operación automática (OA) de la línea 2x 110
+kV El Salto - Cerro Navia, circuito 1, abriendo los interruptores en SE El Salto; SE Cerro Navia y SE
+San Cristóbal.
+La causa de se debió a acortamiento de distancia por pájaro entre fase superior con cruceta media,
+donde las protecciones de la línea actuaron correctamente”.
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Sociedad Transmisora Metropolitana S.A. señala:
+- “No se Registran”.
+c) Acciones correctivas a largo plazo:
+La empresa Sociedad Transmisora Metropolitana S.A. señala:
+- “Durante el 2024 se instalarán elementos disuasivos de aves en estructuras del sector”.

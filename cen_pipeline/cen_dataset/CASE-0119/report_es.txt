@@ -1,0 +1,198 @@
+Estudio para análisis de falla EAF 489/2024
+“Falla en línea 110 kV Río Toltén - Cunco”
+Fecha de Emisión: 17-10-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la Falla
+Fecha 26/09/2024
+Hora 15:49
+Consumos desconectados (MW) 10.20
+Demanda previa del sistema (MW) 10264.00
+Porcentaje de desconexión 0.099 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Río Toltén - Cunco / LT013CI1TR01----T062
+Tipo de instalación Línea de transmisión
+Tensión nominal 110 kV
+Segmento Dedicado
+Propietario instalación afectada Transmisora Melipeuco S.A.
+RUT 77.509.835-k
+Representante Legal Juan Carlos Albalá A.
+Dirección Apoquindo 4615 Of. 502, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 110 kV Río Toltén - Cunco / LT013CI1TR01----T062
+Propietario elemento fallado Transmisora Melipeuco S.A.
+RUT 77.509.835-k
+Representante Legal Juan Carlos Albalá A.
+Dirección Apoquindo 4615 Of. 502, Las Condes.
+d. Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 110 kV Río Toltén - Cunco, por operación de su protección
+diferencial de línea, ante una falla bifásica entre las fases A y C.
+La empresa Transmisora Melipeuco S.A. señala que la causa de la falla fue la caída de un árbol ubicado
+fuera de la faja de servidumbre, talado en forma no controlada por terceros, sobre los conductores de
+la mencionada línea en la estructura N°538.
+d.2 Fenómeno Físico:
+ARB2: Caída de árbol sobre la línea o instalación. (*)
+(*) Fenómeno físico determinado por el Coordinador en función de los antecedentes presentados por
+la empresa Transmisora Melipeuco S.A.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada cuatro veces
+por el mismo fenómeno físico durante los últimos 24 meses móviles, correspondientes a los Estudios
+para Análisis de Falla EAF 460-2023, EAF 465-2023, EAF 327-2024 y EAF 332-2024.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido cuatro fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Transmisora Melipeuco S.A. señala:
+“Realizar tareas de poda y roce en el sector afectado de forma
+inmediata.
+Incorporación de uso de dron profesional para inspecciones en
+Falla en línea 110 kV
+EAF 460/2023 28-10-2023 sectores críticos”.
+Río Toltén - Cunco
+“Mantener programa de mantención de franja a lo largo de la línea
+1x110 kV Melipeuco - Río Toltén (roce, poda, y tala controlada).
+Mantener programa de inspecciones visuales a lo largo de la línea
+1x110 kV Melipeuco - Río Toltén”.
+La empresa Transmisora Melipeuco S.A. señala, “Realizar tareas de
+poda y roce en el sector afectado de forma inmediata. Incorporación
+de uso de dron profesional para inspecciones en sectores críticos”.
+Falla en línea 110 kV
+EAF 465/2023 29-10-2023 “Mantener programa de mantención de franja a lo largo de la línea
+Río Toltén - Cunco
+1x110 kV Melipeuco - Río Toltén (roce, poda, y tala controlada).
+Mantener programa de inspecciones visuales a lo largo de la línea
+1x110 kV Melipeuco - Río Toltén”.
+Falla en línea 110 kV
+EAF 327/2024 31-07-2024 No se indican acciones correctivas.
+Río Toltén - Cunco
+Transmisora Melipeuco S.A. señala lo siguiente:
+- “Reemplazo de 3 aisladores tipo linepost.
+- Reemplazo de 1 cruceta de portal y 1 extensión de OPGW.
+- Reemplazo de 2 postes de 18mts.
+Falla en línea 110 kV
+EAF 332/2024 01-08-2024 - Retiro de 10 árboles de gran tamaño sobre la línea.
+Río Toltén - Cunco
+- Inspección visual exhaustiva de LT (forestal, estructural y
+electromecánica).
+- Inspección termográfica de LT.
+- Continuar con el plan de poda y tala del proyecto.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido ocho fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondientes a los Estudios
+para análisis de Falla EAF 055-2023, EAF 059-2023, EAF 325-2023, EAF 460-2023, EAF 465-2023, EAF
+518-2023, EAF 327-2024 y EAF 332-2024.
+d.4 Fenómeno eléctrico
+PR87L: Protección diferencial de línea.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+Con respecto al elemento donde se originó la falla, la empresa Transmisora Melipeuco S.A. indica lo
+siguiente:
+“Vano delante de estructura N°538 del tramo de línea 1x110kV Cunco-Rio Toltén.
+Conductor AAAC Greeley, postación de H.A. de 18 metros, cable de guardia OPGW.
+Puesta en servicio año 2016.
+Inspecciones visuales 4 veces al año, última realizada en agosto septiembre 2024.
+Última mantención de desbroce de franja realizado en noviembre 2022.”
+Transmisora Melipeuco S.A. remite antecedentes respecto de los mantenimientos realizados a este
+elemento durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Eléctrica de la Frontera S.A. señala la calificación de densidad por comuna:
+• Comunas de Cunco, Lonquimay, Melipeuco, Vilcún y Padres de las Casas: Muy baja.
+• Comuna de Freire: Baja.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza mayor o caso fortuito.
+La empresa Transmisora Melipeuco S.A. remite los siguientes antecedentes en respaldo a la proposición
+del origen de la falla:
+• Registro Fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+h. Comuna donde se presenta la falla
+9103: Cunco.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(28-09-2024) (03-10-2024)
+Transmisora Melipeuco S.A. 26-09-2024 03-10-2024
+Sistema de Transmisión del Sur S.A. (STS S.A.) 26-09-2024 03-10-2024
+Empresa Eléctrica de la Frontera S.A. (Frontel S.A.) 26-09-2024 09-10-2024
+Empresa Eléctrica Carén S.A. 26-09-2024 08-10-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+Carilafquén U1 3.40 15:49 18:48
+Malalcahuello U1 2.00 15:49 18:43
+Total: 5.40 MW
+- Los montos y horarios señalados corresponden a lo informado por la empresa Eléctrica Carén S.A.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+110 kV Río Toltén - Cunco Dedicado - 15:49 18:19
+- Los horarios señalados corresponden a lo informado por las empresas Transmisora Melipeuco S.A. y STS S.A.
+c. Consumos
+Pérdida de %
+Sub- Alimentador / Clientes H. H. H.
+Comuna(s) Consumo consumo
+Estación Paño Afectados Desc. Disp. Norm.
+(MW) pre-falla
+Freire, Padre Las
+S/E Cunco San Ramón / E1 0.90 0.009 1319 15:49 18:40 15:53
+Casas, Vilcún
+S/E Cunco San Ramón / E1 Cunco 1.69 0.016 2224 15:49 18:40 15:56
+S/E Cunco Las Hortencias / E2 Lonquimay 0.41 0.004 773 15:49 18:40 15:57
+S/E Cunco Las Hortencias / E2 Melipeuco 0.15 0.001 1 15:49 18:40 15:58
+S/E Cunco Las Hortencias / E2 Melipeuco 3.59 0.035 2861 15:49 18:40 16:00
+S/E Cunco Las Hortencias / E2 Cunco 0.15 0.001 1 15:49 18:40 16:00
+S/E Cunco Las Hortencias / E2 Cunco 3.16 0.031 4847 15:49 18:40 16:07
+S/E Cunco Las Hortencias / E2 Melipeuco 0.15 0.001 1 15:49 18:40 16:18
+Total: 10.20 MW 0.099 % 12027
+- Los montos y horarios señalados corresponden a lo informado por la empresa Frontel S.A.
+3. Estimación de la energía no suministrada
+Tipo de Pérdida de Tiempo Tiempo ENS
+S/E Alimentador / Paño Empresa
+Cliente Consumo (MW) Indisp. (h) Desc. (h) (MWh)
+S/E Cunco San Ramón / E1 Frontel Regulado 0.90 2.85 0.07 0.1
+S/E Cunco San Ramón / E1 Frontel Regulado 1.69 2.85 0.12 0.2
+S/E Cunco Las Hortencias / E2 Frontel Regulado 0.41 2.85 0.13 0.1
+S/E Cunco Las Hortencias / E2 Frontel Regulado (*) 0.15 2.85 0.15 0.0
+S/E Cunco Las Hortencias / E2 Frontel Regulado 3.59 2.85 0.18 0.7
+S/E Cunco Las Hortencias / E2 Frontel Regulado (*) 0.15 2.85 0.18 0.0
+S/E Cunco Las Hortencias / E2 Frontel Regulado 3.16 2.85 0.30 0.9
+S/E Cunco Las Hortencias / E2 Frontel Regulado (*) 0.15 2.85 0.48 0.1
+Clientes Regulados : 2.1 MWh
+Clientes Libres : MWh
+Total : 2.1 MWh
+- Los montos señalados corresponden a lo informado por la empresa Frontel S.A.
+- (*) Corresponde a clientes libres conectados en redes de distribución de Frontel S.A.
+- Curva de recuperación esperada v/s recuperación real.
+19:00
+18:45
+18:30
+18:40 18:40 18:40 18:40 18:40 18:40 18:40 18:40
+18:15
+18:00
+17:45
+17:30
+17:15
+17:00
+16:45
+16:30 16:18
+16:07
+16:15 15:53 15:56 15:57 15:58 16:00 16:00
+16:00
+15:45
+9% 25% 29% 31% 66% 68% 99% 100%
+Recuperación esperada Recuperación real
+La totalidad de los consumos se recuperó en forma anterior respecto del horario de disponibilidad de
+la barra primaria respectiva.
+- Velocidad promedio de recuperación.
+Rango Potencia Tiempo Velocidad de
+(MW) recuperación (h) recuperación (MW/h)
+Primer 80 % 8.16 0.30 27.20
+Último 20 % 2.04 0.48 4.25
+100 % Total 10.20 0.48 21.25
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10264.00 MW.
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Canutillar (U1 y U2), El Toro (U3 y U4), Nueva Renca (TG), Ralco (U1 y U2) y Taltal (U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 26 de septiembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 26 de septiembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+26 de septiembre de 2024.

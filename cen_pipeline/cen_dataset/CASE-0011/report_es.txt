@@ -1,0 +1,174 @@
+Estudio para análisis de falla EAF 593/2024
+“Desconexión forzada de la línea 110 kV Maipo - Pirque”
+Fecha de Emisión: 16-01-2025
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 25/12/2024
+Hora 08:10
+Consumos desconectados (MW) 25.05
+Demanda previa del sistema (MW) 8018.00
+Porcentaje de desconexión 0.312 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Maipo - Pirque / LT004CI1TR01----L079
+Línea 110 kV Pirque - Puente Alto CMPC / LT003CI1TR02L0079ST03L0079
+Tipo de instalación Línea
+Tensión nominal 110 kV
+Segmento Transmisión zonal (línea 110 kV Maipo - Pirque)
+Transmisión dedicada (línea 110 kV Pirque - Puente Alto CMPC)
+Propietario instalación afectada Bioenergías Forestales SpA (*)
+RUT 76.188.197-3
+Representante Legal Enrique Donoso M.
+Dirección Agustinas 1343, Piso 3, Santiago
+(*) La empresa Bioenergías Forestales SpA reemplaza ante el Coordinador a la empresa Papeles Cordillera SpA, propietaria de
+las instalaciones.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Desconectador 89H4-1 de S/E Pirque / DC01T0061PA002T0061SE117T0058
+Propietario elemento fallado Alfa Transmisora de Energía S.A.
+RUT 76.218.856-2
+Representante Legal Alan Heinen Alves Da Silva
+Dirección Apoquindo 4501, Of. 1501, Las Condes
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de las líneas 110 kV Maipo - Pirque y 110 kV Pirque - Puente Alto
+CMPC, por operación de las protecciones asociadas a los paños H1 de S/E Maipo y H1 de S/E Puente
+Alto (CMPC), respectivamente, debido a una falla ocurrida en el desconectador 89H4-1 de S/E Pirque,
+correspondiente a la llegada de la línea 110 kV Pirque - Puente Alto CMPC.
+La empresa Alfa Transmisora de Energía S.A. indica que la falla ocurrió por un corte de conductor en
+prensa asociada al mencionado desconectador.
+d.2 Fenómeno Físico:
+OPE10: Falla de material, por fatiga, corrosión, trizadura, etc.
+La empresa Alfa Transmisora de Energía S.A. remite antecedentes (probatorios) con el fin de acreditar
+el origen de la falla.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por un
+fenómeno físico similar, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con un fenómeno físico similar, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al desconectador 89H4-1 de S/E Pirque,
+correspondiente a la llegada de la línea 110 kV Pirque - Puente Alto CMPC, el cual, según lo informado
+por su propietario en la plataforma Infotécnica del Coordinador, posee una corriente nominal de 2 kA
+y cuya fecha de puesta en servicio fue en el año 2022.
+Al respecto, la empresa Alfa Transmisora de Energía S.A. remite información de los mantenimientos
+realizados al desconectador 89H4-1 de S/E Pirque durante el año 2024.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa CGE S.A. indica ubicación: “Urbano/Rural”.
+g. Proposición del propietario respecto del origen de la falla
+Interno (según lo señalado por Alfa Transmisora de Energía S.A. en su IF de 48 horas N°2024005585).
+La empresa Alfa Transmisora de Energía S.A. remite los siguientes antecedentes en respaldo a la
+proposición del origen de la falla:
+• Mantenimientos realizados al desconectador 89H4-1 de S/E Pirque durante el año 2024.
+• Informe técnico que explica las posibles causas que propician el fallo de material.
+• Informe técnico de las posibles causas que explican la no detección de la falla de material.
+• Registro Fotográfico con fecha, hora y coordenadas UTM.
+h. Comuna donde se presenta la falla
+13202: Pirque.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (27-12-2024) Informe de 5 días (02-01-2025)
+Alfa Transmisora de Energía S.A. 25-12-2024 02-01-2025
+CGE Transmisión S.A. 25-12-2024 30-12-2024
+Bioenergías Forestales SpA (CMPC) 25-12-2024 02-01-2025
+Compañía General de Electricidad S.A. (CGE) 29-12-2024 30-12-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 110 kV Maipo - Pirque ST Zonal 110 kV Maipo - Pirque 08:10 12:27
+Línea 110 kV Pirque - Puente Alto CMPC ST Dedicado 110 kV Pirque - Puente Alto CMPC 08:10 20:51
+- Los horarios señalados corresponden a lo informado por las empresas Alfa Transmisora de Energía S.A. y Bioenergías Forestales
+SpA.
+c. Consumos
+Sub-Estación Alimentador / Paño Comuna Pérdida de % Clientes H. H. H.
+Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Virginia Subercaseaux /
+Pirque Pirque 0.50 0.006 1797 08:10 12:41 10:23
+C3
+Pirque Cruceral / C4 Pirque 1.26 0.016 4467 08:10 12:41 11:02
+Pirque Cruceral / C4 Pirque 0.24 0.003 158 08:10 12:41 12:53
+Puente Alto
+Papeles Cordillera / MP20 Puente Alto 18.10 0.226 08:10 20:51 20:52
+(CMPC)
+Puente Alto
+Planta Chimolsa / C6 Puente Alto 0.25 0.003 1 08:10 20:51 21:20
+(CMPC)
+Puente Alto
+Planta Softys PA / C1 Puente Alto 4.70 0.059 08:10 20:51 21:25
+(CMPC)
+Total: 25.05 MW 0.312 % 6423
+- Los montos y horarios señalados corresponden a lo informado por las empresas Bioenergías Forestales SpA y CGE S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador / Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo (MW) Indisp. (h) Desc. (h) (MWh)
+Pirque Virginia Subercaseaux / C3 CGE Regulado 0.50 4.52 2.22 1.1
+Pirque Cruceral / C4 CGE Regulado 1.26 4.52 2.87 3.6
+Pirque Cruceral / C4 CGE Regulado 0.24 4.52 4.72 1.1
+Puente Alto (CMPC) Papeles Cordillera / MP20 CMPC Libre 18.10 12.68 12.70 229.9
+Puente Alto (CMPC) Planta Chimolsa / C6 CMPC Libre 0.25 12.68 13.17 3.3
+Puente Alto (CMPC) Planta Softys PA / C1 CMPC Libre 4.70 12.68 13.25 62.3
+Clientes Regulados : 5.8 MWh
+Clientes Libres : 295.5 MWh
+Total : 301.3 MWh
+- Los montos señalados corresponden a lo informado por las empresas Bioenergías Forestales SpA y CGE S.A.
+- Curva de recuperación esperada v/s recuperación real.
+22:00
+20:00
+18:00
+16:00
+14:00
+12:00
+10:00
+2% 7% 8% 80% 81% 100%
+Recuperación esperada Recuperación real
+No se observan diferencias significativas entre el horario de recuperación real respecto del horario
+de disponibilidad de las barras primarias respectivas para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia Tiempo Velocidad de
+(MW) recuperación (h) recuperación
+(MW/h)
+Primer 80 % 29.32 3.52 8.34
+Último 20 % 7.33 3.52 2.08
+100 % Total 36.65 3.52 10.42
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8018.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2, U3 y U4), Mejillones (CTM3 y IEM), Ralco (U1 y U2) y Rapel (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 25 de diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 25 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+25 de diciembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 25 de
+diciembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades:
+- La central Carena, de propiedad de la Empresa Eléctrica Industrial S.A., se encontraba conectada
+al sistema a través de la línea 44 kV Carena - Lo Prado.
+- La central CMPC Cordillera, de propiedad de Bioenergías Forestales SpA, se encontraba con solicitud
+de desconexión de curso forzoso N°2024052148.
+Otros antecedentes relevantes
+Según lo informado por Alfa Transmisora de Energía S.A. en su Informe de Falla de 5 días:
+“El miércoles 25 de diciembre 2024 a las 08:10 hrs, se produce la operación forzada del interruptor
+52H1 de S/E Maipo por actuación de protección 51N, debido a corte de conductor en prensa del
+desconectador llegada de línea 89H4-1 de S/E Pirque.”
+Respecto de la causa de la falla, Alfa Transmisora de Energía S.A. indica lo siguiente:
+“Se pudo concluir que el conector que baja al TPH4 fase 2, ejerce demasiado peso al cable de
+conexión entre 89H4-1 y la Línea, generando un quiebre al cable a la salida del conector, se mejoró
+instalando un conector con ángulo de 45°en la salida del 89H4-1.”
+Respecto del comportamiento de las protecciones, Alfa Transmisora de Energía S.A. indica lo siguiente:
+"Respecto al análisis, mencionar que la protección Siemens 7SA87 del paño H4 de S/E Pirque
+actúo de forma correcta de acuerdo con los ajustes cargados según el ECAP vigente.
+Asimismo, las características de la perturbación que generó el disparo en el paño H1 de S/E Maipo,
+corresponde a una función de sobre corriente residual (51N) producto de una fase abierta, y no
+una falla con corrientes de cortocircuito, en donde se habrían registrado corrientes y voltajes de
+falla (Impedancia/Distancia), por lo anterior la protección ubicada en S/E Pirque del paño H4 no

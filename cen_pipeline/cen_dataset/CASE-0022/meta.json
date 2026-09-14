@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0583-2024",
+  "eaf_num": 583,
+  "year": 2024,
+  "description": "Desconexión forzada de barras 66 kV de S/E Talca",
+  "date": "15-12-2024",
+  "time": "01:14",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2025/01/EAF-583-2024.pdf",
+  "case_id": "CASE-0022",
+  "event_datetime": "2024-12-15T01:14:00",
+  "fault_label": "busbar_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0022\\official_diagram.dwg"
+}

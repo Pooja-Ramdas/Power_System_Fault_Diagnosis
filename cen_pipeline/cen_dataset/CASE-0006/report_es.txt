@@ -1,0 +1,177 @@
+Estudio para análisis de falla EAF 598/2024
+“Desconexión forzada de línea 66 kV Rancagua - Codegua”
+Fecha de Emisión: 20-01-2025
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 27/12/2024
+Hora 04:55
+Consumos desconectados (MW) 23.00
+Demanda previa del sistema (MW) 9210.55
+Porcentaje de desconexión 0.250 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Paño B1 de S/E Codegua / PA009T0061SE038T0061
+Tipo de instalación Subestación
+Tensión nominal 66 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Alfa Transmisora de Energía S.A.
+RUT 76.218.856-2
+Representante Legal Alan Heinen Alves Da Silva
+Dirección Apoquindo 4501 Of 1501, Las Condes, Región Metropolitana de Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento afectado S/E Graneros (FFCC) / SE009L0011
+Propietario elemento fallado Empresa de los Ferrocarriles del Estado (EFE)
+RUT 61.216.000-7
+Representante Legal Sebastián Andrés Derteano Herrera
+Dirección Morandé 115, piso 6, Santiago
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Rancagua - Codegua por apertura automática del
+interruptor 52B1 de S/E Codegua, debido a la operación de su protección de distancia en zona 1.
+No hay suficientes antecedentes para determinar la causa de la desconexión forzada de la línea 66 kV
+Rancagua - Codegua. Según lo informado por CGE Transmisión S.A., el origen de la falla se asocia a
+instalaciones de la S/E Graneros (FFCC) de propiedad de la Empresa de los Ferrocarriles del Estado.
+d.2 Fenómeno Físico:
+OTR2: Origen no determinado.
+Los antecedentes disponibles indican que, una vez aisladas las instalaciones de transmisión de la
+Empresa de los Ferrocarriles del Estado, se pudo normalizar el resto de las instalaciones desde el
+mismo punto de conexión previo a la falla. A su vez, el Centro de Control de la empresa CGE
+Transmisión S.A. informó al CDC como causa presunta un hurto de conductor.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Apertura del interruptor 52B1
+EAF 045-2023 03-02-2023 La empresa CGE Transmisión S.A. indica que “no aplica”.
+de S/E Chiguayante
+Apertura del interruptor 52B1
+EAF 053-2023 06-02-2023 La empresa CGE Transmisión S.A. indica que “no aplica”.
+de S/E Chiguayante
+Apertura del interruptor 52B1
+EAF 077-2023 16-02-2023 La empresa CGE Transmisión S.A. indica que “no aplica”.
+de S/E Chiguayante
+Apertura del interruptor 52B1
+EAF 139-2023 25-03-2023 La empresa CGE Transmisión S.A. indica que “no aplica”.
+de S/E Chiguayante
+Apertura del interruptor 52B1
+EAF 188-2023 28-04-2023 La empresa CGE Transmisión S.A. indica que “no aplica”.
+de S/E Chiguayante
+Apertura del interruptor 52B1
+EAF 283-2023 25-06-2023 La empresa CGE Transmisión S.A. indica que “no aplica”.
+de S/E Chiguayante
+Falla en la línea 66 kV
+EAF 430-2023 30-10-2023 La empresa CGE Transmisión S.A. indica que “no aplica”.
+Chiguayante - Quilacoya
+Desconexión forzada de la línea
+EAF 255-2024 13-06-2024 La empresa CGE Transmisión S.A. indica que “no aplica”.
+66 kV Chiguayante - Quilacoya
+La empresa CGE Transmisión S.A. indica “No Aplica”.
+Falla en línea 66 kV
+EAF 481-2024 19-09-2024 La Empresa de los Ferrocarriles del Estado (EFE) no
+Chiguayante - Quilacoya
+informa.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se ha producido una
+falla en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se habría originado la falla corresponde a instalaciones de S/E Graneros (FFCC), de
+propiedad de la Empresa de los Ferrocarriles del Estado, cuyos antecedentes técnicos no fueron
+remitidos por dicha empresa ni tampoco se encuentran disponibles en el aplicativo Infotecnica del
+Coordinador.
+Al respecto, la Empresa de los Ferrocarriles del Estado no adjunta información de los mantenimientos
+de esta instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Compañía General de Electricidad S.A. informa que la ubicación de sus consumos afectados
+es urbana y rural.
+g. Proposición del propietario respecto del origen de la falla
+Interna *
+(*) Dada la omisión de la proposición del origen de la falla de parte de la empresa propietaria.
+h. Comuna donde se presenta la falla
+6102: Codegua.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(29-12-2024) (06-01-2025)
+Alfa Transmisora de Energía S.A. 27-12-2024 20-01-2025
+CGE Transmisión S.A. 27-12-2024 03-01-2025
+Compañía General de Electricidad S.A. (CGE) 06-01-2025 06-01-2025
+Empresa de los Ferrocarriles del Estado (EFE) No Enviado No Enviado
+Indura S.A. (INDURA) No Enviado No Enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Graneros ST Zonal Barra 66 kV 04:55 07:09
+S/E Graneros Indura ST Zonal Transformador Nº1 66/6.2 kV 04:55 07:09
+Línea 66 kV Rancagua - Codegua ST Zonal Codegua - Estructura Nº126 04:55 07:09
+Línea 66 kV Rancagua - Codegua ST Zonal Estructura Nº126 - Tap Graneros 04:55 07:09
+Línea 66 kV Rancagua - Codegua ST Zonal Tap Graneros - Tap Indura 04:55 07:09
+Línea 66 kV Rancagua - Codegua ST Zonal Tap Indura - Dole 04:55 07:09
+Línea 66 kV Rancagua - Codegua ST Zonal Dole - Rancagua 04:55 07:09
+S/E Graneros (FFCC) ST Zonal Barra 66 kV 04:55 14:13
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Graneros La Compañía / C1 Codegua 2.39 0.026 2796 04:55 07:09 07:09
+Graneros La Compañía / C1 Graneros 1.01 0.011 655 04:55 07:09 07:09
+Graneros Santa Julia / C2 Graneros 2.38 0.026 6019 04:55 07:09 07:09
+Graneros Santa Julia / C2 Mostazal 0.36 0.004 724 04:55 07:09 07:09
+Graneros Santa Julia / C2 Codegua 0.06 0.001 38 04:55 07:09 07:09
+Graneros Berrios / C3 Graneros 2.30 0.025 3788 04:55 07:09 07:09
+Graneros Indura / C6 Rancagua 2.66 0.029 141 04:55 07:09 07:09
+Graneros Indura / C6 Graneros 3.14 0.034 92 04:55 07:09 07:09
+Graneros Codegua / C7 Mostazal 3.01 0.033 3379 04:55 07:09 07:09
+Graneros Codegua / C7 Codegua 1.99 0.022 1898 04:55 07:09 07:09
+Graneros Indura BT1 Graneros 3.60 0.039 1 04:55 07:09 07:09
+Graneros (FFCC) - Graneros 0.10 0.001 1 04:55 14:13 14:13
+Total: 23.00 MW 0.250 % 19532
+- Los montos y horarios señalados corresponden a lo informado por la empresa Compañía General de Electricidad S.A. e información
+disponible en la Plataforma de Recepción de Medidas para Transferencias Económicas (PRMTE).
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Graneros La Compañía / C1 CGE Regulado 2.39 2.23 2.23 5.3
+Graneros La Compañía / C1 CGE Regulado 1.01 2.23 2.23 2.3
+Graneros Santa Julia / C2 CGE Regulado 2.38 2.23 2.23 5.3
+Graneros Santa Julia / C2 CGE Regulado 0.36 2.23 2.23 0.8
+Graneros Santa Julia / C2 CGE Regulado 0.06 2.23 2.23 0.1
+Graneros Berrios / C3 CGE Regulado 2.30 2.23 2.23 5.1
+Graneros Indura / C6 CGE Regulado 2.66 2.23 2.23 5.9
+Graneros Indura / C6 CGE Regulado 3.14 2.23 2.23 7.0
+Graneros Codegua / C7 CGE Regulado 3.01 2.23 2.23 6.7
+Graneros Codegua / C7 CGE Regulado 1.99 2.23 2.23 4.4
+Graneros Indura BT1 INDURA Libre 3.60 2.23 2.23 8.0
+Graneros (FFCC) - EFE Libre 0.10 9.30 9.30 0.9
+Clientes Regulados : 42.9 MWh
+Clientes Libres : 8.9 MWh
+Total : 51.8 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Compañía General de Electricidad S.A. e información
+disponible en la Plataforma de Recepción de Medidas para Transferencias Económicas (PRMTE).
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para
+los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 18.40 2.23 8.24
+Último 20 % 4.60 9.30 0.49
+100 % Total 23.00 9.30 2.47
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9210.55 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Atacama (TG2A y TG2B), El Toro (U1, U2, U3 y U4), Kelar (TG1) y Ralco (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 27 de diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 27 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+27 de diciembre de 2024.

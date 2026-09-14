@@ -1,0 +1,309 @@
+Estudio para análisis de falla EAF 502/2024
+“Falla en el circuito N°1 de la línea 66 kV Pullinque - Los Lagos”
+Fecha de Emisión: 05-11-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 11/10/2024
+Hora 17:20
+Consumos desconectados (MW) 21.39
+Demanda previa del sistema (MW) 9564.73
+Porcentaje de desconexión 0.224 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Tramos del circuito N°1 de la línea 66 kV Pullinque - Los Lagos /
+LT069CI1TR03----T0002
+LT069CI1TR04----T0002
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco N°90, piso 14, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento afectado Aislador de la estructura N°32 del tramo Pullinque - Tap Panguipulli del
+circuito N°1 de la línea 66 kV Pullinque - Los Lagos / LT069CI1TR03----
+T0002
+Propietario elemento fallado Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco N°90, piso 14, Las Condes
+d. Origen y causa de la falla
+Se produjo la desconexión forzada de la barra 66 kV de S/E Panguipulli, por operación de una
+protección de baja tensión, durante el periodo de reconexión del circuito N°1 de la línea 2x66 kV
+Pullinque - Los Lagos, el cual previamente se había desconectado por operación de protecciones.
+La causa de la falla que provocó la desconexión del circuito N°1 de la línea 2x66 kV Pullinque - Los
+Lagos, y la posterior desconexión de la barra 66 kV de S/E Panguipulli, es atribuida a una descarga en
+un aislador de la estructura N°32 del mencionado circuito, por pérdida de aislación.
+d.2 Fenómeno Físico:
+DIS1: Pérdida de aislación.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Acciones correctivas a corto plazo: Transelec S.A. señala que “Con
+el objetivo de disminuir la suspensión de materiales
+contaminantes sobre los aisladores de las estructuras, que se
+exponen en ambientes altamente contaminantes, se había
+implementado cobertura siliconada en ciertos tramos de la
+instalación, cuya naturaleza requiere una frecuencia de lavado
+mucho menor que sin cobertura. Sin embargo, se produjo la
+pérdida de aislación por materiales contaminantes en la
+instalación. Inmediatamente después de la ocurrencia de falla,
+entró en evaluación retomar el lavado de las estructuras como
+medida provisoria, mientras se analiza la calidad de la cobertura
+aplicada a los aisladores”.
+CGE Transmisión S.A. señala “Falla ocurrida en instalaciones de
+terceros, por lo que no hay acciones de corto plazo de
+responsabilidad de CGE Transmisión S.A.”.
+Hidroeléctrica Río Huasco S.A. señala que “no aplica”.
+Falla en línea 110 kV
+EAF 407-2022 06-11-2022
+Maitencillo - Vallenar
+Acciones correctivas a largo plazo: Transelec S.A. señala que “Con
+el objetivo de disminuir la suspensión de materiales
+contaminantes sobre los aisladores de las estructuras, que se
+exponen en ambientes altamente contaminantes, se había
+implementado cobertura siliconada en ciertos tramos de la
+instalación, cuya naturaleza requiere una frecuencia de lavado
+mucho menor que sin cobertura. Sin embargo, se produjo la
+pérdida de aislación por materiales contaminantes en la
+instalación. Inmediatamente después de la ocurrencia de falla,
+entró en evaluación retomar el lavado de las estructuras como
+medida provisoria, mientras se analiza la calidad de la cobertura
+aplicada a los aisladores”.
+CGE Transmisión S.A. señala “Falla ocurrida en instalaciones de
+terceros, por lo que no hay acciones de corto plazo de
+responsabilidad de CGE Transmisión S.A.”.
+Hidroeléctrica Río Huasco S.A. señala que “no aplica”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Transelec S.A. señala lo siguiente:
+“Dentro de las acciones correctivas de corto plazo realizadas a las
+instalaciones tras la confirmación de causa de falla por
+contaminación del pararrayos de la fase B del paño J2 de S/E
+Lagunas, se procede a realizar la desvinculación del equipo
+afectado y al lavado del resto de los equipos afectados por
+contaminación. Como acciones a largo plazo se está evaluando su
+reemplazo, con fecha por informar. En relación a la operación
+indeseada de la protección Siemens 7SL87, sistema 1 del paño J1
+de S/E Matilla, indicamos como acción correctiva a corto plazo, la
+deshabilitación de la operación de la zona 1 con la finalidad de
+poder evitar posibles operaciones indeseadas mientras continua
+Falla en la línea 220 kV San
+EAF 255-2023 13-06-23 la investigación de la causa de su operación el día 13 de junio de
+Simón - Lagunas
+2023. Junto con ello y por las mismas razones, se deshabilitó de
+manera preventiva la operación de la zona 1 del sistema 2, relé
+Siemens 7SL87 del paño J1 de S/E Matilla. Por otro lado, como
+acciones correctivas a largo plazo indicamos que se han realizado
+las consultas pertinentes al fabricante sobre la operación del relé
+en cuestión y de manera paralela nos encontramos realizando
+pruebas en laboratorio que nos permitan poder determinar la
+causa operación indebida”.
+Como acciones de largo plazo, la empresa Transelec S.A. indica
+que evalúa el reemplazo del pararrayos fallado en el paño J2 de
+S/E Lagunas con fecha por confirmar.
+La empresa Transelec S.A. señala lo siguiente:
+“Dentro de las acciones correctivas de corto plazo realizadas a las
+instalaciones tras la confirmación de causa de falla por
+contaminación del pararrayos de la fase B del paño J2 de S/E
+Lagunas, se procede a realizar la desvinculación del equipo
+afectado y al lavado del resto de los equipos afectados por
+contaminación. Como acciones a largo plazo se está evaluando su
+reemplazo, con fecha por informar. En relación a la operación
+indeseada de la protección Siemens 7SL87, sistema 1 del paño J1
+de S/E Matilla, indicamos como acción correctiva a corto plazo, la
+deshabilitación de la operación de la zona 1 con la finalidad de
+poder evitar posibles operaciones indeseadas mientras continua
+Falla en la línea 220 kV San
+EAF 256-2023 13-06-23 la investigación de la causa de su operación el día 13 de junio de
+Simón - Lagunas
+2023. Junto con ello y por las mismas razones, se deshabilitó de
+manera preventiva la operación de la zona 1 del sistema 2, relé
+Siemens 7SL87 del paño J1 de S/E Matilla. Por otro lado, como
+acciones correctivas a largo plazo indicamos que se han realizado
+las consultas pertinentes al fabricante sobre la operación del relé
+en cuestión y de manera paralela nos encontramos realizando
+pruebas en laboratorio que nos permitan poder determinar la
+causa operación indebida.”.
+Como acciones de largo plazo, la empresa Transelec S.A. indica
+que evalúa el reemplazo del pararrayos fallado en el paño J2 de
+S/E Lagunas con fecha por confirmar.
+La empresa Transelec S.A. señala lo siguiente:
+“Dentro de las acciones correctivas de corto plazo realizadas a las
+instalaciones tras la confirmación de causa de falla por
+contaminación del pararrayos de la fase B del paño J2 de S/E
+Lagunas, se procede a realizar la desvinculación del equipo
+afectado y al lavado del resto de los equipos afectados por
+contaminación. Como acciones a largo plazo se está evaluando su
+reemplazo, con fecha por informar. En relación a la operación
+indeseada de la protección Siemens 7SL87, sistema 1 del paño J1
+de S/E Matilla, indicamos como acción correctiva a corto plazo, la
+deshabilitación de la operación de la zona 1 con la finalidad de
+poder evitar posibles operaciones indeseadas mientras continua
+Falla en línea 220 kV
+EAF 257-2023 13-06-23 la investigación de la causa de su operación el día 13 de junio de
+Lagunas - San Simón
+2023. Junto con ello y por las mismas razones, se deshabilitó de
+manera preventiva la operación de la zona 1 del sistema 2, relé
+Siemens 7SL87 del paño J1 de S/E Matilla. Por otro lado, como
+acciones correctivas a largo plazo indicamos que se han realizado
+las consultas pertinentes al fabricante sobre la operación del relé
+en cuestión y de manera paralela nos encontramos realizando
+pruebas en laboratorio que nos permitan poder determinar la
+causa operación indebida.”.
+Como acciones de largo plazo, la empresa Transelec S.A. indica
+que evalúa el reemplazo del pararrayos fallado en el paño J2 de
+S/E Lagunas con fecha por confirmar.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Acciones correctivas a corto plazo: Transelec S.A. señala que “se
+solicita intervenciones de Curso Forzoso para ejecutar labores de
+lavado de las estructura N°84 y las adyacentes a esta las cuales
+se materializaron entre los días 22 y 24 de marzo del 2024 y que
+en base a lo anterior de manera preventiva se realiza lavado de
+Falla en línea 220kV Pan de
+EAF 116-2024 22-03-2024 estructuras de la línea 220 kV Pan de Azúcar - Minera TECK CDA
+Azúcar-Minera Teck CDA
+entre las estructuras N°02 a N°36 N°75 a N°107 y N°110 a
+N°129”.
+Acciones correctivas a largo plazo: Transelec S.A. señala que
+posterior a la falla se inicia un análisis de causa raíz y se definirá
+un plan de acción para evitar la reiteración de esta falla.
+Desconexión forzada de la La empresa Transelec S.A. indica: “Reemplazo de aislador fallado
+EAF 218-2024 línea 13.8 kV San Vicente - 19-05-2024 fase C, plan de reemplazo de aisladores similares en las demás
+Inchalam fases, además de los aisladores similares en paños aledaños”.
+Falla en la línea 66 kV La empresa Transelec S.A. indica: “No Aplica. El comportamiento
+EAF 477-2024 15-09-2024
+Charrúa - Laja de las instalaciones de Transelec fue correcto”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 062-2024, EAF 063-2024 y
+EAF 342-2024).
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a un aislador de la estructura N°32, asociado al
+conductor de la fase C, ubicado en el tramo Pullinque - Tap Panguipulli del circuito N°1 de la línea 2x66
+kV Pullinque - Los Lagos, la cual, de acuerdo con lo informado por su propietario, cuenta con las
+siguiente características:
+Al respecto, la empresa Transelec S.A. remitió antecedentes respecto de los mantenimientos realizados
+a la línea 66 kV Pullinque - Los Lagos durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa SAESA S.A. señala “Baja y Muy Baja” para el alimentador Panguipulli y “Muy Baja” para
+los alimentadores Pullinque, Malalhue y Lican Ray.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+La empresa Transelec S.A. remite los siguientes antecedentes en respaldo a la proposición del origen
+de la falla:
+• Informe Técnico.
+• Carta a la SEC Regional.
+• Registros fotográficos.
+h. Comuna donde se presenta la falla
+14108: Panguipulli.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(13-10-2024) (18-10-2024)
+Transelec S.A. 11-10-2024 18-10-2024
+Sociedad Austral de Electricidad S.A. (SAESA) 11-10-2024 21-10-2024
+Sistema de Transmisión del Sur S.A. (STS) 11-10-2024 18-10-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 2x66 kV Pullinque - Los Lagos N°1 ST Zonal Pullinque - Tap Panguipulli 17:20 17:20
+LT 2x66 kV Pullinque - Los Lagos N°1 ST Zonal Pullinque - Los Lagos 17:20 17:20
+S/E Panguipulli ST Dedicado Barra 66 kV 17:20 17:26
+- Circuito N°1 de la línea 2x66 kV Pullinque - Los Lagos reconectó exitosamente en ambos extremos.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Panguipulli Pullinque / E1 Panguipulli 3.40 0.036 3182 17:20 17:27 17:28
+Lanco, Loncoche y
+S/E Panguipulli Malalhue / E2 6.19 0.065 3709 17:20 17:27 17:28
+Panguipulli
+Lanco, Loncoche,
+S/E Panguipulli Lican Ray / E3 Panguipulli y 4.83 0.050 6714 17:20 17:27 17:28
+Villarrica
+Los Lagos y
+S/E Panguipulli Panguipulli / E4 6.97 0.073 6922 17:20 17:27 17:28
+Panguipulli
+Total: 21.39 MW 0.224 % 20527
+- Los montos señalados corresponden a lo informado por la empresa SAESA.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo Indispon. Desc. (MWh)
+(MW) (h) (h)
+S/E Panguipulli Pullinque / E1 SAESA Regulado 3.40 0.12 0.13 0.5
+S/E Panguipulli Malalhue / E2 SAESA Regulado (*) 6.19 0.12 0.13 0.8
+S/E Panguipulli Lican Ray / E3 SAESA Regulado 4.83 0.12 0.13 0.6
+S/E Panguipulli Panguipulli / E4 SAESA Regulado (*) 6.97 0.12 0.13 0.9
+Clientes Regulados : 2.8 MWh
+Clientes Libres : MWh
+Total : 2.8 MWh
+- Los montos señalados corresponden a lo informado por la empresa SAESA.
+- (*) Incluye a clientes libres conectados a la red de distribución.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecia una diferencia significativa entre los horarios de recuperación esperada y
+recuperación real de los consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 17.11 0.13 131.63
+Último 20 % 4.28 0.13 32.91
+100 % Total 21.39 0.13 164.54
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+:3
+:2
+:2
+:2
+:2
+:2
+:2
+:2
+:2
+:2
+:2
+0
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+1 5 .9 %
+R e c u p
+4 4
+e ra
+.8 %
+c ió n e sp e ra d a R e c
+6 7 .4 %
+u p e ra c ió n re a l
+1 0 0 .0 %

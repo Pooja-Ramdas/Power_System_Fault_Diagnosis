@@ -1,0 +1,288 @@
+Estudio para análisis de falla EAF 497/2024
+“Falla en línea 66 kV Ovalle - Punitaqui”
+Fecha de Emisión: 24-10-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 03/10/2024
+Hora 12:06
+Consumos desconectados (MW) 6.83
+Demanda previa del sistema (MW) 10051.00
+Porcentaje de desconexión 0.068 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Ovalle - Punitaqui / LT289CI1TR01----T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 17, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 66 kV Ovalle - Punitaqui / LT289CI1TR01----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 17, Las Condes.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Ovalle - Punitaqui, por operación de las
+protecciones del extremo Ovalle, ante la ocurrencia de una falla monofásica en la fase A.
+La causa de la falla fue el acortamiento de distancia entre el conductor y los componentes metálicos
+de la estructura N°190, debido al impacto del chorro de agua durante trabajos de lavado de aislación.
+d.2 Fenómeno Físico
+OPE1: Trabajos en instalaciones.
+La empresa CGE Transmisión S.A. remite antecedentes para acreditar el origen de la falla.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada una vez por
+el mismo fenómeno físico, durante los últimos 24 meses móviles, correspondiente al Estudio para
+Análisis de Falla EAF 454-2024.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido 23 fallas en
+instalaciones del mismo propietario con un fenómeno físico similar (homologado), durante los últimos
+24 meses móviles, correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica que durante el mes de
+diciembre de 2022 entrará en servicio la comunicación al sistema
+Falla en el interruptor SCADA, a través de un enlace de fibra óptica en la S/E Fátima, el que
+EAF 427-2022 21-11-2022
+52C6 de S/E Fátima pasará a ser la vía principal de comunicación, quedando como primer
+respaldo el de radioenlace y como segundo respaldo la conexión vía red
+móvil 3G/4G.
+La empresa CGE Transmisión S.A. indica:
+- “Se realiza normalización de potenciales de protección de las fases
+Apertura intempestiva B y C en secundario del TTPP N°2 asociado a Barra 66kV N°2 de
+EAF 442-2022 del interruptor 52BT2 05-12-2022 S/E Pitrufquén mediante SD de curso forzoso N°2022109338”.
+de S/E Pitrufquén - “Se programa la Habilitación de alarmas en Scada asociadas a la
+función de perdida de potenciales de las protecciones de distancia
+y de los ITE de la Barras de 66kV N°1 y N°2.SD 2022112584”.
+CGE Transmisión S.A. señala:
+Apertura intempestiva
+“Con fecha del 23-12-2022 se normalizó la hora del control del
+EAF 457-2022 del interruptor 52C2 de 11-12-2022
+reconectador 52C2. Además, la cadena de remate con descarga queda
+S/E San Carlos
+reemplazada por otra nueva”.
+Desconexión forzada
+La empresa CGE Transmisión S.A. señala: “Se realiza normalización de
+EAF 478-2022 del transformador N°2 18-12-2022
+equipo dañado bajo la SD N°2022116553”.
+66/23 kV de S/E Pucón
+La empresa CGE Transmisión S.A. indica: “No se observaron hebras
+cortadas en el conductor. No obstante, se programó la instalación de
+Falla en línea 66 kV Las
+EAF 043-2023 01-02-2023 preformadas de reparación en los puntos donde se produjo la descarga
+Arañas - El Peumo
+eléctrica. La intervención con líneas energizadas ya se realizó
+exitosamente el 08 de febrero 2023 bajo la solicitud N°2023009210”.
+La empresa CGE Transmisión S.A. indica:
+Falla en la línea 66 kV
+EAF 073-2023 14-02-2023 - “Suspensión del lavado".
+Punitaqui - El Sauce
+- "Reprogramación del lavado con desconexión de la LT 66 kV”.
+Falla en línea 2x66 kV
+La empresa CGE Transmisión S.A. indica: “Revisión del procedimiento
+EAF 110-2023 Talcahuano - Latorre 07-03-2023
+de trabajo de lavado de aislación”.
+N°2
+La empresa CGE Transmisión S.A. señala que:
+“Se suspenden las faenas de tala de los árboles entre las estructuras
+Falla en línea 66 kV N°104 y N°105 de la línea LT 66KV Tomé - Mahns en forma
+EAF 115-2023 08-03-2023
+Concepción - Mahns momentánea durante la investigación de los hechos y las medidas de
+mejora. Por lo cual se realiza la revisión y mejora de procedimientos de
+trabajo con los proveedores para evitar la repetición de estos hechos”.
+La empresa CGE Transmisión S.A. señala lo siguiente:
+- “Se implementará una protección mecánica provisoria en la zona
+Desconexión forzada de los termómetros de los transformadores, que se usará durante
+del transformador las faenas, para prevenir operación al realizar movimientos o en
+EAF 173-2023 16-04-2023
+66/15 kV N°1 de S/E los desplazamientos”.
+Chiguayante - “Al inicio de las faenas en las cercanías de transformadores en
+servicio, se pondrá énfasis en el cumplimiento de los protocolos
+para delimitación de los lugres de trabajos en las subestaciones”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica las siguientes acciones
+correctivas de corto plazo:
+“Se ejecutará una revisión y pruebas en terreno y desde SCADA de
+órdenes y estados la unidad de control ABB RER615 asociada al
+Apertura intempestiva
+alimentador C1 Freire, con la finalidad de detectar cualquier eventual
+EAF 174-2023 del interruptor 52C1 de 17-04-2023
+error por este evento en cuestión. La revisión se enfocará en órdenes
+S/E Lautaro
+y estados de Apertura/Cierre, Habilitación y Bloqueo de residual,
+Bloqueo y habilitación de reconexión, visualización de señales
+analógicas, y el cambio del grupo de ajustes. Estos trabajos se
+realizarán a través de la SD N°2023039426 el 09/05/2023”.
+Apertura intempestiva
+La empresa CGE Transmisión S.A. indica: “No se consideran acciones
+EAF 222-2023 del interruptor 52CT2 23-05-2023
+correctivas de corto ni largo plazo”.
+de S/E Alameda
+La empresa CGE Transmisión S.A. señala que:
+Desconexión forzada
+“Debido a la operación, por error en la identificación de los blocks de
+del transformador N°2
+EAF 280-2023 24-06-2023 prueba de los paños BT1 y BT2 en planos elementales de corriente
+66/13.8 kV de S/E
+alterna, estos se modificarán a la brevedad, y se cambiara la
+Pukará
+identificación físicamente (mes de julio)”.
+La empresa CGE Transmisión S.A. indica: “Se determina por medio de
+Falla en sistema de la revisión realizada, que el problema se generó por falla del puerto
+EAF 342-2023 control del paño 52C3 11-08-2023 N°1 del equipo CISCO de la Sala TI en oficina de San Fernando, se
+de S/E Rosario logra levantar de manera provisoria con el enlace de telefónica y al final
+realizar el cambio del puerto N°1 al puerto N°2 del equipo Cisco”.
+La empresa CGE Transmisión S.A. indica: “Se determina por medio de
+Falla en sistema de la revisión realizada, que el problema se generó por falla del puerto
+EAF 343-2023 control del paño C2 de 11-08-2023 N°1 del equipo CISCO de la Sala TI en oficina de San Fernando, se
+S/E Rengo logra levantar de manera provisoria con el enlace de telefónica y al final
+realizar el cambio del puerto N°1 al puerto N°2 del equipo Cisco”.
+Falla en línea 66 kV
+EAF 403-2023 12-09-2023 No se indican.
+Cauquenes - La Vega
+La empresa CGE Transmisión S.A. señala que “se realizó inspección
+Apertura del
+visual al estado de los conductores del alimentador E4 23 kV para
+EAF 419-2023 interruptor 52E4 de SE 27-09-2023
+descartar algún daño ocasionado por el cortocircuito descartando esta
+Hernán Fuentes
+situación.”
+Apertura intempestiva
+de los interruptores
+EAF 521-2023 03-12-2023 La empresa CGE Trasmisión S.A. indica que “No aplica”.
+52BT1 y 52BT2 de S/E
+Cachapoal
+La empresa CGE Transmisión S.A. indica: “El día jueves 15 de febrero
+Apertura intempestiva 2024 de dejó la función SEF inhabilitada en el grupo de protección
+EAF 037-2024 del interruptor 52C2 de 30-01-2024 activo, de modo que, si es requerido, la habilitación se podrá realizar
+S/E Hualañé solamente en forma presencial con un computador conectado a la
+puerta de comunicación del control”.
+Falla en la línea 66 kV
+La empresa CGE Transmisión S.A. señala: “Reemplazo de aislación E-
+EAF 067-2024 Loma Colorada - 10-02-2024
+93 y limpieza manual de aislación estructura aledañas”.
+Escuadrón
+CGE Transmisión S.A. señala que “se revisa procedimiento enviado por
+Apertura intempestiva
+EATON y se modifica indicando que el cable de control sólo puede
+EAF 110-2024 del interruptor 52C5 de 19-03-2024
+insertarse con el control Form 6 apagado, para evitar así la polarización
+S/E Bajo Melipilla
+indeseada de uno de los contactos de apertura o cierre.”
+Desconexión forzada
+EAF 166-2024 de la barra Nº3 66 kV 19-04-2024 La empresa CGE Trasmisión S.A. indica que “No aplica”.
+de S/E Curicó
+Desconexión forzada
+del transformador N°1
+EAF 306-2024 14-07-2024 No se indican.
+66/15 kV de S/E San
+Miguel
+CGE Transmisión S.A. indica:
+“Se analizan eventos: se suspenden los trabajos de Proyecto
+Desconexión forzada
+Ampliación NUP1540; se revisa alambrado de control y posteriormente
+EAF 454-2024 de la línea 66 kV Ovalle 28-08-2024
+análisis causa raíz; se implementan medidas de control para evitar otro
+- Combarbalá
+evento: Reunión CGET-TRANSELEC-FERROVIAL- CyD; bloqueo de las
+protecciones 86”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una falla
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente al Estudio
+para Análisis de Falla EAF 454-2024.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 66 kV Ovalle - Punitaqui, que de acuerdo
+con lo informado por su propietario en la plataforma Infotécnica del Coordinador, tiene una longitud
+de 40.2 km, una capacidad de 18.6 MVA (a 25°C con presencia de sol) y cuya fecha de entrada en
+operación fue en 1944.
+La empresa CGE Transmisión S.A. no remite información sobre los mantenimientos realizados durante
+los últimos 24 meses en la línea 66 kV Ovalle - Punitaqui.
+f. Ubicación urbana o rural según DS 327/1997
+No se indica.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+La empresa CGE Transmisión S.A. remite los siguientes antecedentes en respaldo a la proposición del
+origen de la falla:
+• Informe técnico de los hechos que provocan la falla.
+• Registros de las protecciones.
+h. Comuna donde se presenta la falla
+4303: Punitaqui
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(05-10-2024) (10-10-2024)
+CGE Transmisión S.A. 03-10-2024 14-10-2024
+Compañía General de Electricidad S.A. (CGE S.A.) 06-10-2024 No entregado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Ovalle - Punitaqui 66 kV ST Zonal Ovalle - Punitaqui 66 kV 12:06 12:20
+- Las horas indicadas corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Alimentador Pérdida de % consumo Clientes H. H. H.
+Subestación Comuna
+/Paño Consumo (MW) pre-falla afectados Desc. Dispon. Norm.
+S/E Punitaqui El Hinojo / C2 N/I 1.80 0.018 12:06 12:20 12:20
+S/E Punitaqui Huaquelón / C3 N/I 0.20 0.002 8392 12:06 12:20 12:20
+S/E Punitaqui Los Mantos / C4 N/I 1.00 0.010 12:06 12:20 12:20
+S/E El Sauce Quilitapia / C1 N/I 0.47 0.005 1398 12:06 12:20 12:20
+S/E
+Ciudad / C1 N/I 0.94 0.009 12:06 12:20 12:20
+Combarbalá
+4920
+S/E
+Industrial / C2 N/I 2.42 0.024 12:06 12:20 12:20
+Combarbalá
+Total: 6.83 MW 0.068% 14710
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A. y CGE Transmisión S.A.
+-N/I: No informado.
+3. Estimación de la energía no suministrada
+Alimentador Pérdida de Tiempo Tiempo ENS
+Subestación Empresa Tipo de cliente
+/Paño Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Punitaqui El Hinojo / C2 CGE Regulado 1.80 0.23 0.23 0.4
+S/E Punitaqui Huaquelón / C3 CGE Regulado 0.20 0.23 0.23 0.0
+S/E Punitaqui Los Mantos / C4 CGE Regulado 1.00 0.23 0.23 0.2
+S/E El Sauce Quilitapia / C1 CGE Regulado 0.47 0.23 0.23 0.1
+S/E Combarbalá Ciudad / C1 CGE Regulado 0.94 0.23 0.23 0.2
+S/E Combarbalá Industrial / C2 CGE Regulado 2.42 0.23 0.23 0.6
+Clientes Regulados : 1.5 MWh
+Clientes Libres : MWh
+Total : 1.5 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A. y CGE Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+12:30
+12:20 12:20 12:20 12:20 12:20 12:20
+12:20 12:20 12:20 12:20 12:20 12:20
+12:15
+12:00
+26% 29% 44% 51% 65% 100%
+Recuperación esperada Recuperación real
+No se aprecian diferencias entre los horarios de recuperación real respecto de los horarios de
+disponibilidad de las barras primarias respectivas.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Potencia
+Rango recuperación recuperación
+(MW)
+(h) (MW/h)
+Primer 80 % 5.46 0.23 23.76
+Último 20 % 1.37 0.23 5.94
+100 % Total 6.83 0.23 29.70
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10051.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Angostura (U1),
+Colbún (U1 y U2), El Toro (U1, U2, U3 y U4), Ralco (U1) y Tocopilla (U16).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 03 de octubre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 03 de octubre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+03 de octubre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 03 de
+octubre de 2024.

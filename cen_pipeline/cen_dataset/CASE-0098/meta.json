@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0508-2024",
+  "eaf_num": 508,
+  "year": 2024,
+  "description": "Desconexión forzada del transformador N°2 66/13.2 kV de S/E Linares Norte",
+  "date": "22-10-2024",
+  "time": "03:40",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/EAF-508-2024.pdf",
+  "case_id": "CASE-0098",
+  "event_datetime": "2024-10-22T03:40:00",
+  "fault_label": "transformer_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0098\\official_diagram.zip"
+}

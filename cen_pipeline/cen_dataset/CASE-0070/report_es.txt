@@ -1,0 +1,157 @@
+Estudio para análisis de falla EAF 536/2024
+“Desconexión forzada de la barra 13.2 kV N°1 de S/E Victoria”
+Fecha de Emisión: 27-11-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 06/11/2024
+Hora 21:07
+Consumos desconectados (MW) 1.07
+Demanda previa del sistema (MW) 10166.04
+Porcentaje de desconexión 0.011 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Barra 13.2 kV Nº1 de S/E Victoria / BA01T0058SE068T0058
+Tipo de instalación Subestación
+Tensión nominal 13.2 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 14. Las Condes. Región Metropolitana de
+Santiago
+c. Identificación del elemento fallado
+Nombre del elemento afectado Interruptor 52CE de S/E Victoria / IM01T0058PA013T0058SE068T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 14. Las Condes. Región Metropolitana de
+Santiago
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la barra 13.2 kV N°1 de S/E Victoria por apertura automática
+del interruptor 52CT1 de esta S/E, debido a la operación de su protección de sobrecorriente
+temporizada de fase, provocada por el contacto de un objeto arrojado por una persona hacia las
+instalaciones que conforman el paño CE de S/E Victoria. Se registra en las cámaras de video, el instante
+donde la persona ingresa al patio de la subestación y comete los hechos descritos.
+d.2 Fenómeno Físico:
+ACC2: Intervención de terceros.
+La empresa CGE Transmisión S.A. remite antecedentes (probatorios) con el fin de acreditar el origen
+de la falla.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en línea 66
+La empresa CGE Transmisión S.A. señala que “No se consideran acciones
+EAF 046-2023 kV Concepción - 03-02-2023
+correctivas”.
+Mahns
+Falla en línea 66 La empresa CGE Transmisión S.A. indica: “Se envía carta a la empresa
+EAF 094-2023 kV Arenas Blancas 25-02-2023 Portuaria Cabo Forward S.A. solicitando el retiro de las instalaciones que
+- Puchoco emplaza bajo la línea en el más breve plazo posible.”
+La empresa CGE Transmisión S.A. indica: “Inmediatamente se acudió al
+lugar del evento y se realizó la acción de retiro de árbol que se encontraba
+Falla en línea 66 sobre la línea. Posteriormente se coordinó con la empresa forestal el apoyo
+EAF 096-2023 kV Concepción - 03-02-2023 de la tala de los árboles más cercanos entre las estructuras N°103 y N°104
+Mahns de la línea LT 66KV Tomé-Mahns (fuera de franja) para lo cual ya se han
+realizado actividades y se contempla terminar aproximadamente el 31 de
+marzo de 2023.”
+Falla en línea 66
+EAF 203-2023 kV Curanilahue - 06-05-2023 CGE Transmisión S.A. señala que “no se consideran” acciones correctivas.
+Tres Pinos
+Falla en la línea
+EAF 204-2023 66 kV Los Peumos 04-05-2023 No se indican.
+- Curacautín
+Falla en línea 66
+La empresa CGE Transmisión S.A. señala que “se normalizará la fecha y
+EAF 235-2023 kV Andalicán - 01-06-2023
+hora de protección 52B3 SE Horcones.”
+Horcones N°2
+La empresa CGE Transmisión S.A. indica:
+“Se reparó tramo de línea afectado entre la estructura 154 y 155, en forma
+Falla en línea 110 adicional se realizó inspección visual con camión cesta y con drone de los
+EAF 296-2023 kV Cerrillos - Los 08-07-2023 vanos adyacentes para descartar daño en el conductor”.
+Loros “Se realiza mejora en relé D60 en la lógica de registro de eventos, para
+evitar sobreescritura por activación de elemento de señalización PH DIR1
+BLK A”.
+Falla en la línea
+EAF 318-2023 66 kV Victoria - 29-07-2023 La empresa CGE Transmisión S.A. señala que “No aplica”.
+Collipulli
+La empresa CGE Transmisión S.A. señala que “Está en desarrollo el
+Falla en línea 66
+proyecto NUP 3415, que remplazará los TTCC y las protecciones
+kV Alonso de
+EAF 423-2023 02-10-2023 electromecánicas a digitales en el paño B2, para devolver la transferencia
+Ribera-
+de la línea Chiguayante desde el Paño BR al paño B2, agregando
+Chiguayante
+características de registros de eventos y oscilográfico”.
+La empresa CGE Transmisión S.A. indica:
+“- Se realizó reparación de conductor cortado fase lateral de línea Alonso
+Falla en línea 66
+de Ribera-Chiguayante entre estructuras E12-E13.
+kV Alonso de
+EAF 127-2024 01-04-2024 - Para un mejor entendimiento de futuras fallas, se incluirá en el listado
+Ribera -
+de registros SER del relé SEL 311C las variables 50G1 y 50P1.
+Chiguayante
+- La diferencia horaria observada en relé, se corrigió durante la descarga
+de eventos.”.
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea La empresa CGE Transmisión S.A. para la desconexión forzada de la línea
+110 kV Tap Off 110 kV Tap Off Alto Melipilla - Bajo Melipilla, lo siguiente:
+EAF 152-2024 13-04-2024
+Alto Melipilla - “Se evalúa reparación o reemplazo de fibra óptica dañada, para recuperar
+Bajo Melipilla funciones de protección diferencial de línea.”
+Falla en línea 66 La empresa CGE Transmisión S.A. indica: “Se realizan labores de
+EAF 159-2024 kV Nahuelbuta - 15-04-2024 reparación conductor cortado. Mayores detalles en informe Técnico en
+Angol Anexo VI.”
+La empresa CGE Transmisión S.A. indica lo siguiente:
+“Aumentar en la protección SEL 311C del paño B4 de la S/E Itahue la
+Desconexión cantidad de parámetros que se programan en los Registros SER para
+forzada de la línea información más completa cuando ocurra una operación o evento. Entre
+EAF 185-2024 02-05-2024
+66 kV Itahue - otros se agregarán los elementos involucrados en la reconexión
+Talca N°1 automática y los que aparecen en la ecuación de TRIP. Lo anterior quedo
+programado para realizarse el día 20-05-2024 con Solicitud de
+Intervención al CEN N°2024049443.”
+La empresa CGE Transmisión S.A. indica:
+“Recorrido de LT66Kv San Fernando - Placilla para identificar el punto de
+Falla en línea 66
+falla. Reparación de conductor cortado entre las E19 a E20 de LT66kV San
+EAF 432-2024 kV San Fernando 19-08-2024
+Fernando - Placilla, lo cual fue ocasionado por tala no autorizada de
+- Placilla
+árboles fuera de la franja de seguridad. Se repara puente cortado en E1
+LT66kV San Fernando - Placilla”.
+Falla en línea 66
+EAF 522-2024 kV Nancagua - 20-11-2024 La empresa CGE Transmisión S.A. indica: “No aplica”.
+Paniahue
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido 1 falla en
+la misma instalación afectada durante los últimos 24 meses móviles, correspondiente al Estudio para
+análisis de Falla EAF 051-2023.
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+La instalación donde se originó la falla corresponde al interruptor 52CE de S/E Victoria, el cual, según
+lo informado por el propietario en la plataforma Infotécnica del Coordinador, es de la marca Schneider
+Electric, modelo FVR1201120A, posee una capacidad de ruptura asimétrica de 27,4 kA, y su entrada
+en operación fue en el año 2002.
+Al respecto, la empresa CGE Transmisión S.A., no adjunta información de los mantenimientos de esta
+instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La Empresa Eléctrica de la Frontera S.A. informa que la densidad de sus consumos afectados es baja.
+La Compañía Distribuidora de Energía Eléctrica CODINER S.A. no informa.
+g. Proposición del propietario respecto del origen de la falla
+I.- Fuerza Mayor.
+h. Comuna donde se presenta la falla
+9109: Victoria.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(08-11-2024) (13-11-2024)
+CGE Transmisión S.A. 06-11-2024 20-11-2024
+Compañía Distribuidora de Energía Eléctrica CODINER S.A. (Codiner) 25-11-2024 26-11-2024
+Empresa Eléctrica de la Frontera S.A. (Frontel) 26-11-2024 26-11-2024

@@ -1,0 +1,282 @@
+Estudio para análisis de falla EAF 477/2024
+“Falla en la línea 66 kV Charrúa - Laja”
+Fecha de Emisión: 09-10-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 15/09/2024
+Hora 02:52
+Consumos desconectados (MW) 4.40
+Demanda previa del sistema (MW) 8197.9
+Porcentaje de desconexión 0.054%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Charrúa - Laja / LT053CI1TR02----T002
+Tipo de instalación Línea de transmisión
+Tensión nominal 66 kV
+Segmento Zonal
+Propietario instalación afectada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes
+3. Identificación del elemento fallado
+Nombre del elemento afectado Línea 66 kV Charrúa - Laja / LT053CI1TR02----T002
+Propietario elemento fallado Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes
+d.1 Origen y causa de la falla
+Se produjo una falla en la línea 66 kV Charrúa - Laja con despeje de protecciones desde su extremo
+Charrúa, por operación de su función de sobrecorriente residual direccional.
+La empresa Transelec S.A. indica que el origen de la falla corresponde a una pérdida de aislación en la
+estructura N°48 de la mencionada línea.
+d.2 Fenómeno Físico:
+DIS1: Pérdida de aislación
+La empresa Transelec S.A. remite los antecedentes probatorios para acreditar el fenómeno físico.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+Acciones correctivas a corto plazo: Transelec S.A. señala que “Con el
+objetivo de disminuir la suspensión de materiales contaminantes sobre los
+aisladores de las estructuras, que se exponen en ambientes altamente
+contaminantes, se había implementado cobertura siliconada en ciertos
+tramos de la instalación, cuya naturaleza requiere una frecuencia de lavado
+mucho menor que sin cobertura. Sin embargo, se produjo la pérdida de
+aislación por materiales contaminantes en la instalación. Inmediatamente
+después de la ocurrencia de falla, entró en evaluación retomar el lavado de
+las estructuras como medida provisoria, mientras se analiza la calidad de
+la cobertura aplicada a los aisladores”.
+CGE Transmisión S.A. señala “Falla ocurrida en instalaciones de terceros,
+por lo que no hay acciones de corto plazo de responsabilidad de CGE
+Transmisión S.A.”.
+Falla en línea 110 Hidroeléctrica Río Huasco S.A. señala que “no aplica”.
+EAF 407-2022 kV Maitencillo - 06-11-2022
+Vallenar Acciones correctivas a largo plazo: Transelec S.A. señala que “Con el
+objetivo de disminuir la suspensión de materiales contaminantes sobre los
+aisladores de las estructuras, que se exponen en ambientes altamente
+contaminantes, se había implementado cobertura siliconada en ciertos
+tramos de la instalación, cuya naturaleza requiere una frecuencia de lavado
+mucho menor que sin cobertura. Sin embargo, se produjo la pérdida de
+aislación por materiales contaminantes en la instalación. Inmediatamente
+después de la ocurrencia de falla, entró en evaluación retomar el lavado de
+las estructuras como medida provisoria, mientras se analiza la calidad de
+la cobertura aplicada a los aisladores”.
+CGE Transmisión S.A. señala “Falla ocurrida en instalaciones de terceros,
+por lo que no hay acciones de corto plazo de responsabilidad de CGE
+Transmisión S.A.”.
+Hidroeléctrica Río Huasco S.A. señala que “no aplica”.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+La empresa Transelec S.A. señala lo siguiente:
+“Dentro de las acciones correctivas de corto plazo realizadas a las
+instalaciones tras la confirmación de causa de falla por contaminación del
+pararrayos de la fase B del paño J2 de S/E Lagunas, se procede a realizar
+la desvinculación del equipo afectado y al lavado del resto de los equipos
+afectados por contaminación. Como acciones a largo plazo se está
+evaluando su reemplazo, con fecha por informar. En relación a la operación
+indeseada de la protección Siemens 7SL87, sistema 1 del paño J1 de S/E
+Matilla, indicamos como acción correctiva a corto plazo, la deshabilitación
+de la operación de la zona 1 con la finalidad de poder evitar posibles
+Falla en la línea 220
+operaciones indeseadas mientras continua la investigación de la causa de
+EAF 255-2023 kV San Simón - 13-06-23
+su operación el día 13 de junio de 2023. Junto con ello y por las mismas
+Lagunas
+razones, se deshabilitó de manera preventiva la operación de la zona 1 del
+sistema 2, relé Siemens 7SL87 del paño J1 de S/E Matilla. Por otro lado,
+como acciones correctivas a largo plazo indicamos que se han realizado las
+consultas pertinentes al fabricante sobre la operación del relé en cuestión
+y de manera paralela nos encontramos realizando pruebas en laboratorio
+que nos permitan poder determinar la causa operación indebida.”.
+Como acciones de largo plazo, la empresa Transelec S.A. indica que evalúa
+el reemplazo del pararrayos fallado en el paño J2 de S/E Lagunas con fecha
+por confirmar.
+La empresa Transelec S.A. señala lo siguiente:
+“Dentro de las acciones correctivas de corto plazo realizadas a las
+instalaciones tras la confirmación de causa de falla por contaminación del
+pararrayos de la fase B del paño J2 de S/E Lagunas, se procede a realizar
+la desvinculación del equipo afectado y al lavado del resto de los equipos
+afectados por contaminación. Como acciones a largo plazo se está
+evaluando su reemplazo, con fecha por informar. En relación a la operación
+indeseada de la protección Siemens 7SL87, sistema 1 del paño J1 de S/E
+Matilla, indicamos como acción correctiva a corto plazo, la deshabilitación
+de la operación de la zona 1 con la finalidad de poder evitar posibles
+Falla en la línea 220
+operaciones indeseadas mientras continua la investigación de la causa de
+EAF 256-2023 kV San Simón - 13-06-23
+su operación el día 13 de junio de 2023. Junto con ello y por las mismas
+Lagunas
+razones, se deshabilitó de manera preventiva la operación de la zona 1 del
+sistema 2, relé Siemens 7SL87 del paño J1 de S/E Matilla. Por otro lado,
+como acciones correctivas a largo plazo indicamos que se han realizado las
+consultas pertinentes al fabricante sobre la operación del relé en cuestión
+y de manera paralela nos encontramos realizando pruebas en laboratorio
+que nos permitan poder determinar la causa operación indebida.”.
+Como acciones de largo plazo, la empresa Transelec S.A. indica que evalúa
+el reemplazo del pararrayos fallado en el paño J2 de S/E Lagunas con fecha
+por confirmar.
+La empresa Transelec S.A. señala lo siguiente:
+“Dentro de las acciones correctivas de corto plazo realizadas a las
+instalaciones tras la confirmación de causa de falla por contaminación del
+pararrayos de la fase B del paño J2 de S/E Lagunas, se procede a realizar
+la desvinculación del equipo afectado y al lavado del resto de los equipos
+afectados por contaminación. Como acciones a largo plazo se está
+evaluando su reemplazo, con fecha por informar. En relación a la operación
+indeseada de la protección Siemens 7SL87, sistema 1 del paño J1 de S/E
+Matilla, indicamos como acción correctiva a corto plazo, la deshabilitación
+de la operación de la zona 1 con la finalidad de poder evitar posibles
+Falla en línea 220
+operaciones indeseadas mientras continua la investigación de la causa de
+EAF 257-2023 kV Lagunas - San 13-06-23
+su operación el día 13 de junio de 2023. Junto con ello y por las mismas
+Simón
+razones, se deshabilitó de manera preventiva la operación de la zona 1 del
+sistema 2, relé Siemens 7SL87 del paño J1 de S/E Matilla. Por otro lado,
+como acciones correctivas a largo plazo indicamos que se han realizado las
+consultas pertinentes al fabricante sobre la operación del relé en cuestión
+y de manera paralela nos encontramos realizando pruebas en laboratorio
+que nos permitan poder determinar la causa operación indebida.”.
+Como acciones de largo plazo, la empresa Transelec S.A. indica que evalúa
+el reemplazo del pararrayos fallado en el paño J2 de S/E Lagunas con fecha
+por confirmar.
+Acciones correctivas a corto plazo: Transelec S.A. señala que “se solicita
+intervenciones de Curso Forzoso para ejecutar labores de lavado de las
+estructura N°84 y las adyacentes a esta las cuales se materializaron entre
+los días 22 y 24 de marzo del 2024 y que en base a lo anterior de manera
+Falla en línea 220kV
+preventiva se realiza lavado de estructuras de la línea 220 kV Pan de Azúcar
+EAF 116-2024 Pan de Azúcar- 22-03-2024
+- Minera TECK CDA entre las estructuras N°02 a N°36 N° 75 a N° 107 y N°
+Minera Teck CDA
+110 a N° 129”.
+Acciones correctivas a largo plazo: Transelec S.A. señala que posterior a la
+falla se inicia un análisis de causa raíz y se definirá un plan de acción para
+evitar la reiteración de esta falla.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+Desconexión
+La empresa Transelec S.A. indica: “Reemplazo de aislador fallado fase C,
+forzada de la línea
+EAF 218-2024 19-05-2024 plan de reemplazo de aisladores similares en las demás fases, además de
+13.8 kV San
+los aisladores similares en paños aledaños”.
+Vicente - Inchalam
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 155-2023, EAF 470-2023,
+EAF 048-2024, EAF 141-2024, EAF 315-2024, EAF 437-2024 y EAF 470-2024).
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la falla corresponde la línea 66 kV Charrúa - Laja. De acuerdo con lo
+declarado por su propietario en su Informe de Falla del quinto día, la mencionada línea posee dos
+tramos: Charrúa - Tap Parque Eólico El Maitén (de 33.8 km) y Tap Parque Eólico El Maitén - Laja (de
+14.2 km), ambos con las siguientes características.
+• Conductor de fase: Cu 2/0 AWG.
+• Temperatura de operación 50°C.
+• Capacidad de corriente a temperatura de operación: 244 A.
+• Cable de guardia: no aplica.
+La empresa Transelec S.A. remitió los mantenimientos realizados en los últimos 24 meses sobre la
+línea 66 kV Charrúa - Laja.
+f. Ubicación urbana o rural según DS 327/1997
+No fue informado por la Empresa Eléctrica de la Frontera S.A.
+g. Proposición del propietario respecto del origen de la falla
+La empresa Transelec S.A. declara en su Informe de Falla de 48 horas que la falla fue de origen
+“Interno”.
+h. Comuna donde se presenta la falla
+08304: Laja.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(17-09-2024) (25-09-2024)
+Empresa Eléctrica de la Frontera S.A. (Frontel S.A.) No enviado No enviado
+Parque Eólico El Maitén SpA 15-09-2024 22-09-2024
+Transelec S.A. 15-09-2024 25-09-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) Hora Desc. Hora Norm.
+PE El Maitén - 8.80 02:52 03:02
+Total: 8.80 MW
+- Los horarios señalados corresponden a lo informado por la empresa Parque Eólico El Maitén SpA.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Laja ST Zonal Transformador Nº1 66/23 kV 02:52 03:00
+LT Charrúa - Laja 66 kV ST Zonal - 02:52 03:00
+- Los horarios señalados corresponden a lo informado por la empresa Transelec S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Laja San Rosendo / CT SI 4.40 0.054 SI 02:52 03:00 03:00
+Total: 4.40 MW 0.054% SI
+- Los montos y horarios señalados corresponden a lo informado por la empresa Transelec S.A.
+(SI): No fue informado por parte de Frontel S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Laja San Rosendo / CT FRONTEL Regulado 4.40 0.13 0.13 0.6
+Clientes Regulados : 0.6 MWh
+Clientes Libres : MWh
+Total : 0.6 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Transelec S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se observan diferencias entre el horario de recuperación real y el horario de disponibilidad de
+la barra primaria respectiva para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 3.52 0.13 26.40
+Último 20 % 0.88 0.13 6.60
+100 % Total 4.40 0.13 33.00
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8197.9 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2, U3 y U4), Mejillones (IEM), Nueva Renca y Ralco (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 15 de septiembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 15 de septiembre de 2024.
+0
+0
+0
+0
+0
+0
+0
+0
+3
+2
+2
+1
+1
+0
+0
+0
+:2
+:5
+:2
+:5
+:2
+:5
+:2
+:0
+1
+2
+4
+5
+6
+7
+8
+0
+R e cu p e ra ció n re a l
+00
+1
+33
+0
+::00 00
+0 %
+R e cu p e ra ció n e sp e ra d a

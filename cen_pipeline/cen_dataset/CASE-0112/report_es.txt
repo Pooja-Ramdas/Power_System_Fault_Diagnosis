@@ -1,0 +1,374 @@
+Estudio para análisis de falla EAF 496/2024
+“Falla en línea 66 kV Monterrico - Cocharcas”
+Fecha de Emisión: 21-10-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 30/09/2024
+Hora 21:46
+Consumos desconectados (MW) 24.25
+Demanda previa del sistema (MW) 10594
+Porcentaje de desconexión 0.229%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación 66 kV San Carlos - Cocharcas / LT302CI1TR01----T0058
+Tipo de instalación Línea de Transmisión
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación fallada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Presidente Riesco 5561, piso 17, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento afectado Aislador de la estructura N°107 del tramo 66 kV San Carlos - Cocharcas /
+LT302CI1TR01----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Presidente Riesco 5561, piso 17, Las Condes
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Monterrico - San Carlos mediante la apertura del
+interruptor 52B1 de S/E Monterrico, por operación de sus protecciones tras falla monofásica en la línea.
+La causa de la desconexión forzada se debió a la falla de unos de los aisladores de la estructura N°107
+de la línea.
+d.2 Fenómeno Físico:
+DIS1: Pérdida de aislación.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondiente al Estudio para Análisis de Falla de la siguiente tabla:
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+La empresa CGE Transmisión S.A señala las siguientes acciones correctivas
+de corto plazo:
+- “Inmediatamente se realiza revisión de las instalaciones, observándose
+daño en los aisladores Bushings de equipo compacto de medidas
+cabecera de alimentador Alto La Chimba, en el cual ocurrió falla con
+descarga durante faena de lavado de aislación, este compacto se
+encuentra instalado inmediatamente aguas abajo de 52E31, por lo cual
+Apertura del
+para poder eliminar el punto de falla y energizar las instalaciones se
+EAF 438-2022 interruptor 52E31 01-12-2022
+procedió a desconectar el compacto de medidas de red Media tensión”.
+de S/E La Portada
+- “Se paraliza faena de mantenimiento preventivo de lavado
+inmediatamente y se solicita a la empresa proveedora ejecutante de
+lavado aislación, el desarrollar una revisión de la técnica correcta de
+lavado indicada en instructivo.”.
+La empresa CGE Transmisión S.A señala las siguientes acciones correctivas
+de largo plazo:” Se realizará adquisición y planificará reemplazo de equipo
+compacto de medidas dañado.”
+La empresa CGE Transmisión S.A. indica como medida de corto plazo: “En
+mismo día 7 de marzo se realiza lavado de aislación programado con
+Falla en línea 66 anterioridad mediante solicitud 2023019032. Además, se realiza lavado de
+EAF 108-2023 kV Arenas Blancas 07-03-2023 aislación con desconexión de curso forzoso de estructura N°8 mediante
+- Puchoco solicitud 2023020554.”.
+La empresa CGE Transmisión S.A., como medida de largo plazo, indica que
+no aplica.
+La empresa CGE Transmisión S.A. indica como medida de corto plazo que,
+Desconexión debido a la contaminación presente en la zona, realizó lavado de aislación
+forzada de línea entre las estructuras N°38 y N°64 de la línea 66 kV Perales - Alonso de
+EAF 113-2023 07-03-2023
+66 kV Talcahuano Ribera, según solicitud de intervención de curso forzoso N°2023020664.
+- Perales La empresa CGE Transmisión S.A. indica como medida de largo plazo que
+“no se consideran” acciones correctivas a largo plazo
+La empresa CGE Transmisión S.A. señala lo siguiente como acciones
+correctivas de corto plazo:
+- “El 07/03/2023 a las 10:30 horas aproximadamente se reemplazó la
+aislación dañada en la estructura 86 de la LT 66 kV Loma Colorada –
+Falla en línea 66
+Escuadrón. Además, en esa misma oportunidad se realizó la limpieza
+EAF 118-2023 kV Loma Colorada 10-03-2023
+manual de toda la aislación de esa estructura.”
+- Escuadrón
+La empresa CGE Transmisión S.A. señala lo siguiente como acciones
+correctivas de largo plazo:
+- “Se ha programado Lavado de aislación de la línea Loma Colorada-
+Escuadrón para el día 5 de abril según Solicitud 2023027209.”
+La empresa CGE Transmisión S.A. señala: “Se programó una desconexión
+Falla en línea 66 por curso forzoso, con el fin de realizar el reemplazo del aislador y la
+EAF 132-2023 kV Hualañé - 18-03-2023 limpieza manual de los aisladores de las estructuras aledañas 29, 30, 32,
+Licantén 33 y 34 esto en la madrugada del 22 de marzo de acuerdo con la SD
+N°2023025016.”
+Desconexión La empresa CGE Transmisión S.A. indica que “debido a falla en pararrayos
+forzada de barra del Alimentador 52C6 Livilcar, se programará realizar a la brevedad
+EAF 422-2023 01-10-2023
+13.8 kV N°1 de medidas eléctricas a estos elementos para ver su condición final y se
+S/E Pukará reemplazarán los tres elementos en el mes de noviembre”.
+Falla en la línea 66 La empresa CGE Transmisión S.A. indica lo siguiente:
+EAF 444-2023 kV Tres Pinos - 18-10-2023 “Se realizará lavado de aislación de la línea 66 kV Tres Pinos - Lebu
+Lebu programada para el 15 de noviembre.”
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+Falla en línea 66
+La empresa CGE Transmisión S.A. indica que “se realiza el reemplazo de la
+EAF 454-2023 kV Rancagua - 25-10-2023
+aislación con descarga”.
+Rosario
+La empresa CGE Transmisión S.A. indica lo siguiente:
+Falla en la línea 66 “Se realiza reemplazo de line post con señal de descargas en estructura E-
+EAF 455-2023 kV Tres Pinos - 26-10-2023 583.”
+Lebu “Se realizará lavado de aislación de la línea Tres Pinos-Lebu programada
+para el 15 de noviembre (solicitud CEN 2023098271).”
+La empresa CGE Transmisión S.A. indica lo siguiente:
+“Se realiza reemplazo de line post con señal de descargas en estructura E-
+583.”
+“Se realizará lavado de aislación de la línea Tres Pinos-Lebu programada
+para el 15 de noviembre (solicitud CEN 2023098271).”
+Falla en la línea 66 “Se realiza la corrección en la alimentación de Relé de Paño C3 de SE Lebu,
+EAF 456-2023 kV Tres Pinos - 27-10-2023 la cual presentaba un problema de contacto en conector J6 de dicho
+Lebu control.”
+La empresa Parque Eólico Lebu-Toro SpA indica lo siguiente:
+“Las protecciones de PEL, en caso de tener algún comportamiento
+inadecuado, serán revisadas por la empresa H. Briones, quienes son
+expertos en el manejo de estos equipos. De ser necesario, ante un
+comportamiento inadecuado, se realizaría una nueva configuración”.
+Falla en línea 66
+La empresa CGE Transmisión S.A. señala que: “Se realiza el cambio del
+EAF 480-2023 kV San Fernando - 04-11-2023
+aislador de la estructura N°121 de la línea 66 kV San Fernando - Teno.”
+Teno
+Falla en línea 66 La empresa CGE Transmisión S.A. indica: “El día 01-02-2024, mediante la
+EAF 036-2024 kV Los Maquis - 30-01-2024 SD 2024010903 se realiza el reemplazo de cadenas de aisladores con
+Hualañé evidencia de descarga”.
+Falla en línea 66 La empresa CGE Transmisión S.A. indica: “El día 01-02-2024, mediante la
+EAF 038-2024 kV Los Maquis - 31-01-2024 SD 2024010903 se realiza el reemplazo de cadenas de aisladores con
+Hualañé evidencia de descarga”.
+Falla en la línea 66
+La empresa CGE Transmisión S.A. señala: “Reemplazo de aislación E-93 y
+EAF 052-2024 kV Loma Colorada 07-02-2024
+limpieza manual de aislación estructura aledañas”.
+- Escuadrón
+Desconexión
+La empresa CGE Transmisión S.A. señala:
+forzada de los
+- “Se detectó diferencia de fecha, en los relés de protección, esta
+transformadores
+EAF 167-2024 21-04-2024 diferencia se corrigió el lunes 6 de mayo de 2024”.
+N°2 y N°3 66/23
+“El 22/05/2024 se realizó la reparación de mufa dañada del cable
+kV de S/E Tres
+subterráneo que une transformador T-3 con barra de 23 kV de Tres Pinos”.
+Pinos
+Desconexión
+La empresa CGE Transmisión S.A. señala:
+forzada de los
+- “Se detectó diferencia de fecha, en los relés de protección, esta
+transformadores
+EAF 168-2024 22-04-2024 diferencia se corrigió el lunes 6 de mayo de 2024”.
+N°2 y N°3 66/23
+“El 22/05/2024 se realizó la reparación de mufa dañada del cable
+kV de S/E Tres
+subterráneo que une transformador T-3 con barra de 23 kV de Tres Pinos”.
+Pinos
+Acciones correctivas a corto plazo: La empresa CGE Transmisión S.A.
+señala: “Se realizó la reparación de la mufa terminal el miércoles 24 de
+Apertura abril, ejecutándose los trabajos según SD 2024041583 de curso forzoso”.
+automática del “El 22/05/2024 se realizó la reparación de mufa dañada del cable
+EAF 170-2024 14-05-2024
+interruptor 52CT2 subterráneo que une transformador T-3 con barra de 23 kV de Tres Pinos”.
+de S/E San Pedro Acciones correctivas a largo plazo: La empresa CGE Transmisión S.A. indica
+“No aplica”
+La empresa CGE S.A. no indica acciones correctivas.
+Desconexión
+La empresa CGE Transmisión S.A. indica: “Debido al daño sufrido en los
+forzada de la
+EAF 232-2024 31-05-2024 pararrayos del paño C5, se realizó el reemplazo de los tres elementos el
+barra N°2 13.8 kV
+10/06/2024 con SDº2024056377”.
+de S/E Pukará
+CGE Transmisión S.A. señala:
+Falla en línea “Se rescataron remotamente y se analizaron los eventos de las
+EAF 475-2024 2x110 kV La Ruca 13-09-2024 protecciones. Se realizó inspección del tramo entre las estructuras 48 y 55.
+- Ovalle N°1 Se encontró evidencias de la falla en la Estructura 55. Se realizó inspección
+con Dron en la estructura 55”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido 1 falla en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 005/2023).
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la falla corresponde a la cadena de aislación de la fase C de la estructura
+N°107 del tramo 66 kV San Carlos - Cocharcas. De acuerdo con lo indicado por su propietario en el
+aplicativo Infotécnica del Coordinador, el tramo 66 kV San Carlos - Cocharcas posee las siguientes
+características:
+• Longitud: 13.28 km
+• Temperatura de diseño del conductor en régimen permanente: 50°C
+• Límite térmico permanente en verano con sol 25°C: 0.213 kA
+• Sección del conductor: 53.46 mm2
+• Tipo de conductor: Cobre desnudo
+• Número de conductores por fase: 1
+• Año de entrada en operación: 1964
+CGE Transmisión S.A. remitió los antecedentes respecto de los mantenimientos realizados a este
+elemento durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+CGE S.A. indica ubicación urbana y rural para sus alimentadores afectados en las SS/EE Cocharcas,
+Hualte, Quirihue y San Carlos.
+Copelec Ltda. no indica ubicación urbana o rural o, en su defecto, la clasificación de densidad de sus
+alimentadores afectados en SS/EE Cocharcas, Hualte y San Carlos.
+g. Proposición del propietario respecto del origen de la falla
+CGE Transmisión S.A. señala: “Interna”.
+h. Comuna donde se presenta la falla
+08416: San Carlos
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (02-10-2024) Informe de 5 días (07-10-2024)
+CGE Transmisión S.A. 01-10-2024 15-10-2024
+Compañía General de Electricidad S.A. 01-10-2024 02-10-2024
+Copelec Ltda. 02-10-2024 08-10-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+01:59
+Monterrico - San Carlos 66 kV ST Zonal San Carlos - Cocharcas 21:46
+01-01-2024
+Monterrico - San Carlos 66 kV ST Zonal Cocharcas - Monterrico 21:46 22:03
+- Las horas indicadas corresponden a lo indicado por la empresa CGE Transmisión S.A.
+c. Consumos
+Sub- Alimentador / Comuna Pérdida de % Clientes H. H. H.
+Estación Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Coihueco, San Carlos,
+San Carlos San Carlos / C113 San Fabián y San 4.69 0.044 8450 21:46 21:53 21:53
+Nicolás
+San Carlos Violeta Parra / C6 San Carlos 6.50 0.061 13351 21:46 21:53 21:53
+Chillán, San Carlos y
+Cocharcas Río Ñuble / CT 1.50 0.014 357 21:46 22:03 22:03
+San Nicolás
+LT 33 kV Hualte - Ninhue, Quirihue y
+Hualte 0.10 0.001 980 21:46 22:03 22:03
+Quirihue / FT1 Trehuaco
+San Nicolás- Ninhue, Portezuelo y
+Hualte 1.00 0.009 2490 21:46 22:03 22:03
+Ninhue / CT2 San Nicolás
+Cauquenes,
+Quirihue Cobquecura / E1 Cobquecura, Pelluhue 1.20 0.011 4325 21:46 22:03 22:03
+y Quirihue
+Quirihue Trehuaco / E2 Quirihue y Trehuaco 0.60 0.006 1569 21:46 22:03 22:03
+Los Presidentes /
+Quirihue Quirihue 0.80 0.008 2265 21:46 22:03 22:03
+C1
+Cobquecura y
+Quirihue Vegas Verdes / C2 1.00 0.009 2602 21:46 22:03 22:03
+Quirihue
+Chillán, Coihueco, San
+Cocharcas Cato / C3 2.94 0.028 5931 21:46 22:03 22:03
+Carlos y San Fabián
+Cocharcas Ninquihue / C2 San Carlos 0.70 0.007 1395 21:46 22:03 22:03
+Ninhue, Portezuelo,
+Cocharcas San Nicolás / C1 San Carlos, San 2.52 0.024 5090 21:46 22:03 22:03
+Nicolás y Trehuaco
+Cocharcas
+- San Carlos 0.10 0.001 1 21:46 22:03 22:03
+(FFCC)
+Cauquenes, Ninhue,
+Hualte Coipin /
+Hualte San Carlos y San 0.60 0.006 3337 21:46 22:03 22:03
+C134
+Nicolás
+Total: 24.25 MW 0.229 % 52143
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE Transmisión S.A., CGE S.A. y Copelec Ltda.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador / Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo Indispon. Desc. (MWh)
+(MW) (h) (h)
+San Carlos San Carlos / C113 Copelec Regulado 4.69 0.12 0.12 0.5
+San Carlos Violeta Parra / C6 CGE Regulado 6.50 0.12 0.12 0.8
+Cocharcas Río Ñuble / CT CGE Regulado 1.50 0.28 0.28 0.4
+LT 33 kV Hualte -
+Hualte CGE Regulado 0.10 0.28 0.28 0.0
+Quirihue / FT1
+San Nicolás-Ninhue /
+Hualte CGE Regulado 1.00 0.28 0.28 0.3
+CT2
+Quirihue Cobquecura / E1 CGE Regulado 1.20 0.28 0.28 0.3
+Sub-Estación Alimentador / Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo Indispon. Desc. (MWh)
+(MW) (h) (h)
+Quirihue Trehuaco / E2 CGE Regulado 0.60 0.28 0.28 0.2
+Quirihue Los Presidentes / C1 CGE Regulado 0.80 0.28 0.28 0.2
+Quirihue Vegas Verdes / C2 CGE Regulado 1.00 0.28 0.28 0.3
+Cocharcas Cato / C3 Copelec Regulado 2.94 0.28 0.28 0.8
+Cocharcas Ninquihue / C2 Copelec Regulado 0.70 0.28 0.28 0.2
+Cocharcas San Nicolás / C1 Copelec Regulado 2.52 0.28 0.28 0.7
+Cocharcas (FFCC) - EFE Libre 0.10 0.28 0.28 0.0
+Hualte Hualte Coipin / C134 Copelec Regulado 0.60 0.28 0.28 0.2
+Clientes Regulados : 4.9 MWh
+Clientes Libres : MWh
+Total : 4.9 MWh
+- Los montos señalados corresponden a lo informado por las empresas CGE Transmisión S.A., CGE S.A. y Copelec Ltda.
+- Curva de recuperación esperada v/s recuperación real.
+No se observan diferencias entre los horarios de recuperación real respecto de los horarios de
+disponibilidad de las barras primarias respectivas para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Tiempo
+Rango Potencia (MW) recuperación
+recuperación (h)
+(MW/h)
+Primer 80 % 19.40 0.28 69.29
+Último 20 % 4.85 0.28 17.32
+100 % Total 24.25 0.28 86.61
+2
+2
+2
+2
+2
+2
+2
+2
+2
+1
+1
+1
+1
+1
+:0
+:0
+:5
+:5
+:5
+:5
+:4
+4
+1
+9
+6
+3
+0
+7
+1 9 .3 % 4 6 .1 % 5 2 .3 % 5 2 .7
+R
+%
+e c u
+5
+p
+6
+e
+.9 %
+r a c ió
+6 1 .8
+n r e
+%
+a l
+6 4 .3 % 6 7 .6 %
+R e c
+7
+u
+1
+p
+.7 %
+e r a c
+8
+ió
+3
+n
+.8
+e
+%
+s p
+8 6
+e r a
+.7
+d
+%
+a
+9 7 .1 % 9 7 .5 % 1 0 0 .0 %

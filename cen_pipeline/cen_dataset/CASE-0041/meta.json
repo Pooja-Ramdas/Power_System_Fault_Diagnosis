@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0565-2024",
+  "eaf_num": 565,
+  "year": 2024,
+  "description": "Desconexión forzada de la línea 110 kV Galleguillos – Caldera",
+  "date": "05-12-2024",
+  "time": "11:13",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/12/EAF-565-2024.pdf",
+  "case_id": "CASE-0041",
+  "event_datetime": "2024-12-05T11:13:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0041\\official_diagram.zip"
+}

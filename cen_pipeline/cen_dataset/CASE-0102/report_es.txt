@@ -1,0 +1,174 @@
+Estudio para análisis de falla EAF 504/2024
+“Falla en línea 66 kV Alonso de Ribera - Chiguayante”
+Fecha de Emisión: 05-11-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 12/10/2024
+Hora 14:25
+Consumos desconectados (MW) 16.80
+Demanda previa del sistema (MW) 8730.4
+Porcentaje de desconexión 0.192 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Alonso de Ribera - Chiguayante / LT065CI1TR01----T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+3. Identificación del elemento fallado
+Nombre del elemento afectado Línea 66 kV Alonso de Ribera - Chiguayante / LT065CI1TR01----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Alonso de Ribera - Chiguayante, por operación de
+la protección del extremo Alonso de Ribera, ante una falla ocurrida en la línea.
+Según lo señalado por CGE Transmisión S.A., la causa de la falla fue el quiebre de uno de los pernos
+que sostiene la cruceta de la estructura N°12 de la mencionada línea, lo cual provocó el desplazamiento
+de la cruceta y la pérdida de aislación en la fase “C”.
+d.2 Fenómeno Físico:
+OPE10: Falla de material, por fatiga, corrosión, trizadura, etc.
+La empresa CGE Transmisión S.A. remite los antecedentes para acreditar el fenómeno físico.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS_CP ACCIONES_CORRECTIVAS_LP
+La empresa CGE Transmisión S.A. indica que durante
+este año 2022 han estado trabajando en el proyecto
+La empresa CGE Transmisión S.A. indica lo
+de Instalación de amortiguadores en el total de la LT
+siguiente: "El día 11/11/2022 se realizó
+66 kV Parral-Cauquenes considerando esta
+Desconexión de reparación de emergencia de la LT Parral -
+problemática. Para el proyecto anteriormente
+EAF 416_2022 línea 66 kV Parral - 11-11-2022 Cauquenes entre las estructuras 17 y 18. Estos
+mencionado ya se encuentran finalizadas las etapas
+Cauquenes trabajos finalizaron el mismo día señalado
+de estudio ingeniería de detalle y adquisición de los
+alrededor de las 20:05 horas quedando la línea
+materiales requeridos. Actualmente está en curso la
+en condiciones de entrar en servicio."
+etapa de licitación para el proceso de instalación de
+los amortiguadores.
+La empresa CGE Transmisión S.A. señala:
+Desconexión “En el momento se procedió a realizar el
+La empresa CGE Transmisión S.A. no señala acciones
+EAF 418_2022 forzada línea 66 kV 12-11-2022 reemplazo de la cadena de aislación dañada en
+correctivas de largo plazo.
+Tres Pinos - Lebu estructura
+598 de la LT 66 kV Tres Pinos-Lebu.”
+La empresa CGE Transmisión S.A. señala que se
+Falla en el realizó reemplazo del reconectador del paño C3
+La empresa CGE Transmisión S.A. señala que no
+EAF 023_2023 interruptor 52C3 de 19-01-2023 Romeral por un nuevo reconectador Cooper
+aplica realizar acciones correctivas a largo plazo.
+S/E Rauquén Power Systems modelo NOVA y control Form6.
+Este reemplazo finalizó el 26 de enero de 2023.
+Falla en la línea 66
+EAF 069_2023 kV Parral - 13-02-2023 No se indica. No se indican.
+Cauquenes
+La empresa CGE Transmisión S.A. indica que
+realizará “revisión de la aislación de las fases La empresa CGE Transmisión S.A. indica lo siguiente:
+aledañas en la estructura E598, dentro del mes “Revisión de la aislación en la línea LT Tres Pinos-Lebu
+de febrero de 2024”. en los próximos 3 meses del 2024.”.
+La empresa Frontel S.A. no indica acciones La empresa Frontel S.A. no indica acciones
+correctivas. correctivas.
+Falla en línea 66 kV La empresa Parque Eólico Lebu-Toro SpA indica La empresa Parque Eólico Lebu-Toro SpA indica lo
+EAF 023_2024 20-01-2024
+Tres Pinos - Lebu lo siguiente: “Las protecciones de PEL, en caso siguiente: “Las protecciones de PEL, en caso de tener
+de tener algún comportamiento inadecuado, algún comportamiento inadecuado, serán revisadas
+serán revisadas por la empresa H. Briones, por la empresa H. Briones, quienes son expertos en el
+quienes son expertos en el manejo de estos manejo de estos equipos. De ser necesario, ante un
+equipos. De ser necesario, ante un comportamiento inadecuado, se realizaría una nueva
+comportamiento inadecuado, se realizaría una configuración”.
+nueva configuración”.
+La empresa CGE Transmisión S.A. señala que “se
+Falla en línea 66 kV La empresa CGE Transmisión S.A. señala que “no
+EAF 066_2024 09-02-2024 procedió a reparar la línea con conductor
+Parral - Cauquenes aplica”.
+cortado”.
+La empresa CGE Transmisión S.A. señala lo
+Falla en el cierre La empresa CGE Transmisión S.A. ejecutó labores de
+siguiente: “Actividades de Verificación de
+del interruptor mantenimiento preventivo al interruptor 52E5 de S/E
+EAF 195_2024 07-05-2024 interruptor, revisión y reparación de
+52E5 de S/E Mariscal, de acuerdo con la solicitud de desconexión
+enclavamiento mecánico, realizadas el 07-05-
+Mariscal N°2024047770.
+2024”.
+La empresa CGE Transmisión S.A. indica:
+“Revisión con dron de la línea de transmisión
+afectada, estructuras y cable de guardia, se
+pronostica su ejecución para los últimos días de junio
+La empresa CGE Transmisión S.A. indica: de 2024.
+Falla en la línea 110 “Retiro de tramo de cable de guardia dañado, Reparación de tierra de protección de fibra óptica,
+EAF 212_2024 kV La Estrella - 13-05-2024 realizado el día 13/05/2024. reparación de puesta tierra aislación de estructura
+Quelentaro Reparación de conductor de fase con hebras N°8, y revisión de preformada de reparación
+dañadas, realizado el día 13/05/2024”. estructura N°9, se pronostica su ejecución para los
+últimos días de junio de 2024.
+Lavado de estructuras de la línea de transmisión
+afectada, tramo cable de guardia, se pronostica su
+ejecución para los últimos días de julio de 2024”.
+Desconexión
+La empresa CGE Transmisión S.A. indica:
+forzada de los
+“Con fecha 17-05-2024 se efectúa el reemplazo La empresa CGE Transmisión S.A. no indica acciones
+EAF 217_2024 transformadores 17-05-2024
+del aislador de apoyo dañado y de los otros dos correctivas a largo plazo.
+N°2 y N°3 66/23 kV
+como medida preventiva.”
+de S/E Tres Pinos
+La empresa CGE Transmisión S.A. indica lo
+siguiente:
+“Se transfieren los consumos parciales de S/E La empresa CGE Transmisión S.A. indica lo siguiente:
+Falla en la línea 66 Marquesa a S/E Vicuña. “A la espera de informe del estado del conductor,
+EAF 227_2024 kV Pan de Azúcar - 28-05-2024 Se realiza reparación de conductor cortado, para el cual se planifica respuesta para el 30 de junio
+Marquesa vano entre estructuras N°18 y N°19. de 2024.”
+Se enviará a análisis un trozo de conductor
+afectado para determinar acciones posteriores
+en junio de 2024.”
+CGE Transmisión S.A. indica lo siguiente:
+Falla en cierre de
+“Se repara riel guía dañado equipo 52C14.
+EAF 272_2024 interruptor 52C14 17-06-2024 No se indican.
+Mayores detalles se pueden encontrar en Anexo
+de S/E Quiani
+Probatorios”.
+La empresa CGE Transmisión S.A. indica: “Se
+Falla en el cierre de solicitará el paño C5 para efectuar mediciones
+EAF 408_2024 interruptor 52C5 de 04-08-2024 No se indican. eléctricas y verificación de operación mecánica, a
+S/E Coronel realizarse como máximo al 30 de septiembre de
+2024”.
+La empresa CGE Transmisión S.A. indica:
+“Circuito 52E3 queda abierto con consumos
+Falla en pararrayos
+transferidos a S/E Marquesa. Se realiza retiro de La empresa CGE Transmisión S.A. indica: “Programar
+EAF 433_2024 del paño E3 de S/E 19-08-2024
+los puentes de pararrayos de las 3 fases para reemplazo de pararrayos. Fecha límite 20-12-2024”.
+Vicuña
+energizar cabecera (ejecutado el 20-08-2024).
+Mayores detalles en informe adjunto”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido seis fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 066-2023, EAF 149-2023, EAF 406-2023, EAF 423-2023, EAF 127-2024 y
+EAF 247-2024.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+La instalación afectada corresponde a la línea 66 kV Alonso de Ribera - Chiguayante, línea que tiene
+una longitud de 15.7 km, cuenta con conductor de cobre desnudo de 2/0 AWG, una capacidad de 41
+MVA (a 25°C con sol y tensión nominal) y fue puesta en servicio en el año 1967 de acuerdo con la
+información técnica disponible en la plataforma Infotécnica del Coordinador.
+La empresa CGE Transmisión S.A. remitió antecedentes respecto de los mantenimientos realizados
+durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La Compañía General de Electricidad S.A. indica: “Urbano” y “Rural”.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor o Caso Fortuito.

@@ -1,0 +1,299 @@
+Estudio para análisis de falla EAF 553/2024
+“Desconexión forzada de la línea 110 kV Liqcau - Alto Norte”
+Fecha de Emisión: 13/12/2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 22/11/2024
+Hora 11:02
+Consumos desconectados (MW) 11.67
+Demanda previa del sistema (MW) 10031.02
+Porcentaje de desconexión 0.120%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Liqcau - Alto Norte 110 kV / LT021---------L0134
+Tipo de instalación Línea
+Tensión nominal 110 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Edelnor Transmisión S.A.
+RUT 76.046.791-K
+Representante Legal Rosaline Corinthien *
+Dirección Av. Apoquindo N°3721, piso 6, Las Condes.
+(*) Datos correspondientes al Gerente General de la empresa propietaria del elemento afectado, obtenidos de la plataforma REUC
+del Coordinador. No fueron remitidos los datos correspondientes al Representante Legal.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Desconectador fusible 89HT2-F de S/E Tap Off La Negra /
+DC01T0058PA009T0058SE289T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco 5561, Oficina 1701, piso 17. Las Condes. Santiago.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática de los interruptores 52H2 de S/E Liqcau y 52H3 de S/E Alto Norte,
+correspondientes a la línea 110 kV Liqcau - Alto Norte, por medio de la operación de sus protecciones
+de distancia.
+La empresa CGE Transmisión S.A. declara que la falla se produjo en la parte superior del desconectador
+fusible 89HT2-F de S/E Tap Off La Negra, debido a una descarga producida con ocasión de trabajos de
+lavado de aislación.
+d.2 Fenómeno Físico:
+OPE1: Trabajos en instalaciones.
+La empresa CGE Transmisión S.A. entrega los siguientes antecedentes probatorios para acreditar el
+fenómeno físico declarado:
+- Registro fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+- Mantenimientos realizados en S/E Tap Off La Negra los últimos 24 meses.
+- Copia de la solicitud y autorización de la actividad específica.
+- Detalle del hecho que provoca la falla.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido reiteraciones
+del fenómeno físico en instalaciones del propietario de la instalación fallada, durante los últimos 24
+meses.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica:
+- “Se realiza normalización de potenciales de protección de las fases
+Apertura
+B y C en secundario del TTPP N°2 asociado a Barra 66kV N°2 de S/E
+intempestiva del
+EAF 442-2022 05/12/2022 Pitrufquén mediante SD de curso forzoso N°2022109338”.
+interruptor 52BT2
+- “Se programa la Habilitación de alarmas en Scada asociadas a la
+de S/E Pitrufquén
+función de perdida de potenciales de las protecciones de distancia y
+de los ITE de la Barras de 66kV N°1 y N°2.SD 2022112584”.
+Apertura CGE Transmisión S.A. señala:
+intempestiva del “Con fecha del 23-12-2022 se normalizó la hora del control del
+EAF 457-2022 11/12/2022
+interruptor 52C2 de reconectador 52C2. Además, la cadena de remate con descarga queda
+S/E San Carlos reemplazada por otra nueva”.
+Desconexión
+forzada del
+La empresa CGE Transmisión S.A. señala: “Se realiza normalización de
+EAF 478-2022 transformador N°2 18/12/2022
+equipo dañado bajo la SD N°2022116553”.
+66/23 kV de S/E
+Pucón
+La empresa CGE Transmisión S.A. indica: “No se observaron hebras
+Falla en línea 66 kV cortadas en el conductor. No obstante, se programó la instalación de
+EAF 043-2023 Las Arañas - El 01/02/2023 preformadas de reparación en los puntos donde se produjo la descarga
+Peumo eléctrica. La intervención con líneas energizadas ya se realizó
+exitosamente el 08 de febrero 2023 bajo la solicitud N°2023009210”.
+Falla en la línea 66 La empresa CGE Transmisión S.A. indica:
+EAF 073-2023 kV Punitaqui - El 14/02/2023 - “Suspensión del lavado".
+Sauce - "Reprogramación del lavado con desconexión de la LT 66 kV”.
+Falla en línea 2x66
+La empresa CGE Transmisión S.A. indica: “Revisión del procedimiento de
+EAF 110-2023 kV Talcahuano - 07/03/2023
+trabajo de lavado de aislación”.
+Latorre N°2
+La empresa CGE Transmisión S.A. señala que:
+“Se suspenden las faenas de tala de los árboles entre las estructuras
+Falla en línea 66 kV N°104 y N°105 de la línea LT 66KV Tomé - Mahns en forma momentánea
+EAF 115-2023 08/03/2023
+Concepción - Mahns durante la investigación de los hechos y las medidas de mejora. Por lo
+cual se realiza la revisión y mejora de procedimientos de trabajo con los
+proveedores para evitar la repetición de estos hechos”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. señala lo siguiente:
+- “Se implementará una protección mecánica provisoria en la zona de
+Desconexión
+los termómetros de los transformadores, que se usará durante las
+forzada del
+faenas, para prevenir operación al realizar movimientos o en los
+EAF 173-2023 transformador 16/04/2023
+desplazamientos”.
+66/15 kV N°1 de
+- “Al inicio de las faenas en las cercanías de transformadores en
+S/E Chiguayante
+servicio, se pondrá énfasis en el cumplimiento de los protocolos para
+delimitación de los lugres de trabajos en las subestaciones”.
+La empresa CGE Transmisión S.A. indica las siguientes acciones
+correctivas de corto plazo:
+“Se ejecutará una revisión y pruebas en terreno y desde SCADA de
+Apertura órdenes y estados la unidad de control ABB RER615 asociada al
+intempestiva del alimentador C1 Freire, con la finalidad de detectar cualquier eventual
+EAF 174-2023 17/04/2023
+interruptor 52C1 de error por este evento en cuestión. La revisión se enfocará en órdenes y
+S/E Lautaro estados de Apertura/Cierre, Habilitación y Bloqueo de residual, Bloqueo
+y habilitación de reconexión, visualización de señales analógicas, y el
+cambio del grupo de ajustes. Estos trabajos se realizarán a través de la
+SD N°2023039426 el 09/05/2023”.
+Apertura
+intempestiva del La empresa CGE Transmisión S.A. indica: “No se consideran acciones
+EAF 222-2023 23/05/2023
+interruptor 52CT2 correctivas de corto ni largo plazo”.
+de S/E Alameda
+Desconexión La empresa CGE Transmisión S.A. señala que:
+forzada del “Debido a la operación, por error en la identificación de los blocks de
+EAF 280-2023 transformador N°2 24/06/2023 prueba de los paños BT1 y BT2 en planos elementales de corriente
+66/13.8 kV de S/E alterna, estos se modificarán a la brevedad, y se cambiara la
+Pukará identificación físicamente (mes de julio)”.
+La empresa CGE Transmisión S.A. indica: “Se determina por medio de la
+Falla en sistema de
+revisión realizada, que el problema se generó por falla del puerto N°1 del
+control del paño
+EAF 342-2023 11/08/2023 equipo CISCO de la Sala TI en oficina de San Fernando, se logra levantar
+52C3 de S/E
+de manera provisoria con el enlace de telefónica y al final realizar el
+Rosario
+cambio del puerto N°1 al puerto N°2 del equipo Cisco”.
+La empresa CGE Transmisión S.A. indica: “Se determina por medio de la
+Falla en sistema de revisión realizada, que el problema se generó por falla del puerto N°1 del
+EAF 343-2023 control del paño C2 11/08/2023 equipo CISCO de la Sala TI en oficina de San Fernando, se logra levantar
+de S/E Rengo de manera provisoria con el enlace de telefónica y al final realizar el
+cambio del puerto N°1 al puerto N°2 del equipo Cisco”.
+Falla en línea 66 kV
+EAF 403-2023 Cauquenes - La 12/09/2023 No se indican.
+Vega
+Apertura del La empresa CGE Transmisión S.A. señala que “se realizó inspección visual
+EAF 419-2023 interruptor 52E4 de 27/09/2023 al estado de los conductores del alimentador E4 23 kV para descartar
+SE Hernán Fuentes algún daño ocasionado por el cortocircuito descartando esta situación.”
+Apertura
+intempestiva de los
+EAF 521-2023 interruptores 52BT1 03/12/2023 La empresa CGE Trasmisión S.A. indica que “No aplica”.
+y 52BT2 de S/E
+Cachapoal
+La empresa CGE Transmisión S.A. indica: “El día jueves 15 de febrero
+Apertura
+2024 de dejó la función SEF inhabilitada en el grupo de protección activo,
+intempestiva del
+EAF 037-2024 30/01/2024 de modo que, si es requerido, la habilitación se podrá realizar solamente
+interruptor 52C2 de
+en forma presencial con un computador conectado a la puerta de
+S/E Hualañé
+comunicación del control”.
+Falla en la línea 66
+La empresa CGE Transmisión S.A. señala: “Reemplazo de aislación E-93
+EAF 067-2024 kV Loma Colorada - 10/02/2024
+y limpieza manual de aislación estructura aledañas”.
+Escuadrón
+Apertura CGE Transmisión S.A. señala que “se revisa procedimiento enviado por
+intempestiva del EATON y se modifica indicando que el cable de control sólo puede
+EAF 110-2024 19/03/2024
+interruptor 52C5 de insertarse con el control Form 6 apagado, para evitar así la polarización
+S/E Bajo Melipilla indeseada de uno de los contactos de apertura o cierre.”
+Desconexión
+forzada de la barra
+EAF 166-2024 19/04/2024 La empresa CGE Trasmisión S.A. indica que “No aplica”.
+Nº3 66 kV de S/E
+Curicó
+Desconexión
+forzada del
+EAF 306-2024 transformador N°1 14/07/2024 No se indican.
+66/15 kV de S/E
+San Miguel
+CGE Transmisión S.A. indica:
+Desconexión “Se analizan eventos: se suspenden los trabajos de Proyecto Ampliación
+forzada de la línea NUP1540; se revisa alambrado de control y posteriormente análisis causa
+EAF 454-2024 28/08/2024
+66 kV Ovalle - raíz; se implementan medidas de control para evitar otro evento:
+Combarbalá Reunión CGET-TRANSELEC-FERROVIAL- CyD; bloqueo de las
+protecciones 86”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+CGE Transmisión S.A. indica:
+Falla en línea 66 kV
+EAF 497-2024 03/10/2024 “Suspensión de la actividad de lavado de línea.
+Ovalle - Punitaqui
+Inspección con Drone para determinar causa raíz.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la falla corresponde al desconectador fusible 89HT2-F de S/E Tap Off La
+Negra, el cual, según lo informado por el propietario en la plataforma Infotécnica del Coordinador, es
+de la marca S&C con disposición vertical y una capacidad de 0.25 kA, y su fecha de entrada en
+operación fue en el año 1997.
+Por otra parte, la empresa CGE Transmisión S.A. presenta los mantenimientos realizados a la S/E Tap
+Off La Negra durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No informado.
+g. Proposición del propietario respecto del origen de la falla
+La empresa CGE Transmisión S.A. declara: “Interna”.
+h. Comuna donde se presenta la falla
+2101: Antofagasta.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(24/11/2024) (29/11/2024)
+Edelnor Transmisión S.A. (Edelnor Transmisión) 22/11/2024 30/11/2024
+CGE Transmisión S.A. (CGE Transmisión) 22/11/2024 03/12/2024
+Compañía General de Electricidad S.A. (CGE) 06/12/2024 No enviado
+Inacal S.A. (Inacal) No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Hora Hora
+Elemento Afectado Segmento Tramo
+Desc. Norm.
+Liqcau - Alto Norte 110 kV ST Zonal Liqcau - Tap Off La Negra 110 kV 11:02 11:21
+Liqcau - Alto Norte 110 kV ST Zonal Tap Off La Negra - Alto Norte 110 kV 11:02 11:21
+- Los horarios señalados corresponden a lo informado por la empresa Edelnor Transmisión S.A.
+c. Consumos
+Pérdida de
+Alimentador / % consumo Clientes H. H. H.
+Sub-Estación Comuna Consumo
+Paño pre-falla Afectados Desc. Dispon. Norm.
+(MW)
+Tap Off La Negra Portezuelo / E7 Antofagasta 4.80 0.050 11:02 11:21 11:21
+139
+Tap Off La Negra Industrial / E9 Antofagasta 3.23 0.030 11:02 11:21 11:21
+Tap Off La Negra Way / E8 Antofagasta 0.85 0.010 1 11:02 11:21 11:21
+Tap Off La Negra Inacesa / E10 NI 2.79 0.030 1 11:02 11:21 11:21
+Total: 11.67 MW 0.120% 141
+- Los montos y horarios señalados corresponden a lo informado por las empresas Compañía General de Electricidad S.A. y CGE
+Transmisión S.A. La primera solo informa el monto total de los consumos afectados, la comuna y el número total de clientes
+involucrados, por medio de su Informe de Falla de 48 horas.
+- NI: No informado.
+3. Estimación de la energía no suministrada
+Pérdida de Tiempo Tiempo
+Alimentador / Tipo de ENS
+Sub-Estación Empresa Consumo Indispon. Desc.
+Paño Cliente (MWh)
+(MW) (h) (h)
+Tap Off La Negra Portezuelo / E7 CGE Regulado 4.80 0.32 0.32 1.5
+Tap Off La Negra Industrial / E9 CGE Regulado 3.23 0.32 0.32 1.0
+Tap Off La Negra Way / E8 Minera El Way Libre 0.85 0.32 0.32 0.3
+Tap Off La Negra Inacesa / E10 Inacal Libre 2.79 0.32 0.32 0.9
+Clientes Regulados : 2.5 MWh
+Clientes Libres : 1.2 MWh
+Total : 3.7 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Compañía General de Electricidad S.A. y CGE
+Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre la recuperación real y esperada de los consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación Velocidad de
+(h) recuperación (MW/h)
+Primer 80 % 9.34 0.32 29.48
+Último 20 % 2.33 0.32 7.37
+100 % Total 11.67 0.32 36.85
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10031.02 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Colbún (U1), Colbún
+(U2), El Toro (U1), El Toro (U2), El Toro (U3), El Toro (U4), PFV (Diego de Almagro Sur), Ralco (U1) y
+Ralco (U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 22 de noviembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 22 de noviembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+22 de noviembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 22 de
+noviembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades:
+• El interruptor 52HS de S/E Antofagasta se encontraba abierto.
+• La línea 110 kV Liqcau - Antofagasta se encontraba abierta por trabajos de mantenimiento.
+• La línea 110 kV Capricornio - Antofagasta se encontraba abierta por trabajos de
+mantenimiento.
+Otros antecedentes relevantes
+Según lo informado por la empresa CGE Transmisión S.A.:
+“El viernes 22 de noviembre de 2024 a las 11:02 horas, cuando se ejecutaba una faena de lavado de
+aislación en equipo 89HT2-F de S/E Tap Off La Negra, propiedad de CGE Transmisión, se produce una
+descarga en la parte superior del desconectador fusible 89HT2-F, lo cual generó la desconexión
+forzada por protecciones de la línea 110 KV Liqcau - Altonorte, afectando los consumos de S/E Tap
+Off La Negra.

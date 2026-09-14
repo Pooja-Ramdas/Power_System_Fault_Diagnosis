@@ -1,0 +1,318 @@
+Estudio para análisis de falla EAF 507/2024
+“Falla en la línea 66 kV San Fernando - Teno”
+Fecha de Emisión: 12-11-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 19/10/2024
+Hora 17:05
+Consumos desconectados (MW) 23.47
+Demanda previa del sistema (MW) 9244.58
+Porcentaje de desconexión 0.250 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV San Fernando - Teno / LT046---------T058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 14, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Tramo Chimbarongo - Tap Quinta de la línea 66 kV San Fernando - Teno /
+LT046CI1TR03T0058ST01T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 14, Las Condes.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52B8 de S/E San Fernando, correspondiente a la
+línea 66 kV San Fernando - Teno, por medio de la operación de su protección de distancia para fallas
+a tierra en segunda zona.
+Al respecto, la empresa CGE Transmisión S.A. declara preliminarmente que la operación anteriormente
+señalada fue presumiblemente a causa de una posible descarga en la estructura N°112, debido a la
+alta contaminación presente en la zona.
+d.2 Fenómeno Físico:
+DIS1: Pérdida de aislación. (*)
+(*) Fenómeno físico determinado por el Coordinador en base al alto nivel de contaminación declarado por la empresa
+propietaria.
+Al respecto, la empresa CGE Transmisión S.A. remite los siguientes antecedentes en respaldo a la
+proposición del fenómeno físico:
+• Registro fotográfico con fecha, hora y coordenadas UTM del presunto punto de falla.
+• Mantenciones de los últimos 24 meses (no incluye lavado o limpieza de aislación en el tramo
+Chimbarongo - Tap Quinta).
+Sin perjuicio de lo anterior, se encuentra pendiente el envío de la siguiente información:
+• Informe técnico de los hechos que provocan la eventual pérdida de aislación, o bien, del fenómeno
+físico definitivo.
+• Limpieza o lavado de aislación de los últimos 24 meses, en específico del punto de falla.
+• Número de reiteraciones de la causa en la instalación en base al fenómeno físico definitivo.
+• Complementar con los antecedentes requeridos para el fenómeno físico definitivo, si corresponde.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación sí ha sido afectada por el mismo
+fenómeno físico durante los últimos 24 meses móviles (EAF 480-2023).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+La empresa CGE Transmisión S.A señala las siguientes acciones correctivas
+de corto plazo:
+- “Inmediatamente se realiza revisión de las instalaciones, observándose
+daño en los aisladores Bushings de equipo compacto de medidas
+cabecera de alimentador Alto La Chimba, en el cual ocurrió falla con
+descarga durante faena de lavado de aislación, este compacto se
+encuentra instalado inmediatamente aguas abajo de 52E31, por lo cual
+Apertura del
+para poder eliminar el punto de falla y energizar las instalaciones se
+EAF 438-2022 interruptor 52E31 01-12-2022
+procedió a desconectar el compacto de medidas de red Media tensión”.
+de S/E La Portada
+- “Se paraliza faena de mantenimiento preventivo de lavado
+inmediatamente y se solicita a la empresa proveedora ejecutante de
+lavado aislación, el desarrollar una revisión de la técnica correcta de
+lavado indicada en instructivo.”.
+La empresa CGE Transmisión S.A señala las siguientes acciones correctivas
+de largo plazo:” Se realizará adquisición y planificará reemplazo de equipo
+compacto de medidas dañado.”
+La empresa CGE Transmisión S.A. indica como medida de corto plazo: “En
+mismo día 7 de marzo se realiza lavado de aislación programado con
+Falla en línea 66 anterioridad mediante solicitud 2023019032. Además, se realiza lavado de
+EAF 108-2023 kV Arenas Blancas 07-03-2023 aislación con desconexión de curso forzoso de estructura N°8 mediante
+- Puchoco solicitud 2023020554.”.
+La empresa CGE Transmisión S.A., como medida de largo plazo, indica que
+no aplica.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+La empresa CGE Transmisión S.A. indica como medida de corto plazo que,
+Desconexión debido a la contaminación presente en la zona, realizó lavado de aislación
+forzada de línea entre las estructuras N°38 y N°64 de la línea 66 kV Perales - Alonso de
+EAF 113-2023 07-03-2023
+66 kV Talcahuano Ribera, según solicitud de intervención de curso forzoso N°2023020664.
+- Perales La empresa CGE Transmisión S.A. indica como medida de largo plazo que
+“no se consideran” acciones correctivas a largo plazo
+La empresa CGE Transmisión S.A. señala lo siguiente como acciones
+correctivas de corto plazo:
+- “El 07/03/2023 a las 10:30 horas aproximadamente se reemplazó la
+aislación dañada en la estructura 86 de la LT 66 kV Loma Colorada –
+Falla en línea 66
+Escuadrón. Además, en esa misma oportunidad se realizó la limpieza
+EAF 118-2023 kV Loma Colorada 10-03-2023
+manual de toda la aislación de esa estructura.”
+- Escuadrón
+La empresa CGE Transmisión S.A. señala lo siguiente como acciones
+correctivas de largo plazo:
+- “Se ha programado Lavado de aislación de la línea Loma Colorada-
+Escuadrón para el día 5 de abril según Solicitud 2023027209.”
+La empresa CGE Transmisión S.A. señala: “Se programó una desconexión
+Falla en línea 66 por curso forzoso, con el fin de realizar el reemplazo del aislador y la
+EAF 132-2023 kV Hualañé - 18-03-2023 limpieza manual de los aisladores de las estructuras aledañas 29, 30, 32,
+Licantén 33 y 34 esto en la madrugada del 22 de marzo de acuerdo con la SD
+N°2023025016.”
+Desconexión La empresa CGE Transmisión S.A. indica que “debido a falla en pararrayos
+forzada de barra del Alimentador 52C6 Livilcar, se programará realizar a la brevedad
+EAF 422-2023 01-10-2023
+13.8 kV N°1 de medidas eléctricas a estos elementos para ver su condición final y se
+S/E Pukará reemplazarán los tres elementos en el mes de noviembre”.
+Falla en la línea 66 La empresa CGE Transmisión S.A. indica lo siguiente:
+EAF 444-2023 kV Tres Pinos - 18-10-2023 “Se realizará lavado de aislación de la línea 66 kV Tres Pinos - Lebu
+Lebu programada para el 15 de noviembre.”
+Falla en línea 66
+La empresa CGE Transmisión S.A. indica que “se realiza el reemplazo de la
+EAF 454-2023 kV Rancagua - 25-10-2023
+aislación con descarga”.
+Rosario
+La empresa CGE Transmisión S.A. indica lo siguiente:
+Falla en la línea 66 “Se realiza reemplazo de line post con señal de descargas en estructura E-
+EAF 455-2023 kV Tres Pinos - 26-10-2023 583.”
+Lebu “Se realizará lavado de aislación de la línea Tres Pinos-Lebu programada
+para el 15 de noviembre (solicitud CEN 2023098271).”
+La empresa CGE Transmisión S.A. indica lo siguiente:
+“Se realiza reemplazo de line post con señal de descargas en estructura E-
+583.”
+“Se realizará lavado de aislación de la línea Tres Pinos-Lebu programada
+para el 15 de noviembre (solicitud CEN 2023098271).”
+Falla en la línea 66 “Se realiza la corrección en la alimentación de Relé de Paño C3 de SE Lebu,
+EAF 456-2023 kV Tres Pinos - 27-10-2023 la cual presentaba un problema de contacto en conector J6 de dicho
+Lebu control.”
+La empresa Parque Eólico Lebu-Toro SpA indica lo siguiente:
+“Las protecciones de PEL, en caso de tener algún comportamiento
+inadecuado, serán revisadas por la empresa H. Briones, quienes son
+expertos en el manejo de estos equipos. De ser necesario, ante un
+comportamiento inadecuado, se realizaría una nueva configuración”.
+Falla en línea 66
+La empresa CGE Transmisión S.A. señala que: “Se realiza el cambio del
+EAF 480-2023 kV San Fernando - 04-11-2023
+aislador de la estructura N°121 de la línea 66 kV San Fernando - Teno.”
+Teno
+Falla en línea 66 La empresa CGE Transmisión S.A. indica: “El día 01-02-2024, mediante la
+EAF 036-2024 kV Los Maquis - 30-01-2024 SD 2024010903 se realiza el reemplazo de cadenas de aisladores con
+Hualañé evidencia de descarga”.
+Falla en línea 66 La empresa CGE Transmisión S.A. indica: “El día 01-02-2024, mediante la
+EAF 038-2024 kV Los Maquis - 31-01-2024 SD 2024010903 se realiza el reemplazo de cadenas de aisladores con
+Hualañé evidencia de descarga”.
+Falla en la línea 66
+La empresa CGE Transmisión S.A. señala: “Reemplazo de aislación E-93 y
+EAF 052-2024 kV Loma Colorada 07-02-2024
+limpieza manual de aislación estructura aledañas”.
+- Escuadrón
+Desconexión
+La empresa CGE Transmisión S.A. señala:
+forzada de los
+- “Se detectó diferencia de fecha, en los relés de protección, esta
+transformadores
+EAF 167-2024 21-04-2024 diferencia se corrigió el lunes 6 de mayo de 2024”.
+N°2 y N°3 66/23
+“El 22/05/2024 se realizó la reparación de mufa dañada del cable
+kV de S/E Tres
+subterráneo que une transformador T-3 con barra de 23 kV de Tres Pinos”.
+Pinos
+Desconexión
+La empresa CGE Transmisión S.A. señala:
+forzada de los
+- “Se detectó diferencia de fecha, en los relés de protección, esta
+transformadores
+EAF 168-2024 22-04-2024 diferencia se corrigió el lunes 6 de mayo de 2024”.
+N°2 y N°3 66/23
+“El 22/05/2024 se realizó la reparación de mufa dañada del cable
+kV de S/E Tres
+subterráneo que une transformador T-3 con barra de 23 kV de Tres Pinos”.
+Pinos
+Apertura Acciones correctivas a corto plazo: La empresa CGE Transmisión S.A.
+automática del señala: “Se realizó la reparación de la mufa terminal el miércoles 24 de
+EAF 170-2024 14-05-2024
+interruptor 52CT2 abril, ejecutándose los trabajos según SD 2024041583 de curso forzoso”.
+de S/E San Pedro “El 22/05/2024 se realizó la reparación de mufa dañada del cable
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+subterráneo que une transformador T-3 con barra de 23 kV de Tres Pinos”.
+Acciones correctivas a largo plazo: La empresa CGE Transmisión S.A. indica
+“No aplica”
+La empresa CGE S.A. no indica acciones correctivas.
+Desconexión
+La empresa CGE Transmisión S.A. indica: “Debido al daño sufrido en los
+forzada de la
+EAF 232-2024 31-05-2024 pararrayos del paño C5, se realizó el reemplazo de los tres elementos el
+barra N°2 13.8 kV
+10/06/2024 con SDº2024056377”.
+de S/E Pukará
+CGE Transmisión S.A. señala:
+Falla en línea “Se rescataron remotamente y se analizaron los eventos de las
+EAF 475-2024 2x110 kV La Ruca 13-09-2024 protecciones. Se realizó inspección del tramo entre las estructuras 48 y 55.
+- Ovalle N°1 Se encontró evidencias de la falla en la Estructura 55. Se realizó inspección
+con Dron en la estructura 55”.
+La empresa CGE Transmisión S.A. indica las siguientes acciones
+correctivas:
+Falla en línea 66 • “Reemplazo de la cadena completa con la descarga, en la estructura
+EAF 496-2024 kV Monterrico - 30-09-2024 N°107 el día 07/10/2024 bajo SD 2024102984.
+Cocharcas • Inspección con Dron para identificar la condición que se encuentra el
+elemento asociado a la falla”.
+El resto de las empresas no señalan acciones correctivas a corto plazo.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 7 fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 197-2023, EAF 457-2023,
+EAF 480-2023, EAF 531-2023, EAF 241-2024, EAF 369-2024 y EAF 448-2024).
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores de la línea 66 kV San Fernando -
+Teno, la cual, de acuerdo con los datos ingresados por la empresa propietaria en la plataforma
+Infotécnica del Coordinador, cuenta con conductores AAAC y Cu 67.4 mm2 con una longitud total de
+aproximadamente 24.58 km, cuya entrada en operación fue en el año 1948.
+Al respecto, la empresa CGE Transmisión S.A. remitió antecedentes respecto de los mantenimientos
+realizados durante los últimos 24 meses a la línea 66 kV San Fernando - Teno.
+f. Ubicación urbana o rural según DS 327/1997
+• La empresa Compañía General de Electricidad S.A. declara: “Urbano” y “Rural”.
+• La empresa Cooperativa de Abastecimiento de Energía Eléctrica Curicó Ltda. declara:” Densidad
+D1, muy baja”.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+6303: Chimbarongo.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(21-10-2024) (25-10-2024)
+CGE Transmisión S.A. 19-10-2024 07-11-2024
+Sistema de Transmisión del Sur S.A. (STS) 19-10-2024 25-10-2024
+Compañía General de Electricidad S.A. (CGE) 04-11-2024 05-11-2024
+Cooperativa de Abastecimiento de Energía Eléctrica Curicó Ltda. (CEC) 22-10-2024 22-10-2024
+Empresa de los Ferrocarriles del Estado (EFE) No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 66 kV San Fernando - Teno ST Zonal San Fernando - Chimbarongo 66 kV 17:05 17:13
+08:06
+LT 66 kV San Fernando - Teno ST Zonal Chimbarongo - Tap Quinta 66 kV 17:05
+21-10-2024
+- Las horas señaladas corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Pérdida de %
+Alimentador/ Clientes H. H. H.
+Sub-Estación Comuna Consumo consumo
+Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Chimbarongo San Enrique / C1 Chimbarongo 8.43 0.090 3238 17:05 17:14 17:14
+Chimbarongo y
+Chimbarongo Huemul / C2 4.84 0.050 2085 17:05 17:14 17:14
+Teno
+Chimbarongo Niebla / C3 Chimbarongo 8.90 0.100 6261 17:05 17:14 17:14
+Chimbarongo y
+Quinta Morza / C2 1.20 0.010 1895 17:05 18:46 17:17
+Teno
+Arranque hacia
+Quinta (FFCC) Chimbarongo* 0.10** 0.000 1 17:05 20:41 20:41
+EFE
+Total: 23.47 MW 0.250 % 13480
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE Transmisión S.A., CGE S.A. y CEC.
+- (*) Comuna asociada a la ubicación de la subestación, informada por su propietario en la plataforma Infotécnica del Coordinador.
+- (**) Monto informado por la empresa CGE Transmisión S.A. en su Informe de Falla de 48 horas.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Chimbarongo San Enrique / C1 CGE Regulado 8.43 0.15 0.15 1.3
+Chimbarongo Huemul / C2 CGE Regulado 4.84 0.15 0.15 0.7
+Chimbarongo Niebla / C3 CGE Regulado 8.90 0.15 0.15 1.3
+Quinta Morza / C2 CEC Regulado 1.20 1.68 0.20 0.2
+Quinta (FFCC) Arranque hacia EFE EFE Libre 0.10* 3.60 3.60 0.4
+Clientes Regulados : 3.5 MWh
+Clientes Libres : 0.4 MWh
+Total : 3.9 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE Transmisión S.A., CGE S.A. y CEC.
+- (*) Monto informado por la empresa CGE Transmisión S.A. en su Informe de Falla de 48 horas.
+- Curva de recuperación esperada v/s recuperación real.
+00:00
+20:41
+21:36
+18:46
+19:12 17:14 17:14 20:41
+16:48
+17:17
+14:24 17:14 17:14
+12:00
+09:36
+07:12
+04:48
+02:24
+00:00
+36% 94% 100% 100%
+Recuperación esperada Recuperación real
+Se aprecia que la recuperación real de los consumos afectados fue concretada en un tiempo menor e
+igual al esperado.
+• Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 18.78 0.15 125.17
+Último 20 % 4.69 4.60 1.02
+100 % Total 23.47 4.60 5.10
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9244.58 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Angostura (U2), El
+Toro (U1), El Toro (U2), El Toro (U3), El Toro (U4), Ralco (U1) y Ralco (U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 19 de octubre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 19 de octubre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+19 de octubre de 2024.

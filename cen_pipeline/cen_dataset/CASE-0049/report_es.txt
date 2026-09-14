@@ -1,0 +1,198 @@
+Estudio para análisis de falla EAF 557/2024
+“Falla en línea 110 kV Huasco - Maitencillo N°1”
+Fecha de Emisión: 16/12/2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 25/11/2024
+Hora 23:22
+Consumos desconectados (MW) 4.7
+Demanda previa del sistema (MW) 10083
+Porcentaje de desconexión 0.047 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación 110 kV Maitencillo - Huasco C1 / LT007CI1TR08----T0002
+Tipo de instalación Línea de transmisión
+Tensión nominal 110 kV
+Segmento Transmisión zonal
+Propietario instalación fallada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento afectado Sistema de protección N°1, paño H2 S/E Huasco / SP004T0002SE019T0002
+Propietario elemento fallado Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes
+d.1 Origen y causa de la falla
+Se produjo una falla en la línea 110 kV Maitencillo - Huasco C1 por corte del conductor de la fase C
+entre las estructuras E-37 y E-38, provocando un cortocircuito bifásico entre las fases A y C, el cual
+fue despejado por las protecciones de sus extremos.
+Sin perjuicio de lo anterior, durante el evento de falla se produjo la apertura indeseada del interruptor
+52H2 de S/E Huasco por operación de su sistema 1 de protección, provocando pérdida innecesaria de
+consumos en las SS/EE Huasco y Pellets.
+d.2 Fenómeno Físico:
+OPE10: Falla de material, por fatiga, corrosión, trizadura, etc. *
+Al respecto, la empresa Transelec S.A. remitió los antecedentes y probatorios asociados al fenómeno
+físico propuesto.
+(*) Si bien el Fenómeno Físico indicado por Transelec S.A. corresponde a aquel que produjo la falla en el circuito
+N°1 de la línea 110 kV Maitencillo - Huasco, y no el que produjo la apertura indeseada del interruptor 52H2 de S/E
+Huasco, se mantuvo el que propuso Transelec S.A. considerando que, si bien al observar el comportamiento del
+relé Siemens 7SA612 del paño H2 de S/E Huasco se visualiza que el lazo de impedancia C-A no alcanzó a entrar en
+la zona reversa (zona de bloqueo del Weak Infeed, o fuente débil) y se mantuvo en la vecindad del alcance reactivo
+de dicha zona, no es posible aseverar que el alcance de dicha zona haya sido insuficiente por tratarse de una falla
+no habitual que incorpora una fase abierta o combinaciones de esta con cortocircuitos.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FECHA
+FALLA ID NOMBRE FALLA ACCIONES CORRECTIVAS
+FALLA
+La empresa Transelec S.A. indica las siguientes acciones correctivas a corto
+plazo:
+“1.-Se procede a cortar el otro extremo del bretel para evitar el
+acortamiento de distancia entre este elemento y la estructura.
+2.-Se realizó una inspección pedestre minuciosa del estado de las prensas
+de breteles buscando fracturas y prensas que se encuentren en mal estado,
+principalmente de la fase central o media desde la estructura N°102 a 152
+y desde la N°224 a 298, de acuerdo a lo que se pudo observar no se
+detectaron daños. Una vez realizado este levantamiento en ese tramo, se
+realizó el lavado con chorro de agua y alta presión sin inconvenientes.
+Falla en la línea 110
+3.-Se acompañó al contratista en la actividad de lavado de aislación de este
+EAF 448-2023 kV Maitencillo - Las 21-10-2023
+tramo con el objetivo de evaluar el riesgo de lavar según el estado de las
+Compañías
+prensas.
+4.-Se realizará un análisis de causa raíz y se definirá un plan de acción para
+evitar la reiteración de esta falla.”
+La empresa Transelec S.A. no indica acciones correctivas a largo plazo.
+La empresa CGE Transmisión S.A. señala que “no aplica” ejecutar acciones
+correctivas a corto y largo plazo.
+La empresa Enel Green Power Chile S.A. señala que “no se consideran”
+acciones correctivas a corto y largo plazo.
+Las empresas CGE S.A. y Compañía Minera del Pacífico S.A. no indica
+acciones correctivas a corto y largo plazo.
+La empresa Transelec S.A. indica las siguientes acciones correctivas de
+corto plazo:
+“Al momento de conocer la causa de la desconexión se ejecutaron las
+siguientes acciones correctivas:
+Falla en línea 110
+1. Personal de terreno de Transelec procede a realizar el retiro del
+EAF 248-2024 kV Maitencillo - Las 12-06-2024
+Bretel central cortado en la estructura N°86.
+Compañías
+2. Se procede a realizar una inspección a todas las prensas
+paralelas de los breteles del tramo de Las Compañías - Romeral 110 kV,
+donde no se detectó ninguna prensa fracturada.”.
+Además, en informe técnico menciona: Se realizó el retiro del bretel
+FECHA
+FALLA ID NOMBRE FALLA ACCIONES CORRECTIVAS
+FALLA
+cortado en la E86.
+• Se realizó una inspección a todas las prensas paralelas de los breteles del
+tramo de Las Compañías - Romeral 110 kV, donde no se detectó ninguna
+prensa fracturada.
+• Actualmente, está en desarrollo el reemplazo de conductor de la línea Las
+Compañías - Romeral 1x110 kV, donde en una primera etapa se retirarán
+los breteles centrales entre E52A a E102.”
+La empresa Transelec S.A. indica:
+“1. Personal de terreno de Transelec procede a realizar maniobras en S/E
+Romeral y S/E Incahuasi con el fin de seccionar la línea y poder recuperar
+el servicio lo antes posible.
+2. Con fecha 29 de julio de 2024, se iniciaron los trabajos de reparación en
+la estructura N°145, los que comprendieron las siguientes actividades:
+• Cambio de piola de acero (cross-rode) que une los dos postes y
+Falla en la línea 110 uno de los pernos de sujeción.
+EAF 322-2024 kV Maitencillo - Las 29-07-2024 • Reparación de puente de la cadena colgante.
+Compañías • 3 grampas de suspensión de las cadenas colgantes
+• 3 cadenas colgantes
+Estos trabajos culminaron el día 30 de julio de 2024 a las 08:30 am.
+3. Si bien los trabajos de reparación en la estructura N°145 finalizaron el
+día 30 de julio, el tramo Romeral - Incahuasi aún se mantiene
+desconectado, ya que de forma preventiva se están atendiendo otras
+condiciones detectadas en la línea durante la búsqueda de la falla. Estos
+trabajos se espera que finalicen el día 15 de agosto de 2024”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+De acuerdo con lo indicado por la empresa Transelec S.A., la falla se produjo en el conductor de la fase
+C de la línea 110 kV Maitencillo - Huasco C1. A continuación se indica el detalle de esta instalación:
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Compañía General de Electricidad S.A. indica que el alimentador Freirina, abastecido desde
+S/E Huasco, es rural.
+g. Proposición del propietario respecto del origen de la falla
+Interna *
+(*) Dada la omisión de la proposición del origen de la falla de parte de la empresa propietaria.
+h. Comuna donde se presenta la falla
+03304: Huasco
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (27/11/2024) Informe de 5 días (02/12/2024)
+Compañía General de Electricidad S.A. (CGE) 26/11/2024 02/12/2024
+Compañía Minera del Pacífico S.A. (CMP) 28/11/2024 No remitido
+Transelec S.A. 26/11/2024 02/12/2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+01:00
+110 kV Maitencillo - Huasco C1 ST Zonal - 23:22
+27/11/2024
+S/E Huasco ST Zonal Barra 110 kV 23:22 23:31
+- Las horas indicadas corresponden a lo indicado por la empresa Transelec S.A.
+c. Consumos
+Sub- Alimentador / Comuna Pérdida de % Clientes H. H. H.
+Estación Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Huasco Freirina / C2 Freirina, Huasco 1.90 0.019 4561 23:22 23:31 23:31
+Pellets - Huasco 2.80 0.028 1 23:22 23:33 23:33
+Total: 4.70 MW 0.047 % 4562
+- Los montos y horarios señalados corresponden a lo informado por las empresas Compañía General de Electricidad S.A. y Compañía
+Minera del Pacífico S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador / Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Huasco Freirina / C2 CGE Regulado 1.90 0.15 0.15 0.3
+Pellets - CMP Libre 2.80 0.18 0.18 0.5
+Clientes Regulados : 0.3 MWh
+Clientes Libres : 0.5 MWh
+Total : 0.8 MWh
+- Los montos señalados corresponden a lo informado por las empresas Compañía General de Electricidad S.A. y Compañía Minera
+del Pacífico S.A.
+- Curva de recuperación esperada v/s recuperación real.
+23:45
+23:38
+23:31
+23:24
+23:16
+40.4% 100.0%
+Recuperación real Recuperación esperada
+No se observan diferencias entre los horarios recuperación real respecto de los horarios de
+disponibilidad de las barras primarias respectivas para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Tiempo recuperación Velocidad de recuperación
+Rango Potencia (MW)
+(h) (MW/h)
+Primer 80 % 3.76 0.18 20.89
+Último 20 % 0.94 0.18 5.22
+100 % Total 4.70 0.18 26.11
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10083 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Canutillar (U1 y U2), Mejillones (CTM3 y IEM), Ralco (U1) y Rapel (U1, U2 y U4).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 25 de noviembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 25 de noviembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+25 de noviembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 25 de
+noviembre de 2024.

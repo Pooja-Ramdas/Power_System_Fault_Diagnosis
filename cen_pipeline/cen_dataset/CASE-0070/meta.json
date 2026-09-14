@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0536-2024",
+  "eaf_num": 536,
+  "year": 2024,
+  "description": "Desconexión forzada de la barra 13.2 kV N°1 de S/E Victoria",
+  "date": "06-11-2024",
+  "time": "21:07",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/EAF-536-2024.pdf",
+  "case_id": "CASE-0070",
+  "event_datetime": "2024-11-06T21:07:00",
+  "fault_label": "busbar_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0070\\official_diagram.dwg"
+}

@@ -1,0 +1,267 @@
+Estudio para análisis de falla EAF 574/2024
+“Desconexión forzada del transformador N°1 110/23 kV de S/E Batuco”
+Fecha de Emisión: 02-01-2025
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 10/12/2024
+Hora 00:31
+Consumos desconectados (MW) 22.26
+Demanda previa del sistema (MW) 10141.14
+Porcentaje de desconexión 0.22 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Batuco / SE005T0835
+Tipo de instalación Subestación
+Tensión nominal 110/23 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+c. Identificación del elemento fallado
+Nombre del elemento afectado Sistema de protección del paño ET1N asociado al transformador N°1 110/23
+kV de S/E Batuco / SP0006T0835SE005T0835
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada del transformador 110/23 kV N°1 de S/E Batuco por la actuación
+de su protección de sobrecorriente de neutro, asociado a la puesta a tierra del devanado de 23 kV de
+dicho transformador, coincidiendo con una falla en la red de distribución del alimentador Lo Pinto.
+La empresa Sociedad Transmisora Metropolitana S.A. atribuye la operación de la protección de
+sobrecorriente de neutro a una incorrecta implementación de los parámetros de ajuste en el relé del
+paño ET1N (Nomenclatura NEMA, DT1N según Infotécnica del Coordinador).
+d.2 Fenómeno Físico:
+OPE22: Error en programación de elementos de protección o control.
+La empresa Sociedad Transmisora Metropolitana S.A. remite los respectivos probatorios para respaldar
+el fenómeno físico declarado.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Sociedad Transmisora Metropolitana S.A. indica:
+Desconexión forzada - “El martes 04 de abril mediante curso forzoso, una vez
+de la barra 23 kV identificada la diferencia en los ajustes de la protección de
+EAF 152_2023 02-04-2023
+N°1 de S/E Las sobrecorriente del interruptor de la Barra MT1, se procedió a
+Acacias solicitar una intervención para su normalización y realizar las
+pruebas de estas. Adjuntamos el informe de esta atención”.
+La empresa Sociedad Transmisora Metropolitana S.A. indica:
+- “Ocurrida la operación del interruptor MT3, se procedió a realizar
+maniobras en los alimentadores, con el fin de reabastecer el
+suministro a los clientes. Una vez en la subestación, se revisó la
+instalación identificando un conductor de MT del alimentador
+Alcalde Guzmán y cables de control cortados. Este corte de
+conductores fue realizado por un delincuente que ingresó a la
+subestación con la intención de robar conductores eléctricos. No
+se logró identificar a este individuo. Se repararon los cables de
+control cortados y se normalizó la Barra MT3”.
+- “Al analizar los registros de las protecciones, se identificó que para
+la segunda falla la protección del alimentador Alcalde Guzmán no
+operó, siendo despejada por la operación de la protección del
+Desconexión forzada interruptor MT3. Se procedió a realizar pruebas a la protección del
+EAF 234_2023 de la barra N°3 12 01-06-2023 alimentador Alcalde Guzmán, con resultado satisfactorio. Durante
+kV de S/E Quilicura el mes de junio de 2023, procederemos a reemplazar la protección
+del alimentador Alcalde Guzmán, esto como medida preventiva y
+con el espíritu de evitar una nueva operación no deseada de la
+protección del interruptor MT3, frente a fallas en este
+alimentador”.
+- “El pasado martes 06 de junio en la protección del alimentador
+Alcalde Guzmán, se cambió la programación de la oscilografía.
+Esto con el espíritu de contar con estos registros frente a otras
+fallas en este alimentador”.
+- “El pasado miércoles 07 de junio, se modificó el ajuste de la
+protección del alimentador Alcalde Guzmán, específicamente se
+modificó el Mínimo de Operación la unidad de sobrecorriente de
+tiempo inverso residual de 180 [A] a 120 [A], mejorando así la
+coordinación con la protección del interruptor MT3”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Sociedad Transmisora Metropolitana S.A. indica:
+“Una vez ocurrida la operación automática de las protecciones de la
+entrada de Barra Auxiliar 12kV N°4 y del acoplador de Barras MT4A-
+MT3, se procedió a reenergizar los alimentadores Chacón y Neptuno a
+través del Transformador N°2, minutos más tarde se realizaron
+intentos de reenergizar las Barras Principal N°4 y Auxiliar N°4 lo cual
+tuvo resultado positivo.
+Con fecha 24 de julio de 2023, se corrigió el desfase horario de las
+protecciones de la Barra Principal N°4, de la protección de la
+interconexión de barras MT4A-MT3 y del alimentador Cerro Navia.
+Desconexión forzada
+Con fecha 28 de julio de 2023, se corrigió la descoordinación existente
+de barras 12 kV N°4
+EAF 307_2023 22-07-2023 entre la protección del alimentador Cerro Navia y las protecciones de
+y Auxiliar de S/E
+Barra Auxiliar N°4 y de la interconexión MT4A-MT3, específicamente se
+Pudahuel
+disminuyó el mínimo de operación y el lever de la unidad se
+sobrecorriente de tiempo inverso residual. Se adjunta el nuevo Print
+Out de la protección correspondiente.
+Durante la primera quincena de agosto, se corregirá el alambrado de
+las corrientes secundarias que ingresan al control del reconectador del
+alimentador Cerro Navia.
+Durante agosto 2023, nos reuniremos con el representante de la
+fábrica de estas celdas, para establecer un plan de acción para evaluar
+la operación de los interruptores y para establecer si así lo requiera,
+un plan de acción para evitar futuras operaciones similares”.
+La empresa STM S.A. indica: “Durante la atención de la falla, se verificó
+que las celdas de MT de la S/E Chicureo se encontraban en buenas
+condiciones, sin muestras de descarga o evidencias de falla. Se
+procedió a rescatar los registros de las protecciones.
+Analizados los registros de eventos y configuración de las protecciones,
+se identificó que la protección del alimentador Damasco tenía
+deshabilitada las unidades de sobrecorriente de fase, por lo que frente
+a la falla en sus redes de MT no operó. Lo que ocasionó que la
+protección del interruptor MT1A operara como respaldo despejando la
+falla.
+Revisando la historia de esta protección, se detectó que esta situación
+se originó el pasado 09 de febrero de 2024, ocasión donde se realizó
+Desconexión forzada
+la investigación de la OA del interruptor MT1A ocurrida el pasado 17 de
+de barra auxiliar N°1
+EAF 138_2023 06-04-2024 enero de 2024. Durante el proceso de pruebas se deshabilitó la unidad
+23 kV de S/E
+de sobrecorriente de fase de la protección del alimentador Damasco,
+Chicureo
+lamentablemente una vez terminada las pruebas, no se volvió a
+habilitar. Adjuntamos los antecedentes de esta intervención. El pasado
+lunes 08 de abril de 2024, se volvió a habilitar la unidad de
+sobrecorriente de fase de la protección del alimentador Damasco, esta
+actividad se realizó mediante el permiso 12468.
+Desde la investigación realizada el 09 de febrero de 2024 a la fecha,
+no ha habido nuevas actividades programadas para la protección del
+alimentador Damasco.
+Complementariamente se revisó la coordinación de las protecciones del
+alimentador Damasco y del interruptor MT1A, verificando un adecuado
+paso de coordinación. Se adjunta el análisis de la coordinación de estas
+protecciones”.
+La empresa Sociedad Transmisora Metropolitana S.A. señala:
+“Durante la atención de la falla, se revisó el patio de MT de la
+subestación Santa Marta, sin identificar muestras de descarga
+eléctrica. Se procedió a resetear el relé maestro de la Barra MT1 (86T1)
+y se cerró el interruptor MT1P”.
+“Según lo informado por el despachador de turno, se produjo una falla
+en la red de MT del alimentador Ciudad Satélite y simultáneamente
+operó la protección del interruptor MT1P”.
+Desconexión de “Analizados los registros de eventos y configuración de las
+EAF 194_2024 barra N°1 12 kV de 07-05-2024 protecciones, se identificó que la protección del alimentador Satélite no
+S/E Santa Marta actuó (estaba bloqueada y fue reiniciada) y por lo que la falla fue
+despejada por la protección del interruptor MT1P”.
+“El pasado viernes 10 de mayo de 2024, se realizaron pruebas a la
+protección del alimentador Ciudad Satélite con resultado satisfactorio.
+Se adjunta el informe de las pruebas realizadas”.
+“Complementariamente se revisó la coordinación de las protecciones
+del alimentador Ciudad Satélite y del interruptor MT1P, verificando un
+adecuado paso de coordinación. Se adjunta el análisis de la
+coordinación de estas protecciones sus print out”.
+Operación de EDAC- La empresa STM S.A. indica: “En septiembre de 2024, se revisará el
+EAF 390_2024 02-08-2024
+CEx en S/E San José esquema EDACxCE implementado en la S/E San José”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa STM S.A. indica:
+“Tras la operación automática (OA), se coordinó la atención con la
+guardia de operaciones y el personal de mantenimiento, identificando
+operadas las protecciones del interruptor MT2 y del alimentador
+Pajaritos.
+Desconexión forzada Se verificó la integridad de la Barra MT2, sin identificar muestras de
+EAF 499_2024 de la barra N°2 12 07/10/2024 descarga eléctrica, se procedió a realizar un aprueba de energización,
+kV de S/E San José con resultado satisfactorio.
+El pasado jueves 10 de octubre 2024, se procedió a revisar el
+comportamiento del esquema de protecciones del alimentador
+Pajaritos. Durante el proceso de pruebas, se identificó que esta
+protección tenía un tiempo de retardo en su operación. Se adjuntan
+registros de esta actividad.”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 4 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para Análisis de Falla EAF 138-2023, EAF 271-2023, EAF 008-2024 y EAF 505-2024.
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento que emitió la orden de apertura al relé maestro del transformador N°1 110/23 kV de S/E
+Batuco, corresponde al sistema de protección del paño DT1N de dicha subestación, el cual, según lo
+informado por su propietario en la plataforma Infotécnica del Coordinador, es un relé marca GE, modelo
+MCGG22, con la función 51N.
+La empresa Sociedad Transmisora Metropolitana S.A. emite los mantenimientos realizados a la
+mencionada subestación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Enel Distribución Chile S.A. indica: “Rural”.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+13301: Colina.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (12-12-2024) Informe de 5 días (17-12-2024)
+Sociedad Transmisora Metropolitana S.A. (STM) 10-12-2024 17-12-2024
+Enel Distribución Chile S.A. (Enel Dx) 10-12-2024 17-12-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Batuco ST Zonal Transformador N°1 110/23 kV 00:31 00:33
+- Los horarios señalados corresponden a lo informado por la empresa Sociedad Transmisora Metropolitana S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Batuco Claro Liray / E6 4.50 0.044 1560 00:31 00:33 00:33
+Batuco Coquimbito / E1 5.57 0.055 206 00:31 00:33 00:34
+Colina /
+Lampa
+Batuco Portezuelo / E2 8.36 0.082 5854 00:31 00:33 00:34
+Batuco Lo Pinto / E3 3.83 0.038 3 00:31 00:33 11:12
+Total: 22.26 MW 0.22 % 7623
+- Los montos y horarios señalados corresponden a lo informado por las empresas Sociedad Transmisora Metropolitana S.A. y Enel
+Distribución Chile S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Batuco Claro Liray / E6 Enel Dx Regulado 4.50 0.03 0.03 0.1
+Batuco Coquimbito / E1 Enel Dx Regulado 5.57 0.03 0.05 0.3
+Batuco Portezuelo / E2 Enel Dx Regulado 8.36 0.03 0.05 0.4
+Batuco Lo Pinto / E3 Enel Dx Regulado 3.83 0.03 10.68 40.9
+Clientes Regulados : 41.7 MWh
+Clientes Libres : MWh
+Total : 41.7 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Sociedad Transmisora Metropolitana S.A. y Enel
+Distribución Chile S.A.
+- Curva de recuperación esperada v/s recuperación real.
+12:00
+09:36 11:12
+07:12
+04:48
+02:24
+00:34
+00:34
+00:00
+00:33 00:33
+0000::3333 00:33
+21:36
+19:12
+20% 45% 83% 100%
+Recuperación real Recuperación esperada
+Se observa una diferencia entre la recuperación real y la esperada para los consumos del alimentador
+Lo Pinto de S/E Batuco. La empresa Enel Distribución Chile S.A. declara que el retraso se produjo por
+problemas internos en las instalaciones de un cliente particular (Papeles Industriales).
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 17.81 0.05 356.16
+Último 20 % 4.45 10.68 0.42
+100 % Total 22.26 10.68 2.08
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10141.14 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Canutillar (U1 y U2), El Toro (U1, U2, U3 y U4), Mejillones (CTM3 y IEM) y Ralco (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 10 de diciembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 10 de diciembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+10 de diciembre de 2024.

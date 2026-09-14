@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0580-2024",
+  "eaf_num": 580,
+  "year": 2024,
+  "description": "Pérdida de suministro en la barra 110 kV N°1 de S/E Las Vegas",
+  "date": "14-12-2024",
+  "time": "09:59",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2025/01/EAF-580-2024.pdf",
+  "case_id": "CASE-0026",
+  "event_datetime": "2024-12-14T09:59:00",
+  "fault_label": "busbar_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0026\\official_diagram.zip"
+}

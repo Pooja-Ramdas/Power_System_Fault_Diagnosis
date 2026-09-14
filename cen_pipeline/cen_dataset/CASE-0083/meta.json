@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0523-2024",
+  "eaf_num": 523,
+  "year": 2024,
+  "description": "Apertura intempestiva del interruptor 52ET1 de S/E Calbuco",
+  "date": "28-10-2024",
+  "time": "11:02",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/EAF-523-2024.pdf",
+  "case_id": "CASE-0083",
+  "event_datetime": "2024-10-28T11:02:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_path": "CASE-0083\\official_diagram.dwg"
+}

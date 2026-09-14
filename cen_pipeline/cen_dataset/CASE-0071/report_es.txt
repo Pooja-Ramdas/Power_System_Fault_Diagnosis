@@ -1,0 +1,293 @@
+Estudio para análisis de falla EAF 535/2024
+“Apertura intempestiva del interruptor 52CT1 de S/E Lord Cochrane”
+Fecha de Emisión: 27-11-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 06/11/2024
+Hora 17:46
+Consumos desconectados (MW) 30.00
+Demanda previa del sistema (MW) 9035.3
+Porcentaje de desconexión 0.332%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Barra N°1 12 kV de S/E Lord Cochrane / BA03T0835SE027T0835
+Tipo de instalación Barra
+Tensión nominal 12 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno
+3. Identificación del elemento fallado
+Nombre del elemento afectado Sistema de control asociado al interruptor 52CT1 de S/E Lord Cochrane /
+IM01T0835PA002T0054SE027T0835
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de las barras N°1 y N°2 12 kV de S/E Lord Cochrane, por la apertura
+indeseada del interruptor 52CT1 de la S/E.
+La empresa Sociedad Transmisora Metropolitana S.A. indica que la causa de la falla fue un error en el
+alambrado del circuito de disparo.
+d.2 Fenómeno Físico:
+OPE21: Error en conexionado de elementos de poder, protección o control.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Sociedad Transmisora Metropolitana II S.A. indica lo
+Desconexión forzada
+siguiente:
+del transformador
+EAF 137-2023 22-03-2023 “Durante el jueves 23 de marzo de 2023 se realizó la reparación de la
+N°6 110/23 kV de
+mufa fallada y en forma preventiva se reemplazó la mufa del cable
+S/E Lo Boza
+contiguo. Se realizaron pruebas eléctricas con resultado satisfactorio.”.
+La empresa STM II S.A. indica lo siguiente:
+“Ocurrida la operación de la Barra MT3P, se procedió a enviar a
+personal de operaciones, protecciones y equipos. Se identificó que la
+Barra MT3P no tenía evidencias de falla y/o descarga eléctrica.
+Se procedió a realizar las maniobras de energización y normalización
+de la Barra MT3P.
+En forma simultánea se analizaron los registros de las protecciones,
+identificando que operó la Unidad de Tiempo Definido de fase de la
+Desconexión forzada protección de la Barra MT3P frente a una falla en la red de distribución
+EAF 284-2023 de barra 23 kV N°3 25-06-2023 del alimentador San Expedito.
+de S/E Las Acacias En forma preventiva y con el objetivo de evitar una nueva operación
+no deseada de la protección de la Barra MT3P frente a fallas en la red
+de distribución del alimentador San Expedito, se deshabilitó la
+operación de las Unidades de Tiempo definido de la protección de la
+Barra MT3P.
+Durante el mes de julio de 2023, se procederá a normalizar el
+alambrado de la señal de bloqueo, programación de la protección,
+pruebas a las protecciones y verificación del adecuado funcionamiento
+de la lógica de bloqueo.”
+La empresa Sociedad Transmisora Metropolitana II S.A. indica:
+“Se procedió a verificar el conexionado de los cables, identificando que
+se encontraba suelta la bornera seccionable correspondiente a la señal
+de corriente de la Fase A del lado de 23 kV del transformador.
+Posteriormente se realizó un reapriete de la bornera que se encontraba
+suelta, con lo que se pudo verificar que la protección diferencial del
+Transformador N°1 recibió nuevamente la lectura de corriente de la
+Desconexión forzada
+fase A del lado de 23kV. De forma adicional se verificó las demás
+del transformador
+EAF 309-2023 23-07-2023 borneras, verificando que estas se encontraban correctamente
+N°1 110/23 kV de
+apretadas.
+S/E Quilicura
+Dentro de la primera quincena del mes de agosto, se modificará la
+ecuación correspondiente a la generación de registros oscilográficos de
+la protección diferencial del transformador N°1, con el fin de evitar que
+los registros vuelvan a ser sobreescritos por perturbaciones en el
+sistema eléctrico.
+Además, dentro del mes de agosto, será corregida la diferencia horaria
+en minutos existente entre la protección y la hora UTC-0.”
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Sociedad Transmisora Metropolitana II S.A. indica:
+“Se procedió a verificar el conexionado de los cables, identificando que
+se encontraba suelta la bornera seccionable correspondiente a la señal
+de corriente de la Fase A del lado de 23 kV del transformador.
+Posteriormente se realizó un reapriete de la bornera que se encontraba
+suelta, con lo que se pudo verificar que la protección diferencial del
+Transformador N°1 recibió nuevamente la lectura de corriente de la
+Desconexión forzada
+fase A del lado de 23kV. De forma adicional se verificó las demás
+del transformador
+EAF 310-2023 23-07-2023 borneras, verificando que estas se encontraban correctamente
+N°1 110/23 kV de
+apretadas.
+S/E Quilicura
+Dentro de la primera quincena del mes de agosto, se modificará la
+ecuación correspondiente a la generación de registros oscilográficos de
+la protección diferencial del transformador N°1, con el fin de evitar que
+los registros vuelvan a ser sobreescritos por perturbaciones en el
+sistema eléctrico.
+Además, dentro del mes de agosto, será corregida la diferencia horaria
+en minutos existente entre la protección y la hora UTC-0.”
+La empresa STM II S.A. indica lo siguiente:
+“Durante la atención de la OA de la Barra MT8, durante la madrugada
+del domingo 13 de agosto, se identificó que la vía de trip de la
+protección del alimentador Sonda estaba interrumpida,
+específicamente se encontraba suelto un alambrado.
+Posteriormente, se normalizó el alambrado de la señal de trip desde la
+protección del alimentador Sonda hacia su interruptor, trabajos que
+finalizaron durante la madrugada del domingo 13 de agosto.
+Una vez identificada se normalizó el esquema y se verificó el correcto
+funcionamiento del esquema protección-interruptor.
+Desconexión forzada Como parte de la investigación, también se revisó la coordinación de
+EAF 344-2023 de la barra 23 kV N°8 12-08-2023 las protecciones, verificándose un adecuado paso de coordinación, tal
+de S/E Chacabuco como se observa en el archivo “Análsis.pdf” del punto 9.
+Tal como indicamos en el punto 8.2, se identificó que los registros
+oscilográficos de la protección del alimentador Sonda, no muestra las
+señales digitales. También se identificó que los registros oscilográficos
+de la protección de la Barra MT8 no muestran la totalidad del evento.
+Durante el mes de septiembre de 2023, se corregirán ambas
+situaciones.”
+“Es necesario destacar, que se corroboró la coordinación entre ambas
+protecciones, verificando que esta se encuentra correcta y con tiempos
+de paso adecuados entre ambas de acuerdo con lo establecido en la
+Norma Técnica de Seguridad y Calidad de Servicio.”
+La empresa STM II S.A. indica:
+“Una vez ocurrida la falla acudieron a la instalación personal de STM y
+Desconexión d ellos personal contratista, y se procedió a realizar una inspección visual del
+transformadores 3 y transformador de poder N°3, del panel de control en sala y de las
+EAF 397-2023 07-09-2023
+4 110/12 kV de S/E protecciones mecánicas del equipo, encontrando un ducto de unión con
+San Cristóbal fisura en la caja del relé de contraflujo del CTBC, el que se procede a
+limpiar, secar y finalmente sellar para posteriormente poder normalizar
+el transformador.”
+La empresa Sociedad Transmisora Metropolitana II S.A. indica:
+“Durante la atención de la falla, se identificó un error en la conexión
+Desconexión del
+de los neutros del TTCC de AT y MT, la cual fue corregida el mismo día
+transformador N°6
+EAF 018-2024 16-01-2024 16 de enero de 2024.”
+110/12 kV S/E de
+“Durante el presente año, se revisará el conexionado de los
+Santa Rosa Sur
+transformadores de corriente asociados a las protecciones diferenciales
+de los transformadores, que entraron en servicio desde el 2018.”
+La empresa Sociedad Transmisora Metropolitana II S.A. indica:
+Desconexión forzada “Inmediatamente ocurrida la OA del TR4, se envió personal de
+del transformador operaciones, mantenimiento de protecciones y de transformadores. Se
+EAF 085-2024 22-02-2024
+N°4 230/25 kV de realizó una inspección visual de los equipos, sin identificar muestras
+S/E El Manzano visibles de descargas. Se procedió a rescatar los eventos de las
+protecciones.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se ha producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+FA90: Falla en sistema de control.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento fallado corresponde al sistema de control asociado al interruptor 52CT1 de S/E Lord
+Cochrane, el cual, corresponde a un interruptor Merlin Gerin modelo DSE-45U, de 3 kA de corriente
+nominal y 24 kA de corriente de ruptura simétrica, según la información en la plataforma Infotécnica
+del Coordinador.
+La empresa Sociedad Transmisora Metropolitana S.A. remite los antecedentes correspondientes a los
+mantenimientos realizados en la S/E Lord Cochrane durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No se tiene información por parte de la empresa Enel Distribución Chile S.A.
+g. Proposición del propietario respecto del origen de la falla
+No fue informada por parte de STM S.A.
+h. Comuna donde se presenta la falla
+13101: Santiago.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(08-11-2024) (14-11-2024)
+Sociedad Transmisora Metropolitana S.A. (STM S.A.) 07-11-2024 13-11-2024
+Enel Distribución Chile S.A. (Enel Dx) No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Lord Cochrane ST Zonal Barra 12 kV N°1 17:46 17:49
+S/E Lord Cochrane S Zonal Barra 12 kV N°2 17:46 17:49
+- Los horarios señalados corresponden a lo informado por la empresa STM S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Lord Cochrane NI NI 30.00 0.332 NI 17:46 17:49 17:49
+Total: 30.00 MW 0.332% NI
+- Los montos y horarios señalados corresponden a lo informado por la empresa STM S.A.
+- NI: No se recibió dicha información por parte de la empresa Enel Distribución Chile S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Lord Cochrane NI Enel Dx Regulado 30.00 0.05 0.05 1.5
+Clientes Regulados : 1.5 MWh
+Clientes Libres : MWh
+Total : 1.5 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa STM S.A.
+- NI: No se recibió dicha información por parte de la empresa Enel Distribución Chile S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para
+los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 24.00 0.05 480.00
+Último 20 % 6.00 0.05 120.00
+100 % Total 30.00 0.05 600.00
+1
+1
+1
+1
+0
+0
+0
+0
+0
+9
+6
+4
+2
+9
+7
+4
+2
+0
+:1
+:4
+:2
+:0
+:3
+:1
+:4
+:2
+:0
+2
+8
+4
+0
+6
+2
+8
+4
+0
+R e cu p e ració n re al
+11 77 ::44 99
+1 0 0 %
+R e cu p e ració n e sp e rad a
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9035.3 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Colbún (U1 y U2), El Toro (U1, U2 y U3), PFV Diego de Almagro Sur y PFV Malgarida.
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 06 de noviembre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 06 de noviembre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+06 de noviembre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 06 de
+noviembre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con la siguiente particularidad:
+• Los transformadores N°3 y N°4 de S/E Lord Cochrane se encontraban fuera de servicio,
+producto de los trabajos asociados a la auditoria de protecciones en la S/E, según lo indicado
+en la Solicitud de NeoMante N°2024113492.
+Otros antecedentes relevantes
+Según lo informado por la empresa STM S.A.:
+“El pasado miércoles 06 de noviembre de 2024 a las 17:46 horas, se produjo la apertura imprevista
+del interruptor MT1 (52CT1), durante el proceso de pruebas de las protecciones del transformador N°4
+de la subestación Lord Cochrane, esto con ocasión de la Auditoria de Protecciones de esta subestación.
+Específicamente durante las pruebas a las protecciones del transformador N°4, al momento de enviar
+el disparo al interruptor 52CT2, se abrió el interruptor 52CT1. Quedando sin suministro las Barras MT1
+y MT2.
+Lo anterior por un alambrado incorrecto que tenían las vías de disparo (como se detectó en
+investigación posterior).
+Cabe destacar que esta actividad se estaba desarrollando por personal habilitado y con el permiso de
+trabajo 2024-11435.”

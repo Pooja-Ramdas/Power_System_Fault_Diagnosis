@@ -1,0 +1,128 @@
+Estudio para análisis de falla EAF 510/2024
+“Desconexión forzada de la línea 220 kV Tres Quebradas - Lama”
+Fecha de Emisión: 14-11-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 22/10/2024
+Hora 13:24
+Consumos desconectados (MW) 10.00
+Demanda previa del sistema (MW) 10177.63
+Porcentaje de desconexión 0.098 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 220 kV Tres Quebradas - Lama / LT002CI1TR01----G0062
+Tipo de instalación Línea
+Tensión nominal 220 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Compañía Minera Nevada SpA
+RUT 85.306.000-3
+Representante Legal Gonzalo Montes Astaburuaga
+Dirección Ricardo Lyon N°222, piso 9, Providencia
+c. Identificación del elemento fallado
+Nombre del elemento afectado Sistema de protección del paño J2 de S/E Tres Quebradas /
+PA003L0101SE002L0101
+Propietario elemento fallado Compañía Minera Nevada SpA
+RUT 85.306.000-3
+Representante Legal Gonzalo Montes Astaburuaga
+Dirección Ricardo Lyon N°222, piso 9, Providencia
+d. Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52J2 de S/E Tres Quebradas, asociado a la línea 220
+kV Tres Quebradas - Lama, por la operación de una protección direccional de sobrecorriente residual
+implementada en el relé 7SD522 (sistema 1), durante trabajos programados asociados a la SD
+N°2024104934.
+La apertura indeseada del interruptor 52J2 de S/E Tres Quebradas es atribuida a una incorrecta
+implementación del bloqueo de los disparos del relé 7SD522, que no permitió inhibir la orden de trip
+del mencionado relé durante pruebas de inyección de corrientes.
+d.2 Fenómeno Físico:
+OPE1: Trabajos en instalaciones. (*)
+(*): Fenómeno Físico propuesto por el Coordinador. La empresa Compañía Minera Nevada SpA, en su Informe de Falla de 5 días,
+declara como Fenómeno Físico: “OPE21: Error en conexionado de elementos de poder, protección o control”.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 034-2023, EAF 172-2023,
+EAF 358-2023, EAF 367-2023, EAF 243-2024, EAF 258-2024, EAF 259-2024, EAF 398-2024 y EAF 435-
+2024).
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los circuitos de disparo del relé 7SD522 (sistema
+1) del paño J2 de S/E Tres Quebradas.
+Al respecto, la empresa Compañía Minera Nevada SpA remitió antecedentes respecto de los
+mantenimientos realizados a la línea 220 kV Tres Quebradas - Lama durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+3302: Alto del Carmen.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(24-10-2024) (29-10-2024)
+Compañía Minera Nevada SpA (CMN) 23-10-2024 30-10-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+17:48
+LT 220 kV Tres Quebradas - Lama ST Dedicado - 13:24
+23/10/2024
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H. Norm.
+Paño Consumo consumo Afectados Desc. Dispon.
+(MW) pre-falla
+17:48 17:48
+Lama - (*) 10.00 0.098 1 13:24
+23/10/2024 23/10/2024
+Total: 10.00 MW 0.098 % 1
+- Los montos señalados corresponden a lo informado por la empresa Compañía Minera Nevada SpA.
+- (*) Correspondiente a territorio argentino.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Indispon. Tiempo ENS
+Paño Cliente Consumo (MW) (h) Desc. (h) (MWh)
+Lama - CMN Libre 10.00 28.40 28.40 284.0
+Clientes Regulados : MWh
+Clientes Libres : 284.0 MWh
+Total : 284.0 MWh
+- Los montos señalados corresponden a lo informado por la empresa Compañía Minera Nevada SpA.
+- Curva de recuperación esperada v/s recuperación real.
+2024-10-23 19:00
+2024-10-23 14:00
+2024-10-23 09:00
+2024-10-23 04:00
+2024-10-22 23:00
+2024-10-22 18:00
+2024-10-22 13:00
+100.0%
+Recuperación esperada Recuperación real
+No se aprecia diferencia entre los horarios de recuperación esperada y recuperación real de los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 8.00 28.40 0.28
+Último 20 % 2.00 28.40 0.07
+100 % Total 10.00 28.40 0.35
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10177.63 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Colbún (U1), El Toro (U1, U2, U3 y U4) y Ralco (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 22 de octubre de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 22 de octubre de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+22 de octubre de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 22 de
+octubre de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades:
+- En S/E Tres Quebradas se encontraban en desarrollo trabajos asociados a la SD N°2024104934:

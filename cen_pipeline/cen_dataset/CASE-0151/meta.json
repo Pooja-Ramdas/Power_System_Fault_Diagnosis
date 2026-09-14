@@ -1,0 +1,16 @@
+{
+  "eaf_id": "EAF-0457-2024",
+  "eaf_num": 457,
+  "year": 2024,
+  "description": "Apertura automática del interruptor 52CT4 de S/E Central Queltehues",
+  "date": "29-08-2024",
+  "time": "23:51",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/09/EAF-457-2024-1.pdf",
+  "case_id": "CASE-0151",
+  "event_datetime": "2024-08-29T23:51:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_path": null
+}

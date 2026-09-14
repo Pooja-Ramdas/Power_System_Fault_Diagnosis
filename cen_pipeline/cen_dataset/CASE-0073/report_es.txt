@@ -1,0 +1,176 @@
+Estudio para análisis de falla EAF 533/2024
+“Falla en la línea 66 kV Central Chapiquiña - Arica”
+Fecha de Emisión: 26-11-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 05/11/2024
+Hora 23:56
+Consumos desconectados (MW) 2.1
+Demanda previa del sistema (MW) 9623.54
+Porcentaje de desconexión 0.020 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Central Chapiquiña - Arica / LT152---------G0216
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión Dedicada
+Propietario instalación afectada Engie Energía Chile S.A.
+RUT 88.006.900-4
+Representante Legal Gabriel Marcuz
+Dirección Av. Isidora Goyenechea N°2800, Piso 16, Comuna Las Condes, Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 66 kV Central Chapiquiña - Arica: tramo Tap Off El Águila - Arica /
+LT152CI1TR02G0216ST12G0216
+Propietario elemento fallado Engie Energía Chile S.A.
+RUT 88.006.900-4
+Representante Legal Gabriel Marcuz
+Dirección Av. Isidora Goyenechea N°2800, Piso 16, Comuna Las Condes, Santiago.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática de los interruptores 52B2 de S/E Arica y 52B2 de S/E Central
+Chapiquiña, correspondientes a la línea 66 kV Central Chapiquiña - Arica, por medio de la operación
+de sus protecciones de distancia de fases en primera zona.
+La empresa Engie Energía Chile S.A. declara que la falla fue a causa de robo de conductor con
+destrucción de postación entre las estructuras N°259 a la N°277.
+d.2 Fenómeno Físico:
+VAN3: Robo o hurto.
+La empresa Engie Energía Chile S.A. remite los siguientes antecedentes (probatorios) para acreditar
+el fenómeno físico declarado:
+o Registro Fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+o Denuncia ante Carabineros de Chile.
+Sin perjuicio de lo anterior, se encuentra pendiente el envío de la siguiente información:
+o Declaración jurada de los hechos.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido
+reiteraciones del fenómeno físico en instalaciones del propietario de la instalación afectada, durante
+los últimos 24 meses.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido
+fallas en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 66 kV Central Chapiquiña - Arica, la cual,
+según lo informado por su propietario en la plataforma Infotécnica del Coordinador, posee un
+conductor del tipo CU 3/0 AWG con una longitud de 83.14 km y con una capacidad nominal de 28.5
+MVA (permanente a 25°C con sol y tensión nominal).
+La empresa Engie Energía Chile S.A. no envía el detalle de los mantenimientos de los últimos 24
+meses realizados a la instalación fallada.
+f. Ubicación urbana o rural según DS 327/1997
+Rural.
+g. Proposición del propietario respecto del origen de la falla
+No se indica.
+h. Comuna donde se presenta la falla
+15101: Arica
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (07/11/2021) Informe de 5 días (12/11/2024)
+Engie Energía Chile S.A. (Engie) 06/11/2024 12/11/2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+23:57
+Línea 66 kV Central Chapiquiña - Arica ST Dedicado Arica - Tap Off El Águila 23:56
+11/11/2024
+12:56
+Línea 66 kV Central Chapiquiña - Arica ST Dedicado Tap Off El Águila - Chapiquiña 23:56
+06/11/2024
+01:0628 01:0912
+S/E Arica ST Zonal Barra 66 kV
+06/11/2024 06/11/2024*
+01:0628 01:0850
+S/E Arica ST Zonal Transformador 110/66 kV
+06/11/2024 06/11/2024*
+01:0628 01:0924
+Línea 66 kV Central Diesel Arica - Arica ST Dedicado Tap Quiani - Arica 66 kV
+06/11/2024 06/11/2024*
+- Los horarios señalados corresponden a lo informado por la empresa Engie Energía Chile S.A.
+- (*) Verificado en el registro histórico del sistema SCADA del Coordinador.
+c. Consumos
+Sub- Alimentador / Pérdida de % consumo Clientes H.
+Comuna H. Disp. H. Norm.
+Estación Paño Consumo (MW) pre-falla Afectados Desc.
+12:56 13:34
+Lluta Quiborax / C2 Arica 2.10 0.020 1 23:56
+06/11/2024 06/11/2024*
+Total: 2.10 MW 0.020 %
+- Los montos y horarios señalados corresponden a lo informado por la empresa Engie Energía Chile S.A.
+- (*) Según el registro histórico del sistema SCADA del Coordinador.
+3. Estimación de la energía no suministrada
+Alimentador / Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Empresa
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Lluta Quiborax / C2 Quiborax Libre 2.10 13.00 13.63 28.6
+Clientes Regulados : MWh
+Clientes Libres : 28.6 MWh
+Total : 28.6 MWh
+- Los montos señalados corresponden a lo informado por la empresa Engie Energía Chile S.A.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecia una diferencia de 38 minutos entre la recuperación real versus la esperada de los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Rango Potencia (MW) recuperación recuperación
+(h) (MW/h)
+Primer 80 % 1.68 13.63 0.12
+Último 20 % 0.42 13.63 0.03
+100 % Total 2.10 13.63 0.15
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9623.54 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Canutillar (U2), El
+Toro (U1), El Toro (U2), El Toro (U3), El Toro (U4), Mejillones (CTM3), Ralco (U1), Ralco (U2), Rapel
+(U2) y Rapel (U4).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades en el sistema:
+• El PFV El Águila se encontraba sin recurso solar para generar.
+• Ambas unidades de la central Chapiquiña se encontraban en servicio con una inyección al
+SEN de 4 MW cada una, según el registro histórico del sistema SCADA del Coordinador.
+• El interruptor 52B1 de S/E Tap Off Quiani se encontraba abierto.
+Otros antecedentes relevantes
+Según lo indicado por la empresa Engie Energía Chile S.A.:
+• Siendo las 23:56 horas se produce la desconexión forzada de la línea 66 kV Central
+Chapiquiña - Arica, afectando una demanda de 2,1 MW correspondiente al cliente Quiborax, a
+causa de robo de conductor con destrucción de postación entre las estructuras N°259 y
+N°277.
+Se verifica en el registro histórico del sistema SCADA del Coordinador que luego de la falla, la Central
+Chapiquiña permanece en isla con los consumos del transformador N°2 66/3 kV.
+Por otra parte, en función de los antecedentes presentados por la empresa involucrada a la fecha de
+emisión del presente EAF, se solicitará la siguiente información adicional:
+Se solicitará a la empresa Engie Energía Chile S.A. lo siguiente:
+• Antecedentes pendientes para el Fenómeno Físico declarado (VAN3: Robo o hurto), según
+Resolución Exenta SEC N°30989-2019, en particular declaración jurada de los hechos.
+• Mantenimientos realizados a la línea 66 kV Central Chapiquiña - Arica, durante los últimos 24
+meses, junto con los antecedentes que acrediten su realización, indicando los principales
+hallazgos.
+• Registros oscilográficos y de eventos asociados de las protecciones eventualmente operadas
+en el PFV El Águila, junto con su respectivo análisis en base a sus ajustes.
+• Registros oscilográficos y de eventos asociados a las protecciones operadas del paño B2 de
+S/E Arica, durante su cierre manual sin éxito realizado a las 01:06 horas del día 06 de
+noviembre de 2024, junto con su respectivo análisis en base a sus ajustes.
+• Mayores antecedentes que permitan explicar la operación del sistema de protecciones de la
+barra 66 kV de S/E Arica, durante el cierre manual del paño B2 de dicha subestación
+realizado a las 01:06 horas del día 06 de noviembre de 2024, junto con declarar las medidas
+correctivas necesarias a implementar para evitar su reiteración.
+• En relación con el punto anterior, registros oscilográficos y de eventos asociados al sistema
+de protecciones operado en la barra 66 kV de S/E Arica, donde se declara la apertura de los
+interruptores 52BT2, 52BT3 y 52B5, justificando el motivo por el cual no se produjo la
+apertura del interruptor 52BT1, junto con su respectivo análisis en base a sus ajustes y
+determinación de los tiempos de apertura de dichos equipos.
+• En relación con el punto anterior, registros oscilográficos y de eventos de las protecciones
+que emiten la orden de apertura a los interruptores 52CT2 y 52HT3 de S/E Arica, aclarando si
+hubo o no orden de apertura hacia el interruptor 52CT1, junto con su respectivo análisis en
+base a sus ajustes y determinación de los tiempos de apertura de dichos equipos.
+De forma complementaria, se adjuntan los informes de fallas de instalaciones ingresados en el
+sistema del Coordinador Eléctrico Nacional por Engie Energía Chile S.A. (Anexo N°1) y otros
+antecedentes aportados por dicha empresa (Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría u otro tipo de mantenimiento en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Engie Energía Chile S.A. indica lo siguiente:
+• “Se contrata brigada de patrullaje junto a guardias de seguridad ENGIE. Adicionalmente se
+realizó apertura de puentes en las estructuras 255 y 278 para realizar reparación de la línea
+y estructuras afectadas por el robo.”
+c) Acciones correctivas a largo plazo:
+La empresa Engie Energía Chile S.A. indica que no aplica.

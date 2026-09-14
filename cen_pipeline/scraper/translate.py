@@ -19,15 +19,16 @@ def _load_model(model_name=_MODEL_NAME):
 
 def translate_es_to_en(text, max_chunk_chars=1200, model_name=_MODEL_NAME):
     """Chunks long report text (MarianMT has a short effective context) and
-    translates chunk by chunk, then joins the result."""
+    translates all chunks in a single batched inference call for high throughput."""
     text = (text or "").strip()
     if not text:
         return ""
     tok, model = _load_model(model_name)
     chunks = [text[i:i + max_chunk_chars] for i in range(0, len(text), max_chunk_chars)]
-    out = []
-    for chunk in chunks:
-        batch = tok([chunk], return_tensors="pt", truncation=True, padding=True)
-        gen = model.generate(**batch, max_length=512)
-        out.append(tok.decode(gen[0], skip_special_tokens=True))
-    return " ".join(out)
+    if not chunks:
+        return ""
+    batch = tok(chunks, return_tensors="pt", truncation=True, padding=True)
+    gen = model.generate(**batch, max_length=512)
+    decoded = tok.batch_decode(gen, skip_special_tokens=True)
+    return " ".join(decoded)
+
