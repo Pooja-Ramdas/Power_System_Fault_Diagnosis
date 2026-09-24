@@ -1,0 +1,120 @@
+Estudio para análisis de falla EAF 379/2024
+“Apertura intempestiva del interruptor 52HT de S/E Tap Off Punta Peuco”
+Fecha de Emisión: 26-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 02/08/2024
+Hora 00:27
+Consumos desconectados (MW) 15.00
+Demanda previa del sistema (MW) 8280.81
+Porcentaje de desconexión 0.181 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Interruptor 52HT de S/E Tap Off Punta Peuco /
+M01T0048PA003T0048SE003T0048
+Tipo de instalación Subestación
+Tensión nominal 110 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Compañía Transmisora del Norte Grande S.A. (*)
+RUT 76.680.107-2
+Representante Legal Cristián Martinez Vergara
+Dirección Av. Argentina N°1, piso 7, Valparaíso, Región de Valparaíso.
+(*) Nombre de la empresa según plataforma REUC del Coordinador.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Sistema de protección y control del paño H2 de S/E Punta Peuco (Cemento
+Polpaico) (ID 34905) / PA001G0292SE001L0025
+Propietario elemento fallado Enel Green Power Chile S.A.
+RUT 76.412.562-2
+Representante Legal James Lee Stancampiano
+Dirección Santa Rosa N°76, Santiago.
+d.1 Origen y causa de la falla
+Se produjo la apertura intempestiva del interruptor 52HT de S/E Tap Off Punta Peuco y consecuente
+desenergización de la barra BP1 110 kV de la S/E Punta Peuco (Cementos Polpaico), por recepción de
+una señal de disparo externa, proveniente de la función 50BF del sistema de protección del nuevo paño
+H2 S/E Punta Peuco (Cementos Polpaico), presumiblemente durante trabajos relacionados con la
+puesta en servicio del PFV Don Humberto (NUP 2224).
+d.2 Fenómeno Físico:
+OPE26: Falla en sistema de protección o control (*)
+(*) Fenómeno Físico determinado por el Coordinador Eléctrico Nacional, a partir de la información entregada por
+las empresas Compañía Transmisora del Norte Grande S.A. y Cementos Polpaico S.A.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido 1 falla en
+la misma instalación afectada durante los últimos 24 meses móviles, correspondiente al Estudio para
+análisis de Falla EAF 290-2024.
+d.4 Fenómeno eléctrico
+FA50BF: Falla de interruptor.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+La instalación afectada corresponde al interruptor 52HT de S/E Tap Off Punta Peuco, equipo marca
+ABB, tensión nominal 145 kV, modelo HPL 145/25C1, y posee una capacidad de ruptura asimétrica de
+39.36 kA. El interruptor fue puesto en servicio el 10 de octubre de 1990.
+Por otro lado, el equipo donde se originó la falla corresponde al equipamiento del paño H2 de S/E Punta
+Peuco (Cementos Polpaico), el cual se encuentra en proceso de puesta en servicio de parte de la
+empresa Enel Green Power Chile S.A., de acuerdo con el proyecto identificado como NUP 2224 Parque
+Fotovoltaico Don Humberto.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Causa Externa
+h. Comuna donde se presenta la falla
+13303: Tiltil.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(04-08-2024) (09-08-2024)
+Compañía Transmisora del Norte Grande S.A. 02-08-2024 09-08-2024
+Enel Green Power Chile S.A. 02-08-2024 09-08-2024
+Cementos Polpaico S.A. 02-08-2024 26-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Tap Off Punta Peuco ST Zonal Interruptor 52HT 00:27 08:55
+S/E Punta Peuco (Cemento Polpaico) ST Dedicado Barra 110 kV 00:27 08:55
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Punta Peuco
+Paño HT1 y HT2 Tiltil 15.00 0.181 1 00:27 08:55 08:55
+(Cementos Polpaico)
+Total: 1 5 .00 MW 0.181% 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa Cementos Polpaico S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Punta Peuco CEMENTO
+Paño HT1 y HT2 Libre 15.00 8.47 8.47 127.0
+(Cementos Polpaico) POLPAICO
+Clientes Regulados : MWh
+Clientes Libres : 127.0 MWh
+Total : 127.0 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Cementos Polpaico S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 12.00 8.47 1.42
+Último 20 % 3.00 8.47 0.35
+100 % Total 15.00 8.47 1.77
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8280.81 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U2 y U4), Kelar (UTG1), Mejillones (IEM) y Ralco (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 02 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 02 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+02 de agosto de 2024.

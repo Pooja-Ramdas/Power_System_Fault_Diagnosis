@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0412-2024",
+  "eaf_num": 412,
+  "year": 2024,
+  "description": "Desconexión forzada del transformador N°2 110/12 kV de S/E La Cisterna",
+  "date": "05-08-2024",
+  "time": "02:11",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-412-2024.pdf",
+  "case_id": "CASE-0197",
+  "event_datetime": "2024-08-05T02:11:00",
+  "fault_label": "transformer_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".zip"
+  },
+  "pending_conversion_path": null
+}

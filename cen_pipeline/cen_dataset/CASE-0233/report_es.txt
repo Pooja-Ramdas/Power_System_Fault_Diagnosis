@@ -1,0 +1,185 @@
+Estudio para análisis de falla EAF 376/2024
+“Falla en línea 110 kV Cerro Navia - Lo Aguirre N°2”
+Fecha de Emisión: 26-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 02/08/2024
+Hora 00:00
+Consumos desconectados (MW) 14
+Demanda previa del sistema (MW) 8988.2
+Porcentaje de desconexión 0.160 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Cerro Navia - Lo Aguirre N°2, Tramos 110 kV Tap Lo Aguirre -
+Lo Prado / LT063CI2TR03----R002 y Tap San Pablo - Tap Lo Prado /
+LT039CI2TR05----R002
+Tipo de instalación Línea de Transmisión
+Tensión nominal 110 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+c. Identificación del elemento fallado
+Línea 110 kV Cerro Navia - Lo Aguirre N°2, Tramo 110 kV Tap Lo Aguirre -
+Nombre del elemento fallado
+Lo Prado / LT063CI2TR03----R002
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 110 kV Cerro Navia - Lo Aguirre N°2, a consecuencia
+de la operación de sus protecciones en la S/E Cerro Navia, ante una falla a tierra en la fase C,
+originada por un acortamiento de distancia eléctrica entre el puente de esta fase y la estructura del
+portal N°107 del tramo de línea Tap Lo Aguirre - Lo Prado 110 kV, en medio de un temporal de viento
+y lluvia en la zona.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+La Sociedad Transmisora Metropolitana S.A. remite en su informe de falla de 5 días antecedentes
+para acreditar el origen de la falla.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles. (EAF 375-2024).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido dos fallas en
+instalaciones del mismo propietario con un fenómeno físico similar (homologado), durante los últimos
+24 meses móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Sociedad Transmisora Metropolitana S.A. indica lo siguiente:
+“Ocurrida la falla en forma inmediata se coordinó el recorrido de la
+línea el cual se realizó con datos entregados por las protecciones de
+distancia.
+El mismo día 7 de mayo se realizó recorrido por toda la zona urbana
+de la línea y verificación en la llegada a S/E La Dehesa. Dadas las
+condiciones ambientales y al ser horario nocturno no se pudo
+acceder a las zonas en cerro.
+El día 8 de mayo se realizó recorrido del Tap La Dehesa mediante
+camionetas y caballos sin encontrar datos de la falla.
+El día 9 de mayo se realizó una nueva inspección mediante el uso de
+drone, encontrándose signos de descargas entre la fase superior e
+inferior del circuito en vano entre torres 9 y 10 a aproximadamente
+Falla en línea 2x110 kV El Salto
+EAF 202_2024 07-05-2024 200 metros de la torre 10.
+- Los Almendros N°2
+A posterior el día 10 de mayo se realizó una nueva visita al sector a
+modo de identificar físicamente el punto de la descarga.
+Cabe destacar Tap la Dehesa ya cuenta con crucetas tipo cordillera a
+modo de evitar este tipo de eventos.
+En el punto 11, se adjuntan registros fotográficos de las inspecciones
+y el dato de la falla.
+Al analizar los registros de las protecciones, se identificó un desface
+horario en las protecciones del extremo Los Almendros. El pasado
+lunes 13 de mayo de 2024 se procedió a revisar esta situación,
+identificando
+suelto el conector responsable de la sincronización horaria. Se
+procedió a ajustar y se normalizó, se adjunta registro fotográfico.”
+Enel Distribución Chile S.A. indica que no aplica.
+Sociedad Transmisora Metropolitana S.A. señala:
+“Ocurrida la falla el centro de control da aviso al personal de
+Mantenimiento, en forma inmediata se coordinó el recorrido
+de la línea el cual se realizó con datos entregados por las
+protecciones sin encontrar falla evidente durante la
+Falla en línea 110 kV Cerro madrugada, por lo que se solicita prueba de energización,
+EAF 375-2024 01-08-2024
+Navia - Lo Aguirre N°2 siendo exitosa a las 02:15.
+A posterior, el sábado 3 de agosto se encuentra punto de falla
+en estructura 107 (una antes de la llega a S/E Lo Aguirre),
+encontrando evidencia de descargas entre puente de fase Azul
+con estructura ocasionadas por acercamiento del conductor
+del puente a la cantonera poniente del portal.”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: se han producido 5 fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 371-2022, EAF 452-
+2023, EAF 486-2023, EAF 021-2024 y EAF 375-2024).
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 110 kV Cerro Navia - Lo Aguirre N°2. La
+empresa Sociedad Transmisora Metropolitana S.A. entrega las siguientes características:
+• Tramo Cerro Navia - Tap San Pablo, 3,64 km doble circuito en conductor AASC 2x400 mm2
+• Tramo Tap San Pablo - Lo Aguirre, 16,91 km en simple circuito en conductor AASC 1x160 mm2
+• Año de puesta en Servicio: 1980.
+La empresa Sociedad Transmisora Metropolitana S.A. remitió antecedentes respecto de los
+mantenimientos realizados durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La Compañía General de Electricidad S.A. indica “Rural”.
+La empresa Enel Distribución Chile S.A. no informa calificación.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+h. Comuna donde se presenta la falla
+13124: Pudahuel.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(04-08-2024) (09-08-2024)
+Sociedad Transmisora Metropolitana S.A. (STM) 05-08-2024 08-08-2024
+Enel Distribución Chile S.A. (Enel Dx) No remitido No remitido
+Compañía General de Electricidad S.A. (CGE) 08-08-2024 08-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Cerro Navia - Lo Aguirre 110 KV ST Zonal Cerro Navia - Tap San Pablo C2 00:00 02:15
+Cerro Navia - Lo Aguirre 110 KV ST Zonal Tap San Pablo - Lo Aguirre C2 00:00 02:15
+Cerro Navia - Lo Aguirre 110 KV ST Zonal Lo Aguirre - Lo Prado C2 00:00 02:15
+- Fechas y horas señaladas corresponden a lo informado por Sociedad Transmisora Metropolitana S.A.
+c. Consumos
+Pérdida de %
+Alimentador / Clientes
+Sub-Estación Comuna Consumo consumo H. Desc. H. Dispon. H. Norm.
+Paño Afectados
+(MW) pre-falla
+Lo Aguirre NI NI 4.00 0.040 NI 00:00 02:15 02:15
+San Pablo NI NI 0 (*) 0.000 NI 00:00 02:15 02:15
+Lo Prado NI NI 0.01 (**) 0.000 NI 00:00 02:15 02:15
+Curacaví Curacaví / E1 Curacaví 5.40 0.060 5476 00:00 02:15 02:16
+Curacaví Lolenco / E2 María Pinto 0.45 0.010 1473 00:00 02:15 02:16
+Curacaví Lolenco / E2 Curacaví 4.14 0.050 5788 00:00 02:15 02:16
+Total: 14 MW 0.160 % 12737
+- Horas señaladas corresponden a lo informado por Sociedad Transmisora Metropolitana S.A.
+- Montos señalados corresponden a lo observado en el SITR del Coordinador.
+(*) Según el SITR del Coordinador, se procesó la transferencia automática de los consumos a través del cierre del interruptor
+52HS1 S/E San Pablo.
+(**) Calculado a partir de los datos SITR: potencia previa en la línea 110 kV Cerro Navia - Lo Aguirre (30 MW), menos la potencia
+previa en las SS/EE Lo Aguirre (4 MW), San Pablo (16 MW) y la pérdida reportada por CGE S.A. en S/E Curacaví (9.99 MW).
+3. Estimación de la energía no suministrada
+Alimentador / Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Empresa
+Paño Cliente Consumo (MW) Indispon. (h) Desc.(h) (MWh)
+Lo Aguirre NI Enel Distribución Regulado 4.00 2.25 2.25 9.0
+San Pablo NI Enel Distribución Regulado 0 (*) 2.25 2.25 0.0
+Lo Prado NI Enel Distribución Regulado 0.01 (**) 2.25 2.25 0.0
+Curacaví Curacaví / E1 CGE S.A. Regulado 5.40 2.25 2.27 12.2
+Curacaví Lolenco / E2 CGE S.A. Regulado 0.45 2.25 2.27 1.0
+Curacaví Lolenco / E2 CGE S.A. Regulado 4.14 2.25 2.27 9.4
+Clientes Regulados : 31.6 MWh
+Clientes Libres : MWh
+Total : 31.6 MWh
+- Horas señalados corresponden a lo informado por Sociedad Transmisora Metropolitana S.A.
+- Montos según lo observado en el SITR del Coordinador.
+(*) Según el SITR del Coordinador, se procesó la transferencia automática de los consumos a través del cierre del interruptor
+52HS1 S/E San Pablo.
+(**) Calculado a partir de los datos SITR: potencia previa en la línea 110 kV Cerro Navia - Lo Aguirre (30 MW), menos la potencia
+previa en las SS/EE Lo Aguirre (4 MW), San Pablo (16 MW) y la pérdida reportada por CGE S.A. en S/E Curacaví (9.99 MW).
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias significativas entre los horarios de recuperación real respecto de los
+horarios de disponibilidad de las barras primarias de las SS/SE Lo Aguirre, Lo Prado, y Curacaví.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 11.20 2.27 4.93
+Último 20 % 2.80 2.27 1.23
+100 % Total 14.00 2.27 6.17
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8988.2 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Angostura (U1,
+U2 y U3), Angostura (U3), Cipreses (U1), Colbún (U1 y U2), Mejillones (IEM), Tocopilla (U16), El Toro
+(U1, U3 y U4), Canutillar (U1 y U2), Ralco (U2), Rapel (U1), Rapel (U2), Rapel (U4) y Pehuenche
+(U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 02 de agosto de 2024
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 02 de agosto de 2024

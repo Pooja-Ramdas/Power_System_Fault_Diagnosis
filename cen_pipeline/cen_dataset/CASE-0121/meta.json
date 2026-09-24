@@ -1,0 +1,17 @@
+{
+  "eaf_id": "EAF-0487-2024",
+  "eaf_num": 487,
+  "year": 2024,
+  "description": "Apertura intempestiva del interruptor 52ET2 de S/E Constitución",
+  "date": "26-09-2024",
+  "time": "12:45",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/10/EAF-487-2024.pdf",
+  "case_id": "CASE-0121",
+  "event_datetime": "2024-09-26T12:45:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": false,
+  "diagram_source": "synthetic_fallback",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": null,
+  "pending_conversion_path": null
+}

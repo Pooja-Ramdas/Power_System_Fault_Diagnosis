@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0323-2024",
+  "eaf_num": 323,
+  "year": 2024,
+  "description": "Falla en la línea 110 kV Minero – Sauzal N°3",
+  "date": "31-07-2024",
+  "time": "00:20",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-323-2024.pdf",
+  "case_id": "CASE-0286",
+  "event_datetime": "2024-07-31T00:20:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".zip"
+  },
+  "pending_conversion_path": null
+}

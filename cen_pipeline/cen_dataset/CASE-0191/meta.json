@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0418-2024",
+  "eaf_num": 418,
+  "year": 2024,
+  "description": "Falla en el cierre del interruptor 52C2 de S/E Quinta de Tilcoco",
+  "date": "06-08-2024",
+  "time": "18:15",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-418-2024.pdf",
+  "case_id": "CASE-0191",
+  "event_datetime": "2024-08-06T18:15:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".zip"
+  },
+  "pending_conversion_path": null
+}

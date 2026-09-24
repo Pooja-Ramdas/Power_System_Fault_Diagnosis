@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0421-2024",
+  "eaf_num": 421,
+  "year": 2024,
+  "description": "Desconexión forzada del transformador Nº3 110/12 kV de S/E La Reina",
+  "date": "11-08-2024",
+  "time": "20:55",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/09/EAF-421-2024.pdf",
+  "case_id": "CASE-0188",
+  "event_datetime": "2024-08-11T20:55:00",
+  "fault_label": "transformer_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".zip"
+  },
+  "pending_conversion_path": null
+}

@@ -1,0 +1,130 @@
+Estudio para análisis de falla EAF 407/2024
+“Desconexión forzada barra 12 kV N°3 de S/E Vitacura”
+Fecha de Emisión: 26-08-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 03/08/2024
+Hora 16:26
+Consumos desconectados (MW) 20.3
+Demanda previa del sistema (MW) 8531
+Porcentaje de desconexión 0.238 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Barra 12 kV N°3 de S/E Vitacura / BA07T0835SE049T0835
+Tipo de instalación Subestación
+Tensión nominal 12 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+c. Identificación del elemento fallado
+Nombre del elemento fallado Barra 12 kV N°3 de S/E Vitacura / BA07T0835SE049T0835
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la barra 12 kV N°3 de S/E Vitacura por operación de sus
+protecciones, debido a arco eléctrico entre el desconectador lado barra y el bushing del interruptor del
+paño C17 de dicha subestación.
+d.2 Fenómeno Físico
+OPE5: Conector suelto o mal instalado.
+La empresa Sociedad Transmisora Metropolitana S.A. envía antecedentes (probatorios) con la finalidad
+de respaldar el fenómeno físico declarado.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se ha producido una falla en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondiente al Estudio para Análisis de Falla de la siguiente tabla:
+FALLA_ID ACCIONES_CORRECTIVAS_CP ACCIONES_CORRECTIVAS_LP
+La empresa Sociedad Transmisora Metropolitana II S.A. indica lo siguiente:
+“Durante la atención de esta falla, se identificó dañada la posición completa del
+alimentador Lipangue, la cual abarcaba al interruptor en su totalidad y tulipas
+de contacto de la misma posición. La empresa Sociedad Transmisora Metropolitana II S.A. indica
+EAF 218-2023 Por el grado de daño en los componentes, se dejó desconectada la posición del que solicitará repuestos de fábrica para reparar la posición del
+alimentador Lipangue desde la Barra MT3. Se procedió a gestionar el traslado i nterruptor del alimentador Lipangue de S/E Lo Boza.
+de este alimentador desde la Barra MT3 hacia la posición N°43 de la Barra MT6,
+dentro de la misma subestación. Este traslado se realizó el pasado martes 23 de
+mayo de 2023 y se ejecutó mediante el curso forzoso 2023045829.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51: Protección temporizada de sobrecorriente de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado por este evento corresponde a la barra 12 kV N°3 de S/E Vitacura, la cual tiene
+capacidad nominal de 48.6 [MVA] y su puesta en servicio fue en el año 1998, de acuerdo con los
+registros del Sistema Infotécnica del Coordinador.
+f. Ubicación urbana o rural según DS 327/1997
+Urbano.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+13114: Las Condes.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(05-08-2024) (09-08-2024)
+Sociedad Transmisora Metropolitana S.A. (STM) 07-08-2024 14-08-2024
+Enel Distribución Chile S.A. 03-08-2024 No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Vitacura ST Zonal Barra 12 kV N°3 16:26 17:33
+- Las horas indicadas corresponden a lo informado por la empresa STM S.A.
+c. Consumos
+Pérdida de %
+Alimentador Clientes H. H. H.
+Subestación Comuna Consumo consumo
+/Paño afectados Desc. Dispon. Norm.
+(MW) pre-falla
+R. Lyon, Los Leones,
+Las Condes,
+Leguía, Cencosud 3, 17:36
+Vitacura Providencia, 20.3 0.238 16659 16:26 17:33
+Providencia, San Carlos (*)
+Vitacura
+Tajamar
+Total: 20.3 MW 0.238 % 16659
+- Los montos y horarios señalados corresponden a lo informado por la empresa Enel Distribución Chile S.A. en su IF de 48 horas.
+(*) Si bien la empresa indica distintos horarios para la recuperación de cada alimentador, no detalla los montos asociados a cada
+horario, por lo que se utiliza el último horario de normalización.
+3. Estimación de la energía no suministrada
+Alimentador Tipo de Pérdida de Tiempo Tiempo ENS
+Subestación Empresa
+/Paño cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+R. Lyon, Los Leones,
+Leguía, Cencosud 3, Enel
+Vitacura Regulado 20.30 1.12 1.17 (*) 23.7
+Providencia, San Carlos, Distribución
+Tajamar
+Clientes Regulados : 23.7 MWh
+Clientes Libres : MWh
+Total : 23.7 MWh
+- Los montos señalados corresponden a lo informado por la empresa Enel Distribución Chile S.A. en su IF de 48 horas.
+(*) Si bien la empresa indica distintos horarios para la recuperación de cada alimentador, no detalla los montos asociados a cada
+horario, por lo que se utiliza el último horario de normalización.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias significativas entre el horario de recuperación real respecto del horario de
+disponibilidad de la barra primaria respectiva.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Potencia
+Rango recuperación recuperación
+(MW)
+(h) (MW/h)
+Primer 80 % 16.24 1.17 13.92
+Último 20 % 4.06 1.17 3.48
+100 % Total 20.30 1.17 17.40
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8531 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional previo a la falla, mediante las
+centrales Angostura (U2 y U3), Canutillar (U1 y U2), Tocopilla (TG3), Mejillones (IEM), Ralco (U1 y U2),
+Nueva Renca, Kelar (TG1) y El Toro (U1, U2, U3 y U4)
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 03 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 03 de agosto de 2024.

@@ -1,0 +1,17 @@
+{
+  "eaf_id": "EAF-0492-2024",
+  "eaf_num": 492,
+  "year": 2024,
+  "description": "Falla en el transformador monofásico de S/E Tap Off Mal Paso",
+  "date": "29-09-2024",
+  "time": "00:29",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/10/EAF-492-2024.pdf",
+  "case_id": "CASE-0116",
+  "event_datetime": "2024-09-29T00:29:00",
+  "fault_label": "transformer_fault",
+  "telemetry_available": false,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_metadata": null,
+  "pending_conversion_path": null
+}

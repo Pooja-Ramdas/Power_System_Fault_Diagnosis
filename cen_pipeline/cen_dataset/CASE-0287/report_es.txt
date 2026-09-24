@@ -1,0 +1,253 @@
+Estudio para análisis de falla EAF 322/2024
+“Falla en la línea 110 kV Maitencillo - Las Compañías”
+Fecha de Emisión: 20-08-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 29/07/2024
+Hora 08:13
+Consumos desconectados (MW) 9.17
+Demanda previa del sistema (MW) 10417.10
+Porcentaje de desconexión 0.088%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Tap Romeral - Incahuasi 110 kV C1 / LT240CI1TR05----T0002
+Tipo de instalación Línea
+Tensión nominal 110 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Región Metropolitana de Santiago.
+3. Identificación del elemento fallado
+Nombre del elemento afectado Tap Romeral - Incahuasi 110 kV C1 / LT240CI1TR05----T0002
+Propietario elemento fallado Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Región Metropolitana de Santiago.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 110 kV Maitencillo - Las Compañías, por operación de
+los sistemas de protección del paño H2 de S/E Las Compañías y del paño H7 de S/E Maitencillo,
+ocasionando la apertura intempestiva de sus respectivos interruptores. La falla es provocada por un
+cortocircuito monofásico a tierra en la fase B de la línea mencionada, en la estructura Nº145 del tramo
+Tap Romeral - Incahuasi, por la fractura de la tuerca ojo, lo cual provoca el acortamiento de distancia
+entre la cadena colgante y la estructura.
+d.2 Fenómeno Físico:
+OPE10: Falla de material, por fatiga, corrosión, trizadura, etc.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico, durante los últimos 24 meses móviles (EAF 448/2024 y 248/2024)
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+Acciones correctivas a corto plazo: Transelec S.A. señala que se ejecutaron
+labores de reemplazo del conductor dañado. Además, se reemplazó la
+cruceta inferior en la estructura N°224 y se reemplazó completamente la
+estructura N°225. Todas las labores se ejecutaron de manera exitosa por
+Falla en línea 220
+lo que las instalaciones quedaron en su condición definitiva cumpliendo con
+EAF 335-2022 kV Frontera - San 18-08-2022
+el estándar exigido para esta línea.
+Simón
+Acciones correctivas a largo plazo: La empresa Transelec S.A. señala que
+cuando se determine con exactitud cuál fue la causa del corte de conductor
+se podrán definir acciones correctivas de largo plazo que permitan anticipar
+y evitar la ocurrencia de una falla por las mismas causas.
+La empresa Transelec S.A. indica las siguientes acciones correctivas a corto
+plazo:
+“1.-Se procede a cortar el otro extremo del bretel para evitar el
+acortamiento de distancia entre este elemento y la estructura.
+2.-Se realizó una inspección pedestre minuciosa del estado de las prensas
+de breteles buscando fracturas y prensas que se encuentren en mal estado,
+principalmente de la fase central o media desde la estructura N°102 a 152
+y desde la N°224 a 298, de acuerdo a lo que se pudo observar no se
+detectaron daños. Una vez realizado este levantamiento en ese tramo, se
+realizó el lavado con chorro de agua y alta presión sin inconvenientes.
+Falla en la línea 110
+3.-Se acompañó al contratista en la actividad de lavado de aislación de este
+EAF 448-2023 kV Maitencillo - Las 21-10-2023
+tramo con el objetivo de evaluar el riesgo de lavar según el estado de las
+Compañías
+prensas.
+4.-Se realizará un análisis de causa raíz y se definirá un plan de acción para
+evitar la reiteración de esta falla.”
+La empresa Transelec S.A. no indica acciones correctivas a largo plazo.
+La empresa CGE Transmisión S.A. señala que “no aplica” ejecutar acciones
+correctivas a corto y largo plazo.
+La empresa Enel Green Power Chile S.A. señala que “no se consideran”
+acciones correctivas a corto y largo plazo.
+Las empresas CGE S.A. y Compañía Minera del Pacífico S.A. no indica
+acciones correctivas a corto y largo plazo.
+La empresa Transelec S.A. indica las siguientes acciones correctivas de
+corto plazo:
+“Al momento de conocer la causa de la desconexión se ejecutaron las
+siguientes acciones correctivas:
+1. Personal de terreno de Transelec procede a realizar el retiro del
+Bretel central cortado en la estructura N°86.
+2. Se procede a realizar una inspección a todas las prensas
+Falla en línea 110 paralelas de los breteles del tramo de Las Compañías - Romeral 110 kV,
+EAF 248-2024 kV Maitencillo - Las 12-06-2024 donde no se detectó ninguna prensa fracturada.”.
+Compañías Además, en informe técnico menciona: Se realizó el retiro del bretel
+cortado en la E86.
+• Se realizó una inspección a todas las prensas paralelas de los breteles del
+tramo de Las Compañías - Romeral 110 kV, donde no se detectó ninguna
+prensa fracturada.
+• Actualmente, está en desarrollo el reemplazo de conductor de la línea Las
+Compañías - Romeral 1x110 kV, donde en una primera etapa se retirarán
+los breteles centrales entre E52A a E102.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 293/2022, 366/2022,
+162/2023, 347/2023, 448/2023, 248/2024 y 271/2024).
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado en este evento corresponde a la línea 110 kV Maitencillo - Las Compañías, la
+que, de acuerdo con lo informado por su propietario, cuenta con las siguientes características:
+Concepto Tramo Maitencillo - Algarrobo 110 kV Tramo Algarrobo - Las Compañías 110 kV
+Tensión 110 kV 110 kV
+Conductor CU 2/0 AGW AAAC Alliance
+Nº de conductor por fase 1 1
+Tº de Diseño del Conductor 80ºC 50ºC
+Capacidad de corriente a
+0.417 kA 0.244 kA
+temperatura de operación
+Cable de Guardia No Aplica No Aplica
+Longitud del Conductor 33 km 152 km
+PES 1974 1974
+Al respecto, la empresa Transelec S.A. adjunta información de los mantenimientos de esta instalación
+durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Compañía General de Electricidad S.A. señala: “Urbana” y “Rural”.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+04101: La Serena.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (31-07-2024) Informe de 5 días (05-08-2024)
+Compañía General de Electricidad S.A. (CGE S.A.) 29-07-2024 02-08-2024
+CGE Transmisión S.A. 29-07-2024 06-08-2024
+Compañía Minera del Pacifico S.A. (CMP S.A.) 31-07-2024 No enviado
+Enel Green Power Chile S.A. 03-08-2024 08-08-2024
+Transelec S.A. 29-07-2024 05-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) Hora Desc. Hora Norm.
+PFV La Silla 1 1.00 08:13 09:52
+Total: 1.00 MW
+- Los horarios señalados corresponden a lo informado por la empresa Enel Green Power Chile S.A.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 110 kV Las Compañías - Maitencillo ST Zonal Las Compañías - Tap Romeral 08:13 09:52
+LT 110 kV Las Compañías - Maitencillo ST Zonal Tap Romeral - Incahuasi 08:13 *
+LT 110 kV Las Compañías - Maitencillo ST Zonal Incahuasi - Tap Pajonales 08:13 10:32
+LT 110 kV Las Compañías - Maitencillo ST Zonal Tap Pajonales - Dos Amigos 08:13 10:32
+LT 110 kV Las Compañías - Maitencillo ST Zonal Dos Amigos - Algarrobo 08:13 10:32
+LT 110 kV Las Compañías - Maitencillo ST Zonal Algarrobo - Maitencillo 08:13 10:32
+- Los horarios señalados corresponden a lo informado por la empresa Transelec S.A.
+(*): Según lo indicado por Transelec S.A. en su Informe de Falla de 5 días, el tramo quedó indisponible para atender otras condiciones
+detectadas en la línea.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Romeral
+- La Serena 6.95 0.067 1 08:13 09:52 09:52
+(CMP)
+S/E Incahuasi Domeyko / E1 Vallenar 0.42 0.004 481 08:13 10:32 10:32
+S/E Incahuasi La Higuera / E2 SI 0.80 0.008 SI 08:13 10:32 10:32
+S/E Pajonales - La Higuera 1.00 0.010 1 08:13 10:32 10:32
+Total: 9.17 MW 0.088% >484
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A., CGE Transmisión S.A., CMP S.A. y el
+registro histórico almacenado en el SITR del Coordinador.
+SI: No fue informado por la empresa Compañía General de Electricidad S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Romeral
+- CMP Libre 6.95 1.65 1.65 11.5
+(CMP)
+S/E Incahuasi Domeyko / E1 CGE Regulado 0.42 2.32 2.32 1.0
+S/E Incahuasi La Higuera / E1 CGE Regulado 0.80 2.32 2.32 1.9
+S/E Pajonales - ESO Libre 1.00 2.32 2.32 2.3
+Clientes Regulados : 2.9 MWh
+Clientes Libres : 13.8 MWh
+Total : 16.7 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A., CGE Transmisión S.A., CMP S.A. y el
+registro histórico almacenado en el SITR del Coordinador.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para
+los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 7.34 2.32 3.17
+Último 20 % 1.83 2.32 0.79
+100 % Total 9.17 2.32 3.96
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10417.10 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U1), Mejillones (IEM), Nueva Renca, Ralco (U1 y U2) y Rapel (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 29 de julio de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 29 de julio de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+29 de julio de 2024.
+1
+1
+1
+1
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+9
+9
+9
+9
+9
+:4
+:3
+:2
+:1
+:1
+:0
+:5
+:5
+:4
+:3
+:2
+0
+3
+6
+9
+2
+4
+7
+0
+3
+6
+8
+00 99 ::55 22
+7 6 %
+11 00 ::33 22
+8 0 %
+Se rie s2 Se rie s1
+11 00 ::33 22
+8 9 %
+11 00 ::33 22
+1 0 0 %

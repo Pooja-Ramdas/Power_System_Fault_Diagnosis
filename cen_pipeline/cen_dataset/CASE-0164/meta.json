@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0444-2024",
+  "eaf_num": 444,
+  "year": 2024,
+  "description": "Operación EDAC-BF en S/E Melipulli",
+  "date": "23-08-2024",
+  "time": "08:45",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/09/EAF-444-2024.pdf",
+  "case_id": "CASE-0164",
+  "event_datetime": "2024-08-23T08:45:00",
+  "fault_label": "other",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".zip"
+  },
+  "pending_conversion_path": null
+}

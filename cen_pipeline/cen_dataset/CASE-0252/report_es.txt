@@ -1,0 +1,184 @@
+Estudio para análisis de falla EAF 357/2024
+“Falla en línea 66 kV Victoria - Traiguén”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 14:33
+Consumos desconectados (MW) 3.00
+Demanda previa del sistema (MW) 10302.41
+Porcentaje de desconexión 0.029 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Victoria - Traiguén / LT090---------T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 14. Las Condes, Región Metropolitana de
+Santiago
+c. Identificación del elemento fallado
+Nombre del elemento afectado Tramo de línea 66 kV Tap Victoria FFCC - Traiguén /
+LT090CI1TR02T0058ST01T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 14. Las Condes, Región Metropolitana de
+Santiago
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Victoria - Traiguén, por apertura automática del
+interruptor 52B4 de S/E Victoria, debido a la operación de su protección de distancia, provocada por
+cortezas de árboles llevadas por el viento hacia los conductores entre las estructuras Nº85 y Nº86,
+durante un temporal de mal tiempo.
+d.2 Fenómeno Físico:
+CLI2: Objeto llevado por el viento hacia los conductores. (*)
+(*) La Fenómeno Físico determinado por el Coordinador Eléctrico Nacional, a partir de la información entregada por
+la empresa CGE Transmisión S.A.
+La empresa CGE Transmisión S.A. indica como fenómeno físico CLI1: Evento natural catastrófico
+(sismo, volcánico, aluvión, maremoto, etc.)., remitiendo antecedentes (probatorios) con el fin de
+acreditar el origen de la falla. Dichos antecedentes también sirven de probatorio para el fenómeno
+físico determinado por el Coordinador.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico durante los últimos 24 meses móviles, correspondiente a los Estudios para Análisis de
+Falla EAF 221-2023 y EAF 238-2024.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en línea 66
+La empresa CGE Transmisión S.A. indica: “Se realizó la reparación de la
+EAF 332/2022 kV Ejército - 16-08-2022
+línea cortada el día 21-08-2022”.
+Coronel N°2
+Falla en el circuito
+N°2 de la línea
+EAF 382/2022 17-10-2022 La empresa CGE Transmisión S.A. señala que “No aplica”.
+2x66 kV Loncoche
+- Villarrica
+Desconexión
+La empresa CGE Transmisión S.A. señala que: “se realiza la inspección
+forzada de la línea
+EAF 497/2022 26-12-2022 inmediata de la línea, detectando punto de falla y determinando la
+66 kV Los Maquis
+correcta integridad de esta”.
+- Hualañé
+Falla en línea 66
+EAF 025/2023 kV Cocharcas - 20-01-2023 CGE Transmisión S.A. señala que: “no se consideran acciones correctivas”.
+Hualte
+Falla en línea 110 La empresa CGE Transmisión S.A. señala que:
+EAF 026/2023 kV La Ruca - 21-01-2023 “Se realiza reparación de estructuras afectadas N°54, N°56, N°57 y
+Ovalle C1 y C2 reemplazo de estructuras E55”.
+Falla en línea 66 CGE Transmisión S.A. indica que realizó la reparación del conductor
+EAF 089/2023 kV Guindo - 22-02-2023 cortado entre las estructuras N°132 y N°133 de la línea 66 kV Guindo -
+Coronel N°1 Coronel N°1.
+Falla en la línea
+La empresa CGE Transmisión S.A. indica que “no aplica” ejecutar acciones
+EAF 158/2023 66 kV Tres Pinos - 05-04-2023
+correctivas de corto ni largo plazo.
+Lebu
+Falla en la línea La empresa CGE Transmisión S.A. señala que:
+EAF 184/2023 66 kV Concepción 28-04-2023 “Se realizó tala de árboles entre las estructuras N°68 y N°70 de la línea
+- Mahns LT 66 kV Penco-Tomé en predio de Forestal Arauco”.
+Falla en línea 66 CGE Transmisión S.A. indica que programará para junio de 2023 la
+EAF 189/2023 kV Ejército - 28-04-2023 reconfiguración del registro secuencial de eventos en las protecciones del
+Guindo N°2 paño B4 de S/E Ejército, para efectos de evitar su sobreescritura.
+Falla en la línea
+EAF 197/2023 66 kV San 30-04-2023 La empresa CGE Transmisión S.A. señala que: “No aplica”.
+Fernando - Teno
+Desconexión La empresa CGE Transmisión S.A. señala que:
+forzada de la “Se realizará revisión en alambrado y parametrización del relé ReyRoller
+EAF 210/2023 14-05-2023
+barra N°2 23 kV 7SR224 (Siemens) en el ámbito de comunicaciones y ajustes IRG B en
+de S/E Angol unidad de control, se programará para el 30 de junio de 2023”.
+Falla en línea 66
+La empresa CGE Transmisión S.A. indica que “no aplica” ejecutar acciones
+EAF 221/2023 kV 23-05-2023
+correctivas de corto ni largo plazo.
+Victoria - Traiguén
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea
+66 kV Arenas La empresa CGE Transmisión S.A. indica: “Se realizará remplazo de reloj
+EAF 228/2023 25-05-2023
+Blancas - satelital en SE Arenas Blancas”.
+Escuadrón
+Falla en la línea
+La empresa CGE Transmisión S.A. indica que “no aplica” ejecutar acciones
+EAF 313/2023 66 kV Los Peumos 25-07-2023
+correctivas de corto ni largo plazo.
+- Curacautín
+Falla en la línea
+La empresa CGE Transmisión S.A. indica que “no aplica” ejecutar acciones
+EAF 339/2023 66 kV Los Peumos 10-08-2023
+correctivas de corto ni largo plazo.
+- Curacautín
+Falla en la línea
+EAF 364/2023 66 kV Nancagua - 22-08-2023 GE Transmisión S.A. señala: “Se realiza reemplazo del aislador dañado”.
+Paniahue
+Falla en la línea
+66 kV San Vicente La empresa CGE Transmisión S.A. señala lo siguiente:
+EAF 368/2023 22-08-2023
+de Tagua Tagua - “Reparación de conductor cortado”.
+Las Cabras
+Falla en la línea
+EAF 436/2023 66 kV Teno - 11-10-2023 La empresa CGE Transmisión S.A. señala que “no aplica”.
+Curicó
+Falla en la línea
+EAF 187/2024 66 kV Los Peumos 04-05-2024 La empresa CGE Transmisión S.A. señala que “no aplica”.
+- Curacautín
+Falla en línea 66 La empresa CGE Transmisión S.A. indica: “Retiro inmediato de elemento
+EAF 192/2024 kV Penco - 06-05-2024 extraño sobre conductor inferior en la estructura E-33. Mayor detalle se
+Lirquén puede encontrar en anexo III.”
+La empresa CGE Transmisión S.A. indica: “Brigadas contratistas de CGE
+Transmisión recorrieron el tramo fallado, detectando ramas de árboles
+cercanos a conductores entre estructuras 85 y 86, procediendo a la poda
+en el sector y no encontrándose más novedades en la instalación. Luego
+Falla en línea 66
+de un intento de energización no exitoso, se realiza un segundo recorrido
+EAF 238/2024 kV Victoria - 05-06-2024
+del tramo afectado, encontrando un conductor lateral cortado entre
+Traiguén
+estructuras 94 y 95 y, además, la cruceta dañada en la estructura 95,
+procediendo a realizar faenas de reparación de línea en un sector de difícil
+acceso para finalmente energizar exitosamente el tramo 66 kV Tap Off
+Victoria-Traiguén recuperándose la S/E Traiguén.”
+La empresa CGE Transmisión S.A. indica: “Se realizó desconexión forzada
+Falla en línea 66
+de la línea domingo 23 junio 2024 para efectuar la reparación de la
+EAF 274/2024 kV Villarrica - 18-06-2024
+protección del conductor fase A y C del vano 495 - 496 y mantenimiento
+Pucón
+en otros puntos de la línea según SD 2024061368.”
+CGE Transmisión S.A. señala:
+“El 18/06/2024 a las 16:40 horas se retira el elemento extraño desde
+conductor.
+Falla en línea 110 Pasado el temporal se realizó inspección de la LT 110kV Tap Alto Melipilla
+EAF 279/2024 kV Tap Off Alto 18-06-2024 - Bollenar, en el sector donde cayó la corteza de eucaliptus (trola), para
+Melipilla - Bollenar verificar estado del conductor y que no existan otros elementos. Se
+verifica que no se produjo daño en los conductores, producto del arco de
+cortocircuito y no se observan otros elementos extraños en los
+conductores.”
+o La empresa CGE Transmisión S.A. señala “No aplica”.
+o La empresa STS S.A. señala lo siguiente: “No hay”.
+o La empresa Hidroangol S.A. no indica acciones correctivas a corto
+Falla en la línea
+plazo.
+EAF 330/2024 66 kV Angol - 31-07-2024
+o La empresa Vientos de Renaico SpA señala lo siguiente: “No se
+Victoria
+registraron comportamiento inadecuado de los sistemas de
+protección”.
+o La empresa Frontel S.A. indica “No hay”.
+Falla en línea 66
+EAF 331/2024 kV Villarrica - 31-07-2024 Las empresas involucradas no indican acciones correctivas de corto plazo.
+Pucón
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 4 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 208-2023, EAF 221-2023, EAF 079-2024 y EAF 238-2024.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 66 kV Victoria - Traiguén, compuestas por
+los siguientes tramos:

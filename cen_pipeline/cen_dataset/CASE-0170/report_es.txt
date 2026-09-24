@@ -1,0 +1,314 @@
+Estudio para análisis de falla EAF 438/2024
+“Apertura automática del interruptor 52HL1 de S/E Portezuelo”
+Fecha de Emisión: 11-09-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 21/08/2024
+Hora 08:49
+Consumos desconectados (MW) 22.86
+Demanda previa del sistema (MW) 10527.05
+Porcentaje de desconexión 0.210 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Portezuelo 110/66 kV / SE201T0058
+Tipo de instalación Subestación
+Tensión nominal 110 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 14, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento fallado Sistema de protecciones del paño HL1 de S/E Portezuelo /
+SP023T0058SE201T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 14, Las Condes
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52HL1 de S/E Portezuelo, correspondiente a la línea
+110 kV Portezuelo - La Estrella, por medio de la operación del esquema de teleprotección Hybrid POTT.
+La empresa CGE Transmisión S.A. señala que la operación de la protección anteriormente señalada fue
+a causa de un inadecuado método de polarización ajustado en el relé GE-D60, lo que no permitió
+determinar correctamente la dirección de la corriente de falla frente a una perturbación ocurrida en el
+sistema.
+d.2 Fenómeno Físico:
+OPE22: Error en programación de elementos de protección o control.
+La empresa CGE Transmisión S.A. remite los siguientes antecedentes para acreditar el fenómeno físico
+declarado:
+o Informe con el análisis de las protecciones.
+o Mantenimientos de los últimos 24 meses en S/E Portezuelo (no incluye a sistemas de protección
+y control).
+Sin perjuicio de lo anterior, se encuentra pendiente el envío de la siguiente información:
+o Mantenciones o pruebas de los último 24 meses en el equipo o elemento donde existe el error
+de programación.
+o Informe de por qué no fue detectado en las mantenciones o pruebas realizadas.
+o Informe técnico de cómo debieron haber actuado las protecciones.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por un
+fenómeno físico similar, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con un fenómeno físico similar, durante los últimos 24 meses.
+FALLA ID NOMBRE FALLA ACCIONES CORRECTIVAS CP ACCIONES CORRECTIVAS LP
+Desconexión forzada de
+EAF 303-2022 línea 66 kV Lucero - No se indican. No se indican.
+Chillán
+La empresa CGE Transmisión S.A. indica:
+“Se realiza en forma inmediata la inspección
+visual del transformador T1 de SE Constitución,
+confirmando que no existen operaciones de las
+protecciones mecánicas de este.
+Se realiza la extracción de aceite para realizar
+análisis de Cromatográfico y Físico - químico.
+Los resultados del Análisis permiten concluir
+que el transformador se encuentra en
+Desconexión forzada del condiciones de mantenerse en servicio.
+EAF 409-2022 transformador 66/23 kV Se realizan pruebas eléctricas de emergencia a No se indican.
+N°1 de S/E Constitución Transformador.
+Una vez determinado que operación se debió a
+la conexión externa de un conjunto de
+Transformadores en Central Constitución, es
+que se determinó realizar la modificación del
+ajuste de umbral de operación de la protección
+diferencial, para efecto de evitar la operación
+indeseada de esta frente a energización de
+Central Constitución de propiedad de
+Elektragen.”
+La empresa CGE Transmisión S.A. indica:
+• Revisión de direccionamiento de comandos y
+estados del interruptor 52E31 en sistema
+Falla en interruptor
+EAF 058-2023 SCADA. No se indican.
+52E31 de S/E La Portada
+• Normalización de direccionamiento y estados
+con pruebas efectivas en desconexión de
+52E31.
+EAF 165-2023 Desconexión del CGE Transmisión S.A. señala: No se indican.
+transformador T2 66/23 “Mediante la SD2023033726 se realizará
+kV SE Angol mejora en el ajuste de los supervisores de
+elementos de protección de distancia asociado
+a relé SEL 311C de Paño BT2 de SE Angol.”
+“Dicha mejora consiste en realizar el reajuste
+de los supervisores asociados a los elementos
+de distancia en dicho Paño, lo cual no requiere
+análisis de coordinación de protecciones. El
+cambio por realizar se detalle en informe
+denominado Informe-Angol BT2-RevA”.
+La empresa CGE Transmisión S.A. señala:
+• “Se analizan los eventos.
+• Se realizaron pruebas al SEL-351R de paño
+C1 el 26/04/2023 según DCF N°
+Desconexión forzada de
+2023037949.
+EAF 177-2023 la barra 13.2 kV de S/E No se indican.
+• Se realizó Sincronización del SEL 351A 52CT1
+Monte Patria
+el 26/04/2023 según DCF N° 2023037949.
+• El 27/04/2023 se realizó corrección en la
+lógica de control de ajustes direccionales en
+SEL 351R 52C1 según ICF 2023038339.”
+La empresa CGE Transmisión S.A. señala:
+• “Se analizan los eventos.
+• Se realizaron pruebas al SEL-351R de paño
+C1 el 26/04/2023 según DCF N°
+Desconexión forzada de
+2023037949.
+EAF 178-2023 la barra 13.2 kV de S/E No se indican.
+• Se realizó Sincronización del SEL 351A 52CT1
+Monte Patria
+el 26/04/2023 según DCF N° 2023037949.
+• El 27/04/2023 se realizó corrección en la
+lógica de control de ajustes direccionales en
+SEL 351R 52C1 según ICF 2023038339.”
+La empresa CGE Transmisión S.A. señala que
+Apertura intempestiva realizará revisión del enlace entre el reloj
+EAF 441-2023 del interruptor 52B3 de satelital y la protección SEL-311C del paño B3 No se indican.
+S/E Pumahue de S/E Pumahue, ante inconsistencia en el
+registro.
+La empresa CGE Transmisión S.A. señala:
+• “El día 13/11/2023 se corrigieron los ajustes
+de las protecciones de los paños C6 y C7,
+deshabilitando las funciones de baja
+Aperturas intempestivas
+frecuencia 81”.
+EAF 495-2023 de los interruptores 52C6 No se indican.
+• “Se programará una revisión del conexionado
+y 52C7 de S/E Pukará
+secundario de los TTPP de los alimentadores,
+con el fin de confirmar su estado y en
+particular su conexión a tierra, para el mes
+de Diciembre/2023”.
+La empresa CGE Transmisión S.A. señala:
+• “El día 13/11/2023 se corrigieron los ajustes
+de las protecciones de los paños C6 y C7,
+deshabilitando las funciones de baja
+Aperturas intempestivas
+frecuencia 81”.
+EAF 496-2023 de los interruptores 52C6 No se indican.
+• “Se programará una revisión del conexionado
+y 52C7 de S/E Pukará
+secundario de los TTPP de los alimentadores,
+con el fin de confirmar su estado y en
+particular su conexión a tierra, para el mes
+de Diciembre/2023”.
+La empresa CGE Transmisión S.A. señala que el
+28 de diciembre, según la solicitud de
+desconexión de curso forzoso N°2023121622,
+se realiza el reemplazo y carga de una nueva
+estrategia de control en la RTU del SCADA de La empresa CGE Transmisión
+S/E Las Arañas, con el objeto de corregir la S.A. señala que “no se requiere”
+Apertura intempestiva
+condición anormal detectada. Posteriormente, ejecutar acciones correctivas a
+EAF 547-2023 del interruptor 52E1 de
+se realizaron pruebas de apertura y cierre sobre largo plazo.
+S/E Las Arañas
+el interruptor 52HT1, comprobando su correcto
+funcionamiento y confirmando que dichos
+comandos no actúan sobre el 52E1. También se
+verificó que la misma situación anormal no
+estuviese presente en algún otro equipo de la
+S/E.
+CGE Transmisión S.A. señala lo siguiente:
+• “La operación indeseada se produce debido a
+una incorrecta programación de la Salida
+digital Out104 para el grupo 2 de ajustes de
+Desconexión forzada de CGE Transmisión S.A. señala que
+Relé SEL 311 de Paño B1 de SE Talca: Para
+EAF 032-2024 las barras N°1 y N°2 de “No aplica”.
+corregir dicha condición de corrige dicha
+66 kV de S/E Talca
+ecuación de grupo 2 de ajuste haciendo
+Out104=TRIP, lo cual es realizado el día
+domingo 28 de enero a las 16:00 horas.
+• “Se programará la realización de la
+habilitación de la sincronización satelital a los
+tres relés de la protección diferencial de
+barras, SEL 487B fase A, B y C.”
+CGE Transmisión S.A. señala:
+• “El día 7-05-2024 se realizó el cambio a los
+ajustes normales del control Form 4C del
+interruptor 52C6, según SD 2024040005
+(previa aprobación del coordinador eléctrico
+nacional).
+• Se coordinó con centro de operaciones de CGE Transmisión S.A. no señala
+Desconexión forzada de transmisión (COT), mantener el 52C6 solo en acciones correctivas de largo
+EAF 209-2024 barra N°2 15 kV de S/E ajuste Normal, ya que con este ajuste existe plazo.
+correcta selectividad con el 52CT2.
+Alameda
+• Se gestiona la confección del nuevo Estudio
+de Coordinación de Protecciones para el 52C6
+de modo de solucionar la operación no
+selectiva cuando están los ajustes
+alternativos activos.
+Fecha realización del estudio: 30/06/2024
+Fecha implementación del estudio:
+31/07/2024”.
+CGE Transmisión S.A. indica lo siguiente:
+Apertura intempestiva “Debido a que la operación de relé se debió a CGE Transmisión S.A. indica: “No
+EAF 281-2024 del interruptor 52C2 de un error en la programación, se procede con el aplica”.
+S/E Hualañé bloqueo de la función de Falla Sensitiva a Tierra
+en el relé.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido dos fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 086-2023 y EAF 042-
+2024).
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento que originó la apertura automática del interruptor 52HL1 de S/E Portezuelo corresponde
+a su sistema de protecciones, el cual, de acuerdo con lo informado por su propietario en la plataforma
+Infotecnica del Coordinador, es de la marca GE-D60 y su fecha de entrada en operación fue el 01 de
+enero de 2006.
+Al respecto, la empresa CGE Transmisión S.A. no remite información de los mantenimientos realizados
+al sistema de protecciones involucrado durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Compañía General de Electricidad S.A. declara: “Rural” y “Urbano”.
+g. Proposición del propietario respecto del origen de la falla
+La empresa CGE Transmisión S.A. señala: “Caso Fortuito”.
+h. Comuna donde se presenta la falla
+6306: Palmilla.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(23-08-2024) (28-08-2024)
+CGE Transmisión S.A. 21-08-2024 06-09-2024
+Sistema de Transmisión del Sur S.A. (STS S.A.) 21-08-2024 27-08-2024
+Compañía General de Electricidad S.A. (CGE S.A.) 22-08-2024 27-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Portezuelo - La Estrella 110 kV ST Zonal - 08:49 09:49
+- Las horas indicadas corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Pérdida de %
+Sub- Alimentador/ Clientes H. H. H.
+Comuna Consumo consumo
+Estación Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Pichilemu, Marchigüe y
+Alcones Pichilemu / E3 0.04 0.000 147 08:49 10:04 10:04
+Pumanque
+La Estrella, Pichilemu,
+Alcones Mallermo / E1 2.39 0.020 14789 08:49 10:04 10:04
+Paredones y Marchigüe
+La La Estrella, Marchigüe, Las
+Calleuque / C1 0.63 0.010 703 08:49 09:55 08:55
+Esperanza Cabras, Peralillo y Pichidegua
+La Las Chacras /
+La Estrella y Marchigüe 0.44 0.000 202 08:49 09:55 08:55
+Esperanza C2
+La
+Los Olivos / C3 Marchigüe 0.12 0.000 352 08:49 09:55 08:55
+Esperanza
+Lihueimo Arboleda / C1 Pichidegua y Palmilla 0.83 0.010 1706 08:49 09:32 09:32
+Lihueimo El Barco / C2 Peralillo y Palmilla 0.71 0.010 1656 08:49 09:32 09:32
+Santa Cruz, Palmilla,
+Lihueimo Molinero / C3 2.13 0.020 3752 08:49 09:32 09:32
+Pumanque y Peralillo
+Marchigüe Peralillo / C1 Marchigüe y Peralillo 1.00 0.010 1625 08:49 10:04 10:04
+La Estrella / Marchigüe, Litueche y La
+Marchigüe 1.00 0.010 2224 08:49 10:04 10:04
+C2 Estrella
+Peñablanca / Pumanque, Santa Cruz,
+Marchigüe 0.91 0.010 2243 08:49 10:04 10:04
+E1 Marchigüe, Paredones y Lolol
+Paniahue Cunaco / C1 Santa Cruz y Nancagua 1.28 0.010 2161 08:49 09:19 09:19
+Santa Cruz
+Paniahue Santa Cruz y Palmilla 2.80 0.030 8011 08:49 09:19 09:19
+Urbano 1 / C3
+Paniahue Chépica / C4 Chépica y Santa Cruz 3.28 0.030 8712 08:49 09:19 09:19
+Portezuelo Guadalao / E1 La Estrella y Marchigüe 0.50 0.000 180 08:49 09:55 09:55
+Santa Cruz Palmilla / C1 Palmilla y Santa Cruz 2.60 0.020 3393 08:49 09:21 09:21
+Santa Cruz Lolol / C2 Santa Cruz 2.20 0.020 3549 08:49 09:21 09:21
+Total: 22.86 MW 0.210 % 55405
+- Los montos y horarios señalados corresponden a lo informado por las empresas Compañía General de Electricidad S.A. y CGE
+Transmisión S.A.
+3. Estimación de la energía no suministrada
+Pérdida de Tiempo
+Tipo de Tiempo
+Sub-Estación Alimentador/Paño Empresa Consumo Indispon. ENS (MWh)
+Cliente Desc. (h)
+(MW) (h)
+Alcones Pichilemu / E3 CGE Regulado 0.04 1.25 1.25 0.1
+Alcones Mallermo / E1 CGE Regulado 2.39 1.25 1.25 3.0
+La Esperanza Calleuque / C1 CGE Regulado 0.63 1.10 0.10 0.1
+La Esperanza Las Chacras / C2 CGE Regulado 0.44 1.10 0.10 0.0
+La Esperanza Los Olivos / C3 CGE Regulado 0.12 1.10 0.10 0.0
+Lihueimo Arboleda / C1 CGE Regulado 0.83 0.72 0.72 0.6
+Lihueimo El Barco / C2 CGE Regulado 0.71 0.72 0.72 0.5
+Lihueimo Molinero / C3 CGE Regulado 2.13 0.72 0.72 1.5
+Marchigüe Peralillo / C1 CGE Regulado 1.00 1.25 1.25 1.2
+Marchigüe La Estrella / C2 CGE Regulado 1.00 1.25 1.25 1.2
+Marchigüe Peñablanca / E1 CGE Regulado 0.91 1.25 1.25 1.1
+Paniahue Cunaco / C1 CGE Regulado 1.28 0.50 0.50 0.6
+Paniahue Santa Cruz Urbano 1 / C3 CGE Regulado 2.80 0.50 0.50 1.4
+Paniahue Chépica / C4 CGE Regulado 3.28 0.50 0.50 1.6
+Portezuelo Guadalao / E1 CGE Regulado 0.50 1.10 1.10 0.6
+Santa Cruz Palmilla / C1 CGE Regulado 2.60 0.53 0.53 1.4
+Santa Cruz Lolol / C2 CGE Regulado 2.20 0.53 0.53 1.2
+Clientes Regulados : 16.1 MWh
+Clientes Libres : MWh
+Total : 16.1 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Compañía General de Electricidad S.A. y CGE
+Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.

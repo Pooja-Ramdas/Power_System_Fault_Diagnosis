@@ -1,0 +1,176 @@
+Estudio para análisis de falla EAF 392/2024
+“Falla en la línea 66 kV Aconcagua - Saladillo N°2”
+Fecha de Emisión: 26-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 02/08/2024
+Hora 09:16
+Consumos desconectados (MW) 25
+Demanda previa del sistema (MW) 8847.6
+Porcentaje de desconexión 0.290 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Aconcagua - Saladillo N°2 / LT022CI2TR02----T011
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Alfa Transmisora de Energía S.A.
+RUT 76.218.856-2
+Representante Legal Alan Heinen Alves Da Silva
+Dirección Apoquindo 4501 Of 1501, Las Condes, Santiago
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 66 kV Aconcagua - Saladillo N°2 / LT022CI2TR02----T011
+Propietario elemento fallado Alfa Transmisora de Energía S.A.
+RUT 76.218.856-2
+Representante Legal Alan Heinen Alves Da Silva
+Dirección Apoquindo 4501 Of 1501, Las Condes, Santiago
+d.1 Origen y causa de la falla
+Se produjo la apertura automática de los interruptores 52B2 de S/E Aconcagua y 52B4 de S/E Saladillo,
+correspondientes a la línea 66 kV Aconcagua - Saladillo N°2, por operación de la protección de distancia
+en primera zona, ante una falla en la fase B, en presencia de un temporal de nieve, viento y lluvia en
+la zona.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+La empresa Alfa Transmisora de Energía S.A. remitió los antecedentes probatorios para acreditar el
+fenómeno físico que dio origen a la falla.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por un
+fenómeno físico similar, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un fenómeno físico similar, durante los últimos 24 meses
+móviles, correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+FALLA
+NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+ID
+Falla en línea 220 kV
+La empresa Alfa Transmisora de Energía S.A. no indica acciones correctivas a
+EAF 370-2023 Candelaria - Minero 23-08-2023
+corto y largo plazo.
+N°2
+Acciones correctivas a corto plazo: La empresa Alfa Transmisora de Energía S.A.
+señala: “Una vez producida la desconexión forzada, inmediatamente se realizó
+la interrogación de protecciones y con la información obtenida, se determina que
+la falla se encuentra en el tramo de línea de 220 kV Las Tórtolas - Maitenes, por
+lo que se procede con el seccionamiento de la línea abriendo el desconectador
+89J2 de S/E Las Tórtolas, posterior al seccionamiento se ejecuta el cierre del
+interruptor 52J2 de S/E Polpaico energizando el tramo de línea de 220 kV
+Falla en línea 220 kV Polpaico - Las Tórtolas, recuperando los consumos de Angloamerican en Planta
+EAF 201-2024 Polpaico - Los 07/05/2024 Las Tórtolas. Posteriormente se realiza recorrido con helicóptero e inspección
+Maitenes pedestre del tramo de línea de 220 kV Las Tórtolas - Maitenes, apoyado con
+drones para la inspección de detalle, logrando determinarse que la línea está en
+condiciones de ser energizada, por lo que se procede con el cierre del interruptor
+52J3 de S/E Maitenes el 13 de mayo del 2024 a las 13:51 horas, energizando el
+tramo de línea Maitenes - Las Tórtolas.”
+La empresa Alfa Transmisora de Energía S.A. no indica acciones correctivas a
+largo plazo, La empresa Anglo American Sur S.A. no indica acciones correctivas
+a corto y largo plazo.
+Falla en línea 220 kV La empresa ¡Error! No se encuentra el origen de la referencia. indica: “Personal
+EAF 268-2024 Candelaria - Minero 14/07/2024 de mantenimiento realiza inspección visual pedestre de la línea sin evidenciar
+N°1 daños en el tramo indicado por las protecciones.”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores del circuito N°2 de la línea 2x66
+kV Aconcagua - Saladillo, el cual, de acuerdo con lo informado por su propietario en la plataforma
+Infotécnica del Coordinador, posee una longitud de 8.4 km con conductores del tipo ACCC CAIRO, con
+una capacidad nominal de 41.15 MVA (permanente a 25°C con sol y a tensión nominal).
+La empresa Alta Transmisora Energía S.A. informa las siguientes características del equipo fallado:
+Al respecto, la empresa Alfa Transmisora de Energía S.A. remitió información acerca de los
+mantenimientos realizados a la línea 2x66 kV Aconcagua - Saladillo, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Alfa Transmisora de Energía S.A declara: “Rural”
+g. Proposición del propietario respecto del origen de la falla
+Interna (*).
+(*) Según lo declarado por la empresa Alfa Transmisora de Energía S.A. en su Informe de Falla de 48 horas.
+h. Comuna donde se presenta la falla
+05301: Los Andes.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(04-08-2024) (09-08-2024)
+Alfa Transmisora de Energía S.A. 03-08-2024 12-08-2024
+Codelco Chile - División Andina 03-08-2024 28-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 2x66 kV Aconcagua - Saladillo ST Dedicado Aconcagua - Saladillo 66 kV C2 09:16 09:32
+- Los horarios señalados corresponden a lo informado por las empresas Alfa Transmisora de Energía S.A. y Codelco Chile - División
+Andina.
+c. Consumos
+Sub-Estación Alimentador / Paño Comuna Pérdida de % Clientes H. H. H.
+Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Saladillo Molienda convencional Los Andes 17.00 0.190 09:16 10:00 10:00
+S/E Saladillo KM 21 Los Andes 4.00 0.050 1 09:16 10:00 10:00
+S/E Saladillo Flotación Los Andes 4.00 0.050 09:16 10:00 10:00
+Total: 25.00 MW 0.290 % 1
+- Los montos y horarios señalados corresponden a lo informado por las empresas Alfa Transmisora de Energía S.A. y Codelco
+Chile - División Andina.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador / Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo (MW) Indisp. (h) Desc. (h) (MWh)
+S/E Saladillo Molienda convencional CODELCO Libre 17.00 0.26 0.73 12.50
+S/E Saladillo KM 21 CODELCO Libre 4.00 0.26 0.73 2.90
+S/E Saladillo Flotación CODELCO Libre 4.00 0.26 0.73 2.90
+Clientes Regulados : MWh
+Clientes Libres : 18.3 MWh
+Total : 18.3 MWh
+- Los montos señalados corresponden a lo informado por las empresas Alfa Transmisora de Energía S.A. y Codelco Chile - División
+Andina.
+- Curva de recuperación esperada v/s recuperación real.
+10:48
+10:00 10:00
+9:36
+8:24
+7:12
+6:00
+4:48
+3:36
+2:24
+1:12
+0:00
+68,0% 84,0% 100,0%
+Recuperación Real Recuperación Esperada
+No se observan diferencias entre el horario de recuperación real respecto del horario de
+disponibilidad de las barras primarias respectivas para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia Tiempo Velocidad de
+(MW) recuperación (h) recuperación
+(MW/h)
+Primer 80 % 13.60 0.73 18.63
+Último 20 % 3.40 0.73 4.66
+100 % Total 17.00 0.73 23.29
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8847.60 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Angostura (U3), El
+Toro (U1, U2 y U3), Ralco (U1 y U2) y Tocopilla (TG3-TG3).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 02 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 02 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+02 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 02 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con la siguiente particularidad:
+• La línea 66 kV Aconcagua - Saladillo N°1 operaba con puentes abierto en su estructura N°21.
+Otros antecedentes relevantes
+Según lo informado por Alfa Transmisora de Energía S.A.
+“El viernes 02 de agosto del 2024 a las 09:16 horas, durante temporal de nieve que afectó a la zona
+cordillerana y precordillerana de la región de Valparaíso, se produce la activación de los elementos de
+distancia de la protección de la línea de 66kV Aconcagua – Saladillo C2 en S/E Aconcagua, provocando
+la apertura del interruptor 52B2 de S/E Aconcagua, ocasionando la desenergización de la línea y la
+pérdida de consumos de Codelco División Andina”.
+Según lo informado por Codelco Chile - División Andina
+“Línea C2 de 66 kV Aconcagua - Saladillo interrupción forzada por protecciones afectando 25 MW de
+Codelco División Andina
+…/…
+Temporal de viento y nieve afecto la zona.”

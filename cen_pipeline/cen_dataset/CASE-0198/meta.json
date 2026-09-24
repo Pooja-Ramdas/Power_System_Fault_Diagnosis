@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0411-2024",
+  "eaf_num": 411,
+  "year": 2024,
+  "description": "Apertura intempestiva del interruptor 52CT2 de S/E San Pedro (CGE)",
+  "date": "05-08-2024",
+  "time": "00:13",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-411-2024.pdf",
+  "case_id": "CASE-0198",
+  "event_datetime": "2024-08-05T00:13:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".dwg"
+  },
+  "pending_conversion_path": null
+}

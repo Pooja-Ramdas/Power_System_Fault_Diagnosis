@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0380-2024",
+  "eaf_num": 380,
+  "year": 2024,
+  "description": "Desconexión forzada de la barra 23 kV N°3 de S/E Lo Boza",
+  "date": "02-08-2024",
+  "time": "00:53",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-380-2024.pdf",
+  "case_id": "CASE-0229",
+  "event_datetime": "2024-08-02T00:53:00",
+  "fault_label": "busbar_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".zip"
+  },
+  "pending_conversion_path": null
+}

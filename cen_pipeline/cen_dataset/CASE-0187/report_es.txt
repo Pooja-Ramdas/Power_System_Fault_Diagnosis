@@ -1,0 +1,135 @@
+Estudio para análisis de falla EAF 422/2024
+“Apertura intempestiva del interruptor 52HT de S/E Tap Off Punta Peuco”
+Fecha de Emisión: 03-09-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 12/08/2024
+Hora 17:13
+Consumos desconectados (MW) 15.57
+Demanda previa del sistema (MW) 9864.62
+Porcentaje de desconexión 0.158 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Tap Off Punta Peuco / SE003T0048
+Tipo de instalación Subestación
+Tensión nominal 110 kV y 23 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Compañía Transmisora del Norte Grande S.A.
+RUT 76.680.107-2
+Representante Legal Cristián Martínez Vergara
+Dirección Av. Argentina N°1, piso 7, Valparaíso.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Relé OPN A6311 del paño HT de S/E Tap Off Punta Peuco /
+PA003T0048SE003T0048
+Propietario elemento fallado Compañía Transmisora del Norte Grande S.A.
+RUT 76.680.107-2
+Representante Legal Cristián Martínez Vergara
+Dirección Av. Argentina N°1, piso 7, Valparaíso.
+d. Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52HT de S/E Tap Off Punta Peuco, correspondiente
+al seccionador que vincula la barra 110 kV de la mencionada S/E con la barra 110 kV de S/E Punta
+Peuco (Cemento Polpaico), por operación de su protección direccional de sobrecorriente de fase ante
+un aumento de carga por el paño HT, coincidente con la ejecución de pruebas de puesta en servicio
+del BESS del PFV Don Humberto.
+d.2 Fenómeno Físico:
+DIS2: Sobrecarga.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido dos
+fallas en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 290-2024 y EAF
+379-2024).
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento que originó el evento analizado en este estudio corresponde al relé OPN A6311 del paño
+HT de S/E Tap Off Punta Peuco.
+Al respecto, la empresa CTNG S.A. no remitió los antecedentes correspondientes a los
+mantenimientos realizados a la S/E Tap Off Punta Peuco, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Externa.
+h. Comuna donde se presenta la falla
+13303: Tiltil.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(14-08-2024) (20-08-2024)
+Compañía Transmisora del Norte Grande S.A. (CTNG) 12-08-2024 20-08-2024
+Cemento Polpaico S.A. 15-08-2024 No entregado
+Enel Green Power Chile S.A. No entregado No entregado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) Hora Desc. Hora Norm.
+PFV Don Humberto 1 3.0 17:13 19:21
+PFV Don Humberto 2 3.0 17:13 19:22
+PFV Don Humberto 3 y 4 7.0 17:13 19:23
+PFV Don Humberto 5 3.0 17:13 19:24
+BESS 1, BESS 2 y
+PFV Don Humberto - 60.0 17:13 19:24
+BESS 3
+Total - 44 MW /16.0 MW (*)
+(*): Datos obtenidos desde el sistema SCADA del Coordinador. El primer monto total declarado corresponde a la transferencia
+neta de potencia activa por el paño HT1 de S/E Don Humberto, correspondiente al punto de conexión del PFV Don Humberto con
+el SEN, mientras que el segundo monto total declarado corresponde al aporte de generación bruta del mencionado PFV.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Punta Peuco (Cemento Polpaico) ST Zonal Barra 110 kV 17:13 18:50
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+S/E Punta Peuco Transformador
+Tiltil 7.78 0.079 17:13 19:13 19:13
+(Cemento Polpaico) N°1 110/44 kV
+1
+S/E Punta Peuco Transformador
+Tiltil 7.79 0.079 17:13 19:13 19:13
+(Cemento Polpaico) N°2 110/44 kV
+Total: 15.57 MW 0.158 % 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa Cemento Polpaico S.A., en su Informe de Falla
+de 48 horas.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Punta Peuco Transformador N°1 CEMENTO
+Libre 7.78 2.00 2.00 15.6
+(Cemento Polpaico) 110/44 kV POLPAICO
+S/E Punta Peuco Transformador N°2 CEMENTO
+Libre 7.79 2.00 2.00 15.6
+(Cemento Polpaico) 110/44 kV POLPAICO
+Clientes Regulados : MWh
+Clientes Libres : 31.2 MWh
+Total : 31.2 MWh
+- Los montos señalados corresponden a lo informado por la empresa Cemento Polpaico S.A., en su Informe de Falla de 48
+horas.
+- Curva de recuperación esperada v/s recuperación real.
+20:00
+19:30
+19:00
+18:30
+18:00
+17:30
+17:00
+50.0% 100.0%
+Recuperación real Recuperación esperada
+No se aprecian diferencias entre los horarios de recuperación real y recuperación esperada de los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 12.46 2.00 6.23
+Último 20 % 3.11 2.00 1.56
+100 % Total 15.57 2.00 7.79
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9864.62 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2, U3 y U4), Kelar (TG12), Mejillones (IEM y CTM3), Nueva Renca (TG y TV),
+Ralco (U1) y Tocopilla (U16).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 12 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 12 de agosto de 2024.

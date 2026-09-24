@@ -1,0 +1,194 @@
+Estudio para análisis de falla EAF 398/2024
+“Falla en línea 220 kV Tres Quebradas - Lama”
+Fecha de Emisión: 26-08-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 02/08/2024
+Hora 12:44
+Consumos desconectados (MW) 0.18
+Demanda previa del sistema (MW) 9556.2
+Porcentaje de desconexión 0.002 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Línea 220 kV Tres Quebradas - Lama / LT002CI1TR01G062ST01L101
+Tipo de instalación Línea
+Tensión nominal 220 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Compañía Minera Nevada SpA
+RUT 85.306.000-3
+Representante Legal Gonzalo Montes Astaburuaga
+Dirección Ricardo Lyon 222, piso 9, Providencia.
+3. Identificación del elemento fallado
+Nombre del elemento afectado Línea 220 kV Tres Quebradas - Lama / LT002CI1TR01G062ST01L101
+Propietario elemento fallado Compañía Minera Nevada SpA
+RUT 85.306.000-3
+Representante Legal Gonzalo Montes Astaburuaga
+Dirección Ricardo Lyon 222, piso 9, Providencia.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática de los interruptores 52J2 de S/E Tres Quebradas y 52J1 de S/E
+Lama, correspondientes a la línea 220 kV Tres Quebradas - Lama, por operación de su protección
+diferencial de línea.
+La Compañía Minera Nevada SpA señala que la falla fue presumiblemente a causa de una disminución
+de la distancia eléctrica entre la línea y una de sus estructuras, producto del fuerte viento en la zona.
+d.2 Fenómeno Físico:
+OPE18: Disminución de distancia eléctrica.
+La Compañía Minera Nevada SpA entrega el siguiente antecedente para acreditar el fenómeno físico
+declarado:
+• Posible causa que genera la disminución de la distancia eléctrica.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación sí ha sido afectada por el mismo
+fenómeno físico, durante los últimos 24 meses móviles (EAF 358-2023, EAF 367-2023, EAF 243-2024,
+EAF 258-2024 y EAF 259-2024).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La Compañía Minera Nevada SpA indica lo siguiente:
+“Revisión de una zona más amplia de la zona de disparo indicada.
+Instalación de pértigas retenedoras en puentes de estructuras tipología TM
+según las siguientes solicitudes:
+SDCF 2023077276/2023077433: Instalación de pértigas a la estructura de
+Falla en la línea 220 kV torres en conductor de LT 220 kV Tres Quebradas - Lama, para evitar el
+EAF 358-2023 21-08-2023
+Tres Quebradas - Lama acortamiento de distancia a estructura cuando se presenten fuertes vientos en
+la zona y asegurar el continuo servicio de la línea. Condiciones requeridas:
+Abierto 52J2, 89J2-1, 89J2-2 y cerrado 89J2-3T S/E Tres Quebradas; Abierto
+52J1, 89J1-1, 89J1-2, 89J1-3 y Cerrado 89J1-4TR S/E Lama.”
+“En análisis, estudio de ingeniería de estructuras”.
+La Compañía Minera Nevada SpA indica lo siguiente:
+“Revisión de una zona más amplia de la zona de disparo indicada.
+Instalación de pértigas retenedoras en puentes de estructuras tipología TM
+según las siguientes solicitudes:
+SDCF 2023077276/2023077433: Instalación de pértigas a la estructura de
+Falla en la línea 220 kV torres en conductor de LT 220 kV Tres Quebradas - Lama, para evitar el
+EAF 367-2023 22-08-2023
+Tres Quebradas - Lama acortamiento de distancia a estructura cuando se presenten fuertes vientos en
+la zona y asegurar el continuo servicio de la línea. Condiciones requeridas:
+Abierto 52J2, 89J2-1, 89J2-2 y cerrado 89J2-3T S/E Tres Quebradas; Abierto
+52J1, 89J1-1, 89J1-2, 89J1-3 y Cerrado 89J1-4TR S/E Lama.”
+“En análisis, estudio de ingeniería de estructuras”.
+La Compañía Minera Nevada SpA indica lo siguiente:
+“-Pruebas a la función Localizador de falla para validar su correcta configuración.
+Falla en la línea 220 kV -Cálculo de la distancia a través de la corriente de corto circuito y software de
+EAF 243-2024 08-06-2024
+Tres Quebradas - Lama análisis de sistemas de potencia.
+-Pruebas al correcto funcionamiento a la función de recierre en la subestación
+Lama.”
+La Compañía Minera Nevada SpA indica lo siguiente:
+“-Pruebas a la función de localización de falla (parámetros de impedancia) para
+validar su correcta configuración en los relés.
+Falla en la línea 220 kV
+EAF 258-2024 13-06-2024 -Cálculo de la distancia a través de la corriente de corto circuito y software de
+Tres Quebradas - Lama
+análisis de sistemas de potencia.
+-Pruebas al correcto funcionamiento a la función de recierre en la subestación
+Lama.”
+La Compañía Minera Nevada SpA indica lo siguiente:
+“-Pruebas a la función de localización de falla (parámetros de impedancia) para
+validar su correcta configuración en los relés.
+Falla en la línea 220 kV
+EAF 259-2024 13-06-2024 -Cálculo de la distancia a través de la corriente de corto circuito y software de
+Tres Quebradas - Lama
+análisis de sistemas de potencia.
+-Pruebas al correcto funcionamiento a la función de recierre en la subestación
+Lama.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 358-2023, EAF 367-2023,
+EAF 243-2024, EAF 258-2024 y EAF 259-2024).
+d.4 Fenómeno eléctrico
+PR87L: Protección diferencial de línea.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 220 kV Tres Quebradas - Lama, para la
+cual, la Compañía Minera Nevada SpA indica las siguientes características:
+• Línea de alta tensión, conductor tipo AAAC 1200 MCM, entro en servicio en diciembre de 2022.
+• Se realizan inspecciones cada dos meses, también se realizan inspecciones termográficas de manera
+cuatrimestral y medición de puesta a tierra de manera anual, entre las tareas más relevantes.
+La Compañía Minera Nevada SpA no remite antecedentes respecto de los mantenimientos realizados
+a este elemento durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Interno.
+h. Comuna donde se presenta la falla
+03302: Alto del Carmen.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(04-08-2024) (09-08-2024)
+Compañía Minera Nevada SpA (CMN SpA) 03-08-2024 21-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT Tres Quebradas - Lama 220 kV ST Dedicado - 12:44 07:53*
+- Los horarios señalados corresponden a lo informado por la Compañía Minera Nevada SpA.
+(*): Horario correspondiente al día 03-08-2024.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+S/E Lama - (**) 0.18 0.002 1 14:44 07:53* 07:53*
+Total: 0.18 MW 0.002% 1
+- Los montos y horarios señalados corresponden a lo informado por la Compañía Minera Nevada SpA.
+(*): Horario correspondiente al día 03-08-2024.
+(**): Corresponde a territorio argentino.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Lama - CMN Libre 0.18 19.15 19.15 3.4
+Clientes Regulados : MWh
+Clientes Libres : 3.4 MWh
+Total : 3.4 MWh
+- Los montos y horarios señalados corresponden a lo informado por la Compañía Minera Nevada SpA.
+- Curva de recuperación esperada v/s recuperación real.
+00:00
+00:00
+0077::5533
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+00:00
+100%
+Recuperación real Recuperación esperada
+Se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 0.14 19.15 0.01
+Último 20 % 0.04 19.15 0.00
+100 % Total 0.18 19.15 0.01
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9556.2 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2, U3 y U4), Mejillones (IEM), Ralco (U1 y U2), Rapel (U2) y Tocopilla (TG3).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la Compañía Minera Nevada SpA indica:
+“Se presume disminución de distancia entre la fase A de la línea y la estructura producto de fuerte
+viento en la zona provocando una sobrecorriente a tierra”.
+Por otra parte, en función de los antecedentes presentados a la fecha de emisión del presente Estudio
+para Análisis de Falla, se solicitará la siguiente información adicional:
+Compañía Minera Nevada SpA:
+• Mantenciones de los últimos 24 meses en la zona donde se produce la disminución de distancia.
+• Registro fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+De forma complementaria, se adjuntan los informes de falla de instalaciones ingresados en el sistema
+Neomante del Coordinador Eléctrico Nacional por la Compañía Minera Nevada SpA (Anexo N°1) y otros
+antecedentes aportados por la Compañía Minera Nevada SpA (Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La Compañía Minera Nevada SpA indica: “No aplica”.
+c) Acciones correctivas a largo plazo:
+La Compañía Minera Nevada SpA indica: “No aplica”.

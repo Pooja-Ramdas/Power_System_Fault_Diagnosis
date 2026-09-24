@@ -1,0 +1,17 @@
+{
+  "eaf_id": "EAF-0449-2024",
+  "eaf_num": 449,
+  "year": 2024,
+  "description": "Apertura intempestiva del interruptor 52ET2 de S/E Quellón",
+  "date": "26-08-2024",
+  "time": "05:29",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/09/EAF-449-2024.pdf",
+  "case_id": "CASE-0159",
+  "event_datetime": "2024-08-26T05:29:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "synthetic_fallback",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": null,
+  "pending_conversion_path": null
+}

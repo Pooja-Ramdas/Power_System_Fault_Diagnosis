@@ -1,0 +1,225 @@
+Estudio para análisis de falla EAF 347/2024
+“Falla en línea 66 kV Curanilahue Norte - Tres Pinos”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 11:41
+Consumos desconectados (MW) 11.13
+Demanda previa del sistema (MW) 10476
+Porcentaje de desconexión 0.106 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Línea 66 kV Horcones - Curanilahue Norte /
+Nombre de la instalación
+LT228CI1TR01T0058ST01T0058
+Tipo de instalación Línea de transmisión
+Tensión nominal 66 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada E.
+Dirección Av. Presidente Riesco N° 5561 Piso 14, las Condes, Santiago, Chile
+c. Identificación del elemento fallado
+Línea 66 kV Curanilahue Norte - Tres Pinos /
+Nombre del elemento fallado
+LT230CI1TR01T0058ST01T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada E.
+Dirección Av. Presidente Riesco N° 5561 Piso 14, las Condes, Santiago, Chile
+d.1 Origen y causa de la falla
+Descarga eléctrica entre fases ocurrida en la línea 66 kV Curanilahue Norte - Tres Pinos, causada por
+árbol de gran altura (fuera de faja) que es derribado entre las estructuras E-333 y E-334 de la línea
+de transmisión, producto de las fuertes lluvias y vientos ocurridos en la zona, lo que generó el corte
+de conductores y daños en estructuras aledañas.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: se han producido 13 fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea 66 kV
+EAF 277_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Charrúa - Lucero
+Falla en línea 66 kV
+EAF 278_2023 San Fernando - 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Placilla
+Falla en línea 66 kV
+EAF 362_2023 22-08-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Los Maquis - Hualañé
+La empresa CGE Transmisión S.A. indica: “Se analizan eventos de
+relé SEL 387 S1 y SEL 351 S2. Al día siguiente se interrogan relés
+F4c asociados a los paños C1 y C2. Se observa que hay eventos en
+los horarios de falla. Se analizan eventos de relé SEL- 311C. Se
+Apertura realiza una inspección del tramo completo de la LT 66 kV Pan de
+intempestiva de los Azúcar - Marquesa, sin evidencias de la falla. Se realiza inspección
+EAF 394-2023 interruptores 52B5 y 06-09-2023 visual y pruebas locales al interruptor 52B5 de S/E Pan de Azúcar el
+52CT8 de S/E Pan de día de la falla, sin encontrar causa evidente (durante la semana del
+Azúcar 25 al 29 del presente se realizarán pruebas exhaustivas al
+interruptor, para luego durante la semana del 2 al 6 de octubre
+presentar un informe del interruptor 52B5). Reemplazo de
+interruptor 52B5 de SE Pande Azúcar (fecha estimada diciembre de
+2023)”.
+La empresa CGE Transmisión S.A. indica:
+Falla en línea 66 kV - “Se realiza el afianzamiento con tirantes del poste externo cerca de
+EAF 247-2024 Alonso de Ribera - 08-06-2024 la estructura E46 de la línea LT Alonso de Ribera - Chiguayante.”
+Chiguayante - “Se realiza la conexión IRIG B a los relés 311C y 311L del paño B2
+de S/E Alonso de Ribera con el reloj satelital.”
+La empresa CGE Transmisión S.A. indica:
+"• Se realizará una revisión y pruebas en el sistema de control del
+Falla en línea 66 kV interruptor asociado al paño 52CT1. Actividad comprometida a
+EAF 329-2024 Talcahuano - Latorre 31-07-2024 septiembre de 2024.
+N°1 • Se realizará retemplado de conductor entre las estructuras E-05 a
+E 06 de la línea LT 66 kV Talcahuano - Latorre N°1. Actividad
+comprometida a diciembre 2024."
+Falla en línea 66 kV
+EAF 333-2024 Los Peumos - 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Curacautín
+Falla en línea 66 kV
+EAF 334-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Parral - Cauquenes
+Falla en línea 2x66 kV
+EAF 335-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Lastarria - Loncoche
+Falla en la línea 66 kV
+EAF 337-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Tres Pinos - Lebu
+La empresa CGE Transmisión S.A. indica: “Se realizó el retiro de los
+Falla en la línea 66 kV
+árboles que se encontraban sobre la línea y, además, se repusieron
+EAF 338-2024 Curanilahue - Tres 01-08-2024
+los conductores de la fase central y lateral que resultaron dañados.”.
+Pinos
+CGE Transmisión S.A. indica que realizó la instalación de un nuevo
+Falla en línea 66 kV line post en la estructura N°61 y, además, se reparó el tramo de
+EAF 343-2024 01-08-2024
+Villarrica - Pucón conductor que resultó con daños entre las estructuras N°38 y N°39
+de la línea 66 kV Villarrica - Pucón.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica que “se quitaron los árboles
+Falla en línea 66 kV
+EAF 345-2024 01-08-2024 que cayeron a las líneas y, además, se repararon los elementos que
+Guindo - Coronel N°2
+resultaron dañados producto de los eventos.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: no se han producido falla
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 66 kV Curanilahue Norte - Tres Pinos, la
+cual tiene 26.1 km de largo, una capacidad nominal de 67.5 MVA (permanente a 25°C con sol y a
+tensión nominal) y cuyo año de entrada en operación fue en 2019, de acuerdo con los registros del
+Sistema Infotécnica del Coordinador.
+La empresa CGE Transmisión S.A. no remitió antecedentes respecto de los mantenimientos
+realizados durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No informado.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza mayor o caso fortuito.
+CGE Transmisión S.A. remite en respaldo a la proposición del origen de la falla lo siguiente:
+ Informe técnico que especifique de qué forma el evento afectó a la instalación.
+ Informe público y conocido que acredite el evento aducido.
+ Registro Fotográfico con fecha, hora y coordenadas UTM del punto de falla
+h. Comuna donde se presenta la falla
+8205: Curanilahue.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (03/08/2024) Informe de 5 días (08/08/2024)
+CGE Transmisión S.A. (CGE Tx) 02/08/2024 20/08/2024
+Empresa Eléctrica de la Frontera S.A. (Frontel) No enviado No enviado
+Sistema de Transmisión del Sur S.A. (STS) 01/08/2024 12/08/2024
+Celulosa Arauco y Constitución S.A. (Arauco) 01/08/2024 21/08/2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Horcones - Curanilahue Norte 66 kV ST Zonal Horcones - Curanilahue Norte 11:41 12:18
+01:31
+Curanilahue Norte - Tres Pinos 66 kV ST Zonal Curanilahue Norte - Tres Pinos 11:41
+05/08/2024
+Planta Arauco - Horcones 66 kV ST Dedicado Planta Arauco - Horcones 11:41 11:45
+- Fechas y horas señaladas corresponden a lo informado por CGE Transmisión S.A. y Celulosa Arauco y Constitución S.A.
+c. Consumos
+Pérdida de %
+Sub- Alimentador / Clientes H. H. H.
+Comuna Consumo consumo
+Estación Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E No
+Cólico Sur 52C2 No informado 0.90 0.009 11:41 11:46 11:46
+Curanilahue informado
+S/E Los Héroes No
+No informado 2.50 0.024 11:41 11:46 11:46
+Curanilahue 52C5 informado
+S/E No
+Foraction 52E1 No informado 1.30 0.012 11:41 11:46 11:46
+Curanilahue informado
+S/E Tres No 03:31 03:31
+Pilpilco 52C3 No informado 0.60 0.006 11:41
+Pinos informado 02/08/24 02/08/24
+S/E Tres No 03:31 03:31
+Cañete 52ET No informado 1.20 0.011 11:41
+Pinos informado 02/08/24 02/08/24
+Cañete, Contulmo,
+03:31 03:31
+S/E Cañete Cañete 52E2 Tirúa, Carahue, 4.63 0.044 13834 11:41
+02/08/24 02/08/24
+Lumaco, Purén
+Total: 11.13 MW 0.106 % 27526(*)
+- Fechas, horas y montos señalados corresponden a lo informado por CGE Transmisión S.A. y Sistema de Transmisión del Sur S.A.
+(*): Monto total de clientes informado por CGE Transmisión S.A. Sistema de Transmisión del Sur S.A. informó el detalle de los
+consumos afectados en S/E Cañete, mientras que Empresa Eléctrica de la Frontera S.A. no envió información de sus consumos
+afectados.
+3. Estimación de la energía no suministrada
+Alimentador / Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Empresa
+Paño Cliente Consumo (MW) Indispon. (h) Desc.(h) (MWh)
+S/E Curanilahue Cólico Sur 52C2 Frontel Regulado 0.90 0.08 0.08 0.1
+S/E Curanilahue Los Héroes 52C5 Frontel Regulado 2.50 0.08 0.08 0.2
+S/E Curanilahue Foraction 52E1 Frontel Regulado 1.30 0.08 0.08 0.1
+S/E Tres Pinos Pilpilco 52C3 Frontel Regulado 0.60 15.83 15.83 9.5
+S/E Tres Pinos Cañete 52ET Frontel Regulado 1.20 15.83 15.83 19.0
+S/E Cañete Cañete 52E2 Frontel Regulado 4.63 15.83 15.83 73.3
+Clientes Regulados : 102.2 MWh
+Clientes Libres : MWh
+Total : 102.2 MWh
+- Fechas, horas y montos señalados corresponden a lo informado por CGE Transmisión S.A. y Sistema de Transmisión del Sur S.A.
+- Curva de recuperación esperada v/s recuperación real.
+02-08-2024 04:48 0022--0088--22002244 0033::3311 0022--0088--22002244 0033::3311 0022--0088--22002244 0033::3311
+02-08-2024 00:00
+01-08-2024 19:12
+01-08-2024 14:24 0011--0088--22002244 1111::4466 0011--0088--22002244 1111::4466 0011--0088--22002244 1111::4466
+01-08-2024 09:36
+01-08-2024 04:48
+01-08-2024 00:00
+Cólico Sur 52C2 Los Héroes 52C5 Foraction 52E1 Pilpilco 52C3 Cañete 52ET Cañete 52E2
+S/E Curanilahue S/E Curanilahue S/E Curanilahue S/E Tres Pinos S/E Tres Pinos S/E Cañete
+Recuperación Esperada Recuperación Real
+No se aprecian diferencias entre los horarios de recuperación real respecto de los horarios de
+disponibilidad de las barras primarias para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Potencia Tiempo Velocidad de
+Rango
+(MW) recuperación (h) recuperación (MW/h)
+Primer 80 % 8.90 15.83 0.56
+Último 20 % 2.23 15.83 0.14
+100 % Total 11.13 15.83 0.70
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10476.0 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Angostura (U2),
+Angostura (U3), Colbún (U1), Colbún (U2), El Toro (U1), El Toro (U2), El Toro (U3), El Toro (U4),
+Mejillones (IEM) y Ralco (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+01 de agosto de 2024.
+Mantenimientos
+En anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 01 de
+agosto de 2024.

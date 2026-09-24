@@ -12,5 +12,10 @@
   "telemetry_available": true,
   "diagram_source": "official_archive_pending_conversion",
   "image_is_real_infotecnica": false,
-  "pending_conversion_path": "CASE-0035\\official_diagram.zip"
+  "pending_conversion_path": null,
+  "pending_conversion_metadata": {
+    "filename": "official_diagram.zip",
+    "extension": ".zip",
+    "note": "Re-fetch on demand via InfoTecnica API"
+  }
 }

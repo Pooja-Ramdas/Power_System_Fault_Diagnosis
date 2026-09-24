@@ -1,0 +1,70 @@
+Estudio para análisis de falla EAF 442/2024
+“Falla en la línea 66 kV Aihuapi - Los Negros”
+Fecha de Emisión: 12-09-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 22/08/2024
+Hora 11:00
+Consumos desconectados (MW) 4.18
+Demanda previa del sistema (MW) 10800.65
+Porcentaje de desconexión 0.039 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Aihuapi - Los Negros / LT033CI1TR01G0005ST01G0005
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Empresa Eléctrica Capullo S.A.
+RUT 96.637.520-5
+Representante Legal Pablo Benario
+Dirección Justo Geisse 851, Osorno, Región de lo Lagos
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 66 kV Aihuapi - Los Negros / LT033CI1TR01G0005ST01G0005
+Propietario elemento fallado Empresa Eléctrica Capullo S.A.
+RUT 96.637.520-5
+Representante Legal Pablo Benario
+Dirección Justo Geisse 851, Osorno, Región de lo Lagos
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Aihuapi - Los Negros, por apertura automática del
+interruptor 52B2 de S/E Aihuapi, debido a la operación de su protección de distancia residual en zona
+1, provocada por la colisión de un vehículo terrestre sobre la estructura Nº238.
+d.2 Fenómeno Físico:
+ACC3: Vehículos terrestres.
+La Empresa Eléctrica Capullo S.A remite antecedentes probatorios del fenómeno físico declarado,
+excepto lo correspondiente al parte policial. Si bien la declaración jurada no señala si el vehículo es de
+un tercero o propio y el número de fallas de este tipo en la instalación, estos antecedentes se
+encuentran en el informe de falla de 5 días, indicando que el vehículo corresponde a un tercero y que
+la reiteración de la falla es 1 en los últimos 24 meses, correspondiente a una colisión el día 29-04-
+2023.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico durante los últimos 24 meses móviles, correspondiente a los Estudios para Análisis de
+Falla EAF 192-2023 y EAF 478-2023.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en línea 66 La Empresa Eléctrica Capullo S.A. señal: “Sistema de Transmisión de Sur
+EAF 192-2023 kV Aihuapi - Los 29-04-2023 S.A. reparó la línea 66 kV Aihuapi - Los Negros el día 29-04-23. Para
+Negros mayor detalle ver anexo N°1 “Informe Mantenimiento Reparación”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 2 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 192-2023 y EAF 478-2023.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 66 kV Aihuapi - Los Negros, la cual tiene
+una longitud de 30.04 km, está compuesta por conductor AAAC Aliance, con una capacidad de 29.8
+MVA (a 25ºC con sol a tensión nominal), de acuerdo con lo informado por su propietario en la
+plataforma Infotécnica del Coordinador.
+Al respecto, la Empresa Eléctrica Capullo S.A. adjunta información de los mantenimientos de esta
+instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Sociedad Austral de Electricidad S.A. y Compañía Eléctrica de Osorno S.A. informan la
+densidad de las comunas donde se ubican sus consumos afectados.
+Densidad según Sociedad Austral de Densidad según Compañía
+Comuna
+Electricidad Eléctrica Osorno
+Osorno Muy Baja Media
+Puyehue Muy Baja Muy Baja
+San Pablo Muy Baja No aplica

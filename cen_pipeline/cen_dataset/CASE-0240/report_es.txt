@@ -1,0 +1,325 @@
+Estudio para análisis de falla EAF 369/2024
+“Falla en línea 66 kV San Fernando - Teno”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 21:54
+Consumos desconectados (MW) 8.15
+Demanda previa del sistema (MW) 10240.55
+Porcentaje de desconexión 0.080 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Tramo San Fernando - Chimbarongo de la línea 66 kV San Fernando - Teno
+/ LT046CI1TR02----T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 14, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento afectado Conductores del tramo San Fernando - Chimbarongo de la línea 66 kV San
+Fernando - Teno / LT046CI1TR02----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 14, Las Condes
+d. Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52B8 de S/E San Fernando, asociado a la línea 66
+kV San Fernando - Teno, por operación de la zona 2 de su protección de distancia residual, ante una
+falla por el desprendimiento de una cruceta en la estructura N°71 de la línea, atribuida al temporal
+que afectaba a la zona.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea 66 kV
+EAF 277_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Charrúa - Lucero
+Falla en línea 66 kV San
+EAF 278_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Fernando - Placilla
+Falla en línea 66 kV Los
+EAF 362_2023 22-08-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Maquis - Hualañé
+La empresa CGE Transmisión S.A. indica: “Se analizan
+eventos de relé SEL 387 S1 y SEL 351 S2. Al día siguiente
+se interrogan relés F4c asociados a los paños C1 y C2. Se
+observa que hay eventos en los horarios de falla. Se
+analizan eventos de relé SEL- 311C. Se realiza una
+Apertura inspección del tramo completo de la LT 66 kV Pan de
+intempestiva de los Azúcar- Marquesa, sin evidencias de la falla. Se realiza
+EAF 394-2023 interruptores 52B5 y 06-09-2023 inspección visual y pruebas locales al interruptor 52B5 de
+52CT8 de S/E Pan de S/E Pan de Azúcar el día de la falla, sin encontrar causa
+Azúcar evidente (durante la semana del 25 al 29 del presente se
+realizarán pruebas exhaustivas al interruptor, para luego
+durante la semana del 2 al 6 de octubre presentar un
+informe del interruptor 52B5). Reemplazo de interruptor
+52B5 de SE Pande Azúcar (fecha estimada diciembre de
+2023)”.
+La empresa CGE Transmisión S.A. indica:
+- “Se realiza el afianzamiento con tirantes del poste externo
+cerca de la estructura E46 de la línea
+Falla en línea 66 kV Alonso
+EAF 247-2024 08-06-2024 LT Alonso de Ribera-Chiguayante”.
+de Ribera - Chiguayante
+- “Se realiza la conexión IRIG B a los relés 311C y 311L del
+paño B2 de S/E Alonso de Ribera con
+el reloj satelital”.
+La empresa CGE Transmisión S.A. indica:
+- "Se realizará una revisión y pruebas en el sistema de
+control del interruptor asociado al paño 52CT1. Actividad
+Falla en línea 66 kV
+EAF 329-2024 31-07-2024 comprometida a septiembre de 2024”.
+Talcahuano - Latorre c1
+- “Se realizará retemplado de conductor entre las
+estructuras E-05 a E-06 de la línea LT 66 kV Talcahuano -
+Latorre N°1. Actividad comprometida a diciembre 2024".
+Falla en línea 66 kV Los
+EAF 333-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Peumos - Curacautín
+Falla en línea 66 kV Parral -
+EAF 334-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Cauquenes
+Falla en línea 2x66 kV
+EAF 335-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Lastarria - Loncoche
+Falla en la línea 66 kV Tres
+EAF 337-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Pinos - Lebu
+La empresa CGE Transmisión S.A. indica: “Se realizó el
+Falla en la línea 66 kV retiro de los árboles que se encontraban sobre la línea y,
+EAF 338-2024 01-08-2024
+Curanilahue - Tres Pinos además, se repusieron los conductores de la fase central y
+lateral que resultaron dañados”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+CGE Transmisión S.A. indica que realizó la instalación de un
+Falla en línea 66 kV nuevo line post en la estructura N°61 y, además, se reparó
+EAF 343-2024 01-08-2024
+Villarrica - Pucón el tramo de conductor que resultó con daños entre las
+estructuras N°38 y N°39 de la línea 66 kV Villarrica - Pucón.
+La empresa CGE Transmisión S.A. indica que “Se quitaron
+Falla en línea 66 kV Guindo los árboles que cayeron a las líneas y, además, se repararon
+EAF 345-2024 01-08-2024
+- Coronel N°2 los elementos que resultaron dañados producto de los
+eventos.”.
+La empresa CGE Transmisión S.A. indica:
+"Se modificará las variables de registro SER para que no se
+produzcan sobre escritura.
+Se realizó el retiro de los árboles que se encontraban sobre
+Falla en línea 66 kV
+la línea y, además, se repusieron los elementos que
+EAF 347-2024 Curanilahue Norte - Tres 01-08-2024
+resultaron dañados producto del temporal.
+Pinos
+Levantamiento y posterior verificación de alambrado de
+control por verificación de potenciales asociados al paño B8
+de S/E Curanilahue Norte, trabajos asociados a la SD
+2024078680 realizada el día 08 de agosto de 2024."
+La empresa CGE Transmisión S.A. indica:
+"Con fecha 6 de agosto se encontró causa de falla, que
+consistió en el desprendimiento de parte de malla metálica
+perimetral que se encuentra por encima del nivel de las
+panderetas. Las condiciones del viento arrastraron pequeños
+segmentos de malla hacia los bushing del interruptor del
+banco de condensadores. Inmediatamente después de
+detectada la causa de falla, se solicitó la apertura del SSCC
+Apertura intempestiva del
+que alimenta el banco de condensadores en barra.
+EAF 348-2024 interruptor 52CT1 de S/E 01-08-2024
+Se programó para los días 13 y 14 de agosto la revisión,
+San Pedro
+limpieza y despeje del área afectada, para poder re-
+energizar los bancos de condensadores.
+El 01/08/2024 a las 20:26 horas el CT informa problemas en
+mecanismo de apertura y cierre del 52CT1 de S/E San
+Pedro. Posteriormente el 06/08/2024 a las 17:13 horas se
+concluyen las pruebas de apertura y cierre del 52CT1 de S/E
+San Pedro de manera satisfactoria quedando disponible para
+operación."
+La empresa CGE Transmisión S.A. indica que "Se despejaron
+Falla en línea 2x66 kV las líneas afectadas por el evento, se repusieron las
+EAF 349-2024 01-08-2024
+Ejército - Guindo estructuras derribadas y se reparó el conductor dañado,
+tanto por el temporal como por el posterior robo."
+Falla en línea 154 kV
+EAF 350-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Charrúa - Los Ángeles
+La empresa CGE Transmisión S.A. indica que “Se repusieron
+Falla en línea 66 kV
+tanto las estructuras derribadas, como el conductor cortado
+EAF 351-2024 Carampangue - 01-08-2024
+producto del intenso viento que azotó a la zona centro - sur
+Curanilahue Norte
+del país.”.
+La empresa CGE Transmisión S.A. indica que “Se realiza
+Falla en línea 154 kV retiro de árbol en vano 42-43 y de otro arboles con peligro
+EAF 355-2024 01-08-2024
+Charrúa - Los Ángeles de caída que estaban fuera de franja de seguridad que
+tenían proyección hacia la línea.”.
+Falla en línea 66 kV
+EAF 361-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No hay”.
+Pitrufquén - Lastarria N°1
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido dos
+fallas en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 197-2023, EAF
+457-2023, EAF 480-2023, EAF 531-2023 y EAF 241-2024).
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde, presumiblemente, a los conductores del tramo San
+Fernando - Chimbarongo de la línea 66 kV San Fernando - Teno, la cual, de acuerdo con los datos
+ingresados por la empresa propietaria en la plataforma Infotécnica del Coordinador, la línea 66 kV
+San Fernando - Teno cuenta con conductores Cu 2/0 AWG y AAAC Butte, con una longitud total de
+aproximadamente 35.47 km, y su puesta en servicio se produjo en el año 1948.
+Al respecto, la empresa CGE Transmisión S.A. no remitió los antecedentes correspondientes a los
+mantenimientos realizados a la línea 66 kV San Fernando - Teno, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa CGE S.A. señala que en S/E Chimbarongo la calificación de los alimentadores San
+Enrique (C1), Huemul (C2) y Niebla (C3) es ”Urbano”.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor o Caso Fortuito.
+La empresa CGE Transmisión S.A. remite los siguientes antecedentes en respaldo a la proposición del
+origen de la falla:
+• Informe de interrupción de suministro.
+• Informe de probatorios.
+• Informe del Evento Climático que afectó a la zona.
+• Alerta Temprana Preventiva.
+h. Comuna donde se presenta la falla
+6303: Chimbarongo
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03-08-2024) (08-08-2024)
+CGE Transmisión S.A. 02-08-2024 20-08-2024
+CGE S.A. 21-08-2023 22-08-2023
+CEC Ltda. No enviado 20-08-2024 (*)
+Sistema de Transmisión del Sur S.A. (STS) 02-08-2024 11-08-2024
+Empresa de los Ferrocarriles del Estado No enviado No enviado
+(*): Información proporcionada mediante correo electrónico.
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+11:24
+LT 66 kV San Fernando - Teno ST Zonal San Fernando - Chimbarongo 21:54
+(03-08-2024)
+LT 66 kV San Fernando - Teno ST Zonal Chimbarongo - Quinta 21:54 23:27
+LT 66 kV San Fernando - Teno ST Zonal Quinta - Teno 21:54 23:27
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon Norm.
+(MW) pre-falla
+San Enrique /
+S/E Chimbarongo Chimbarongo 1.19 0.012 1940 21:54 23:27 23:27
+C1
+Teno y
+S/E Chimbarongo Huemul / C2 1.46 0.014 2305 21:54 23:27 23:27
+Chimbarongo
+S/E Quinta (FFCC) - - 0.10 0.001 1 21:54 23:38 23:38
+S/E Quinta Morza / C1 SI
+1.20 0.012 1861 (*) 21:54 23:42 23:42
+S/E Quinta Unifrutti / C2 SI
+00:58
+S/E Chimbarongo Niebla / C3 Chimbarongo 4.20 0.041 6334 21:54 23:27
+(02-08-2024)
+Total: 8.15 MW 0.080 % 12441
+- Los montos y horarios señalados corresponden a lo informado por las empresas CEC Ltda. y CGE S.A.
+- (*): Monto informado por la empresa STS S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo Indispon. Desc. (MWh)
+(MW) (h) (h)
+S/E Chimbarongo San Enrique / C1 CGE Regulado 1.19 1.55 1.55 1.8
+S/E Chimbarongo Huemul / C2 CGE Regulado 1.46 1.55 1.55 2.3
+S/E Quinta (FFCC) - EFE Libre 0.10 1.73 1.73 0.2
+S/E Quinta Morza / C1 CEC Regulado
+1.20 1.80 1.80 2.2
+S/E Quinta Unifrutti / C2 CEC Regulado
+S/E Chimbarongo Niebla / C3 CGE Regulado 4.20 1.55 3.07 12.9
+Clientes Regulados : 19.2 MWh
+Clientes Libres : 0.2 MWh
+Total : 19.4 MWh
+- Los montos señalados corresponden a lo informado por las empresas CEC Ltda. y CGE S.A.
+- Curva de recuperación esperada v/s recuperación real.
+0
+0
+0
+0
+0
+1
+1
+1
+2 -0
+2 -0
+-0 8
+-0 8
+-0 8
+8 -2
+8 -2
+-2 0
+-2 0
+-2 0
+0
+0
+2
+2
+2
+2
+2
+4
+4
+4
+4 1
+4 0
+2 3
+2 2
+2 1
+:0
+:0
+:0
+:0
+:0
+0
+0
+0
+0
+0
+1 4 .6 %
+R e c u p e
+3 2
+r a c
+.5
+ió
+%
+n r e a l
+3 3 .7
+R
+%
+e c u p e r a c ió n e
+4 8 .5 %
+s p e r a d a
+1 0 0 .0 %
+Se aprecia una diferencia entre los horarios de recuperación esperada y recuperación real para los
+consumos correspondiente al alimentador Niebla (paño C3) de S/E Chimbarongo, correspondiente
+al 51.5% de los consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 6.52 3.07 2.12
+Último 20 % 1.63 3.07 0.53
+100 % Total 8.15 3.07 2.65
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10240.55 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2, U3 y U4) (U1 y U2), Mejillones (IEM), Ralco (U1 y U2) y Rapel (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de agosto de 2024.

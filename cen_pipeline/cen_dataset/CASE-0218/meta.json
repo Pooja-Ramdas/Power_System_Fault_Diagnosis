@@ -1,0 +1,17 @@
+{
+  "eaf_id": "EAF-0391-2024",
+  "eaf_num": 391,
+  "year": 2024,
+  "description": "Desconexión forzada de línea 110 kV Buin – Chena – Ochagavía N°1",
+  "date": "02-08-2024",
+  "time": "03:32",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-391-2024.pdf",
+  "case_id": "CASE-0218",
+  "event_datetime": "2024-08-02T03:32:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_metadata": null,
+  "pending_conversion_path": null
+}

@@ -1,0 +1,179 @@
+Estudio para análisis de falla EAF 385/2024
+“Falla en línea 220 kV Polpaico - Los Maitenes”
+Fecha de Emisión: 26-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 02/08/2024
+Hora 01:23
+Consumos desconectados (MW) 22
+Demanda previa del sistema (MW) 7378.5
+Porcentaje de desconexión 0.3 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 220 kV Polpaico - Los Maitenes, tramo 220 kV Polpaico - Las Tórtolas
+/LT019CI1TR01----T011
+Tipo de instalación Línea
+Tensión nominal 220 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Alfa Transmisora de Energía S.A.
+RUT 76.218.856-2
+Representante Legal Alan Heinen Alves Da Silva
+Dirección Av. Apoquindo 4501 Of 1501, Las Condes, Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 220 kV Polpaico - Los Maitenes, tramo 220 kV Polpaico - Las Tórtolas
+/LT019CI1TR01----T011
+Propietario elemento fallado Alfa Transmisora de Energía S.A.
+RUT 76.218.856-2
+Representante Legal Alan Heinen Alves Da Silva
+Dirección Av. Apoquindo 4501 Of 1501, Las Condes, Santiago.
+d. Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 220 kV Polpaico - Los Maitenes, ante una falla
+originada por la pérdida de aislación en la cadena de aisladores de la fase C de la estructura N°38 del
+tramo de línea 220 kV Polpaico - Las Tórtolas, en medio de un temporal de viento y lluvia en la zona.
+d.2 Fenómeno Físico:
+DIS1: Pérdida de aislación.
+La empresa Alfa Transmisora de Energía S.A. remite antecedentes fotográficos sobre la pérdida de
+aislación en la estructura Nº38, con evidencia de descargas en el aislador de apoyo y disco de la
+cadena de aisladores de la fase C.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico durante los últimos 24 meses.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un fenómeno físico similar, durante los últimos 24 meses
+móviles, correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Alfa Transmisora de Energía S.A indica:
+”El día 10 de enero de 2023, se realiza recorrido e inspección pedestre
+desde la estructura N°1 a la N°119, además de una inspección con dron
+entre las mismas estructuras (informe adjunto a este reporte). De las
+inspecciones realizadas no se evidencian anormalidades en el conductor
+y/o cadenas de aisladores en la LT 66kV Talca – San Ignacio, que
+Falla en línea 66
+pudiesen ser atribuibles como causa de la falla ocurrida el 10.03.2023.
+EAF 117_2023 kV San Ignacio - 10-03-2023
+El martes 14 de marzo se realiza nuevamente una inspección visual
+Talca
+pedestre considerando vuelo de Dron entre las estructuras N°001-119 sin
+encontrar evidencia de descarga eléctrica.
+El viernes 17 de marzo se realiza inspección pedestre y vuelo con Dron
+entre las estructuras N°73-80 en la cual se detecta en el vano N°75-76
+sistema de riego tecnificado en el cual se evidencia que golpea la
+estructura y conductores de la línea de 66 kV Talca- San Ignacio.”
+La empresa Alfa Transmisora de Energía S.A. señala lo siguiente:
+“Una vez producida la falla, se realizó la interrogación de protecciones y
+con la información obtenida, se realiza recorrido pedestre de la línea en
+sectores cercanos al indicado por las protecciones. En la revisión pedestre
+Falla en el
+se encuentra la línea en condiciones de ser energizada, por lo que se
+circuito N°1 de la
+procede con las maniobras de normalización de la línea.
+EAF 147_2024 línea 2x66 kV 11-04-2024
+Posterior a las maniobras de normalización de las instalaciones, se
+Esperanza -
+continua con la revisión de la línea, detectándose una descarga eléctrica
+Calera Centro
+en los aisladores de la fase A y B en la estructura N°13. Para normalizar
+esta condición se programó una desconexión de la línea el día 12/04/2024
+bajo la solicitud 2024037097, donde fueron reemplazados los elementos
+afectados.”
+Desconexión
+La empresa Alfa Transmisora de Energía S.A. indica: “Una vez producida
+forzada de la
+la falla, se realiza la interrogación de protecciones y con la información
+EAF 199_2024 línea 2x66 kV 07-05-2024
+obtenida, se aplica procedimiento de reconexión de la línea, cerrando
+Aconcagua -
+exitosamente interruptor 52B1 de S/E Aconcagua”.
+Saladillo
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una falla
+en la misma instalación afectada, durante los últimos 24 meses móviles, correspondiente al Estudio
+para Análisis de Falla EAF 201-2024.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al tramo de línea 220 kV Polpaico - Las Tórtolas,
+asociado a la línea 220 kV Polpaico - Los Maitenes, el cual cuenta con conductores AAC y AAAC
+FLINT, con una longitud total de aproximadamente 17,61 km, capacidad de 277,4 MVA, y su puesta
+en servicio se produjo en el año 2000.
+La empresa Alfa Transmisora de Energía S.A. adjunta información de los mantenimientos en la línea
+220 kV Polpaico - Las Tórtolas durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+La empresa Alfa Transmisora de Energía S.A. señala “Fuerza mayor o caso fortuito.”.
+h. Comuna donde se presenta la falla
+13115: Lo Barnechea.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(04-08-2024) (09-08-2024)
+Alfa Transmisora de Energía S.A. 02-08-2024 12-08-2024
+Anglo American Sur S.A. No remitido No remitido
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 220 kV Polpaico - Los Maitenes ST Dedicado 220 kV Polpaico - Las Tórtolas 01:23 03:33
+LT 220 kV Polpaico - Los Maitenes ST Dedicado 220 kV Las Tórtolas - Los Maitenes 01:23 10:47
+- Los horarios señalados corresponden a lo informado por la empresa Alfa Transmisora de Energía S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H. Norm.
+Paño Consumo consumo Afectados Desc. Dispon.
+(MW) pre-falla
+S/E Las Tórtolas - Colina 22 0.30 1 01:23 03:33 03:33
+Total: 22 MW 0.30 % 1
+- Los montos señalados corresponden a lo informado por la empresa Alfa Transmisora de Energía S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo Indispon. Desc. (MWh)
+(MW) (h) (h)
+S/E Las Tórtolas - Anglo American Sur Libre 22 2.17 2.17 47.7
+Clientes Regulados : MWh
+Clientes Libres : 47.7 MWh
+Total : 47.7 MWh
+- Los montos señalados corresponden a lo informado por la empresa Alfa Transmisora de Energía S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre el horario de recuperación real respecto del horario de disponibilidad
+de la barra primaria respectiva.
+- Velocidad promedio de recuperación.
+Velocidad de
+Rango Potencia (MW) Tiempo recuperación (h)
+recuperación (MW/h)
+Primer 80 % 17.60 2.70 6.52
+Último 20 % 4.40 2.70 1.63
+100 % Total 22.00 2.70 8.15
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 7378.5 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Ralco (U1 y U2), El Toro (U1, U2, U3 y U4), Mejillones (IEM y CTM3), Kelar (TG1), Tocopilla
+(TG3), Angostura (U3), Canutillar (U1 y U2) y Rapel (U5).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 02 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 02 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+02 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 02 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa Alfa Transmisora de Energía S.A.:
+“El viernes 02 de agosto de 2024 a las 01:23 hrs, durante el temporal de viento, lluvia y nieve
+presente en la zona cordillerana y precordillerana de la región Metropolitana, se produce la
+activación de los elementos de distancia de las protecciones asociadas al interruptor 52J2 de S/E
+Polpaico e interruptor 52J3 de S/E Maitenes correspondiente a LT 220kV Polpaico - Maitenes,
+generando la apertura de los interruptores indicados, ocasionando la pérdida de tensión en barra
+de 220 kV de S/E Las Tórtolas y los consumos de propiedad de Angloamerican.”
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Alfa Transmisora de Energía S.A. señala lo siguiente:
+“Una vez producida la falla, se realizó la interrogación de protecciones, posteriormente se
+realiza el recorrido de la línea en sectores cercanos al indicado por el localizador de falla, al
+comprobar la integridad de las instalaciones se procede a reconectar la línea.

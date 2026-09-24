@@ -1,0 +1,260 @@
+Estudio para análisis de falla EAF 450/2024
+“Desconexión forzada del transformador 220/110 kV de S/E Antillanca”
+Fecha de Emisión: 16-09-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 26/08/2024
+Hora 17:20
+Consumos desconectados (MW) 20.75
+Demanda previa del sistema (MW) 9416.4
+Porcentaje de desconexión 0.220 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Antillanca / SE034T003
+Tipo de instalación Subestación
+Tensión nominal 220 kV y 110 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Allende
+Dirección Manuel Bulnes N°441, Osorno.
+c. Identificación del elemento fallado
+Nombre del elemento Fallado Barra 110 kV de S/E Antillanca / BA02T0003SE034T0003
+Propietario elemento fallado Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Allende
+Dirección Manuel Bulnes N°441, Osorno.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada del transformador 220/110 kV de S/E Antillanca, por actuación de
+su relé de bloqueo y desenganche (86T1), ante la operación de la protección diferencial de su barra
+110 kV.
+La empresa STS S.A. declara que la operación de la protección diferencial anteriormente señalada fue
+por la acción directa de un ave con la instalación de 110 kV.
+d.2 Fenómeno Físico:
+ANI1: Acción de animales, roedores o pájaros (por contacto directo u otro).
+La empresa STS S.A. envió los siguientes antecedentes y probatorios para acreditar el fenómeno físico
+declarado:
+• Registro Fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+• Número de veces que la instalación se ha visto afectada por esta causa, con o sin afectación de
+suministro.
+• Informe de interrupción de suministro.
+• Declaración Jurada de los hechos sucedidos.
+• Medidas de seguridad existentes en la instalación con el objeto de evitar este tipo de incidente.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada cuatro veces
+por un fenómeno físico similar, durante los últimos 24 meses móviles, correspondientes a los Estudios
+para Análisis de Falla EAF 423/2022, EAF 525/2023, EAF 012/2024 y EAF 423-2024.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido nueve fallas en
+instalaciones del mismo propietario con un fenómeno físico similar, durante los últimos 24 meses
+móviles, correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+Nombre Acciones Correctivas de Corto Plazo Acciones Correctivas de Largo Plazo
+La empresa STS S.A. indica que “no aplican” acciones La empresa STS S.A. indica que “no aplican”
+EAF 349-2022
+correctivas de corto plazo. acciones correctivas de largo plazo.
+EAF 423-2022 La empresa STS S.A. señala: “No hay”. No se indican.
+La empresa STS S.A. señala: “Se corrigió la conexión de T/C
+de Neutro 23 kV del transformador T1 de S/E Puerto Montt a
+EAF 268-2023 valor de razón 2500/5. Lo anterior se realiza con fecha 23 de No se indican.
+junio de 2023 de acuerdo con la solicitud de intervención SI
+2023055207“.
+Las empresas SAESA y STS S.A. no indican acciones Las empresas SAESA y STS S.A. no indican
+EAF 272-2023
+correctivas de corto plazo. acciones correctivas de largo plazo.
+Sistema de Transmisión del Sur S.A. señala
+EAF 500-2023 Sistema de Transmisión del Sur S.A. señala que “no hay”.
+que “no hay”.
+Sistema de Transmisión del Sur S.A. señala
+EAF 525-2023 Sistema de Transmisión del Sur S.A. señala que “no hay”.
+que “no hay”.
+Sistema de Transmisión del Sur S.A. señala
+EAF 012-2024 Sistema de Transmisión del Sur S.A. señala que “no hay”.
+que “no hay”.
+Sistema de Transmisión del Sur S.A. señala
+EAF 311-2024 Sistema de Transmisión del Sur S.A. señala que “no hay”.
+que “no hay”.
+La empresa STS S.A. señala que, durante el mes de octubre
+del 2024, mediante desconexión programada, realizarán Sistema de Transmisión del Sur S.A. señala
+EAF 423-2024
+trabajos en S/E Antillanca para aumentar la protección anti- que “no hay”.
+aves de la instalación.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido cuatro
+fallas en la misma instalación afectada, durante los últimos 24 meses móviles, correspondientes a los
+Estudios para Análisis de Falla EAF 423/2022, EAF 525/2023, EAF 012/2024 y EAF 423/2024.
+d.4 Fenómeno eléctrico
+PR87B: Protección diferencial de barra.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado por la falla corresponde al transformador 220/110 kV de S/E Antillanca, el cual,
+según lo declarado por su propietario en la plataforma Infotécnica del Coordinador, es de la marca
+HYOSUNG, con una capacidad máxima con refrigeración forzada de 180 MVA, cuya fecha de entrada
+en operación fue el 06 de octubre de 2013.
+Al respecto, la empresa STS S.A. remite los mantenimientos realizados a la S/E Antillanca durante los
+últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+SAESA indica densidades media, baja y muy baja para las comunas afectadas.
+Luz Osorno S.A. indica densidad muy baja para las comunas afectadas.
+g. Proposición del propietario respecto del origen de la falla
+La empresa STS S.A. señala: “Fuerza Mayor”.
+h. Comuna donde se presenta la falla
+10301: Osorno.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(28-08-2024) (02-09-2024)
+Sistema de Transmisión del Sur S.A. (STS S.A.) 26-08-2024 03-09-2024
+Compañía Eléctrica de Osorno S.A. (Luz Osorno S.A.) 27-08-2024 02-09-2024
+Sociedad Austral de Electricidad S.A. (SAESA) 27-08-2024 02-09-2024
+Licán SpA. 26-08-2024 No remitido
+Empresa Eléctrica Capullo S.A. 27-08-2024 03-09-2024
+Hidroenersur S.A. 26-08-2024 12-09-2024
+Hidromocho S.A. 26-08-2024 12-09-2024
+Hidropalmar S.A. 26-08-2024 12-09-2024
+Cumbres SpA 26-08-2024 12-09-2024
+Empresa Eléctrica La Leonera S.A. 27-08-2024 03-09-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Pérdida de
+Central Unidad Hora Desc. Hora Norm.
+Generación (MW)
+HP Nalcas 2 1.60 17:20 17:46
+HP Nalcas 3 1.21 17:20 17:50
+HP Callao 1 0.83 17:20 17:43
+HP MC2 1 1.00 17:20 17:46
+HP MC3 1 1.10 17:20 17:46
+HP Pulelfu 1 2.50 17:20 17:43
+HP Pulelfu 2 3.50 17:20 17:43
+HP Capullo 1 7.50 17:20 17:52
+HP Mocho 1 5.70 17:20 17:52
+HP Cumbres 2 6.07 17:20 17:46
+HP Palmar 2 3.16 17:20 17:49
+HP Correntoso 1 1.70 17:20 18:09
+Total: 35.87 MW
+- Los montos y horarios señalados corresponden a lo informado por las empresas Hidroenersur S.A., Hidromocho S.A., Cumbres
+SpA, Empresa Eléctrica La Leonera S.A. y Empresa Eléctrica Capullo S.A.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Antillanca ST Zonal Transformador 220/110 kV 17:20 17:25
+S/E Antillanca ST Zonal Barra 110 kV 17:20 17:25
+Aihuapi - Antillanca 110 kV ST Zonal - 17:20 17:25
+Río Bonito - Antillanca 110 kV ST Zonal - 17:20 17:26
+Antillanca - Chirre 110 kV ST Zonal - 17:20 17:26
+- Los horarios señalados corresponden a lo informado por la empresa STS S.A
+c. Consumos
+Pérdida de %
+Alimentador/ Clientes H. H. H.
+Sub-Estación Comuna Consumo consumo
+Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+17:25
+S/E Aihuapi Lago Ranco / E1 Puyehue 0.35 0.004 536 17:20 17:25
+(-)
+Los Negros - SAESA / 17:25
+S/E Los Negros Osorno 0.33 0.004 506 17:20 17:25
+E2 (-)
+Los Negros - SAESA / 17:25
+S/E Los Negros Puyehue 0.04 0.000 18 17:20 17:25
+E2 (-)
+17:26
+S/E Chirre Futahuente / E1 Lago Ranco 3.11 0.006 3464 17:20 17:26
+(--)
+17:26
+S/E Chirre Futahuente / E1 Río Bueno 1.33 0.024 343 17:20 17:26
+(--)
+17:26
+S/E Chirre Chiscaihue / E2 Puyehue 0.98 0.034 75 17:20 17:26
+(--)
+17:26
+S/E Chirre Chiscaihue / E2 Río Bueno 1.43 0.002 1066 17:20 17:26
+(--)
+Los Negros – 17:25
+S/E Los Negros Osorno 0.58 0.010 365 17:20 17:25
+Luzosorno / E1 (-)
+Los Negros – 17:25
+S/E Los Negros Puyehue 2.25 (+) 0.016 505 17:20 17:25
+Luzosorno / E1 (-)
+Puerto 17:25
+S/E Aihuapi Los Puentes / E2 3.21 0.002 1397 17:20 17:25
+Octay (-)
+Puerto 17:25
+S/E Aihuapi Los Puentes / E2 0.19 0.028 13 17:20 17:25
+Varas (-)
+17:25
+S/E Aihuapi Los Puentes / E2 Puyehue 0.91 0.007 387 17:20 17:25
+(-)
+Los Negros - SAESA / 17:25
+S/E Los Negros Osorno 1.47 (+) 0.033 244 17:20 17:25
+E2 (*) (-)
+Los Negros - SAESA / 17:25
+S/E Los Negros San Pablo 0.20 0.014 176 17:20 17:25
+E2 (*) (-)
+17:25
+S/E Aihuapi Lago Ranco / E1 (**) Puyehue 2.59 (+) 0.010 981 17:20 17:25
+(-)
+17:25
+S/E Aihuapi Lago Ranco / E1 (***) Puyehue 0.69 0.015 1016 17:20 17:25
+(-)
+17:26
+S/E Chirre Chicashue / E2 (****) Puyehue 0.33 0.004 899 17:20 17:26
+(--)
+17:26
+S/E Chirre Chicashue / E2 (****) Río Bueno 0.01 0.000 3 17:20 17:26
+(--)
+Puerto
+S/E Río Bonito El Cabrito/ E1 0.75 0.008 494 17:20 17:26 17:26
+Octay
+Total: 20.75 MW 0.210 % 12488
+- Los montos y horarios señalados corresponden a lo informado por las empresas STS S.A., Luz Osorno S.A. y SAESA.
+(+) Incluye clientes libres en redes de distribución de Luz Osorno S.A.
+(-) Hora corregida, SAESA y Luz Osorno, informaban 17:24, sin embargo, en el SITR del Coordinador se observa que el interruptor
+52H2 de la S/E Antillanca se cerró a las 17:25 horas.
+(--) Hora corregida, SAESA y Luz Osorno, informaban 17:25, sin embargo, en el SITR del Coordinador se observa que el interruptor
+52H1 de la S/E Antillanca se cerró a las 17:26 horas.
+(*) Nombre del alimentador de acuerdo con lo indicado por STS S.A., propietario del paño de cabecera. Luz Osorno S.A. señala
+que el alimentador se denomina “Mulpulmo”.
+(**) Nombre del alimentador de acuerdo con lo indicado por STS S.A., propietario del paño de cabecera. Luz Osorno S.A. señala
+que el alimentador se denomina “Futacuin”.
+(***) Nombre del alimentador de acuerdo con lo indicado por STS S.A., propietario del paño de cabecera. Luz Osorno S.A. señala
+que el alimentador se denomina “Entre Lagos”.
+(****) Nombre del alimentador de acuerdo con lo indicado por STS S.A., propietario del paño de cabecera. Luz Osorno S.A. señala
+que el alimentador se denomina “Entre Lagos Urbano”.
+3. Estimación de la energía no suministrada
+Pérdida de Tiempo
+Tipo de Tiempo ENS
+Sub-Estación Alimentador/ Paño Empresa Consumo Indispon.
+Cliente Desc. (h) (MWh)
+(MW) (h)
+S/E Aihuapi Lago Ranco / E1 SAESA Regulado 0.35 0.08 0.08 0.0
+S/E Los Negros Los Negros - SAESA / E2 SAESA Regulado 0.33 0.08 0.08 0.0
+S/E Los Negros Los Negros - SAESA / E2 SAESA Regulado 0.04 0.08 0.08 0.0
+S/E Chirre Futahuente / E1 SAESA Regulado 3.11 0.10 0.10 0.3
+S/E Chirre Futahuente / E1 SAESA Regulado 1.33 0.10 0.10 0.1
+S/E Chirre Chiscaihue / E2 SAESA Regulado 0.98 0.10 0.10 0.1
+S/E Chirre Chiscaihue / E2 SAESA Regulado 1.43 0.10 0.10 0.1
+S/E Los Negros Los Negros / E1 Luz Osorno Regulado 0.58 0.08 0.08 0.0
+S/E Los Negros Los Negros / E1 Luz Osorno Regulado 2.25 (+) 0.08 0.08 0.2
+S/E Aihuapi Los Puentes / E2 Luz Osorno Regulado 3.21 0.08 0.08 0.3
+S/E Aihuapi Los Puentes / E2 Luz Osorno Regulado 0.19 0.08 0.08 0.0
+S/E Aihuapi Los Puentes / E2 Luz Osorno Regulado 0.91 0.08 0.08 0.1
+Los Negros - SAESA / E2
+S/E Los Negros Luz Osorno Regulado 1.47 (+) 0.08 0.08 0.1
+(*)
+Los Negros - SAESA / E2
+S/E Los Negros Luz Osorno Regulado 0.20 0.08 0.08 0.0
+(*)
+S/E Aihuapi Lago Ranco / E1 (**) Luz Osorno Regulado 2.59 (+) 0.08 0.08 0.2
+S/E Aihuapi Lago Ranco / E1 (***) Luz Osorno Regulado 0.69 0.08 0.08 0.1
+S/E Chirre Chicashue / E2 (****) Luz Osorno Regulado 0.33 0.10 0.10 0.0
+S/E Chirre Chicashue / E2 (****) Luz Osorno Regulado 0.01 0.10 0.10 0.0
+S/E Río Bonito El Cabrito/ E1 Luz Osorno Regulado 0.75 0.10 0.10 0.1
+Clientes Regulados : 1.7 MWh
+Clientes Libres : MWh
+Total : 1.7 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa STS S.A.
+(-) Hora corregida, SAESA y Luz Osorno, informaban 17:24, sin embargo, en el SITR del Coordinador se observa que el interruptor
+52H2 de la S/E Antillanca se cerró a las 17:25 horas.
+(+) Incluye clientes libres en redes de distribución de Luz Osorno S.A.
+(*) Nombre del alimentador de acuerdo con lo indicado por STS S.A., propietario del paño de cabecera. Luz Osorno S.A. señala
+que el alimentador se denomina “Mulpulmo”.
+(**) Nombre del alimentador de acuerdo con lo indicado por STS S.A., propietario del paño de cabecera. Luz Osorno S.A. señala
+que el alimentador se denomina “Futacuin”.
+(***) Nombre del alimentador de acuerdo con lo indicado por STS S.A., propietario del paño de cabecera. Luz Osorno S.A. señala
+que el alimentador se denomina “Entre Lagos Urbano”.

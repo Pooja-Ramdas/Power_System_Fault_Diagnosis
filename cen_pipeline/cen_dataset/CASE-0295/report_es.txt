@@ -1,0 +1,171 @@
+Estudio para análisis de falla EAF 314/2024
+“Desconexión forzada de la unidad N°1 de Central Alfalfal”
+Fecha de Emisión: 09-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 19/07/2024
+Hora 17:47
+Consumos desconectados (MW) 0.16
+Demanda previa del sistema (MW) 9728.00
+Porcentaje de desconexión 0.002 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Central Alfalfal / SE001G010
+Tipo de instalación Subestación
+Tensión nominal 220 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada AES Andes S.A.
+RUT 94.272.000-9
+Representante Legal Javier Dib
+Dirección Avda. Los Conquistadores #1730, Oficina 1001, Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Unidad N°1 de Central Alfalfal / CE01U01G010
+Propietario elemento fallado AES Andes S.A.
+RUT 94.272.000-9
+Representante Legal Javier Dib
+Dirección Avda. Los Conquistadores #1730, Oficina 1001, Santiago.
+d. Origen y causa de la falla
+Se produjo la desconexión forzada de la unidad N°1 de central Alfalfal, por alta temperatura en
+descanso de empuje de la turbina, por pérdida de nivel en estanque de refrigeración.
+La empresa AES Andes S.A. señala como causa de la falla la presencia de aire en el sistema de agua
+de refrigeración.
+d.2 Fenómeno Físico:
+OPE26: Falla en sistema de protección o control. (*)
+(*) Fenómenos físico determinado por el Coordinador, en base a los antecedentes presentados por el coordinado.
+La empresa AES Andes S.A. no remite antecedentes para acreditar el origen de la falla.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por un
+fenómeno físico similar, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido dos fallas en
+instalaciones del mismo propietario con un fenómeno físico similar (homologado), durante los últimos
+24 meses móviles, correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+EAF 285_2023 Desconexión 26-06-2023 La empresa AES Andes S.A. indica:
+forzada del “Se realizó una revisión a las instalaciones de Subestación Minsal
+transformador posterior a los eventos de falla.
+110/23 kV Nº1 de Se realiza la revisión visual del sistema control cambiador bajo carga.
+S/E Minsal Se verifica operación relé maestro 86T
+Se verifica operación relé temporizador Y24 por tiempo de conmutación
+del CBC mayor a 2.5 segundos.
+No se observan registros de protecciones eléctricas operadas.
+Se revisa dispositivos de protección propia del transformador, estado
+normal.
+Se está coordinando con el cliente SQM un mantenimiento a la
+Subestación Minsal para octubre 2023, donde incluirá la mantención del
+sistema CBC del T1 por cumplimiento de las horas de operación.
+Fabricante recomienda cada 100.000 operaciones o 5 años, al momento
+de la desconexión contaba 104.170 operaciones por lo que la próxima
+mantención por el número de operaciones era 136.914 operaciones
+(anterior mantención fue realizada a las 36.914 operaciones).
+Sistema CBC se deja en modo control manual en Tap 5.
+Se desbloquea relé activado.
+Se realiza reconexión controlada de forma exitosa a través del
+interruptor de potencia 52H1 de S/E Minsal a las 14:02 hrs del lunes 26
+de junio 2023.”
+EAF 293_2024 Desconexión 02-07-2024 La empresa AES Andes S.A. indica: “En función a los análisis realizados
+forzada del a CTBC, se presume un buen funcionamiento. Considerando y teniendo
+transformador presente que el NUP3073 implicará una desconexión por 5 días (aun no
+110/23 kV N°1 S/E planificada), se realizará una revisión del circuito de supervisión de
+Minsal tiempo del CTBC.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+FA90: Falla en sistema de control.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al sistema de agua de refrigeración de la unidad
+N°1 de central Alfalfal, que según lo informado por el propietario en la plataforma Infotécnica del
+Coordinador, tiene una potencia máxima bruta de 89 MW y cuya fecha de puesta en servicio fue en el
+año 1991.
+La empresa AES Andes S.A. no remitió antecedentes respecto de los mantenimientos realizados al
+sistema de agua de refrigeración de la unidad N°1 de central Alfalfal, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+CGE S.A. indica ubicación rural para sus consumos afectados durante este evento.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+13203: San José de Maipo.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(21-07-2024) (26-07-2024)
+AES Andes S.A. 19-07-2024 26-07-2024
+CGE S.A. 08-08-2024 08-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+Alfalfal 1 19.0 17:47 19:58
+Total: 19.0 MW
+- Los montos y horarios señalados corresponden a lo informado por la empresa AES Andes S.A.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Alfalfal ST Dedicado Transformador N°1 220/12 kV 17:47 19:58
+S/E Alfalfal ST Dedicado Transformador N°4 220/33 kV 17:47 20:32
+- Los horarios señalados corresponden a lo informado por la empresa AES Andes S.A., además del registro histórico del SCADA del
+Coordinador Eléctrico Nacional.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+San José de
+S/E Alfalfal Futura / OBBA04 0.16 0.002 16 17:47 20:10 20:24
+Maipo
+Total: 0.16 MW 0.002 % 16
+- Los montos y horarios señalados corresponden a lo informado por las empresas AES Andes S.A. y CGE S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Futura /
+S/E Alfalfal CGE Regulado 0.16 2.38 2.62 0.4
+ABBDA-04
+Clientes Regulados : 0.4 MWh
+Clientes Libres : MWh
+Total : 0.4 MWh
+- Los montos señalados corresponden a lo informado por las empresas AES Andes S.A. y CGE S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias significativas entre los horarios de recuperación esperada y recuperación
+real de los consumos afectados.
+- Velocidad promedio de recuperación.
+Tiempo recuperación Velocidad de
+Rango Potencia (MW)
+(h) recuperación (MW/h)
+Primer 80 % 0.13 2.62 0.05
+Último 20 % 0.03 2.62 0.01
+100 % Total 0.16 2.62 0.06
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9728.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales El Toro (U1, U2,
+U3 y U4), Kelar (TG12), Mejillones (CTM3), Mejillones (IEM), Nueva Renca (TG), Ralco (U1 y U2) y
+Tocopilla (U16).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada. La unidad N°2 de central Alfalfal se encontraba fuera de servicio en
+mantenimiento mayor, con el interruptor 52JT2 abierto.
+Otros antecedentes relevantes
+Según lo informado por la empresa AES Andes S.A.:
+“La unidad N°1 de la Central Alfalfal se encontraba en servicio, de acuerdo con los caudales
+afluentes con una generación promedio de 48 MW. Cabe destacar que la Unidad N°2 se
+encuentra en Mantenimiento Mayor (SD N°2024049775).
+El viernes 19 de julio, la Unidad N°1 se desconectó en forma programada por cambio en los
+carbones del sistema excitación a las 14:41 horas (SD N°20240071809). Luego del término de
+estos trabajos, la unidad es sincronizada al SEN a las 17:12 hrs.
+Durante este periodo, los servicios auxiliares de la Central Alfalfal fueron abastecidos desde
+grupo electrógeno propio de la central. Cabe destacar que se informó previamente y de acuerdo
+con los plazos establecidos a CGE (16 clientes), para las coordinaciones respectivas.
+A las 17:49 horas., la unidad N°1 se encuentra con 19 MW y se activa “Operación Automática de
+Unidad Generadora”, por “Alta Temperatura Descanso Empuje Unidad Generadora” por pérdida
+de nivel en estanque de refrigeración. En inspección post falla no acusa anormalidades
+operacionales en cuanto a posición de válvulas del sistema de agua de refrigeración, sin
+embargo, se encuentra aire en el sistema de agua de refrigeración por lo que procede a realizar
+purga y normalización de caudales de los sistemas de agua de refrigeración de los descansos.
+Finalizadas las maniobras de normalización, a las 19:57 horas, la unidad en cuestión sincroniza
+al SEN, y a las 20:25 horas, son normalizados los suministros de energía eléctrico de CGE (16
+clientes).”
+De forma complementaria, se adjuntan los informes de falla de instalaciones ingresados en el
+sistema del Coordinador Eléctrico Nacional por AES Andes S.A. y CGE S.A. (Anexo N°1) y otros
+antecedentes aportados por las mencionadas empresas (Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa AES Andes S.A. señala lo siguiente:

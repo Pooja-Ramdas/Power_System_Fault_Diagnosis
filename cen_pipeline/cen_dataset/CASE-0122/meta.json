@@ -1,0 +1,17 @@
+{
+  "eaf_id": "EAF-0486-2024",
+  "eaf_num": 486,
+  "year": 2024,
+  "description": "Falla en el cierre del interruptor 52C8 de S/E Copiapó",
+  "date": "26-09-2024",
+  "time": "03:15",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/10/EAF-486-2024.pdf",
+  "case_id": "CASE-0122",
+  "event_datetime": "2024-09-26T03:15:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": false,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_metadata": null,
+  "pending_conversion_path": null
+}

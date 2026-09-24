@@ -1,0 +1,285 @@
+Estudio para análisis de falla EAF 353/2024
+“Falla en línea 2x220 kV Lastarria - Ciruelos”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 13:20
+Consumos desconectados (MW) 461.37
+Demanda previa del sistema (MW) 10476.03
+Porcentaje de desconexión 4.404 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación LT 220 kV Lastarria - EST. 255A C1 / LT220CI1TR02T0002ST01T0002
+LT 220 kV EST. 255A - Ciruelos C1 / LT220CI1TR02T0002ST01T0002
+LT 220 kV Lastarria - EST. 255A C2 / LT220CI2TR02T0002ST01T0002
+LT EST. 255A - EST. 270 220 KV C2 / LT220CI2TR02T0002ST02T0002
+LT EST. 270 - Ciruelos 220 KV C2 / LT220CI2TR02T0002ST05T0002
+Tipo de instalación Línea
+Tensión nominal 220 kV
+Segmento Transmisión Nacional
+Propietario instalación afectada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento afectado LT 220 kV EST. 255A - Ciruelos C1 / LT220CI1TR02T0002ST01T0002
+LT EST. 270 - Ciruelos 220 KV C2 / LT220CI2TR02T0002ST05T0002
+Propietario elemento fallado Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Santiago.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de ambos circuitos de la línea 2x220 kV Lastarria - Ciruelos, por
+medio de la operación de sus protecciones de distancia, debido a una falla originada por la caída de un
+árbol (ubicado fuera de la franja de seguridad) sobre los conductores del circuito 1, el cual también
+acortó la distancia de aislamiento con los conductores del circuito 2, en el vano N°360 de la línea,
+durante un fuerte temporal de viento y lluvia en la zona.
+Como consecuencia de lo anterior, sumado a que el sistema de 66 kV entre las SS/EE Llollelhue,
+Valdivia, Los Lagos y Pullinque se encontraba operando desenmallado por múltiples fallas previas en la
+zona, por el fuerte temporal de viento y lluvia, la zona sur del sistema se aisló del resto del SEN,
+formando transitoriamente una isla eléctrica deficitaria en la zona sur, con la posterior operación del
+EDAC-BF, la desconexión de las unidades generadoras de la zona y, finalmente, la pérdida de la
+totalidad de los consumos.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+La empresa Transelec S.A. remite en su informe de falla de 5 días antecedentes para acreditar el origen
+de la falla.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por un
+fenómeno físico similar, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido dos fallas en
+instalaciones del mismo propietario con un fenómeno físico similar, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Transelec S.A. indica la siguiente acción de corto plazo:
+“En el corto plazo, para la energización de la línea (la cual se vio
+afectada producto de la
+crecida y cambio en el curso del río Tinguiririca), Transelec ejecutó
+exitosamente los trabajos
+para la conexión en Tap-off desde la estructura N°7 de la línea 154kV
+Tinguiririca – Punta de
+Cortés a la estructura N°2 de la línea 154kV Tinguiririca – San
+Fernando. Cabe mencionar,
+que la línea quedará bajo este esquema de conexión hasta la
+reparación completa de la torre
+colapsada por la crecida y cambio en el curso del río. Se adjunta un
+Falla en línea 154 kV análisis de factibilidad de
+EAF 276-2023 Tinguiririca - San 23-06-2023 conexión que valida este esquema provisorio de conexión.”
+Fernando La empresa Transelec S.A. indica la siguiente acción de largo plazo:
+La empresa Transelec S.A. indica lo siguiente:
+“En el largo plazo, Transelec estima (de manera preliminar) que
+tardará 4 meses en la
+reparación de la torre colapsada y la normalización de línea, es decir,
+a principios de
+noviembre. Estos trabajos se desarrollarán según el siguiente
+cronograma de trabajo:
+- Fase de ingeniería: 2 semanas desde ocurrido el evento.
+- Fase de licitación: 4 semanas luego de concluida la fase de
+ingeniería.
+- Obras civiles: 5 semanas luego de adjudicada la obra.
+- Montaje y tendido: 5 semanas luego de culminadas las obras civiles.”
+La empresa Transelec S.A. indica: “No se consideran acciones
+Falla en línea 66 kV
+correctivas de corto y largo plazo, ya que la falla en cuestión no se
+EAF 342-2024 Pullinque - Los Lagos 01-08-2024
+debió a un comportamiento erróneo de las instalaciones”.
+N°1
+La empresa Sistema de Transmisión del Sur S.A. indica: “No aplica”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 2x220 kV Lastarria - Ciruelos, la cual tiene
+las siguientes características, conforme lo informado por su propietario:
+Al respecto, la empresa Transelec S.A. remite los antecedentes correspondientes a los mantenimientos
+realizados a la línea 2x220 kV Lastarria - Ciruelos, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Cooperativa Rural Eléctrica Río Bueno Ltda. señala “Rural”
+La empresa Cooperativa Regional Eléctrica Llanquihue Ltda no informa.
+La empresa Compañía Eléctrica de Osorno S.A. no informa.
+La empresa Sociedad Austral de Electricidad S.A. no informa
+g. Proposición del propietario respecto del origen de la falla
+Fuerza mayor o caso fortuito.
+h. Comuna donde se presenta la falla
+9112: Padre Las Casas.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado Asociado a las siguientes instalaciones
+(03-08-2024) (08-08-2024)
+Transelec S.A. 01 y 05-08-2024 08-08-2024 Línea 2x2220 kV Lastarria - Ciruelos.
+Sociedad Austral de Transmisión Incluye además todas las instalaciones de
+05-08-2024 14-08-2024
+Troncal S.A. (SATT) transmisión de STS S.A.
+Sistema de Transmisión del Sur Enviado en Informe de 5 días de la empresa
+05-08-2024 14-08-2024
+S.A. (STS) SATT
+Hidromocho S.A. 01-08-2024 No entregado HP Mocho
+Hidroenersur S.A. 01-08-2024 No entregado HP Nalcas
+Hidroenersur S.A. 01-08-2024 No entregado HP Callao
+Alba SpA 01-08-2024 07-08-2024 PE San Pedro
+Río Alto SpA 01-08-2024 07-08-2024 PE San Pedro II
+Cumbres SpA 01-08-2024 No entregado HP Cumbres
+Empresa Eléctrica Capullo S.A. 01-08-2024 08-08-2024 HP Capullo
+Energía Siete SpA 02-08-2024 06-08-2024 TER Trincao
+Enlasa Generación Chile S.A. 01-08-2024 07-08-2024 TER Trapén
+Aela Eólica Llanquihue SpA 01-08-2024 09-08-2024 PE Aurora
+Informe de 48 horas Informe de 5 días
+Coordinado Asociado a las siguientes instalaciones
+(03-08-2024) (08-08-2024)
+Empresa Eléctrica La Leonera S.A. 01-08-2024 08-08-2024 HP Pulelfu
+Enel Green Power Chile S.A. 01-08-2024 08-08-2024 HE Pilmaiquén
+Licán SpA 01-08-2024 08-08-2024 HP Licán
+AR Puelche Sur SpA 01-08-2024 09-08-2024 PE Puelche Sur
+Hidroenersur S.A. 01-08-2024 No entregado HP MC1
+Hidroenersur S.A. 01-08-2024 No entregado HP MC2
+Hidroenersur S.A. 01-08-2024 No entregado HP MC3
+Sistema de Transmisión del Sur Enviado en Informe de 5 días de la empresa
+03-08-2024 14-08-2024
+S.A. (STS) SATT
+Bioenergías Forestales SpA 03-08-2024 08-08-2024 S/E Chumpullo
+Cooperativa Regional Eléctrica
+03-08-2024 No enviado SS/EE Puerto Varas, Sangra y Melipulli.
+Llanquihue Ltda (CRELL)
+Cooperativa Rural Eléctrica Río SS/EE La Unión, Central Pilmaiquén, Chirre y
+16-08-2024 16-08-2024
+Bueno Ltda. (COOPREL) Los Tambores.
+SS/EE Aihuapi, Alto Bonito, Ancud, Barro
+Blanco, Calbuco, Castro, Chirre, Chonchi,
+Colaco, Corral, Dalcahue, Degañ, El Empalme,
+Sociedad Austral de Electricidad Frutillar, La Misión, La Unión, Los Negros, Los
+No enviado No enviado
+S.A. (SAESA) Tambores, Mariquina, Melipulli, Osorno,
+Pargua, Picarte, Pichil, Pichirropulli, Pid Pid,
+Puerto Montt, Puerto Varas, Purranque,
+Quellón, Rio Negro, Sangra y Valdivia.
+Compañía Eléctrica de Osorno SS/EE Aihuapi, La Unión, Los Negros, Osorno,
+No enviado No enviado
+S.A. (Luz Osorno) Pichil, Purranque y Rio Bonito
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+HP Mocho U1 15.0 13:20 15:21
+PE San Pedro Completa 18.0 13:20 10:05 (03-08-2024)
+PE San Pedro II Completa 23.0 13:20 10:07 (03-08-2024)
+HP Capullo U1 10.6 13:20 14:35
+HP Cumbres U1 9.3 13:20 15:30
+HP Cumbres U2 9.3 13:20 09:31 (02-08-2024)
+HP Nalcas U2 2.8 13:20 15:38
+HP Nalcas U3 2.3 13:20 15:39
+HP Callao U1 0.7 13:20 15:20
+HP Callao U2 0.7 13:20 15:49
+PE Aurora 1, 2, 3, 4 70.0 13:20 14:14
+PE Aurora 5 y 6 33.0 13:20 14:15
+PE Aurora 7 21.0 13:20 14:16
+HP Pulelfu 1 y 2 5.8 13:20 14:34
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+HP Pilmaiquén 1 5.0 13:20 14:16
+HP Pilmaiquén 2 y 3 10.0 13:20 14:17
+HP Pilmaiquén 4 y 5 20.0 13:20 14:15
+HP Licán 1 y 2 10.0 13:20 14:37
+PE Puelche Sur 1, 2, 3, 4, 5, 6, 7, 8 y 9 126.0 13:20 14:01
+HP MC1 1 y 2 7.6 13:20 15:11
+HP MC2 1 2.0 13:20 15:11
+HP MC3 1 2.3 13:20 15:10
+Total: 404.4 MW
+- Los montos y horarios señalados corresponden a lo informado por las empresas Coordinadas.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+04:26
+Línea 2x220 kV Lastarria - Ciruelos C1 ST Nacional - 13:20
+02-08-2024
+Línea 2x220 kV Lastarria - Ciruelos C2 ST Nacional - 13:20 13:28
+S/E Degañ ST Dedicado Interruptor 52EG1 13:20 14:28
+S/E Degañ ST Dedicado Interruptor 52EG2 13:20 14:29
+Línea 110 kV Melipulli - Alto Bonito ST Zonal 110 kV Melipulli - Alto Bonito 13:20 14:07
+Línea 110 kV Molinos - El Empalme ST Zonal 110 kV Molinos - El Empalme 13:20 14:28
+Línea 110 kV Central San Pedro Dalcahue - Línea 110 kV Central San Pedro 09:50
+ST Dedicado 13:20
+Chiloé Dalcahue - Chiloé (03-08-2024)
+Línea 2x66 kV Pilmaiquén - Osorno N°1 ST Dedicado - 13:21 14:08
+Línea 110 kV Antillanca - Aihuapi ST Zonal - 13:20 14:17
+Línea 110 kV El Empalme - Los Molinos ST Zonal - 13:20 14:28
+S/E Alto Bonito ST Zonal Transformador Nº1 110/23 kV 13:20 14:26
+Línea 110 kV Dalcahue - Pid Pid ST Zonal - 13:20 14:31
+Línea 220 kV Pargua - Melipulli ST Nacional - 13:20 14:22
+S/E Puerto Varas ST Zonal Transformador Nº2 66/23 kV 13:20 13:49
+Línea 66 kV Puerto Varas - Sangra Nº1 ST Zonal - 13:20 13:52
+Línea 66 kV Puerto Varas - Sangra Nº2 ST Zonal - 13:20 13:53
+- Los horarios señalados corresponden a lo informado por las empresas Coordinadas.
+c. Consumos
+Pérdida de %
+Alimentador / Clientes H. H. H.
+Sub-Estación Comuna Consumo consumo
+Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Valdivia, San José de
+S/E Mariquina San José / E1 2.90 0.030 8.232 13:20 13:28 13:28
+Mariquina y Toltén
+S/E Corral Corral / C2 Corral 0.97 0.010 2.423 13:20 13:30 13:30
+S/E Corral La Aguada / C1 Corral 0.13 0.000 2 13:20 13:30 13:30
+S/E Corral San Juan / C3 Corral 0.17 0.000 492 13:20 13:30 13:30
+Pérdida de %
+Alimentador / Clientes H. H. H.
+Sub-Estación Comuna Consumo consumo
+Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Picarte Regional / E5 Valdivia 8.17 0.080 5.951 13:20 13:30 13:30
+S/E Picarte Errázuriz / E1 Valdivia 5.42 0.050 2.359 13:20 13:30 13:30
+S/E Picarte Picarte / E8 Valdivia 5.42 0.050 3.757 13:20 13:30 13:30
+S/E Picarte Simpson / E2 Valdivia 6.66 0.060 5.157 13:20 13:30 13:30
+S/E Picarte Francia / E9 Valdivia 1.14 0.010 13.951 13:20 13:30 13:30
+S/E Valdivia Santa Elvira / E4 Valdivia 4.05 0.040 6.102 13:20 13:30 13:30
+S/E Valdivia Balmaceda / E6 Valdivia 2.93 0.030 1.299 13:20 13:30 13:30
+S/E Valdivia Holzapfel / E2 Valdivia y Corral 8.52 0.080 19.165 13:20 13:30 13:30
+S/E Valdivia Lynch / E1 Valdivia 1.57 0.010 3.149 13:20 13:30 13:30
+S/E Barro
+Canal Bajo / E2 Osorno 0.35 0.000 866 13:20 13:42 13:42
+Blanco
+S/E Barro
+Con Con / E1 Osorno 3.70 0.040 637 13:20 13:42 13:42
+Blanco
+S/E Barro Julio Buschmann /
+Osorno y Río Negro 3.60 0.030 1.826 13:20 13:42 13:42
+Blanco E3
+Lago Ranco y Río
+S/E Chirre Futahuente / E1 0.99 0.010 4.180 13:20 13:42 13:42
+Bueno
+S/E Chirre Chiscaihue / E2 Puyehue, Río Bueno 1.00 0.010 1.356 13:20 13:42 13:42
+S/E La Misión Schilling / E1 Osorno 6.00 0.060 20.010 13:20 13:42 13:42
+S/E La Misión Maicolpue / E2 Osorno 6.60 0.060 9.465 13:20 13:42 13:42
+S/E La Unión La Unión / C4 La Unión 0.50 0.000 224 13:20 13:42 13:42
+Aldea Campesina
+S/E La Unión La Unión y Río Bueno 3.07 0.030 6.303 13:20 13:42 13:42
+/ E4
+S/E La Unión Colún / C3 La Unión 4.05 0.040 8 13:20 13:42 13:42
+S/E La Unión Rapaco / E2 La Unión 3.18 0.030 3.234 13:20 13:42 13:42
+S/E La Unión Polincay / E1 La Unión 2.61 0.020 2.645 13:20 13:42 13:42
+La Unión - Creo / San Pablo, La Unión
+S/E La Unión 0.58 0.010 1.255 13:20 13:42 13:42
+C1 y Río Bueno
+S/E La Unión La Unión / CT5 La Unión 0.64 0.010 1 13:20 13:42 13:42
+S/E Los San Pablo, La Unión
+Río Bueno / E2 6.90 0.070 10.896 13:20 13:42 13:42
+Tambores y Río Bueno
+S/E Osorno Chuyaca / E1 Osorno 3.65 0.030 4.309 13:20 13:42 13:42
+S/E Osorno Industrial / E2 Osorno y San Pablo 3.25 0.030 3.321 13:20 13:42 13:42
+Nuevo Alim.
+S/E Osorno Osorno 1.15 0.010 991 13:20 13:42 13:42
+Rahue / E4
+S/E Osorno Manuel Montt / E6 Osorno 7.36 0.070 6.853 13:20 13:42 13:42
+S/E Osorno Cesar Ercilla / E8 Osorno 5.90 0.060 6.693 13:20 13:42 13:42
+Creo Cordillera /
+S/E Osorno Osorno 0.36 0.000 159 13:20 13:42 13:42
+E11
+S/E Osorno Creo Pacífico / E9 Osorno 0.16 0.000 325 13:20 13:42 13:42
+Osorno, Puerto Octay
+S/E Pichil Puerto Octay / E2 3.74 0.040 1.290 13:20 13:42 13:42
+y Río Negro
+Osorno, Puerto
+S/E Pichil Pichidamas / E1 Octay, Purranque, 0.49 0.000 1.500 13:20 13:42 13:42
+Puyehue y Río Negro
+Pichirropulli Paillaco, Futrono y
+S/E Pichirropulli 0.01 0.000 9.178 13:20 13:42 13:42
+Futrono / E2 Lago Ranco

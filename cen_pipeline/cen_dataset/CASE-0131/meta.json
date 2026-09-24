@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0477-2024",
+  "eaf_num": 477,
+  "year": 2024,
+  "description": "Falla en la línea 66 kV Charrúa – Laja",
+  "date": "15-09-2024",
+  "time": "02:52",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/10/EAF-477-2024.pdf",
+  "case_id": "CASE-0131",
+  "event_datetime": "2024-09-15T02:52:00",
+  "fault_label": "line_fault",
+  "telemetry_available": false,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".zip"
+  },
+  "pending_conversion_path": null
+}

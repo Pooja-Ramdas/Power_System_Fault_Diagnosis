@@ -1,0 +1,315 @@
+Estudio para análisis de falla EAF 350/2024
+“Falla en la línea 154 kV Charrúa - Los Ángeles”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 12:38
+Consumos desconectados (MW) 73.75
+Demanda previa del sistema (MW) 10476.00
+Porcentaje de desconexión 0.704%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 154 kV Charrúa - Los Ángeles / LT108CI1TR03----T0058
+Tipo de instalación Línea de Transmisión
+Tensión nominal 154 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 17, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 154 kV Charrúa - Los Ángeles / LT108CI1TR03----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 17, Las Condes.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 154 kV Los Ángeles - Charrúa, por operación de las
+protecciones de ambos extremos, con posterior reconexión automática exitosa del extremo Charrúa,
+ante la ocurrencia de una falla bifásica entre las fases B y C, de carácter transitorio, durante fuerte
+temporal de viento y lluvia en la zona.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+La empresa CGE Transmisión S.A. remite antecedentes para acreditar el origen de la falla.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por un
+fenómeno físico similar, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido 16 fallas en
+instalaciones del mismo propietario con un fenómeno físico similar (homologado), durante los últimos
+24 meses móviles, correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea 66 kV
+EAF 277_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Charrúa - Lucero
+Falla en línea 66 kV San
+EAF 278_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Fernando - Placilla
+Falla en línea 66 kV Los
+EAF 362_2023 22-08-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Maquis - Hualañé
+La empresa CGE Transmisión S.A. indica: “Se analizan eventos
+de relé SEL 387 S1 y SEL 351 S2. Al día siguiente se interrogan
+relés F4c asociados a los paños C1 y C2. Se observa que hay
+eventos en los horarios de falla. Se analizan eventos de relé SEL-
+Apertura 311C. Se realiza una inspección del tramo completo de la LT 66
+intempestiva de los kV Pan de Azúcar- Marquesa, sin evidencias de la falla. Se realiza
+EAF 394-2023 interruptores 52B5 y 06-09-2023 inspección visual y pruebas locales al interruptor 52B5 de S/E
+52CT8 de S/E Pan de Pan de Azúcar el día de la falla, sin encontrar causa evidente
+Azúcar (durante la semana del 25 al 29 del presente se realizarán
+pruebas exhaustivas al interruptor, para luego durante la
+semana del 2 al 6 de octubre presentar un informe del interruptor
+52B5). Reemplazo de interruptor 52B5 de SE Pande Azúcar
+(fecha estimada diciembre de 2023)”.
+La empresa CGE Transmisión S.A. indica:
+- “Se realiza el afianzamiento con tirantes del poste externo cerca
+Falla en línea 66 kV
+de la estructura E46 de la línea LT Alonso de Ribera -
+EAF 247-2024 Alonso de Ribera - 08-06-2024
+Chiguayante.”
+Chiguayante
+- “Se realiza la conexión IRIG B a los relés 311C y 311L del paño
+B2 de S/E Alonso de Ribera con el reloj satelital.”
+La empresa CGE Transmisión S.A. indica:
+"• Se realizará una revisión y pruebas en el sistema de control
+Falla en línea 66 kV del interruptor asociado al paño 52CT1. Actividad comprometida
+EAF 329-2024 Talcahuano - Latorre 31-07-2024 a septiembre de 2024.
+N°1 • Se realizará retemplado de conductor entre las estructuras E-
+05 a E-06 de la línea LT 66 kV Talcahuano – Latorre N°1.
+Actividad comprometida a diciembre 2024."
+Falla en línea 66 kV Los
+EAF 333-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Peumos - Curacautín
+Falla en línea 66 kV
+EAF 334-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Parral - Cauquenes
+Falla en línea 2x66 kV
+EAF 335-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Lastarria - Loncoche
+Falla en la línea 66 kV
+EAF 337-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Tres Pinos - Lebu
+Falla en la línea 66 kV
+EAF 338-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Curanilahue - Tres Pinos
+CGE Transmisión S.A. indica que realizó la instalación de un
+Falla en línea 66 kV nuevo line post en la estructura N°61 y, además, se reparó el
+EAF 343-2024 01-08-2024
+Villarrica - Pucón tramo de conductor que resultó con daños entre las estructuras
+N°38 y N°39 de la línea 66 kV Villarrica - Pucón.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa CGE Transmisión S.A. indica que “Se quitaron los
+Falla en línea 66 kV
+EAF 345-2024 01-08-2024 árboles que cayeron a las líneas y, además, se repararon los
+Guindo - Coronel N°2
+elementos que resultaron dañados producto de los eventos.”.
+La empresa CGE Transmisión S.A. indica:
+"Se modificará las variables de registro SER para que no se
+produzcan sobre escritura.
+Se realizó el retiro de los árboles que se encontraban sobre la
+Falla en línea 66 kV
+línea y, además, se repusieron los elementos que resultaron
+EAF 347-2024 Horcones - Curanilahue 01-08-2024
+dañados producto del temporal.
+Norte
+Levantamiento y posterior verificación de alambrado de control
+por verificación de potenciales asociados al paño B8 de S/E
+Curanilahue Norte, trabajos asociados a la SD 2024078680
+realizada el día 08 de agosto de 2024."
+La empresa CGE Transmisión S.A. indica:
+"Con fecha 6 de agosto se encontró causa de falla, que consistió
+en el desprendimiento de parte de malla metálica perimetral que
+se encuentra por encima del nivel de las panderetas. Las
+condiciones del viento arrastraron pequeños segmentos de malla
+hacia los bushing del interruptor del banco de condensadores.
+Inmediatamente después de detectada la causa de falla, se
+Apertura intempestiva solicitó la apertura del SSCC que alimenta el banco de
+EAF 348-2024 del interruptor 52CT1 de 01-08-2024 condensadores en barra.
+S/E San Pedro Se programó para los días 13 y 14 de agosto la revisión, limpieza
+y despeje del área afectada, para poder re-energizar los bancos
+de condensadores.
+El 01/08/2024 a las 20:26 horas el CT informa problemas en
+mecanismo de apertura y cierre del 52CT1 de S/E San Pedro.
+Posteriormente el 06/08/2024 a las 17:13 horas se concluyen las
+pruebas de apertura y cierre del 52CT1 de S/E San Pedro de
+manera satisfactoria quedando disponible para operación."
+La empresa CGE Transmisión S.A. indica que "Se despejaron las
+Falla en línea 2x66 kV líneas afectadas por el evento, se repusieron las estructuras
+EAF 349-2024 01-08-2024
+Ejército - Guindo derribadas y se reparó el conductor dañado, tanto por el
+temporal como por el posterior robo."
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una falla
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente al Estudio
+para Análisis de Falla EAF 461-2023.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 154 kV Charrúa - Los Ángeles, que según
+lo informado por el propietario en la plataforma Infotécnica del Coordinador, posee una longitud de
+43.89 km y un conductor ACSR Ibis, y su fecha de entrada en operación fue en el año 1997.
+La empresa CGE Transmisión S.A, propietaria de la instalación fallada, no presenta los mantenimientos
+realizados a la línea 154 kV Charrúa - Los Ángeles durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+CGE S.A. indica lo siguiente: “Rural” y “Urbano”. Frontel S.A. y Coopelan no indican ubicación urbana
+ni rural para sus consumos.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza mayor o caso fortuito.
+La empresa CGE Transmisión S.A. remite los siguientes antecedentes en respaldo a la proposición del
+origen de la falla:
+• Informe técnico de los hechos que provocan la falla.
+• Informe público y conocido que acredita el evento aducido.
+• Informe de interrupción de suministro.
+h. Comuna donde se presenta la falla
+8303: Cabrero.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03-08-2024) (08-08-2024)
+CGE Transmisión S.A. 02-08-2024 20-08-2024
+Sistema de Transmisión del Sur S.A. (STS S.A.) 04-08-2024 16-08-2024
+Compañía General de Electricidad S.A. (CGE S.A.) 07-08-2024 08-08-2024
+Empresa Eléctrica de la Frontera S.A. (Frontel S.A.) 20-08-2024 No entregado
+Cooperativa Eléctrica Los Angeles Ltda (Coopelan) No entregado No entregado
+WPD Negrete SpA 02-08-2024 07-08-2024
+Vientos de Renaico SpA 08-08-2024 No entregado
+Enel Green Power Chile S.A. 01-08-2024 No entregado
+Energía Eólica Mesamávida SpA 02-08-2024 21-08-2024
+Aela Eólica Negrete SpA 01-08-2024 No entregado
+AR Alena SpA 06-08-2024 08-08-2024
+Eólica La Esperanza S.A. No entregado No entregado
+Hidroangol S.A. 01-08-2024 No entregado
+Espinos S.A. No entregado No entregado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+PE Cuel - 21.0 12:38 15:35
+PE Alena - 34.0 12:38 13:49
+PE Negrete - 25.0 12:38 12:56
+PE La Esperanza - 5.0 12:38 17:01
+PE Los Buenos Aires - 4.0 12:38 13:22
+PE La Flor - 20.0 12:38 12:52
+PE Mesamávida - 9.8 12:38 12:46
+Picoiquén U1 2.0 12:38 16:02
+Picoiquén U2 2.0 12:38 16:02
+Renaico U1 6.5 12:38 12:52
+Alto Renaico U1 1.1 12:38 12:52
+Total: 130.4 MW
+- Los montos y los horarios señalados corresponden a lo informado por las empresas Aela Eólica Negrete SpA. AR Alena SpA., WPD
+Negrete SpA., Enel Green Power Chile S.A., Vientos de Renaico SpA y Energía Eólica Mesamávida SpA, además del registro histórico
+del SCADA y de la Plataforma de Medidas del Coordinador Eléctrico Nacional.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Charrúa - Los Ángeles 154 kV ST Zonal Charrúa - Los Ángeles 154 kV 12:38 12:43
+Los Ángeles - Los Buenos Aires 66 kV ST Zonal Los Ángeles - Los Buenos Aires 66 kV 12:38 12:52
+S/E Central Cuel ST Dedicado Transformador 154/23 kV 12:38 15:27
+S/E Central Eólica Alena ST Dedicado Transformador 154/33 kV 12:38 13:02
+S/E Central Eólica Alena ST Dedicado Transformador 154/33 kV 13:07 13:45
+S/E Central Parque Eólico Los Buenos Aires ST Dedicado Transformador 66/33 kV 12:38 13:21
+- Los horarios señalados corresponde a lo informado por las empresas CGE Transmisión S.A., Aela Eólica Negrete SpA., AR Alena
+SpA. y Enel Green Power Chile S.A.
+c. Consumos
+Pérdida de %
+Alimentador / Clientes H. H. H.
+Sub-Estación Comuna Consumo consumo
+Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E El Avellano La Mona / E1 Los Ángeles 5.50 0.053 359 12:38 12:43 12:43
+S/E El Avellano Laja / E3 Los Ángeles 1.70 0.016 505 12:38 12:43 12:43
+S/E El Avellano Rarinco / E4 S/I 2.20 0.021 S/I 12:38 12:43 12:43
+S/E Los Ángeles Paillihue / C11 Los Ángeles 4.00 0.038 11277 12:38 12:43 12:43
+S/E Los Ángeles Cantera / C3 S/I 4.00 0.038 S/I 12:38 12:43 12:43
+S/E Los Ángeles Huaqui / C7 S/I 2.90 0.028 S/I 12:38 12:43 12:43
+S/E Los Ángeles Santa Fe / C1 S/I 2.20 0.021 S/I 12:38 12:43 12:43
+S/E Manso de
+Colo Colo / C1 Los Ángeles 4.70 0.045 2984 12:38 12:43 12:43
+Velasco
+S/E Manso de
+Bulnes / C2 Los Ángeles 4.60 0.044 4783 12:38 12:43 12:43
+Velasco
+S/E Manso de
+Alemania / C3 Los Ángeles 5.70 0.054 6368 12:38 12:43 12:43
+Velasco
+S/E Manso de
+Villagrán / C4 Los Ángeles 3.60 0.034 8649 12:38 12:43 12:43
+Velasco
+S/E Manso de
+Quilque / C5 Los Ángeles 0.90 0.009 1 12:38 12:43 12:43
+Velasco
+S/E Angol O'Higgins / C1 S/I 6.22 0.059 S/I 12:38 12:52 12:52
+S/E Angol Deuco / C2 S/I 5.81 0.055 S/I 12:38 12:52 12:52
+Tijeral - Roblería /
+S/E Angol S/I 2.37 0.023 S/I 12:38 12:52 12:52
+C3
+S/E Angol Los Sauces / E1 S/I 0.80 0.008 S/I 12:38 12:52 12:52
+S/E Collipulli Malleco / C1 S/I 1.20 0.011 S/I 12:38 12:52 12:52
+Contulmo, Los
+Los Sauces - Purén
+S/E Los Sauces Sauces, Lumaco, 3.25 0.031 5586 12:38 12:52 12:52
+/ E1
+Purén
+S/E Los Sauces Bosques Cautín / E2 Los Sauces 0.01 0.000 1 12:38 12:52 12:52
+Tirúa, Nacimiento,
+Los Sauces - Angol, Los
+S/E Los Sauces 1.09 0.010 6178 12:38 12:52 12:52
+Lumaco / E3 Sauces, Lumaco,
+Purén, Traiguén
+S/E Nahuelbuta Roblería / C1 Renaico 1.35 0.013 3417 12:38 12:52 12:52
+Pérdida de %
+Alimentador / Clientes H. H. H.
+Sub-Estación Comuna Consumo consumo
+Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Nahuelbuta Parronal / C2 Renaico, Angol 1.37 0.013 1081 12:38 12:52 12:52
+Negrete - Renaico /
+S/E Negrete Negrete, Renaico 0.56 0.005 1715 12:38 12:52 12:52
+E3
+Los Ángeles,
+Negrete -
+S/E Negrete Nacimiento, 6.92 0.066 12233 12:38 12:52 12:52
+Nacimiento / E2
+Negrete
+Negrete - Mulchén /
+S/E Negrete Mulchén, Negrete 0.80 0.008 2626 12:38 12:52 12:52
+E1
+Total: 73.75 MW 0.704 % >67763
+- Los montos y los horarios señalados corresponden a lo informado por las empresas CGE S.A., CGE Transmisión S.A. y STS S.A.,
+además del registro de la Plataforma de Medidas del Coordinador Eléctrico Nacional.
+- S/I: Sin Información.
+3. Estimación de la energía no suministrada
+Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Alimentador / Paño Empresa
+Cliente Consumo (MW) Indisp. (h) Desc. (h) (MWh)
+S/E El Avellano La Mona / E1 CGE Regulado 5.50 0.08 0.08 0.5
+S/E El Avellano Laja / E3 CGE Regulado 1.70 0.08 0.08 0.1
+S/E El Avellano Rarinco / E4 Coopelan Regulado 2.20 0.08 0.08 0.2
+S/E Los Ángeles Paillihue / C11 CGE Regulado 4.00 0.08 0.08 0.3
+S/E Los Ángeles Cantera / C3 Coopelan Regulado 4.00 0.08 0.08 0.3
+S/E Los Ángeles Huaqui / C7 Coopelan Regulado 2.90 0.08 0.08 0.2
+S/E Los Ángeles Santa Fe / C1 Coopelan Regulado 2.20 0.08 0.08 0.2
+S/E Manso de
+Colo Colo / C1 CGE Regulado 4.70 0.08 0.08 0.4
+Velasco
+S/E Manso de
+Bulnes / C2 CGE Regulado 4.60 0.08 0.08 0.4
+Velasco
+S/E Manso de
+Alemania / C3 CGE Regulado 5.70 0.08 0.08 0.5
+Velasco
+S/E Manso de
+Villagrán / C4 CGE Regulado 3.60 0.08 0.08 0.3
+Velasco
+S/E Manso de
+Quilque / C5 CGE Regulado 0.90 0.08 0.08 0.1
+Velasco
+S/E Angol O'Higgins / C1 Frontel Regulado 6.22 0.23 0.23 1.5
+S/E Angol Deuco / C2 Frontel Regulado 5.81 0.23 0.23 1.4
+S/E Angol Tijeral - Roblería / C3 Frontel Regulado 2.37 0.23 0.23 0.6
+S/E Angol Los Sauces / E1 Frontel Regulado 0.80 0.23 0.23 0.2
+S/E Collipulli Malleco / C1 Frontel Regulado 1.20 0.23 0.23 0.3
+Los Sauces - Purén /
+S/E Los Sauces Frontel Regulado 3.25 0.23 0.23 0.8
+E1
+S/E Los Sauces Bosques Cautín / E2 Frontel Regulado 0.01 0.23 0.23 0.0
+Los Sauces - Lumaco
+S/E Los Sauces Frontel Regulado 1.09 0.23 0.23 0.3
+/ E3

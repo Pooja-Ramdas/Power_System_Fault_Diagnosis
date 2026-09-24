@@ -1,0 +1,251 @@
+Estudio para análisis de falla EAF 387/2024
+“Falla en línea 110 kV Cerro Navia - El Salto N°1”
+Fecha de Emisión: 26-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 02/08/2024
+Hora 01:32
+Consumos desconectados (MW) 3.60
+Demanda previa del sistema (MW) 7126
+Porcentaje de desconexión 0.051 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Cerro Navia - El Salto Nº1 / LT084CI1TR03T0054ST01T0835
+Tipo de instalación Línea
+Tensión nominal 110 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+c. Identificación del elemento fallado
+Nombre del elemento fallado Tap Chacabuco - Chacabuco 110 kV / LT084CI1TR03T0054ST01T0835
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+d.1 Origen y causa de la falla
+Descarga eléctrica entre fases ocurrida en la línea 110 kV Cerro Navia - El Salto Nº1,
+específicamente en el Tap Chacabuco - Chacabuco, en la llegada a S/E Chacabuco, causada por “un
+letrero publicitario de grandes dimensiones, que se desprendió de un centro comercial ubicado a un
+costado de la subestación Chacabuco, el cual quedó posicionado en la barra 110 kV del
+transformador Nº5, asociada al circuito 1 de la línea El Salto - Cerro Navia”.
+d.2 Fenómeno Físico:
+CLI2: Objeto llevado por el viento hacia los conductores.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles (EAF 381-2024, EAF 382-2024, EAF
+383-2024, EAF 386-2024).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: se han producido 6 fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Sociedad Transmisora Metropolitana II S.A. indica lo siguiente: “Ocurrida
+la OA, inmediatamente se inició el patrullaje de la línea en forma pedestre
+encontrando signo de descarga eléctrica en la estructura T46 en donde se
+encontraba elemento extraño (volantín) adosado sobre aislador atrapado
+en elemento disuasor de aves (peineta). De esta forma se coordinó su
+Falla en línea 110
+retiro a distancia de modo de evitar futuras fallas. Cabe destacar que
+EAF 452-2023 kV Cerro Navia - 24-10-2023
+mantenemos una constante preocupación y monitoreo, para la prevención
+Lo Aguirre Nº2
+y evitar que eleven volantines en esta zona. Específicamente hemos
+instalado señalización y en coordinación con propietario Enea, se
+construyó una zanja alrededor de la línea evitando el ingreso masivo de
+personas, el cual se encontraba terminado con anterioridad a la falla. En
+el punto 11.2 adjuntamos fotografías de las acciones realizadas.”
+La empresa Sociedad Transmisora Metropolitana II S.A. señala lo
+siguiente: “Ocurrida la falla en forma inmediata se coordinó el recorrido
+de la línea el cual se realizó con datos entregados por las protecciones de
+Falla en línea 110
+distancia. Una vez identificada el punto de falla en estructura 47 (interior
+EAF 100-2024 kV Buin - Chena - 09-03-2024
+de la S/E San Bernardo), se dio aviso al despacho y se revisaron los
+Ochagavía Nº1
+componentes como aislación, conductor y herrajes, no evidenciando
+daños visibles, seguido de esto se procede a realizar prueba de
+energización, con resultado satisfactorio.”
+Sociedad Transmisora Metropolitana S.A. señala que “durante el mismo
+viernes 02 de agosto se retiró el letrero publicitario de los conductores de
+Falla en línea 110
+110 kV asociados al Transformador Nº5, y se determinaron los daños en
+EAF 381-2024 kV Cerro Navia - 02-08-2024
+los otros componentes aledaños en donde se había encontrado el punto
+El Salto Nº1
+de falla”, y que “se programará a la brevedad posible la reparación de los
+daños encontrados en la barra 110 kV del transformador Nº5.”
+Sociedad Transmisora Metropolitana S.A. señala que “durante el mismo
+viernes 02 de agosto se retiró el letrero publicitario de los conductores de
+Falla en línea 110
+110 kV asociados al Transformador Nº5, y se determinaron los daños en
+EAF 382-2024 kV Cerro Navia - 02-08-2024
+los otros componentes aledaños en donde se había encontrado el punto
+El Salto Nº2
+de falla”, y que “se programará a la brevedad posible la reparación de los
+daños encontrados en la barra 110 kV del transformador Nº5.”
+Sociedad Transmisora Metropolitana S.A. señala que “durante el mismo
+viernes 02 de agosto se retiró el letrero publicitario de los conductores de
+Falla en línea 110
+110 kV asociados al Transformador Nº5, y se determinaron los daños en
+EAF 383-2024 kV Cerro Navia - 02-08-2024
+los otros componentes aledaños en donde se había encontrado el punto
+El Salto Nº2
+de falla”, y que “se programará a la brevedad posible la reparación de los
+daños encontrados en la barra 110 kV del transformador Nº5.”
+Sociedad Transmisora Metropolitana S.A. señala que “durante el mismo
+viernes 02 de agosto se retiró el letrero publicitario de los conductores de
+Falla en línea 110
+110 kV asociados al Transformador Nº5, y se determinaron los daños en
+EAF 386-2024 kV Cerro Navia - 02-08-2024
+los otros componentes aledaños en donde se había encontrado el punto
+El Salto Nº2
+de falla”, y que “se programará a la brevedad posible la reparación de los
+daños encontrados en la barra 110 kV del transformador Nº5.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: se han producido 4 fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles (E EAF 381-2024, EAF 382-
+2024, EAF 383-2024, EAF 386-2024).
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al circuito Nº1 de la línea 2x110 kV Cerro Navia -
+El Salto, para la cual, su propietario informa en su Informe de Falla de 5 días, lo siguiente:
+ Línea original data de 1922.
+ Largo total de la Línea: 40.9 km.
+ Retraso en inversiones pactadas: No hay retrasos en inversiones pactadas para la instalación.
+La empresa Sociedad Transmisora Metropolitana S.A. remitió antecedentes respecto de los
+mantenimientos realizados durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+Sociedad Transmisora Metropolitana S.A. señala que “La contingencia es clasificada como urbana”.
+g. Proposición del propietario respecto del origen de la falla
+Caso fortuito o fuerza mayor.
+Sociedad Transmisora Metropolitana S.A. remite en respaldo a la proposición del origen de la falla lo
+siguiente:
+ Registro Fotográfico con fecha, hora y coordenadas del punto de falla.
+ Informe público y conocido que acredite condición del viento.
+ Especificación del tipo de elemento arrastrado por el viento hacia los conductores.
+h. Comuna donde se presenta la falla
+13125: Quilicura.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (04/08/2024) Informe de 5 días (09/08/2024)
+Sociedad Transmisora Metropolitana S.A. (STM) No enviado 09/08/2024(*)
+Enel Distribución Chile S.A. (Enel Dx) No enviado No enviado
+(*): Informe enviado mediante los Informes de Falla de 48 horas de los eventos de las 00:57 horas y 01:00 horas.
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+El Salto - Cerro Navia 110 kV ST Zonal Cerro Navia - Tap Lo Boza 110KV C1 01:32 01:37
+El Salto - Cerro Navia 110 kV ST Zonal Tap Lo Boza - Tap Quilicura 110KV C1 01:32 01:37
+El Salto - Cerro Navia 110 kV ST Zonal Tap Quilicura - Tap Chacabuco 110KV C1 01:32 01:37
+El Salto - Cerro Navia 110 kV ST Zonal Tap Chacabuco - Tap Recoleta 110KV C1 01:32 01:37
+El Salto - Cerro Navia 110 kV ST Zonal Tap Recoleta - San Cristóbal 110KV C1 01:32 01:38
+El Salto - Cerro Navia 110 kV ST Zonal El Salto - San Cristóbal 110KV C1 01:32 01:37
+- Fechas y horas señaladas corresponden a lo informado por Sociedad Transmisora Metropolitana S.A.
+c. Consumos
+Pérdida de %
+Alimentador / Clientes H. H. H.
+Sub-Estación Comuna Consumo consumo
+Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Transformadores
+S/E Quilicura No informado 1.40 0.020 No informado 01:32 01:39 01:39
+Nº1, Nº3
+S/E Lo Boza Transformador Nº1 No informado 2.20 0.031 No informado 01:32 02:04 02:04
+Total: 3.60 MW 0.051 % No informado (*)
+- Fechas y horas señaladas corresponden a lo informado por Sociedad Transmisora Metropolitana S.A.
+- Montos de potencia perdida estimada por el Coordinador de acuerdo con sus registros del SITR.
+(*): Sociedad Transmisora Metropolitana S.A. informa un total de 256835 clientes afectados por las fallas ocurridas entre las
+00:57 horas y las 01:32 horas en ambos circuitos de la línea 2x110 kV El Salto - Cerro Navia 110 kV.
+3. Estimación de la energía no suministrada
+Alimentador / Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Empresa
+Paño Cliente Consumo (MW) Indispon. (h) Desc.(h) (MWh)
+Transformadores Enel
+S/E Quilicura Regulado 1.40 0.12 0.12 0.2
+Nº1, Nº3 Distribución
+Enel
+S/E Lo Boza Transformador Nº1 Regulado 2.20 0.53 0.53 1.2
+Distribución
+Clientes Regulados : 1.4 MWh
+Clientes Libres : MWh
+Total : 1.4 MWh
+- Fechas y horas señaladas corresponden a lo informado por Sociedad Transmisora Metropolitana S.A.
+- Montos de potencia perdida estimada por el Coordinador de acuerdo con sus registros del SITR.
+- Curva de recuperación esperada v/s recuperación real.
+02:24
+0022::0044
+02:09
+01:55 0011::3399
+01:40
+01:26
+01:12
+00:57
+00:43
+00:28
+00:14
+00:00
+Transformadores Nº1, Nº3 Transformador Nº1
+S/E Quilicura S/E Lo Boza
+Recuperación Esperada Recuperación Real
+No se aprecian diferencias entre los horarios de recuperación real respecto de los horarios de
+disponibilidad de las barras primarias para recuperar los consumos afectados, en base a la hora
+estimada de recuperación de los consumos basada en lo informado por Sociedad Transmisora
+Metropolitana S.A.
+- Velocidad promedio de recuperación.
+Potencia Tiempo Velocidad de
+Rango
+(MW) recuperación (h) recuperación (MW/h)
+Primer 80 % 2.88 0.53 5.40
+Último 20 % 0.72 0.53 1.35
+100 % Total 3.60 0.53 6.75
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 7126.0 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales El Toro (U1), El
+Toro (U2), El Toro (U4), Mejillones (CTM3), Mejillones (IEM), Ralco (U1) y Ralco (U2).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada. Para las instalaciones de transmisión entre las SS/EE El Salto, San Cristóbal y
+Cerro Navia, se tenía lo siguiente:
+ Transformador Nº3 110/23 de S/E Lo Boza fuera de servicio por falla desde las 00:53 horas.
+ Línea 110 kV El Salto - Cerro Navia Nº1 en servicio (en ejecución maniobras de normalización
+de instalaciones ante fallas previas).
+ Línea 110 kV El Salto - Cerro Navia Nº2 fuera de servicio por falla desde las 01:30 horas.
+Otros antecedentes relevantes
+Según lo informado por Sociedad Transmisora Metropolitana S.A.:
+“El pasado 2 de agosto a las 00:57 horas, cuando sobre la región metropolitana se registraban
+fuertes vientos, se produjo la apertura del circuito Nº1 de la línea El Salto - Cerro Navia, en el
+proceso de traspaso de carga del circuito 1 al circuito, transcurrido 3 minutos, se produjo la apertura
+del circuito Nº2 de la misma línea.
+El Centro de Control de Transmisión (CCT) informó a mantenimiento sobre este evento, indicando la
+operación automática en ambos circuitos. Se coordina el despliegue del personal de líneas de
+transmisión para realizar un patrullaje.
+El CCT ejecuta maniobras para despejar ambos circuitos de la línea (abriendo interruptores en las
+subestaciones San Cristóbal, Recoleta, Chacabuco, Quilicura y Lo Boza), y reenergiza el circuito 2 a
+las 01:07. Mientras se realizaban maniobras para recuperar el servicio en las subestaciones antes
+mencionadas, se vuele a tener una operación del circuito 2. Se deshacen las maniobras de
+recuperación.
+A la 01:12 se energizó nuevamente el circuito 2 y a la 01:28 se energizó el circuito 1. Nuevamente,
+entre la 01:30 y 01:32 operan los circuitos 2 y 1.
+Se despejan ambos circuitos y a las 01:37 se energiza el circuito 1 y se realizan maniobras que
+permiten recuperar el servicio en las subestaciones de esta línea.
+El personal de mantenimiento ubica letrero sobre barra 110 kV en Subestación Chacabuco, se
+informa al CCT, quien aísla el punto de falla despejando el transformador Nº5 abriendo su interruptor
+y desconectador 110 kV.
+Las 2 operaciones del circuito 1 (a las 00:57 y 01:32) se explican porque el letrero que se encontró
+en la fase blanca del paño 110 kV del transformador Nº5 de SE Chacabuco, cada vez que por efecto
+del viento lo acercaba a la fase roja causaba una operación automática.
+La operación del circuito 2 de la 01:10, también se explica por el letrero moviéndose entre la fase
+blanca y roja, cuando ese punto se había energizado al acoplar el circuito 1 con el 2.
+Las otras 2 operaciones del circuito 2, se deberían a elementos proyectados sobre los conductores de
+la línea en otros puntos, considerando que a esa hora en esa zona el viento era muy intenso. Estos
+no quedaron sobre los conductores. El patrullaje permitió encontrar evidencias de descarga en el tap
+Lo Boza, fase Roja.”
+“Acciones para la normalización del servicio y normalización de la instalación:
+ 02/08/2024 a las 00:59 horas Aviso a los especialistas de Mantenimiento y se da inicio a
+patrullajes de la línea para identificar punto de falla.
+ El patrullaje permite identificar un letrero de publicidad sobre el patio del transformador Nº5
+de SE Chacabuco (zona protegida por las protecciones de la línea). Se coordinan las acciones
+para aislar punto de falla, para retiro del letrero y evaluación de daños.”
+De acuerdo con los registros del Coordinador Eléctrico Nacional:

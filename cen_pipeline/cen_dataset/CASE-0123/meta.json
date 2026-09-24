@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0485-2024",
+  "eaf_num": 485,
+  "year": 2024,
+  "description": "Desconexión forzada del transformador N°1 66/13.2 kV de S/E El Monte",
+  "date": "24-09-2024",
+  "time": "16:16",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/10/EAF-485-2024.pdf",
+  "case_id": "CASE-0123",
+  "event_datetime": "2024-09-24T16:16:00",
+  "fault_label": "transformer_fault",
+  "telemetry_available": false,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".dwg"
+  },
+  "pending_conversion_path": null
+}

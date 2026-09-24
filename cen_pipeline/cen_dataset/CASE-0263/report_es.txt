@@ -1,0 +1,215 @@
+Estudio para análisis de falla EAF 346/2024
+“Falla en línea 66 kV Llollelhue - Los Lagos”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 11:38
+Consumos desconectados (MW) 6.30
+Demanda previa del sistema (MW) 10968
+Porcentaje de desconexión 0.057 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Tramo 66 kV Llollelhue - Paillaco / LT039CI1TR01----T0003
+Tipo de instalación Línea de transmisión
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno
+c. Identificación del elemento fallado
+Nombre del elemento fallado Tramo 66 kV Llollelhue - Paillaco / LT039CI1TR01----T0003
+Propietario elemento fallado Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno
+d.1 Origen y causa de la falla
+Se produjo un cortocircuito bifásico entre las fases A y C de la línea 66 kV Llollelhue - Los Lagos,
+despejado selectivamente por medio de las protecciones de los paños B1/B2 de S/E Llollelhue (con
+reconexión automática sin éxito) y, aunque de forma no selectiva, por medio de las protecciones del
+paño B3 de S/E Los Lagos.
+La causa de la falla corresponde a la presencia de una corteza de árbol sobre los conductores de la
+línea y un conductor cortado en el tramo 66 kV Llollelhue - Paillaco, con ocasión de temporal de viento
+en la zona.
+d.2 Fenómeno Físico:
+CLI2: Objeto llevado por el viendo hacia los conductores.
+La empresa remitió los probatorios asociados al Fenómeno Físico indicado y que son requeridos por la
+Resolución Exenta N°30989-2019 de la Superintendencia de Electricidad y Combustibles.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: se han producido 4 fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+La empresa STS S.A. indica: “Se desconecta el mismo día línea 66
+Falla en línea 66 kV
+EAF 327-2022 13-08-2022 kV Picarte – Corral de curso forzoso con el documento SD CF
+Picarte - Corral
+2023072726 para retiro corteza de árbol en estructura N°72”.
+La empresa STS S.A. indica “Sistema de Transmisión del Sur retiro
+Falla en línea 66 kV la corteza de árbol Eucaliptus de la línea 66 kV Remehue - Los
+EAF 467-2023 29-10-2023
+Remehue - La Unión N°1 Tambores el día 29/10/23”. La empresa STS S.A. no indica acciones
+correctivas de largo plazo.
+Desconexión forzada de
+EAF 176-2024 la línea 66 kV Picarte - 29-04-2024 No se indican.
+Corral
+La empresa Sistema de Transmisión del Sur S.A. señala: “Sistema
+Falla en línea 66 kV de Transmisión del Sur S.A. el día 31-07-24 bajo permiso de trabajo
+EAF 326-2024 31-07-2024
+Picarte - Corral de código interno realizó el retiro de la corteza de árbol sobre la
+línea 66 kV Picarte - Corral”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 6 fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 532/2023 y EAF
+177/2024).
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la falla corresponde a los conductores de la línea 66 kV Llollelhue - Los
+Lagos, específicamente en el tramo 66 kV Llollelhue - Paillaco. Al respecto, Sistema de Transmisión del
+Sur S.A. remitió los mantenimientos realizados durante los últimos 24 meses.
+De acuerdo con lo declarado por su propietario en el aplicativo Infotécnica, la línea posee las siguientes
+características técnicas:
+Sección tramo Llollelhue - Enmalle Aéreo, 66 kV
+• Largo: 195 m
+• Conductor: AAAC Cairo
+• Año de entrada en operación: 2020
+Sección tramo: Enmalle Aéreo - Tap Off Paillaco, 66 kV
+• Largo: 9.9 km
+• Conductor: Cobre (53.41 mm2)
+• Año de entrada en operación: 2020
+Sección tramo: Tap Off Paillaco - Los Lagos, 66 kV
+• Largo: 25.7 km
+• Conductor: Cobre (53.41 mm2)
+• Año de entrada en operación: 2020
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Cooperativa Eléctrica Paillaco Ltda. señala una densidad “extremadamente baja” en el caso
+del alimentador Paillaco.
+(*) Cabe mencionar que, producto de la presente falla, también resultaron afectados los consumos abastecidos
+desde el transformador 66/13.2 kV de S/E Los Lagos, los cuales no fueron reportados por empresa alguna. De
+acuerdo con los registros de la Plataforma de Registro de Medidas para Transferencias Económicas del Coordinador,
+se presume que los mencionados consumos en S/E Los Lagos serían abastecidos por Sociedad Austral de
+Electricidad S.A. (SAESA) y Cooperativa Eléctrica Paillaco LTDA (SOCOEPA).
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+h. Comuna donde se presenta la falla
+14107: Paillaco.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (03/08/2024) Informe de 5 días (08/08/2024)
+Cooperativa Eléctrica Paillaco Ltda. 20-08-2024* 20-08-2024*
+Sistema de Transmisión del Sur S.A. (STS S.A.) 02-08-2024 15-08-2024
+Transelec S.A. 02-08-2024 No remitido
+(*) Producto de dificultades técnicas del aplicativo Neomante en el caso particular del coordinado Cooperativa Eléctrica Paillaco
+Ltda., esta empresa no pudo cargar Informes de Falla en el aplicativo. Este caso ya se encuentra en proceso de solución mediante
+el soporte técnico. La fecha indicada corresponde al día de envío de los informes a través de correo electrónico, previa solicitud del
+Coordinador.
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+66 kV Llollelhue - Los Lagos ST Zonal Paillaco - Los Lagos 11:38 15:39
+13:28
+66 kV Llollelhue - Los Lagos ST Zonal Llollelhue - Paillaco 11:38
+(03-08-2024)
+- Horas señaladas corresponden a lo informado por la empresa STS S.A.
+c. Consumos
+Pérdida de %
+Sub- Alimentador Clientes H. H. H.
+Comuna Consumo consumo
+Estación / Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Los Lagos NI / NI NI *4.00 0.036 NI 11:38 11:40 11:40
+Paillaco Paillaco / NI Futrono, La Unión y Paillaco 2.30 0.021 3346 11:38 15:39 15:39
+Total: 6.30 MW 0.057 % 3346
+- Fechas y horas corresponden a los señalado por las empresas SOCOEPA y STS S.A.
+(*) Valor obtenido del registro histórico del SCADA del Coordinador.
+3. Estimación de la energía no suministrada
+Sub- Tipo de Pérdida de Tiempo Tiempo ENS
+Alimentador / Paño Empresa
+Estación Cliente Consumo (MW) Indispon. (h) Desc.(h) (MWh)
+Los Lagos NI / NI SAESA Regulado 4.00 0.03 0.03 0.1
+Paillaco Paillaco / NI SOCOEPA Regulado 2.30 4.02 4.02 9.2
+Clientes Regulados : 9.3 MWh
+Clientes Libres : MWh
+Total : 9.3 MWh
+- Los montos señalados corresponden a lo señalado por las empresas SOCOEPA y STS S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se observan diferencias entre los horarios de recuperación real respecto de los horarios de
+disponibilidad de las barras primarias respectivas para recuperar los consumos afectados.
+Potencia Tiempo Velocidad de
+Rango
+(MW) recuperación (h) recuperación (MW/h)
+Primer 80 % 5.04 4.02 1.25
+Último 20 % 1.26 4.02 0.31
+100 % Total 6.30 4.02 1.57
+1
+1
+1
+1
+1
+1
+6
+5
+4
+3
+2
+0
+9
+:4
+:3
+:2
+:1
+:0
+:4
+:3
+8
+6
+4
+2
+0
+8
+6
+6 3 .5
+R
+%
+e c u p e ra c ió n r e a l R e c u p e ra c ió n e s p e
+1 0
+ra d
+0
+a
+.0 %
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10968 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales: Cipreses (U1),
+Colbún (U1 y U2), Pehuenche (U1), Rapel (U1 y U2) y San Isidro II.
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+01 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 01 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Previo a la falla en la línea 66 kV Llollelhue - Los Lagos, el sistema de transmisión operaba con las
+siguientes indisponibilidades producto de diversas fallas y las unidades generadoras de la zona de la
+siguiente forma:
+• Líneas 2x66 kV Loncoche - Pullinque abiertas en ambos extremos.
+• Línea 66 kV Valdivia - Los Lagos abierta en ambos extremos.
+• Circuito N°1 de la línea 2x66 kV Pullinque - Los Lagos abierto en ambos extremos.
+• Unidades N°1 y N°3 de central Pullinque en servicio (Unidad N°2 fuera de servicio), evacuando
+su generación de forma radial hacia S/E Llollelhue.
+Otros antecedentes relevantes
+No hay.
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con auditorías, planes de acción u otro tipo de mantenimientos
+en curso.
+b) Acciones correctivas a corto plazo:
+Las empresas involucradas no indican acciones correctivas de corto plazo.
+c) Acciones correctivas a largo plazo:
+Las empresas involucradas no indican acciones correctivas de largo plazo.

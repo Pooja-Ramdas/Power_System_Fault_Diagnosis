@@ -1,0 +1,17 @@
+{
+  "eaf_id": "EAF-0445-2024",
+  "eaf_num": 445,
+  "year": 2024,
+  "description": "Desconexión forzada del transformador N°5 154/69 kV de S/E Coronel",
+  "date": "23-08-2024",
+  "time": "17:52",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/09/EAF-445-2024.pdf",
+  "case_id": "CASE-0163",
+  "event_datetime": "2024-08-23T17:52:00",
+  "fault_label": "transformer_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_metadata": null,
+  "pending_conversion_path": null
+}

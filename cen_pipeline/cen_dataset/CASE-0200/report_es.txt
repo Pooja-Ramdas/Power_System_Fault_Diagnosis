@@ -1,0 +1,195 @@
+Estudio para análisis de falla EAF 409/2024
+“Falla en la línea 66 kV Tres Pinos - Cañete”
+Fecha de Emisión: 26-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 04/08/2024
+Hora 18:18
+Consumos desconectados (MW) 10.28
+Demanda previa del sistema (MW) 9255.85
+Porcentaje de desconexión 0.111 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Tres Pinos - Cañete / LT046---------T0003
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes #441, Osorno, Región de los Lagos.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Sección tramo 66 kV Estructura Nº2 -Cañete /
+LT046CI1TR01T0003ST01T0003
+Propietario elemento fallado Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes #441, Osorno, Región de los Lagos.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Tres Pinos - Cañete por apertura automática del
+interruptor 52B2 de S/E Tres Pinos, debido a la operación de su protección de sobrecorriente residual
+instantánea, provocada por la caída de un árbol sobre la línea entre las estructuras Nº142 y Nº143,
+durante un temporal de mal tiempo.
+d.2 Fenómeno Físico
+ARB2: Caída de árbol sobre la línea o instalación.
+La empresa Sistema de Transmisión del Sur S.A. remite los siguientes antecedentes probatorios del
+fenómeno físico declarado.
+• Registro Fotográfico con fecha, hora y coordenadas UTM del punto de falla
+• Declaración jurada.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico durante los últimos 24 meses móviles, correspondiente al Estudio para Análisis de
+Falla EAF 431-2022.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea
+EAF 014-2023 66 kV Picarte 09-01-2023 No se indican.
+- Corral
+Falla en la línea
+EAF 016-2023 66 kV Picarte 11-01-2023 No se indican.
+- Corral
+Falla en la línea
+EAF 027-2023 110 kV Antillanca 23-01-2023 No se indican.
+- Río Bonito
+Falla en línea 66
+EAF 085-2023 20-02-2023 No se indican.
+kV Picarte - Corral
+Falla en línea 110
+EAF 224-2023 kV Antillanca - Río 23-05-2023 No se indican.
+Bonito
+Falla en la línea
+EAF 246-2023 66 kV Picarte - 08-06-2023 No se indican.
+Corral
+Falla en línea 110
+STS S.A. señala “retiro el árbol de la línea 110 kV Castro - Chonchi el día
+EAF 328-2023 kV Castro - 02-08-2023
+02-08-23”.
+Chonchi
+Falla en línea 66
+EAF 098-2024 kV Angol - Los 05-03-2024 La empresa STS S.A. señala que “No hay”.
+Sauces
+Falla en línea 110
+EAF 128-2024 02-04-2024 No se indican.
+kV Ancud - Chiloé
+Falla en línea 220
+EAF 129-2024 kV Nueva Ancud - 02-04-2024 Los coordinados involucrados no indicaron acciones correctivas.
+Chiloé
+La empresa Sistema de Transmisión del Sur S.A. señala: “Sistema de
+Falla en la línea
+Transmisión del Sur S.A. el día 03/04/24 Bajo el permiso de trabajo de
+EAF 132-2024 66 kV Licanco - 03-04-2024
+curso forzoso N°2024-02564 (ID Interna) Tala y retira el árbol sobre la
+Las Violetas
+línea 66 kV Licanco - Las Violetas”.
+Falla en línea 110
+No se señalan acciones correctivas a corto plazo por parte de los
+EAF 174-2024 kV Antillanca - Río 27-04-2024
+Coordinados involucrados
+Bonito
+Falla en línea 66 Sistema de Transmisión del Sur S.A. señala que "el día 31/07/24 mediante
+EAF 325-2024 kV Barro Blanco - 31-07-2024 permiso de trabajo de código interno realizó el retiro y tala del árbol que
+Pichil se encontraba sobre la línea 66 kV Barro Blanco - Pichil."
+Falla en línea 66 Sistema de Transmisión del Sur S.A señala: " el día 01/08/24 Bajo el
+EAF 341-2024 kV Licanco - Las 01-08-2024 permiso de trabajo de curso forzoso de código interno retira el árbol sobre
+Violetas la línea 66 kV Licanco - Las Violetas".
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 3 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 429-2022, EAF 431-2022 y EAF 251-2023.
+d.4 Fenómeno eléctrico
+SO50IR: Sobrecorriente instantánea de residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 66 kV Tres Pinos - Cañete, compuestas por
+los siguientes tramos:
+• Tramo Tres Pinos - Estructura Nº2, la que posee un largo de 0.07 km, conductor AAAC con una
+capacidad nominal de 52.6 [MVA] (permanente a 25°C con sol y a tensión nominal), y cuya
+fecha de entrada en operación corresponde al año 2014, según lo informado por su propietario
+en la plataforma Infotécnica del Coordinador.
+• Tramo Estructura Nº2 - Cañete, la que posee un largo de 29.494 km, con una capacidad
+nominal de 47.4 [MVA] (permanente a 25°C con sol y a tensión nominal), y cuya fecha de
+entrada en operación corresponde al año 2012, según lo informado por su propietario en la
+plataforma Infotécnica del Coordinador.
+Al respecto, la empresa Sistema de Transmisión del Sur S.A., adjunta información de los
+mantenimientos de esta instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La Empresa Eléctrica de la Frontera S.A. informa que la densidad de sus consumos afectados es baja
+y muy baja.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+h. Comuna donde se presenta la falla
+8203: Cañete.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(06-08-2024) (09-08-2024)
+Sistema de Transmisión del Sur S.A. 04-08-2024 16-08-2024
+CGE Transmisión S.A. 04-08-2024 14-08-2024
+Empresa Eléctrica de la Frontera S.A. 20-08-2024 26-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+(*)
+Línea 66kV Tres Pinos - Cañete ST Zonal Tres Pinos - Estructura Nº2 18:18 07:52
+Línea 66kV Tres Pinos - Cañete ST Zonal Estructura Nº2 - Cañete 18:18 07:52
+S/E Cañete ST Zonal Transformador Nº1 69/24 kV 18:18 07:55
+(*) Horarios corresponden al día 05/08/2024.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla (*)
+S/E Cañete Cañete /E2 Cañete 0.18 0.002 1 18:18 07:55 18:34
+S/E Cañete Cañete /E2 Cañete 0.05 0.001 1 18:18 07:55 18:45
+S/E Cañete Cañete /E2 Cañete 5.82 0.063 12863 18:18 07:55 20:24
+S/E Cañete Tirúa / E1 Tirúa 1.60 0.017 4005 18:18 07:55 22:33
+S/E Cañete Tirúa / E1 Contulmo 0.00** 0.000 4 18:18 07:55 07:55*
+S/E Cañete Tirúa / E1 Cañete 1.30 0.014 2046 18:18 07:55 08:01*
+S/E Cañete Cañete /E2 Los Álamos 1.33 0.014 1218 18:18 07:55 08:19*
+Total: 10.28 MW 0.111% 20138
+- Los montos y horarios señalados corresponden a lo informado por la Empresa Eléctrica de la Frontera S.A.
+(*) Horarios corresponden al día 05/08/2024.
+(**) La potencia no suministrada expresada MW no es nula, sin embargo, la cantidad de decimales no permite mostrar este valor.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Cañete Cañete /E2 FRONTEL Regulado* 0.18 37.62 0.27 0.0
+S/E Cañete Cañete /E2 FRONTEL Regulado* 0.05 37.62 0.45 0.0
+S/E Cañete Cañete /E2 FRONTEL Regulado 5.82 37.62 2.10 12.2
+S/E Cañete Tirúa / E1 FRONTEL Regulado 1.60 37.62 4.25 6.8
+S/E Cañete Tirúa / E1 FRONTEL Regulado 0.00** 37.62 13.62 0.0
+S/E Cañete Tirúa / E1 FRONTEL Regulado 1.30 37.62 13.72 17.8
+S/E Cañete Cañete /E2 FRONTEL Regulado 1.33 37.62 14.02 18.6
+Clientes Regulados : 55.4 MWh
+Clientes Libres : MWh
+Total : 55.4 MWh
+- Los montos y horarios señalados corresponden a lo informado por la Empresa Eléctrica de la Frontera S.A.
+(*) Incluye a clientes libres conectados a las redes de distribución.
+(**) La potencia no suministrada expresada MW no es nula, sin embargo, la cantidad de decimales no permite mostrar este valor.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados. Se informan la recuperación de parte de los consumos por redes de media tensión
+previos a la normalización de la línea.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 8.22 37.72 0.22
+Último 20 % 2.06 38.02 0.05
+100 % Total 10.28 38.02 0.27
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9255.85 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2, U3 y U4), Kelar (UTG1 y TG2), Mejillones (IEM), Nueva Renca (TG), Ralco
+(U1 y U2) y Tocopilla (TG3).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 04 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 04 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+04 de agosto de 2024.
+Mantenimientos

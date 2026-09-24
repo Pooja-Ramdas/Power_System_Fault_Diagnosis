@@ -1,0 +1,172 @@
+Estudio para análisis de falla EAF 375/2024
+“Falla en línea 110 kV Cerro Navia - Lo Aguirre N°2”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 23:51
+Consumos desconectados (MW) 16
+Demanda previa del sistema (MW) 9156.8
+Porcentaje de desconexión 0.186 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Cerro Navia - Lo Aguirre N°2, Tramos 110 kV Tap Lo Aguirre -
+Lo Prado / LT063CI2TR03----R002 y Tap San Pablo - Tap Lo Prado /
+LT039CI2TR05----R002
+Tipo de instalación Línea de Transmisión
+Tensión nominal 110 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+c. Identificación del elemento fallado
+Línea 110 kV Cerro Navia - Lo Aguirre N°2, Tramo 110 kV Tap Lo Aguirre -
+Nombre del elemento fallado
+Lo Prado / LT063CI2TR03----R002
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 110 kV Cerro Navia - Lo Aguirre N°2, a consecuencia
+de la operación de sus protecciones en la S/E Cerro Navia, ante una falla a tierra en la fase C,
+originada por un acortamiento de distancia eléctrica entre el puente de esta fase y la estructura del
+portal N°107 del tramo de línea Tap Lo Aguirre - Lo Prado 110 kV, en medio de un temporal de viento
+y lluvia en la zona.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+La Sociedad Transmisora Metropolitana S.A. remite en su informe de falla de 5 días antecedentes
+para acreditar el origen de la falla.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se ha producido una falla en
+instalaciones del mismo propietario con un fenómeno físico similar (homologado), durante los últimos
+24 meses móviles.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+Sociedad Transmisora Metropolitana S.A. indica lo siguiente:
+“Ocurrida la falla en forma inmediata se coordinó el recorrido de la línea el cual se
+realizó con datos entregados por las protecciones de distancia.
+El mismo día 7 de mayo se realizó recorrido por toda la zona urbana de la línea y
+verificación en la llegada a S/E La Dehesa. Dadas las condiciones ambientales y al ser
+horario nocturno no se pudo acceder a las zonas en cerro.
+El día 8 de mayo se realizó recorrido del Tap La Dehesa mediante camionetas y
+caballos sin encontrar datos de la falla.
+El día 9 de mayo se realizó una nueva inspección mediante el uso de drone,
+encontrándose signos de descargas entre la fase superior e inferior del circuito en
+Falla en línea
+vano entre torres 9 y 10 a aproximadamente 200 metros de la torre 10.
+2x110 kV El Salto -
+EAF 202_2024 07-05-2024 A posterior el día 10 de mayo se realizó una nueva visita al sector a modo de
+Los Almendros
+identificar físicamente el punto de la descarga.
+N°2
+Cabe destacar Tap la Dehesa ya cuenta con crucetas tipo cordillera a modo de evitar
+este tipo de eventos.
+En el punto 11, se adjuntan registros fotográficos de las inspecciones y el dato de la
+falla.
+Al analizar los registros de las protecciones, se identificó un desface horario en las
+protecciones del extremo Los Almendros. El pasado lunes 13 de mayo de 2024 se
+procedió a revisar esta situación, identificando
+suelto el conector responsable de la sincronización horaria. Se procedió a ajustar y se
+normalizó, se adjunta registro fotográfico.”
+o Enel Distribución Chile S.A. indica que no aplica.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: se han producido 3 fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 371-2022, EAF 452-
+2023, EAF 486-2023 y EAF 021-2024).
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 110 kV Cerro Navia - Lo Aguirre N°2. La
+empresa Sociedad Transmisora Metropolitana S.A. entrega las siguientes características:
+• Tramo Cerro Navia - Tap San Pablo, 3,64 km doble circuito en conductor AASC 2x400 mm2
+• Tramo Tap San Pablo - Lo Aguirre, 16,91 km en simple circuito en conductor AASC 1x160 mm2
+• Año de puesta en Servicio: 1980.
+La empresa Sociedad Transmisora Metropolitana S.A. remitió antecedentes respecto de los
+mantenimientos realizados durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+Las empresas Enel Distribución Chile S.A. y Compañía General de Electricidad S.A. no informan
+calificación.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+h. Comuna donde se presenta la falla
+13124: Pudahuel.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(04-08-2024) (09-08-2024)
+Sociedad Transmisora Metropolitana S.A. (STM) 05-08-2024 08-08-2024
+Enel Distribución Chile S.A. (Enel Dx) No remitido No remitido
+Compañía General de Electricidad S.A. (CGE) No remitido No remitido
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Cerro Navia - Lo Aguirre 110 KV ST Zonal Cerro Navia - Tap San Pablo C2 23:51 23:54
+Cerro Navia - Lo Aguirre 110 KV ST Zonal Tap San Pablo - Lo Aguirre C2 23:51 23:54
+Cerro Navia - Lo Aguirre 110 KV ST Zonal Lo Aguirre - Lo Prado C2 23:51 23:54
+- Fechas y horas señaladas corresponden a lo informado por Sociedad Transmisora Metropolitana S.A.
+c. Consumos
+Pérdida de %
+Alimentador / Clientes
+Sub-Estación Comuna Consumo consumo H. Desc. H. Dispon. H. Norm.
+Paño Afectados
+(MW) pre-falla
+Lo Aguirre NI NI 5 0,055 NI 23:51 23:54 23:54
+San Pablo NI NI 0 (*) 0,00 NI 23:51 23:54 23:54
+Lo Prado NI NI 1 (**) 0,098 NI 23:51 23:54 23:54
+Curacaví NI NI 10 0,033 NI 23:51 23:54 23:54
+Total: 16 MW 0.186 %
+- Horas señaladas corresponden a lo informado por Sociedad Transmisora Metropolitana S.A.
+- Montos señalados corresponden a lo observado en el SITR del Coordinador.
+(*) Según el SITR del Coordinador, se procesó la transferencia automática de los consumos a través del cierre del interruptor
+52HS1 S/E San Pablo.
+(**) Calculado a partir de los datos SITR: potencia previa en la línea 110 kV Cerro Navia – Lo Aguirre N°2 (38 MW), menos la
+potencia previa en las SS/EE Lo Aguirre (5 MW), San Pablo (22 MW) y S/E Curacaví (10 MW).
+3. Estimación de la energía no suministrada
+Pérdida de Tiempo
+Alimentador / Tipo de Tiempo ENS
+Sub-Estación Empresa Consumo Indispon.
+Paño Cliente Desc.(h) (MWh)
+(MW) (h)
+Enel
+Lo Aguirre NI Regulado 5 0.05 0.05 0.2
+Distribución
+Enel
+San Pablo NI Regulado 0 (*) 0.05 0.05 0.0
+Distribución
+NI Enel
+Lo Prado Regulado 1 (**) 0.05 0.05 0.5
+Distribución
+Curacaví NI CGE S.A. Regulado 10 0.05 0.05 0.1
+Clientes Regulados : 0.8 MWh
+Clientes Libres : MWh
+Total : 0.8 MWh
+- Horas señalados corresponden a lo informado por Sociedad Transmisora Metropolitana S.A.
+- Montos según lo observado en el SITR del Coordinador.
+(**) Calculado a partir de los datos SITR: potencia previa en la línea 110 kV Cerro Navia – Lo Aguirre N°2 (38 MW), menos la
+potencia previa en las SS/EE Lo Aguirre (5 MW), San Pablo (22 MW) y S/E Curacaví (10 MW).
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias significativas entre los horarios de recuperación real respecto de los
+horarios de disponibilidad de las barras primarias de las SS/SE Lo Aguirre, Lo Prado, y Curacaví.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 13.60 0.05 272.00
+Último 20 % 3.40 0.05 68.00
+100 % Total 17.00 0.05 340.00
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9156.8 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Angostura (U1,
+U2 y U3), Angostura (U3), Cipreses (U1), Colbún (U1 y U2), Mejillones (IEM), Tocopilla (U16), El Toro
+(U1, U3 y U4), Canutillar (U1 y U2), Ralco (U2), Rapel (U1), Rapel (U2), Rapel (U4) y Pehuenche
+(U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de agosto de 2024
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de agosto de 2024

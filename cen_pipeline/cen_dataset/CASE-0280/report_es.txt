@@ -1,0 +1,200 @@
+Estudio para análisis de falla EAF 329/2024
+“Falla en línea 66 kV Talcahuano - Latorre N°1”
+Fecha de Emisión: 22-08-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 31/07/2024
+Hora 20:38
+Consumos desconectados (MW) 5.80
+Demanda previa del sistema (MW) 10667.6
+Porcentaje de desconexión 0.054 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Talcahuano - Latorre N°1 / LT076CI1TR05----T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+3. Identificación del elemento fallado
+Nombre del elemento afectado Línea 66 kV Talcahuano - Latorre N°1 / LT076CI1TR05----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52B3 de S/E Talcahuano, asociado a la línea 66 kV
+Talcahuano - Latorre N°1, por operación de la protección de distancia del paño B3 de la S/E.
+La empresa CGE Transmisión S.A. indica que la causa de la falla corresponde al acortamiento de
+distancia entre los conductores producto de las condiciones climáticas imperantes en la zona.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS_CP ACCIONES_CORRECTIVAS_LP
+Falla en línea 66 kV La empresa CGE Transmisión S.A.
+EAF 277_2023 24-06-2023 La empresa CGE Transmisión S.A. señala que no aplica
+Charrúa - Lucero señala que no aplica
+Falla en línea 66 kV
+La empresa CGE Transmisión S.A.
+EAF 278_2023 San Fernando - 24-06-2023 La empresa CGE Transmisión S.A. señala que no aplica
+señala que no aplica
+Placilla
+Falla en línea 66 kV La empresa CGE Transmisión S.A.
+EAF 362_2023 22-08-2023 La empresa CGE Transmisión S.A. señala que no aplica
+Los Maquis - Hualañé señala que no aplica
+La empresa CGE Transmisión S.A. indica: “Se analizan eventos
+de relé SEL 387 S1 y SEL 351 S2. Al día siguiente se interrogan
+relés F4c asociados a los paños C1 y C2. Se observa que hay
+eventos en los horarios de falla. Se analizan eventos de relé SEL-
+311C. Se realiza una inspección del tramo completo de la LT 66
+Apertura kV Pan de Azúcar- Marquesa, sin evidencias de la falla. Se
+La empresa CGE Transmisión S.A.
+intempestiva de los realiza inspección visual y pruebas locales al interruptor 52B5
+indica: “N/A”
+EAF 394-2023 interruptores 52B5 y 06-09-2023 de S/E Pan de Azúcar el día de la falla, sin encontrar causa
+El resto de las empresas no indican
+52CT8 de S/E Pan de evidente (durante la semana del 25 al 29 del presente se
+acciones correctivas de largo plazo
+Azúcar realizarán pruebas exhaustivas al interruptor, para luego
+durante la semana del 2 al 6 de octubre presentar un informe
+del interruptor 52B5). Reemplazo de interruptor 52B5 de SE Pan
+de Azúcar (fecha estimada diciembre de 2023).”.
+El resto de las empresas no indican acciones correctivas de
+corto plazo.
+La empresa CGE Transmisión S.A. indica:
+- “Se realiza el afianzamiento con tirantes del poste externo
+Falla línea 66 kV
+cerca de la estructura E46 de la línea LT Alonso de Ribera- La empresa CGE Transmisión S.A.
+EAF 247-2024 Alonso de Ribera - 11-06-2024
+Chiguayante.” indica: “No hay”.
+Chiguayante
+- “Se realiza la conexión IRIG B a los relés 311C y 311L del paño
+B2 de S/E Alonso de Ribera con el reloj satelital.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido una falla
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 282/2024).
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 66 kV Talcahuano - Latorre N°1, la cual
+tiene 3.78 km de largo, una capacidad nominal de 35.5 MVA (permanente a 25°C con sol y a tensión
+nominal) y cuyo año de entrada en operación fue en 1978, de acuerdo con los registros del Sistema
+Infotécnica del Coordinador.
+La empresa CGE Transmisión S.A. remitió antecedentes respecto de los mantenimientos realizados
+durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa CGE S.A. señala: “Urbano”.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor o Caso Fortuito.
+La empresa CGE Transmisión S.A. remite los siguientes antecedentes en respaldo a la proposición del
+origen de la falla:
+• Informe técnico que especifique de qué forma el evento afectó a la instalación.
+• Informe público y conocido que acredite el evento aducido.
+h. Comuna donde se presenta la falla
+08110: Talcahuano.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(02-08-2024) (07-08-2024)
+Compañía General de Electricidad S.A. (CGE S.A.) 02-08-2024 08-08-2024
+CGE Transmisión S.A. 31-07-2024 09-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+14:58
+LT 2x66 kV Talcahuano - Latorre ST Zonal Talcahuano - Latorre N°1 20:38
+(04-08-2024)
+LT 66 kV Latorre - Tumbes ST Zonal - 20:38 21:20
+S/E Tumbes ST Zonal Transformador N°1 66/15 kV 20:38 21:59
+S/E Tumbes ST Zonal Barra 15 kV 20:38 22:01
+- Los horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Tumbes Hospital Naval / C3 Talcahuano 0.20 0.002 1 20:38 22:01 22:05
+S/E Tumbes Asmar / C2 Talcahuano 0.20 0.002 3 20:38 22:01 22:06
+S/E Tumbes Michimalongo / C4 Talcahuano 1.30 0.012 1354 20:38 22:01 22:06
+S/E Tumbes Base Naval / C1 Talcahuano 4.10 0.038 5369 20:38 22:01 22:07
+Total: 5.80 MW 0.054% 6727
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A. y CGE Transmisión S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Tumbes Hospital Naval / C3 CGE Regulado 0.20 1.38 1.45 0.3
+S/E Tumbes Asmar / C2 CGE Regulado 0.20 1.38 1.47 0.3
+S/E Tumbes Michimalongo / C4 CGE Regulado 1.30 1.38 1.47 1.9
+S/E Tumbes Base Naval / C1 CGE Regulado 4.10 1.38 1.48 6.1
+Clientes Regulados : 8.6 MWh
+Clientes Libres : MWh
+Total : 8.6 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A. y CGE Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+22:07
+22:07
+22:06
+22:06 22:06
+22:04
+22:05
+22:03
+22:01
+22:00 22:01 22:01 22:01 22:01
+21:59
+21:57
+3% 7% 29% 100%
+Recuperación real Recuperación esperada
+Se aprecian leves diferencias entre los horarios de recuperación esperada y recuperación real para
+los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 4.64 1.48 3.13
+Último 20 % 1.16 1.48 0.78
+100 % Total 5.80 1.48 3.91
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10667.60 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2, U3 y U4), Mejillones (IEM) y Ralco (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 31 de julio de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 31 de julio de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+31 de julio de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 31 de
+julio de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades:
+• El desconectador 89BS de S/E Latorre se encontraba abierto.
+• Los consumos de la S/E Latorre permanecieron alimentados de forma radial desde S/E Talcahuano
+por la línea 66 kV Talcahuano - Latorre N°2.
+• Los consumos de S/E Tumbes se encontraban alimentados, previo a la falla, de forma radial desde
+S/E Talcahuano por las líneas 66 kV Talcahuano - Latorre N°1 y Latorre - Tumbes.
+Otros antecedentes relevantes
+Según lo informado por la empresa CGE Transmisión S.A.:
+“A las 20:38 horas del día 31-07-2024 se produce la apertura del interruptor 52B3 de S/E Talcahuano,
+asociados a la línea 66 kV Talcahuano – Latorre N°1, afectando los consumos de S/E Tumbes, con un
+desprendimiento de carga de 5,8 MW. Cabe mencionar que al momento de la falla se registraban
+fuertes lluvias y vientos en la zona.
+Inmediatamente, el Centro de Control de CGE Transmisión (COT) y Turno Zonal, coordinan la revisión
+de protecciones e inspección pedestre del tramo de línea afectado. Además, en paralelo se coordina la
+recuperación de los consumos por redes de MT.
+Al desarrollar la revisión de la línea 66 kV Talcahuano – Latorre N°1, en función del kilometraje arrojado
+por la protección, no se detecta causa aparente de falla, es decir, daños en estructuras o conductores.
+Por tal motivo, se coordina la energización en vacío de la línea, lo cual se materializa con éxito a las
+21:03 hrs. A las 21:09 hrs. se recuperan parcialmente los consumos de los paños C3 (cto. Hospital
+Naval) y C4 (cto. Michimalongo) de S/E Tumbes.

@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0387-2024",
+  "eaf_num": 387,
+  "year": 2024,
+  "description": "Falla en línea 110 kV Cerro Navia – El Salto N°1",
+  "date": "02-08-2024",
+  "time": "01:32",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-387-2024.pdf",
+  "case_id": "CASE-0222",
+  "event_datetime": "2024-08-02T01:32:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".zip"
+  },
+  "pending_conversion_path": null
+}

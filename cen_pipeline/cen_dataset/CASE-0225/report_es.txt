@@ -1,0 +1,231 @@
+Estudio para análisis de falla EAF 384/2024
+“Falla en línea 110 kV San Bernardo - Malloco”
+Fecha de Emisión: 26-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 02/08/2024
+Hora 01:17
+Consumos desconectados (MW) 41.80
+Demanda previa del sistema (MW) 7427
+Porcentaje de desconexión 0.562 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV San Bernardo - Malloco / LT013CI1TR08----T0054
+Tipo de instalación Línea de Transmisión
+Tensión nominal 110 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 110 kV San Bernardo - Malloco / LT013CI1TR08----T0054
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+d.1 Origen y causa de la falla
+Se produjo un cortocircuito bifásico aislado de tierra en la línea 110 kV San Bernardo - Malloco,
+despejado correctamente desde el paño H3 de S/E San Bernardo.
+La causa de la falla se debió a la caída de un árbol sobre la línea entre las estructuras N°4 y N°5, con
+ocasión de lluvia y viento en la zona.
+d.2 Fenómeno Físico:
+ARB2: Caída de árbol sobre la línea o instalación.
+La empresa Sociedad Transmisora Metropolitana S.A. remitió probatorios asociados al Fenómeno Físico
+indicado.
+• Registro fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+• Declaración jurada que cumple con artículo 111, inciso 4 de N5.
+• Si el árbol se encontraba en propiedad de un tercero, acompañar las comunicaciones llevadas
+con el mismo a fin de evitar el evento acaecido.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación ha sido afectada por el mismo
+fenómeno físico, durante los últimos 24 meses móviles (EAF 439/2022).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: se han producido 2 fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles (EAF 439/2022 y EAF 240/2024).
+FECHA
+FALLA ID NOMBRE FALLA ACCIONES CORRECTIVAS
+FALLA
+Enel Transmisión S.A. indica lo siguiente:
+EAF Falla en línea 110 kV
+02-12-22 “Se coordina durante el mes de diciembre con dueño de predio aledaño a la línea, la tala de árboles con proyección
+439_2022 San Bernardo - Malloco
+ubicados fuera de la franja de servidumbre.”
+La empresa Sociedad Transmisora Metropolitana S.A. señala lo siguiente:
+EAF Falla en línea 2x110 kV “Montaje nueva torre en el mismo lugar de la siniestrada (julio-agosto 2024).
+06-06-24
+240_2024 Ochagavía - Florida Adelanto de gestión con propietarios y actividades de diagnóstico de salud de árboles fuera de faja de seguridad,
+pero con proyección sobre la Línea (actividad que estaba contemplado ejecutar dentro del plan verano 24-25)”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: se han producido tres fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 439/2022, EAF 072/2023
+y EAF 179/2023).
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 110 kV San Bernardo - Malloco, la cual
+consiste en una línea de 13.7 km de largo aproximadamente, con un conductor por fase del tipo Cu
+1/0 AWG, con una capacidad nominal de 58 MVA (permanente a 25°C con sol y a tensión nominal), y
+cuya fecha de puesta en servicio corresponde al año 1966, de acuerdo con los registros del Sistema
+Infotécnica del Coordinador.
+La empresa Sociedad Transmisora Metropolitana S.A. remitió antecedentes respecto de los
+mantenimientos realizados durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa CGE S.A. entrega el siguiente detalle por cada alimentador. Peñaflor: urbano; Talagante:
+urbano; Malloco: urbano; Loreto: urbano; Manuel Castillo: urbano; Emos Malloco: urbano y rural;
+Autopista del Sol: urbano; El Trébol: urbano y rural; Cuesta Barriga: urbano y rural.
+g. Proposición del propietario respecto del origen de la falla
+Caso fortuito o fuerza mayor.
+h. Comuna donde se presenta la falla
+13401: San Bernardo.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (04/08/2024) Informe de 5 días (09/08/2023)
+Sociedad Transmisora Metropolitana S.A. 07/08/2024 09/08/2024
+Compañía General de Electricidad S.A.
+07/08/2024 08/08/2024
+(CGE S.A.)
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+San Bernardo - Malloco 100 kV ST Zonal 01:17 15:09
+- Fechas y horas señaladas corresponden a lo informado por Sociedad Transmisora Metropolitana S.A.
+c. Consumos
+Pérdida de %
+Sub- Clientes H. H. H.
+Alimentador / Paño Comuna Consumo consumo
+Estación Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Padre Hurtado y
+Malloco Malloco / C5 4.70 0.063 7818 1:17 15:09 22:36
+Peñaflor
+Calera de Tango,
+Malloco Manuel Castillo / C4 5.20 0.070 8035 1:17 15:09 22:37
+Peñaflor y Talagante
+Padre Hurtado y
+Malloco Peñaflor / C1 8.10 0.109 14501 1:17 15:09 22:42
+Peñaflor
+Calera de Tango y
+Malloco El Trébol / E3 1.02 0.014 348 1:17 15:09 22:45
+Peñaflor
+Calera de Tango,
+Malloco Talagante / C2 7.21 0.097 2321 1:17 15:09 22:48
+Peñaflor y Talagante
+Malloco Emos Malloco / E1 Peñaflor 1.00 0.013 3 1:17 15:09 22:50
+Malloco Autopista del Sol / E2 Peñaflor y Talagante 7.30 0.098 15793 1:17 15:09 23:08
+Peñaflor y Padre
+Malloco Cuesta Barriga / E4 2.77 0.037 533 1:17 15:09 23:12
+Hurtado
+Malloco Loreto / C3 Peñaflor y Talagante 4.50 0.061 9591 1:17 15:09 23:26
+Total: 41.80 MW 0.562 % 58943
+- Fechas, horas y montos señalados corresponden a lo informado por Compañía General de Electricidad S.A. y Sociedad Transmisora
+Metropolitana S.A.
+3. Estimación de la energía no suministrada
+Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Alimentador / Paño Empresa
+Cliente Consumo (MW) Indispon. (h) Desc.(h) (MWh)
+Malloco Malloco / C5 CGE Regulado 4.70 13.87 21.32 100.2
+Malloco Manuel Castillo / C4 CGE Regulado 5.20 13.87 21.33 110.9
+Malloco Peñaflor / C1 CGE Regulado 8.10 13.87 21.42 173.5
+Malloco El Trébol / E3 CGE Regulado 1.02 13.87 21.47 21.9
+Malloco Talagante / C2 CGE Regulado 7.21 13.87 21.52 155.1
+Malloco Emos Malloco / E1 CGE Regulado 1.00 13.87 21.55 21.6
+Malloco Autopista del Sol / E2 CGE Regulado 7.30 13.87 21.85 159.5
+Malloco Cuesta Barriga / E4 CGE Regulado 2.77 13.87 21.92 60.7
+Malloco Loreto / C3 CGE Regulado 4.50 13.87 22.15 99.7
+Clientes Regulados : 903.1 MWh
+Clientes Libres : 0.00 MWh
+Total : 903.1 MWh
+- Fechas, horas y montos señalados corresponden a lo informado por Compañía General de Electricidad S.A. y Sociedad Transmisora
+Metropolitana S.A.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecian diferencias significativas entre los horarios de recuperación real respecto de los
+horarios de disponibilidad de las barras primarias respectivas para recuperar los consumos
+afectados, las cuales pueden responder al hecho que posterior a la normalización de la línea se
+detectó un conector en mal estado en el paño H3 de S/E San Bernardo, lo cual fue atendido
+mediante una nueva desconexión de la línea a las 16:42 horas.
+2
+1
+1
+1
+1
+2
+0
+1
+9
+6
+4
+2
+:2
+:0
+:3
+:1
+:4
+:2
+:0
+4
+0
+6
+2
+8
+4
+0
+1 1 .2 % 2 3 .7 % 4 3 .1 %
+R e c u p e ra
+4 5 .5
+c ió n
+%
+re a l
+6 2 .8 %
+R e c u p e
+6
+ra
+5
+c
+.1
+ió
+%
+n e s p e ra
+8
+d
+2
+a
+.6 % 8 9 .2 % 1 0 0 .0 %
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 33.44 21.85 1.53
+Último 20 % 8.36 22.15 0.38
+100 % Total 41.80 22.15 1.89
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 7427 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales: Atacama
+(TG1+TV1), Cochrane (CCH2), Mejillones (CTM3), Pehuenche (U1), Rapel (U1 y U3) y San Isidro II
+(TG+TV).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 02 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 02 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+02 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 02 de
+agosto de 2024.
+Estado y configuración previo a la falla
+En los momentos previos a la desconexión forzada, el sistema de transmisión operaba de forma normal.
+Otros antecedentes relevantes
+Según lo informado por Sociedad Transmisora Metropolitana S.A.:
+“El pasado viernes 02 de agosto de 2024 las 01:17 horas, se produjo la operación automática (OA) del
+interruptor de la línea 1x110kV San Bernardo – Malloco, debido a una falla provocada por la caída de
+un árbol sobre los conductores eléctricos de esta línea en el vano 4 y 5.
+El árbol estaba ubicado fuera de la franja de seguridad, a casi 25 30 metros del eje de la línea, dentro
+de un terreno privado (Avícola Trinidad SA) específicamente en Camino Catemito 390, San Bernardo,
+Región Metropolitana.
+Se adjunta informe de cálculo de franja de seguridad según pliego técnico normativo RPTD N° 07:
+resultando 17 metros a cada lado del eje de la línea.
+La caída del árbol se debió a que sufrió desprendimiento desde su base (aparentemente por la
+saturación del terreno producto de las lluvias, sumado a las ráfagas de viento que pasaron los 120

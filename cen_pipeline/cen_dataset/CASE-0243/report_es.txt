@@ -1,0 +1,155 @@
+Estudio para análisis de falla EAF 366/2024
+“Desconexión forzada de la barra 12 kV N°2 de S/E Concón”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 18:37
+Consumos desconectados (MW) 6.60
+Demanda previa del sistema (MW) 11008.2
+Porcentaje de desconexión 0.060 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Barra N°2 12 kV S/E Concón / BA05T0057SE007T0057
+Tipo de instalación Barra
+Tensión nominal 12 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso
+3. Identificación del elemento fallado
+Nombre del elemento afectado Barra N°2 12 kV S/E Concón / BA05T0057SE007T0057
+Propietario elemento fallado Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52CT2 de S/E Concón, correspondiente a la
+protección general de la barra 12 kV N°2 de S/E Concón, por medio de la operación de su protección
+de sobrecorriente de fase.
+La empresa Chilquinta Transmisión S.A. declara que se produjo una falla simultánea en los
+alimentadores Higuerillas (paño C3) y Refinerías (paño C6), lo cual genera la operación coincidente de
+las protecciones de sobrecorriente asociadas a los interruptores 52CT2 y 52C3 de S/E Concón.
+d.2 Fenómeno Físico:
+OPE6: Fallas en instalaciones de terceros u en otro segmento.
+La empresa Chilquinta Transmisión S.A. envía los probatorios ara acreditar el fenómeno físico
+determinado por el Coordinador.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Desconexión forzada del La empresa Chilquinta Transmisión S.A. no indica acciones
+EAF 438_2023
+transformador N°2
+12-10-2023
+correctivas.
+66/13.2 kV de S/E La empresa Luzlinares S.A. indica en su Informe de Falla de 48
+Linares Norte horas lo siguiente: “Falla Externa”.
+Desconexión forzada del
+transformador N°1
+EAF 443_2023 17-10-2024 No se indican.
+66/13.2 kV de S/E
+Linares Norte
+Desconexión forzada del
+transformador N°2 Las empresas Chilquinta Transmisión S.A. y Luzlinares S.A. no
+EAF 107-2024 17-03-2024
+66/13.2 kV de S/E indican acciones correctivas a corto plazo.
+Linares Norte
+Desconexión forzada del Chilquinta Transmisión S.A. indica lo siguiente:
+transformador N°1 “Dado el evento ocurrido, se enviará carta formal indicando el
+EAF 289_2024 23-06-2024
+66/13.2 kV de S/E desbalance anormal registrado, lo cual produjo la operación del
+Linares Norte relé maestro del Transformador de poder N°1”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+La instalación donde ocurrió la desconexión forzada corresponde a la barra 12 kV N°2 de S/E Concón,
+la cual, de acuerdo con lo declarado por su propietario en la plataforma Infotécnica, posee las
+siguientes características:
+• Capacidad nominal de corriente permanente: 1.2 kA
+• Tipo: Barra Cu IPS 532.04 mm2
+• Año de entrada en operación: 2018
+f. Ubicación urbana o rural según DS 327/1997
+No fue informado por la empresa Chilquinta Distribución S.A.
+g. Proposición del propietario respecto del origen de la falla
+Externa.
+h. Comuna donde se presenta la falla
+05103: Concón.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (03-08-2024) Informe de 5 días (08-08-2024)
+Chilquinta Transmisión S.A. 01-08-2024 08-08-2024
+Chilquinta Distribución S.A. No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Concón ST Zonal Barra 12 kV N°2 18:37 19:30
+- Los horarios señalados corresponden a lo informado por la empresa Chilquinta Transmisión S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+S/E Concón Tabolango / C4 NI 2.60 0.024 NI 18:37 19:30 19:33
+S/E Concón Refinería / C6 NI 2.60 0.024 NI 18:37 19:30 19:33
+S/E Concón Higuerilla / C3 NI 1.40 0.012 NI 18:37 19:30 20:35
+Total: 6.60 MW 0.060% NI
+- Los montos y horarios señalados corresponden a lo informado por la empresa Chilquinta Transmisión S.A.
+NI: No fue informado por parte de la empresa Chilquinta Distribución S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Concón Tabolango / C4 Chilquinta Dx Regulado 2,60 0.88 0.93 2.4
+S/E Concón Refinería / C6 Chilquinta Dx Regulado 2,60 0.88 0.93 2.4
+S/E Concón Higuerilla / C3 Chilquinta Dx Regulado 1,40 0.88 1.97 2.8
+Clientes Regulados : 7.6 MWh
+Clientes Libres : MWh
+Total : 7.6 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Chilquinta Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 5.28 1.97 2.68
+Último 20 % 1.32 1.97 0.67
+100 % Total 6.60 1.97 3.36
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 11008.2 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales El Toro (U1, U2, U3 y U4), Mejillones (IEM) y Ralco (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+01 de agosto de 2024.
+20:52
+20:38
+20:24
+20:09
+19:55
+19:40
+19:26
+19:12
+18:57
+18:43
+19:33 19:30
+39%
+R ecu p eració n real
+19:33 19:30
+79%
+R ecu p eració n esp erad a
+20:35
+19:30
+100%

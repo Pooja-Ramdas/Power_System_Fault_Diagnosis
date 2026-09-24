@@ -1,0 +1,329 @@
+Estudio para análisis de falla EAF 443/2024
+“Falla en línea 220 kV Atacama - Miraje N°1”
+Fecha de Emisión: 12-09-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 22/08/2024
+Hora 11:22
+Consumos desconectados (MW) 30.0
+Demanda previa del sistema (MW) 9803.0
+Porcentaje de desconexión 0.306%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Línea 220 kV Atacama- Miraje N°1 / LT151CI1TR01----T0002
+Tipo de instalación Línea
+Tensión nominal 220 kV
+Segmento Transmisión nacional
+Propietario instalación afectada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Santiago
+3. Identificación del elemento fallado
+Nombre del elemento afectado Línea 220 kV Atacama- Miraje N°1 / LT151CI1TR01----T0002
+Propietario elemento fallado Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Santiago
+d.1 Origen y causa de la falla
+Se produjo la apertura automática de los interruptores 52J5 de S/E Atacama, 52J5 y 52J6 de S/E
+Miraje y 52J1 de S/E Tap Off Enlace, correspondientes al circuito N°1 de la línea 2x220 kV Atacama -
+Miraje, por medio de la operación de sus protecciones de distancia.
+La empresa Transelec S.A. indica que la causa de la falla fue el colapso del cuerpo superior de la
+estructura N°15 de la línea 2x220 kV Atacama - Miraje, durante la ejecución de trabajos programados
+asociados al cambio de conductor en mencionada línea.
+d.2 Fenómeno Físico:
+OPE1: Trabajos en instalaciones.
+La empresa Transelec S.A. remite los antecedentes probatorios para acreditar el fenómeno físico.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FECHA HORA
+FALLA ID NOMBRE FALLA ACCIONES CORRECTIVAS CP ACCIONES CORRECTIVAS LP
+FALLA FALLA
+La empresa Transelec S.A. señala que
+Desconexión del La empresa Transelec S.A. señala que no existen
+no existen acciones correctivas, ya
+EAF 381_2022 transformador 220/23 17-10-22 11:19 acciones correctivas, ya que no hubo un
+que no hubo un comportamiento
+kV de S/E Atacama comportamiento erróneo de sus instalaciones.
+erróneo de sus instalaciones.
+Falla en línea 110 kV Las
+EAF 498_2022 Compañías - Pan de 28-12-22 12:47 No hay. No hay.
+Azúcar
+Transelec S.A. informa como Planes
+de acción lo siguiente: Por el evento
+ocurrido Transelec inició un proceso
+interno de análisis de estos activos y
+otros, en donde pudieran repetirse
+Enap Refinerías señala: Reemplazo de aislador las mismas condiciones con la
+dañado. Transelec S.A. informa Acciones correctivas finalidad de
+Falla en línea 2x66 kV
+EAF 106_2023 06-03-23 15:41 inmediatas asociadas a la normalización de las aumentar la confiabilidad las
+Petropower - ERBB
+instalaciones y reparación de daños ocurridos por la instalaciones, según los análisis de
+descarga eléctrica el día 07.03.23. riesgos en caso de que corresponda.
+Señala además que se ejecutarán
+otras actividades cuyo detalle se
+encuentra disponible en EAF 106-
+2023. Enap Refinerías S.A. señala: En
+análisis.
+La empresa Transelec S.A. indica acciones
+Apertura del interruptor correctivas de corto plazo.
+EAF 199_2023 52H9 de S/E Diego de 02-05-23 20:55 La empresa Enel Green Power Chile S.A. No se indican.
+Almagro indica que no se consideran acciones
+correctivas.
+Transelec S.A. señala que “se
+Desconexión forzada del Transelec S.A. señala que “se programaron los programaron los trabajos
+transformador Nº3 trabajos (AT108136) para investigar la causa que (AT108136) para investigar la causa
+EAF 281_2023 24-06-23 18:15
+154/69/13.8 kV de S/E originó la señal binaria que accionó al relé maestro que originó la señal binaria que
+San Vicente del transformador.” accionó al relé maestro del
+transformador.”
+La empresa Transelec S.A. señala que se observaron
+problemas de comunicación para completar el
+esquema de aceleración entre los extremos de la La empresa Transelec S.A. no indica
+Línea en paño A2 de S/E Alto Jahuel y paño A4 de S/E acciones correctivas a largo plazo.
+Falla en línea 154kV Alto
+Nueva Punta de Cortés, por lo que se gestionará una La empresa CGE Transmisión S.A.
+EAF 329_2023 Jahuel - Rancagua - 03-08-23 03:31
+investigación sobre la causa y las acciones señala que no aplica.
+Punta de Cortés C2
+correctivas. La empresa CGE Transmisión S.A. señala La empresa Minera Valle Central S.A.
+que se normaliza bornera seccionable en caseta de señala que no aplica.
+S/E Graneros, y se programará intervención al relé
+SEL-451 asociado a la protección por EDAC-BF.
+FECHA HORA
+FALLA ID NOMBRE FALLA ACCIONES CORRECTIVAS CP ACCIONES CORRECTIVAS LP
+FALLA FALLA
+La empresa Transelec S.A. señala lo siguiente:
+“Se suspendieron de forma temporal los trabajos
+programados en S/E Charrúa a la espera de tener
+mayor claridad sobre las razones de la desconexión y
+elaborar un programa de trabajo que contemple
+medidas para evitar este tipo de desviaciones.
+En cuanto al interruptor 52J10, se está estudiando la
+continuidad del conductor del sistema de control que
+conecta el relé diferencial de barra con el paño J10 y
+la razón por la cual el interruptor no obedeció orden
+de apertura. Esta acción es llevada a cabo en
+coordinación con CMPC.”
+Desconexión forzada de
+La empresa Bioenergías Forestales SpA señala lo
+EAF 378_2023 la barra 220 kV N°2 de 27-08-23 03:27 No se indican.
+siguiente:
+S/E Charrúa
+“Como medida correctiva a corto plazo se realizará
+revisión de señal de referencia de GPS en S/E Celulosa
+Santa Fe.”
+“Como medida correctiva a corto plazo se requiere
+una revisión del sincronismo horario de la protección
+MICOM P142 dado que difiere de lo indicado en las
+protecciones ABB RED670 y MICOM P443.”
+“Posterior a la falla, una vez superado el evento y en
+coordinación con Transelec y el CDC, se procede a
+cerrar el interruptor 52J10 de forma exitosa a las
+03:52 horas iniciando el proceso de normalización de
+las plantas vinculadas a la LT 220 KV Charrúa – Planta
+Rio Vergara y LT220kV Planta Rio Vergara - Pacífico.”
+Transelec S.A. informa lo siguiente:
+• “Una vez ocurrida la falla se solicitó a personal de
+control de Transelec revisar el estado del relé de
+enclavamiento 86T1 por la alarma indicada en el
+SCADA. Como consecuencia, el reconectador 52E1 no
+obedecía orden de cierre remoto.
+• Se procede a revisar los planos para ubicar las
+posibles causas de activación del relé 86T1.
+• Se descargan los registros del reconectador 52E1,
+en el cual se evidencia que no hubo operación de
+protecciones, solo apertura por trip externo en este
+caso por el 86T1.
+• Se procede a medir en puntos de borneras
+correspondientes a protecciones mecánicas del
+transformador 1 de 110/23 kV de S/E Castilla,
+ubicada en la caja de agrupamiento y se detectó que
+la válvula de sobrepresión se encontraba operada.
+• Se verifica en armario de control y medidas del
+paño HT1 que el relé 86T1 se encontraba operado y
+no obedecía orden de reset.
+Apertura intempestiva
+• El personal de equipos primarios de Transelec
+EAF 437_2023 del interruptor 52E1 de 11-10-23 15:18 No se indican.
+indica que un cable se encontraba desconectado en
+S/E Castilla
+el interior de la caja de conexiones del relé Buchholz,
+proceden a normalizarlo, reestableciendo el valor de
+tensión positiva.
+• Personal de equipos primarios revisa la caja de
+válvula de sobrepresión, encontrando agua en el
+interior de esta.
+• Se realiza limpieza del agua al interior de la caja de
+la válvula de sobrepresión, luego se verifica que la
+operación de la válvula provoca la operación del
+86T1.
+• Se normaliza la válvula de sobrepresión, al realizar
+el secado y limpieza del área afectada, se da una
+nueva orden de reset al relé 86T1 con éxito,
+reestableciendo la operación normal del mismo.
+• Por último, Se notifica al operador de Transelec que
+las condiciones están óptimas para normalizar el
+transformador 1 de 1100/23 kV y el reconectador
+52E1. Transelec realiza la reconexión manual de
+prueba con éxito del paño E1, normalizando la
+topología del sistema previo a la falla.”
+La empresa Transelec S.A. señala:
+Desconexión forzada de
+“Luego de la desconexión indeseada, se detienen los
+EAF 516_2023 las barras N°1 y N°2 110 30-11-23 19:22 No se indican.
+trabajos y se realiza reposición de las instalaciones
+kV de S/E Alto Jahuel
+afectadas. No se continúa con la faena”.
+FECHA HORA
+FALLA ID NOMBRE FALLA ACCIONES CORRECTIVAS CP ACCIONES CORRECTIVAS LP
+FALLA FALLA
+Según lo indicado por la empresa Transelec S.A.
+• “Inmediatamente posterior a la falla, los trabajos
+programados son detenidos y se procede a constatar
+la condición del personal participante en las
+maniobras de altura, verificándose todo el personal
+en buenas condiciones.
+Falla en línea 220 kV • Respecto al plan de acción para la continuación de Las empresas involucradas no indican
+EAF 527_2023 08-12-23 14:19
+Atacama - Esmeralda los trabajos se ha implementado mejoras al acciones correctivas a largo plazo.
+procedimiento, enfocadas a reforzar los mecanismos
+de sujeción y estabilidad de la escalera dieléctrica,
+además de validar esto mediante pruebas de carga.
+Estas medidas fueron validadas mediante ensayo
+práctico el día 9 de diciembre, sin intervención de la
+línea energizada.”.
+La empresa Transelec S.A., en su documento
+“Informe Técnico Desconexión forzada TR1 y TR2 SE
+Laja 6613.2 kV”, indica lo siguiente:
+• “Se detuvieron las faenas.
+• Análisis preliminar de causa de falla.
+• Gestión de atención de emergencia.
+Desconexión de
+• Gestión de medidas preventivas.” La empresa Transelec S.A. indica lo
+EAF 535_2023 transformadores 14-12-23 10:37
+• “Se está realizando una revisión de los siguiente:” No aplica”
+66/13.8 kV S/E Laja
+procesos y procedimientos de seguridad eléctrica en
+la obra, identificando los puntos de mejora en la
+gestión de riesgo, tales como incluir en la evaluación
+de distancias de seguridad un mayor rango de
+desplazamiento de los elementos móviles usados
+durante las faenas.”
+La empresa Transelec S.A. indica lo siguiente:
+“Al momento de conocer la causa de la desconexión
+La empresa Transelec S.A. indica la
+Apertura intempestiva se ejecutaron las siguientes acciones correctivas:
+misma acción declarada para corto
+EAF 239_2024 del interruptor 52J8 de 05-06-24 15:06 Se suspenden las actividades asociadas al reemplazo
+plazo.
+S/E Cardones de URT de S/E Cardones, cuyos avisos de trabajo
+corresponde a los N°2024052429, N°2024052430 y
+N°2024052431.”
+La empresa Transelec S.A. indica:
+“Al momento de conocer la causa de la desconexión
+se ejecutaron las siguientes acciones correctivas:
+1. Se detuvieron los trabajos de lavado de aislación y
+se realiza la desvinculación del aislador afectado
+para proceder con la recuperación del servicio.
+2. Una vez normalizada la sección 1 de la Barra de
+Desconexión forzada de
+220kV de S/E Atacama, se procede a realizar un
+la barra N°1 y barra de
+EAF 297_2024 05-07-24 09:36 análisis visual del aislador de pedestal que presentó No se indican.
+transferencia 220 kV de
+la falla y se concluyó que no se encontraba en
+S/E Atacama
+condiciones de ser reenergizado, por lo que la barra
+de transferencia quedó indisponible.
+3. Con el fin de reponer la barra de transferencia lo
+antes posible, se procedió a desvincular el puente
+primario de la Fase C entre el desconectador 89J2-3 y
+la Barra de Transferencia con el fin de que el aislador
+fallado quedase fuera de servicio.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se ha producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 2x220 kV Atacama - Miraje, la que posee
+una longitud de 142 km y un conductor ACAR 700 MWM, con una temperatura de diseño de 50°C y
+una capacidad de 472.9 MVA (permanente a 25°C con sol y tensión nominal) y cuya fecha de entrada
+en operación fue el año 1999 de acuerdo con lo informado por el propietario en la plataforma
+Infotecnica del Coordinador.
+La empresa Transelec S.A. remitió antecedentes respecto de mantenimientos realizados a instalaciones
+de su propiedad, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+02102: Mejillones.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(24-08-2024) (29-08-2024)
+Transelec S.A. 22-08-2024 29-08-2024
+Minera Antucoya 22-08-2024 30-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 2x220 kV Atacama - Miraje C1 ST Nacional Atacama - Tap Off Enlace 11:22 16:37
+12:14
+LT 2x220 kV Atacama - Miraje C1 ST Nacional Tap Off Enlace - Estructura E-53 11:22
+(04-09-2024)
+12:14
+LT 2x220 kV Atacama - Miraje C1 ST Nacional Estructura E-53 - Atacama 11:22
+(04-09-2024)
+S/E Antucoya ST Dedicado Barra 220 kV 11:22 16:40
+S/E Antucoya ST Dedicado Transformador N°1 220/23 kV 11:22 16:40
+S/E Antucoya ST Dedicado Transformador N°2 220/23 kV 11:22 16:41
+- Los horarios señalados corresponden a lo informado por la empresa Transelec S.A.
+(*): Corresponde al horario de finalización de la solicitud de curso forzoso N°2024091759, con la cual se realizó el cierre de puentes
+en la estructura N°31 de la línea 2x220 kV Atacama - Miraje.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Antucoya - Antofagasta 30.00 0.306 1 11:22 16:41 16:41
+Total: 30.00 MW 0.306% 1
+- Los montos y horarios señalados corresponden a lo informado por las empresas Minera Antucoya y Transelec S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Antucoya - MINERA ANTUCOYA Libre 30.00 5.32 5.32 159.5
+Clientes Regulados : MWh
+Clientes Libres : 159.5 MWh
+Total : 159.5 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Minera Antucoya y Transelec S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para
+los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 24.00 5.32 4.51
+Último 20 % 6.00 5.32 1.13
+100 % Total 30.00 5.32 5.64
+19:12
+16:48
+14:24
+12:00
+09:36
+07:12
+04:48
+02:24
+00:00
+R ecuperación real
+1166::4411
+100%
+R ecuperación esperada

@@ -1,0 +1,17 @@
+{
+  "eaf_id": "EAF-0344-2024",
+  "eaf_num": 344,
+  "year": 2024,
+  "description": "Falla en línea 66 kV Pitrufquén – Lastarria N°2",
+  "date": "01-08-2024",
+  "time": "11:28",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-344-2024.pdf",
+  "case_id": "CASE-0265",
+  "event_datetime": "2024-08-01T11:28:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "synthetic_fallback",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": null,
+  "pending_conversion_path": null
+}

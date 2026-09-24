@@ -82,10 +82,25 @@ TRANSLATION_MODEL = "Helsinki-NLP/opus-mt-es-en"   # local, offline, free, ~300M
 # coordinates from the InfoTecnica API.
 DIAGRAM_DPI = 110
 
-# Delete the raw downloaded EAF PDFs after extracting their text (recommended --
-# this is what keeps the final dataset small; the PDFs themselves can be
-# re-downloaded any time from pdf_url in manifest.csv if you ever need them).
+# ---------------------------------------------------------------------------
+# Storage & Retention Policy
+# ---------------------------------------------------------------------------
+# Delete raw downloaded official PDF diagrams after rendering to image.png
+KEEP_RAW_DIAGRAM_PDFS = False
 KEEP_RAW_PDFS = False
+
+# Delete raw archives (.rar, .dwg, .zip) for official_archive_pending_conversion
+# cases after storing re-fetch metadata (tipo, installation_id, document_id, filename)
+# in meta.json. The free InfoTecnica API allows re-fetching any doc on demand.
+KEEP_PENDING_CONVERSION_ARCHIVES = False
+
+# Cap rendered diagram image long-edge resolution in pixels (e.g. 1200px)
+# to avoid multi-megabyte PNG renders on large-format engineering PDFs.
+IMAGE_MAX_LONG_EDGE_PX = 1200
+
+# Minimum free disk space safety threshold (in MB). build_dataset.py will stop
+# safely if free space on the dataset drive drops below this limit.
+MIN_FREE_DISK_SPACE_MB = 1000
 
 # Reproducible sampling when TARGET_N_CASES < number of scraped reports
 RANDOM_SEED = 13
@@ -99,7 +114,7 @@ RANDOM_SEED = 13
 # browser version is MMM..." error, open chrome://version in Chrome, take
 # the major version number (the first number before the first dot) and set
 # it here -- e.g. if chrome://version says "152.0.7977.83", set 152.
-CHROME_MAJOR_VERSION = 152
+CHROME_MAJOR_VERSION = 153
 
 
 # ---------------------------------------------------------------------------
@@ -110,5 +125,6 @@ CHROME_MAJOR_VERSION = 152
 # probe_infotecnica.py once before your first real build to confirm the API
 # field names hard-coded there.
 USE_REAL_INFOTECNICA_IMAGES = True
+
 
 

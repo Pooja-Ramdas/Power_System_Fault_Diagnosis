@@ -1,0 +1,270 @@
+Estudio para análisis de falla EAF 349/2024
+“Falla en la línea 2x66 kV Ejército - Guindo”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 12:21
+Consumos desconectados (MW) 9.3
+Demanda previa del sistema (MW) 10476.03
+Porcentaje de desconexión 0.088 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Tramos Tap Cerro Chepe - Guindo de los circuitos N°1 y N°2 de la línea
+2x66 kV Ejército - Guindo / LT282CI1TR01----T0058 y LT282CI1TR02----
+T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 14, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento afectado Conductores de los tramos Tap Cerro Chepe - Guindo de los circuitos N°1 y
+N°2 de la línea 2x66 kV Ejército - Guindo / LT282CI1TR01----T0058 y
+LT282CI1TR02----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 14, Las Condes
+d. Origen y causa de la falla
+Se produjo la desconexión forzada de ambos circuitos de la línea 2x66 kV Ejército - Guindo por
+operación de protecciones, ante una falla originada por la caída de un árbol, ubicado fuera de la faja
+de servidumbre, sobre los conductores de la línea, entre las estructuras N°81 y N°82, provocando el
+derribamiento de las estructuras N°79 a la N°85.
+La causa de la falla es atribuida a un frente de mal tiempo que afectaba a la zona.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea 66 kV
+EAF 277_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Charrúa - Lucero
+Falla en línea 66 kV San
+EAF 278_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Fernando - Placilla
+Falla en línea 66 kV Los
+EAF 362_2023 22-08-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Maquis - Hualañé
+La empresa CGE Transmisión S.A. indica: “Se analizan
+eventos de relé SEL 387 S1 y SEL 351 S2. Al día siguiente se
+interrogan relés F4c asociados a los paños C1 y C2. Se
+observa que hay eventos en los horarios de falla. Se analizan
+eventos de relé SEL- 311C. Se realiza una inspección del
+Apertura
+tramo completo de la LT 66 kV Pan de Azúcar- Marquesa, sin
+intempestiva de los
+evidencias de la falla. Se realiza inspección visual y pruebas
+EAF 394-2023 interruptores 52B5 y 06-09-2023
+locales al interruptor 52B5 de S/E Pan de Azúcar el día de la
+52CT8 de S/E Pan de
+falla, sin encontrar causa evidente (durante la semana del 25
+Azúcar
+al 29 del presente se realizarán pruebas exhaustivas al
+interruptor, para luego durante la semana del 2 al 6 de
+octubre presentar un informe del interruptor 52B5).
+Reemplazo de interruptor 52B5 de SE Pande Azúcar (fecha
+estimada diciembre de 2023)”.
+La empresa CGE Transmisión S.A. indica:
+- “Se realiza el afianzamiento con tirantes del poste externo
+cerca de la estructura E46 de la línea
+Falla en línea 66 kV Alonso
+EAF 247-2024 08-06-2024 LT Alonso de Ribera-Chiguayante”.
+de Ribera - Chiguayante
+- “Se realiza la conexión IRIG B a los relés 311C y 311L del
+paño B2 de S/E Alonso de Ribera con
+el reloj satelital”.
+La empresa CGE Transmisión S.A. indica:
+- "Se realizará una revisión y pruebas en el sistema de
+control del interruptor asociado al paño 52CT1. Actividad
+Falla en línea 66 kV
+EAF 329-2024 31-07-2024 comprometida a septiembre de 2024”.
+Talcahuano - Latorre N°1
+- “Se realizará retemplado de conductor entre las
+estructuras E-05 a E-06 de la línea LT 66 kV Talcahuano -
+Latorre N°1. Actividad comprometida a diciembre 2024".
+Falla en línea 66 kV Los
+EAF 333-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Peumos - Curacautín
+Falla en línea 66 kV Parral -
+EAF 334-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Cauquenes
+Falla en línea 2x66 kV
+EAF 335-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Lastarria - Loncoche
+Falla en la línea 66 kV Tres
+EAF 337-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Pinos - Lebu
+Falla en la línea 66 kV
+EAF 338-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Curanilahue - Tres Pinos
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+CGE Transmisión S.A. indica que realizó la instalación de un
+Falla en línea 66 kV nuevo line post en la estructura N°61 y, además, se reparó el
+EAF 343-2024 01-08-2024
+Villarrica - Pucón tramo de conductor que resultó con daños entre las
+estructuras N°38 y N°39 de la línea 66 kV Villarrica - Pucón.
+La empresa CGE Transmisión S.A. indica que “Se quitaron los
+Falla en línea 66 kV Guindo
+EAF 345-2024 01-08-2024 árboles que cayeron a las líneas y, además, se repararon los
+- Coronel N°2
+elementos que resultaron dañados producto de los eventos.”.
+La empresa CGE Transmisión S.A. indica:
+"Se modificará las variables de registro SER para que no se
+produzcan sobre escritura.
+Se realizó el retiro de los árboles que se encontraban sobre la
+Falla en línea 66 kV
+línea y, además, se repusieron los elementos que resultaron
+EAF 347-2024 Horcones - Curanilahue 01-08-2024
+dañados producto del temporal.
+Norte
+Levantamiento y posterior verificación de alambrado de
+control por verificación de potenciales asociados al paño B8
+de S/E Curanilahue Norte, trabajos asociados a la SD
+2024078680 realizada el día 08 de agosto de 2024."
+La empresa CGE Transmisión S.A. indica:
+"Con fecha 6 de agosto se encontró causa de falla, que
+consistió en el desprendimiento de parte de malla metálica
+perimetral que se encuentra por encima del nivel de las
+panderetas. Las condiciones del viento arrastraron pequeños
+segmentos de malla hacia los bushing del interruptor del
+banco de condensadores. Inmediatamente después de
+Apertura intempestiva del detectada la causa de falla, se solicitó la apertura del SSCC
+EAF 348-2024 interruptor 52CT1 de S/E 01-08-2024 que alimenta el banco de condensadores en barra.
+San Pedro Se programó para los días 13 y 14 de agosto la revisión,
+limpieza y despeje del área afectada, para poder re-energizar
+los bancos de condensadores.
+El 01/08/2024 a las 20:26 horas el CT informa problemas en
+mecanismo de apertura y cierre del 52CT1 de S/E San Pedro.
+Posteriormente el 06/08/2024 a las 17:13 horas se concluyen
+las pruebas de apertura y cierre del 52CT1 de S/E San Pedro
+de manera satisfactoria quedando disponible para operación."
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 332-2022 y EAF 189-2023).
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores de ambos circuitos de la línea 2x66
+kV Ejército - Guindo, la cual, de acuerdo con lo informado por su propietario en la plataforma
+Infotécnica del Coordinador, cuenta con una longitud aproximada de 10.36 km, con conductor del tipo
+AAAC y Cu 1/0 AWG, respectivamente, con una capacidad nominal de 24.4 [MVA] (permanente a 25°C
+con sol y a tensión nominal) y cuya fecha de puesta en servicio fue durante el año 1963 (antigua línea
+2x66 kV Concepción - Coronel, seccionamientos en las SS/EE Ejército y Guindo durante los años 2020
+y 2022, respectivamente).
+Al respecto, la empresa CGE Transmisión S.A. no remitió antecedentes correspondientes a los
+mantenimientos realizados a la línea 66 kV Ejército - Guindo, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa CGE S.A. señala “Urbano” para los alimentadores Los Barros y Villa de S/E San Pedro
+(CGE).
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor o Caso Fortuito.
+La empresa CGE Transmisión S.A. remite los siguientes antecedentes en respaldo a la proposición del
+origen de la falla:
+• Informe de interrupción de suministro.
+• Informe de probatorios.
+• Informe del Evento Climático que afectó a la zona.
+h. Comuna donde se presenta la falla
+8108: San Pedro de la Paz.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03-08-2024) (08-08-2024)
+CGE Transmisión S.A. 02-08-2024 20-08-2024
+Compañía General de Electricidad S.A. (CGE) 02-08-2024 09-08-2024
+Besalco Transmisión SpA 02-08-2024 08-08-2024
+Inversiones BO Paper S.A. 02-08-2024 08-08-2024
+Empresa de Los Ferrocarriles del Estado (EFE) No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 2x66 kV Ejército - Guindo N°1 ST Zonal Ejército - Tap Cerro Chepe 12:21 17:06
+20:05
+Línea 2x66 kV Ejército - Guindo N°1 ST Zonal Tap Cerro Chepe - Guindo 12:21
+(16-08-2024)
+Línea 2x66 kV Ejército - Guindo N°2 ST Zonal Ejército - Tap Cerro Chepe 12:21 17:05
+21:56
+Línea 2x66 kV Ejército - Guindo N°2 ST Zonal Tap Cerro Chepe - Guindo 12:21
+(16-08-2024)
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+San Pedro de
+S/E Papelera Bio Bío - 1.6 0.015 1 12:21 17:06 17:06
+la Paz
+San Pedro de
+S/E San Pedro (CGE) Los Batros / C2 3.9 0.037 7620 12:21 17:06 17:06
+la Paz
+San Pedro de
+S/E San Pedro (CGE) Villa / C3 3.7 0.035 12497 12:21 17:06 17:06
+la Paz
+S/E Concepción (FFCC) - - 0.1 (*) 0.001 1 12:21 17:05 17:05
+Total: 9.30 MW 0.088 % 20119
+- Los montos señalados corresponden a lo informado por las empresas Inversiones BO Paper S.A. y CGE S.A.
+- (*): A la fecha de emisión de este estudio, la empresa EFE no entregó la información por sus consumos afectados.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo Indispon. Desc. (MWh)
+(MW) (h) (h)
+INVERSIONES
+S/E Papelera Bio Bío - Libre 1.60 4.75 4.75 7.6
+BO PAPER
+S/E San Pedro (CGE) Los Batros / C2 CGE Regulado 3.90 4.75 4.75 18.5
+S/E San Pedro (CGE) Villa / C3 CGE Regulado 3.70 4.75 4.75 17.6
+S/E Concepción (FFCC) - EFE Libre 0.10 (*) 4.73 4.73 0.5
+Clientes Regulados : 36.1 MWh
+Clientes Libres : 8.1 MWh
+Total : 44.2 MWh
+- Los montos señalados corresponden a lo informado por las empresas Inversiones BO Paper S.A. y CGE S.A.
+- (*): A la fecha de emisión de este estudio, la empresa EFE no entregó la información por sus consumos afectados.
+- Curva de recuperación esperada v/s recuperación real.
+18:00
+16:48
+15:36
+14:24
+13:12
+12:00
+1.2% 20.5% 67.5% 100.0%
+Recuperación real Recuperación esperada
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real de los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 7.44 4.75 1.57
+Último 20 % 1.86 4.75 0.39
+100 % Total 9.30 4.75 1.96
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10476.03 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U2 y U3), Colbún (U1 y U2), El Toro (U1, U2, U3 y U4), Mejillones (IEM), Ralco
+(U1) y Nueva Renca (TG y TV).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+01 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 01 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades:
+- Las SS/EE San Pedro (CGE) y Concepción (FFCC) se encontraban abastecidas desde el circuito N°2
+de la línea 2x66 kV Ejército - Guindo, mientras que la S/E Papelera Bio Bío se encontraba abastecida
+desde el circuito N°1.
+Otros antecedentes relevantes
+Según lo informado por la empresa CGE Transmisión S.A.:
+“A las 12:21 horas del día 01-08-2024 se produce la desconexión del 52B3 y 52B4 de S/E Ejercito
+además de la desconexión del 52B3 y 52B4 de S/E Guindo propiedad de Transelec, asociados a la línea
+66 kV Ejercito - Guindo N°1 y 2, provocando el desprendimiento de 7,6 MW que afectó a la subestación
+San Pedro.

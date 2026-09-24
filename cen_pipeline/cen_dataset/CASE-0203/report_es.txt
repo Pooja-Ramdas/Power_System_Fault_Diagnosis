@@ -1,0 +1,173 @@
+Estudio para análisis de falla EAF 406/2024
+“Desconexión forzada del transformador N°3 110/12 kV de S/E Santa Rosa Sur”
+Fecha de Emisión: 26-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 02/08/2024
+Hora 23:56
+Consumos desconectados (MW) 14.00
+Demanda previa del sistema (MW) 9183.15
+Porcentaje de desconexión 0.160 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Transformador N°3 110/12 kV de S/E Santa Rosa Sur /
+ET03T0835SE048T0835
+Tipo de instalación Transformador
+Tensión nominal 110 kV / 12 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes N°441, Osorno.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Interruptor 52CT3 de S/E Santa Rosa Sur /
+IM01T0835PA004T0054SE048T0835
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes N°441, Osorno.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática de los interruptores 52HT3 y 52CT3 de S/E Santa Rosa Sur,
+correspondientes al transformador N°3 110/12 kV de dicha subestación, por medio de la operación
+de su protección diferencial de transformador.
+La empresa Sociedad Transmisora Metropolitana S.A. declara que la operación de la protección
+anteriormente señalada fue ocasionada por un gato que se posicionó en la parte superior del
+interruptor del lado MT del transformador en cuestión, el cual se encuentra dentro de la zona del
+esquema diferencial, generando una descarga eléctrica.
+d.2 Fenómeno Físico:
+ANI1: Acción de animales, roedores o pájaros (por contacto directo u otro).
+La empresa Sociedad Transmisora Metropolitana S.A. entrega los siguientes antecedentes
+probatorios para acreditar el fenómeno físico declarado:
+- Registro fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+- Mantenimientos realizados los últimos 24 meses en la S/E Santa Rosa Sur.
+- Plan de Mantenimiento en S/E Santa Rosa Sur.
+- Cantidad de veces que la instalación se ha visto afectada por esta causa.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+La empresa STM II S.A. señala: “Ocurrida la operación de la barra
+N°3 se devolvió el alimentador Cacique a la barra N°2 y se realizaron
+maniobras en la red MT para realimentar los alimentadores de la
+Desconexión barras
+barra N°3 y recuperar el 100% de los clientes. Una vez en la
+EAF 008-2024 23 kV N°3 y Aux. N°1 07-01-2024
+subestación personal especializado revisó la instalación identificando
+SE Batuco
+aislador de soporte de desconectador fase roja interconexión barra
+auxiliar - barra transferencia dañado se aísla el punto dañado y se
+normaliza la barra N°3.”
+La empresa STM S.A. señala lo siguiente:
+Desconexión forzada “Debido a esta falla se dañaron aisladores de la barra principal, lo
+de barra N°1 de 12 cuales tuvieron que ser reemplazados antes de volver a energizarla.
+EAF 156-2024 15-04-2024
+kV de S/E Santa Se procedió a verificar el resto de los componentes, se aisló el
+Raquel interruptor del alimentador Olivares, se reemplazaron los aisladores
+de la Barra MT1 y se reenergizó.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR87T: Protección diferencial transformador.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produce la falla corresponde al interruptor 52CT3 de S/E Santa Rosa Sur, el
+cual, según lo informador por el propietario en la plataforma Infotécnica del Coordinador, es de la
+marca EIB-ROLEC con una capacidad de ruptura asimétrica de 33.62 kA y su fecha de entrada en
+operación fue el 30 de junio del año 2000.
+Al respecto, la empresa Sociedad de Transmisora Metropolitana S.A. remite los mantenimientos
+realizados a la S/E Santa Rosa Sur durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Sociedad de Transmisora Metropolitana S.A. señala: “Urbana”.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+h. Comuna donde se presenta la falla
+13201: Puente Alto.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(04-08-2024) (09-08-2024)
+Sociedad Transmisora Metropolitana S.A. (STM S.A.) 03-08-2024 12-08-2024
+Compañía General de Electricidad S.A. (CGE S.A.) No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Santa Rosa Sur ST Zonal Transformador N°3 110/12kV 23:56 01:44*
+S/E Santa Rosa Sur ST Zonal Barra 12 kV N°3 23:56 00:02*
+- Las horas indicadas corresponden a lo informado por la empresa Sociedad Transmisora Metropolitana S.A.
+- (*) Horario correspondiente al día 03 de agosto de 2024.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. Dispon. H. Norm.
+Paño Consumo consumo Afectados Desc. (**) (**)
+(MW) pre-falla
+Santa Rosa Sur La Cumbre / C8 NI 3.50* 0.040 23:56 00:02 00:02
+Santa Rosa Sur Luis Matte / C9 NI 3.50* 0.040 23:56 00:02 00:02
+24171
+Santa Rosa Sur El Peñón / C14 NI 3.50* 0.040 23:56 00:02 00:03
+Santa Rosa Sur Primavera / C12 NI 3.50* 0.040 23:56 00:02 00:02
+Total: 14.00 MW 0.160 % 24171
+- Los montos y horarios señalados corresponden a lo informado por la empresa Sociedad Transmisora Metropolitana S.A.
+- (*) Al no disponer el monto por cada alimentador, se divide el total informado por la cantidad de alimentadores.
+- (**) Horarios correspondientes al día 03 de agosto de 2024.
+3. Estimación de la energía no suministrada
+Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Alimentador/Paño Empresa
+Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Santa Rosa Sur La Cumbre / C8 CGE Regulado 3.50* 0.10 0.10 0.3
+Santa Rosa Sur Luis Matte / C9 CGE Regulado 3.50* 0.10 0.10 0.3
+Santa Rosa Sur El Peñón / C14 CGE Regulado 3.50* 0.10 0.12 0.4
+Santa Rosa Sur Primavera / C12 CGE Regulado 3.50* 0.10 0.10 0.3
+Clientes Regulados : 1.3 MWh
+Clientes Libres : MWh
+Total : 1.3 MWh
+- Los m ontos y horarios señalados corresponden a lo informado por la empresa Sociedad Transmisora Metropolitana S.A.
+- (*) Al no disponer el monto por cada alimentador, se divide el total informado por la cantidad de alimentadores.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias significativas entre los horarios de recuperación esperada y recuperación
+real de los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Rango Potencia (MW) Tiempo recuperación (h)
+recuperación (MW/h)
+Primer 80 % 11.20 0.12 96.00
+Último 20 % 2.80 0.12 24.00
+100 % Total 14.00 0.12 120.00
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9183.15 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales El Toro (U1), El
+Toro (U2), El Toro (U3), El Toro (U4), Mejillones (CTM3), Mejillones (IEM), Nueva Renca (TG), Ralco
+(U1), Ralco (U2) y Rapel (U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 02 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 02 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+02 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 02 de
+agosto de 2024.
+Estado y configuración previo a la falla
+- Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa Sociedad Transmisora Metropolitana S.A.:
+“El viernes 02 de agosto de 2024, se produjo la operación automática (OA) del Transformador N°3
+de la S/E Santa Rosa Sur (apertura interruptores 52HT3 y 52CT3), debido a la actuación de su
+protección diferencial.
+La causa de esta operación fue una falla provocada por un gato que se posicionó en la parte
+superior del interruptor del lado MT de este transformador, generando una descarga eléctrica. En
+el punto 11 se adjunta registro fotográfico.
+Cabe mencionar que la zona donde ocurre esta falla se encuentra dentro de la zona protegida por
+la protección diferencial de este transformador.”.
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Sociedad Transmisora Metropolitana S.A. señala:
+“Al revisar la integridad de los componentes, se identificó un gato muerto sobre el interruptor 12
+kV del Transformador N°3. Este ocasionó una descarga eléctrica sobre el interruptor,
+específicamente entre los bushing lado Transformador.

@@ -1,0 +1,17 @@
+{
+  "eaf_id": "EAF-0447-2024",
+  "eaf_num": 447,
+  "year": 2024,
+  "description": "Falla en la línea 66 kV Temuco – Pumahue N°2",
+  "date": "25-08-2024",
+  "time": "09:54",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/09/EAF-447-2024.pdf",
+  "case_id": "CASE-0161",
+  "event_datetime": "2024-08-25T09:54:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_metadata": null,
+  "pending_conversion_path": null
+}

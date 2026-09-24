@@ -1,0 +1,274 @@
+Estudio para análisis de falla EAF 378/2024
+“Falla en línea 154 kV Sauzal - Rancagua”
+Fecha de Emisión: 26-08-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 02/08/2024
+Hora 00:16
+Consumos desconectados (MW) 24.30
+Demanda previa del sistema (MW) 8389
+Porcentaje de desconexión 0.290 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación LT 154 kV Sauzal - Rancagua / LT027CI1TR02----T0002
+Tipo de instalación Línea
+Tensión nominal 154 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco N°90, piso 14, Las Condes, Santiago
+c. Identificación del elemento fallado
+Nombre del elemento fallado Tramo 154 kV Tap Minera Valle Central - Rancagua / LT027CI1TR02----T0002
+Propietario elemento fallado Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco N°90, piso 14, Las Condes, Santiago
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 154 kV Sauzal - Rancagua por operación de sus
+protecciones, debido a objeto llevado por el viento hacia sus conductores entre las estructuras N°13 y
+N°14, ocasionado por un frente de mal tiempo.
+d.2 Fenómeno Físico
+CLI2: Objeto llevado por el viento hacia los conductores.
+La empresa Transelec S.A. remite en su informe de falla de 5 días antecedentes (probatorios) con el
+fin de acreditar el origen de la falla.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+FALLA ID NOMBRE FALLA FECHA FALLA HORA FALLA ACCIONES CORRECTIVAS CP ACCIONES CORRECTIVAS LP
+La empresa Transelec S.A. indica: “En
+La empresa Transelec S.A. indica: “En el caso el caso particular de la falla en
+Falla en línea 66 kV particular de la falla en cuestión, no existió un cuestión, no existió un
+EAF 482_2022 San Javier - 21-12-2022 03:41 comportamiento erróneo de las instalaciones. comportamiento erróneo de las
+Constitución En consecuencia, no existen acciones instalaciones. En consecuencia, no
+correctivas que informar.” existen acciones correctivas que
+informar.”
+Transelec señala que “se corregirá estampa
+Falla en línea 154 kV
+EAF 371_2024 T
+d
+i
+e
+n g
+C
+u
+o
+i
+r
+r
+t
+i
+é
+ri
+s
+c a
+N º
+-
+2
+Punta 01-08-2024 22:25
+d
+A
+C
+e
+G
+1 0
+E
+t i
+d
+T
+e
+r
+e
+m
+a
+S
+n
+p
+/
+s
+o
+E
+m
+T
+d
+is
+i
+e
+n
+ió
+g
+n
+s
+u
+i
+i
+s
+S
+r
+t
+.
+i
+e
+A
+ri
+m
+.
+c a
+s
+a
+e
+” .
+ñ
+s
+a
+e
+l
+c
+a
+u
+q
+n
+u
+d
+e
+a r
+n
+io
+o a
+d
+p
+e
+l ic
+p
+a
+a
+”
+ñ
+.
+o C
+ap
+G
+l
+E
+ic
+T
+a
+r
+.”
+a nsmisión S.A. señala que “No
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado por este evento corresponde a la línea 154 kV Rancagua – Tap Minera Valle
+Central - Sauzal, la cual tiene 13.87 km de longitud, con un conductor del tipo ACSR Penguin y una
+capacidad nominal de 108 [MVA] (a 25°C y con tensión nominal), de acuerdo con los registros del
+Sistema Infotécnica del Coordinador.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+No indicado.
+h. Comuna donde se presenta la falla
+6101: Rancagua.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(04-08-2024) (09-08-2024)
+Transelec S.A. 03-08-2024 09-08-2024
+Enel Generación Chile S.A. 02-08-2024 08-08-2024
+Enorchile S.A. 02-08-2024 14-08-2024
+Minera Valle Central S.A. 02-08-2024 07-08-2024
+Pacific Hydro Chacayes S.A. 02-08-2024 16-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+HP Chacayes U1 12.5 00:16 01:04
+HP Sauzalito U1 7.0 00:16 05:55
+HP Sauzal U2 19.0 00:16 05:07
+Total: 38.5 MW
+- Los montos y horarios señalados corresponden a lo informado por las empresas Pacific Hydro Chacayes S.A. y Enel Generación
+Chile S.A.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 154 kV Sauzal - Rancagua ST Zonal LT 154 kV Sauzal – Tap MVC 00:16 02:31
+LT 154 kV Sauzal - Rancagua ST Zonal LT 154 kV Tap MVC – Rancagua 00:16 01:17
+S/E Sauzal ST Zonal Transformadores 154/110 kV N°4 y N°7 00:16 04:55(*)
+S/E Sauzal ST Zonal Transformador 110/13.8 kV N°5 00:16 05:55
+S/E Sauzal ST Zonal Barra 110 kV N°1 00:16 04:55(*)
+S/E Minera Valle Central ST Zonal Transformador 154/4.16 kV N°1 00:16 01:47
+S/E Minera Valle Central ST Zonal Transformador 154/4.16 kV N°2 00:16 01:47
+S/E Minera Valle Central ST Zonal Transformador 154/23 kV N°3 00:16 01:47
+- Las horas indicadas corresponden a lo informado por las empresas Transelec S.A., Minera Valle Central S.A. y a la información
+disponible en el sistema SCADA del Coordinador.
+- (*) Horario de recuperación obtenido del sistema SCADA del Coordinador.
+c. Consumos
+Pérdida de
+Alimentador % consumo Clientes H. H. H.
+Subestación Comuna Consumo
+/Paño pre-falla afectados Desc. Dispon. Norm.
+(MW)
+Minera Valle Central - Requínoa 24.30 0.290 1 0:16 1:47 1:47
+Total: 24.30 MW 0.290% 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa Minera Valle Central S.A.
+3. Estimación de la energía no suministrada
+Pérdida de
+Alimentador Tipo de Tiempo Tiempo ENS
+Subestación Empresa Consumo
+/Paño cliente Indispon. (h) Desc. (h) (MWh)
+(MW)
+Minera Valle Central - Minera Valle Central Libre 24.30 1.52 1.52 36.9
+Clientes Regulados : 0 MWh
+Clientes Libres : 36.9 MWh
+Total : 36.9 MWh
+- Los montos señalados corresponden a lo informado por la empresa Minera Valle Central S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre el horario de recuperación real respecto del horario de disponibilidad
+de la barra primaria respectiva.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Potencia
+Rango recuperación recuperación
+(MW)
+(h) (MW/h)
+Primer 80 % 19.44 1.52 12.82
+Último 20 % 4.86 1.52 3.20
+100 % Total 24.30 1.52 16.02
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8389.0 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional previo a la falla, mediante las
+centrales Mejillones (IEM), Ralco (U1 y U2), Nueva Renca, Kelar (TG1) y El Toro (U2 y U4)
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 02 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 02 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+02 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 02 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada. Lo anterior corresponde a:
+• Las barras 110 kV de S/E Sauzal se encontraban separadas. En la barra N°1 se encontraban
+conectados los transformadores 154/110 kV N°4 y N°7, la central HP Sauzalito, la unidad N°2
+de la central HP Sauzal y el circuito N°1 de la línea 2x110 kV Sauzal - Interconexión Maitenes
+- Chacayes (y, por ende, la unidad N°1 de la central HP Chacayes). Mientras tanto, en la barra
+N°2 se encontraban conectadas las unidades N°1 y N°3 de la central HP Sauzal, ambos circuitos
+de la línea 110 kV Sauzal - Codegua - Alto Jahuel y el circuito N°2 de la línea 2x110 kV Sauzal
+- Interconexión Maitenes - Chacayes (y, por ende, la unidad N°2 de la central HP Chacayes).
+• La central HP Coya se encontraba fuera de servicio (interruptor 52BT6 de S/E Sauzal abierto).
+• Las centrales TER Colihues y TER Esperanza se encontraban fuera de servicio.
+Otros antecedentes relevantes
+Según lo indicado por la empresa Transelec S.A.:
+“A las 00:16 horas del 02 de agosto del 2024, se produjo la desconexión forzada de la línea 154
+kV Sauzal - Rancagua, de propiedad de Transelec S.A., debido a la operación de sus protecciones.
+Lo anterior, a causa de un cortocircuito monofásico a tierra en la fase B con evolución a falla bifásica
+entre las fases B y C a tierra. A las 01:17 horas del 02 de agosto del 2024, personal de Transelec
+realiza maniobras de normalización de servicio, cerrándose interruptor 52A3 S/E Sauzal, quedando
+en servicio y energizada la línea 154 kV Sauzal - Rancagua.

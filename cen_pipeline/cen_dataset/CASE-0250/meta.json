@@ -1,0 +1,17 @@
+{
+  "eaf_id": "EAF-0359-2024",
+  "eaf_num": 359,
+  "year": 2024,
+  "description": "Desconexión forzada de barras 220 kV de S/E Central Rucúe",
+  "date": "01-08-2024",
+  "time": "14:38",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-359-2024.pdf",
+  "case_id": "CASE-0250",
+  "event_datetime": "2024-08-01T14:38:00",
+  "fault_label": "busbar_fault",
+  "telemetry_available": true,
+  "diagram_source": "synthetic_fallback",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": null,
+  "pending_conversion_path": null
+}

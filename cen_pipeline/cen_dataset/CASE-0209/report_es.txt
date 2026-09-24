@@ -1,0 +1,177 @@
+Estudio para análisis de falla EAF 400/2024
+“Desconexión forzada de la barra 12 kV N°1 de S/E La Cisterna”
+Fecha de Emisión: 26-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 02/08/2024
+Hora 15:15
+Consumos desconectados (MW) 28.0
+Demanda previa del sistema (MW) 9406.91
+Porcentaje de desconexión 0.280 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Barra 12 kV N°1 de S/E La Cisterna / BA03T0835SE016T0835
+Tipo de instalación Barra
+Tensión nominal 12 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Barra 12 kV N°1 de S/E La Cisterna / BA03T0835SE016T0835
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la barra de 12 kV N°1 de S/E La Cisterna, por medio de la
+operación de la protección de sobrecorriente de fases.
+La empresa Sociedad Transmisora Metropolitana S.A. declara que no se encontró muestras de
+descarga o falla en la zona protegida por la protección anteriormente señalada, en circunstancias que
+se producía en Santiago un intenso temporal de viento y lluvia con múltiples fallas en la red de
+distribución.
+d.2 Fenómeno Físico:
+OTR2: Origen no determinado.
+La empresa Sociedad Transmisora Metropolitana S.A. remite los siguientes antecedentes en respaldo
+a la proposición del origen de la falla:
+• Registro fotográfico de la protección operada.
+• Mantenimientos de los últimos 24 meses en S/E La Cisterna.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por un
+fenómeno físico similar, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido cuatro fallas
+en instalaciones del mismo propietario con un fenómeno físico similar, durante los últimos 24 meses,
+correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+FALLA_ID ACCIONES_CORRECTIVAS_CP ACCIONES_CORRECTIVAS_LP
+La empresa Enel Transmisión Chile S.A. indica que se coordinó la
+revisión del transformador N°1 de S/E Altamirano, realizándose
+ensayos eléctricos de relación de transformación y resistencia de La empresa Enel Transmisión Chile S.A. indica que se refuerza el plan
+EAF 357-2022 enrollados, ambas pruebas con resultados satisfactorios. de revisión anual a los pararrayos AT mediante la prueba de medición
+Adicionalmente, se reemplazó el pararrayos fallado y, además, como de corriente de fuga.
+medida preventiva, también se reemplazaron los otros dos pararrayos
+de características similares al fallado.
+La empresa Sociedad Transmisora Metropolitana II S.A. indica que,
+durante el sábado 25 de marzo del presente año, se realizó la Las empresas Sociedad Transmisora Metropolitana II S.A. y Enel
+EAF 138-2023
+reparación del cable y se ejecutaron pruebas eléctricas con resultados Distribución Chile S.A. indican que “no aplica”.
+satisfactorios.
+La empresa STM S.A. señala que “una vez ocurrida la OA del
+interruptor 52CT1, se procedió a revisar la instalación, encontrado
+operada su protección y su relé maestro. No se evidenció muestras de
+descargas o fallas en la instalación.
+El centro de control realizó maniobras en los interruptores 12 kV de
+los tres alimentadores abastecidos por esta barra. Se normalizó el
+La empresa STM S.A. no indica acciones correctivas de largo plazo.
+EAF 388-2024 86B1 y se realizó una prueba con tensión en la barra MT1 con
+resultado satisfactorio.
+Posteriormente se cerraron los interruptores 12 kV de los tres
+alimentadores abastecidos por esta barra.
+En septiembre de 2024, se revisará el esquema de protecciones del
+interruptor de la Barra MT1 (52CT1), para verificar su correcto
+funcionamiento.”
+La empresa Sociedad Transmisora Metropolitana II S.A. indica que no La empresa Sociedad Transmisora Metropolitana II S.A. indica que no
+EAF 391-2024
+aplica. aplica.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+La instalación donde se originó la falla corresponde a la barra 12 kV N°1 de S/E La Cisterna, la cual,
+según lo informado por su propietario en la Plataforma Infotécnica del Coordinador, está conformada
+por un tubo de 3” de cobre y su entrada en operación fue en el año 1979.
+La empresa Sociedad Transmisora Metropolitana S.A. adjunta información de los mantenimientos
+realizados a S/E La Cisterna, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Sociedad Transmisora Metropolitana S.A. señala “Urbana”.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+13109: La Cisterna.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(04-08-2024) (09-08-2024)
+Sociedad Transmisora Metropolitana S.A. 04-08-2024 14-08-2024
+Enel Distribución Chile S.A. No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E La Cisterna ST Zonal Barra 12 kV N°1 15:15 17:59
+- Las horas indicadas corresponden a lo informado por la empresa Sociedad Transmisora Metropolitana S.A.
+c. Consumos
+%
+Sub- Alimentador/ Pérdida de Clientes H. H. H.
+Comuna consumo
+Estación Paño Consumo (MW) Afectados Desc. Dispon. Norm.
+pre-falla
+La Cisterna General Freire / C2 NI 7.00* 0.070 NI 15:15 17:59 18:01
+La Cisterna La Granja / C3 NI 7.00* 0.070 NI 15:15 17:59 18:01
+La Cisterna J.J. Prieto / C1 NI 7.00* 0.070 NI 15:15 17:59 18:02
+La Cisterna Goycolea / C8 NI 7.00* 0.070 NI 15:15 17:59 18:02
+Total: 28.00 MW 0.280 %
+- Los montos y horarios señalados corresponden a lo informado por la empresa Sociedad Transmisora Metropolitana S.A.
+- (*) Al no disponer del monto por alimentador, se divide el total informado por la cantidad de alimentadores.
+- NI: No informado.
+3. Estimación de la energía no suministrada
+Sub- Alimentador Tipo de Pérdida de Tiempo Tiempo ENS
+Empresa
+Estación /Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+La Cisterna General Freire / C2 Enel Distribución Regulado 7.00* 2.73 2.77 19.4
+La Cisterna La Granja / C3 Enel Distribución Regulado 7.00* 2.73 2.77 19.4
+La Cisterna J.J. Prieto / C1 Enel Distribución Regulado 7.00* 2.73 2.78 19.5
+La Cisterna Goycolea / C8 Enel Distribución Regulado 7.00* 2.73 2.78 19.5
+Clientes Regulados : 77.8 MWh
+Clientes Libres : MWh
+Total : 77.8 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Sociedad Transmisora Metropolitana S.A.
+- (*) Al no disponer del monto por alimentador, se divide el total informado por la cantidad de alimentadores.
+- Curva de recuperación esperada v/s recuperación real.
+No se observan diferencias significativas entre los horarios de recuperación real respecto de los
+horarios de disponibilidad de la barra primaria respectiva.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Rango Potencia (MW)
+recuperación (h) recuperación (MW/h)
+Primer 80 % 22.40 2.78 8.05
+Último 20 % 5.60 2.78 2.01
+100 % Total 28.00 2.78 10.06
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9406.91 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales El Toro (U1), El
+Toro (U2), El Toro (U3), El Toro (U4), Mejillones (CTM3), Mejillones (IEM), Nueva Renca (TG), Ralco
+(U1), Ralco (U2) y Rapel (U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 02 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 02 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+02 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 02 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa Sociedad Transmisora Metropolitana S.A.:
+“El pasado viernes 02 de agosto de 2024, a las 15:15 horas se produjo la operación automática
+del interruptor MT1 (52CT1), debido a la actuación de su relé maestro (86B1). La actuación del
+86B1 fue activada por la protección de sobrecorriente del interruptor MT1, específicamente la
+unidad de sobrecorriente de tiempo inverso de fase (B).
+Cabe destacar que a esa hora se producía en Santiago intenso temporal de viento y lluvia con
+múltiples fallas en la red de distribución.”
+“No fue posible rescatar los registros oscilográficos de la protección operada, esto debido a que se
+sobrescribieron. Solo contamos con la fotografía.”
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+o La empresa Sociedad Transmisora Metropolitana S.A. indica lo siguiente:
+“Una vez ocurrida la OA del interruptor 52CT1, se procedió a revisar la instalación,
+encontrado operada su protección y su relé maestro. No se evidenció muestras de descargo o
+fallas en la instalación.

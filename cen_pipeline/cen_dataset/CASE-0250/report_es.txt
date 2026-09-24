@@ -1,0 +1,166 @@
+Estudio para análisis de falla EAF 359/2024
+“Desconexión forzada de barras 220 kV de S/E Central Rucúe”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 14:38
+Consumos desconectados (MW) 2.4
+Demanda previa del sistema (MW) 11362.2
+Porcentaje de desconexión 0.021 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación Línea 220 kV Rucúe - Quilleco / LT055CI2TR03----T0061
+Tipo de instalación Línea
+Tensión nominal 220 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Alfa Transmisora de Energía S.A.
+RUT 76.218.856-2
+Representante Legal Alan Heinen Alves Da Silva
+Dirección Apoquindo 4501 Of 1501, Las Condes, Santiago
+3. Identificación del elemento fallado
+Nombre del elemento afectado Sistema de protección asociado al paño J1 de S/E Central Rucúe /
+SP001T0061SE009G0004
+Propietario elemento fallado Alfa Transmisora de Energía S.A.
+RUT 76.218.856-2
+Representante Legal Alan Heinen Alves Da Silva
+Dirección Apoquindo 4501 Of 1501, Las Condes, Santiago
+d.1 Origen y causa de la falla
+Se produjo la apertura automática de los interruptores 52J1, 52J2, 52J4, 52JU1 y 52JU2 de S/E Central
+Rucúe y 52J2, 52JT1 y 52JT2 de S/E Central Quilleco, correspondientes a los interruptores asociados
+a las barras 220 kV de dichas SS/EE, por medio de la operación de sus protecciones ante una falla en
+línea 220 kV Rucúe - Quilleco.
+La empresa Alfa Transmisora de Energía S.A. declara que la falla en la mencionada línea fue producto
+del frente climático, mientras que para la operación de la protección de falla de interruptor del paño J1
+de S/E Central Rucúe y la no apertura del interruptor 52J1 de S/E Central Quilleco, no presenta los
+antecedentes suficientes para aclarar dicho comportamiento.
+d.2 Fenómeno Físico:
+OTR2: Origen no determinado.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+FA50BF: Falla de interruptor.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los sistemas de protección asociados al paño J1 de
+S/E Central Rucúe, el cual, corresponde a dos relés ABB REL316, de acuerdo con la información
+almacenada en la plataforma Infotecnica del Coordinador.
+Al respecto, la empresa Alfa Transmisora de Energía S.A. remitió los antecedentes correspondientes a
+los mantenimientos realizados durante los últimos 24 meses a la línea 220 kV Rucúe - Quilleco y a la
+S/E Central Rucúe.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Copelan Ltda. indica: “Densidad Extremadamente Baja”.
+g. Proposición del propietario respecto del origen de la falla
+La empresa Alfa Transmisora de Energía S.A. en su Informe de Falla de 48 horas indica: Interno.
+h. Comuna donde se presenta la falla
+08309: Quilleco.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03-08-2024) (08-08-2024)
+Alfa Transmisora de Energía S.A. 02-08-2024 19-08-2024
+Colbún S.A. 01-08-2024 10-08-2024
+Cooperativa Eléctrica Los Ángeles Ltda (Copelan Ltda.) 19-08-2024 23-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) Hora Desc. Hora Norm.
+HP Rucúe 1 68 14:38 20:50
+HP Rucúe 2 72 14:38 21:13
+HP Quilleco 1 30 14:38 21:29
+HP Quilleco 2 33 14:38 21:45
+Total: 203.00 MW
+- Los horarios señalados corresponden a lo informado por la empresa Colbún S.A.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Central Rucúe ST Dedicado Barra 220 kV N°1 14:38 19:39
+S/E Central Rucúe ST Dedicado Barra 220 kV N°2 14:38 19:39
+S/E Central Quilleco ST Dedicado Barra 220 kV N°1 14:38 20:19
+S/E Central Rucúe ST Dedicado Transformador N°4 220/23 kV 14:38 19:51
+LT 220 kV Rucúe - Quilleco ST Dedicado - 14:38 20:19
+LT 220 kV Rucúe - Charrúa ST Dedicado - 14:38 14:11*
+- Los horarios señalados corresponden a lo informado por la empresa Alfa Transmisora de Energía S.A.
+(*): Horario correspondiente al día 02-08-2024.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Central
+Colbún / E6 Los Ángeles 1.20 0.011 660 14:38 19:51 19:54
+Rucúe
+S/E Central
+Colbún / E6 Quilleco 1.20 0.011 28 14:38 19:51 19:54
+Rucúe
+Total: 2.40 MW 0.022% 688
+- Los montos y horarios señalados corresponden a lo informado por las empresas Copelan Ltda y Alfa Transmisora de Energía S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Central Rucúe Colbún / E6 COPELAN Regulado 1.20 5.22 5.27 6.3
+S/E Central Rucúe Colbún / E6 COPELAN Regulado 1.20 5.22 5.27 6.3
+Clientes Regulados : 12.6 MWh
+Clientes Libres : MWh
+Total : 12.6 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Copelan Ltda y Alfa Transmisora de Energía S.A.
+- Curva de recuperación esperada v/s recuperación real.
+19:54
+19:53 19:54 19:54
+19:53
+19:52
+19:51
+19:50
+19:51 19:51
+19:50
+19:49
+50% 100%
+Recuperación real Recuperación esperada
+Se aprecian leves diferencias entre los horarios de recuperación esperada y recuperación real para
+los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 1.92 5.27 0.36
+Último 20 % 0.48 5.27 0.09
+100 % Total 2.40 5.27 0.46
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 11362.2 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U2 y U3), Colbún (U1 y U2), El Toro (U1, U2, U3 y U4), Nueva Renca y Ralco
+(U1).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con la siguiente particularidad:
+• El interruptor 52J3 de S/E Central Rucúe se encontraba abierto producto de una falla previa.
+Otros antecedentes relevantes
+Según lo informado por la empresa Alta Transmisora de Energía S.A.:
+“El jueves 01 de agosto de 2024 a las 14:38 hrs, se produce desconexión forzada por actuación de
+protección 21L de la LT 220 kV Rucue – Quilleco, el paño J1 de S/E Rucue registra una mínima
+impedancia en la fase C, con una distancia de 1.85 km en dirección a S/E Quilleco, a su vez la función
+50BF activa protección diferencial de barra enviando comando de apertura a todos los interruptores de
+las secciones de barra 1 y 2 de S/E Rucue”.
+Por otra parte, en función de los antecedentes presentados a la fecha de emisión del presente Estudio
+para Análisis de Falla, se solicitará la siguiente información adicional:
+Alfa Transmisora de Energía S.A.:
+• Informe técnico en el cual se indique cómo operaron las protecciones asociadas a los interruptores
+52J1 de S/E Central Quilleco y 52J1 de S/E Central Rucúe, y cómo debieron haber operado dichas
+protecciones, para el evento analizado en el presente EAF.
+• Resultado de la investigación de la causa y origen de las aperturas de los interruptores de su
+representada en las SS/EE Central Rucúe y Central Quilleco, frente a una falla que tuvo lugar en la
+línea 220 kV Rucúe - Quilleco, y envío de un cronograma con fechas definidas para ejecutar las
+medidas correctivas adoptadas que eviten la repetición del evento.
+De forma complementaria, se adjuntan los informes de falla de instalaciones ingresados en el sistema
+Neomante del Coordinador Eléctrico Nacional por las empresas Alfa Transmisora de Energía S.A.,
+Colbún S.A. y Cooperativa Eléctrica Los Ángeles Ltda. (Anexo N°1), otros antecedentes aportados por
+las empresas Alfa Transmisora de Energía S.A., Colbún S.A. y Cooperativa Eléctrica Los Ángeles Ltda.
+(Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.

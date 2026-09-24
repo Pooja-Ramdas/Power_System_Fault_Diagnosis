@@ -1,0 +1,295 @@
+Estudio para análisis de falla EAF 413/2024
+“Falla en línea 66 kV Parral - Cauquenes”
+Fecha de Emisión: 27-08-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 05/08/2024
+Hora 02:52
+Consumos desconectados (MW) 6.54
+Demanda previa del sistema (MW) 8096
+Porcentaje de desconexión 0.081 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación LT 66 kV Parral - Cauquenes / LT164CI1TR01----T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 17, Las Condes, Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento fallado LT 66 kV Parral - Cauquenes / LT164CI1TR01----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 17, Las Condes, Santiago.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Parral - Cauquenes por operación de sus
+protecciones, debido a corte de conductor entre las estructuras N°17 y N°18, provocado por fuertes
+rachas de viento asociado a severo frente de mal tiempo.
+d.2 Fenómeno Físico
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+La empresa CGE Transmisión S.A. remite en su informe de falla de 5 días antecedentes (probatorios)
+con el fin de acreditar el origen de la falla.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el
+mismo fenómeno físico durante los últimos 24 meses móviles, correspondiente al Estudio para
+Análisis de Falla EAF 334-2024.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea 66 kV
+EAF 277_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Charrúa - Lucero
+Falla en línea 66 kV
+EAF 278_2023 San Fernando - 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Placilla
+Falla en línea 66 kV
+EAF 362_2023 22-08-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Los Maquis - Hualañé
+La empresa CGE Transmisión S.A. indica: “Se analizan eventos de
+relé SEL 387 S1 y SEL 351 S2. Al día siguiente se interrogan relés F4c
+asociados a los paños C1 y C2. Se observa que hay eventos en los
+horarios de falla. Se analizan eventos de relé SEL- 311C. Se realiza
+Apertura
+una inspección del tramo completo de la LT 66 kV Pan de Azúcar-
+intempestiva de los
+Marquesa, sin evidencias de la falla. Se realiza inspección visual y
+EAF 394-2023 interruptores 52B5 y 06-09-2023
+pruebas locales al interruptor 52B5 de S/E Pan de Azúcar el día de la
+52CT8 de S/E Pan de
+falla, sin encontrar causa evidente (durante la semana del 25 al 29
+Azúcar
+del presente se realizarán pruebas exhaustivas al interruptor, para
+luego durante la semana del 2 al 6 de octubre presentar un informe
+del interruptor 52B5). Reemplazo de interruptor 52B5 de SE Pande
+Azúcar (fecha estimada diciembre de 2023)”.
+La empresa CGE Transmisión S.A. indica:
+- “Se realiza el afianzamiento con tirantes del poste externo cerca de
+Falla en línea 66 kV la estructura E46 de la línea
+EAF 247-2024 Alonso de Ribera - 08-06-2024 LT Alonso de Ribera-Chiguayante.”
+Chiguayante - “Se realiza la conexión IRIG B a los relés 311C y 311L del paño B2
+de S/E Alonso de Ribera con
+el reloj satelital.”
+La empresa CGE Transmisión S.A. indica:
+"• Se realizará una revisión y pruebas en el sistema de control del
+Falla en línea 66 kV interruptor asociado al paño 52CT1. Actividad comprometida a
+EAF 329-2024 Talcahuano - Latorre 31-07-2024 septiembre de 2024.
+c1 • Se realizará retemplado de conductor entre las estructuras E-05 a
+E-06 de la línea LT 66 kV Talcahuano – Latorre N°1. Actividad
+comprometida a diciembre 2024."
+Falla en línea 66 kV
+EAF 333-2024 Los Peumos - 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Curacautín
+Falla en línea 66 kV
+EAF 334-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Parral - Cauquenes
+Falla en línea 2x66 kV
+EAF 335-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Lastarria - Loncoche
+Falla en la línea 66 kV
+EAF 337-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Tres Pinos - Lebu
+Falla en la línea 66 kV La empresa CGE Transmisión S.A. indica: “Se realizó el retiro de los
+EAF 338-2024 Curanilahue - Tres 01-08-2024 árboles que se encontraban sobre la línea y, además, se repusieron
+Pinos los conductores de la fase central y lateral que resultaron dañados.”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+CGE Transmisión S.A. indica que realizó la instalación de un nuevo
+Falla en línea 66 kV line post en la estructura N°61 y, además, se reparó el tramo de
+EAF 343-2024 01-08-2024
+Villarrica - Pucón conductor que resultó con daños entre las estructuras N°38 y N°39
+de la línea 66 kV Villarrica - Pucón.
+La empresa CGE Transmisión S.A. indica que “Se quitaron los árboles
+Falla en línea 66 kV
+EAF 345-2024 01-08-2024 que cayeron a las líneas y, además, se repararon los elementos que
+Guindo - Coronel N°2
+resultaron dañados producto de los eventos.”.
+La empresa CGE Transmisión S.A. indica:
+"Se modificará las variables de registro SER para que no se
+produzcan sobre escritura.
+Se realizó el retiro de los árboles que se encontraban sobre la línea y,
+Falla en línea 66 kV
+además, se repusieron los elementos que resultaron dañados
+EAF 347-2024 Curanilahue Norte - 01-08-2024
+producto del temporal.
+Tres Pinos
+Levantamiento y posterior verificación de alambrado de control por
+verificación de potenciales asociados al paño B8 de S/E Curanilahue
+Norte, trabajos asociados a la SD 2024078680 realizada el día 08 de
+agosto de 2024."
+La empresa CGE Transmisión S.A. indica:
+"Con fecha 6 de agosto se encontró causa de falla, que consistió en el
+desprendimiento de parte de malla metálica perimetral que se
+encuentra por encima del nivel de las panderetas. Las condiciones del
+viento arrastraron pequeños segmentos de malla hacia los bushing
+del interruptor del banco de condensadores. Inmediatamente después
+Apertura de detectada la causa de falla, se solicitó la apertura del SSCC que
+intempestiva del alimenta el banco de condensadores en barra.
+EAF 348-2024 01-08-2024
+interruptor 52CT1 de Se programó para los días 13 y 14 de agosto la revisión, limpieza y
+S/E San Pedro despeje del área afectada, para poder re-energizar los bancos de
+condensadores.
+El 01/08/2024 a las 20:26 horas el CT informa problemas en
+mecanismo de apertura y cierre del 52CT1 de S/E San Pedro.
+Posteriormente el 06/08/2024 a las 17:13 horas se concluyen las
+pruebas de apertura y cierre del 52CT1 de S/E San Pedro de manera
+satisfactoria quedando disponible para operación."
+La empresa CGE Transmisión S.A. indica que "Se despejaron las
+Falla en línea 2x66 kV líneas afectadas por el evento, se repusieron las estructuras
+EAF 349-2024 01-08-2024
+Ejército - Guindo derribadas y se reparó el conductor dañado, tanto por el temporal
+como por el posterior robo."
+Falla en línea 154 kV
+EAF 350-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Charrúa - Los Ángeles
+Falla en línea 66 kV La empresa CGE Transmisión S.A. indica que “Se repusieron tanto las
+EAF 351-2024 Carampangue - 01-08-2024 estructuras derribadas, como el conductor cortado producto del
+Curanilahue Norte intenso viento que azotó a la zona centro – sur del país.”.
+La empresa CGE Transmisión S.A. indica que “Se realiza retiro de
+Falla en línea 154 kV árbol en vano 42-43 y de otro arboles con peligro de caida que
+EAF 355-2024 01-08-2024
+Charrúa - Los Ángeles estaban fuera de franja de seguridad que tenian proyecccion hacia la
+linea.”.
+Falla en línea 66 kV
+EAF 361-2024 Pitrufquén - Lastarria 01-08-2024 La empresa CGE Transmisión S.A. indica que “No hay”.
+N°1
+La empresa CGE Transmisión S.A. señala:
+- “Se realiza inspección pedestre e inspección con Dron a la línea de
+Falla en línea 66 kV transmisión.”.
+EAF 369-2024 01-08-2024
+San Fernando - Teno - “El día 03-08-2024, se realiza reparación de fijación de línea en
+aislador de la Estructura N°71 de la LT66kV San Fernando -
+Chimbarongo:
+La empresa CGE Transmisión S.A. indica que “se realiza la reparación
+Falla en línea 66 kV
+EAF 373-2024 01-08-2024 de la estructura 58 del tramo de LT66kV Los Lirios - Chumaquito y la
+Rancagua - Rosario
+estructura 135 del tramo de LT66kV Chumaquito - Rosario.”
+La empresa CGE Transmisión S.A. indica: “Con fecha 6 de agosto se
+encontró causa de falla, que consistió en el desprendimiento de parte
+de malla metálica perimetral que se encuentra por encima del nivel
+de las panderetas. Las condiciones del viento arrastraron pequeños
+Apertura
+segmentos de malla hacia los bushing del interruptor del banco de
+intempestiva del
+EAF 411-2024 05-08-2024 condensadores. Inmediatamente después de detectada la causa de
+interruptor 52CT2 de
+falla, se solicitó la apertura del SSCC que alimenta el banco de
+S/E San Pedro (CGE)
+condensador en barra. Los días 07 y 13 de Agosto 2024 se realizaron
+trabajos de limpieza, reparación de la malla perimetral y reparación
+del interruptor 52BC1 del Banco de Condensadores, quedando este
+nuevamente operativo, como se verifica en los Anexos VIII y IX.”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 6 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los
+Estudios para análisis de Falla EAF 416-2022, EAF 069-2023, EAF 215-2023, EAF 066-2024, EAF 292-
+2024 y EAF 334-2024.
+d.4 Fenómeno eléctrico
+PR51N: Protección temporizada de sobrecorriente residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado por este evento corresponde a la línea 66 kV Parral - Cauquenes, la cual tiene
+53 km de longitud, con conductores del tipo AAAC 125 mm2 y CU 33.68 mm2 y una capacidad
+nominal de 23.66 [MVA] (a 25°C y con tensión nominal), de acuerdo con los registros del Sistema
+Infotécnica del Coordinador.
+f. Ubicación urbana o rural según DS 327/1997
+Urbano y rural.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor o Caso Fortuito.
+h. Comuna donde se presenta la falla
+7201: Cauquenes
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (07-08-2024) Informe de 5 días (12-08-2024)
+CGE S.A. 05-08-2024 07-08-2024
+CGE Transmisión S.A. 05-08-2024 21-08-2024
+Luzparral S.A. 05-08-2024 No enviado
+Luzparral Transmisión S.A. 05-08-2024 12-08-2024
+GR Liun SpA 05-08-2024 07-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 66 kV Parral - Cauquenes ST Zonal LT 66 kV Parral - Tap Paso Hondo 02:52 09:35
+LT 66 kV Parral - Cauquenes ST Zonal LT 66 kV Tap Paso Hondo - Cauquenes 02:52 09:35
+- Las horas indicadas corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Pérdida de
+Alimentador % consumo Clientes H. H. H.
+Subestación Comuna Consumo
+/Paño pre-falla afectados Desc. Dispon. Norm.
+(MW)
+Cauquenes,
+La Vega Los Ruiles / E1 Pelluhue, 0.42 0.004 5135 2:52 9:40 6:09
+Chanco
+Cauquenes Quella / C3 Cauquenes 1.16 0.010 2175 2:52 9:38 9:38
+Cauquenes,
+Cauquenes Tabolguen / C4 0.34 0.003 1450 2:52 9:38 9:38
+Parral
+Cauquenes,
+Cauquenes Pocillas / C7 0.46 0.004 2741 2:52 9:39 9:39
+San Carlos
+Cauquenes,
+Cauquenes Pilen / C8 Pelluhue, 3.03 0.027 15141 2:52 9:39 9:39
+Quirihue
+Cauquenes,
+La Vega Los Ruiles / E1 Pelluhue, 0.69 0.006 6190 2:52 9:40 9:40
+Chanco
+Cauquenes,
+La Vega Triple U / E2 0.02 0.000 262 2:52 9:40 9:40
+Chanco
+Retiro,
+Paso Hondo Cardo Verde / C1 0.12 0.001 2:52 9:47 9:55
+Parral
+10571 (*)
+Retiro,
+Paso Hondo Unicaven / C2 0.30 0.003 2:52 9:47 9:57
+Parral
+Total: 6.54 MW 0.081 % 43665
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A., Luzparral Transmisión S.A. y Luzparral
+S.A.
+- (*) No se indica el detalle de clientes afectados por alimentador, solo el total.
+3. Estimación de la energía no suministrada
+Alimentador Tipo de Pérdida de Tiempo Tiempo ENS
+Subestación Empresa
+/Paño cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+La Vega Los Ruiles / E1 CGE Regulado 0.42 6.80 3.28 1.4
+Cauquenes Quella / C3 CGE Regulado 1.16 6.77 6.77 7.8
+Cauquenes Tabolguen / C4 CGE Regulado 0.34 6.77 6.77 2.3
+Cauquenes Pocillas / C7 CGE Regulado 0.46 6.78 6.78 3.1
+Cauquenes Pilen / C8 CGE Regulado 3.03 6.78 6.78 20.6
+La Vega Los Ruiles / E1 CGE Regulado 0.69 6.80 6.80 4.7
+La Vega Triple U / E2 CGE Regulado 0.02 6.80 6.80 0.1
+Paso Hondo Cardo Verde / C1 Luzparral Regulado 0.12 6.92 7.05 0.8
+Paso Hondo Unicaven / C2 Luzparral Regulado 0.30 6.92 7.08 2.1
+Clientes Regulados : 42.9 MWh
+Clientes Libres : MWh
+Total : 42.9 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A., Luzparral Transmisión S.A. y Luzparral
+S.A.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecian diferencias entre el horario de recuperación real respecto del horario de disponibilidad de
+la barra primaria respectiva, para el primer 6.4% de los consumos recuperados. Lo anterior se debió
+a que dichos consumos se recuperaron a través de generación local.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Potencia
+Rango recuperación recuperación
+(MW)
+(h) (MW/h)
+Primer 80 % 5.23 6.78 0.77
+Último 20 % 1.31 7.08 0.18
+100 % Total 6.54 7.08 0.92
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8096 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional previo a la falla, mediante las
+centrales El Toro (U1, U2, U3 y U4), Mejillones (IEM y CTM3), Ralco (U1 y U2), Atacama (TG1 y TG2),
+Angostura (U1) y Nueva Renca.
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 05 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 05 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+05 de agosto de 2024.

@@ -1,0 +1,231 @@
+Estudio para análisis de falla EAF 321/2024
+“Pérdida de suministro en barra 15 kV de S/E Tuniche”
+Fecha de Emisión: 19-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 28/07/2024
+Hora 10:28
+Consumos desconectados (MW) 4.85
+Demanda previa del sistema (MW) 9074.00
+Porcentaje de desconexión 0.053 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Tuniche / SE067T0058
+Tipo de instalación Subestación
+Tensión nominal 15 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741- K
+Representante Legal Iván Quezada E.
+Dirección Av. Presidente Riesco 5561, piso 17, Las Condes.
+c. Identificación del elemento fallado
+Alimentador Las Coloradas (52C1) de S/E Tuniche / PA198T0058SE067T0058
+Nombre del elemento fallado
+(*)
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741- K
+Representante Legal Iván Quezada E.
+Dirección Av. Presidente Riesco 5561, piso 17, Las Condes.
+(*) Corresponde al código nemotécnico del paño C1 de S/E Tuniche.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la barra de 15 kV de S/E Tuniche, en momentos en que ésta se
+encontraba alimentada desde redes MT a través del alimentador Las Coloradas de S/E Tuniche, cuya
+causa fue una falla ocurrida en redes de distribución del mencionado alimentador. Como consecuencia,
+se produjo la pérdida de los consumos del alimentador Chancón (52C6).
+Además, como consecuencia de la desconexión de la barra de 15 kV de S/E Tuniche, se produjo la
+descarga del banco de baterías conectado a los SS/AA, lo que impidió el cierre remoto del interruptor
+52CT a las 11:18 horas y la consecuente recuperación de los consumos de los alimentadores Las
+Coloradas (52C1) y Chancón (52C6), lo que finalmente ocurrió mediante una orden de cierre local a
+las 11:24 horas.
+d.2 Fenómeno Físico:
+OPE6: Fallas en instalaciones de terceros u en otro segmento.
+La empresa CGE Transmisión S.A. remitió probatorios para acreditar el fenómeno físico que dio origen
+a la falla.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: se han producido 23 fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondientes a los Estudios para Análisis de la Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Apertura intempestiva del
+Las empresas CGE S.A. y CGE Transmisión S.A. no indican acciones correctivas a corto
+EAF 330-2022 interruptor 52ET2 de S/E 15-08-2022
+ni largo plazo.
+Quirihue
+Apertura intempestiva del
+La empresa CGE Transmisión S.A. indica que “Se realiza el reemplazo equipo reconectador
+EAF 331-2022 interruptor 52ET2 de S/E 15-08-2022
+de Paño ET2 debido a falla”.
+Quirihue
+Pérdida de suministro en la
+EAF 388-2022 20-10-2022 La empresa CGE Transmisión S.A. que “no aplica”.
+barra 23 kV de S/E Quirihue
+Desconexión forzada de la barra
+EAF 422-2022 15-11-2022 No se señalan.
+23 kV de S/E La Vega
+Apertura intempestiva del
+EAF 450-2022 interruptor 52E9 de S/E 09-12-2022 La empresa CGE Transmisión S.A. que “no aplica”.
+Constitución
+Pérdida de suministro en S/E
+EAF 472-2022 16-12-2022 La empresa CGE S.A. no indica acciones correctivas.
+Copiapó
+La empresa CGE Transmisión S.A. indica que la primera acción ya fue realizada y correspondió
+Desconexión de transformadores a una inspección de diagnóstico al interruptor 52CT1, efectuada el domingo 12/02/2023 en
+EAF 054-2023 06-02-2023
+66/13.2 kV de S/E Curicó horas de madrugada (SD N°2023011474). En esta inspección se pudo determinar el daño en
+las bobinas de apertura del interruptor 52CT1.
+La empresa CGE Transmisión S.A. señala:
+• “En el paño B1 de SE Loma Colorada, se estudiará la habilitación de elementos de cierre
+Falla en línea 66 kV Loma Colorada -
+EAF 078-2023 17-02-2023 contra falla para mejorar el tiempo de operación durante la reconexión”.
+Escuadrón
+• “En paño B9 SE Coronel se estudiarán medidas que eviten que los elementos de sincronismo
+sobrescriban a los registros secuenciales”.
+Falla en línea 66 kV Rancagua - San
+EAF 140-2023 27-03-2023 La empresa CGE Transmisión S.A. señala que no aplica realizar acciones correctivas.
+Francisco de Mostazal
+Falla en 52C3 de S/E San Francisco La empresa CGE Transmisión S.A. señala lo siguiente: “No se consideran acciones
+EAF 170-2023 15-04-2023
+de Mostazal correctivas.”.
+La empresa CGE Transmisión S.A. señala lo siguiente: “No se consideran acciones
+EAF 190-2023 Pérdida de suministro en S/E Mahns 28-04-2023
+correctivas.”.
+Falla en interruptor 52C24 de S/E La empresa CGE Transmisión S.A. indica: “No se consideran acciones correctivas, falla de
+EAF 217-2023 20-05-2023
+Marga Marga naturaleza transitoria, intermitencias en la comunicación.”.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Desconexión forzada de barra N°2 La empresa CGE Transmisión S.A. señala que: “Se realizará la corrección de los ajustes
+EAF 220-2023 23-05-2023
+13.8 kV de S/E Molina horarios en las unidades de control de los paños C2 y C11”.
+La empresa CGE Transmisión S.A. indica lo siguiente:
+EAF 225-2023 Desconexión forzada de barra N°1 23 24-05-2023 “No Aplica, consideramos que la operación del interruptor general de MT se produce
+kV de S/E Padre Hurtado correctamente ante la condición expuesta. Si bien el despeje de la falla simultánea no es lo
+que se espera, la operación evita daño mayor en las instalaciones.”.
+Desconexión forzada de barra 13.8
+EAF 320-2023 30-07-2023 La empresa CGE Transmisión S.A. que “no aplica”.
+kV de S/E Pacífico
+La empresa CGE Transmisión S.A. señala: “Se realizó revisión e inspección del vano AT
+Falla en línea 110 kV El Edén - Alto comprendido entre las E161 y E162, lugar donde se produjo la caída del conductor de MT de
+EAF 333-2023 05-08-2023
+del Carmen distribución sobre línea de Transmisión, encontrando todo en condiciones normales,
+descartando así alguna situación que pudiese presentar complicaciones a futuro”.
+Desconexión forzada de barra 23 kV La empresa CGE Transmisión S.A. indica: “No existen acciones correctivas a realizar en
+EAF 356-2023 20-08-2023
+N°1 de S/E La Portada segmento de transmisión. Toda vez que las protecciones operan correctamente.”
+Acciones correctivas a corto plazo:
+• “Normalizar sincronización horaria del equipo relé SEL 351R con reloj satelital de la
+instalación.
+Desconexión forzada de barra 23 kV
+EAF 477-2023 03-11-2023 • No existen otras acciones correctivas a realizar en segmento de transmisión. Toda vez
+de S/E Hernán Fuentes
+que las protecciones operan correctamente.”
+Acciones correctivas a largo plazo:
+• La empresa CGE Transmisión S.A. indica: “No hay”.
+Acciones correctivas a corto plazo:
+Pérdida de suministro en S/E • La empresa CGE Transmisión S.A. señala que “No aplica”.
+EAF 514-2023 26-11-2023
+Quirihue Acciones correctivas a largo plazo:
+• La empresa CGE Transmisión S.A. señala que “No aplica”.
+CGE Transmisión S.A. señala que se realizará un análisis del esquema de protecciones, para
+Apertura del interruptor 52CT1 de
+EAF 029-2024 25-01-2024 efectos de buscar una mejora que permita evitar que la influencia de la carga genere
+S/E San Vicente de Tagua Tagua
+descoordinación de protecciones.
+Desconexión forzada del
+EAF 140-2024 transformador N°3 66/15 kV de S/E 06-04-2024 No se indican.
+Chivilcán
+Desconexión forzada del
+CGE Transmisión S.A. señala que “Revisar la factibilidad de sincronización horaria en
+EAF 190-2024 transformador N°1 110/23 kV de S/E 06-05-2024
+protecciones”.
+Vicuña
+Operación del EDAC-BF en S/E
+EAF 309/2024 16-07-2024 La empresa CGE Transmisión S.A. que “no aplica”.
+Constitución
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: no se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+FA90: Falla en sistema de control. (*)
+(*) Fenómeno eléctrico asociado al cierre no exitoso del interruptor 52CT de S/E Tuniche de las 11:18 horas. En el evento de las
+10:28 horas no hubo operación de protecciones del sistema de transmisión.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado por la desconexión forzada corresponde a la barra de 15 kV de S/E Tuniche, la
+cual tiene límite térmico permanente de 1.526 kA y cuya fecha de puesta en servicio fue en el año
+2005. Por otra parte, con respecto al cierre no exitoso del interruptor 52CT ocurrido a las 11:18 horas,
+el equipo donde se produjo este evento fue el banco de baterías conectado a los SS/AA de la barra de
+15 kV de S/E Tuniche.
+La empresa CGE Transmisión S.A. remitió antecedentes respecto de los mantenimientos realizados
+durante los últimos 24 meses al banco de baterías mencionado.
+f. Ubicación urbana o rural según DS 327/1997
+No se indican.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+CGE Transmisión S.A. remite en respaldo a la proposición del origen de la falla lo siguiente:
+• Informe técnico del evento.
+• Mantenimientos de los últimos 24 meses del banco de baterías conectado a los SS/AA de la
+barra de 15 kV de S/E Tuniche.
+h. Comuna donde se presenta la falla
+6101: Rancagua.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (30/07/2024) Informe de 5 días (02/08/2024)
+CGE Transmisión S.A. 28/07/2024 07/08/2024
+Compañía General de Electricidad S.A. (CGE S.A.) No entregado No entregado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Tuniche ST Zonal Barra 15 kV 10:28 11:24
+- Los horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Sub- Alimentador / Pérdida de % consumo Clientes H. H. H.
+Comuna
+Estación Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+S/E Tuniche Chancón / C6 S/I 1.00 0.011 S/I 10:28 11:18 11:24
+S/E Tuniche Las Coloradas / C1 S/I 3.85 0.042 S/I 11:18 11:18 11:24
+Total: 4.85 MW 0.053 % S/I (*)
+- Los montos y horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+(*) CGE Transmisión S.A. indicó, en su IF de 48 horas, que fueron afectados 648 clientes, sin embargo, no se indica si dicho monto
+corresponde al total de los consumos afectados o solo al alimentador Chancón de S/E Tuniche.
+3. Estimación de la energía no suministrada
+Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Alimentador / Paño Empresa
+Cliente Consumo (MW) Indispon. (h) Desc.(h) (MWh)
+S/E Tuniche Chancón / C6 CGE Regulado 1.00 0.83 0.93 0.9
+S/E Tuniche Las Coloradas / C1 CGE Regulado 3.85 0.00 0.10 0.4
+Clientes Regulados : 1.3 MWh
+Clientes Libres : MWh
+Total : 1.3 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+11:45
+11:30
+11:24 11:24
+11:15
+11:18 11:18
+11:00
+10:45
+21% 100%
+Recuperación esperada Recuperación real
+No se aprecian diferencias significativas entre los horarios de recuperación esperada y recuperación
+real de los consumos afectados.
+- Velocidad promedio de recuperación.
+Potencia Tiempo Velocidad de
+Rango
+(MW) recuperación (h) recuperación (MW/h)
+Primer 80 % 3.88 0.93 4.17
+Último 20 % 0.97 0.93 1.04
+100 % Total 4.85 0.93 5.22
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9074.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Angostura (U3),
+Canutillar (U1 y (U2), Colbún (U1 y U2), El Toro (U1, U2, U3 y U4), Mejillones (IEM), Ralco (U1 y U2)
+y Rapel (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 28 de julio de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 28 de julio de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+28 de julio de 2024.

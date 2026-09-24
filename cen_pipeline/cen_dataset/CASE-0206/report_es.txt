@@ -1,0 +1,352 @@
+Estudio para análisis de falla EAF 403/2024
+“Operación del SDAC en SS/EE Chacabuco, Lo Boza, Quilicura y Pajaritos”
+Fecha de Emisión: 26-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 02/08/2024
+Hora 20:02
+Consumos desconectados (MW) 95.39
+Demanda previa del sistema (MW) 9576
+Porcentaje de desconexión 0.996 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Quilicura / SE037T0835
+S/E Lo Boza / SE023T0835
+S/E Chacabuco / SE009T0835
+S/E Pajaritos / SE034T0835
+Tipo de instalación S/E
+Tensión nominal 110 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+c. Identificación del elemento fallado
+Nombre del elemento fallado Sin elemento fallado (*)
+Propietario elemento fallado Sociedad Transmisora Metropolitana S.A.
+RUT 77.611.649-1
+Representante Legal Francisco Alliende
+Dirección Bulnes #441, Osorno, Los Lagos
+(*): No se produjo la falla en algún elemento del SEN. Sólo la operación del automatismo SDAC.
+d.1 Origen y causa de la falla
+Se produjo la operación del SDAC en las SS/EE Chacabuco, Lo Boza, Quilicura y Pajaritos, en el
+momento que este automatismo detectó, según sus mediciones, condiciones de sobrecarga en los
+transformadores 220/110 kV de S/E Cerro Navia, que eran inexistentes en dicho momento, sin
+haberse determinado la causa de las mediciones erradas por parte del automatismo.
+d.2 Fenómeno Físico:
+CLI2: OPE26: Falla en sistema de protección o control.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: se han producido 10 fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa STM II S.A. señala:
+“Ocurrida la operación del interruptor MT3P, se procedió a realizar las
+maniobras de realimentación de los clientes afectados. Al analizar las
+alarmas recibidas se identificó una falla en el alimentador La Reina. Se
+Desconexión procedió a realizar las maniobras de normalización de la Barra MT3
+forzada de barra principal. Al analizar los registros de las protecciones se identificó que la
+EAF 238-2023 03-06-2023
+12 kV N°3 de S/E protección del alimentador La Reina operó, pero su interruptor no abrió.
+La Reina El lunes 5 de junio de 2023, se realizó una revisión de todo el esquema de
+protección del alimentador La Reina (relé e interruptor). Se comprobó el
+correcto funcionamiento de la protección. Sin embargo, se identificó un
+problema intermitente en el mecanismo de apertura del interruptor
+(específicamente en el trinquete), el cual fue corregido.”
+La empresa STM II S.A. indica lo siguiente:
+“Una vez ocurrida la OA del interruptor MT2T, se procedió a transferir el
+alimentador Echeñique desde la Barra MT3T a la Barra MT3P. Personal de
+la Guardia de operaciones se encontraba presente en la subestación La
+Reina, por lo que se procedió a verificar el estado de la instalación, sin
+encontrar evidencias de explosión o descargar eléctricas. Acto seguido se
+procedió a energizar la Barra de Transferencia y la Barra MT3T.
+Personal de equipos realizó una evaluación de la instalación y realizaron
+Desconexión
+pruebas al interruptor del alimentador Ictinos, verificando su correcto
+forzada de la
+funcionamiento. Adjuntamos el informe de estas pruebas.
+barra de
+EAF 293-2023 05-07-23 Personal de protecciones rescató los registros de las protecciones del
+transferencia 12
+alimentador Ictinos y del Interruptor MT3T. La protección del interruptor
+kV N°2 de S/E La
+MT2T no generó oscilografías ni registros de eventos.
+Reina
+En la madrugada del miércoles 12 de julio de 2023, se realizaron pruebas
+a la protección del interruptor MT2T, con resultado satisfactorio.
+Adjuntamos informe de estas pruebas.
+Durante el mes de julio de 2023, se realizará una revisión y verificación
+del alambrado de los
+transformadores de corriente asociados a la protección del interruptor
+MT2T para identificar la causa de la operación y realizar las correcciones
+de ser necesario.”
+La empresa STM II S.A. indica:
+Desconexión
+“Una vez ocurrida la falla acudieron a la instalación personal de STM y
+forzada de los
+personal contratista, y se procedió a realizar una inspección visual del
+transformadores
+transformador de poder N°3, del panel de control en sala y de las
+EAF 397-2023 N°3 110/13.9 kV 07-09-2023
+protecciones mecánicas del equipo, encontrando un ducto de unión con
+y N°4 110/12.5
+fisura en la caja del relé de contraflujo del CTBC, el que se procede a
+kV de S/E San
+limpiar, secar y finalmente sellar para posteriormente poder normalizar el
+Cristóbal
+transformador”
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa STM II S.A. indica:
+““Inmediatamente ocurrida la OA del TR4, se envió personal de
+operaciones, mantenimiento de protecciones y de transformadores. Se
+realizó una inspección visual de los equipos, sin identificar muestras
+Desconexión
+visibles de descargas. Se procedió a rescatar los eventos de las
+forzada del
+protecciones y se realizaron pruebas efectivas a estas con resultado
+transformador
+EAF 489-2023 10-11-2023 satisfactorio.
+N°4 220/23.5 kV
+Adicionalmente se realizó mantenimiento electromecánico al interruptor
+de S/E El
+del alimentador Proacer 1, quedando operativo.”
+Manzano
+Por otra parte, la empresa indica que normalizó inmediatamente el
+contacto deficiente en los transformadores de corriente del lado de 23.5
+kV del transformador N°4, 110/23.5 kV, de S/E El Manzano, el cual
+provocó la operación de su protección diferencial.
+Apertura
+automática del La empresa Sociedad Transmisora Metropolitana II S.A. señala que
+EAF 019-2024 interruptor 17-01-2024 “durante la primera quincena de febrero de 2024, se realizará una revisión
+52ET1A de S/E de las protecciones del interruptor MT1A y del alimentador Damasco.”
+Chicureo
+La empresa STM S.A. indica lo siguiente: “Inmediatamente ocurrida la OA
+del Tr. N°2, se envió personal de operaciones, mantenimiento de
+protecciones y de equipos de maniobra. Se realizó una inspección visual
+de los equipos, no encontrando falla visible. Posterior a esto se solicita el
+Desconexión cierre del interruptor de 220 kV del Transformador N°2 energizándolo por
+forzada del el lado de alta tensión.
+EAF 125-2024 transformador 31-03-2024 En forma paralela, se realizaron pruebas de cierre y apertura manual del
+220/23 kV N°2 de interruptor del lado MT del Transformador N°2, con resultados
+S/E El Manzano satisfactorios, esperando a que por parte de la red de distribución se
+informe si se puede energizar nuevamente la línea.
+Durante el mes de abril de 2024, se realizará el mantenimiento al
+interruptor del lado MT del Transformador N°2 que se encuentra
+pendiente. Esto dependiendo de la disponibilidad del cliente Proacer.”
+Sociedad Metropolitana de Transmisión S.A. señala: “Una vez presente en
+la instalación, personal STM realizó una inspección visual sin identificar
+muestras de descarga eléctrica. Durante la inspección, se identificó
+operado el relé de contra flujo del CTBC y no se identificó otras
+protecciones operadas.
+Se revisó el monitor de gases del transformador encontrando los valores
+dentro de los parámetros normales.
+Se solicitó autorización para desconectar Transformador de poder N°2, se
+Desconexión
+procedió a instalar tierras de protección personal, posterior a esto,
+forzada del
+personal ejecutó la inspección de todas las cajas de unión de las
+EAF 198-2024 transformador 07-05-2024
+protecciones mecánicas las cuales se encuentran en la parte superior del
+N°2 220/23 kV de
+Transformador. Se identificó humedad en la caja de relé de contraflujo del
+S/E Chicureo
+CTBC, esto fue lo que ocasionó la OA de este transformador.
+Se procedió a limpiar, secar y sellar la caja de relé de contraflujo del
+CTBC, se revisaron todas las otras cajas para descartar que exista alguna
+en la misma condición, no se detectan anomalías. En el punto 11 se
+adjunta registro fotográfico.
+Cabe señalar que el cableado se encontró en buen estado.
+Una vez realizado el mantenimiento correctivo se energiza el
+transformador sin observaciones”.
+Sociedad Transmisora Metropolitana S.A. indica lo siguiente:
+“Ocurrida la OA, se coordinó la atención con la guardia de operaciones y
+personal de mantenimiento. Una vez presente en la instalación personal
+STM realizó una inspección, identificando operado el relé maestro del
+transformador N°1 y alarma de operación del relé Buchholz del CTBC del
+TR1. No se identificaron protecciones operadas (eléctricas y mecánicas).
+A las 11:39 horas se energizó el transformador N°1 y a las 11:45 se
+energiza la barra 12 kV. Luego se coordina con CGE la energización de los
+Falla en 3 alimentadores 12 kV de la barra N°1, todo sin novedad.
+transformador La madrugada del sábado 15 de junio se intervino el transformador para
+EAF 266-2024 14-06-2024
+N°1 110/12 kV de investigar en mayor detalle la causa de esta operación. Se revisaron todas
+S/E Malloco las cajas de unión de las protecciones mecánicas, las cuales se encuentran
+en la parte superior del Transformador, detectando humedad en la caja de
+conexión de la válvula alivio de presión, lo que fue la causa le esta
+operación automática.
+Se procedió a limpiar, secar y sellar esta caja, se revisaron todas las otras
+cajas de conexiones para descartar que exista alguna en la misma
+condición, no se detectan anomalías.
+Una vez realizado el mantenimiento correctivo, revisadas y selladas las
+demás uniones, se energizó el transformador sin observaciones”.
+Desconexión
+La empresa STM S.A. indica: “Nos encontramos en el proceso del
+forzada de barra
+EAF 310-2024 17-07-2024 reemplazo de la protección del interruptor MT3P, este debiese ser
+N°3 12 kV de S/E
+reemplazado antes de marzo de 2024”.
+Macul
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Sociedad Transmisora Metropolitana S.A. señala que “En el curso de la
+reparación de esta avería, se detectó que la posición del alimentador
+Aguas Claras estaba dañada, afectando tanto al interruptor como a las
+tulipas de contacto. Debido a la magnitud del daño en los componentes, se
+procedió a desconectar la posición del alimentador Aguas Claras de la
+Desconexión
+Barra MT3. A continuación, se organizó el traslado de este alimentador
+forzada de la
+EAF 380-2024 02-08-2024 desde la Barra MTN°3 a la posición N°45 de la Barra MT N°6, dentro de la
+barra 23 kV N°3
+misma subestación.
+de S/E Lo Boza
+Adicionalmente se efectuó la reparación del pararrayos del transformador
+N°3, el que fue energizado nuevamente el lunes 5 de agosto.”
+A su vez, esa empresa señala que “Se contactará a proveedor para
+solicitar repuestos de fábrica y evaluar si es posible la reparación de la
+posición siniestrada.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: no se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+FA90: Falla en sistema de control.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la desconexión forzada corresponde al Sistema de Desconexión
+Automática de Carga (SDAC) de la empresa STM S.A.
+La empresa Sociedad Transmisora Metropolitana S.A. no remitió antecedentes respecto de los
+mantenimientos realizados durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+Urbana.
+g. Proposición del propietario respecto del origen de la falla
+Externa.
+h. Comuna donde se presenta la falla
+No aplica. No hubo instalaciones falladas.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (04/08/2024) Informe de 5 días (09/08/2024)
+Sociedad Transmisora Metropolitana S.A. (STM) 07/08/2024 16/08/2024
+Enel Distribución Chile S.A. (Enel Dx) 27/08/2024 27/08/2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Quilicura ST Zonal Barra Nº2 12 kV 20:02 20:22
+S/E Quilicura ST Zonal Barra Nº4 12 kV 20:02 20:22
+S/E Lo Boza ST Zonal Barra Nº4 12 kV 20:02 20:22
+S/E Chacabuco ST Zonal Barra Nº1 12 kV 20:02 20:38
+S/E Pajaritos ST Zonal Barra Nº2 12 kV 20:06 20:19
+S/E Pajaritos ST Zonal Barra Nº1 12 kV 20:06 20:20
+- Fechas y horas señaladas corresponden a lo informado por Sociedad Transmisora Metropolitana S.A.
+c. Consumos
+Alimentador / Pérdida de % consumo Clientes H. H. H.
+Sub-Estación Comuna
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+S/E Chacabuco Alim. Mejillones. N/I 8.00 0.080 5116 20:02 20:37 20:37
+Alim.
+S/E Chacabuco N/I 3.42 0.040 93 20:02 20:37 20:37
+Caupolicán.
+S/E Chacabuco Alim. Maulén N/I 1.58 0.020 71 20:02 20:37 20:37
+S/E Lo Boza Alim. Aga N/I 5.65 0.060 1 20:02 20:23 20:23
+S/E Lo Boza Alim. Las Brisas N/I 0.29 0.000 9 20:02 20:23 20:23
+S/E Lo Boza Alim. Eucaliptus N/I 10.48 0.110 7217 20:02 20:23 20:23
+Alim. Los
+S/E Lo Boza N/I 1.04 0.010 41 20:02 20:23 20:23
+Lingues
+S/E Lo Boza Alim. Miraflores N/I 6.52 0.076 920 20:02 20:23 20:23
+S/E Lo Boza Alim. Toconao N/I 2.88 0.030 15 20:02 20:23 20:23
+S/E Quilicura Alim. El Carmen N/I 3.16 0.030 359 20:02 20:22 20:22
+Alim. Las
+S/E Quilicura N/I 1.88 0.020 7 20:02 20:22 20:22
+Esteras
+S/E Quilicura Alim. Granada N/I 2.39 0.020 1473 20:02 20:22 20:22
+Alim.
+S/E Quilicura N/I 1.39 0.010 1197 20:02 20:22 20:22
+Huechuraba
+S/E Quilicura Alim. Peralillo N/I 4.59 0.050 5793 20:02 20:22 20:22
+S/E Pajaritos Alim. Sendero N/I 1.53 0.020 2531 20:06 20:19 20:19
+S/E Pajaritos Alim. Rodríguez N/I 1.32 0.010 1729 20:06 20:20 20:20
+S/E Pajaritos Alim. Alaska N/I 3.25 0.030 4011 20:06 20:20 20:20
+S/E Pajaritos Alim. Braun N/I 1.63 0.020 91 20:06 20:20 20:20
+Alim. General
+S/E Pajaritos N/I 1.57 0.020 1135 20:06 20:20 20:20
+Bueras
+S/E Pajaritos Alim. Casa Vieja N/I 2.06 0.020 4678 20:06 20:19 20:19
+S/E Pajaritos Alim. Descanso N/I 5.45 0.060 6546 20:06 20:20 20:20
+S/E Pajaritos Alim. Ferrocarril N/I 2.73 0.030 5249 20:06 20:19 20:19
+Alim.
+S/E Pajaritos N/I 4.70 0.050 5060 20:06 20:19 20:19
+Guanahani
+S/E Pajaritos Alim. O’Higgins N/I 6.81 0.070 9782 20:06 20:20 20:20
+Alimentador / Pérdida de % consumo Clientes H. H. H.
+Sub-Estación Comuna
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+S/E Pajaritos Alim. Olimpo N/I 0.16 0.000 741 20:06 20:19 20:19
+S/E Pajaritos Alim. Sinfonía N/I 4.83 0.050 8988 20:06 20:20 20:20
+Alim.
+S/E Pajaritos N/I 3.07 0.030 7308 20:06 20:19 20:19
+Transversal
+S/E Pajaritos Alim. Travesía N/I 3.01 0.030 3890 20:06 20:20 20:20
+Total: 95.39 MW 0.996 % 84051
+- Fechas, horas y montos señalados corresponden a lo informado por Enel Distribución Chile S.A.
+N/I: No informado. Enel Distribución Chile S.A. informa consumos afectados Cerrillos, Conchalí, Estación Central, Huechuraba,
+Maipú, Pudahuel, Quilicura, Renca de manera agrupada para este evento.
+3. Estimación de la energía no suministrada
+Alimentador / Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Empresa
+Paño Cliente Consumo (MW) Indispon. (h) Desc.(h) (MWh)
+Enel
+S/E Chacabuco Alim. Mejillones. Regulado 8.00 0.58 0.58 4.7
+Distribución
+Enel
+S/E Chacabuco Alim. Caupolicán. Regulado 3.42 0.58 0.58 2.0
+Distribución
+Enel
+S/E Chacabuco Alim. Maulén Regulado 1.58 0.58 0.58 0.9
+Distribución
+Enel
+S/E Lo Boza Alim. Aga Regulado 5.65 0.35 0.35 2.0
+Distribución
+Enel
+S/E Lo Boza Alim. Las Brisas Regulado 0.29 0.35 0.35 0.1
+Distribución
+Enel
+S/E Lo Boza Alim. Eucaliptus Regulado 10.48 0.35 0.35 3.7
+Distribución
+Enel
+S/E Lo Boza Alim. Los Lingues Regulado 1.04 0.35 0.35 0.4
+Distribución
+Enel
+S/E Lo Boza Alim. Miraflores Regulado 6.52 0.35 0.35 2.3
+Distribución
+Enel
+S/E Lo Boza Alim. Toconao Regulado 2.88 0.35 0.35 1.0
+Distribución
+Enel
+S/E Quilicura Alim. El Carmen Regulado 3.16 0.33 0.33 1.1
+Distribución
+Enel
+S/E Quilicura Alim. Las Esteras Regulado 1.88 0.33 0.33 0.6
+Distribución
+Enel
+S/E Quilicura Alim. Granada Regulado 2.39 0.33 0.33 0.8
+Distribución
+Enel
+S/E Quilicura Alim. Huechuraba Regulado 1.39 0.33 0.33 0.5
+Distribución
+Enel
+S/E Quilicura Alim. Peralillo Regulado 4.59 0.33 0.33 1.5
+Distribución
+Enel
+S/E Pajaritos Alim. Sendero Regulado 1.53 0.22 0.22 0.3
+Distribución
+Enel
+S/E Pajaritos Alim. Rodríguez Regulado 1.32 0.23 0.23 0.3
+Distribución
+Enel
+S/E Pajaritos Alim. Alaska Regulado 3.25 0.23 0.23 0.8
+Distribución
+Enel
+S/E Pajaritos Alim. Braun Regulado 1.63 0.23 0.23 0.4
+Distribución
+Alim. General Enel
+S/E Pajaritos Regulado 1.57 0.23 0.23 0.4
+Bueras Distribución

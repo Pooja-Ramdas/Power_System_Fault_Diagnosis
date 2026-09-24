@@ -1,0 +1,212 @@
+Estudio para análisis de falla EAF 342/2024
+“Falla en línea 66 kV Pullinque - Los Lagos N°1”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 11:18
+Consumos desconectados (MW) 3.37
+Demanda previa del sistema (MW) 10576.46
+Porcentaje de desconexión 0.032 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Pullinque - Los Lagos / LT069---------T0002
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Región Metropolitana de Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 66 kV Pullinque - Los Lagos / LT069---------T0002
+Propietario elemento fallado Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Región Metropolitana de Santiago.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Pullinque - Los Lagos N°1, por apertura automática
+de los interruptores 52B3 de S/E Pullinque y 52B1 de S/E Los Lagos, ambos, debido a la operación de
+su protección de distancia, provocada por la caída de un árbol durante un temporal de mal tiempo.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+La empresa Transelec S.A. remite antecedentes probatorios del fenómeno físico declarado con el fin de
+acreditar el origen de la falla.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se ha producido una falla en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Transelec S.A. indica lo siguiente:
+“En el corto plazo, para la energización de la línea (la cual se vio afectada
+producto de la crecida y cambio en el curso del río Tinguiririca), Transelec
+ejecutó exitosamente los trabajos para la conexión en Tap-off desde la
+estructura N°7 de la línea 154kV Tinguiririca - Punta de Cortés a la
+estructura N°2 de la línea 154kV Tinguiririca - San Fernando. Cabe
+mencionar, que la línea quedará bajo este esquema de conexión hasta la
+reparación completa de la torre colapsada por la crecida y cambio en el
+Falla en línea 154
+curso del río. Se adjunta un análisis de factibilidad de conexión que valida
+EAF 276/2023 kV Tinguiririca - 23-06-2023
+este esquema provisorio de conexión.”
+San Fernando
+“En el largo plazo, Transelec estima (de manera preliminar) que tardará 4
+meses en la reparación de la torre colapsada y la normalización de línea,
+es decir, a principios de noviembre. Estos trabajos se desarrollarán según
+el siguiente cronograma de trabajo:
+- Fase de ingeniería: 2 semanas desde ocurrido el evento.
+- Fase de licitación: 4 semanas luego de concluida la fase de ingeniería.
+- Obras civiles: 5 semanas luego de adjudicada la obra.
+- Montaje y tendido: 5 semanas luego de culminadas las obras civiles.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 2 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 062-2024 y EAF 063-2024.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 66 kV Pullinque - Los Lagos, la que, de
+acuerdo con lo informado por su propietario, cuenta con las siguientes características:
+Concepto Tramo Pullinque - Panguipulli 66 kV Tramo Panguipulli - Los Lagos 66 kV
+Tensión 66 kV 66 kV
+Conductor CU 2/0 AGW CU 2/0 AGW
+Nº de conductor por fase 1 1
+Tº de Diseño del Conductor No Informado No Informado
+Capacidad de corriente a
+0,244 kA 0,244 kA
+temperatura de operación
+Cable de Guardia No Informado No Informado
+Longitud del Conductor 10.16 km 54.3 km
+PES 1960 1960
+Al respecto, la empresa Transelec S.A., adjunta información de los mantenimientos de esta instalación
+durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Sociedad Austral de Electricidad S.A. no informa.
+g. Proposición del propietario respecto del origen de la falla
+I.- Fuerza Mayor.
+h. Comuna donde se presenta la falla
+14108: Panguipulli.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03-08-2024) (08-08-2024)
+Transelec S.A. 02-08-2024 08-08-2024
+Sistema de Transmisión del Sur S.A. (STS S.A.) 01-08-2024 13-08-2024
+Sociedad Austral de Electricidad S.A. (SAESA) No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+00:50
+Línea 66 kV Pullinque - Los Lagos Nº1 ST Zonal Pullinque - Panguipulli 11:18
+(02-08-2024)
+01:57
+S/E Panguipulli ST Zonal Barra 66 kV 11:18
+(02-08-2024)
+02:00
+S/E Panguipulli ST Zonal Transformador Nº1 66/23 kV 11:18
+(02-08-2024)
+02:16
+S/E Panguipulli ST Zonal Transformador Nº2 66/23 kV 11:18
+(02-08-2024)
+01:01
+Línea 66 kV Pullinque - Los Lagos Nº1 ST Zonal Panguipulli - Los Lagos 11:18
+(05-08-2024)
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla (**)
+S/E Panguipulli Pullinque / E1 Panguipulli 0.00 0.000 (*) - - -
+Lanco, Los
+Lagos,
+S/E Panguipulli Malalhue / E2 0.00 0.000 (*) - - -
+Panguipulli,
+Loncoche
+S/E Panguipulli Panguipulli / E1 Panguipulli 3.32 0.031 7587 11:18 02:00 02:01
+Lanco, Villarrica,
+S/E Panguipulli Lican Ray / E3 Panguipulli, 0.05 0.000 7796 11:18 02:00 02:11
+Loncoche
+Total: 3.37 MW 0.032% 15383
+- Los montos y horarios señalados corresponden a lo informado por la empresa Sistema de Transmisión del Sur S.A.
+- (*) Los interruptores de cabecera de los alimentadores Pullinque y Malalhue, asociados a los paños E1 y E2 de S/E Pullinque,
+respectivamente, se encontraban abiertos por interrupción previa en el sistema de distribución según lo informado por la empresa
+Sistema de Transmisión del Sur S.A.
+- (**) Horario correspondiente al día 02-08-2024.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Panguipulli Pullinque / E1 (*) SAESA Regulado 0.00 - - -
+S/E Panguipulli Malalhue / E2 (*) SAESA Regulado 0.00 - - -
+S/E Panguipulli Panguipulli / E1 SAESA Regulado 3.32 14.70 14.72 48.9
+S/E Panguipulli Lican Ray / E3 SAESA Regulado 0.05 14.70 14.88 0.7
+Clientes Regulados : 49.6 MWh
+Clientes Libres : MWh
+Total : 49.6 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Sistema de Transmisión del Sur S.A.
+(*) Los interruptores de cabecera de los alimentadores Pullinque y Malalhue, asociados a los paños E1 y E2 de S/E Pullinque,
+respectivamente, se encontraban abiertos por interrupción previa en el sistema de distribución según lo informado por la empresa
+Sistema de Transmisión del Sur S.A.
+- Curva de recuperación esperada v/s recuperación real (día 02/08/2024).
+No se aprecian diferencias significativas entre los horarios de recuperación esperada y recuperación
+real para los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 2.70 14.72 0.18
+Último 20 % 0.67 14.88 0.05
+100 % Total 3.37 14.88 0.23
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10576.46 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U2 y U3), Colbún (U1 y U2), El Toro (U1, U2, U3 y U4), Mejillones (IEM) y Ralco
+(U1).
+Estado y configuración previo a la falla
+La línea 2x66 Loncoche - Pullinque se encontraba desconectada en ambos circuitos, con apertura de
+los respectivos interruptores en S/E Loncoche (52B2 y 52B5) y en S/E Pullinque (52B2 y 52 B4). La
+central HP Pullinque se encontraba en servicio y despachada.
+Otros antecedentes relevantes
+Según lo informado por la empresa Transelec S.A.:
+“A las 11:18 horas del día 1 de agosto, se produjo la desconexión del circuito 1 de la línea 66 kV Pullinque
+- Los Lagos, propiedad de Transelec, por operación de sus protecciones. Lo anterior, debido a un
+cortocircuito bifásico entre las fases B y C, como consecuencia de las fuertes e inusuales condiciones
+climáticas existentes en la zona de viento y lluvia, produciendo la caída de árbol sobre la línea, el cual se
+encontraba fuera de la franja de seguridad. Esta desconexión provocó la interrupción de suministro de
+energía eléctrica a los consumos de la S/E Panguipulli, con una pérdida de potencia de 3.8 MW según
+nuestro reporte de SCADA.
+Respecto a la reposición del suministro, estos se recuperan a las 00:50 horas del día 2 de agosto con la
+reconexión del tramo 66 kV Pullinque - Panguipulli. Mientras que a las 01:10 horas, del día 5 de agosto,
+se recupera la topología del sistema previa a la falla, luego de la normalización y reparación del tramo
+de línea 66 kV Panguipulli - Los Lagos.”
+Según lo informado por la empresa Sistema de Transmisión del Sur S.A.:
+Fenómeno Físico: Fallas en instalaciones de terceros.
+Elemento: No aplicar.
+Fenómeno Eléctrico: Bajo voltaje.
+Operación de los interruptores: Opera según lo esperado.
+Observaciones: Interrupción línea 66 kV Pullinque - Los Lagos (propiedad de Transelec S.A.).
+Se solicitará la siguiente información adicional a la empresa Sociedad Austral de Electricidad S.A.:
+• Informes de falla de 48 horas y del 5to día con el correspondiente nivel de detalle asociado al
+evento en análisis. En particular, remitir causa definitiva de la afectación de sus consumos, los
+registros oscilográficos por la operación de protecciones, análisis del desempeño de las
+protecciones en función de sus ajustes, así como el detalle de los consumos desprendidos, y
+las maniobras ejecutadas para su normalización.
+De forma complementaria, se adjuntan los informes de falla de instalaciones ingresados en el sistema
+Neomante del Coordinador Eléctrico Nacional por las empresas Transelec S.A., Sistema de Transmisión
+del Sur S.A. y otros antecedentes aportados por el Coordinador (Anexo N°1), e informes de falla de 5
+días aportados por las mismas empresas (Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Transelec S.A. indica: “No se consideran acciones correctivas de corto y largo plazo, ya
+que la falla en cuestión no se debió a un comportamiento erróneo de las instalaciones”.
+La empresa Sistema de Transmisión del Sur S.A. indica: “No aplica”.
+c) Acciones correctivas a largo plazo:
+La empresa Transelec S.A. indica: “No se consideran acciones correctivas de corto y largo plazo, ya
+que la falla en cuestión no se debió a un comportamiento erróneo de las instalaciones”.
+La empresa Sistema de Transmisión del Sur S.A. indica: “No aplica”.
+Diagrama simplificado de las instalaciones previo a la falla

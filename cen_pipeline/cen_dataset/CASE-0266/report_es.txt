@@ -1,0 +1,215 @@
+Estudio para análisis de falla EAF 343/2024
+“Falla en línea 66 kV Villarrica - Pucón”
+Fecha de Emisión: 23-08-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 11:20
+Consumos desconectados (MW) 14.30
+Demanda previa del sistema (MW) 10476.00
+Porcentaje de desconexión 0.137 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Villarrica - Pucón / LT113CI1TR02----T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 17, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 66 kV Villarrica - Pucón / LT113CI1TR02----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 17, Las Condes.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Villarrica - Pucón, por operación de las protecciones
+del extremo Villarrica, ante la ocurrencia de una falla bifásica.
+La causa de la falla fue el contacto de un gancho de árbol con los conductores, lo que provocó que se
+descabezara la cadena de aisladores de la fase central en la estructura N°61, quedando el conductor
+apoyado sobre ésta, durante fuerte temporal de viento y lluvia en la zona.
+d.2 Fenómeno Físico
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+La empresa CGE Transmisión S.A. remite antecedentes para acreditar el origen de la falla.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido 11 fallas en
+instalaciones del mismo propietario con un fenómeno físico similar (homologado), durante los últimos
+24 meses móviles, correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea 66 kV
+EAF 277_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Charrúa - Lucero
+Falla en línea 66 kV
+EAF 278_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+San Fernando - Placilla
+Falla en línea 66 kV
+EAF 362_2023 22-08-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Los Maquis - Hualañé
+La empresa CGE Transmisión S.A. indica: “Se analizan eventos de
+relé SEL 387 S1 y SEL 351 S2. Al día siguiente se interrogan relés
+F4c asociados a los paños C1 y C2. Se observa que hay eventos en
+los horarios de falla. Se analizan eventos de relé SEL- 311C. Se
+Apertura realiza una inspección del tramo completo de la LT 66 kV Pan de
+intempestiva de los Azúcar- Marquesa, sin evidencias de la falla. Se realiza inspección
+EAF 394-2023 interruptores 52B5 y 06-09-2023 visual y pruebas locales al interruptor 52B5 de S/E Pan de Azúcar el
+52CT8 de S/E Pan de día de la falla, sin encontrar causa evidente (durante la semana del
+Azúcar 25 al 29 del presente se realizarán pruebas exhaustivas al
+interruptor, para luego durante la semana del 2 al 6 de octubre
+presentar un informe del interruptor 52B5). Reemplazo de
+interruptor 52B5 de SE Pande Azúcar (fecha estimada diciembre de
+2023)”.
+La empresa CGE Transmisión S.A. indica:
+Falla en línea 66 kV - “Se realiza el afianzamiento con tirantes del poste externo cerca de
+EAF 247-2024 Alonso de Ribera - 08-06-2024 la estructura E46 de la línea LT Alonso de Ribera-Chiguayante.”
+Chiguayante - “Se realiza la conexión IRIG B a los relés 311C y 311L del paño B2
+de S/E Alonso de Ribera con el reloj satelital.”
+La empresa CGE Transmisión S.A. indica:
+"• Se realizará una revisión y pruebas en el sistema de control del
+Falla en línea 66 kV interruptor asociado al paño 52CT1. Actividad comprometida a
+EAF 329-2024 Talcahuano - Latorre 31-07-2024 septiembre de 2024.
+N°1 • Se realizará retemplado de conductor entre las estructuras E-05 a
+E-06 de la línea LT 66 kV Talcahuano - Latorre N°1. Actividad
+c omprometida a diciembre 2024."
+Falla en línea 66 kV
+EAF 333-2024 Los Peumos - 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Curacautín
+Falla en línea 66 kV
+EAF 334-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Parral - Cauquenes
+Falla en línea 2x66 kV
+EAF 335-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Lastarria - Loncoche
+Falla en la línea 66 kV
+EAF 337-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Tres Pinos - Lebu
+Falla en la línea 66 kV
+EAF 338-2024 Curanilahue - Tres 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Pinos
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido tres fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondientes a los Estudios
+para Análisis de Falla EAF 328-2022, EAF 274-2024 y EAF 331-2024.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores de la línea 66 kV Villarrica - Pucón,
+que de acuerdo con lo informado por su propietario en la plataforma Infotécnica del Coordinador, posee
+dos tramos, uno de 3.97 km con un conductor AAC Hendrix y otro de una longitud de 30.34 km con
+un conductor AAAC Butte. Ambos tramos poseen fecha de entrada en operación durante el año 2005.
+La empresa CGE Transmisión S.A. no remite información sobre los mantenimientos realizados durante
+los últimos 24 meses en la línea 66 kV Villarrica - Pucón.
+f. Ubicación urbana o rural según DS 327/1997
+CGE S.A. indica lo siguiente: “Rural” y “Urbano”.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza mayor o caso fortuito.
+La empresa CGE Transmisión S.A. remite los siguientes antecedentes en respaldo a la proposición del
+origen de la falla:
+• Informe técnico de los hechos que provocan la falla.
+• Informe público y conocido que acredita el evento aducido.
+• Informe de interrupción de suministro.
+h. Comuna donde se presenta la falla
+9115: Pucón
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03-08-2024) (08-08-2024)
+CGE Transmisión S.A. 01-08-2024 13-08-2024
+Compañía General de Electricidad S.A. (CGE S.A.) 06-08-2024 08-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Villarrica - Pucón 66 kV ST Zonal Villarrica - Pucón 66 kV 11:20 20:52
+- Las horas indicadas corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Alimentador Pérdida de % consumo Clientes H. H. H.
+Subestación Comuna
+/Paño Consumo (MW) pre-falla afectados Desc. Dispon. Norm.
+S/E Pucón Antumalal / E3 Pucón 0.90 0.009 1248 11:20 20:52 21:45
+S/E Pucón Costanera / E4 Pucón 4.80 0.046 6578 11:20 20:52 21:58
+Pucón,
+S/E Pucón Curarrehue / E5 8.60 0.082 16970 11:20 20:52 23:02
+Curarrehue
+Total: 14.30 MW 0.137% 24796
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A. y CGE Transmisión S.A.
+3. Estimación de la energía no suministrada
+Alimentador Pérdida de Tiempo Tiempo ENS
+Subestación Empresa Tipo de cliente
+/Paño Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Pucón Antumalal / E3 CGE Regulado 0.90 9.53 10.42 9.4
+S/E Pucón Costanera / E4 CGE Regulado 4.80 9.53 10.63 51.0
+S/E Pucón Curarrehue / E5 CGE Regulado 8.60 9.53 11.70 100.6
+Clientes Regulados : 161.0 MWh
+Clientes Libres : MWh
+Total : 161.0 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A. y CGE Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+23:30
+23:15
+23:00
+22:45 23:02
+22:30
+22:15
+22:00
+21:45
+21:58
+21:30 21:45
+21:15
+20:52 20:52 20:52
+21:00
+20:45
+20:30
+6% 40% 100%
+Recuperación esperada Recuperación real
+Se aprecian diferencias significativas entre los horarios de recuperación real respecto de los horarios
+de disponibilidad de las barras primarias respectivas.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Potencia
+Rango recuperación recuperación
+(MW)
+(h) (MW/h)
+Primer 80 % 11.44 11.70 0.98
+Último 20 % 2.86 11.70 0.24
+100 % Total 14.30 11.70 1.22
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10476.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Angostura (U2 y
+U3), Colbún (U1 y U2), El Toro (U1, U2, U3 y U4), Mejillones (IEM) y Ralco (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+01 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 01 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban con la siguiente configuración en los momentos
+previos a la desconexión forzada:
+• La línea 2x66 kV Loncoche - Pullinque se encontraba desconectada desde las 09:42 horas, por
+operación de protecciones.
+• La línea 66 kV Loncoche - Villarrica N°1 se encontraba desconectada desde las 09:53 horas,
+por operación de protecciones.
+Otros antecedentes relevantes
+Según lo indicado por la empresa CGE Transmisión S.A.:
+“El día 1 de agosto de 2024 a las 11:20 horas se registró la desconexión forzada de la LT 66 kV
+Villarrica - Pucón, por operación de la protección SEL-311C asociado al interruptor 52B2 de S/E
+Villarrica, se debe tener presente que, a esa hora la zona lacustre estaba bajo condiciones de
+tiempo adversas (vientos extremadamente fuertes).
+Por intermedio del Centro de Operaciones de CGE Transmisión (COT), se solicitó a CGE Distribución
+Delegación Pucón tomar acciones para recuperar los consumos vía red MT de los alimentadores
+52E3, 52E4 y 52E5 de S/E Pucón.
+De manera paralela personal de CGE Transmisión, Zona Araucanía, inicia interrogación remota de
+la protección SEL 311C del equipo 52B2 de S/E Villarrica, indicando esta una distancia de falla
+aproximada de 4,69 km desde S/E Villarrica.
+Brigadas contratistas de CGE Transmisión, en función a los datos arrojados por la protección del
+paño B2 de S/E Villarrica, inician recorrido de la línea, encontrando evidencias de ganchos de
+árboles llevados por el viento a los conductores provocando daño en la aislación de la fase central
+en la estructura N°61, quedando el conductor posado en dicha estructura.

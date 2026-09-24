@@ -1,0 +1,202 @@
+Estudio para análisis de falla EAF 431/2024
+“Desconexión forzada del transformador 110/23 kV N°1 de S/E Minsal”
+Fecha de Emisión: 06-09-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 18/08/2024
+Hora 01:29
+Consumos desconectados (MW) 9.00
+Demanda previa del sistema (MW) 8687.00
+Porcentaje de desconexión 0.104 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Minsal / SE007G0010
+Tipo de instalación Subestación
+Tensión nominal 110/23 kV
+Segmento Transmisión Dedicado
+Propietario instalación afectada AES Andes S.A.
+RUT 94.272.000-9
+Representante Legal Javier Dib
+Dirección Avda. Los Conquistadores #1730, Oficina 1001, Piso 10, Providencia
+c. Identificación del elemento fallado
+Nombre del elemento afectado Transformador N°1 110/23 kV de S/E Minsal / ET01G0010SE007G0010
+Propietario elemento fallado AES Andes S.A.
+RUT 94.272.000-9
+Representante Legal Javier Dib
+Dirección Avda. Los Conquistadores #1730, Oficina 1001, Piso 10, Providencia
+d.1 Origen y causa de la falla
+Se produjo la apertura automática de los interruptores 52H1 y 52E1 de S/E Minsal, asociados al
+transformador N°1, 110/23 kV, de dicha S/E, por operación del relé maestro del transformador (86T),
+el cual recibe la orden de apertura desde el relé temporizador del sistema de control asociado al
+cambiador de tap bajo carga (CTBC) de dicho transformador.
+La empresa AES Andes S.A. indica que la causa de la operación se debe a que el CTBC excedió el
+tiempo ajustado para realizar un cambio de tap.
+d.2 Fenómeno Físico:
+OPE26: Falla en sistema de protección o control
+La empresa AES Andes S.A. no remite los antecedentes para acreditar el fenómeno físico determinado
+por el Coordinador.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada tres veces
+por el mismo fenómeno físico, durante los últimos 24 meses móviles, correspondientes a los Estudios
+para Análisis de Falla EAF 285-2023, EAF 293-2024 y EAF 320-2024.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido cuatro fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa AES Andes S.A. indica:
+“Se realizó una revisión a las instalaciones de Subestación Minsal posterior
+a los eventos de falla.
+Se realiza la revisión visual del sistema control cambiador bajo carga.
+Se verifica operación relé maestro 86T
+Se verifica operación relé temporizador Y24 por tiempo de conmutación
+del CBC mayor a 2.5 segundos.
+No se observan registros de protecciones eléctricas operadas.
+Se revisa dispositivos de protección propia del transformador, estado
+Desconexión
+normal.
+forzada del
+Se está coordinando con el cliente SQM un mantenimiento a la
+EAF 285-2023 transformador 26-06-2023
+Subestación Minsal para octubre 2023, donde incluirá la mantención del
+110/23 kV Nº1 de
+sistema CBC del T1 por cumplimiento de las horas de operación.
+S/E Minsal
+Fabricante recomienda cada 100.000 operaciones o 5 años, al momento
+de la desconexión contaba 104.170 operaciones por lo que la próxima
+mantención por el número de operaciones era 136.914 operaciones
+(anterior mantención fue realizada a las 36.914 operaciones).
+Sistema CBC se deja en modo control manual en Tap 5.
+Se desbloquea relé activado.
+Se realiza reconexión controlada de forma exitosa a través del interruptor
+de potencia 52H1 de S/E Minsal a las 14:02 hrs del lunes 26 de junio
+2023.”
+Desconexión La empresa AES Andes S.A. indica: “En función a los análisis realizados a
+forzada del CTBC, se presume un buen funcionamiento. Considerando y teniendo
+EAF 293-2024 transformador 02-07-2024 presente que el NUP3073 implicará una desconexión por 5 días (aun no
+110/23 kV Nº1 de planificada), se realizará una revisión del circuito de supervisión de tiempo
+S/E Minsal del CTBC.”
+Desconexión
+forzada de la
+EAF 314-2024 19-07-2024 La empresa AES Andes S.A. señala que “no aplica”.
+unidad N°1 de
+Central Alfalfal
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa AES Andes S.A. indica:
+“Se analiza varias actividades con colaborador dentro de las cuales están:
+• Revisión sistema de recorrido (falta o sobre) de CTBC, con foco en
+revisar la efectividad de los cambios de tomas de T1 S/E Minsal.
+• Inspección visual, termográfica y toma de muestras de aceite del T1 de
+Minsal.
+• Toma de registro fotográfico de la caja de accionamiento del CTBC en
+Desconexión
+su conjunto.
+forzada del
+• Revisión causal con soporte de Hitachi Energy con foco en identificar
+EAF 320-2024 transformador 26-07-2024
+puntos de falla en el control de la caja de accionamiento.
+110/23 kV N°1
+• Definición de listado de repuestos de partes y piezas de la caja de
+S/E Minsal
+accionamiento.
+• Programación y coordinación de remplazo de elementos críticos en
+función de la evaluación causal de fallas.
+• Programación de ejecución de pruebas funcionales del sistema CTBC en
+su conjunto.
+Por lo consiguiente, se proyecta una desconexión del Transformador T1
+por un periodo de 12 horas continuas.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido cuatro
+fallas en la misma instalación afectada durante los últimos 24 meses móviles, correspondientes a los
+Estudios para análisis de Falla EAF 116-2023, EAF 285-2023, EAF 293-2024 y EAF 320-2024.
+d.4 Fenómeno eléctrico
+FA90: Falla en sistema de control.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al sistema de control asociado al cambiador de tap
+del transformador Nº1, 110/23 kV, de S/E Minsal, equipo que según lo informado por el propietario
+posee una capacidad nominal de 20 MVA.
+Al respecto, la empresa AES Andes S.A., no adjunta información de los mantenimientos de esta
+instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No Aplica.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+2203: San Pedro de Atacama.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(20-08-2024) (23-08-2024)
+AES Andes S.A. 18-08-2024 22-08-2024
+Sociedad Química y Minera de Chile S.A. No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Minsal ST Dedicado Transformador Nº1 110/23 kV 01:29 01:53
+S/E Minsal ST Dedicado Barra 23 kV Nº1 01:29 01:55
+- Los horarios señalados corresponden a lo informado por la empresa AES Andes S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % consumo Clientes H. H. H.
+Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+San Pedro
+S/E Minsal Paños E3 y E5 9.00 0.104 1 01:29 01:55 01:55
+de Atacama
+Total: 9.00 MW 0.104% 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa AES Andes S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Minsal Paños E3 y E5 SQM Libre 9.00 0.43 0.43 3.9
+Clientes Regulados : MWh
+Clientes Libres : 3.9 MWh
+Total : 3.9 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa AES Andes S.A.
+- Curva de recuperación esperada v/s recuperación real.
+02:15
+02:00
+01:55
+01:55
+01:45
+01:30
+100%
+Recuperación esperada Recuperación real
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 7.20 0.43 16.74
+Último 20 % 1.80 0.43 4.19
+100 % Total 9.00 0.43 20.93
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8687.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U1, U2 y U3), El Toro (U1, U2, U3 y U4), Ralco (U1 y U2), Rapel (U1 y U2) y
+Tocopilla (U16).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 18 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 18 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+18 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 18 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa AES Andes S.A.:
+“El domingo 18 de agosto 2024 a las 01:29 am, se produjo la apertura de interruptor de 110 KV
+energizante 52H1 del Transformador N° 1 de S/E Minsal y la apertura del interruptor de salida en
+23 kV 52E1, producto de la operación del relé maestro 86T, con ocasión al tiempo excedido durante
+operación manual con accionamiento eléctrico del Cambiador de Tap Bajo Carga (CTBC), solicitado
+por Cliente SQM Salar.”
+“Se realiza operación del cambiador de TAP mediante comando local manual con accionamiento
+eléctrico, de modo de pasar de TAP 4 a 3.
+Durante este proceso, se produce la operación de relé maestro (86T), provocando la apertura de
+los interruptores de poder 52H1 y 52E1 de SE Minsal.”

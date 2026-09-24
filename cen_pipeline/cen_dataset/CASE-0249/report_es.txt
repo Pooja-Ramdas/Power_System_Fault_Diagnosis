@@ -1,0 +1,218 @@
+Estudio para análisis de falla EAF 360/2024
+“Desconexión forzada de la línea 66 kV San Javier - Constitución”
+Fecha de Emisión: 23-08-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 14:44
+Consumos desconectados (MW) 11.22
+Demanda previa del sistema (MW) 11398
+Porcentaje de desconexión 0.097%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV San Javier - Nirivilo / LT188CI1TR02----T002
+Tipo de instalación Línea de Transmisión
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación fallada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 66 kV San Javier - Nirivilo / LT188CI1TR02----T002
+Propietario elemento fallado Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes, Santiago.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV San Javier - Constitución, por operación de las
+protecciones del extremo San Javier, coincidente con la apertura automática del interruptor 52E3 de
+S/E Constitución ante falla en el alimentador Santa María.
+Se presume que la causa de la falla podría corresponder a una operación descoordinada de
+protecciones, no obstante, no se dispone de la totalidad de la información para aseverar lo anterior.
+d.2 Fenómeno Físico:
+OTR2: Origen no determinado.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada por el mismo
+fenómeno físico, durante los últimos 24 meses móviles (EAF 401/2022 y EAF 402/2022).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondiente al Estudio para Análisis de Falla de la siguiente tabla:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea 110
+EAF 366_2022 kV Maitencillo - Las 30-09-2022 La empresa Transelec S.A. señala: “No aplica”.
+Compañías
+Desconexión forzada Transelec S.A. señala: “En el caso particular de la falla en cuestión, no
+EAF 401_2022 de la línea 66 kV San 31-10-2022 existió un comportamiento erróneo de las instalaciones. En
+Javier - Constitución consecuencia, no existen acciones correctivas que informar”.
+Desconexión forzada Transelec S.A. señala: “En el caso particular de la falla en cuestión, no
+EAF 402_2022 de la línea 66 kV San 31-10-2022 existió un comportamiento erróneo de las instalaciones. En
+Javier - Constitución consecuencia, no existen acciones correctivas que informar”.
+La empresa Transelec S.A. señala: “No se registra un comportamiento
+Desconexión forzada
+erróneo de las instalaciones dada la condición provisoria. Una vez
+del transformador
+EAF 263_2023 16-06-2023 finalizados los trabajos en el equipo reconectador del paño E1 de S/E
+110/23 kV de S/E El
+El Salado se efectúa el cambio de ajustes de los sistemas 1 y 2 ABB
+Salado
+RET670 a sus valores originales de forma inmediata”.
+La empresa Transelec S.A. señala lo siguiente:
+1. “Se realiza una inspección pedestre y con apoyo de dron en algunos
+sectores, esto se realiza en la noche y madrugada del siguiente día,
+el cual, se detalla a continuación:
+a. Con la distancia de falla, se estima el punto de la falla en la
+E97 de la línea mencionada. Por lo cual, se decide en primera
+instancia recorrer a pie el tramo entre la estructura E87 a E107
+con personal interno. No encontrando hallazgos
+determinantes.
+b. En ese mismo sector se encuentra el tap-off Romeral, por lo
+cual, se coordina revisar la subestación en búsqueda de algún
+rastro de arco eléctrico. No encontrando hallazgos
+determinantes.
+c. Posteriormente, se recorren las estructuras; E144, E154 a
+E158 Debido a una presunta falla por contaminación por la alta
+humedad, sin embargo, esto se descarta con la inspección en
+terreno sin encontrar síntomas de descargas parciales o ruido
+Falla en la línea 110
+por contaminación.
+EAF 347_2023 kV Maitencillo - Las 14-08-2023
+d. Esta inspección duró desde 20:00 horas hasta las 05:00 horas
+Compañías
+del martes 15 de agosto.
+2. Se realiza una inspección pedestre en los próximos dos días, la
+cual, se detalla a continuación:
+a. El martes 15 de agosto y con luz de día, se vuelve a recorrer
+el tramo entre E87 a E107 y se amplía la búsqueda entre la
+E108 a E164 a pie de estructura con personal interno. No
+encontrando hallazgos determinantes.
+b. Ese mismo día se solicita una inspección a las estructuras E144
+y E154 a E158, para verificar si existen síntomas de
+contaminación. No encontrando hallazgos determinantes.
+c. El miércoles 16 de agosto se recorre a pie de estructura el
+tramo entre E52A a E86 ampliando el rango de búsqueda. No
+encontrando hallazgos determinantes.
+3. Finalmente, entre los días viernes 18 y sábado 19, se realiza una
+inspección en el tramo de estructuras desde la E85 a E120 según
+una nueva estimación de la localización de falla. No encontrando
+hallazgos determinantes”.
+La empresa Transelec S.A. señala: “No aplica, ya que la falla fue en
+Apertura intempestiva instalaciones de terceros y las protecciones de Transelec operaron
+EAF 434_2023 del interruptor 52HT1 09-10-2023 correctamente. Transelec realiza inspección del Transformador 1 de
+de S/E El Salado 110/24 kV de S/E El Salado, así como la barra de 23 kV sin encontrar
+indicios de falla en las instalaciones de S/E El Salado”.
+La empresa Transelec S.A. señala: “En el caso particular de la falla en
+cuestión, no existió un comportamiento erróneo de las instalaciones.
+En consecuencia, no existen acciones correctivas que informar.
+Respecto a las labores búsqueda para intentar encontrar la causa de
+la falla, informamos que se realizó una estimación basada en
+Falla en línea 154 kV simulaciones para determinar la ubicación del punto de falla,
+EAF 485_2023 07-11-2023
+Maule - Parral replicando las condiciones sistémicas y realizando cálculos de falla con
+Digsilent, lo que permitió acotar el perímetro de búsqueda entre la
+S/E Linares y la S/E Parral. En terreno se realizaron labores de
+inspección visual pedestre, inspección aérea con Drones y trepado de
+estructuras, sin embargo, no fue posible encontrar evidencias de la
+causa de la falla”.
+La empresa Maderas Arauco S.A. indica: “No se necesitan ya que se
+Apertura intempestiva
+concluye una correcta operación de las protecciones”.
+EAF 249_2024 del interruptor 52B1 12-06-2024
+El resto de las empresas no indican acciones correctivas de corto
+de S/E Constitución
+plazo.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles, correspondientes a los Estudios
+para Análisis de Falla EAF 401/2022, EAF 402/2022, EAF 482/2022, EAF 076/2023, EAF 259/2023 y
+EAF 072/2024.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento que resultó desconectado de manera forzada corresponde a la línea 66 kV San Javier -
+Constitución, específicamente el tramo de línea 66 kV San Javier - Nirivilo, el cual, de acuerdo con lo
+señalado por Transelec S.A., posee las siguientes características:
+Transelec S.A. remitió los antecedentes respecto de los mantenimientos realizados a este elemento
+durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+CGE S.A. indica ubicación urbana y rural para sus alimentadores afectados en SS/EE Nirivilo y
+Constitución.
+g. Proposición del propietario respecto del origen de la falla
+Transelec S.A. señala: “Origen no determinado”.
+h. Comuna donde se presenta la falla
+07406: San Javier*
+(*) Corresponde a la comuna donde se ubica S/E San Javier, de acuerdo con lo declarado por su propietario en el
+aplicativo Infotécnica del Coordinador.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03-08-2024) (08-08-2024)
+CGE Transmisión S.A. 02-08-2024 16-08-2024
+Compañía General de Electricidad S.A. 05-08-2024 y 07-08-2024 07-08-2024
+Prime Energía Quickstart SpA No enviado No enviado
+Transelec S.A. 01-08-2024 08-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+San Javier - Constitución 66 kV ST Zonal San Javier - Nirivilo 66 kV 14:44 15:14
+San Javier - Constitución 66 kV ST Zonal Nirivilo - Constitución 66 kV 14:44 15:37
+- Las horas indicadas corresponden a lo indicado por las empresas Transelec S.A. y CGE Transmisión S.A.
+c. Consumos
+Sub- Alimentador / Comuna Pérdida de % Clientes H. H. H.
+Estación Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Cauquenes,
+Nirivilo Santa Olga / E2 Empedrado y San 1.42 0.012 2663 14:44 15:14 15:14
+Javier
+Constitución,
+Nirivilo Los Naranjos / E1 Empedrado y San 1.60 0.014 3981 14:44 15:14 15:28
+Javier
+Constitución Santa María / E3 Constitución 3.70 0.032 9010 14:44 15:37 15:28
+Constitución Falucho / E10 Constitución 4.50 0.039 7537 14:44 15:37 15:28
+Total: 11.22 MW 0.097 % 23191
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A. y CGE Transmisión S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador / Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo Indispon. Desc. (MWh)
+(MW) (h) (h)
+Nirivilo Santa Olga / E2 CGE Regulado 1.42 0.50 0.50 0.7
+Nirivilo Los Naranjos / E1 CGE Regulado 1.60 0.50 0.73 1.2
+Constitución Santa María / E3 CGE Regulado 3.70 0.88 0.73 2.7
+Constitución Falucho / E10 CGE Regulado 4.50 0.88 0.73 3.3
+Clientes Regulados : 7.9 MWh
+Clientes Libres : MWh
+Total : 7.9 MWh
+- Los montos señalados corresponden a lo informado por las empresas CGE S.A. y CGE Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+16:48
+15:36
+14:24
+13:12
+12:00
+10:48
+9:36
+12.7% 26.9% 59.9% 100.0%
+Recuperación real Recuperación esperada
+No se observan diferencias significativas entre los horarios de recuperación real respecto de los horarios
+de disponibilidad de las barras primarias respectivas para recuperar los consumos afectados
+- Velocidad promedio de recuperación.
+Velocidad de
+Tiempo
+Rango Potencia (MW) recuperación
+recuperación (h)
+(MW/h)
+Primer 80 % 8.98 0.73 12.30
+Último 20 % 2.24 0.73 3.07
+100 % Total 11.22 0.73 15.37
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 11398 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales: Colbún (U1 y U2)
+y Pehuenche (U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+01 de agosto de 2024.

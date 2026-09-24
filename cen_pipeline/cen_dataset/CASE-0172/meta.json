@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0436-2024",
+  "eaf_num": 436,
+  "year": 2024,
+  "description": "Desconexión forzada de los transformadores 110/13.2 kV N°1 y N°2 de S/E Pirque",
+  "date": "20-08-2024",
+  "time": "20:04",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/09/EAF-436-2024.pdf",
+  "case_id": "CASE-0172",
+  "event_datetime": "2024-08-20T20:04:00",
+  "fault_label": "transformer_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".dwg"
+  },
+  "pending_conversion_path": null
+}

@@ -1,0 +1,119 @@
+Estudio para análisis de falla EAF 444/2024
+“Operación EDAC-BF en S/E Melipulli”
+Fecha de Emisión: 13-09-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 23/08/2024
+Hora 08:45
+Consumos desconectados (MW) 8.08
+Demanda previa del sistema (MW) 10877.00
+Porcentaje de desconexión 0.074 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Melipulli / SE013T0003
+Tipo de instalación Subestación
+Tensión nominal 220/110/66/23 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno.
+c. Identificación del elemento fallado (*)
+Nombre del elemento fallado S/E Melipulli / SE013T0003
+Propietario elemento fallado Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno.
+(*) Si bien no hubo falla en el equipamiento indicado, corresponde a aquella instalación del sistema de transmisión que resultó
+desconectada producto del evento ocurrido.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática de los interruptores 52E2 y 52E4 de S/E Melipulli, por operación
+de los escalones N°1 y N°3 del EDAC-BF, respectivamente, debido a un descenso transitorio en la
+frecuencia eléctrica, coincidente con una perturbación externa de la cual no se cuenta con más
+información.
+d.2 Fenómeno Físico
+OPE6: Fallas en instalaciones de terceros u en otro segmento.
+La empresa STS S.A. remite antecedentes para acreditar el origen de la falla.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+FR81: Frecuencia.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+Los elementos afectados por este evento corresponden a los alimentadores asociados a los paños E2
+y E4 de S/E Melipulli, de los cuales no se cuenta con mayores antecedentes, según la información
+disponible en el Sistema Infotécnica del Coordinador.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa SAESA indica densidad baja para sus consumos afectados.
+g. Proposición del propietario respecto del origen de la falla
+Externo
+La empresa STS S.A. remite los siguientes antecedentes en respaldo a la proposición del origen de la
+falla:
+• Secuencia de operación de protecciones.
+h. Comuna donde se presenta la falla
+10101: Puerto Montt
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(25-08-2024) (30-08-2024)
+Sistema de Transmisión del Sur S.A. (STS S.A.) 23-08-2024 02-09-2024
+Sociedad Austral de Electricidad S.A. (SAESA) 10-09-2024 12-09-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+c. Consumos
+Pérdida de %
+Alimentador Clientes H. H. H.
+Subestación Comuna Consumo consumo
+/Paño afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Melipulli Mirasol / E4 Puerto Montt 0.45 0.004 2 08:45 08:45 08:49
+S/E Melipulli Cayenel / E2 Puerto Montt 1.70 0.016 5 08:45 08:45 08:51
+S/E Melipulli Mirasol / E4 Puerto Montt 3.14 0.029 1309 08:45 08:45 08:54
+S/E Melipulli Cayenel / E2 Puerto Montt 2.64 0.024 743 08:45 08:45 09:04
+S/E Melipulli Mirasol / E4 Puerto Montt 0.15 0.001 1 08:45 08:45 09:11
+Total: 8.08 MW 0.074% 2060
+- Los montos y horarios señalados corresponden a lo informado por las empresas STS S.A. y SAESA.
+3. Estimación de la energía no suministrada
+Alimentador Tipo de Pérdida de Tiempo Tiempo ENS
+Subestación Empresa
+/Paño cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Melipulli Mirasol / E4 SAESA Regulado (*) 0.45 0.00 0.07 0.0
+S/E Melipulli Cayenel / E2 SAESA Regulado (*) 1.70 0.00 0.10 0.2
+S/E Melipulli Mirasol / E4 SAESA Regulado 3.14 0.00 0.15 0.5
+S/E Melipulli Cayenel / E2 SAESA Regulado 2.64 0.00 0.32 0.8
+S/E Melipulli Mirasol / E4 SAESA Regulado (*) 0.15 0.00 0.43 0.1
+Clientes Regulados : 1.6 MWh
+Clientes Libres : MWh
+Total : 1.6 MWh
+- Los montos señalados corresponden a lo informado por las empresas STS S.A. y SAESA.
+- (*) Corresponde a clientes libres conectados en redes de distribución de SAESA.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias significativas entre los horarios de recuperación esperada y recuperación
+real para los consumos afectados.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Potencia
+Rango recuperación recuperación
+(MW)
+(h) (MW/h)
+Primer 80 % 6.46 0.32 20.20
+Último 20 % 1.62 0.43 3.76
+100 % Total 8.08 0.43 18.79
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10877.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional previo a la falla, mediante las
+centrales Angostura (U3), El Toro (U1, U3, U4) y Ralco (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 23 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 23 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+23 de agosto de 2024.

@@ -1,0 +1,17 @@
+{
+  "eaf_id": "EAF-0368-2024",
+  "eaf_num": 368,
+  "year": 2024,
+  "description": "Apertura intempestiva del interruptor 52CT4 de S/E Punta de Cortés",
+  "date": "01-08-2024",
+  "time": "19:42",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-368-2024.pdf",
+  "case_id": "CASE-0241",
+  "event_datetime": "2024-08-01T19:42:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "synthetic_fallback",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": null,
+  "pending_conversion_path": null
+}

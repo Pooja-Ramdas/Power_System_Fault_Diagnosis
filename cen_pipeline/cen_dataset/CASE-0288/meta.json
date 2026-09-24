@@ -1,0 +1,17 @@
+{
+  "eaf_id": "EAF-0321-2024",
+  "eaf_num": 321,
+  "year": 2024,
+  "description": "Pérdida de suministro en barra 15 kV de S/E Tuniche",
+  "date": "28-07-2024",
+  "time": "10:28",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-321-2024.pdf",
+  "case_id": "CASE-0288",
+  "event_datetime": "2024-07-28T10:28:00",
+  "fault_label": "busbar_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_metadata": null,
+  "pending_conversion_path": null
+}

@@ -1,0 +1,212 @@
+Estudio para análisis de falla EAF 339/2024
+“Falla en la línea 66 kV Duqueco - Santa Bárbara”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 10:31
+Consumos desconectados (MW) 3.09
+Demanda previa del sistema (MW) 11273
+Porcentaje de desconexión 0.027 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Tramo 66 kV Duqueco - Santa Bárbara / LT004CI1TR01----T0008
+Tipo de instalación Línea de transmisión
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Palmucho S.A.
+RUT 76.406.120-9
+Representante Legal Juan Carlos Albalá Aragón
+Dirección Av. Apoquindo 4615, oficina 502, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento fallado Tramo 66 kV Duqueco - Santa Bárbara / LT004CI1TR01----T0008
+Propietario elemento fallado Palmucho S.A.
+RUT 76.406.120-9
+Representante Legal Juan Carlos Albalá Aragón
+Dirección Av. Apoquindo 4615, oficina 502, Las Condes
+d.1 Origen y causa de la falla
+Se produjo un cortocircuito bifásico en la línea 66 kV Duqueco - Santa Bárbara, despejado por medio
+de las protecciones del paño B4 de S/E Duqueco.
+La causa de la falla corresponde a árboles caídos sobre la línea entre las estructuras N°60 y N°61, con
+ocasión de temporal de viento en la zona.
+d.2 Fenómeno Físico:
+ARB2: Caída de árbol sobre la línea o instalación.
+La empresa remitió parcialmente los probatorios asociados al Fenómeno Físico determinado por el
+Coordinador y que son requeridos por la Resolución Exenta N°30989-2019 de la Superintendencia de
+Electricidad y Combustibles. La empresa propuso el Fenómeno Físico “CLI1: Evento natural catastrófico
+(sismo, volcánico, aluvión, maremoto, etc.)”, no obstante, el Coordinador considera que “ARB2: Caída
+de árbol sobre la línea o instalación” describe de mejor manera lo sucedido.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido 2 fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+EAF 142/2023 Falla en línea 66 kV Duqueco - Faenas Pangue 27-03-2023 No se indican.
+EAF 391/2023 Falla en línea 66 kV Duqueco - Faenas Pangue 04-09-2023 No se indican.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+(*) Cabe mencionar que el registro de fallas en esta instalación es acotado, pues el reciente seccionamiento de la
+línea 66 kV Duqueco - Faenas Pangue en S/E Santa Bárbara (02 de enero de 2024) generó nuevos tramos y, en
+particular, para la línea 66 kV Duqueco - Santa Bárbara no se tiene registros de fallas que hayan implicado la
+elaboración de un Estudio para Análisis de Falla por parte del Coordinador.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la falla corresponde a los conductores de la línea 66 kV Duqueco - Santa
+Bárbara, específicamente entre las estructuras N°60 y N°61. Al respecto, Palmucho S.A. no remitió los
+mantenimientos realizados durante los últimos 24 meses.
+De acuerdo con lo declarado por su propietario en el aplicativo Infotécnica, la línea posee las siguientes
+características técnicas:
+Sección tramo: Duqueco – Estructura 146.2, 66 kV
+• Largo: 30.9 km
+• Conductor: ACSR (125.1 mm2)
+• Año de entrada en operación: 1991
+Sección tramo: Estructura 146.2 – Santa Bárbara, 66 kV
+• Largo: 34 m
+• Conductor: ACSR (125.1 mm2)
+• Año de entrada en operación: 2024
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Eléctrica de la Frontera S.A. no declara la calificación urbana o rural del alimentador
+Quilaco. La empresa Cooperativa Eléctrica Los Ángeles señala “Densidad Extremadamente Baja” en el
+caso del alimentador Santa Bárbara.
+g. Proposición del propietario respecto del origen de la falla
+La empresa señala lo siguiente en cada uno de los dos Informes de Falla de 5 días cargados en
+Neomante: “Origen externo, caída de tres árboles fuera de franja por evento climático catastrófico” y
+“Evento Natural catastrófico Temporal de viento”.
+h. Comuna donde se presenta la falla
+08301: Los Ángeles.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (03/08/2024) Informe de 5 días (08/08/2024)
+Cooperativa Eléctrica Los Ángeles Ltda. 13-08-2024 21-08-2024
+Empresa Eléctrica de la Frontera S.A. 20-08-2024 No remitido
+Palmucho S.A. 03-08-2024 08-08-2024
+Sistema de Transmisión del Sur S.A. 01-08-2024 12-08-2024
+Transemel S.A. 01-08-2024 09-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+17:37
+66 kV Duqueco - Santa Bárbara ST Zonal - 10:31
+(02/08/2024)
+- Horas señaladas corresponden a lo informado por las empresas Palmucho S.A. y Transemel S.A.
+c. Consumos
+Pérdida de %
+Clientes H. H. H.
+Sub-Estación Alimentador / Paño Comuna(s) Consumo consumo
+Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Santa Bárbara Santa Bárbara / C2 Santa Bárbara 0.70 0.006 1592 10:31 *17:10 *17:10
+Santa Bárbara Quilaco / C1 NI **2.39 0.021 ***917 10:31 *17:10 *17:42
+Total: 3.09 MW 0.027 % 2509
+- Fechas y horas corresponden a los señalado por las empresas Cooperativa Eléctrica Los Ángeles Ltda. y Empresa Eléctrica de la
+Frontera S.A.
+(*) Horarios corresponden al día 02/08/2024.
+(**) Monto de acuerdo con los registros de la Plataforma de Registro de Medidas para Transferencias Económicas del Coordinador.
+(***) Monto informado por Empresa Eléctrica de la Frontera en su Informe de Falla de 48 horas.
+Si bien la empresa Eléctrica de la Frontera S.A. en su Informe de Falla de 48 horas informa afectación del paño C8 de S/E Faenas
+Pangue, la Plataforma de Registro de Medidas para Transferencias Económicas no presenta datos para el periodo bajo análisis.
+3. Estimación de la energía no suministrada
+Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Alimentador / Paño Empresa
+Cliente Consumo (MW) Indispon. (h) Desc.(h) (MWh)
+Santa Bárbara Santa Bárbara / C2 Coopelan Regulado 0.70 30.65 30.65 21.5
+Santa Bárbara Quilaco / C1 Frontel Regulado 2.39 30.65 31.18 74.5
+Clientes Regulados : 96.0 MWh
+Clientes Libres : MWh
+Total : 96.0 MWh
+- Los montos señalados corresponden a lo señalado por las empresas Cooperativa Eléctrica Los Ángeles Ltda. y Empresa Eléctrica
+de la Frontera S.A.
+- Curva de recuperación esperada v/s recuperación real.
+Se observan diferencias entre los horarios de recuperación real respecto de los horarios de
+disponibilidad de las barras primarias respectivas para recuperar los consumos afectados, los cuales
+se explican por traspasos de carga a través de redes de media tensión.
+Potencia Tiempo Velocidad de
+Rango
+(MW) recuperación (h) recuperación (MW/h)
+Primer 80 % 2.47 31.18 0.08
+Último 20 % 0.62 31.18 0.02
+100 % Total 3.09 31.18 0.10
+1
+1
+1
+1
+1
+1
+1
+1
+9
+8
+8
+7
+7
+6
+6
+5
+:1
+:4
+:1
+:4
+:1
+:4
+:1
+:5
+2
+3
+4
+5
+6
+8
+9
+0
+2 2 .7
+R
+%
+e c u p e r a c ió n r e a l R e c u p e r a c ió n e s p e r
+1
+a
+0
+d
+0
+a
+.0 %
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 11273 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales: Colbún (U1 y U2)
+y Pehuenche (U1).
+Estado y configuración previo a la falla
+Previo a la falla en la línea 66 kV Duqueco - Santa Bárbara, el sistema de transmisión operaba de forma
+normal.
+Otros antecedentes relevantes
+La empresa Palmucho S.A. señala:
+“Dia 1/08/24 Se informa a CCT Saesa la revisión de las instalaciones según registro entregado por
+protección a distancia de subestación Duqueco 52B4. Se encuentran cortezas de árboles en la
+estructura 73, las que se proceden a sacar y se solicita un intento de cierre sin éxito a las 13:03, se
+continúan revisiones de líneas durante la tarde y se solicita un nuevo intento de cierre a las 18:07 sin
+éxito. Se suspenden trabajos por que continúa habiendo mucho viento en el sector y se informa de
+caída de árboles en el tramo SE Santa Barbara-SE Faenas Pangue.
+Día 2/08/24 se continuó recorrido durante el día, encontrándose arboles sobre la línea en el vano de
+la estructura 60-61.
+Se procede al retiro de tres árboles, tipo Eucaliptus y a las 17:37 se solicita un cierre con éxito,
+quedando energizado y en servicio el tramo SE Duqueco- SE Santa Barbara 66 kV4”.
+De forma complementaria, se adjuntan los informes de falla de instalaciones ingresados en el sistema
+del Coordinador Eléctrico Nacional por Cooperativa Eléctrica Los Ángeles Ltda., Empresa Eléctrica de la
+Frontera S.A., Palmucho S.A., Sistema de Transmisión del Sur S.A. y Transemel S.A. (Anexo N°1) y
+otros antecedentes aportados por dichas empresas, con excepción de Empresa Eléctrica de la Frontera
+S.A. que no remitió su Informe de Falla de 5 días (Anexo N°2).
+Por su parte, se solicitará la siguiente información adicional a la empresa Eléctrica de la Frontera S.A.:
+• Informe de falla del 5to día con el correspondiente nivel de detalle asociado al evento en
+análisis. En particular, remitir causa definitiva de la afectación de sus consumos, los registros
+oscilográficos por la operación de protecciones, análisis del desempeño de las protecciones en
+función de sus ajustes, así como el detalle de los consumos desprendidos, y las maniobras
+ejecutadas para su normalización.
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con auditorías, planes de acción u otro tipo de mantenimientos
+en curso.
+b) Acciones correctivas a corto plazo:
+Las empresas involucradas no indican acciones correctivas de corto plazo.
+c) Acciones correctivas a largo plazo:
+Las empresas involucradas no indican acciones correctivas de largo plazo.

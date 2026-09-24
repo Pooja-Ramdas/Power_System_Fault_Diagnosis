@@ -1,0 +1,17 @@
+{
+  "eaf_id": "EAF-0417-2024",
+  "eaf_num": 417,
+  "year": 2024,
+  "description": "Falla en el cierre del interruptor 52C3 de S/E Rosario",
+  "date": "06-08-2024",
+  "time": "13:15",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-417-2024.pdf",
+  "case_id": "CASE-0192",
+  "event_datetime": "2024-08-06T13:15:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_pdf",
+  "image_is_real_infotecnica": true,
+  "pending_conversion_metadata": null,
+  "pending_conversion_path": null
+}

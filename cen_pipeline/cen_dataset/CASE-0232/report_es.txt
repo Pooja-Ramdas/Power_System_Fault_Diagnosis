@@ -1,0 +1,136 @@
+Estudio para análisis de falla EAF 377/2024
+“Desconexión forzada del transformador N°2 220/23 kV de S/E Lama”
+Fecha de Emisión: 26-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 02/08/2024
+Hora 00:14
+Consumos desconectados (MW) 10.5
+Demanda previa del sistema (MW) 8280.81
+Porcentaje de desconexión 0.127%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Lama / SE003L0101
+Tipo de instalación Subestación
+Tensión nominal 220 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Compañía Minera Nevada SpA
+RUT 85.306.000-3
+Representante Legal Gonzalo Montes Astaburuaga
+Dirección Ricardo Lyon 222, piso 9, Providencia.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Sistema de Protecciones del paño JT2 de S/E Lama / SP023L0101SE003L0101
+(*)
+Propietario elemento fallado Compañía Minera Nevada SpA
+RUT 85.306.000-3
+Representante Legal Gonzalo Montes Astaburuaga
+Dirección Ricardo Lyon 222, piso 9, Providencia.
+(*) Corresponde al sistema de protecciones operado durante el evento (relé Siemens 7UT613), que trajo como consecuencia la
+pérdida de consumos.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática de los interruptores 52JT2 y 52ET2 de S/E Lama, correspondientes
+al transformador N°2 220/23 kV de dicha subestación, por medio de la operación de la protección de
+sobretensión. Adicionalmente, en forma coincidente, se produjo la operación de las protecciones de
+sobretensión en el Parque Eólico Punta de Talca.
+Las empresas Compañía Minera Nevada SpA y Parque Eólico Punta de Talca SpA señalan que la
+operación de las protecciones anteriormente señaladas fue debido a una perturbación sistémica
+coincidente con la desconexión forzada del circuito N°2 de la línea 2x500 kV Nueva Pan de Azúcar -
+Polpaico.
+d.2 Fenómeno Físico:
+OPE22: Error en programación de elementos de protección o control. (*)
+(*) Fenómeno físico seleccionado en base al comportamiento esperado de las protecciones involucradas.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación sí ha sido afectada por el mismo
+fenómeno físico, durante los últimos 24 meses móviles (EAF 034-2023).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con un fenómeno físico similar, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido dos fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 034-2023 y EAF 212-
+2023).
+d.4 Fenómeno eléctrico
+S059: Sobrevoltaje.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado corresponde al transformador N°2 220/23 kV de S/E Lama, el cual, según lo
+informado por su propietario en la plataforma Infotécnica del Coordinador, es de la marca Faraday,
+posee tres devanados (220 kV, 23 kV y 13.2 kV) y cuna capacidad de 100 MVA, cuya conexión es
+YNyn0d11.
+f. Ubicación urbana o rural según DS 327/1997
+Rural.
+g. Proposición del propietario respecto del origen de la falla
+o La Compañía Minera Nevada SpA indica: “Externa”.
+o La empresa Parque Eólico Punta de Talca SpA indica: “Externa”.
+h. Comuna donde se presenta la falla
+4104: La Higuera.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (04-08-2024) Informe de 5 días (09-08-2024)
+Compañía Minera Nevada SpA (CMN) 03-08-2024 12-08-2024
+Parque Eólico Punta de Talca SpA 02-08-2024 13-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) Hora Desc. Hora Norm.
+PE Punta de Talca - 42 00:14 08:43
+Total: 42 MW
+- El monto y las horas indicadas corresponden a lo informado por la empresa Parque Eólico Punta de Talca SpA.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Lama ST Dedicado Transformador N°2 220/23 kV 00:14 01:59
+S/E Lama ST Dedicado Barra 23 kV 00:14 02:00
+Central Talinay Oriente - Punta de Talca 220 kV ST Dedicado - 00:14 08:40
+S/E Punta de Talca ST Dedicado Transformador N°1 220/33 kV 00:14 08:41
+- Los horarios señalados corresponden a lo informado por las empresas Compañía Minera Nevada SpA y Parque Eólico Punta de Talca
+SpA.
+c. Consumos
+Pérdida de %
+Sub- Clientes
+Alimentador / Paño Comuna Consumo consumo H. Desc. H. Dispon. H. Norm.
+Estación Afectados
+(MW) pre-falla
+Lama Barra 23 kV * 10.50 0.127 1 00:14 02:00 02:00
+Total: 10.50 MW 0.127 % 1
+- El monto y horarios señalados corresponden a lo informado por la empresa Compañía Minera Nevada SpA.
+- (*) Correspondiente a territorio argentino.
+3. Estimación de la energía no suministrada
+Pérdida de Tiempo
+Tipo de Tiempo ENS
+Sub-Estación Alimentador/ Paño Empresa Consumo Indispon.
+Cliente Desc. (h) (MWh)
+(MW) (h)
+Lama Barra 23 kV Minera Nevada Libre 10.50 1.77 1.77 18.6
+Clientes Regulados : 0.0 MWh
+Clientes Libres : 18.6 MWh
+Total : 18.6 MWh
+- El monto y horarios señalados corresponden a lo informado por la empresa Compañía Minera Nevada SpA.
+- Curva de recuperación esperada v/s recuperación real.
+02:09
+01:55
+02:00 02:00
+01:40
+01:26
+01:12
+00:57
+00:43
+00:28
+00:14
+00:00
+100%
+Recuperación esperada
+No se aprecian diferencias entre la recuperación real y esperada de los consumos.
+- Velocidad promedio de recuperación.
+Rango Potencia Tiempo Velocidad de
+(MW) recuperación (h) recuperación (MW/h)
+Primer 80 % 8.40 1.77 4.75
+Último 20 % 2.10 1.77 1.19
+100 % Total 10.50 1.77 5.94
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8280.81 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales El Toro (U2), El Toro
+(U4), Kelar (TG1), Mejillones (IEM), Nueva Renca (TG), Ralco (U1) y Ralco (U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 02 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 02 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+02 de agosto de 2024.

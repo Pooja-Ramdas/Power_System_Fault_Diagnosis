@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0354-2024",
+  "eaf_num": 354,
+  "year": 2024,
+  "description": "Falla en línea 220 kV Ciruelos – Mariquina",
+  "date": "01-08-2024",
+  "time": "13:42",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-354-2024.pdf",
+  "case_id": "CASE-0255",
+  "event_datetime": "2024-08-01T13:42:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".zip"
+  },
+  "pending_conversion_path": null
+}

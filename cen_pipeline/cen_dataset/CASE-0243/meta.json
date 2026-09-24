@@ -1,0 +1,17 @@
+{
+  "eaf_id": "EAF-0366-2024",
+  "eaf_num": 366,
+  "year": 2024,
+  "description": "Desconexión forzada de la barra 12 kV N°2 de S/E Concón",
+  "date": "01-08-2024",
+  "time": "18:37",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-366-2024.pdf",
+  "case_id": "CASE-0243",
+  "event_datetime": "2024-08-01T18:37:00",
+  "fault_label": "busbar_fault",
+  "telemetry_available": true,
+  "diagram_source": "synthetic_fallback",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": null,
+  "pending_conversion_path": null
+}

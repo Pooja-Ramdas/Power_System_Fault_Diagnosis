@@ -1,0 +1,282 @@
+Estudio para análisis de falla EAF 405/2024
+“Desconexión forzada en la línea 154 kV Charrúa - Los Ángeles”
+Fecha de Emisión: 26-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 02/08/2024
+Hora 23:01
+Consumos desconectados (MW) 50.32
+Demanda previa del sistema (MW) 9381
+Porcentaje de desconexión 0.536%
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 154 kV Charrúa - Los Ángeles / LT108CI1TR03----T0058
+Tipo de instalación Línea de Transmisión
+Tensión nominal 154 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 17, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento fallado 52A2 S/E Los Ángeles / IM02T0058PA010T0058SE076T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 17, Las Condes
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 154 kV Los Ángeles - Charrúa, por operación en respaldo
+de las protecciones del extremo Charrúa, con posterior reconexión automática sin éxito del extremo
+Charrúa, producto de la explosión de la cámara del polo C del interruptor 52A2 de S/E Los Ángeles.
+d.2 Fenómeno Físico:
+OPE19: Explosión de equipos.
+La empresa CGE Transmisión S.A. remite parcialmente los antecedentes requeridos por la Resolución
+Exenta 30989-2019 de la Superintendencia de Electricidad y Combustibles. El listado completo de
+antecedentes requeridos es el siguiente:
+• Mantenimiento de los últimos 24 meses realizados en el equipo siniestrado.
+• Informe técnico que explique las posibles causas que propician la explosión del equipo.
+• Registro fotográfico con fecha, hora y coordenadas UTM.
+• Secuencia de operación de protecciones, incluyendo un informe técnico (cómo operaron las
+protecciones y cómo debieron haber operado).
+• Recomendaciones del fabricante en relación con los mantenimientos y vida útil del elemento.
+• Año de primera puesta en servicio y años efectivos de operación.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por un
+fenómeno físico similar, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se ha producido una falla en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondiente al Estudio para Análisis de Falla de la siguiente tabla:
+FALLA-ID ACCIONES_CORRECTIVAS_CP ACCIONES_CORRECTIVAS_LP
+La empresa CGE Transmisión S.A. indica: “Se está realizando
+evaluación para efectos de normalizar el TC afectado. Una vez La empresa CGE Transmisión S.A. indica:
+EAF 545-2023
+definida la programación para reemplazar el equipo se “No aplica”.
+comunicará por los medios habituales de comunicación”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para Análisis de Falla EAF 461-2023, EAF 350-2024 y EAF 355-2024.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde al polo C del interruptor 52A2 de S/E Los Ángeles,
+que según lo informado por el propietario en la plataforma Infotécnica del Coordinador, posee las
+siguientes características:
+• Tensión nominal: 170 kV
+• Corriente nominal: 3.15 kA
+• Capacidad de ruptura simétrica: 40 kA RMS
+• Capacidad de ruptura asimétrica: 47.41 kA RMS
+• Capacidad de cierre en cortocircuito: 100 kA
+• Modo de accionamiento: tripolar
+• Año de entrada en operación: 1953
+• Modelo: GL313 F1/4031
+• Marca: Alstom
+La empresa CGE Transmisión S.A, propietaria de la instalación fallada, presenta los mantenimientos
+realizados durante los últimos 24 meses en S/E Los Ángeles.
+f. Ubicación urbana o rural según DS 327/1997
+CGE S.A. indica lo siguiente:
+• “Urbano/Rural” para los alimentadores La Mona, Sor Vicenta y Laja de S/E El Avellano.
+• “Urbano/Rural” para los alimentadores Padre Hurtado, Alcazar y Paillihue de S/E os Ángeles.
+• “Urbano/Rural” para los alimentadores Colo-Colo, Bulnes, Alemania, Villagrán y Quilque de S/E
+Manso de Velasco.
+Frontel S.A. indica lo siguiente:
+• Para las comunas de Nacimiento, Negrete y Renaico: densidad “baja”.
+• Para las comunas de Mulchén y Los Ángeles: densidad “muy baja”.
+g. Proposición del propietario respecto del origen de la falla
+Interna.
+h. Comuna donde se presenta la falla
+8301: Los Ángeles.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(04-08-2024) (09-08-2024)
+CGE Transmisión S.A. 03-08-2024 21-08-2024
+Sistema de Transmisión del Sur S.A. (STS S.A.) 04-08-2024 No enviado
+Compañía General de Electricidad S.A. (CGE S.A.) 07-08-2024 08-08-2024
+Empresa Eléctrica de la Frontera S.A. (Frontel S.A.) 20-08-2024 26-08-2024
+AR Alena Spa 08-08-2024 08-08-2024
+Energía Eólica Mesamávida SpA 03-08-2024 21-08-2024
+WPD Negrete SpA No enviado No enviado
+Enel Green Power Chile S.A. 02-08-2024 09-08-2024
+Aela Eólica Negrete SpA 03-08-2024 12-08-2024
+Eólica La Esperanza S.A. No enviado No enviado
+Coopelan LTDA No enviado No enviado
+Transelec S.A. * 03-08-2024 22-08-2024
+- (*) Operador de las instalaciones de S/E Los Varones, de propiedad de la empresa Besalco Transmisión SpA.
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+PE Cuel - 12.0* 23:01 18:23 (08-08-2024)
+PE Alena - 33.0 23:01 18:39 (08-08-2024)
+PE Negrete - 13.0* 23:01 23:03
+PE La Esperanza - 3.0* 23:01 23:03
+PE Los Buenos Aires - 12.0 23:01 23:28*
+PE Mesamávida - 38.0 23:01 18:46 (08-08-2024)
+Total: 111.0 MW
+- Los montos y los horarios señalados corresponden a lo informado por las empresas Aela Eólica Negrete SpA. AR Alena SpA., Enel
+Green Power Chile S.A. y Energía Eólica Mesamávida SpA, además del registro histórico del SCADA y de la Plataforma de Medidas
+del Coordinador Eléctrico Nacional.
+(*) valor extraído del registro histórico del SCADA del Coordinador.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+00:06
+Charrúa - Los Ángeles 154 kV ST Zonal Charrúa - Los Ángeles 154 kV 23:01
+(03-08-2024)
+23:01 18:02
+Los Ángeles - Santa Luisa 154 kV ST Dedicado Los Ángeles - Santa Luisa 154 kV
+(08-08-2024)
+Los Ángeles - Los Buenos Aires 66 kV ST Zonal Los Ángeles - Los Buenos Aires 66 kV 23:01 23:19
+23:01 18:22
+S/E Central Cuel ST Dedicado Transformador 154/23 kV
+(08-08-2024)
+23:01 18:39
+S/E Central Eólica Alena ST Dedicado Transformador 154/33 kV
+(08-08-2024)
+S/E Central Parque Eólico Los Buenos Aires ST Dedicado Transformador 66/33 kV 23:01 23:27
+S/E Los Varones ST Nacional Transformador 220/66 kV 23:01 23:05
+- Los horarios señalados corresponde a lo informado por las empresas CGE Transmisión S.A., Aela Eólica Negrete SpA., AR Alena
+SpA., Enel Green Power Chile S.A. y Energía Eólica Mesamávida SpA y Transelec S.A.
+c. Consumos
+Pérdida de %
+Alimentador / Clientes H. H. H.
+Sub-Estación Comuna Consumo consumo
+Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+El Avellano La Mona / E1 Los Ángeles 5.20 0.055 359 23:01 23:07 23:07
+El Avellano Sor Vicenta / E2 Los Ángeles 3.50 0.037 5519 23:01 23:07 23:07
+El Avellano Laja / E3 Los Ángeles 3.10 0.033 528 23:01 23:07 23:07
+Manso de Velasco Colo-Colo / C1 Los Ángeles 2.50 0.027 2934 23:01 23:07 23:07
+Manso de Velasco Bulnes / C2 Los Ángeles 3.80 0.041 4721 23:01 23:07 23:07
+Manso de Velasco Alemania / C3 Los Ángeles 5.70 0.061 6957 23:01 23:07 23:07
+Manso de Velasco Villagrán / C4 Los Ángeles 3.50 0.037 8740 23:01 23:07 23:07
+Manso de Velasco Quilque / C5 Los Ángeles 0.40 0.004 1 23:01 23:07 23:07
+Los Ángeles Padre Hurtado / C8 Los Ángeles 5.40 0.058 10797 23:01 23:10 23:10
+Pérdida de %
+Alimentador / Clientes H. H. H.
+Sub-Estación Comuna Consumo consumo
+Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Los Ángeles Alcazar / C10 Los Ángeles 3.70 0.039 4603 23:01 23:10 23:10
+Los Ángeles Paillihue / C11 Los Ángeles 7.00 0.075 14865 23:01 23:10 23:10
+Los Ángeles Mulchén / C2 Los Ángeles 0.13 0.001 38 23:01 23:10 23:10
+Los Ángeles,
+Negrete Nacimiento / E2* Nacimiento y 4.83 0.051 10257 23:01 23:03 23:10
+Negrete
+Negrete y
+Negrete Renaico / E3 0.72 0.008 1393 23:01 23:03 23:10
+Renaico
+Mulchén y
+Negrete Mulchén / E1 0.84 0.009 1966 23:01 23:03 23:10
+Negrete
+Total: 50.32 MW 0.536 % 73678
+- Los montos y los horarios señalados corresponden a lo informado por las empresas CGE S.A., CGE Transmisión S.A. y STS S.A.,
+además del registro de la Plataforma de Medidas del Coordinador Eléctrico Nacional.
+(*) Incluye consumos de clientes libres en distribución.
+3. Estimación de la energía no suministrada
+Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Alimentador / Paño Empresa
+Cliente Consumo (MW) Indisp. (h) Desc. (h) (MWh)
+El Avellano La Mona / E1 CGE Regulado 5.20 0.10 0.10 0.5
+El Avellano Sor Vicenta / E2 CGE Regulado 3.50 0.10 0.10 0.3
+El Avellano Laja / E3 CGE Regulado 3.10 0.10 0.10 0.3
+Manso de Velasco Colo-Colo / C1 CGE Regulado 2.50 0.10 0.10 0.2
+Manso de Velasco Bulnes / C2 CGE Regulado 3.80 0.10 0.10 0.4
+Manso de Velasco Alemania / C3 CGE Regulado 5.70 0.10 0.10 0.6
+Manso de Velasco Villagrán / C4 CGE Regulado 3.50 0.10 0.10 0.3
+Manso de Velasco Quilque / C5 CGE Regulado 0.40 0.10 0.10 0.0
+Los Ángeles Padre Hurtado / C8 CGE Regulado 5.40 0.15 0.15 0.8
+Los Ángeles Alcazar / C10 CGE Regulado 3.70 0.15 0.15 0.6
+Los Ángeles Paillihue / C11 CGE Regulado 7.00 0.15 0.15 1.1
+Los Ángeles Mulchén / C2 Frontel Regulado 0.13 0.15 0.15 0.0
+Negrete Nacimiento / E2* Frontel Regulado 4.83 0.03 0.15 0.7
+Negrete Renaico / E3 Frontel Regulado 0.72 0.03 0.15 0.1
+Negrete Mulchén / E1 Frontel Regulado 0.84 0.03 0.15 0.1
+Clientes Regulados : 6.0 MWh
+Clientes Libres : MWh
+Total : 6.0 MWh
+- Los montos y los horarios señalados corresponden a lo informado por las empresas CGE S.A., CGE Transmisión S.A. y STS S.A.,
+además del registro de la Plataforma de Medidas del Coordinador Eléctrico Nacional.
+(*) Incluye consumos de clientes libres en distribución.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias significativas entre los horarios de recuperación real respecto de los
+horarios de disponibilidad de las barras primarias respectivas.
+- Velocidad promedio de recuperación:
+Rango Potencia Tiempo Velocidad de
+(MW) recuperación (h) recuperación
+(MW/h)
+Primer 80 % 40.26 0.15 268.40
+Último 20 % 10.06 0.15 67.07
+100 % Total 50.32 0.15 335.47
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9381 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Angamos (ANG1 y
+ANG2), Atacama (TG1+TV1), Canutillar (U1), Cochrane (CCH1 y CCH2), Pehuenche (U1) y Rapel (U1,
+U2, U3 y U4).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 02 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 02 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+02 de agosto de 2024.
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+3
+3
+3
+3
+3
+3
+3
+3
+2
+2
+:1
+:0
+:0
+:0
+:0
+:0
+:0
+:0
+:5
+:5
+1
+9
+8
+6
+5
+3
+2
+0
+9
+8
+1 0 .3 % 1 7 .3 % 2 3 .4 % 2 8 .4 % 3 6 .0 %
+R e c u p
+4 7
+e ra
+.3 %
+c ió n
+5
+re
+4 .3
+a l
+% 5 5 .0 %
+R e
+6 5 .8 %
+c u p e ra c
+7 3 .1 %
+ió n e s p
+8 7
+e ra
+.0 %
+d a
+8 7 .3 % 9 6 .9 % 9 8 .3 % 1 0 0 .0 %

@@ -1,0 +1,237 @@
+Estudio para análisis de falla EAF 317/2024
+“Falla en barra 66 kV de S/E Lirquén Indura”
+Fecha de Emisión: 13-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 23/07/2024
+Hora 04:02
+Consumos desconectados (MW) 9.30
+Demanda previa del sistema (MW) 8602.65
+Porcentaje de desconexión 0.108 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Lirquén Indura / SE002L0004
+Tipo de instalación Subestación
+Tensión nominal 66 kV y 6 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Indura S.A.
+RUT 76.150.343-K
+Representante Legal Marcelo Torres Bruce (*)
+Dirección Av. Apoquindo N°6570 oficina 801, Las Condes.
+(*): Corresponde al Gerente General, obtenido de la plataforma REUC del Coordinador.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Pararrayos del paño BT1 S/E Lirquén Indura / SE002L0004
+Propietario elemento fallado Indura S.A.
+RUT 76.150.343-K
+Representante Legal Marcelo Torres Bruce (*)
+Dirección Av. Apoquindo N°6570 oficina 801, Las Condes.
+(*): Corresponde al Gerente General, obtenido de la plataforma REUC del Coordinador.
+d. Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52B2 de S/E Penco, asociado a la línea 66 kV
+Penco - Lirquén, por operación de su sistema de protección.
+Durante el recorrido de la línea 66 kV Penco - Lirquén se identificó un aislador con señales de
+descarga en la estructura N°14, un pararrayos con señal de descarga asociado a la fase B del
+desconectador 89B1-2 de S/E Lirquén, y un pararrayos operado asociado a la fase C de la barra 66
+kV de S/E Lirquén Indura. Se presume que este último pararrayos es el que origina la desconexión
+de la línea 66 kV Penco - Lirquén.
+d.2 Fenómeno Físico:
+DIS1: Pérdida de aislación. (*)
+(*): Fenómeno Físico propuesto por el Coordinador.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+CGE Transmisión S.A. señala que “No Aplica”.
+Falla en S/E Graneros
+EAF 009-2024 07-01-2024 Indura S.A. señala que “Las acciones de corrección están
+Indura
+siendo evaluadas”.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+SO50IR: Sobrecorriente instantánea residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+Se presume que el elemento que origina la desconexión forzada de la línea 66 kV Penco - Lirquén
+corresponde a un pararrayos asociado a la fase C de la barra 66 kV de S/E Lirquén Indura. Al
+respecto, en la plataforma Infotécnica del Coordinador no se cuenta con un diagrama unilineal de S/E
+Lirquén Indura, proporcionado por su propietario, que permita identificar el elemento donde se
+originó la falla.
+Finalmente, no se cuenta con información respecto de los mantenimientos realizados a los equipos
+de S/E Lirquén Indura, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa CGE S.A. señala: “Urbano y Rural” para el alimentador Indura Penco (paño C2) y
+“Urbano” para los alimentadores El Mirador (paño C3), Vipla 1 (paño C6) y Vipla 2 (paño C4), todos
+de S/E Lirquén.
+g. Proposición del propietario respecto del origen de la falla
+No informado.
+La empresa CGE Transmisión S.A. señala que la falla se originó en instalaciones externas y remite los
+siguientes antecedentes en respaldo a su proposición del origen de la falla:
+• Informe de probatorios.
+• Informe de inspección de la S/E Lirquén Indura.
+Por su parte, la empresa Indura S.A. no declara una proposición respecto del origen de la falla.
+h. Comuna donde se presenta la falla
+8107: Penco.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(25-07-2024) (30-07-2024)
+CGE Transmisión S.A. 23-07-2024 07-08-2024
+Compañía Genera de Electricidad S.A. (CGE) 24-07-2024 25-07-2024
+Indura S.A. 08-08-2024 09-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 66 kV Penco - Lirquén ST Zonal - 04:02 22:07
+c. Consumos
+Sub- Alimentador/ Comuna Pérdida de % Clientes H. H. H. Norm.
+Estación Paño Consumo consumo Afectados Desc. Dispon.
+(MW) pre-falla
+Indura Penco /
+S/E Lirquén Penco 1.00 0.012 2554 04:02 22:25 04:47
+C2
+S/E Lirquén El Mirador /C3 Penco 0.30 0.003 2011 04:02 22:25 06:29
+S/E Lirquén Vipla 2 / C4 Penco 1.80 0.021 2770 04:02 22:25 05:11
+S/E Lirquén Vipla 1 /C6 Penco 1.20 0.014 1 04:02 22:25 08:12
+S/E Lirquén 02:56 02:56
+- Penco 5.00 (*) 0.058 1 04:02
+Indura (25-07-2024) (25-07-2024)
+Total: 9.30 MW 0.108 % 7337
+- Los montos señalados corresponden a lo informado por la empresa CGE S.A.
+- (*) Monto obtenido del sistema SCADA del Coordinador.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo Indispon. Desc. (MWh)
+(MW) (h) (h)
+S/E Lirquén Indura Penco / C2 CGE Regulado 1.00 18.38 0.75 0.8
+S/E Lirquén Vipla 2 / C4 CGE Regulado 1.80 18.38 1.15 2.1
+S/E Lirquén El Mirador / C3 CGE Regulado 0.30 18.38 2.45 0.7
+S/E Lirquén Vipla 1 / C6 CGE Regulado 1.20 18.38 4.17 5.0
+S/E Lirquén
+- INDURA Libre 5.00 (*) 46.90 46.90 234.5
+Indura
+Clientes Regulados : 8.6 MWh
+Clientes Libres : 234.5 MWh
+Total : 243.1 MWh
+- Los montos señalados corresponden a lo informado por la empresa CGE S.A.
+- (*) Monto obtenido del sistema SCADA del Coordinador.
+- Curva de recuperación esperada v/s recuperación real.
+1
+0
+1
+0
+1
+0
+2
+0
+2
+0
+2
+0
+:0
+:0
+:0
+:0
+:0
+:0
+0
+0
+0
+0
+0
+0
+2
+2
+2
+2
+2
+2
+5
+5
+4
+4
+3
+3
+/0
+/0
+/0
+/0
+/0
+/0
+7
+7
+7
+7
+7
+7
+/2
+/2
+/2
+/2
+/2
+/2
+4
+4
+4
+4
+4
+4
+1 0 .8 %
+R e
+3 0 .1 %
+cu p e ra ció n re a l
+3 3 .3 %
+R e cu p e ra ció n e sp e ra d
+4 6
+a
+.2 % 1 0 0 .0 %
+Se aprecia que el 46.2% de los consumos afectados, correspondiente a los clientes regulados de S/E
+Lirquén, normalizaron su suministro de manera previa a la disponibilidad de su barra MT, debido a la
+recuperación de consumos mediante enmalles por redes de distribución.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 7.44 46.90 0.16
+Último 20 % 1.86 46.90 0.04
+100 % Total 9.30 46.90 0.20
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8602.65 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U1), Atacama (TG2A), El Toro (U1, U2, U3 y U4), Mejillones (IEM) y Ralco (U1 y
+U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 23 de julio de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 23 de julio de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+23 de julio de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 23 de
+julio de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa CGE Transmisión S.A.:
+“A las 04:02 del día 23-07-2024 se produce la apertura por protecciones del 52B2 de S/E Penco,
+correspondiente a la línea 66 kV Penco-Lirquén provocando un desprendimiento de 9,9 MW que
+afecta a S/E Lirquén y arranque Indura 66 kV.
+De forma inmediata el centro de Control de CGE TRANSMISIÓN S.A. (COT) se coordina con el
+coordinador de turno Zonal y se inicia el recorrido pedestre de la línea afectada. Además de la
+verificación de protecciones operadas.
+En forma paralela, se coordina con CGE Distribución la recuperación de consumos por medio de redes
+de MT desde otras S/E de la zona, lo cual se materializa en distintos horarios, de acuerdo con lo
+señalado en el punto 5 del presente informe.
+Posteriormente, luego de efectuar el recorrido pedestre de la línea Penco-Lirquén y que personal de
+Indura informa que sus instalaciones están en buenas condiciones se intenta un cierre en vacío de la
+línea LT Penco-Lirquén, con el cierre del 52B2 de S/E Penco a las 05:51 sin éxito.
+Finalmente se recupera el 100% de los consumos afectados a las 08:12 horas mediante el respaldo
+de los consumos por redes de MT.
+Por lo cual se efectúa un segundo recorrido pedestre de la línea Penco-Lirquén, encontrando un Line
+Post en fase central de la estructura 14 con descargas por lo cual se reemplaza. A las 16:04 se
+intenta nuevo cierre del 52B2 de S/E Penco sin éxito. Por lo cual se efectúa un tercer recorrido
+pedestre de la línea Penco-Lirquén, encontrando un pararrayos con señal de descarga en la fase B

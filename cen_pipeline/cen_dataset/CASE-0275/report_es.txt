@@ -1,0 +1,194 @@
+Estudio para análisis de falla EAF 334/2024
+“Falla en línea 66 kV Parral - Cauquenes”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 09:21
+Consumos desconectados (MW) 14.82
+Demanda previa del sistema (MW) 10063.00
+Porcentaje de desconexión 0.147 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Parral - Cauquenes / LT164CI1TR01----T0058
+Tipo de instalación Subestación
+Tensión nominal 66 y 15 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Arístides Quezada Escobar
+Av. Presidente Riesco 5561, piso 17. Las Condes, Región Metropolitana de
+Dirección
+Santiago
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 66 kV Parral - Cauquenes / LT164CI1TR01----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Arístides Quezada Escobar
+Av. Presidente Riesco 5561, piso 17. Las Condes, Región Metropolitana de
+Dirección
+Santiago
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Parral - Cauquenes, por apertura automática de
+las protecciones del paño B1 de S/E Parral, debido a la operación de su protección de sobrecorriente
+temporizada residual, provocada por el corte de conductor de fase media en el vano E17-E18 durante
+un temporal de mal tiempo.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+Al respecto, la empresa CGE Transmisión S.A. remite antecedentes (probatorios) con el fin de acreditar
+el origen de la falla.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+FALLA NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en línea 66 kV
+EAF 277/2023 24-06-2023 La empresa CGE Transmisión S.A. señala que no aplica
+Charrúa - Lucero
+Falla en línea 66 kV San
+EAF 278/2023 24-06-2023 La empresa CGE Transmisión S.A. señala que no aplica
+Fernando - Placilla
+Falla en línea 66 kV Los
+EAF 362/2023 22-08-2023 La empresa CGE Transmisión S.A. señala que no aplica
+Maquis - Hualañé
+La empresa CGE Transmisión S.A. indica: “Se analizan eventos de relé SEL 387 S1 y SEL 351
+S2. Al día siguiente se interrogan relés F4c asociados a los paños C1 y C2. Se observa que hay
+Apertura eventos en los horarios de falla. Se analizan eventos de relé SEL- 311C. Se realiza una
+intempestiva de los inspección del tramo completo de la LT 66 kV Pan de Azúcar- Marquesa, sin evidencias de la
+EAF 394-2023 interruptores 52B5 y 06-09-2023 falla. Se realiza inspección visual y pruebas locales al interruptor 52B5 de S/E Pan de Azúcar
+52CT8 de S/E Pan de el día de la falla, sin encontrar causa evidente (durante la semana del 25 al 29 del presente
+Azúcar se realizarán pruebas exhaustivas al interruptor, para luego durante la semana del 2 al 6 de
+octubre presentar un informe del interruptor 52B5). Reemplazo de interruptor 52B5 de SE
+Pande Azúcar (fecha estimada diciembre de 2023)”.
+La empresa CGE Transmisión S.A. indica:
+- “Se realiza el afianzamiento con tirantes del poste externo cerca de la estructura E46 de la
+Falla en línea 66 kV línea
+EAF 247-2024 Alonso de Ribera - 08-06-2024 LT Alonso de Ribera-Chiguayante”.
+Chiguayante - “Se realiza la conexión IRIG B a los relés 311C y 311L del paño B2 de S/E Alonso de Ribera
+con
+el reloj satelital”.
+La empresa CGE Transmisión S.A. indica:
+- "Se realizará una revisión y pruebas en el sistema de control del interruptor asociado al
+Falla en línea 66 kV
+EAF 329-2024 31-07-2024 paño 52CT1. Actividad comprometida a septiembre de 2024”.
+Talcahuano - Latorre N°1
+“Se realizará retemplado de conductor entre las estructuras E-05 a E-06 de la línea LT 66 kV
+Talcahuano - Latorre N°1. Actividad comprometida a diciembre 2024".
+Falla en la línea 66 kV
+EAF 333-2024 01-08-2024 La empresa CGE Transmisión S.A. señala que “No aplica”.
+Los Peumos - Curacautín
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 8 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 416-2022, EAF 069-2023, EAF 215-2023, EAF 403-2023, EAF 459-2023, EAF
+466-2023, EAF 066-2024 y EAF 292-2024.
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado en este evento corresponde a la línea 66kV Parral - Cauquenes, la cual tiene una
+longitud de 53 km, está compuesta por conductores AAAC 125 mm2 y CU 33.68 mm2, con una
+capacidad de 23.66 MVA (a 25ºC con sol a tensión nominal), de acuerdo con lo informado por su
+propietario en la plataforma Infotécnica del Coordinador.
+f. Ubicación urbana o rural según DS 327/1997
+Las empresas Compañía General de Electricidad S.A. y Luzparral S.A. informan que la ubicación de sus
+consumos afectados es urbana/rural.
+g. Proposición del propietario respecto del origen de la falla
+I.- Fuerza Mayor o Caso Fortuito.
+h. Comuna donde se presenta la falla
+7202: Chanco, 7203: Pelluhue, 7201: Cauquenes.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03-08-2024) (08-08-2024)
+CGE Transmisión S.A. 01-08-2024 19-08-2024
+Compañía General de Electricidad S.A. 02-08-2024 07-08-2024
+Luzparral Transmisión S.A. 01-08-2024 08-08-2024
+Luzparral S.A. 01-08-2024 05-08-2024
+GR Liun SpA 02-08-2024 08-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+PFV Tamango* - 1.3 09:21 17:43
+Total: 1.3 MW
+- Los montos y horarios señalados corresponden a lo informado por la empresa GR Liun SpA.
+* Se ha autorizado la entrada en operación de Planta Fotovoltaica Tamango, a partir del día 14 de agosto de 2024.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 66 kV Parral - Cauquenes ST Zonal Parral - Cauquenes 09:21 14:57
+S/E Cauquenes ST Zonal Transformador Nº3 66/15 kV 09:21 14:58
+S/E Cauquenes ST Zonal Barra 66 kV BP1-Ext 09:21 14:58
+S/E Cauquenes ST Zonal Transformador Nº1 66/15,3 kV 09:21 14:59
+S/E Cauquenes ST Zonal Barra 66 kV BP1-Ext 09:21 14:59
+Línea 66 kV Cauquenes - La Vega ST Zonal Cauquenes - La Vega 09:21 15:00
+S/E La Vega ST Zonal Transformador Nº3 66/24 kV 09:21 15:00
+S/E La Vega ST Zonal Barra 66 kV 09:21 15:00
+S/E Paso Hondo ST Zonal Transformador Nº1 66/23-13.2 kV 09:21 15:10
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Paso Hondo Paso Hondo* Parral 0.54 0.005 10571 09:21 09:49 09:49
+S/E Cauquenes Quella / C3 Cauquenes 3.07 0.031 2173 09:21 14:58 14:58
+Cauquenes,
+S/E Cauquenes Tabolguen / C4 0.68 0.007 1450 09:21 14:58 14:58
+Parral
+Cauquenes,
+S/E Cauquenes Pocillas / C7 0.70 0.007 2679 09:21 14:59 14:59
+San Carlos
+Cauquenes,
+S/E Cauquenes Pilen / C8 Pelluhue, 6.49 0.064 15156 09:21 14:59 14:59
+Quirihue
+Cauquenes,
+S/E La Vega Los Ruiles / E1 Pelluhue, 3.28 0.033 11337 09:21 15:00 15:00
+Chanco
+Cauquenes,
+S/E La Vega Triple U / E2 0.06 0.001 271 09:21 15:00 15:00
+Chanco
+Total: 14.82 MW 0.147% 43637
+- Los montos y horarios señalados corresponden a lo informado por las empresas Compañía General de Electricidad S.A. y Luzparral
+S.A.
+* La empresa Luzparral S.A. no determina los consumos de cada alimentador, sin embargo, la empresa Luzparral Transmisión S.A.
+hace referencia a que estos correspondería a los alimentadores Cardo Verde y Unicaven.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Paso Hondo Paso Hondo* LUZ PARRAL Regulado 0.54 0.47 0.47 0.3
+S/E Cauquenes Quella / C3 CGE Regulado 3.07 5.62 5.62 17.2
+S/E Cauquenes Tabolguen / C4 CGE Regulado 0.68 5.62 5.62 3.8
+S/E Cauquenes Pocillas / C7 CGE Regulado 0.70 5.63 5.63 3.9
+S/E Cauquenes Pilen / C8 CGE Regulado 6.49 5.63 5.63 36.6
+S/E La Vega Los Ruiles / E1 CGE Regulado 3.28 5.65 5.65 18.5
+S/E La Vega Triple U / E2 CGE Regulado 0.06 5.65 5.65 0.3
+Clientes Regulados : 80.6 MWh
+Clientes Libres : MWh
+Total : 80.6 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Compañía General de Electricidad S.A. y Luzparral
+S.A.
+* La empresa Luzparral S.A. no determina los consumos de cada alimentador, sin embargo, la empresa Luzparral Transmisión S.A.
+hace referencia a que estos correspondería a los alimentadores Cardo Verde y Unicaven.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 11.86 5.65 2.10
+Último 20 % 2.96 5.65 0.52
+100 % Total 14.82 5.65 2.62
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10063.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U2 y U3), Colbún (U1 y U2), El Toro (U1, U2, U3 y U4), Mejillones (IEM) y Nueva
+Renca (TG).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+01 de agosto de 2024.

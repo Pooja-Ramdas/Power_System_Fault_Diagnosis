@@ -1,0 +1,358 @@
+Estudio para análisis de falla EAF 373/2024
+“Falla en línea 66 kV Rancagua - Rosario”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 22:55
+Consumos desconectados (MW) 22.33
+Demanda previa del sistema (MW) 9695
+Porcentaje de desconexión 0.231 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Rancagua - Rosario / LT037CI1TR04----T005
+Tipo de instalación Línea de transmisión
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 14, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento fallado Chumaquito - Rosario 66 kV / LT037CI1TR04----T058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 14, Las Condes
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52B4 de S/E Rancagua, correspondiente a la línea
+de 66 kV Rancagua - Rosario, por operación de su sistema de protecciones, debido a una falla
+monofásica en la fase A.
+La causa de la falla corresponde tanto a la caída de un árbol en la línea como a una rama llevada por
+el viento hacia los conductores, con ocasión de lluvias y fuertes ráfagas de viento en la zona.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+La empresa CGE Transmisión S.A. envía los probatorios y antecedentes asociados a la proposición del
+origen de la falla:
+o Registro fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+o Informe técnico de los hechos que provocan la pérdida de aislación.
+o Número de reiteración de la causa en la instalación: 2 fallas.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+Falla en la línea 66
+EAF 277_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+kV Charrúa - Lucero
+Falla en línea 66 kV
+EAF 278_2023 San Fernando - 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Placilla
+Falla en línea 66 kV
+EAF 362_2023 Los Maquis - 22-08-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Hualañé
+La empresa CGE Transmisión S.A. indica: “Se analizan eventos de
+relé SEL 387 S1 y SEL 351 S2. Al día siguiente se interrogan relés
+F4c asociados a los paños C1 y C2. Se observa que hay eventos en
+los horarios de falla. Se analizan eventos de relé SEL- 311C. Se
+Apertura
+realiza una inspección del tramo completo de la LT 66 kV Pan de
+intempestiva de los
+Azúcar- Marquesa, sin evidencias de la falla. Se realiza inspección
+interruptores 52B5 y
+EAF 394-2023 06-09-2023 visual y pruebas locales al interruptor 52B5 de S/E Pan de Azúcar
+52CT8 de S/E Pan
+el día de la falla, sin encontrar causa evidente (durante la semana
+de
+del 25 al 29 del presente se realizarán pruebas exhaustivas al
+Azúcar
+interruptor, para luego durante la semana del 2 al 6 de octubre
+presentar un informe del interruptor 52B5). Reemplazo de
+interruptor 52B5 de SE Pande Azúcar (fecha estimada diciembre de
+2023)”.
+La empresa CGE Transmisión S.A. indica:
+Falla en línea 66 kV - “Se realiza el afianzamiento con tirantes del poste externo cerca
+EAF 247-2024 Alonso de Ribera - 08-06-2024 de la estructura E46 de la línea LT Alonso de Ribera-Chiguayante.”
+Chiguayante - “Se realiza la conexión IRIG B a los relés 311C y 311L del paño B2
+de S/E Alonso de Ribera con el reloj satelital.”
+La empresa CGE Transmisión S.A. indica:
+"• Se realizará una revisión y pruebas en el sistema de control del
+Falla en línea 66 kV interruptor asociado al paño 52CT1. Actividad comprometida a
+EAF 329-2024 Talcahuano - Latorre 31-07-2024 septiembre de 2024.
+N°1 • Se realizará retemplado de conductor entre las estructuras E-05 a
+E-06 de la línea LT 66 kV Talcahuano – Latorre N°1. Actividad
+comprometida a diciembre 2024."
+Falla en línea 66 kV
+EAF 333-2024 Los Peumos - 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Curacautín
+Falla en línea 66 kV
+EAF 334-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Parral - Cauquenes
+Falla en línea 2x66
+EAF 335-2024 kV Lastarria - 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Loncoche
+Falla en la línea 66
+EAF 337-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+kV Tres Pinos - Lebu
+Falla en la línea 66 La empresa CGE Transmisión S.A. indica: “Se realizó el retiro de los
+EAF 338-2024 kV Curanilahue - 01-08-2024 árboles que se encontraban sobre la línea y, además, se repusieron
+Tres Pinos los conductores de la fase central y lateral que resultaron dañados.”.
+CGE Transmisión S.A. indica que realizó la instalación de un nuevo
+Falla en línea 66 kV line post en la estructura N°61 y, además, se reparó el tramo de
+EAF 343-2024 01-08-2024
+Villarrica - Pucón conductor que resultó con daños entre las estructuras N°38 y N°39
+de la línea 66 kV Villarrica - Pucón.
+Falla en línea 66 kV La empresa CGE Transmisión S.A. indica que “Se quitaron los
+EAF 345-2024 Guindo - Coronel 01-08-2024 árboles que cayeron a las líneas y, además, se repararon los
+N°2 elementos que resultaron dañados producto de los eventos.”.
+La empresa CGE Transmisión S.A. indica:
+"Se modificará las variables de registro SER para que no se
+produzcan sobre escritura. Se realizó el retiro de los árboles que se
+Falla en línea 66 kV encontraban sobre la línea y, además, se repusieron los elementos
+EAF 347-2024 Curanilahue Norte - 01-08-2024 que resultaron dañados producto del temporal. Levantamiento y
+Tres Pinos posterior verificación de alambrado de control por verificación de
+potenciales asociados al paño B8 de S/E Curanilahue Norte, trabajos
+asociados a la SD 2024078680 realizada el día 08 de agosto de
+2024."
+La empresa CGE Transmisión S.A. indica:
+Con fecha 6 de agosto se encontró causa de falla, que consistió en
+el desprendimiento de parte de malla metálica perimetral que se
+encuentra por encima del nivel de las panderetas. Las condiciones
+del viento arrastraron pequeños segmentos de malla hacia los
+bushing del interruptor del banco de condensadores.
+Inmediatamente después de detectada la causa de falla, se solicitó
+Apertura
+la apertura del SSCC que alimenta el banco de condensadores en
+intempestiva del
+EAF 348-2024 01-08-2024 barra.
+interruptor 52CT1 de
+Se programó para los días 13 y 14 de agosto la revisión, limpieza y
+S/E San Pedro
+despeje del área afectada, para poder re-energizar los bancos de
+condensadores.
+El 01/08/2024 a las 20:26 horas el CT informa problemas en
+mecanismo de apertura y cierre del 52CT1 de S/E San Pedro.
+Posteriormente el 06/08/2024 a las 17:13 horas se concluyen las
+pruebas de apertura y cierre del 52CT1 de S/E San Pedro de manera
+satisfactoria quedando disponible para operación."
+La empresa CGE Transmisión S.A. indica que "Se despejaron las
+Falla en línea 2x66 líneas afectadas por el evento, se repusieron las estructuras
+EAF 349-2024 01-08-2024
+kV Ejército - Guindo derribadas y se reparó el conductor dañado, tanto por el temporal
+como por el posterior robo."
+Falla en línea 154 kV
+EAF 350-2024 Charrúa - Los 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Ángeles
+Falla en línea 66 kV La empresa CGE Transmisión S.A. indica que “Se repusieron tanto
+EAF 351-2024 Carampangue - 01-08-2024 las estructuras derribadas, como el conductor cortado producto del
+Curanilahue Norte intenso viento que azotó a la zona centro – sur del país.”.
+La empresa CGE Transmisión S.A. indica que “Se realiza retiro de
+Falla en línea 154 kV
+árbol en vano 42-43 y de otro arboles con peligro de caída que
+EAF 355-2024 Charrúa - Los 01-08-2024
+estaban fuera de franja de seguridad que tenían proyección hacia la
+Ángeles
+línea.”.
+La empresa CGE Transmisión S.A. señala:
+- “Se realiza inspección pedestre e inspección con Dron a la línea de
+Falla en línea 66 kV transmisión.”.
+EAF 369-2024 01-08-2024
+San Fernando - Teno - “El día 03-08-2024, se realiza reparación de fijación de línea en
+aislador de la Estructura N°71 de la LT66kV San Fernando -
+Chimbarongo:
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 380-2023 y EAF 454-2023).
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la falla corresponde al tramo de línea Chumaquito - Rosario 66 kV,
+asociado a la línea de 66 kV Rancagua - Rosario, la cual, de acuerdo con lo informado por su propietario
+en la plataforma Infotécnica del Coordinador, posee las siguientes características:
+Características Valor
+Tensión nominal 66 kV
+Longitud del conductor 7.23 [km]
+Tipo de conductor AAAC
+Año de puesta en servicio 1946
+La empresa CGE Transmisión S.A. no remitió los antecedentes correspondientes a los mantenimientos
+realizados durante los últimos 24 meses a la línea de 66 kV Rancagua - Rosario.
+f. Ubicación urbana o rural según DS 327/1997
+Para el caso de los alimentadores afectados en S/E Chumaquito, la empresa CGE S.A. indica:
+• Alimentador San Isidro: urbano y rural
+• Alimentador Rosario: rural
+Para el caso de los alimentadores afectados en S/E Rosario, la empresa CGE S.A. no remitió un Informe
+de Falla del quinto día asociado a la pérdida de suministro en dicha S/E.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza mayor o caso fortuito.
+h. Comuna donde se presenta la falla
+6116: Requínoa.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03-08-2024) (08-08-2024)
+CGE Transmisión S.A. 02-08-2024 20-08-2024
+27-08-2024 (S/E Chumaquito)
+Compañía General Electricidad S.A. (CGE) 27-08-2024
+No remitido (S/E Rosario)
+Fundición Talleres Ltda. No remitido No remitido
+Empresa de los Ferrocarriles del Estado No remitido No remitido
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 66 kV Rancagua - Rosario ST Zonal LT 66 kV Rancagua - Tap Maestranza 22:55 01:34*
+LT 66 kV Rancagua - Rosario ST Zonal LT 66 kV Tap Maestranza - Tap Los Lirios 22:55 17:52*
+LT 66 kV Rancagua - Rosario ST Zonal LT 66 kV Tap Los Lirios - Chumaquito 22:55 17:52*
+LT 66 kV Rancagua - Rosario ST Zonal LT 66 kV Chumaquito - Rosario 22:55 17:52*
+- Los horarios corresponden a lo informado por CGE Transmisión S.A.
+- (*) Corresponde al día 02-08-2024.
+c. Consumos
+Pérdida de %
+Alimentador / Clientes H. H. H.
+S/E Comuna Consumo consumo
+Paño Afectados Desc. Disp. Norm.
+(MW) pre-falla
+Rosario Retiro / C1 NI 7.45 0.077 NI 22:55 23:05 23:05
+Rosario Lecaro / C2 NI 5.31 0.055 NI 22:55 23:05 23:05
+Rosario Tipaume / C3 NI 1.97 0.020 NI 22:55 23:05 23:05
+Tap Maestranza - NI 3.74 0.039 1 22:55 *01:34 *01:34
+Tap Los Lirios - NI 0.10 0.001 1 22:55 *17:52 *17:52
+Chumaquito San Isidro / C3 Rengo y Requínoa 1.37 0.014 2640 22:55 *18:00 *20:13
+Chumaquito Rosario / C4 Requínoa 2.39 0.025 311 22:55 *18:00 *20:30
+Total: 22.33 MW 0.231% >2953
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE Transmisión y CGE S.A.
+- (*) Corresponde al día 02-08-2024.
+- Nota: los horarios de recuperación de consumos en SS/EE Tap Off Maestranza y Tap Off Los Lirios no se condicen con las maniobras
+de normalización de servicio, entendiéndose que la tabla de recuperación de consumos contenida en el Informe de Falla de 5 días
+de CGE Transmisión S.A. presenta intercambiados los horarios de normalización de consumos de las SS/EE mencionadas. Por lo
+tanto, aquí se han colocado de acuerdo con las maniobras de normalización.
+3. Estimación de la energía no suministrada
+Alimentador / Tipo de Pérdida de Tiempo Tiempo ENS
+S/E Empresa
+Paño Cliente Consumo (MW) Indisp. (h) Desc. (h) (MWh)
+Rosario Retiro / C1 CGE Regulado 7.45 0.17 0.17 1.2
+Rosario Lecaro / C2 CGE Regulado 5.31 0.17 0.17 0.9
+Rosario Tipaume / C3 CGE Regulado 1.97 0.17 0.17 0.3
+Tap Maestranza - Fundición Talleres Libre 3.74 2.65 2.65 9.9
+Tap Los Lirios - EFE Libre 0.10 18.95 18.95 1.9
+Chumaquito San Isidro / C3 CGE Regulado 1.37 19.08 21.30 29.2
+Chumaquito Rosario / C4 CGE Regulado 2.39 19.08 21.58 51.6
+Clientes Regulados : 83.2 MWh
+Clientes Libres : 11.8 MWh
+Total : 95.0 MWh
+- Los montos señalados corresponden a lo informado por las empresas CGE Transmisión y CGE S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se observan diferencias significativas entre los horarios de recuperación real respecto de los horarios
+de disponibilidad de la barra primaria respectiva en dos puntos del gráfico.
+- Velocidad promedio de recuperación.
+Tiempo
+Potencia Velocidad de
+Rango recuperación
+(MW) recuperación (MW/h)
+(h)
+Primer 80 % 17.86 2.65 6.74
+Último 20 % 4.47 21.58 0.21
+100 % Total 22.33 21.58 1.03
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9695 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales: Angamos (ANG1 y ANG2), Atacama (TG1), Cochrane (CCH1 y CCH2), Colbún (U2), Guacolda
+(U5), Pehuenche (U1) y Rapel (U1, U2 y U3).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+01 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 01 de
+0
+0
+0
+0
+2
+2
+0
+0
+0
+1
+1
+0
+-0 8
+-0 8
+2 -0
+2 -0
+2 -0
+-0 8
+-0 8
+1 -0
+-2 0
+-2 0
+8 -2
+8 -2
+8 -2
+-2 0
+-2 0
+8 -2
+2
+2
+0
+0
+0
+2
+2
+0
+4
+4
+2
+2
+2
+4
+4
+2
+1 9
+1 4
+4 9
+4 4
+4 0
+1 9
+1 4
+4 9
+:1
+:2
+:3
+:4
+:0
+:1
+:2
+:3
+2
+4
+6
+8
+0
+2
+4
+6
+3 3 .4 %
+R
+5 7 .1
+e c u p
+%
+e ra c ió n
+6
+re
+6
+a
+.0
+l
+% 8 2 .7 %
+R e c u p e ra c ió n
+8 3 .2
+e s p
+%
+e ra d a
+8 9 .3 % 1 0 0 .0 %

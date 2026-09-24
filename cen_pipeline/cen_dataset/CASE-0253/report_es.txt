@@ -1,0 +1,159 @@
+Estudio para análisis de falla EAF 356/2024
+“Desconexión forzada de la línea 33 kV Quilmo - Tap Lajuelas”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 14:34
+Consumos desconectados (MW) 5.90
+Demanda previa del sistema (MW) 11399
+Porcentaje de desconexión 0.052 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Tramo 33 kV Quilmo - Tap Lajuelas / LT002CI1TR02----R0013
+Tipo de instalación Línea de transmisión
+Tensión nominal 33 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Copelec LTDA
+RUT 80.237.700-2
+Representante Legal Patricio Lagos
+Dirección 18 de septiembre 688, Chillán*
+(*) Corresponde a dirección indicada por el propietario en la plataforma REUC del Coordinador.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Tramo 33 kV Quilmo - Tap Lajuelas / LT002CI1TR02----R0013
+Propietario elemento fallado Copelec LTDA
+RUT 80.237.700-2
+Representante Legal Patricio Lagos
+Dirección 18 de septiembre 688, Chillán*
+(*) Corresponde a dirección indicada por el propietario en la plataforma REUC del Coordinador.
+d.1 Origen y causa de la falla
+Se produjo un cortocircuito bifásico aguas abajo del interruptor 52FT8 de S/E Quilmo, redundando en
+la apertura de este último y en la consecuente desconexión forzada del tramo 33 kV Quilmo - Tap
+Lajuelas, con ocasión de fuerte viento y lluvia en la zona.
+La causa de la falla no logró ser determinada.
+d.2 Fenómeno Físico:
+OTR2: Origen no determinado.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 4 fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 484/2022, EAF 288/2023,
+EAF 298/2023 y EAF 283/2024).
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento que resultó desconectado producto de la falla corresponde al tramo 33 kV Quilmo - Tap
+Lajuelas. Al respecto, Copelec LTDA no remitió los mantenimientos realizados durante los últimos 24
+meses.
+De acuerdo con lo declarado por su propietario en el aplicativo Infotécnica, la línea posee las siguientes
+características técnicas:
+Sección tramo Quilmo - Tap Lajuelas, 33 kV
+• Largo: 8.49 km
+• Conductor: Cobre (33.63 mm2)
+• Año de entrada en operación: 1997
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Copelec LTDA no señala explícitamente la calificación urbana o rural del alimentador
+afectado. No obstante, en la segunda tabla del punto 3 del Informe de Falla del quinto día señala
+“ruralidad 1”.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor o caso fortuito.
+h. Comuna donde se presenta la falla
+16103: Chillán viejo*
+(*) Si bien la empresa no indica la comuna donde se presentó la falla, se presume la comuna mencionada por ser
+indicada en el aplicativo Infotécnica para las SS/EE Quilmo, Santa Elisa y Quilmo II.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (03/08/2024) Informe de 5 días (08/08/2024)
+Cooperativa de Consumo de Energía Eléctrica
+02-08-2024 21-08-2024
+Chillán LTDA
+Parque Solar Quilmo SpA 02-08-2024 No remitido
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+33 kV Quilmo - Lajuelas ST Zonal - 14:34 15:52
+- Horas señaladas corresponden a lo informado por la empresa Copelec LTDA.
+c. Consumos
+Pérdida de %
+Sub- Alimentador Clientes H. H. H.
+Comuna Consumo consumo
+Estación / Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Chillán, Chillán viejo,
+Santa Confluencia / Cobquecura, Coelemu,
+5.90 0.052 5729 14:34 16:49 16:49
+Elisa* NI Florida, Portezuelo, Quillón,
+Ranquil, Tomé y Trehuaco
+Total: 5.90 MW 0.052 % 5759
+- Fechas y horas corresponden a los señalado por la empresa Copelec LTDA.
+(*) Si bien en el documento “IF_5D 2024003505_LT 33kV Quilmo - Tap Lajuelas 01.08.2024. V3.pdf” remitido por Copelec LTDA se
+indica que la S/E afectada fue Quilmo, hace más sentido que sea Santa Elisa, tal como se indica en el documento “4.2.- Calculo ENS
+COPELEC interrupción Quilmo_V2.xlsx”.
+3. Estimación de la energía no suministrada
+Sub- Tipo de Pérdida de Tiempo Tiempo ENS
+Alimentador / Paño Empresa
+Estación Cliente Consumo (MW) Indispon. (h) Desc.(h) (MWh)
+Santa Elisa* Confluencia / NI Copelec Regulado 5.90 2.25 2.25 13.3
+Clientes Regulados : 13.3 MWh
+Clientes Libres : MWh
+Total : 13.3 MWh
+- Los montos señalados corresponden a lo señalado por la empresa Copelec LTDA.
+(*) Si bien en el documento “IF_5D 2024003505_LT 33kV Quilmo - Tap Lajuelas 01.08.2024. V3.pdf” remitido por Copelec LTDA se
+indica que la S/E afectada fue Quilmo, hace más sentido que sea Santa Elisa, tal como se indica en el documento “4.2.- Calculo ENS
+COPELEC interrupción Quilmo_V2.xlsx”.
+- Curva de recuperación esperada v/s recuperación real.
+No se observan diferencias entre los horarios de recuperación real respecto de los horarios de
+disponibilidad de las barras primarias respectivas para recuperar los consumos afectados.
+Potencia Tiempo Velocidad de
+Rango
+(MW) recuperación (h) recuperación (MW/h)
+Primer 80 % 4.72 2.25 2.10
+Último 20 % 1.18 2.25 0.52
+100 % Total 5.90 2.25 2.62
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 11399 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales: Colbún (U1 y U2)
+y Pehuenche (U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+01 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 01 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Previo a la falla, el sistema de transmisión operaba de forma normal.
+1
+1
+1
+1
+1
+1
+8
+6
+5
+4
+3
+2
+:0
+:4
+:3
+:2
+:1
+:0
+0
+8
+6
+4
+2
+0
+R e cu p e ra ció n re a l
+1 0 0 .0 %
+R e cu p e ra ció n e sp e ra d a

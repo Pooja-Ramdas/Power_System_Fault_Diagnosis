@@ -255,16 +255,15 @@ def main():
                 try:
                     render_pdf.render_pdf_page(real_hit["path"], image_path)
                     diagram_source = "official_pdf"
+                    if not getattr(config, "KEEP_RAW_DIAGRAM_PDFS", False) and os.path.exists(real_hit["path"]):
+                        os.remove(real_hit["path"])
                 except Exception as e:
                     print(f"[image] PDF render failed for {case_id} ({e}); "
                           f"using synthetic fallback")
             elif real_hit:
                 # real official document acquired (e.g. .rar/.dwg) but not yet
-                # renderable to a pixel image -- keep the raw file (it's on
-                # disk at real_hit["path"], NOT deleted) and mark this case so
-                # a later DWG/archive->PNG conversion pass can pick it up
-                # without re-scraping. image.png still gets the synthetic
-                # fallback for now so every case has a directly usable image.
+                # renderable to a pixel image. Record re-fetch metadata so a
+                # later DWG/archive->PNG conversion pass can re-download on demand.
                 diagram_source = "official_archive_pending_conversion"
 
             if diagram_source != "official_pdf":
@@ -272,6 +271,19 @@ def main():
                     entry["description"], image_path, dpi=config.DIAGRAM_DPI
                 )
             image_is_real = diagram_source == "official_pdf"
+
+            # Save pending conversion re-fetch metadata and handle archive retention
+            pending_conversion_meta = None
+            if diagram_source == "official_archive_pending_conversion" and real_hit:
+                pending_conversion_meta = {
+                    "tipo": real_hit.get("tipo"),
+                    "installation_id": real_hit.get("installation_id"),
+                    "document_id": real_hit.get("document_id"),
+                    "filename": real_hit.get("filename"),
+                    "extension": real_hit.get("extension"),
+                }
+                if not getattr(config, "KEEP_PENDING_CONVERSION_ARCHIVES", False) and os.path.exists(real_hit["path"]):
+                    os.remove(real_hit["path"])
 
             # -- numeric modality --
             telemetry_saved = False
@@ -284,7 +296,7 @@ def main():
                     window_hours=config.TELEMETRY_WINDOW_HOURS,
                 )
                 if len(window) > 0:
-                    window.to_csv(os.path.join(case_dir, "telemetry.csv"), index=False)
+                    window.to_csv(os.path.join(case_dir, "telemetry.csv"), index=False, float_format="%.2f")
                     telemetry_saved = True
             # Fallback: hourly_generation.xlsx (system-wide aggregate, long-format)
             if not telemetry_saved and os.path.exists(hourly_gen_path):
@@ -299,7 +311,7 @@ def main():
                         window_hours=config.TELEMETRY_WINDOW_HOURS,
                     )
                     if len(window) > 0:
-                        window.to_csv(os.path.join(case_dir, "telemetry.csv"), index=False)
+                        window.to_csv(os.path.join(case_dir, "telemetry.csv"), index=False, float_format="%.2f")
                         telemetry_saved = True
             if not telemetry_saved:
                 # Still record the case; flag missing telemetry rather than
@@ -315,9 +327,10 @@ def main():
                 "telemetry_available": telemetry_saved,
                 "diagram_source": diagram_source,
                 "image_is_real_infotecnica": image_is_real,  # kept for backwards-compat
+                "pending_conversion_metadata": pending_conversion_meta,
                 "pending_conversion_path": (
                     os.path.relpath(real_hit["path"], config.OUTPUT_DIR)
-                    if diagram_source == "official_archive_pending_conversion" else None
+                    if diagram_source == "official_archive_pending_conversion" and getattr(config, "KEEP_PENDING_CONVERSION_ARCHIVES", False) and os.path.exists(real_hit["path"]) else None
                 ),
             }
             with open(os.path.join(case_dir, "meta.json"), "w", encoding="utf-8") as f:
@@ -343,6 +356,17 @@ def main():
             continue
 
         if i % 25 == 0:
+            import shutil
+            try:
+                free_mb = shutil.disk_usage(config.OUTPUT_DIR).free / (1024 * 1024)
+                min_free = getattr(config, "MIN_FREE_DISK_SPACE_MB", 1000)
+                if free_mb < min_free:
+                    print(f"[safety] WARNING: Free disk space dropped to {free_mb:.0f} MB "
+                          f"(below {min_free} MB safety threshold). Stopping build safely at case {i+1}/{len(all_entries)}.")
+                    break
+            except Exception:
+                pass
+
             size_now = dir_size_mb(config.OUTPUT_DIR)
             if size_now > config.DATASET_SIZE_HARD_CAP_MB:
                 print(f"[budget] hit {size_now:.0f} MB cap, stopping early "

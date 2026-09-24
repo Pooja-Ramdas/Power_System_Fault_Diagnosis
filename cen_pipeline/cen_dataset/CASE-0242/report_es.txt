@@ -1,0 +1,202 @@
+Estudio para análisis de falla EAF 367/2024
+“Falla en línea 110 kV Antillanca - Río Bonito”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 19:09
+Consumos desconectados (MW) 0.18
+Demanda previa del sistema (MW) 11047
+Porcentaje de desconexión 0.002 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 110 kV Antillanca - Río Bonito / LT021CI1TR02----T0003
+Tipo de instalación Línea de transmisión
+Tensión nominal 110 kV
+Segmento Transmisión Dedicada
+Propietario instalación afectada Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 110 kV Antillanca - Río Bonito / LT021CI1TR02----T0003
+Propietario elemento fallado Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno
+d.1 Origen y causa de la falla
+Se produjo una falla trifásica en la línea 110 kV Antillanca - Río Bonito, despejada desde sus extremos
+Antillanca y Río Bonito mediante sus respectivas funciones de distancia de fase en zona 1, con
+reconexión automática exitosa en el extremo Antillanca.
+La empresa STS S.A. señala que la causa de la falla se debió a objetos llevados por el viento hacia los
+conductores de la línea, durante temporal de viento y lluvia.
+d.2 Fenómeno Físico:
+CLI2: Objeto llevado por el viento hacia los conductores.
+La empresa STS S.A. no remitió la totalidad de los probatorios asociados al Fenómeno Físico propuesto.
+En efecto, de acuerdo con la Resolución Exenta 30989-2019 de la Superintendencia de Electricidad y
+Combustibles, se encuentran pendientes los siguientes documentos:
+• Registro fotográfico con fecha, hora y coordenadas del punto de falla.
+• Especificar tipo de elemento arrastrado por el viento hacia los conductores.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa STS S.A. indica: “Se desconecta el mismo día línea 66
+Falla en línea 66 kV
+EAF 327_2022 13-08-2022 kV Picarte - Corral de curso forzoso con el documento SD CF
+Picarte - Corral
+2023072726 para retiro corteza de árbol en estructura N°72”.
+La empresa STS S.A. indica “Sistema de Transmisión del Sur
+Falla en línea 66 kV retiro la corteza de árbol Eucaliptus de la línea 66 kV Remehue -
+EAF 467_2023 29-10-2023
+Remehue - La Unión N°1 Los Tambores el día 29/10/23”. La empresa STS S.A. no indica
+acciones correctivas de largo plazo.
+Falla en línea 66 kV La empresa Sistema de Transmisión del Sur S.A. no indica
+EAF 176_2024 29-04-2024
+Picarte - Corral acciones correctivas.
+La empresa Sistema de Transmisión del Sur S.A. señala: “Sistema
+Falla en línea 66 kV de Transmisión del Sur S.A. el día 31-07-24 bajo permiso de
+EAF 326-2024 31-07-2024
+Picarte - Corral trabajo de código interno realizó el retiro de la corteza de árbol
+sobre la línea 66 kV Picarte - Corral”.
+Sistema de Transmisión del Sur S.A señala: "Sistema de
+Falla en línea 66 kV Transmisión del Sur S.A. entre los días 01/08/24 y 03/08/24 bajo
+EAF 346-2024 01-08-2024
+Llollelhue - Los Lagos permiso de trabajo de código interno reparó la línea 66 kV
+Llollelhue – Los Lagos.".
+Falla en línea 220 kV
+EAF 354-2024 01-08-2024 Sistema de Transmisión del Sur S.A. señala que “no hay”.
+Ciru/elos - Mariquina
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 027/2023, EAF 224/2023 y
+EAF 174/2024).
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la falla corresponde a los conductores de la línea 110 kV Antillanca - Río
+Bonito. De acuerdo con lo informado por su propietario en la plataforma Infotécnica del Coordinador,
+esta línea posee las siguientes características:
+• Fecha de entrada en operación:
+o Sección tramo “Estr. N°266 – Antillanca 110 kV C1”: 24-06-2012
+o Sección tramo “Río Bonito - Estr. N°266 110 kV C1”: 10-08-2012
+• Longitud del conductor:
+o Sección tramo “Estr. N°266 – Antillanca 110 kV C1”: 12.48 km
+o Sección tramo “Río Bonito - Estr. N°266 110 kV C1”: 44.42 km
+La empresa Sistema de Transmisión del Sur S.A. no remitió antecedentes respecto de los
+mantenimientos realizados durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+Sin información, ya que la empresa Luz Osorno S.A. no remitió sus Informes de Falla.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+Sistema de Transmisión del Sur S.A. remite en respaldo a la proposición del origen de la falla lo
+siguiente:
+• Informe público y conocido que acredite la condición del viento.
+h. Comuna donde se presenta la falla
+10301: Osorno
+10302: Puerto Octay.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (03/08/2024) Informe de 5 días (08/08/2024)
+Sistema de Transmisión del Sur S.A. (STS) 01/08/2024 20/08/2024
+Compañía Eléctrica de Osorno S.A. No remitido No remitido
+Hidroenersur S.A. 01/08/2024 No remitido
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+Nalcas 1 2.04 19:09 22:33
+Nalcas 2 2.04 19:09 22:33
+Nalcas 3 1.20 19:09 22:33
+Callao 1 0.83 19:09 22:27
+Callao 2 0.82 19:09 22:27
+MC1 1 2.02 19:09 22:25
+MC2 1 1.97 19:09 22:24
+MC3 1 2.00 19:09 22:24
+Total: 12.92 MW
+- Fechas, horas y montos señalados corresponden a lo informado por la empresa Hidroenersur S.A. y el registro histórico del SCADA
+del Coordinador.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Río Bonito ST Zonal Transformador 110/23 kV 19:09 22:05
+Río Bonito - Bonito 23 kV ST Dedicado Río Bonito - Bonito 19:09 22:12
+Río Bonito - Callao 23 kV ST Dedicado Río Bonito - Tap Nalcas 19:09 22:12
+Río Bonito - Callao 23 kV ST Dedicado Tap Nalcas - Callao 19:09 22:12
+- Fechas y horas señaladas corresponden a lo informado por Sistema de Transmisión del Sur S.A.
+c. Consumos
+Pérdida de %
+Alimentador / Clientes
+Sub-Estación Comuna Consumo consumo H. Desc. H. Dispon. H. Norm.
+Paño Afectados
+(MW) pre-falla
+Río Bonito El Cabrito / E1 NI 0.18 0.002 NI 19:09 22:06 22:11
+Total: 0.18 MW 0.002 % NI
+- Horas y montos señalados corresponden a lo informado por la empresa STS S.A. (concuerda con lo indicado en la Plataforma de
+Recepción de Medidas para Transferencias Económicas del Coordinador).
+3. Estimación de la energía no suministrada
+Pérdida de Tiempo
+Alimentador Tipo de Tiempo ENS
+Sub-Estación Empresa Consumo Indispon.
+/ Paño Cliente Desc.(h) (MWh)
+(MW) (h)
+Río Bonito El Cabrito / E1 Luz Osorno Regulado 0.18 2.95 3.03 0.5
+Clientes Regulados : 0.5 MWh
+Clientes Libres : MWh
+Total : 0.5 MWh
+- Horas y montos señalados corresponden a lo informado por la empresa STS S.A. (concuerda con lo indicado en la Plataforma de
+Recepción de Medidas para Transferencias Económicas del Coordinador).
+- Curva de recuperación esperada v/s recuperación real.
+23:31
+23:02
+22:33
+22:04
+21:36
+21:07
+20:38
+20:09
+19:40
+19:12
+100.0%
+Recuperación real Recuperación esperada
+No se aprecian diferencias entre los horarios de recuperación real respecto de los horarios de
+disponibilidad de la barra primaria para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 0.14 3.03 0.05
+Último 20 % 0.04 3.03 0.01
+100 % Total 0.18 3.03 0.06
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 11047 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Atacama (TG1),
+Cochrane (CCH1), Colbún (U1 y U2), Guacolda (U5), Pehuenche (U1) y Rapel (U1, U2 y U3).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+En función de los antecedentes presentados a la fecha de emisión del presente EAF, se solicitará la
+siguiente información adicional:
+Empresa Hidroenersur SpA:
+• Informes de Falla de 5 días asociados a las unidades generadoras desconectadas con ocasión del
+evento analizado.
+STS S.A.:
+• Aclarar la necesidad de retardar la recuperación de consumos en S/E Río Bonito a través de la
+disponibilidad de la barra de media tensión, ante la necesidad de inspeccionar la línea de transmisión
+afectada, considerando que las protecciones de ambos extremos operaron en zona 1 (dando cuenta
+que la falla habría sido al interior de la línea) y que además la línea se encontraba energizada tras
+la reconexión automática exitosa del interruptor 52H3 de S/E Antillanca (dando cuenta de una falla
+transitoria).
+De forma complementaria, se adjuntan los informes de falla de instalaciones, ingresados en el sistema
+Neomante del Coordinador Eléctrico Nacional por Sistema de Transmisión del Sur S.A. e Hidroenesur
+SpA (Anexo N°1), y otros antecedentes aportados por Sistema de Transmisión del Sur S.A. (Anexo
+N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría u otro tipo de mantenimiento en curso. No
+obstante, cuenta un plan de acción vigente asociado al EAF 174/2024.
+b) Acciones correctivas a corto plazo:
+No se señalan acciones correctivas a corto plazo por parte de los Coordinados involucrados.
+c) Acciones correctivas a largo plazo:

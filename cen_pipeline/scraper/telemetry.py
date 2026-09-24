@@ -129,7 +129,8 @@ def load_wide_sheet(xlsx_path, meta_key, needed_dates=None):
                      if str(c).strip().isdigit() and 1 <= int(str(c).strip()) <= 24]
 
     # Detect the plant-name column (first non-date, non-hour column)
-    meta_cols = [c for c in df.columns if c != date_col and c not in hour_cols]
+    meta_cols = [c for c in df.columns if c != date_col and c not in hour_cols
+                 and str(c).strip() not in ('25', 'HORA 25', 'Hora 25', 'TOTAL', 'Total', 'total')]
 
     # Parse the date column
     if not meta.get("year_from_date"):

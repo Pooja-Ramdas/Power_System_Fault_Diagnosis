@@ -1,0 +1,17 @@
+{
+  "eaf_id": "EAF-0393-2024",
+  "eaf_num": 393,
+  "year": 2024,
+  "description": "Falla en línea 44 kV FFCC Los Andes – Juncal N°1",
+  "date": "02-08-2024",
+  "time": "09:21",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-393-2024.pdf",
+  "case_id": "CASE-0216",
+  "event_datetime": "2024-08-02T09:21:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "synthetic_fallback",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": null,
+  "pending_conversion_path": null
+}

@@ -1,0 +1,209 @@
+Estudio para análisis de falla EAF 333/2024
+“Falla en la línea 66 kV Los Peumos - Curacautín”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 09:11
+Consumos desconectados (MW) 4.83
+Demanda previa del sistema (MW) 10455.28
+Porcentaje de desconexión 0.046 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Los Peumos - Curacautín / LT221CI1TR01----T058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 17, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento afectado Conductores de la línea 66 kV Los Peumos - Curacautín / LT221CI1TR01----
+T058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-k
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 17, Las Condes
+d. Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Los Peumos - Curacautín por operación de
+protecciones, ante una falla atribuida a la caída de cortezas, ramas y árboles sobre los conductores de
+la línea, entre las estructuras N°63 y N°64.
+La causa de la falla es atribuida a un frente de mal tiempo que afectaba a la zona.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea 66 kV
+EAF 277_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Charrúa - Lucero
+Falla en línea 66 kV San
+EAF 278_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Fernando - Placilla
+Falla en línea 66 kV Los
+EAF 362_2023 22-08-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Maquis - Hualañé
+La empresa CGE Transmisión S.A. indica: “Se analizan
+eventos de relé SEL 387 S1 y SEL 351 S2. Al día siguiente se
+interrogan relés F4c asociados a los paños C1 y C2. Se
+observa que hay eventos en los horarios de falla. Se analizan
+eventos de relé SEL- 311C. Se realiza una inspección del
+Apertura
+tramo completo de la LT 66 kV Pan de Azúcar- Marquesa, sin
+intempestiva de los
+evidencias de la falla. Se realiza inspección visual y pruebas
+EAF 394-2023 interruptores 52B5 y 06-09-2023
+locales al interruptor 52B5 de S/E Pan de Azúcar el día de la
+52CT8 de S/E Pan de
+falla, sin encontrar causa evidente (durante la semana del 25
+Azúcar
+al 29 del presente se realizarán pruebas exhaustivas al
+interruptor, para luego durante la semana del 2 al 6 de
+octubre presentar un informe del interruptor 52B5).
+Reemplazo de interruptor 52B5 de SE Pande Azúcar (fecha
+estimada diciembre de 2023)”.
+La empresa CGE Transmisión S.A. indica:
+- “Se realiza el afianzamiento con tirantes del poste externo
+cerca de la estructura E46 de la línea
+Falla en línea 66 kV Alonso
+EAF 247-2024 08-06-2024 LT Alonso de Ribera-Chiguayante”.
+de Ribera - Chiguayante
+- “Se realiza la conexión IRIG B a los relés 311C y 311L del
+paño B2 de S/E Alonso de Ribera con
+el reloj satelital”.
+La empresa CGE Transmisión S.A. indica:
+- "Se realizará una revisión y pruebas en el sistema de
+control del interruptor asociado al paño 52CT1. Actividad
+Falla en línea 66 kV
+EAF 329-2024 31-07-2024 comprometida a septiembre de 2024”.
+Talcahuano - Latorre c1
+- “Se realizará retemplado de conductor entre las
+estructuras E-05 a E-06 de la línea LT 66 kV Talcahuano -
+Latorre N°1. Actividad comprometida a diciembre 2024".
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 432-2022, EAF 035-2023,
+EAF 204-2023, EAF 247-2023, EAF 282-2023, EAF 306-2023, EAF 313-2023, EAF 339-2023, EAF 357-
+2023, EAF 399-2023, EAF 446-2023, EAF 458-2023, EAF 118-2024, EAF 178-2024, EAF 183-2024,
+EAF 187-2024, EAF 244-2024 y EAF 250-2024).
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores de la línea 66 kV Los Peumos -
+Curacautín, la cual posee dos tramos, de 0.22 km y 45.34 km de largo aproximadamente, con un
+conductor por fase del tipo CAIRO 465.4 KCM y del tipo Cu 2/0 AWG, respectivamente, con una
+capacidad nominal de 27.7 [MVA] (permanente a 25°C con sol y a tensión nominal) y cuya fecha de
+puesta en servicio fue en los años 2015 y 1955, respectivamente, según lo informado por su propietario
+en la plataforma Infotécnica del Coordinador.
+Al respecto, la empresa CGE Transmisión S.A. no remitió antecedentes correspondientes a los
+mantenimientos realizados a la línea 66 kV Los Peumos - Curacautín, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+Sin información.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor o Caso Fortuito.
+La empresa CGE Transmisión S.A. remite los siguientes antecedentes en respaldo a la proposición del
+origen de la falla:
+ Informe de interrupción de suministro.
+ Informe de probatorios.
+ Informe del Evento Climático que afectó a la zona.
+h. Comuna donde se presenta la falla
+9211: Victoria.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03-08-2024) (08-08-2024)
+CGE Transmisión S.A. 01-08-2024 13-08-2023
+Frontel S.A. No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+03:12
+Línea 66 kV Los Peumos - Curacautín ST Zonal Los Peumos - Estructura T1D 09:11
+(06-08-2024)
+03:12
+Línea 66 kV Los Peumos - Curacautín ST Zonal Estructura T1D - Curacautín 09:11
+(06-08-2024)
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H. Norm.
+Paño Consumo consumo Afectados Desc. Dispon.
+(MW) pre-falla
+Tolhuaca / 03:12
+S/E Curacautín SI 2.40 0.023 SI 09:11 09:18
+C2 (06-08-2024)
+Lonquimay / 03:12
+S/E Curacautín SI 2.11 (*) 0.020 SI 09:11 09:50
+C3 (06-08-2024)
+Lonquimay / 03:12 03:19
+S/E Curacautín SI 0.32 (*) 0.003 SI 09:11
+C3 (06-08-2024) (06-08-2024)
+Total: 4.83 MW 0.046 % SI
+- Los montos señalados corresponden a una estimación realizada a partir de la información proporcionada por la empresa CGE
+Transmisión S.A.
+- (*): Montos incluyen el aporte de la central PMGD HP El Agrio, obtenido de la plataforma PRMTE del Coordinador.
+- SI: Sin información.
+- A la fecha de emisión de este estudio, no se cuenta con el detalle de los consumos afectados, ni con eventuales horarios de
+recuperación parcial de consumos mediante generación local y/o enmalles por redes MT, por parte de la empresa Frontel S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Curacautín Tolhuaca / C2 FRONTEL Regulado 2.40 130.25 0.12 0.3
+S/E Curacautín Lonquimay / C3 FRONTEL Regulado 2.11 (*) 130.25 0.65 1.4
+S/E Curacautín Lonquimay / C3 FRONTEL Regulado 0.32 (*) 130.25 114.13 36.5
+Clientes Regulados : 38.2 MWh
+Clientes Libres : MWh
+Total : 38.2 MWh
+- Los montos señalados corresponden a una estimación realizada a partir de la información proporcionada por la empresa CGE
+Transmisión S.A.
+- (*): Montos incluyen el aporte de la central PMGD HP El Agrio, obtenido de la plataforma PRMTE del Coordinador.
+- Curva de recuperación esperada v/s recuperación real.
+00:00 07-08-24
+00:00 06-08-24
+00:00 05-08-24
+00:00 04-08-24
+00:00 03-08-24
+00:00 02-08-24
+00:00 01-08-24
+00:00 31-07-24
+00:00 30-07-24
+49.7% 93.4% 100.0%
+Recuperación real Recuperación esperada
+Se aprecia que el 93.4% de los consumos afectados de S/E Curacautín fueron recuperados de
+manera previa mediante generación local. Al respecto, cabe señalar que a la fecha de emisión de
+este estudio no se cuenta con el detalle de los consumos afectados ni con eventuales horarios de
+recuperación parcial de consumos mediante generación local y/o enmalles por redes MT, a cargo
+de ser informados por parte de la empresa Frontel S.A.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 3.86 0.65 5.94
+Último 20 % 0.97 114.13 0.01
+100 % Total 4.83 114.13 0.04
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10455.28 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U1 y U2), Colbún (U1 y U2), El Toro (U1, U2, U3 y U4), Mejillones (IEM) y Nueva
+Renca (TG y TV).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+01 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 01 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades:
+- En S/E Curacautín la barra 13.2 kV es abastecida de manera radial a través del transformador N°3
+66/13.2 kV.
+- De acuerdo con registros de la plataforma PRMTE del Coordinador, el aporte de los PMGDs de la
+zona, al momento de la falla, es el descrito en la siguiente tabla.
+Subestación Alimentador PMGD Generación (MW)
+S/E Curacautín Lonquimay / C3 HP El Agrio 1.43

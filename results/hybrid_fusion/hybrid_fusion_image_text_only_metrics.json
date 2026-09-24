@@ -1,0 +1,75 @@
+{
+  "accuracy": 0.775,
+  "macro_precision": 0.4703525641025641,
+  "macro_recall": 0.53125,
+  "macro_f1": 0.49624999999999997,
+  "weighted_precision": 0.7121794871794871,
+  "weighted_recall": 0.775,
+  "weighted_f1": 0.7410000000000001,
+  "classification_report": {
+    "line_fault": {
+      "precision": 0.9230769230769231,
+      "recall": 1.0,
+      "f1-score": 0.9600000000000001,
+      "support": 24.0
+    },
+    "breaker_fault": {
+      "precision": 0.625,
+      "recall": 0.625,
+      "f1-score": 0.625,
+      "support": 8.0
+    },
+    "transformer_fault": {
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1-score": 0.4,
+      "support": 4.0
+    },
+    "busbar_fault": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "accuracy": 0.775,
+    "macro avg": {
+      "precision": 0.4703525641025641,
+      "recall": 0.53125,
+      "f1-score": 0.49624999999999997,
+      "support": 40.0
+    },
+    "weighted avg": {
+      "precision": 0.7121794871794871,
+      "recall": 0.775,
+      "f1-score": 0.7410000000000001,
+      "support": 40.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      24,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      3,
+      0
+    ],
+    [
+      0,
+      2,
+      2,
+      0
+    ],
+    [
+      2,
+      1,
+      1,
+      0
+    ]
+  ],
+  "n_samples": 40
+}

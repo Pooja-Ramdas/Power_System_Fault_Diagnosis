@@ -1,0 +1,213 @@
+Estudio para análisis de falla EAF 452/2024
+“Falla en línea 66 kV Licanco - Las Violetas”
+Fecha de Emisión: 23-09-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 28/08/2024
+Hora 10:21
+Consumos desconectados (MW) 18.77
+Demanda previa del sistema (MW) 10562
+Porcentaje de desconexión 0.178 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Licanco - Las Violetas / LT072CI1TR01T0003ST01T0003
+Tipo de instalación Línea de transmisión
+Tensión nominal 66 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 66 kV Licanco - Las Violetas / LT072CI1TR01T0003ST01T0003
+Propietario elemento fallado Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno
+d.1 Origen y causa de la falla
+Falla eléctrica ocurrida en la línea 66 kV Licanco - Las Violetas, la cual se produce entre sus
+estructuras Nº147 y Nº148 producto de “un camión de terceros que, en maniobras de carguío de
+materiales bajo la línea eléctrica por acercamiento de la grúa hace contacto con la fase lateral, lo
+cual provoca una falla por descarga a tierra”, conforme lo informado por el propietario de la línea de
+transmisión.
+d.2 Fenómeno Físico:
+ACC3: Vehículos terrestres.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: no se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: se han producido 6 fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 042-2023, EAF 312-
+2023, EAF 132-2024, EAF 341-2024, EAF 410-2024 y EAF 414-2024).
+d.4 Fenómeno eléctrico
+SO50IR: Sobrecorriente instantánea residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores de la línea 66 kV Licanco - Las
+Violetas, la cual, de acuerdo con los datos ingresados por la empresa propietaria en la plataforma
+Infotécnica del Coordinador, cuenta con conductores Cu 2/0 AWG y AAAC Greeley, con una longitud
+total de aproximadamente 23.3 km, y su puesta en servicio se produjo durante el año 2021.
+La empresa Sistema de Transmisión del Sur S.A. remitió antecedentes respecto de los
+mantenimientos realizados durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+Empresa Eléctrica de la Frontera S.A. informa densidades “D1 Muy Baja” y “D2 Baja” para sus
+alimentadores.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza mayor o caso fortuito.
+Sistema de Transmisión del Sur S.A. remite en respaldo a la proposición del origen de la falla lo
+siguiente:
+ Registro Fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+ Declaración jurada del representante legal.
+ Número de veces que ha ocurrido este tipo de falla en la instalación.
+ Antecedentes asociados al parte policial.
+ Vista aérea de Google Earth, Maps y/o Street incluyendo coordenadas UTM.
+h. Comuna donde se presenta la falla
+9111: Nueva Imperial.
+i. Fecha de entrega de la información al Coordinador
+Coordinado Informe de 48 horas (30/08/2024) Informe de 5 días (04/09/2024)
+Sistema de Transmisión del Sur S.A. (STS) 28/08/2024 05/09/2024
+Empresa Eléctrica de la Frontera S.A. (Frontel) 28/08/2024 02/09/2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Licanco - Las Violetas 66 kV ST Zonal Licanco - Las Violetas 10:21 10:55
+- Fechas y horas señaladas corresponden a lo informado por Sistema de Transmisión del Sur S.A.
+c. Consumos
+Pérdida de %
+Alimentador / Clientes H. H. H.
+Sub-Estación Comuna Consumo consumo
+Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Imperial Ciudad
+S/E Imperial Nueva Imperial 2.64 0.025 4900 10:21 10:55 10:35
+52E1
+Imperial Ciudad
+S/E Imperial Nueva Imperial 0.45 0.004 1(*) 10:21 10:55 10:30
+52E1
+Imperial Puerto Carahue, Nueva 2129
+S/E Imperial 1.72 0.016 10:21 10:55 10:49
+Saavedra 52E4 Imperial 781
+Imperial Puerto
+S/E Imperial Saavedra 2.33 0.022 4615 10:21 10:55 10:39
+Saavedra 52E4
+Imperial Puerto Teodoro
+S/E Imperial 0.01 0.000 20 10:21 10:55 10:42
+Saavedra 52E4 Schmidt
+S/E Imperial Carahue 52E6 Carahue 3.63 0.034 7501 10:21 10:55 10:43
+S/E Imperial Carahue 52E6 Nueva Imperial 0.61 0.006 1390 10:21 10:55 10:55
+S/E Imperial Carahue 52E6 Tirúa 0.01 0.000 9 10:21 10:55 11:08
+Freire, Padre
+805
+Las Casas,
+S/E Las Violetas Almagro 52E1 0.62 0.006 226 10:21 10:55 10:26
+Teodoro
+421
+Schmidt
+Nueva Imperial, 3632
+S/E Las Violetas Almagro 52E1 1.91 0.018 10:21 10:55 10:27
+Carahue 89
+S/E Las Violetas Los Boldos 52E2 Temuco 0.03 0.000 80 10:21 10:55 10:30
+S/E Las Violetas Los Boldos 52E2 Nueva Imperial 0.45 0.004 914 10:21 10:55 10:44
+S/E Las Violetas Los Boldos 52E2 Cholchol 2.07 0.020 3826 10:21 10:55 10:45
+S/E Las Violetas Los Boldos 52E2 Galvarino 0.48 0.005 1014 10:21 10:55 10:59
+Carahue, 10
+S/E Las Violetas Los Boldos 52E2 Lumaco, 0.26 0.002 207 10:21 10:55 11:01
+Traiguén 3
+S/E Las Violetas Labranza 52E3 Nueva Imperial 1.13 0.011 612 10:21 10:55 10:55
+S/E Las Violetas Labranza 52E3 Nueva Imperial 0.42 0.004 2(*) 10:21 10:55 10:55
+Total: 18.77 MW 0.178 % 33187
+- Horas y montos señalados corresponden a lo informado por Empresa Eléctrica de la Frontera S.A.
+- (*) Incluye a clientes libres conectados a las redes de distribución.
+3. Estimación de la energía no suministrada
+Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Alimentador / Paño Empresa
+Cliente Consumo (MW) Indispon. (h) Desc.(h) (MWh)
+S/E Imperial Imperial Ciudad 52E1 Frontel Regulado 2.64 0.57 0.23 0.6
+S/E Imperial Imperial Ciudad 52E1 Frontel Regulado 0.45(*) 0.57 0.15 0.1
+Imperial Puerto
+S/E Imperial Frontel Regulado 1.72 0.57 0.47 0.8
+Saavedra 52E4
+Imperial Puerto
+S/E Imperial Frontel Regulado 2.33 0.57 0.30 0.7
+Saavedra 52E4
+Imperial Puerto
+S/E Imperial Frontel Regulado 0.01 0.57 0.35 0.0
+Saavedra 52E4
+S/E Imperial Carahue 52E6 Frontel Regulado 3.63 0.57 0.37 1.3
+S/E Imperial Carahue 52E6 Frontel Regulado 0.61 0.57 0.57 0.3
+S/E Imperial Carahue 52E6 Frontel Regulado 0.01 0.57 0.78 0.0
+S/E Las Violetas Almagro 52E1 Frontel Regulado 0.62 0.57 0.08 0.1
+S/E Las Violetas Almagro 52E1 Frontel Regulado 1.91 0.57 0.10 0.2
+S/E Las Violetas Los Boldos 52E2 Frontel Regulado 0.03 0.57 0.15 0.0
+S/E Las Violetas Los Boldos 52E2 Frontel Regulado 0.45 0.57 0.38 0.2
+S/E Las Violetas Los Boldos 52E2 Frontel Regulado 2.07 0.57 0.40 0.8
+S/E Las Violetas Los Boldos 52E2 Frontel Regulado 0.48 0.57 0.63 0.3
+S/E Las Violetas Los Boldos 52E2 Frontel Regulado 0.26 0.57 0.67 0.2
+S/E Las Violetas Labranza 52E3 Frontel Regulado 1.13 0.57 0.57 0.6
+S/E Las Violetas Labranza 52E3 Frontel Regulado 0.42(*) 0.57 0.57 0.2
+Clientes Regulados : 6.4 MWh
+Clientes Libres : MWh
+Total : 6.4 MWh
+- Horas y montos señalados corresponden a lo informado por Empresa Eléctrica de la Frontera S.A.
+- (*) Incluye a clientes libres conectados a las redes de distribución.
+- Curva de recuperación esperada v/s recuperación real.
+11:16 11:08
+1 1 1 1 : : 0 0 2 9 10:55 10:55 10:55 10:55 10:55 10:55 10:55 10:55 10:55 10:55 10:55 1100::5555 1100::5555 1100::5555 1100::5595 1 10 1: : 0 5 1 5 10:55
+1 1 0 0 : : 4 5 8 5 10:39 10:42 10:43 10:44 10:45 10:49
+1 1 0 0 : : 3 4 3 0 10:26 10:27 10:30 10:30 10:35
+10:26
+10:19
+10:12
+10:04
+Almagro 52E1 Almagro 52E1imperial CiudadLos Boldos 52E2Imperial CiudadImperial PuertoImperial PuertoCarahue 52E6Los Boldos 52E2Los Boldos 52E2Imperial PuertoCarahue 52E6 Labranza 52E3Labranza 52E3Los Boldos 52E2Los Boldos 52E2Carahue 52E6
+52E1 52E1 Saavedra 52E4Saavedra 52E4 Saavedra 52E4
+S/E Las VioletasS/E Las Violetas S/E Imperial S/E Las Violetas S/E Imperial S/E Imperial S/E Imperial S/E Imperial S/E Las VioletasS/E Las Violetas S/E Imperial S/E Imperial S/E Las VioletasS/E Las VioletasS/E Las VioletasS/E Las Violetas S/E Imperial
+Recuperación Esperada Recuperación Real
+No se aprecian diferencias significativas entre los horarios de recuperación real respecto de los
+horarios de disponibilidad de las barras primarias para recuperar los consumos afectados.
+- Velocidad promedio de recuperación.
+Potencia Tiempo Velocidad de
+Rango
+(MW) recuperación (h) recuperación (MW/h)
+Primer 80 % 15.02 0.47 32.18
+Último 20 % 3.75 0.78 4.79
+100 % Total 18.77 0.78 23.96
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10562.0 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Angostura (U3),
+Colbún (U1), El Toro (U1), El Toro (U2), El Toro (U3), El Toro (U4), Mejillones (IEM) y Nueva Renca
+(TG).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 28 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 28 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+28 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 28 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por Sistema de Transmisión del Sur S.A.:
+“El pasado jueves 01 de agosto del 2024 a las 10:20 horas, se produce la interrupción de la línea 66
+kV Licanco – Las Violetas, en Subestación Licanco abre 52B2 por actuación de protecciones.
+Dicho evento deja fuera de servicio a las Subestaciones Las Violetas y Nueva Imperial y afecta a
+23.957 clientes de las comunas de Nueva Imperial, Carahue, Saavedra y Cholchol. De acuerdo con
+los datos obtenidos de las protecciones, se identifica el punto de falla a 27.5 km desde SE Licanco.
+Personal de mantenimiento sale de forma inmediata para buscar causa de interrupción, donde se
+encuentra que entre las estructuras 147 a 148 un camión de terceros que en maniobras de carguío
+de materiales bajo la línea eléctrica por acercamiento de la grúa hace contacto con la fase lateral, lo
+cual provoca una falla por descarga a tierra. A las 10:55 se procede a energizar la línea desde
+Subestación Licanco hasta Las Violetas, y posteriormente energización de tramo Las Violetas – Nueva
+Imperial quedando los consumos normalizados.”
+Frontel S.A. realizó la “normalización de los consumos a través de maniobras en Dx o Generación
+local”.
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.

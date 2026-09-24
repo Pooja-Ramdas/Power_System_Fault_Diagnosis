@@ -1,0 +1,326 @@
+Estudio para análisis de falla EAF 411/2024
+“Apertura intempestiva del interruptor 52CT2 de S/E San Pedro (CGE)”
+Fecha de Emisión: 27-08-2024
+1. Descripción pormenorizada de la perturbación
+1. Fecha y Hora de la falla
+Fecha 05/08/2024
+Hora 00:13
+Consumos desconectados (MW) 12.90
+Demanda previa del sistema (MW) 8888.2
+Porcentaje de desconexión 0.145 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+2. Identificación instalación afectada
+Nombre de la instalación S/E San Pedro (CGE) / SE120T0058
+Tipo de instalación Subestación
+Tensión nominal 66 kV y 15 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+3. Identificación del elemento fallado
+Nombre del elemento afectado Bushing del banco de condensadores de S/E San Pedro (CGE) /
+EC01T0058SE120T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52CT2 de S/E San Pedro (CGE), correspondiente al
+interruptor del lado de 15 kV del transformador N°2 66/15 kV de la S/E, por medio de la operación de
+su protección de sobrecorriente de fase.
+La empresa CGE Transmisión S.A. indica que la causa de la falla fue producto de una pérdida de
+aislación generada por el desprendimiento de parte de la malla metálica perimetral, la cual fue llevada
+por el viento hacia los bushings del banco de condensadores de la S/E.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+La empresa CGE Transmisión S.A. remite los antecedentes probatorios para acreditar el fenómeno
+físico.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+Falla en la línea 66
+EAF 277-2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+kV Charrúa - Lucero
+Falla en línea 66 kV
+EAF 278-2023 San Fernando - 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Placilla
+Falla en línea 66 kV
+EAF 362-2023 Los Maquis - 22-08-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Hualañé
+La empresa CGE Transmisión S.A. indica: “Se analizan eventos de
+relé SEL 387 S1 y SEL 351 S2. Al día siguiente se interrogan relés
+F4c asociados a los paños C1 y C2. Se observa que hay eventos en
+los horarios de falla. Se analizan eventos de relé SEL- 311C. Se
+Apertura
+realiza una inspección del tramo completo de la LT 66 kV Pan de
+intempestiva de los
+Azúcar- Marquesa, sin evidencias de la falla. Se realiza inspección
+interruptores 52B5 y
+EAF 394-2023 06-09-2023 visual y pruebas locales al interruptor 52B5 de S/E Pan de Azúcar
+52CT8 de S/E Pan
+el día de la falla, sin encontrar causa evidente (durante la semana
+de
+del 25 al 29 del presente se realizarán pruebas exhaustivas al
+Azúcar
+interruptor, para luego durante la semana del 2 al 6 de octubre
+presentar un informe del interruptor 52B5). Reemplazo de
+interruptor 52B5 de SE Pande Azúcar (fecha estimada diciembre de
+2023)”.
+La empresa CGE Transmisión S.A. indica:
+Falla en línea 66 kV - “Se realiza el afianzamiento con tirantes del poste externo cerca
+EAF 247-2024 Alonso de Ribera - 08-06-2024 de la estructura E46 de la línea LT Alonso de Ribera-Chiguayante.”
+Chiguayante - “Se realiza la conexión IRIG B a los relés 311C y 311L del paño B2
+de S/E Alonso de Ribera con el reloj satelital.”
+La empresa CGE Transmisión S.A. indica:
+"• Se realizará una revisión y pruebas en el sistema de control del
+Falla en línea 66 kV interruptor asociado al paño 52CT1. Actividad comprometida a
+EAF 329-2024 Talcahuano - Latorre 31-07-2024 septiembre de 2024.
+N°1 • Se realizará retemplado de conductor entre las estructuras E-05 a
+E-06 de la línea LT 66 kV Talcahuano – Latorre N°1. Actividad
+comprometida a diciembre 2024."
+Falla en línea 66 kV
+EAF 333-2024 Los Peumos - 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Curacautín
+Falla en línea 66 kV
+EAF 334-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Parral - Cauquenes
+Falla en línea 2x66
+EAF 335-2024 kV Lastarria - 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Loncoche
+Falla en la línea 66
+EAF 337-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+kV Tres Pinos - Lebu
+EAF 338-2024 Falla en la línea 66 01-08-2024 La empresa CGE Transmisión S.A. indica: “Se realizó el retiro de los
+kV Curanilahue - árboles que se encontraban sobre la línea y, además, se repusieron
+Tres Pinos los conductores de la fase central y lateral que resultaron dañados.”.
+CGE Transmisión S.A. indica que realizó la instalación de un nuevo
+Falla en línea 66 kV line post en la estructura N°61 y, además, se reparó el tramo de
+EAF 343-2024 01-08-2024
+Villarrica - Pucón conductor que resultó con daños entre las estructuras N°38 y N°39
+de la línea 66 kV Villarrica - Pucón.
+Falla en línea 66 kV La empresa CGE Transmisión S.A. indica que “Se quitaron los
+EAF 345-2024 Guindo - Coronel 01-08-2024 árboles que cayeron a las líneas y, además, se repararon los
+N°2 elementos que resultaron dañados producto de los eventos.”.
+La empresa CGE Transmisión S.A. indica:
+"Se modificará las variables de registro SER para que no se
+produzcan sobre escritura. Se realizó el retiro de los árboles que se
+Falla en línea 66 kV encontraban sobre la línea y, además, se repusieron los elementos
+EAF 347-2024 Curanilahue Norte - 01-08-2024 que resultaron dañados producto del temporal. Levantamiento y
+Tres Pinos posterior verificación de alambrado de control por verificación de
+potenciales asociados al paño B8 de S/E Curanilahue Norte, trabajos
+asociados a la SD 2024078680 realizada el día 08 de agosto de
+2024."
+La empresa CGE Transmisión S.A. indica:
+Con fecha 6 de agosto se encontró causa de falla, que consistió en
+el desprendimiento de parte de malla metálica perimetral que se
+encuentra por encima del nivel de las panderetas. Las condiciones
+del viento arrastraron pequeños segmentos de malla hacia los
+bushing del interruptor del banco de condensadores.
+Inmediatamente después de detectada la causa de falla, se solicitó
+Apertura
+la apertura del SSCC que alimenta el banco de condensadores en
+intempestiva del
+EAF 348-2024 01-08-2024 barra.
+interruptor 52CT1 de
+Se programó para los días 13 y 14 de agosto la revisión, limpieza y
+S/E San Pedro
+despeje del área afectada, para poder re-energizar los bancos de
+condensadores.
+El 01/08/2024 a las 20:26 horas el CT informa problemas en
+mecanismo de apertura y cierre del 52CT1 de S/E San Pedro.
+Posteriormente el 06/08/2024 a las 17:13 horas se concluyen las
+pruebas de apertura y cierre del 52CT1 de S/E San Pedro de manera
+satisfactoria quedando disponible para operación."
+La empresa CGE Transmisión S.A. indica que "Se despejaron las
+Falla en línea 2x66 líneas afectadas por el evento, se repusieron las estructuras
+EAF 349-2024 01-08-2024
+kV Ejército - Guindo derribadas y se reparó el conductor dañado, tanto por el temporal
+como por el posterior robo."
+Falla en línea 154 kV
+EAF 350-2024 Charrúa - Los 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Ángeles
+Falla en línea 66 kV La empresa CGE Transmisión S.A. indica que “Se repusieron tanto
+EAF 351-2024 Carampangue - 01-08-2024 las estructuras derribadas, como el conductor cortado producto del
+Curanilahue Norte intenso viento que azotó a la zona centro – sur del país.”.
+La empresa CGE Transmisión S.A. indica que “Se realiza retiro de
+Falla en línea 154 kV
+árbol en vano 42-43 y de otro arboles con peligro de caída que
+EAF 355-2024 Charrúa - Los 01-08-2024
+estaban fuera de franja de seguridad que tenían proyección hacia la
+Ángeles
+línea.”.
+Falla en línea 66 kV
+EAF 361-2024 Pitrufquén - 01-08-2024 La empresa CGE Transmisión S.A. indica que “No hay”.
+Lastarria N°1
+La empresa CGE Transmisión S.A. señala:
+- “Se realiza inspección pedestre e inspección con Dron a la línea de
+Falla en línea 66 kV transmisión.”.
+EAF 369-2024 01-08-2024
+San Fernando - Teno - “El día 03-08-2024, se realiza reparación de fijación de línea en
+aislador de la Estructura N°71 de la LT66kV San Fernando -
+Chimbarongo:
+La empresa CGE Transmisión S.A. indica que “se realiza la
+Falla en línea 66 kV reparación de la estructura 58 del tramo de LT66kV Los Lirios -
+EAF 373-2024 01-08-2024
+Rancagua - Rosario Chumaquito y la estructura 135 del tramo de LT66kV Chumaquito -
+Rosario.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se ha producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51: Protección de sobrecorriente temporizada de fase.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento fallado corresponde al bushing del banco de condensadores de la S/E San Pedro (CGE),
+que de acuerdo con los datos ingresados por la empresa propietaria en la plataforma Infotécnica del
+Coordinador, tiene una capacidad de 2.4 MVAr (una sola etapa), tiene una tensión nominal de 14.4 kV,
+posee una conexión en estrella aislada de tierra y fue puesto en servicio el año 1968.
+Al respecto, la empresa CGE Transmisión S.A. remite antecedentes correspondientes a los
+mantenimientos realizados durante los últimos 24 meses en la S/E San Pedro (CGE).
+f. Ubicación urbana o rural según DS 327/1997
+La Compañía General de Electricidad S.A. indica: “Urbano” y “Rural”.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor o Caso Fortuito.
+h. Comuna donde se presenta la falla
+08108: San Pedro.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(07-08-2024) (12-08-2024)
+Compañía General de Electricidad S.A. (CGE S.A.) 12-08-2024 12-08-2024
+CGE Transmisión S.A. 05-08-2024 21-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E San Pedro (CGE) ST Zonal Barra 15 kV N°2 00:13 01:06
+- Los horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+San Pedro de
+S/E San Pedro
+Santa Juana / C1 la Paz y 5.70 0.064 6881 00:13 01:06 01:07
+(CGE)
+Coronel.
+S/E San Pedro San Pedro de
+Villa / C3 3.20 0.036 12658 00:13 01:06 01:07
+(CGE) la Paz
+S/E San Pedro San Pedro de
+Los Batros / C2 4.00 0.045 7994 00:13 01:06 01:37
+(CGE) la Paz
+Total: 12.90 MW 0.145% 27533
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A. y CGE Transmisión S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E San Pedro (CGE) Santa Juana / C1 CGE Regulado 5.70 0.88 0.90 5.1
+S/E San Pedro (CGE) Villa / C3 CGE Regulado 3.20 0.88 0.90 2.9
+S/E San Pedro (CGE) Los Batros / C2 CGE Regulado 4.00 0.88 1.40 5.6
+Clientes Regulados : 13.6 MWh
+Clientes Libres : MWh
+Total : 13.6 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas CGE S.A. y CGE Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados, específicamente para los consumos afectados en el alimentador Los Batros,
+los cuales fueron recuperados 31 minutos posterior a la disponibilidad de la barra.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 10.32 1.40 7.37
+Último 20 % 2.58 1.40 1.84
+100 % Total 12.90 1.40 9.21
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+1
+1
+0
+0
+0
+0
+0
+:5
+:4
+:2
+:1
+:5
+:4
+:2
+:1
+:0
+5
+0
+6
+2
+7
+3
+8
+4
+0
+0 1 :0
+0 1 :0
+4 4 %
+76
+R e cu p e ra ció n re a l
+0 1 :0 7
+0 1 :0 6
+6 9 %
+R e cu p e ra ció n e sp e ra d a
+0 1 :3 7
+0 1 :0 6
+1 0 0 %
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8888.2 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U1), El Toro (U1, U2, U3 y U4), Mejillones (IEM y CTM3), Nueva Renca y Ralco
+(U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 05 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 05 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+05 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 05 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades:
+• El transformador N°1 66/15 kV de S/E San Pedro (CGE) se encontraba fuera de servicio, todos los
+consumos se encontraban alimentados desde el transformador N°2 66/15 kV de la S/E.
+• El interruptor acoplador de barras 52CS de S/E San Pedro (CGE) se encontraba cerrado.
+Otros antecedentes relevantes
+Según lo informado por la empresa CGE Transmisión S.A.:
+“A las 00:13 horas del día 05-08-2024 se produce la desconexión del interruptor 52CT2
+correspondiente de S/E San Pedro, provocando el desprendimiento de 12,9 MW que afectó al 52C1
+Cto. Santa Juana, 52C2 Cto. Los Batros y 52C3 Cto. Villa de subestación San Pedro.
+Inmediatamente Centro de Control de CGE Transmisión (COT) y Turno Zonal, coordinan la revisión de
+protecciones e inspección de la subestación fallada.
+Por lo cual se procede con el procedimiento de recuperación de la barra de 15KV (Nº1 y 2), abriendo
+en forma remota los paños, no logrando abrir en forma remota el paño 52C2 Cto. Los Batros de S/E
+San Pedro
+De la inspección de la subestación S/E San Pedro, se encuentra unidad de control del 52C2 Cto. Los
+Batros de S/E San Pedro apagada. Por lo cual se procede con la apertura manual del paño mencionado.
+A las 01:06 se procede con el cierre del interruptor 52CT2 energizando las barras de 15KV Nº1 y 2 con
+éxito, a continuación, se recuperan los consumos del paño 52C3 Cto. Villa a las 01:07, luego el cierre
+del 52C1 Cto. Santa Juana a las 01:13 y por último el cierre del 52C2 Cto. Los Batros a las 01:13,
+recuperando el 100% de los consumos afectados en S/E San Pedro.

@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0313-2024",
+  "eaf_num": 313,
+  "year": 2024,
+  "description": "Apertura intempestiva del interruptor 52C5 de S/E Miraflores",
+  "date": "18-07-2024",
+  "time": "17:57",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-313-2024-2.pdf",
+  "case_id": "CASE-0296",
+  "event_datetime": "2024-07-18T17:57:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".zip"
+  },
+  "pending_conversion_path": null
+}

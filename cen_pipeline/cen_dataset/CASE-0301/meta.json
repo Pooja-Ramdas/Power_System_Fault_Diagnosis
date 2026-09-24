@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0308-2024",
+  "eaf_num": 308,
+  "year": 2024,
+  "description": "Falla en el cierre del interruptor 52C2 de S/E Latorre",
+  "date": "15-07-2024",
+  "time": "17:44",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-308-2024.pdf",
+  "case_id": "CASE-0301",
+  "event_datetime": "2024-07-15T17:44:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".dwg"
+  },
+  "pending_conversion_path": null
+}

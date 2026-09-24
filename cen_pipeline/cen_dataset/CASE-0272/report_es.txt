@@ -1,0 +1,219 @@
+Estudio para análisis de falla EAF 337/2024
+“Falla en la línea 66 kV Tres Pinos - Lebu”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 10:10
+Consumos desconectados (MW) 2.7
+Demanda previa del sistema (MW) 11003.1
+Porcentaje de desconexión 0.02 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Tres Pinos - Lebu / LT219CI1TR01----T058
+Tipo de instalación Línea de transmisión
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 14. Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 66 kV Tres Pinos - Lebu / LT219CI1TR01----T058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco 5561, piso 14. Las Condes.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52B1 de S/E Tres Pinos, correspondiente a la línea
+66 kV Tres Pinos - Lebu, por medio de la operación de su protección de distancia, ante una falla
+originada por el contacto de varias cortezas de eucaliptus con los conductores de la línea entre las
+estructuras N°490 y N°491, llevadas por el viento en medio de un temporal de viento y lluvia en la
+zona.
+La empresa CGE Transmisión S.A. declara que posterior al despeje de la falla, en la revisión de la línea
+se detectó desprendido el conductor de la fase central en la estructura N°517, debido a la caída de un
+árbol (fuera de faja, 27 metros) sobre los conductores de la línea entre las estructuras N°516 y N°517,
+el cual fue derribado por el fuerte viento en la zona.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea 66
+EAF 277_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+kV Charrúa - Lucero
+Falla en línea 66 kV
+EAF 278_2023 San Fernando - 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Placilla
+Falla en línea 66 kV
+EAF 362_2023 Los Maquis - 22-08-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Hualañé
+La empresa CGE Transmisión S.A. indica: “Se analizan eventos de relé
+SEL 387 S1 y SEL 351 S2. Al día siguiente se interrogan relés F4c
+asociados a los paños C1 y C2. Se observa que hay eventos en los horarios
+Apertura de falla. Se analizan eventos de relé SEL- 311C. Se realiza una inspección
+intempestiva de los del tramo completo de la LT 66 kV Pan de Azúcar - Marquesa, sin
+interruptores 52B5 y evidencias de la falla. Se realiza inspección visual y pruebas locales al
+EAF 394-2023 06-09-2023
+52CT8 de S/E Pan interruptor 52B5 de S/E Pan de Azúcar el día de la falla, sin encontrar
+de causa evidente (durante la semana del 25 al 29 del presente se realizarán
+Azúcar pruebas exhaustivas al interruptor, para luego durante la semana del 2 al
+6 de octubre presentar un informe del interruptor 52B5). Reemplazo de
+interruptor 52B5 de SE Pande Azúcar (fecha estimada diciembre de
+2023)”.
+La empresa CGE Transmisión S.A. indica:
+Falla en línea 66 kV - “Se realiza el afianzamiento con tirantes del poste externo cerca de la
+EAF 247-2024 Alonso de Ribera - 08-06-2024 estructura E46 de la línea LT Alonso de Ribera - Chiguayante.”
+Chiguayante - “Se realiza la conexión IRIG B a los relés 311C y 311L del paño B2 de
+S/E Alonso de Ribera con el reloj satelital.”
+La empresa CGE Transmisión S.A. indica:
+"• Se realizará una revisión y pruebas en el sistema de control del
+Falla en línea 66 kV interruptor asociado al paño 52CT1. Actividad comprometida a
+EAF 329-2024 Talcahuano - Latorre 31-07-2024 septiembre de 2024.
+c1 • Se realizará retemplado de conductor entre las estructuras E-05 a E 06
+de la línea LT 66 kV Talcahuano - Latorre N°1. Actividad comprometida a
+diciembre 2024."
+Falla en línea 66 kV
+EAF 333-2024 Los Peumos - 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Curacautín
+Falla en línea 66 kV
+EAF 334-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Parral - Cauquenes
+Falla en línea 2x66
+EAF 335-2024 kV Lastarria - 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Loncoche
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada durante los últimos 24 meses móviles, correspondientes a los Estudios
+para Análisis de Falla: EAF 418/2022, EAF 496/2022, EAF 020/2023, EAF 090/2023, EAF 158/2023,
+EAF 444/2023, EAF 455/2023, EAF 456/2023, EAF 541/2023 y EAF 023/2024.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 66 kV Tres Pinos - Lebu, la cual consiste
+en una línea de 22.62 km de longitud, con un conductor por fase del tipo CU N°2 AWG, con una
+capacidad nominal de 26.52 [MVA] (permanente a 25°C con sol y tensión nominal) y cuya fecha de
+puesta en servicio fue en el año 1969, de acuerdo con la información disponible en la plataforma
+Infotécnica del Coordinador Eléctrico Nacional.
+La empresa CGE Transmisión S.A. no adjunta información de los mantenimientos de estas instalaciones
+durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No informada.
+g. Proposición del propietario respecto del origen de la falla
+CGE Transmisión S.A. señala “Fuerza mayor o caso fortuito.”.
+h. Comuna donde se presenta la falla
+08201: Lebu.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03-08-2024) (08-08-2024)
+CGE Transmisión S.A. 01-08-2024 06-02-2024
+Empresa Eléctrica de la Frontera S.A. (Frontel S.A.) No remitido No remitido
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+09:57
+Tres Pinos - Lebu 66 kV ST Zonal - 10:10
+02-08-2024
+- Los horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Pérdida de %
+Alimentador / Clientes H.
+Sub-Estación Comuna Consumo consumo H. Dispon. H. Norm.
+Paño Afectados Desc.
+(MW) pre-falla
+09:57 10:02
+Lebu Mina Victoria / C2 NI 2.7 0.02 NI 10:10
+02-08-2024 02-08-2024
+Total: 2.7 MW 0.02 %
+- Los montos y horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+- NI: No Informado.
+3. Estimación de la energía no suministrada
+Tipo de Pérdida de Tiempo Tiempo ENS
+Sub-Estación Alimentador / Paño Empresa
+Cliente Consumo (MW) Indisp. (h) Desc. (h) (MWh)
+Lebu Mina Victoria / C2 Frontel Regulado 2.7 23.78 23.87 64.4
+Clientes Regulados : 64.4 MWh
+Clientes Libres : MWh
+Total : 64.4 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa CGE Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+02-08-2024 10:01 02-08-2024 10:02
+02-08-2024 10:00
+02-08-2024 9:59
+02-08-2024 9:57
+02-08-2024 9:57
+02-08-2024 9:56
+02-08-2024 9:54
+02-08-2024 9:53
+100,0%
+Recuperación real
+No se aprecian diferencias significativas en el tiempo de recuperación de los consumos, con respecto a
+la disponibilidad de la barra primaria.
+- Velocidad promedio de recuperación.
+Rango Potencia Tiempo Velocidad de
+(MW) recuperación (h) recuperación
+(MW/h)
+Primer 80 % 2.16 23.87 0.09
+Último 20 % 0.54 23.87 0.02
+100 % Total 2.70 23.87 0.11
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 11003.1 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales Angamos (ANG1 y
+ANG2), Colbún (U1), Guacolda (U4), Ralco (U1 y U2) y Rapel (U1 y U4).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades:
+• La línea de 13.2 kV Parque Eólico Lebu - Lebu y el parque PE Lebu se encontraban fuera de
+servicio previo al evento en análisis, según los Informe de Falla N°2024003376 y N°2024003709.
+• El paño C3 Circuito Lautaro de S/E Lebu se encontraba con falla desde las 08:36 horas, en las
+redes de MT de Frontel.
+Otros antecedentes relevantes
+Según lo indicado por la empresa CGE Transmisión S.A.
+“A las 10:10 del día 01-08-2024 se produce la apertura por protecciones del 52B1 de S/E Tres
+Pinos, correspondiente a la línea 66 kV Tres Pinos-Lebu, provocando el desprendimiento de 2,7
+MW que afecta a S/E Lebu. Cabe señalar que el paño 52C4 de S/E Lebu se encontraba con una
+falla en las instalaciones del Parque Eólico Cristoro. Al Igual que el paño 52C3 Cto. Lautaro de S/E
+Lebu se encontraba con falla a las 08:36 horas, en las redes de MT de Frontel.
+De forma inmediatamente el centro de Control de CGE TRANSMISIÓN S.A. (COT) se coordina con
+el coordinador de turno Zonal y se inicia el recorrido pedestre de la línea afectada. Además de la
+verificación de protecciones operadas.
+Posteriormente, en función del kilometraje obtenido por la interrogación de protecciones se realiza
+recorrido de la línea, no pudiendo llegar a completar el recorrido debido al corte de la ruta 160
+producto de la caída de árboles sobre la carretera cortando las 4 vías, por lo cual se trata de buscar
+rutas alternativas sin éxito ya que están tenían árboles en el camino y puentes desbordades de
+agua. Por lo cual se espera el despeje de la ruta principal (ruta 160) la cual se habilita una pista
+alrededor de las 20:00 horas del 01 de agosto 2024. Por lo cual se retoma del recorrido
+encontrando Luego de efectuar el recorrido pedestre de la línea Tres Pinos-Lebu se encuentra
+causa de falla entre las estructuras E490 y E491, varias cortezas de eucalipto en la aislación y
+conductores productor del fuerte viento en la zona. Por lo cual se coordina el retiro de las cortezas
+de eucalipto en la línea y se coordina la reposición de la línea Tres Pinos-Lebu con el cierre del
+Interruptor 52B1 de S/E Tres Pinos el 02-08-2024 a las 04:40 sin éxito.
+Se realiza un nuevo recorrido pedestre de la línea Tres Pinos-Lebu encontrando un árbol derribado
+por el fuerte viento en la zona fuera de faja (27 metros) entre las estructuras a E516 y E517
+desprendiendo el conductor en la fase central en la estructura E517, por lo que se coordina la
+reposición del conductor de la central en la estructura E517 y el retiro del árbol. Esta acción se
+materializa a las 09:57 horas con el cierre del 52B1 de S/E Tres Pinos, además de recuperar del
+Transformador T2 de S/E Lebu en vacío (aún se mantiene la falla en las instalaciones del Parque
+Eólico Cristoro) y por último la recuperación de los consumos del paño 52C2 Cto. Mina Victoria a
+las 10:02 del 02-08-2027. Cabe señalar que el paño 52C3 Cto. Lautaro aún se mantenía con falla
+en las redes de MT de Frontel.”.
+Por otra parte, en función de los antecedentes presentados por las empresas involucradas a la fecha
+de emisión del presente EAF, se solicitará la siguiente información adicional:
+Empresa Eléctrica de la Frontera S.A. (Frontel S.A.):
+• Informes de Falla de 48 horas y 5 días asociados al evento analizado en este Estudio.
+De forma complementaria, se agregan los informes de falla de instalaciones ingresados en el sistema
+del Coordinador Eléctrico Nacional por la empresa CGE Transmisión S.A. (Anexo N°1) y otros
+antecedentes proporcionados por dicha empresa (Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+o La empresa CGE Transmisión S.A. indica “No aplica.”.
+c) Acciones correctivas a largo plazo:
+o La empresa CGE Transmisión S.A. indica “No aplica.”.

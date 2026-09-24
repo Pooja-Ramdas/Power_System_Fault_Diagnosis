@@ -1,0 +1,119 @@
+Estudio para análisis de falla EAF 449/2024
+“Apertura intempestiva del interruptor 52ET2 de S/E Quellón”
+Fecha de Emisión: 16-09-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 26/08/2024
+Hora 05:29
+Consumos desconectados (MW) 8.28
+Demanda previa del sistema (MW) 8556.00
+Porcentaje de desconexión 0.097 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación S/E Quellón / SE026T0003
+Tipo de instalación Subestación
+Tensión nominal 110/23 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno.
+c. Identificación del elemento fallado
+Nombre del elemento fallado Transformador de corriente, fase A, del paño E5 de S/E Quellón /
+TC01T0003PA465T0003SE026T0003
+Propietario elemento fallado Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes 441, Osorno.
+d.1 Origen y causa de la falla
+Se produjo la apertura intempestiva del interruptor 52ET2 de S/E Quellón, por operación de su
+protección de sobrecorriente residual de tiempo definido, debido a falla en el transformador de
+corriente, fase A, del paño E5, coincidente con una falla ocurrida en redes de media tensión de la
+mencionada subestación.
+d.2 Fenómeno Físico
+OPEX25: Falla en transformador.
+La empresa STS S.A. remite antecedentes para acreditar el origen de la falla.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la falla corresponde al transformador de corriente, fase A, del paño E5
+de S/E Quellón, 200-400/1-1-1-1 A, y cuya fecha de puesta en servicio fue el 15-11-2024, de
+acuerdo con lo señalado por su propietario en el Informe de Falla de 5 días.
+La empresa STS S.A. remitió antecedentes respecto de los mantenimientos realizados a este
+elemento durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No se indica.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza Mayor.
+La empresa STS S.A. remite los siguientes antecedentes en respaldo a la proposición del origen de la
+falla:
+• Datos de placa del equipo.
+• Secuencia de operación de protecciones, incluyendo un informe técnico.
+• Recomendaciones del fabricante en relación con las mantenciones y vida útil del elemento.
+• Año de primera puesta en servicio y años efectivos en operación.
+h. Comuna donde se presenta la falla
+10203: Quellón
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(28-08-2024) (02-09-2024)
+Sistema de Transmisión del Sur S.A. (STS S.A.) 26-08-2024 09-09-2024
+Sociedad Austral de Electricidad S.A. (SAESA) No entregado No entregado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+S/E Quellón ST Zonal Barra Nº2 23 kV 05:29 05:43
+- Los horarios señalados corresponden a lo informado por la empresa STS S.A.
+c. Consumos
+Pérdida de %
+Alimentador Clientes H. H. H.
+Subestación Comuna Consumo consumo
+/Paño afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Quellón San Antonio / E4 N/I 5.87 0.069 1678 05:29 05:43 05:44
+S/E Quellón Quellón Ciudad / E5 N/I 2.41 0.028 4563 05:29 05:43 16:28
+Total: 8.28 MW 0.097% 6241
+- Los montos y horarios señalados corresponden a lo informado por la empresa STS S.A.
+- N/I: No informado por la empresa SAESA.
+3. Estimación de la energía no suministrada
+Alimentador Tipo de Pérdida de Tiempo Tiempo ENS
+Subestación Empresa
+/Paño cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Quellón San Antonio / E4 SAESA Regulado 5.87 0.23 0.25 1.5
+S/E Quellón Quellón Ciudad / E5 SAESA Regulado 2.41 0.23 10.98 26.5
+Clientes Regulados : 28.0 MWh
+Clientes Libres : MWh
+Total : 28.0 MWh
+- Los montos señalados corresponden a lo informado por la empresa STS S.A.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecia una diferencia significativa entre el horario de recuperación esperada y el de recuperación
+real para los consumos del alimentador Quellón Ciudad (52E5) de S/E Quellón.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Potencia
+Rango recuperación recuperación
+(MW)
+(h) (MW/h)
+Primer 80 % 6.62 10.98 0.60
+Último 20 % 1.66 10.98 0.15
+100 % Total 8.28 10.98 0.75
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 8556.00 MW
+Regulación de Frecuencia
+Atacama (TG1B, TG2A y TG2B), El Toro (U1, U2, U3 y U4), Mejillones (IEM) y Ralco (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 26 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 26 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+26 de agosto de 2024.

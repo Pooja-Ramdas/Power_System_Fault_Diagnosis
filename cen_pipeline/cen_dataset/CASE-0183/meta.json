@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0425-2024",
+  "eaf_num": 425,
+  "year": 2024,
+  "description": "Falla en el cierre del interruptor 52C1 de S/E El Sauce",
+  "date": "14-08-2024",
+  "time": "05:43",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/09/EAF-425-2024.pdf",
+  "case_id": "CASE-0183",
+  "event_datetime": "2024-08-14T05:43:00",
+  "fault_label": "breaker_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".zip"
+  },
+  "pending_conversion_path": null
+}

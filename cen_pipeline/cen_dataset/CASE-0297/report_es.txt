@@ -1,0 +1,147 @@
+Estudio para análisis de falla EAF 312/2024
+“Falla en línea 44 kV Los Ángeles - Cerro Negro”
+Fecha de Emisión: 08-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 18/07/2024
+Hora 13:50
+Consumos desconectados (MW) 3.30
+Demanda previa del sistema (MW) 10719.56
+Porcentaje de desconexión 0.031 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 44 kV Catemu - Los Ángeles / LT059CI1TR02T0057ST01T0057
+Tipo de instalación Línea
+Tensión nominal 44 kV
+Segmento Transmisión Dedicado
+Propietario instalación afectada Chilquinta Transmisión S.A.
+RUT 77.402.187-6
+Representante Legal Francisco Mualim Tietz
+Dirección Av. Argentina N°1, piso 9, Valparaíso, Región de Valparaíso.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 44 kV Los Ángeles - Cerro Negro / LT001CI1TR01L0072ST01L0072
+Propietario elemento fallado Compañía Minera Cerro Negro S.A.
+RUT 91.614.000-2
+Representante Legal Marcelo Bruit.(*)
+Dirección Hacienda Los Ángeles S/N Pitipeumo Cerro Negro, Cabildo, Región de
+Valparaíso.
+(*) Datos correspondientes al Gerente General de la empresa propietaria de la instalación afectada, obtenidos de la plataforma
+REUC del Coordinador; no fueron remitidos los datos correspondientes al Representante Legal.
+d.1 Origen y causa de la falla
+Se produjo la apertura automática del interruptor 52F1 de S/E Catemu, asociado a la línea 44 kV
+Catemu - Los Ángeles, por operación de su protección de sobrecorriente residual temporizada ante
+una falla en la línea 44 kV Los Ángeles - Cerro Negro, debido a la pérdida de aislación en la estructura
+Nº21.
+d.2 Fenómeno Físico:
+DIS1: Pérdida de aislación (*)
+(*) La Fenómeno Físico determinado por el Coordinador Eléctrico Nacional, a partir de la información entregada por la empresa
+Chilquinta Transmisión S.A.
+La empresa Chilquinta Transmisión S.A. remite antecedentes fotográficos sobre la pérdida de aislación
+en la estructura Nº21, propiedad de Compañía Minera Cerro Negro, con evidencia de descargas en el
+aislador de apoyo y disco de la cadena de aisladores de la fase lateral derecha.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con un mismo fenómeno físico, durante los últimos 24 meses
+móviles:
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+PR51N: Protección de sobrecorriente temporizada residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado en este evento corresponde a la línea 44 kV Los Ángeles - Cerro Negro, la cual
+tiene una longitud de 7.4 km, está compuesta por conductor desnudo, con una capacidad de 16.6 MVA
+(a 25ºC con sol a tensión nominal) y su entrada en operación fue en el año 1940, de acuerdo con lo
+informado por su propietario en la plataforma Infotécnica.
+Al respecto, la empresa Compañía Minera Cerro Negro S.A., no adjunta información de los
+mantenimientos de esta instalación durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No aplica.
+g. Proposición del propietario respecto del origen de la falla
+No informado.
+h. Comuna donde se presenta la falla
+5402: Cabildo.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(20-07-2024) (25-07-2024)
+Chilquinta Transmisión S.A. 19-07-2024 25-07-2024
+Compañía Minera Cerro Negro S.A. No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 44 kV Catemu - Los Ángeles ST Dedicado Catemu - Los Ángeles 13:50 17:05
+Barra 44 kV de Tap Off Los Ángeles ST Dedicado - 13:50 20:51
+Línea 44 kV Los Ángeles - Cerro Negro ST Dedicado Los Ángeles - Cerro Negro 13:50 20:51
+Barra 44 kV de S/E Cerro Negro ST Dedicado - 13:50 20:51
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Cerro Negro - Cabildo 3.30 0.031 1 13:50 20:51 20:51
+Total: 3.30 MW 0.031% 1
+- Los montos y horarios señalados corresponden a lo informado por la empresa Chilquinta Transmisión S.A. según las maniobras de
+recuperación del servicio.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Cerro
+- Minera Cerro Negro Libre 3.30 7.02 7.02 23.2
+Negro
+Clientes Regulados : MWh
+Clientes Libres : 23.2 MWh
+Total : 23.2 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Chilquinta Transmisión S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para los
+consumos afectados.
+- Velocidad promedio de recuperación.
+Potencia Tiempo Velocidad de
+Rango
+(MW) recuperación (h) recuperación (MW/h)
+Primer 80 % 2.64 7.02 0.38
+Último 20 % 0.66 7.02 0.09
+100 % Total 3.30 7.02 0.47
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10719.56 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U3), Colbún (U2), El Toro (U1, U2, U3 y U4) y Ralco (U1 y U2).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada.
+Otros antecedentes relevantes
+Según lo informado por la empresa Chilquinta Transmisión S.A.:
+Fenómeno Físico: OPE6 (Falla en instalaciones de terceros).
+Elemento: TX3 (Conjunto aislación línea).
+Fenómeno Eléctrico: PR51N (Protección de sobre corriente temporizada residual).
+Operación de los interruptores: Opera según lo esperado.
+Observaciones: “De acuerdo al patrullaje realizado con sistema de aeronave pilotada a distancia (RPAS)
+a las instalaciones eléctricas propias de la Minera, fue posible localizar e identificar el fenómeno físico
+causante de la falla eléctrica, el cual fue provocado por la pérdida de aislación con evidencia de descargas
+en el aislador de apoyo y disco de la cadena de aisladores de la fase lateral derecha de la estructura
+N°21A de la línea 44 kV Los Ángeles - Cerro Negro (ID1198), la que es parte integral de las instalaciones
+de terceros, en este caso de nuestro cliente Minera Cerro Negro.”
+Se solicitará la siguiente información adicional a la empresa Compañía Minera Cerro Negro S.A.:
+• Informes de falla de 48 horas y del 5to día con el correspondiente nivel de detalle asociado al
+evento en análisis. En particular, remitir causa definitiva de la afectación de sus consumos, así
+como el detalle de los consumos desprendidos, maniobras ejecutadas para su normalización y
+mantenimientos de la línea 44 kV Los Ángeles - Cerro Negro, durante los últimos 24 meses.
+• Plan de acción orientado al reemplazo del conjunto de aislación de la estructura Nº21, el cual
+presenta daños por descargas en el aislador de apoyo y disco de la cadena de aisladores de la
+fase lateral derecha.
+De forma complementaria, se adjuntan los informes de falla de instalaciones ingresados en el sistema
+Neomante del Coordinador Eléctrico Nacional por la empresa Chilquinta Transmisión S.A. y otros
+antecedentes aportados por el Coordinador (Anexo N°1), e informe de falla de 5 días aportado por la
+empresa Chilquinta Transmisión S.A. (Anexo N°2).
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Chilquinta Transmisión S.A. no indica acciones correctivas.
+La empresa Compañía Minera Cerro Negro S.A. no informa.
+c) Acciones correctivas a largo plazo:
+La empresa Chilquinta Transmisión S.A. no indica acciones correctivas.
+La empresa Compañía Minera Cerro Negro S.A. no informa.

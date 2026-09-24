@@ -1,0 +1,287 @@
+Estudio para análisis de falla EAF 410/2024
+“Falla en línea 66 kV Licanco - Las Violetas”
+Fecha de Emisión: 26-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 04/08/2024
+Hora 22:54
+Consumos desconectados (MW) 15.16
+Demanda previa del sistema (MW) 9494
+Porcentaje de desconexión 0.160 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Licanco - Las Violetas / LT072CI1TR01----T0003
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes N°441, Osorno
+c. Identificación del elemento fallado
+Nombre del elemento afectado Conductor de la línea 66 kV Licanco - Las Violetas / LT072CI1TR01----T0003
+Propietario elemento fallado Sistema de Transmisión del Sur S.A.
+RUT 77.312.201-6
+Representante Legal Francisco Alliende
+Dirección Manuel Bulnes N°441, Osorno
+d. Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Licanco - Las Violetas por operación de
+protecciones, ante una falla originada por la caída de un poste de comunicaciones sobre los conductores
+de la línea. El poste que cayó sobre la línea fue colisionado por camión de terceros.
+d.2 Fenómeno Físico:
+ACC2: Intervención de terceros.
+La empresa STS S.A. remitió los siguientes probatorios y antecedentes requeridos por la Resolución
+Exenta 30989-2019 de la Superintendencia de Electricidad y Combustibles para el Fenómeno Físico
+indicado:
+• Registro fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+• Denuncia ante carabineros de Chile o declaración jurada ante notario público indicando los
+hechos.
+• Vista aérea de Google Earth, Maps y/o Street incluyendo coordenada UTM.
+• Si es reiterada (24 meses móvil), informar medidas de seguridad existentes en la instalación
+con el objeto de evitar este tipo de incidentes, cuáles (descripción).
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico similar, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FECHA HORA
+FALLA ID NOMBRE FALLA ACCIONES CORRECTIVAS CP ACCIONES CORRECTIVAS LP
+FALLA FALLA
+Falla en línea 66 kV Angol
+EAF 364-2022 29-09-2022 22:09 No se indican. No se indican.
+- Los Sauces
+Sistema de Transmisión del Sur S.A. señala que
+Falla en línea 66 kV Tres
+EAF 251-2023 09-06-2023 22:35 “reemplazó la estructura N°92 asociada a la línea 66 kV No se indican.
+Pinos - Cañete
+Tres Pinos - Cañete el 12-06-23.”
+Falla en línea 110 kV
+EAF 007-2024 06-01-2024 18:03 No se indican. No se indican.
+Chonchi - Quellón
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 132-2024 y EAF 341-2024).
+d.4 Fenómeno eléctrico
+SO50IR: Sobrecorriente instantánea residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores de la línea 66 kV Licanco - Las
+Violetas, la cual, de acuerdo con los datos ingresados por la empresa propietaria en la plataforma
+Infotécnica del Coordinador, cuenta con conductores Cu 2/0 AWG y AAAC Greeley, con una longitud
+total de aproximadamente 23.3 km, y su puesta en servicio se produjo durante el año 2021.
+Al respecto, la empresa Sistema de Transmisión del Sur S.A. remite los antecedentes correspondientes
+a los mantenimientos realizados a la línea 66 kV Licanco - Las Violetas, durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+La empresa Frontel S.A. indica la calificación de densidad en cada una de las comunas afectadas.
+Teodoro Schmidt, Carahue, Nueva Imperial, Galvarino, Padre de las Casas, Tirúa y Cholchol: Muy baja.
+Temuco y Freire: baja.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza mayor.
+h. Comuna donde se presenta la falla
+9101: Temuco.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(06-08-2024) (09-08-2024)
+Sistema de Transmisión del Sur S.A. (STS) 05-08-2024 14-08-2024
+Empresa Eléctrica de la Frontera S.A. (Frontel) 20-08-2024 26-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+04:44
+LT 66 kV Licanco - Las Violetas ST Zonal - 22:54
+(05-08-2024)
+c. Consumos
+Sub-Estación Alimentador Comuna Pérdida de % consumo Clientes H. H. H.
+/Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Las Violetas Almagro / E1 Freire 0.18 0.002 475 22:54 *04:47 23:04
+Teodoro
+Las Violetas Almagro / E1 0.17 0.002 325 22:54 *04:47 23:05
+Schmidt
+Nueva
+Las Violetas Almagro / E1 1.67 0.018 2804 22:54 *04:47 23:10
+Imperial
+Las Violetas Almagro / E1 Carahue 0.01 0.000 4 22:54 *04:47 23:11
+Nueva
+Las Violetas Labranza / E3 Imperial y 2.63 0.028 2700 22:54 *04:47 23:25
+Temuco
+Teodoro
+Imperial Carahue / E6 0.01 0.000 38 22:54 *04:47 *00:42
+Schmidt
+Nueva
+Imperial Ciudad / E1 0.53 0.006 1 22:54 *04:47 *01:53
+Imperial
+Nueva
+Imperial Ciudad / E1 2.85 0.030 9566 22:54 *04:47 *01:54
+Imperial
+Imperial Carahue / E6 Carahue 3.74 0.039 6170 22:54 *04:47 *04:35
+Sub-Estación Alimentador Comuna Pérdida de % consumo Clientes H. H. H.
+/Paño Consumo (MW) pre-falla Afectados Desc. Dispon. Norm.
+Cholchol,
+Galvarino,
+Puerto
+Imperial Nueva 2.77 0.029 4263 22:54 *04:47 *04:47
+Saavedra / E4
+Imperial y
+Temuco
+Nueva
+Imperial Carahue / E6 0.59 0.006 1172 22:54 *04:47 *04:47
+Imperial
+Imperial Carahue / E6 Tirúa 0.01 0.000 9 22:54 *04:47 *05:19
+Total: 15.16 MW 0.160 % 27527
+- Los montos y horarios señalados corresponden a lo informado por las empresas Eléctrica de la Frontera S.A. y Sistema de
+Transmisión del Sur S.A.
+- (*): Corresponde al día 05-08-2024.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/Paño Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Cliente Consumo Indispon. Desc. (MWh)
+(MW) (h) (h)
+Las Violetas Almagro / E1 FRONTEL Regulado 0.18 5.88 0.17 0.0
+Las Violetas Almagro / E1 FRONTEL Regulado 0.17 5.88 0.18 0.0
+Las Violetas Almagro / E1 FRONTEL Regulado 1.67 5.88 0.27 0.4
+Las Violetas Almagro / E1 FRONTEL Regulado 0.01 5.88 0.28 0.0
+Las Violetas Labranza / E3* FRONTEL Regulado 2.63 5.88 0.52 1.4
+Imperial Carahue / E6 FRONTEL Regulado 0.01 5.88 1.80 0.0
+Imperial Ciudad / E1* FRONTEL Regulado 0.53 5.88 2.98 1.6
+Imperial Ciudad / E1 FRONTEL Regulado 2.85 5.88 3.00 8.6
+Imperial Carahue / E6 FRONTEL Regulado 3.74 5.88 5.68 21.3
+Imperial Puerto Saavedra / E4 FRONTEL Regulado 2.77 5.88 5.88 16.3
+Imperial Carahue / E6 FRONTEL Regulado 0.59 5.88 5.88 3.5
+Imperial Carahue / E6 FRONTEL Regulado 0.01 5.88 6.42 0.1
+Clientes Regulados : 53.2 MWh
+Clientes Libres : MWh
+Total : 53.2 MWh
+- Los montos y horarios señalados corresponden a lo informado por las empresas Eléctrica de la Frontera S.A. y Sistema de
+Transmisión del Sur S.A.
+- (*) Incluye a clientes libres conectados a las redes de distribución.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecian diferencias entre los horarios de recuperación esperada y recuperación real de los
+consumos afectados, las cuales podrían responder a recuperación de consumos mediante generación
+local traspasos de carga por redes de media tensión.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 12.13 5.88 2.06
+Último 20 % 3.03 6.42 0.47
+100 % Total 15.16 6.42 2.36
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9494 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Colbún (U1 y U2) y Pehuenche (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 04 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 04 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+04 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 04 de
+agosto de 2024.
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+4
+4
+4
+4
+5 -0
+5 -0
+5 -0
+5 -0
+5 -0
+5 -0
+-0 8
+-0 8
+-0 8
+-0 8
+8 -2
+8 -2
+8 -2
+8 -2
+8 -2
+8 -2
+-2 0
+-2 0
+-2 0
+-2 0
+0
+0
+0
+0
+0
+0
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+4
+4
+4
+4
+4 6
+4 4
+4 3
+4 2
+4 1
+4 0
+2 2
+2 1
+2 0
+1 9
+:0
+:4
+:3
+:2
+:1
+:0
+:4
+:3
+:2
+:1
+0
+8
+6
+4
+2
+0
+8
+6
+4
+2
+1 .2 % 2 .3 % 1 3 .3
+R
+%
+e cu p
+1 3 .4 %
+e ra ció n
+3 0 .7
+re a l
+% 3 0 .8 %
+R e cu
+3
+p
+4 .3 %
+e ra ció n
+5 3 .1 %
+e sp e ra d
+7
+a
+7 .8 % 9 6 .0 % 9 9 .9 % 1 0 0 .0 %

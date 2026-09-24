@@ -1,0 +1,80 @@
+Estudio para análisis de falla EAF 440/2024
+“Falla en la línea 66 kV San Javier - Constitución”
+Fecha de Emisión: 11-09-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 21/08/2024
+Hora 19:37
+Consumos desconectados (MW) 6.87
+Demanda previa del sistema (MW) 11584.43
+Porcentaje de desconexión 0.061 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Tramo San Javier - Tap Nirivilo de la línea 66 kV San Javier - Constitución /
+LT188CI1TR02----T0002
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco N°90, piso 14, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento afectado Conductores del tramo San Javier - Tap Nirivilo de la línea 66 kV San Javier
+- Constitución / LT188CI1TR02----T0002
+Propietario elemento fallado Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco N°90, piso 14, Las Condes
+d. Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV San Javier - Constitución por operación de su
+esquema de teleprotección, ante una falla atribuida a una descarga atmosférica sobre los conductores
+de la línea, durante un frente de mal tiempo que afectaba a la zona.
+d.2 Fenómeno Físico:
+CLI3: Descargas eléctricas atmosféricas.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en línea 220 kV
+EAF 047_2023 04-02-2023 La empresa Transelec S.A señala: “N/A”.
+Crucero - Conchi
+La empresa Transelec S.A. no indica acciones correctivas a corto
+plazo, sin embargo, en el apartado de actuación de dispositivos
+de protección y control se indica: “Se observó la no completitud
+del esquema de teleprotecciones, particularmente las recepciones
+entre S/E Seccionadora Río Toltén y S/E Lastarria, por lo que se
+programó una revisión de las teleprotecciones, avisos Neomante
+Falla en la línea 220 kV 2023076190 y 2023076191”.
+EAF 349_2023 Seccionadora Río Toltén - 16-08-2023 La empresa SATT S.A. señala: “Sistema de Transmisión del Sur
+Lastarria N°1 S.A generó el informe de limitación N°2023001338 (Ver anexo
+N°1) asociado a la reconexión de los paños de S/E Seccionadora
+Rio Toltén.
+Sistema de Transmisión del Sur S.A. bajo solicitud de intervención
+N°2023074922 (Ver anexo N°2) regularizó los comandos y
+señalización SCADA asociados a la reconexión automática de los
+paños J1, J2, J3, J4, J5 y J6 de S/E Seccionadora Rio Toltén”.
+Falla en la línea 66 kV - La empresa Transelec S.A. señala lo siguiente: “No aplica, el
+EAF 062_2024 09-02-2024
+Pullinque - Los Lagos N°1 comportamiento de las instalaciones de Transelec fue correcto”.
+Falla en línea 154 kV Alto
+EAF 242_2024 Jahuel - Rancagua - Punta 08-06-2024 La empresa Transelec S.A. señala lo siguiente: "No aplica".
+de Cortés N°1
+Falla en la línea 154 kV
+EAF 254-2024 13-06-2023 La empresa Transelec S.A. señala lo siguiente: "No aplica".
+Maule - Parral
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido fallas en
+la misma instalación afectada, durante los últimos 24 meses móviles (EAF 401-2022, EAF 402-2022,
+EAF 482-2022, EAF 076-2023, EAF 259-2023, EAF 072-2024 y EAF 360-2024).
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a los conductores del tramo San Javier - Tap Nirivilo
+de la línea 66 kV San Javier - Constitución, la cual, de acuerdo con lo informado por su propietario,
+cuenta con conductores Cu 2/0 AWG y Copperweld 3/8, con una longitud total de aproximadamente
+79.64 km, y su puesta en servicio se produjo durante el año 1975.
+Al respecto, la empresa Transelec S.A. no remitió antecedentes respecto de los mantenimientos
+realizados a la línea 66 kV San Javier - Constitución durante los últimos 24 meses.

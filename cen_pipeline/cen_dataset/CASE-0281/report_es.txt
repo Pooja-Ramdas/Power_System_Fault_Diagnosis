@@ -1,0 +1,203 @@
+Estudio para análisis de falla EAF 328/2024
+“Falla en la línea 220 kV Rucúe - Mampil”
+Fecha de Emisión: 22-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 31/07/2024
+Hora 19:45
+Consumos desconectados (MW) 1.56
+Demanda previa del sistema (MW) 10849.00
+Porcentaje de desconexión 0.014 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 220 kV Rucúe - Mampil / LT002CI1TR06G0014ST01G0014
+Tipo de instalación Línea
+Tensión nominal 220 kV
+Segmento Transmisión dedicada
+Propietario instalación afectada Duqueco SpA
+RUT 76.254.033-9
+Representante Legal Jaime Pino Cox
+Dirección Avenida Isidora Goyenechea 3477, piso 21, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Línea 220 kV Rucúe - Mampil / LT002CI1TR06G0014ST01G0014
+Propietario elemento fallado Duqueco SpA
+RUT 76.254.033-9
+Representante Legal Jaime Pino Cox
+Dirección Avenida Isidora Goyenechea 3477, piso 21, Las Condes.
+d. Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 220 kV Rucúe - Mampil, por operación de las
+protecciones del extremo Rucúe (interruptor 52J3), ante una falla bifásica entre las fases A y C.
+Como consecuencia de lo anterior, se produjo la pérdida de los consumos de S/E Mampil y la
+desconexión de las unidades generadoras de las centrales Mampil, Peuchén, Aillín y Llauquereo.
+Adicionalmente, se produjo la apertura de los interruptores 52J2 y 52JU1 de S/E Rucúe con la
+consecuente desconexión de la unidad N°1 de central Rucúe.
+La empresa Duqueco SpA indica que la causa de la falla fue la caída de árboles sobre la línea 220 kV
+Rucúe - Mampil, entre las estructuras N°66 y N°68, provocando además daños en las estructuras,
+durante fuerte temporal de viento y lluvia en la zona.
+d.2 Fenómeno Físico:
+ARB2: Caída de árbol sobre la línea o instalación.
+La empresa Duqueco SpA no remite antecedentes para acreditar el origen de la falla.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por un
+fenómeno físico similar, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con un fenómeno físico similar, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se han producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 220 kV Mampil - Rucúe, la que posee una
+longitud de 26 km y un conductor por fase del tipo ACSR, cuya fecha de entrada en operación fue el
+año 1999 de acuerdo con los registros del Coordinador Eléctrico Nacional.
+Duqueco SpA no remitió antecedentes respecto de los mantenimientos realizados a esta instalación
+durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No se indica.
+g. Proposición del propietario respecto del origen de la falla
+Interna (según lo indicado por Duqueco SpA en su IF de 48 horas).
+h. Comuna donde se presenta la falla
+8311: Santa Bárbara.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(02-08-2024) (07-08-2024)
+Duqueco SpA 01-08-2024 08-08-2024
+Alfa Transmisora de Energía S.A. 02-08-2024 09-08-2024
+Colbún S.A. 31-07-2024 10-08-2024
+Hidroeléctrica Las Juntas S.A. 31-07-2024 16-08-2024
+Hidroeléctrica Lleuquereo S.A. 31-07-2024 19-08-2024
+Cooperativa Eléctrica Los Ángeles Ltda (Coopelan) 13-08-2024 No entregado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+Rucúe 1 72.0 19:45 00:24 (01-08-2024)
+Peuchén 1 30.0 19:45 10:18 (06-08-2024)
+Peuchén 2 34.0 19:45 11:31 (06-08-2024)
+Mampil 1 20.0 19:45 11:49 (06-08-2024)
+Mampil 2 23.0 19:45 10:30 (06-08-2024)
+Llauquereo 1 1.4 19:45 17:07 (06-08-2024)
+Aillín 1 1.2 19:45 18:08 (06-08-2024)
+Total: 181.6 MW
+- Los montos y horarios señalados corresponden a lo informado por las empresas Duqueco SpA, Colbún S.A., Hidroeléctrica Las
+Juntas S.A. e Hidroeléctrica Lleuquereo S.A.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Rucúe - Mampil 220 kV ST Dedicado Rucúe - Mampil 220 kV 19:45 09:02 (06-08-2024)
+Charrúa - Rucúe 220 kV ST Dedicado Charrúa - Rucúe 220 kV 19:45 23:10
+Mampil - Peuchén 220 kV ST Dedicado Mampil - Peuchén 220 kV 19:45 09:52 (06-08-2024)
+S/E Mampil ST Dedicado Transformador N°1 220/13.8 kV 19:45 09:04 (06-08-2024)
+S/E Mampil ST Dedicado Transformador N°2 220/13.8 kV 19:45 09:10 (06-08-2024)
+S/E Peuchén ST Dedicado Transformador N°1 220/13.8 kV 19:45 09:52 (06-08-2024)
+S/E Peuchén ST Dedicado Transformador N°2 220/13.8 kV 19:45 09:53 (06-08-2024)
+- Los horarios señalados corresponden a lo informado por las empresas Duqueco SpA y Alfa Transmisora de Energía S.A.
+c. Consumos
+Sub- Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Estación Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+Los
+Ángeles, 10:06
+09:10
+S/E Mampil No informado Quilleco, 1.56 0.014 1369 19:45 (06-08-2024)
+(06-08-2024)
+Santa (*)
+Bárbara
+Total: 1.56 MW 0.014 % 1369
+- Los montos y horarios señalados corresponden a lo informado por las empresas Cooperativa Eléctrica Los Ángeles Ltda y
+Duqueco SpA.
+(*) Horario informado en el IF de 48 horas de la empresa Coopelan. Sin embargo, en el mismo IF se señala, como acción
+inmediata, que “se toma contacto con centro de control de central Mampil, quienes confirman una falla en líneas de alta tensión
+de 220 kV, por lo que se procede a realizar maniobras de traspasos de carga a nivel de distribución”. Por lo anterior, se presume
+que el horario de normalización pudo haber sido durante el mismo día 31-07-2024.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Mampil No informado Coopelan Regulado 1.56 133.42 134.35 209.6
+Clientes Regulados : 209.6 MWh
+Clientes Libres : MWh
+Total : 209.6 MWh
+- Los montos señalados corresponden a lo informado por las empresas Cooperativa Eléctrica Los Ángeles Ltda y Duqueco SpA.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecia una diferencia significativa entre el horario de recuperación real respecto del horario de
+disponibilidad de la barra primaria respectiva.
+- Velocidad promedio de recuperación.
+Tiempo recuperación Velocidad de
+Rango Potencia (MW)
+(h) recuperación (MW/h)
+Primer 80 % 1.25 134.35 0.01
+Último 20 % 0.31 134.35 0.00
+100 % Total 1.56 134.35 0.01
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10849.00 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el SEN previo a la falla, mediante las centrales El Toro (U2, U3 y
+U4), Mejillones (CTM3) y Ralco (U1 y U2).
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada. La unidad N°2 de central Rucúe se encontraba fuera de servicio.
+Otros antecedentes relevantes
+Según lo informado por la empresa Duqueco SpA:
+“Se tomó contacto con CELEO REDES quienes indicaron la apertura intempestiva de sus
+interruptores 52J3 y 52J2 en SE Rucúe.
+Se tomó contacto con área de protecciones quienes una vez interrogadas las protecciones
+eléctricas asociadas indican la operación de protección 21L2.
+Una vez normalizado 52J2 Rucúe, se solicitó al Coordinador realizar un intento de cierre de 52J3
+Rucúe para comprobar que no se tratara de una falla eventual producto de ramas en la línea.
+23:25h Se realiza, en coordinación con CELEO REDES intento de Cierre del 52J3 Rucúe NO
+Exitoso.
+Se coordina la inspección pedestre para la jornada del 01-08-2024 con luz de día.”
+Con respecto a la operación de las protecciones del paño JL2 de S/E Mampil, la empresa Duqueco
+SpA indica lo siguiente:
+“En conclusión, las protecciones 21L2 y 67L2 opera correctamente según sus lógicas y ajustes
+configurados y entregando una distancia de falla acorde a lo encontrado en terreno en la línea,
+no obstante, el interruptor de Línea 52JL2 no abre al momento de la falla y se debe abrir por
+telecontrol desde el centro de despacho.”
+Según lo informado por la empresa Alfa Transmisora de Energía S.A.:
+“En S/E Rucúe, la protección ABB REL316 del paño J3, correspondiente a LT 220kV Rucúe-
+Mampil detecta una falla hacia adelante a la línea entre fases R-T (Fase A-Fase C) producto del
+frente climático, dando una distancia del 56% lo que equivale al kilómetro 14,56 de la línea,
+arrancando los elementos de distancia (1 HV-Distance______Trip CB 3P__On) en zona 1 y
+operando de forma instantánea, esto produjo la apertura del interruptor 52JJ3.
+Una vez operada la función de distancia de las protecciones del paño J3, esta activa un arranque
+de la función 50BF la cual genera la activación de relé 86A y 86B la que genera la apertura del
+interruptor 52J2.”
+De forma complementaria, se adjuntan los informes de falla de instalaciones ingresados en el
+sistema del Coordinador Eléctrico Nacional por Duqueco SpA, Alfa Transmisora de Energía S.A.,
+Colbún S.A., Hidroeléctrica Las Juntas S.A., Hidroeléctrica Lleuquereo S.A. y Cooperativa Eléctrica
+Los Ángeles Ltda. (Anexo N°1) y otros antecedentes aportados por Duqueco SpA, Alfa Transmisora
+de Energía S.A., Colbún S.A. e Hidroeléctrica Las Juntas S.A. (Anexo N°2).
+En función de los antecedentes presentados a la fecha de emisión del presente EAF, se solicitará lo
+siguiente:
+Duqueco SpA:
+o Causas de las aperturas de los interruptores 52G1, 52G2, 52JT1 y 52JT2 de S/E Peuchén y
+de los interruptores 52JL1, 52JT1 y 52JT2 de S/E Mampil, observadas en el registro histórico
+del SCADA del Coordinador Eléctrico Nacional, considerando que, en los registros de las
+protecciones presentados en el IF de 5 días, no se observa la operación de protecciones
+propias de los citados interruptores.
+Alfa Transmisora de Energía S.A.:
+o Registros oscilográficos y de eventos extraídos de las protecciones y/o de los equipos
+registradores asociados a la barra N°2 de 220 kV de S/E Rucúe, junto con un análisis de su
+comportamiento en función de la configuración de sus ajustes y de la ubicación del punto de
+falla.
+o Cronograma de trabajo, con fechas definidas, tendiente a investigar la causa y origen de la
+apertura de los paños J2 y JU1 de S/E Rucúe, de acuerdo con la acción correctiva informada
+en el IF de 5 días.
+o Cronograma de trabajo, con fechas definidas, tendiente a corregir la estampa de tiempo de
+las protecciones del paño J3 de S/E Rucúe, a la Hora Oficial indicada en la NTSyCS.
+Cooperativa Eléctrica Los Ángeles Ltda.:
+o Informe de Falla de 5 días asociado a este evento, con el correspondiente nivel de detalle.
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con una auditoría, plan de acción u otro tipo de mantenimiento
+en curso.
+b) Acciones correctivas a corto plazo:
+La empresa Duqueco SpA señala lo siguiente:
+“Durante los trabajos de la Línea 220kV Mampil Rucúe, se investiga el hallazgo encontrado del
+52JL2, encontrando conexión suelta en la caja de conexiones del interruptor borne X1-630 lado
+interruptor, se procede a efectuar reapriete a todas las borneras, para posteriormente efectuar
+cierre del contacto de Trip hacia Bobina 1 con protección en modo test, con resultados exitosos.
+Quedando solucionado Hallazgo.”
+La empresa Alfa Transmisora de Energía S.A. señala lo siguiente:
+“Con respecto al origen de la apertura involuntaria del paño 52J2, se realizará mantenimiento
+correctivo programado para investigar la causa y origen de la apertura de los paños, dicha
+actividad será programada entre los meses de agosto y septiembre del presente año.”

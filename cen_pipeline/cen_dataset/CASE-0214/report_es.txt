@@ -1,0 +1,111 @@
+Estudio para análisis de falla EAF 395/2024
+“Falla en línea 110 kV Minero - Sewell N°1”
+Fecha de Emisión: 26-08-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 02/08/2024
+Hora 11:29
+Consumos desconectados (MW) 24.20
+Demanda previa del sistema (MW) 9517
+Porcentaje de desconexión 0.254 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación LT 110 kV Minero - Sewell C1 / LT002CI1TR01----L0020
+Tipo de instalación Línea
+Tensión nominal 110 kV
+Segmento Transmisión Dedicada
+Propietario instalación afectada Codelco (División El Teniente)
+RUT 61.704.000-K
+Representante Legal Mauricio Eugenio Álvarez Borie (*)
+Dirección 11 Norte 1291, Piso 5C, Villa Exótica Edificio Institucional, Calama.
+(*) Datos correspondientes al Gerente General de la empresa propietaria del elemento afectado, obtenidos de la plataforma REUC
+del Coordinador. No fueron remitidos los datos correspondientes al Representante Legal.
+c. Identificación del elemento fallado
+Nombre del elemento fallado LT 110 kV Minero - Sewell C1 / LT002CI1TR01----L0020
+Propietario elemento fallado Codelco (División El Teniente)
+RUT 61.704.000-K
+Representante Legal Mauricio Eugenio Álvarez Borie (*)
+Dirección 11 Norte 1291, Piso 5C, Villa Exótica Edificio Institucional, Calama.
+(*) Datos correspondientes al Gerente General de la empresa propietaria del elemento afectado, obtenidos de la plataforma REUC
+del Coordinador. No fueron remitidos los datos correspondientes al Representante Legal.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada del circuito N°1 de la línea 110 kV Minero - Sewell por operación de
+sus protecciones, debido a acortamiento de distancia eléctrica ocasionada presumiblemente por
+fenómeno de “ice jumping”, durante frente de mal tiempo.
+d.2 Fenómeno Físico
+OPE18: Disminución de distancia eléctrica.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 2 fallas
+en la misma instalación afectada durante los últimos 24 meses móviles, correspondiente a los Estudios
+para análisis de Falla EAF 263-2024 y EAF 264-2024.
+d.4 Fenómeno eléctrico
+PR87L: Protección diferencial de línea.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado por este evento corresponde al circuito N°1 de la línea 2x110 kV Minero - Sewell,
+el cual tiene 9.1 km de longitud, con un conductor del tipo AAAC Flint y una capacidad nominal de 118
+[MVA] (a 25°C y con tensión nominal), de acuerdo con los registros del Sistema Infotécnica del
+Coordinador.
+f. Ubicación urbana o rural según DS 327/1997
+Rural.
+g. Proposición del propietario respecto del origen de la falla
+Interno.
+h. Comuna donde se presenta la falla
+6108: Machalí
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(04-08-2024) (09-08-2024)
+Alfa Transmisora de Energía S.A. 03-08-2024 09-08-2024
+Codelco 19-08-2024 19-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 110 kV Minero - Sewell ST Dedicado LT 110 kV Minero - Sewell C1 11:29 12:30
+- Las horas indicadas corresponden a lo informado por las empresas Alfa Transmisora de Energía S.A. y Codelco.
+c. Consumos
+Pérdida de
+Alimentador % consumo Clientes H. H. H.
+Subestación Comuna Consumo
+/Paño pre-falla afectados Desc. Dispon. Norm.
+(MW)
+Sewell - Machalí 24.20 0.254 1 11:29 12:30 12:30
+Total: 24.20 MW 0.254% 1
+- Los montos y horarios señalados corresponden a lo informado por las empresas Alfa Transmisora de Energía S.A. y Codelco. Si
+bien Codelco informa una pérdida total de 107 MW de consumos, gran parte de ellos corresponden a pérdidas indirectas a raíz de la
+perturbación.
+3. Estimación de la energía no suministrada
+Alimentador Pérdida de Tiempo Tiempo ENS
+Subestación Empresa Tipo de cliente
+/Paño Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Sewell - Codelco Libre 24.20 1.02 1.02 24.6
+Clientes Regulados : 0 MWh
+Clientes Libres : 24.6 MWh
+Total : 24.6 MWh
+- Los montos señalados corresponden a lo informado por las empresas Alfa Transmisora de Energía S.A. y Codelco.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre el horario de recuperación real respecto del horario de disponibilidad
+de la barra primaria respectiva.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Potencia
+Rango recuperación recuperación
+(MW)
+(h) (MW/h)
+Primer 80 % 19.36 1.02 19.04
+Último 20 % 4.84 1.02 4.76
+100 % Total 24.20 1.02 23.80
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9517.0 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional previo a la falla, mediante las
+centrales Tocopilla (TG3), Ralco (U1 y U2) y El Toro (U1, U3 y U4)
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 02 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 02 de agosto de 2024.

@@ -1,0 +1,205 @@
+Estudio para análisis de falla EAF 345/2024
+“Falla en línea 66 kV Guindo - Coronel N°2”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 11:29
+Consumos desconectados (MW) 18.71
+Demanda previa del sistema (MW) 11034.7
+Porcentaje de desconexión 0.170 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Guindo - Coronel Nº2 / LT281CI2TR02T0058ST08T0058
+Tipo de instalación Línea de transmisión
+Tensión nominal 66 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada E.
+Dirección Av. Presidente Riesco N° 5561 Piso 14, las Condes, Santiago, Chile
+c. Identificación del elemento fallado
+Nombre del elemento fallado Línea 66 kV Guindo - Coronel Nº2 / LT281CI2TR02T0058ST08T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada E.
+Dirección Av. Presidente Riesco N° 5561 Piso 14, las Condes, Santiago, Chile
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada del interruptor 52B9 de S/E Coronel, correspondiente a la línea 66
+kV Guindo - Coronel N°2, por operación de la protección de distancia, ante una falla en el tramo de
+línea 66 kV Coronel - Tap Off Loma Colorada, atribuida a la caída de un árbol (fuera de la franja)
+sobre los conductores de la línea entre las estructuras N°98 y N°99, durante temporal de viento y
+lluvia en la zona, lo que originó corte de conductores y daños en cruceta de la estructura N°99.
+d.2 Fenómeno Físico:
+CLI1: Evento natural catastrófico (sismo, volcánico, aluvión, maremoto, etc.).
+La empresa CGE Transmisión S.A. remite en su informe de falla de 5 días antecedentes para
+acreditar el origen de la falla.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Sí se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en la línea 66 kV
+EAF 277_2023 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Charrúa - Lucero
+Falla en línea 66 kV
+EAF 278_2023 San Fernando - 24-06-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Placilla
+Falla en línea 66 kV
+EAF 362_2023 22-08-2023 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Los Maquis - Hualañé
+La empresa CGE Transmisión S.A. indica: “Se analizan eventos de
+relé SEL 387 S1 y SEL 351 S2. Al día siguiente se interrogan relés
+F4c asociados a los paños C1 y C2. Se observa que hay eventos en
+los horarios de falla. Se analizan eventos de relé SEL- 311C. Se
+Apertura realiza una inspección del tramo completo de la LT 66 kV Pan de
+intempestiva de los Azúcar - Marquesa, sin evidencias de la falla. Se realiza inspección
+EAF 394-2023 interruptores 52B5 y 06-09-2023 visual y pruebas locales al interruptor 52B5 de S/E Pan de Azúcar el
+52CT8 de S/E Pan de día de la falla, sin encontrar causa evidente (durante la semana del
+Azúcar 25 al 29 del presente se realizarán pruebas exhaustivas al
+interruptor, para luego durante la semana del 2 al 6 de octubre
+presentar un informe del interruptor 52B5). Reemplazo de
+interruptor 52B5 de SE Pande Azúcar (fecha estimada diciembre de
+2023)”.
+La empresa CGE Transmisión S.A. indica:
+Falla en línea 66 kV - “Se realiza el afianzamiento con tirantes del poste externo cerca de
+EAF 247-2024 Alonso de Ribera - 08-06-2024 la estructura E46 de la línea LT Alonso de Ribera - Chiguayante.”
+Chiguayante - “Se realiza la conexión IRIG B a los relés 311C y 311L del paño B2
+de S/E Alonso de Ribera con el reloj satelital.”
+La empresa CGE Transmisión S.A. indica:
+"• Se realizará una revisión y pruebas en el sistema de control del
+Falla en línea 66 kV interruptor asociado al paño 52CT1. Actividad comprometida a
+EAF 329-2024 Talcahuano - Latorre 31-07-2024 septiembre de 2024.
+c1 • Se realizará retemplado de conductor entre las estructuras E-05 a
+E 06 de la línea LT 66 kV Talcahuano - Latorre N°1. Actividad
+comprometida a diciembre 2024."
+Falla en línea 66 kV
+EAF 333-2024 Los Peumos - 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Curacautín
+Falla en línea 66 kV
+EAF 334-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Parral - Cauquenes
+Falla en línea 2x66 kV
+EAF 335-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Lastarria - Loncoche
+Falla en la línea 66 kV
+EAF 337-2024 01-08-2024 La empresa CGE Transmisión S.A. indica que “No aplica”.
+Tres Pinos - Lebu
+La empresa CGE Transmisión S.A. indica: “Se realizó el retiro de los
+Falla en la línea 66 kV
+árboles que se encontraban sobre la línea y, además, se repusieron
+EAF 338-2024 Curanilahue - Tres 01-08-2024
+los conductores de la fase central y lateral que resultaron dañados.”.
+Pinos
+CGE Transmisión S.A. indica que realizó la instalación de un nuevo
+Falla en línea 66 kV line post en la estructura N°61 y, además, se reparó el tramo de
+EAF 343-2024 01-08-2024
+Villarrica - Pucón conductor que resultó con daños entre las estructuras N°38 y N°39
+de la línea 66 kV Villarrica - Pucón.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: se ha producido una falla
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 089-2023 y 181-2024).
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se originó la falla corresponde a la línea 1x66 kV Guindo - Coronel N°2, en su
+tramo 66 kV Coronel - Tap Loma Colorada, el cual tiene 14.99 km de largo, una capacidad nominal
+de 35.7 MVA (permanente a 25°C con sol y a tensión nominal) y cuyo año de entrada en operación
+fue en 1963, de acuerdo con los registros del Sistema Infotécnica del Coordinador.
+f. Ubicación urbana o rural según DS 327/1997
+Compañía General de Electricidad señala “Urbano”.
+g. Proposición del propietario respecto del origen de la falla
+La empresa CGE Transmisión S.A. señala “Fuerza mayor o caso fortuito.”.
+h. Comuna donde se presenta la falla
+8108: San Pedro de la Paz.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03-08-2024) (08-08-2024)
+CGE Transmisión S.A. 01-08-2024 20-08-2024
+Compañía General de Electricidad S.A. 02-08-2024 08-08-2024
+Empresa de los Ferrocarriles del Estado (EFE) No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+19:21
+Guindo - Coronel 2x66 kV ST Zonal Guindo - Tap Off Loma Colorada C2 11:29
+02-08-2024
+19:13
+Guindo - Coronel 2x66 kV ST Zonal Tap Off Loma Colorada - Coronel C2 11:29
+02-08-2024
+- Fechas y horas señaladas corresponden a lo informado por CGE Transmisión S.A.
+c. Consumos
+Pérdida de %
+Alimentador / Clientes H. H. H.
+Sub-Estación Comuna Consumo consumo
+Paño Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Loma San Pedro de La
+Industrias 52C1 8.53 0.080 10704 11:29 11:35 11:38
+Colorada Paz
+S/E Loma San Pedro de La
+El Parque 52C2 4.14 0.040 6721 11:29 11:35 11:38
+Colorada Paz
+S/E Loma San Pedro de La
+La Posada 52C3 2.18 0.020 5346 11:29 11:35 11:49
+Colorada Paz, Coronel
+S/E Loma San Pedro de La
+Lagunillas 52C4 3.76 0.030 7464 11:29 11:35 11:40
+Colorada Paz
+S/E Rectificadora
+EFE Escuadrón - 0.1 0.000 1 11:29 11:35 11:35
+Escuadrón
+Total: 18.71 MW 0.170 % 30236
+- Horas y montos señalados corresponden a lo informado por Compañía General de Electricidad S.A.
+3. Estimación de la energía no suministrada
+Pérdida de Tiempo
+Alimentador / Tipo de Tiempo ENS
+Sub-Estación Empresa Consumo Indispon.
+Paño Cliente Desc.(h) (MWh)
+(MW) (h)
+S/E Loma Colorada Industrias 52C1 CGE Distribución Regulado 8.53 0,09 0,15 1.3
+S/E Loma Colorada El Parque 52C2 CGE Distribución Regulado 4.14 0,09 0,15 0.6
+S/E Loma Colorada La Posada 52C3 CGE Distribución Regulado 2.18 0,09 0,33 0.7
+S/E Loma Colorada Lagunillas 52C4 CGE Distribución Regulado 3.76 0,09 0,18 0.7
+S/E Rectificadora Escuadrón EFE Escuadrón EFE Libre 0.1 0,09 0,10 0.0
+Clientes Regulados : 3.3 MWh
+Clientes Libres : 0.0 MWh
+Total : 3.3 MWh
+- Horas y montos señalados corresponden a lo informado por Compañía General de Electricidad S.A.
+- Curva de recuperación esperada v/s recuperación real.
+Se aprecian algunas diferencias significativas entre los horarios de recuperación real respecto de
+los horarios de disponibilidad de las barras primarias, a excepción del consumo asociado a la S/E
+Rectificadora Escuadrón.
+- Velocidad promedio de recuperación.
+Potencia Tiempo Velocidad de
+Rango
+(MW) recuperación (h) recuperación (MW/h)
+Primer 80 % 14.97 0.18 83.17
+Último 20 % 3.74 0.33 11.33
+100 % Total 18.71 0.33 56.70
+. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 11034.7 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U2 y U3), Colbún (U1 y U2), El Toro (U1, U2, U3 y U4), Nueva Renca y Ralco
+(U1).
+Operación Programada
+En Anexo Nº 1 se adjunta el detalle de la generación programada para el día 01 de agosto de 2024.
+Operación Real
+En Anexo Nº 2 se adjunta el detalle de la generación real del día 01 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+01 de agosto de 2024.
+Mantenimientos
+En Anexo Nº 4 se presenta el detalle de los mantenimientos programados y forzados para el día 01
+de agosto de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con el siguiente detalle:
+• Línea 66 kV Guindo - Coronel Nº1 operando radial desde S/E Guindo.
+• Línea 66 kV Guindo - Coronel Nº2 operando radial desde S/E Coronel.
+• S/E Loma Colorada alimentada desde el arranque hacia el circuito Nº2.
+• Línea 66 kV Loma Colorada - Escuadrón operando radial desde S/E Loma Colorada.

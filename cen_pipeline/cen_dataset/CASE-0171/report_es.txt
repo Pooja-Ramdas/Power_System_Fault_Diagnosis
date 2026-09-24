@@ -1,0 +1,253 @@
+Estudio para análisis de falla EAF 437/2024
+“Falla en línea 66 kV Charrúa - Laja”
+Fecha de Emisión: 11-09-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la Falla
+Fecha 21/08/2024
+Hora 01:16
+Consumos desconectados (MW) 5.46
+Demanda previa del sistema (MW) 9464
+Porcentaje de desconexión 0.058 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación 66 kV Charrúa - Laja / LT053CI1TR02----T002
+Tipo de instalación Línea de transmisión
+Tensión nominal 66 kV
+Segmento Zonal
+Propietario instalación afectada Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes
+c. Identificación del elemento fallado
+Nombre del elemento fallado 66 kV Charrúa - Laja / LT053CI1TR02----T002
+Propietario elemento fallado Transelec S.A.
+RUT 76.555.400-4
+Representante Legal Arturo Le Blanc
+Dirección Orinoco 90, piso 14, Las Condes
+d. Origen y causa de la falla
+Se produjo una falla en la línea 66 kV Charrúa - Laja con despeje de protecciones desde su extremo
+Charrúa, por operación de sus funciones de distancia.
+El origen de la falla corresponde al robo de conductores de la línea, con daños ocasionados en tres
+estructuras.
+d.2 Fenómeno Físico:
+VAN3: Robo o hurto.
+La Resolución Exenta 30989-2019 de la Superintendencia de Electricidad y Combustibles (SEC) solicita
+para el fenómeno físico indicado los siguiente probatorios:
+• Registro fotográfico con fecha, hora y coordenadas UTM del punto de falla.
+• Denuncia ante Carabineros de Chile.
+• Declaración jurada de los hechos indicando el número de eventos similares en la instalación.
+La empresa Transelec S.A. remitió los probatorios correspondientes.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación ha sido afectada en 3 ocasiones
+por el mismo fenómeno físico, durante los últimos 24 meses móviles (EAF 048/2024, EAF 141/2024 y
+EAF 315/2024).
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido 18 fallas en
+instalaciones del mismo propietario con un fenómeno físico similar, durante los últimos 24 meses
+móviles:
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+Falla en línea 154 kV
+EAF 359-2022 23-09-2022 La empresa Transelec S.A. señala que no aplica.
+Maule - Parral
+Falla en línea 154 kV
+EAF 363-2022 28-09-2022 No se indican.
+Maule - Parral
+La empresa Transelec S.A. señala que los trabajos de normalización de la función de distancia en
+el sistema 2 de protección se realizaron de manera exitosa durante la madrugada del día 19 de
+Falla en línea 154 kV
+EAF 380-2022 16-10-2022 octubre (solicitud N°2022092503).
+Charrúa - Parral
+La empresa Arauco Bioenergía S.A. señala que se concluye una correcta operación de las
+protecciones, de acuerdo con sus ajustes.
+Falla en línea 154 kV
+EAF 386-2022 19-10-2022 No aplica.
+Maule - Parral
+Falla en línea 154 kV
+EAF 390-2022 21-10-2022 La empresa Transelec S.A. señala que no aplica.
+Maule - Parral
+Falla en línea 66 kV
+EAF 408-2022 07-11-2022 La empresa Transelec S.A. señala que “no hay” acciones correctivas a corto plazo.
+Charrúa - Cholguán
+Transelec S.A. señala que “no aplica”.
+Falla en línea 154 kV Chilquinta Transmisión S.A. no señala acciones correctivas. No obstante, esta empresa indica
+EAF 411-2022 08-11-2022
+Maule - Parral que “La actualización de este equipo (respecto del relé EDAC BF de S/E Linares Norte), se
+encuentra contenida dentro del plan de inversiones 2023 de la compañía.”
+Falla en línea 154 kV
+EAF 421-2022 15-11-2022 Transelec S.A. señala que “no aplica”.
+Maule - Parral
+Falla en línea 154 kV
+EAF 447-2022 09-12-2022 La empresa Transelec S.A. señala que “No aplica”.
+Maule - Parral
+Falla en línea 154 kV
+EAF 469-2022 16-12-2022 La empresa Transelec S.A. señala que “No aplica”.
+Maule - Parral
+Falla en línea 154 kV
+EAF 490-2022 23-12-2022 La empresa Transelec S.A. señala que “No aplica”.
+Maule - Parral
+Falla en línea 13.2 kV San
+EAF 011-2023 08-01-2023 No se señalan.
+Vicente - Molycop
+Falla en la línea 154 kV
+EAF 019-2023 15-01-2023 No se señalan.
+Maule - Parral
+FALLA_ID NOMBRE_FALLA FECHA_FALLA ACCIONES_CORRECTIVAS
+La empresa Transelec S.A. indica: “De forma inmediata, se gestionó la normalización de la línea
+con 3 empresas contratistas, lo que contempló el reemplazo de los postes colapsados, ferretería
+y reposición del conductor robado. Considerando la urgencia de la normalización de la línea, se
+Falla en la línea 66 kV San
+EAF 259-2023 14-06-2023 mantuvo el conductor de cobre en los vanos afectados, y se reemplazó con conductor de aluminio
+Javier - Constitución
+lo faltante.
+Queda pendiente investigar el comportamiento de las protecciones del paño por las reconexiones
+automáticas observadas en las oscilografías y los registros de eventos”.
+La empresa Transelec S.A. indica:
+“En primer lugar, Transelec se compromete a mejorar la manera en que se registran las fallas
+para las protecciones asociadas al paño A9 de S/E Tinguiririca, de esta manera se evitaría que
+los eventos de la función Power Swing llenen el buffer de la protección, sobrescribiendo los
+Falla en la línea 2x154 kV
+eventos de la protección (razón por la cual no existen registros oscilográficos asociados a la
+EAF 326-2023 Alto Jahuel - Rancagua - 01-08-2023
+operación de esta protección).
+Punta de Cortés N°1
+Por otra parte, Transelec gestionará con CGE una modificación de ajuste de la protección
+asociada al paño A5 de S/E Nueva Punta de Cortés, para evitar de esa manera el envío de señales
+TDD innecesarias a los paños A4 y A6 de S/E Nueva Punta de Cortés (esta señal innecesaria fue
+la causante de la apertura indeseada del interruptor 52A6)”.
+Falla en línea 66 kV
+EAF 048-2024 04-02-2024 No se indican.
+Charrúa - Laja
+Falla en línea 66 kV
+EAF 141-2024 06-04-2024 No se indican.
+Charrúa - Laja
+Falla en línea 66 kV
+EAF 315-2024 21-07-2024 No se indican.
+Charrúa - Laja
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se han producido 5 fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles (EAF 155/2023, EAF 470/2023,
+EAF 048/2024, EAF 141/2024 y EAF 315/2024).
+d.4 Fenómeno eléctrico
+DI21N: Distancia residual.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la falla corresponde a los conductores de los vanos comprendidos entre
+las estructuras N°8 y N°9 de la línea 66 kV Charrúa - Laja; además, las estructuras N°9, N°10 y N°14
+resultaron con daños. De acuerdo con lo declarado por su propietario en su Informe de Falla del quinto
+día, la mencionada línea posee dos tramos: Charrúa - Tap Parque Eólico El Maitén (de 33.8 km) y Tap
+Parque Eólico El Maitén - Laja (de 14.2 km), ambos con las siguientes características.
+• Conductor de fase: Cu 2/0 AWG.
+• Temperatura de operación 50°C.
+• Capacidad de corriente a temperatura de operación: 244 A.
+• Cable de guardia: no aplica.
+La empresa Transelec S.A. remitió los mantenimientos realizados en los últimos 24 meses sobre la
+línea 66 kV Charrúa - Laja.
+f. Ubicación urbana o rural según DS 327/1997
+La Empresa Eléctrica de la Frontera S.A. (en adelante, e indistintamente, Frontel) indica que la densidad
+del alimentador afectado en S/E Laja es “baja” y “muy baja”.
+g. Proposición del propietario respecto del origen de la falla
+Fuerza mayor, causa externa.
+h. Comuna donde se presenta la falla
+08304: Laja.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(23-08-2024) (28-08-2024)
+Empresa de los Ferrocarriles del Estado (EFE) * No aplica No aplica
+Empresa Eléctrica de la Frontera S.A. (Frontel) 21-08-2024 26-08-2024
+Parque Eólico El Maitén SpA 21-08-2024 25-08-2024
+Transelec S.A. 21-08-2024 28-08-2024
+(*) No se declara interrupción de suministro en instalaciones de EFE.
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) H. Desconexión H. Normalización
+PE El Maitén - 3.80 01:16 17:10*
+Total: 3.80 MW
+(*) De acuerdo con lo informado por Parque Eólico El Maitén SpA en su Informe de Falla, corresponde al cierre del interruptor 52BT1.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+Línea 66 kV Charrúa - Laja Transmisión zonal Charrúa - Tap Parque Eólico El Maitén 01:16 16:07
+Línea 66 kV Charrúa - Laja Transmisión zonal Tap Parque Eólico El Maitén - Laja 01:16 16:07
+- Los horarios corresponden a lo informado por Transelec S.A.
+c. Consumos
+Alimentador / Pérdida de % consumo Clientes H. H. H.
+S/E Comuna
+Paño Consumo (MW) pre-falla Afectados Desc. Disp. ** Norm.
+Laja San Rosendo / CT Laja 0.15* 0.002 1 1:16 16:09 1:33
+Laja San Rosendo / CT San Rosendo 0.34 0.004 1293 1:16 16:09 1:48
+Laja San Rosendo / CT Los Ángeles 0.04 0.000 101 1:16 16:09 1:54
+Laja San Rosendo / CT Santa Juana 2.17 0.023 8482 1:16 16:09 4:22
+Laja San Rosendo / CT Nacimiento 0.05 0.001 274 1:16 16:09 4:54
+Laja San Rosendo / CT Laja 2.64 0.028 10490 1:16 16:09 5:02
+Laja San Rosendo / CT Curanilahue 0.04 0.000 148 1:16 16:09 5:15
+Laja San Rosendo / CT Yumbel 0.03 0.000 111 1:16 16:09 8:45
+Total: 5.46 MW 0.058 % 20900
+- Los montos y horarios señalados corresponden a lo informado por la empresa Frontel.
+(*) Incluye clientes libres en distribución.
+3. Estimación de la energía no suministrada
+Tipo de Pérdida de Tiempo Tiempo ENS
+S/E Alimentador / Paño Empresa
+Cliente Consumo (MW) Indisp. (h) Desc. (h) (MWh)
+Laja San Rosendo / CT Frontel Regulado 0.15* 14.88 0.28 0.0
+Laja San Rosendo / CT Frontel Regulado 0.34 14.88 0.53 0.2
+Laja San Rosendo / CT Frontel Regulado 0.04 14.88 0.63 0.0
+Laja San Rosendo / CT Frontel Regulado 2.17 14.88 3.10 6.7
+Laja San Rosendo / CT Frontel Regulado 0.05 14.88 3.63 0.2
+Laja San Rosendo / CT Frontel Regulado 2.64 14.88 3.77 9.9
+Laja San Rosendo / CT Frontel Regulado 0.04 14.88 3.98 0.2
+Laja San Rosendo / CT Frontel Regulado 0.03 14.88 7.48 0.2
+Clientes Regulados : 17.4 MWh
+Clientes Libres : MWh
+Total : 17.4 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa Frontel.
+(*) Incluye clientes libres en distribución.
+- Curva de recuperación esperada v/s recuperación real.
+19:12
+16:48
+14:24
+12:00
+9:36
+7:12
+4:48
+2:24
+0:00
+2.7% 9.0% 9.7% 49.5% 50.4% 98.7% 99.5% 100.0%
+Recuperación real Recuperación esperada
+Se observan diferencias entre el horario de recuperación real y el horario de disponibilidad de la barra
+primaria respectiva para recuperar los consumos afectados, esto, presumiblemente, debido a la
+recuperación anticipada consumos por medio de generación local y/o traspasos de carga a través de
+redes de media tensión.
+- Velocidad promedio de recuperación.
+Rango Potencia (MW) Tiempo recuperación (h) Velocidad de recuperación (MW/h)
+Primer 80 % 4.37 3.77 1.16
+Último 20 % 1.09 7.48 0.15
+100 % Total 5.46 7.48 0.73
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 9464 MW.
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales: Canutillar (U1), Colbún (U2), Nehuenco II (TG+TV), Pehuenche (U1) y Rapel (U1 y U2).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 21 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 21 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+21 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 21 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Previo a la falla, las instalaciones de transmisión operaban de forma normal.
+Otros antecedentes relevantes
+Otros antecedentes adicionales presentados por Transelec S.A.:
+“A las 01:16 horas del domingo 21 de julio del 2024, se produjo la desconexión forzada de La Línea,
+debido a una falla monofásica a tierra en fase C producto del robo de conductor, entre las estructuras
+E-8 a E-9 con corte de las tres fases en vano de E-8 y daños a las estructuras E-9, E-10 y E14. A raíz
+de estos eventos, se contabiliza un robo por parte de terceros no identificados, de aproximadamente
+2400 metros de conductor de cobre 2/0 AWG. Tras los trabajos de reparación y faenas, La Línea queda
+en servicio a las 16:07 horas del mismo día 21 de agosto de 2024”.
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con auditorías, planes de acción u otro tipo de mantenimientos en
+curso.
+b) Acciones correctivas a corto plazo:
+Las empresas involucradas y afectadas en la falla no indican acciones correctivas a corto plazo.
+c) Acciones correctivas a largo plazo:
+Las empresas involucradas y afectadas en la falla no indican acciones correctivas a largo plazo.

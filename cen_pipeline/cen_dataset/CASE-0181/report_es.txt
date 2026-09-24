@@ -1,0 +1,283 @@
+Estudio para análisis de falla EAF 427/2024
+“Desconexión forzada de la línea 66 kV Malloa Nueva - Pelequén”
+Fecha de Emisión: 06-09-2024
+1. Descripción general de la interrupción
+a. Fecha y Hora de la falla
+Fecha 16/08/2024
+Hora 13:55
+Consumos desconectados (MW) 11.38
+Demanda previa del sistema (MW) 10255
+Porcentaje de desconexión 0.111 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación LT 66 kV Malloa Nueva - Pelequén / LT043CI1TR01----T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión Zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 17, Las Condes, Santiago.
+c. Identificación del elemento fallado
+Nombre del elemento fallado LT 66 kV Malloa Nueva - Pelequén / LT043CI1TR01----T0058
+Propietario elemento fallado CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Arístides Quezada Escobar
+Dirección Av. Presidente Riesco N°5561, piso 17, Las Condes, Santiago.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Malloa Nueva - Pelequén por operación de las
+protecciones del paño B4 de S/E Malloa Nueva, debido a error de operador al no realizar el bloqueo
+de las funciones de distancia, durante trabajos en los transformadores de potencial asociados a la
+protección.
+d.2 Fenómeno Físico
+OPE7: Error de operador.
+d.3 Reiteración
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: Se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles, correspondientes a los Estudios para Análisis de Falla de la siguiente tabla:
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+La empresa CGE Transmisión S.A. indica: “Está en desarrollo el
+Apertura intempestiva proyecto MNR, NUP 3468, para el reemplazo del sistema de los
+EAF 368-2022 del interruptor 52ET3 06-10-2022 interruptores 52CT1 y 52C2, actualmente en proceso de revisión de
+de S/E Mariscal antecedentes por parte del CEN para poder concretar próximamente
+la puesta en servicio de los nuevos equipos”.
+La empresa CGE Transmisión S.A. indica: “Se programa para el día
+07-12-2022 la mejora en la descripción de la posición del interruptor
+52E1 de S/E Avellano en el relé SEL 451”.
+La empresa Enel Green Power Chile S.A. indica: “Como acciones
+correctivas, se considera la revisión del ajuste de la función de
+Desconexión forzada de
+distancia (21/21N) del relé correspondiente al sistema 2 de
+EAF 426-2022 la barra 13.2 kV de S/E 20-11-2022
+protección (SEL-311L) de la línea 66 kV Los Buenos Aires - Los
+Chocalán
+Ángeles, con el objetivo de aclarar la operación de esté relé de
+protección, teniendo en cuenta la no operación del sistema 1 de
+protección, el cual corresponde a otro modelo (SEL-311C). Se
+revisarán diferencias en los algoritmos de operación de estos dos
+modelos de relé, junto con detalles específicos asociados a ajustes
+de ambos modelos de protección”.
+Apertura intempestiva
+EAF 483-2022 del interruptor 52C4 de 21-12-2022 La empresa CGE Transmisión S.A. indica que no aplica.
+S/E Paniahue
+La empresa CGE Transmisión S.A. indica: “Se revisará la
+Desconexión forzada parametrización del relé SEL 387 T1//T2, en específico la necesidad
+EAF 119-2023 del transformador N°1 11-03-2023 de contar o no, con el WD2 activo para el grupo de ajuste cuando
+66/23 kV de S/E Nirivilo está solo T1 en servicio. Esta revisión se realizará durante el mes de
+abril”.
+La empresa CGE Transmisión S.A. señala que:
+- “Al determinar la causa de operación, se deshabilitan todas las
+funciones de protecciones en SE Colchagua”.
+“Adjudicatario de proyecto realiza un análisis de operación de
+protección para efectos de determinar la causa origen del evento,
+determinando una incorrecta habilitación de esquema en relé de
+futuro Paño B1 de SE Colchagua, el cual no se encontraba entregado
+a la operación. Se remite informe técnico de adjudicatario, para el
+Apertura intempestiva
+cual cabe señalar que CGE Transmisión está de acuerdo con la
+EAF 121-2023 del interruptor 52B1 de 12-03-2023
+determinación en cuanto a que la operación indeseada se debió a
+S/E San Fernando
+una incorrecta habilitación de esquema de protecciones diferencial
+de línea en extremo SE Colchagua, sin embargo no se encuentra de
+acuerdo con la conclusión que indica que este error se debe a falta
+de indicación Explicita en ECAP, lo anterior en consideración de la las
+faenas consideran bypass de Paño BT1 de SE Colchagua, en este
+sentido no existía forma de que este función opera correctamente,
+cuestión que debió se advertida por técnicos especialistas a cargo de
+la actividad”.
+FALLA ID NOMBRE FALLA FECHA FALLA ACCIONES CORRECTIVAS
+La empresa CGE Transmisión S.A. señala que:
+- “Se corrigió configuración del canal de comunicación para
+velocidad 768kbps en ambos los extremos, máximo permitido por
+el equipo para este tipo de funcionalidades y el recomendado
+Apertura intempestiva
+para este tipo de esquemas de tele protección y diferencial de
+EAF 122-2023 del interruptor 52B1 de 13-03-2023
+línea con fibra directa entre ambos los extremos”.
+S/E San Fernando
+“Se realizó monitoreo del canal diferencial durante algunas horas,
+luego del cambio en ambos los extremos de la velocidad de
+comunicaciones, y no se verificó ningún tipo de falla asociada al
+canal dejando por lo tanto el canal estable”.
+La empresa CGE Transmisión S.A. indica lo siguiente: “Se
+Pérdida de suministro sobrescriben los registros de la protección asociada al Paño B4 de SE
+EAF 135-2023 21-03-2023
+de S/E Tap Cerro Chepe Ejercito, se realizará la revisión y acciones correctivas necesarias
+para corregir este problema”.
+- “Se realizará capacitación al personal en la operación manual de
+Apertura intempestiva
+relés Reyrolle ARGUS 7RS224”.
+EAF 148-2023 del interruptor 52C9 de 30-03-2023
+“Se dejará en panel del paño en la Subestación Perales manual
+S/E Perales
+breve paso a paso para la operación del relé”.
+La empresa CGE Transmisión S.A. señala que:
+Desconexión forzada o “Se realiza apertura de válvula de paso que quedó cerrada”.
+del transformador “Se instruye incorporar dentro del procedimiento, la instalación de
+EAF 267-2023 16-06-2023
+regulador N°3 110/110 señal visual sobre válvulas de transformadores, cuando estas sean
+kV de S/E Quillota cerradas para fines de mantenimiento, evitando dejar cerrada de
+forma involuntaria”.
+Desconexión forzada
+del transformador N°2 La empresa CGE Transmisión S.A. señala que “No Aplica”.
+EAF 534-2023 13-12-2023
+66/15 kV de S/E San
+Francisco de Mostazal
+La empresa CGE Transmisión S.A. indica:
+“Se realizará Estudio para ajustar adecuadamente los parámetros
+Apertura intempestiva detectores de falla de las zonas 1 de las protecciones de los paños
+EAF 039-2024 del interruptor 52B1 de 01-02-2024 B1, B2 y B3 de SE Escuadrón. Fecha estimada: 30/04/2024.
+S/E Escuadrón Se implementará el Estudio de ajuste de los parámetros detectores
+de falla de las zonas 1 de las protecciones de los paños B1, B2 y B3
+de SE Escuadrón. Fecha estimada: 31/05/2024”.
+Apertura intempestiva La empresa CGE Transmisión S.A. indica lo siguiente: “Se cambió el
+EAF 144-2024 del interruptor 52C11 09-04-2024 ajuste normal (350 A) al alternativo (500 A) para realizar las
+de S/E Chivilcán maniobras de transferencia de carga.”
+Interrupción de
+suministro en
+La empresa CGE Transmisión S.A. señala lo siguiente: “Se normaliza
+EAF 164-2024 transformador 66/15 18-04-2024
+seguro mecánico del equipo porta fusible de la fase central.”
+kV N°3 de S/E
+Pillanlelbún
+Orden de cierre no
+EAF 169-2024 exitosa del interruptor 22-04-2024 No se indican.
+52E1 de S/E San Javier
+La empresa CGE Transmisión S.A. señala lo siguiente: “El
+Desconexión forzada de
+11/05/2024 se reemplazó el desconectador 89C5-1 de S/E San
+EAF 208-2024 la barra 13.2 kV N°2 de 10-05-2024
+Joaquín, correspondiente al 52C5 Alimentador Antena ICF N°
+S/E San Joaquín (CGE)
+2024048577.”
+Desconexión
+intempestiva de barra CGE Transmisión S.A. y Compañía General de Electricidad S.A. no
+EAF 210-2024 10-05-2024
+N°2 15 kV de S/E indican acciones correctivas de corto plazo.
+Alameda
+La empresa CGE Transmisión S.A. indica lo siguiente:
+“• Se analizaron los eventos del relé SEL-387, junto con alarmas
+para descartar alguna operación mecánica propia del transformador.
+Desconexión forzada
+• Se informará limitación, para no ejecutar la trasferencia del BT al
+del transformador Nº10
+EAF 235-2024 04-06-2024 BR, estando en servicio el T10 de S/E Pan de Azúcar. Fecha:
+110/69/13.8 kV de S/E
+30/06/2024
+Pan de Azúcar
+• Se compromete una revisión de proceso de elaboración de
+maniobras, planes generales y particulares de recuperación de
+servicio. Fecha: 30/06/2024.”
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: Se ha producido 1 falla en
+la misma instalación afectada durante los últimos 24 meses móviles, correspondiente al Estudio para
+análisis de Falla EAF 032-2023.
+d.4 Fenómeno eléctrico
+DI21: Distancia (admitancia, impedancia o reactancia).
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento afectado por este evento corresponde a la línea 66 kV Malloa Nueva - Pelequén, la cual
+tiene 6.7 km de longitud, con conductor del tipo AAAC 85 mm2 y una capacidad nominal de 38.75
+[MVA] (a 25°C y con tensión nominal), de acuerdo con los registros del Sistema Infotécnica del
+Coordinador.
+f. Ubicación urbana o rural según DS 327/1997
+Urbano y rural.
+g. Proposición del propietario respecto del origen de la falla
+Interna
+h. Comuna donde se presenta la falla
+6109: Malloa.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(18-08-2024) (23-08-2024)
+CGE S.A. 22-08-2024 22-08-2024
+CGE Transmisión S.A. 16-08-2024 02-09-2024
+Empresa de los Ferrocarriles del Estado (EFE) No enviado No enviado
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 66 kV Malloa Nueva - Pelequén ST Zonal - 13:55 14:11
+- Las horas indicadas corresponden a lo informado por la empresa CGE Transmisión S.A.
+c. Consumos
+Alimentador Pérdida de % consumo Clientes H. H. H.
+Subestación Comuna
+/Paño Consumo (MW) pre-falla afectados Desc. Dispon. Norm.
+Rengo Las Nieves / C1 Rengo 2.18 0.021 7876 13:55 14:11 14:11
+Rengo Esmeralda / C2 Rengo 2.30 0.022 8049 13:55 14:11 14:11
+Rengo,
+Quinta de
+Rengo Panquehue / C3 3.09 0.030 4796 13:55 14:11 14:11
+Tilcoco,
+Malloa
+Rengo,
+Rengo Condell / C4 2.70 0.026 715 13:55 14:11 14:11
+Malloa
+No
+Rengo (FFCC) - 0.10 0.001 1 13:55 14:11 14:11
+informado
+Pelequén Santa Rosa / CT Malloa 1.01 0.010 1500 13:55 14:11 14:11
+Total: 11.38 MW 0.111 % 22937
+- Los montos y horarios señalados corresponden a lo informado por la empresa CGE S.A.
+3. Estimación de la energía no suministrada
+Alimentador Tipo de Pérdida de Tiempo Tiempo ENS
+Subestación Empresa
+/Paño cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+Rengo Las Nieves / C1 CGE Regulado 2.18 0.27 0.27 0.6
+Rengo Esmeralda / C2 CGE Regulado 2.30 0.27 0.27 0.6
+Rengo Panquehue / C3 CGE Regulado 3.09 0.27 0.27 0.8
+Rengo Condell / C4 CGE Regulado 2.70 0.27 0.27 0.7
+Rengo (FFCC) - EFE Libre 0.10 0.27 0.27 0.0
+Pelequén Santa Rosa / CT CGE Regulado 1.01 0.27 0.27 0.3
+Clientes Regulados : 3.0 MWh
+Clientes Libres : 0.0 MWh
+Total : 3.0 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa CGE S.A.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre el horario de recuperación real respecto del horario de disponibilidad
+de la barra primaria respectiva.
+- Velocidad promedio de recuperación.
+Tiempo Velocidad de
+Potencia
+Rango recuperación recuperación
+(MW)
+(h) (MW/h)
+Primer 80 % 9.10 0.27 34.14
+Último 20 % 2.28 0.27 8.54
+100 % Total 11.38 0.27 42.68
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 10255 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional previo a la falla, mediante las
+centrales Rapel (U1 y U2), El Toro (U1, U2, U3 y U4), Cipreses (U1), Ralco (U1), Colbún (U2),
+Angostura (U2) y Candelaria (U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 16 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 16 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del Movimiento de Centrales e Informe Diario del CDC para el día
+16 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 16 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada. Lo anterior implica que:
+o S/E Pelequén se encontraba alimentada radialmente desde S/E Malloa Nueva, con el
+desconectador de la línea 66 kV San Fernando - Pelequén normalmente abierto.
+o S/E Rengo se encontraba alimentada radialmente desde S/E Pelequén, con el interruptor
+52B2 de S/E Rosario abierto.
+Otros antecedentes relevantes
+Según lo indicado por la empresa CGE Transmisión S.A.:
+“El día 16 de agosto del 2024 a las 13:55 horas se produce la apertura del interruptor 52B4 de SE
+Malloa Nueva por una falla en zona 2. El centro de operaciones de transmisión (COT) informa la
+operación por protecciones del interruptor 52B4 y la desconexión de la L Malloa Nueva – Pelequén.
+Una vez informado el evento y analizados los registros del evento, se determina que este se produjo
+por la reposición de los termomagnético correspondientes a los TP de la barra de 66kV asociada al
+transformador N°2.
+A las 14:11 horas del día del evento se procede a realizar las maniobras de recuperación del sistema,
+cerrando el interruptor 52B4 y normalizando la topología de la zona.”
+Acciones preventivas y/o correctivas
+a) La instalación afectada no cuenta con un plan de acción en curso.

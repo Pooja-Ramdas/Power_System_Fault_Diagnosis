@@ -1,0 +1,205 @@
+Estudio para análisis de falla EAF 352/2024
+“Desconexión forzada de la línea 66 kV Central PE Los Buenos Aires - Negrete”
+Fecha de Emisión: 23-08-2024
+1. Descripción pormenorizada de la perturbación
+a. Fecha y Hora de la falla
+Fecha 01/08/2024
+Hora 13:07
+Consumos desconectados (MW) 29.19
+Demanda previa del sistema (MW) 11303.1
+Porcentaje de desconexión 0.258 %
+Calificación Apagón No aplica (porcentaje de desconexión < 10%)
+b. Identificación instalación afectada
+Nombre de la instalación Línea 66 kV Central Parque Eólico Buenos Aires - Negrete / LT298CI1TR04--
+--T0058
+Tipo de instalación Línea
+Tensión nominal 66 kV
+Segmento Transmisión zonal
+Propietario instalación afectada CGE Transmisión S.A.
+RUT 77.465.741-K
+Representante Legal Iván Quezada Escobar
+Dirección Av. Presidente Riesco N°5561 piso 14, Las Condes.
+c. Identificación del elemento fallado
+Nombre del elemento afectado Paño B2 de S/E Central Parque Eólico Los Buenos Aires /
+PA002G0292SE009G0292
+Propietario elemento fallado Enel Green Power Chile S.A.
+RUT 76.412.562-2
+Representante Legal Ali Shakhtur (*)
+Dirección Av. Santa Rosa #76, Santiago.
+(*) Corresponde al Gerente de General de la empresa según los datos informados en la plataforma REUC del Coordinador.
+d.1 Origen y causa de la falla
+Se produjo la desconexión forzada de la línea 66 kV Central Parque Eólico Los Buenos Aires - Negrete,
+como consecuencia de la apertura automática del interruptor 52B2 de S/E Central Parque Eólico Los
+Buenos Aires.
+La empresa Enel Green Power Chile S.A. indica que la causa de la operación coincide con una falla
+transitoria ocurrida en la línea 154 kV Charrúa - Los Ángeles, cuyas protecciones de su extremo
+Charrúa reconectaron de forma exitosa la mencionada línea.
+d.2 Fenómeno Físico:
+OPE6: Fallas en instalaciones de terceros u en otro segmento.
+d.3 Reiteración:
+Reiteración Fenómeno Físico en la instalación afectada: Esta instalación no ha sido afectada por el
+mismo fenómeno físico, durante los últimos 24 meses móviles.
+Reiteración Fenómeno Físico en instalaciones del mismo propietario: No se han producido fallas en
+instalaciones del mismo propietario con el mismo fenómeno físico, durante los últimos 24 meses
+móviles.
+Cantidad de fallas (sin importar Fenómeno Físico) en la misma instalación: No se ha producido fallas
+en la misma instalación afectada, durante los últimos 24 meses móviles.
+d.4 Fenómeno eléctrico
+BA27: Bajo voltaje.
+e. Detalles de la instalación, equipo o elemento donde se produjo la falla
+El elemento donde se produjo la desconexión forzada de la línea 66 kV Central Parque Eólico Los
+Buenos Aires - Negrete, corresponde los sistemas de protección asociados al paño B2 de S/E Central
+Parque Eólico Los Buenos Aires, los cuales corresponden a dos relés SEL-311L, que fueron puestos en
+servicio el año 2016 según la información almacenada en la plataforma Infotecnica del Coordinador.
+Al respecto, la empresa Enel Green Power Chile S.A. no remite antecedentes correspondientes a los
+mantenimientos realizados a estos equipos durante los últimos 24 meses.
+f. Ubicación urbana o rural según DS 327/1997
+No fue informado por la empresa Frontel S.A.
+g. Proposición del propietario respecto del origen de la falla
+La empresa Enel Green Power Chile S.A. en su Informe de Falla de 48 horas indica origen “Externo”.
+h. Comuna donde se presenta la falla
+08301: Los Ángeles.
+i. Fecha de entrega de la información al Coordinador
+Informe de 48 horas Informe de 5 días
+Coordinado
+(03-08-2024) (08-08-2024)
+CGE Transmisión S.A. 02-08-2024 No enviado
+Enel Green Power Chile S.A. 01-08-2024 No enviado
+Sistema de Transmisión del Sur S.A. (STS S.A.) 04-08-2024 16-08-2024
+Empresa Eléctrica de la Frontera S.A. (Frontel S.A.) 20-08-2024 No enviado
+Empresa de los Ferrocarriles del Estado (EFE) No enviado No enviado
+Vientos de Renaico SpA 08-08-2024 No enviado
+WPD Negrete SpA 02-08-2024 07-08-2024
+2. Descripción del equipamiento afectado
+a. Sistema de Generación
+Central Unidad Pérdida de Generación (MW) Hora Desc. Hora Norm.
+PE Negrete - 25.00 13:07 13:25
+PE La Flor - 23.00 13:07 13:18
+Total: 48.00 MW
+- Los horarios señalados corresponden a lo informado por las empresas WPD Negrete SpA, Vientos de Renaico SpA y la información
+almacenada en el registro histórico del SITR del Coordinador.
+b. Sistema de Transmisión
+Elemento Afectado Segmento Tramo Hora Desc. Hora Norm.
+LT 66 kV PE Los Buenos Aires - Negrete ST Zonal - 13:07 13:18
+- Los horarios señalados corresponden a lo informado por la empresa STS S.A.
+c. Consumos
+Sub-Estación Alimentador/ Comuna Pérdida de % Clientes H. H. H.
+Paño Consumo consumo Afectados Desc. Dispon. Norm.
+(MW) pre-falla
+S/E Nahuelbuta Roblería / C1 Renaico 1.38 0.012 3417 13:07 13:18 13:18
+S/E Nahuelbuta Parronal / C2 Renaico y Angol 0.61 0.005 1081 13:07 13:18 13:18
+S/E Negrete Renaico / E3 Negrete y Renaico 0.61 0.005 1715 13:07 13:18 13:18
+Los Ángeles,
+S/E Negrete Nacimiento / E2 5.45 0.048 12233 13:07 13:18 13:18
+Nacimiento y Negrete
+S/E Negrete Mulchén / E1 Mulchén y Negrete 0.00 0.000 2626 13:07 13:18 13:18
+Contulmo, Los
+S/E Los Sauces Purén / E1 Sauces, Lumaco y 3.06 0.027 5586 13:07 13:18 13:18
+Purén
+Bosques Cautín
+S/E Los Sauces Los Sauces 0.02 0.000 1 13:07 13:18 13:18
+/ E2
+Tirúa, Nacimiento,
+Angol, Los Sauces,
+S/E Los Sauces Lumaco / E3 1.06 0.009 6178 13:07 13:18 13:18
+Lumaco, Purén y
+Traiguén
+S/E Collipulli NI NI 4.00 0.035 NI 13:07 13:18 13:18
+S/E Angol NI NI 13.00 0.115 NI 13:07 13:18 13:18
+Total: 29.19 MW 0.258% >32837
+- Los montos y horarios señalados corresponden a lo informado por la empresa STS S.A. y el registro histórico almacenado en el
+SITR del Coordinador.
+NI: No fue informado por parte de la empresa Frontel S.A.
+3. Estimación de la energía no suministrada
+Sub-Estación Alimentador/ Empresa Tipo de Pérdida de Tiempo Tiempo ENS
+Paño Cliente Consumo (MW) Indispon. (h) Desc. (h) (MWh)
+S/E Nahuelbuta Roblería / C1 FRONTEL Regulado 1.38 0.18 0.18 0.3
+S/E Nahuelbuta Parronal / C2 FRONTEL Regulado 0.61 0.18 0.18 0.1
+S/E Negrete Renaico / E3 FRONTEL Regulado 0.61 0.18 0.18 0.1
+S/E Negrete Nacimiento / E2 FRONTEL Regulado 5.45 0.18 0.18 1.0
+S/E Negrete Mulchén / E1 FRONTEL Regulado 0.00 0.18 0.18 0.0
+S/E Los Sauces Purén / E1 FRONTEL Regulado 3.06 0.18 0.18 0.6
+S/E Los Sauces Bosques Cautín / E2 FRONTEL Regulado 0.02 0.18 0.18 0.0
+S/E Los Sauces Lumaco / E3 FRONTEL Regulado 1.06 0.18 0.18 0.2
+S/E Collipulli NI FRONTEL Regulado 4.00 0.18 0.18 0,7
+S/E Angol NI FRONTEL Regulado 13.00 0.18 0.18 2.4
+Clientes Regulados : 5.4 MWh
+Clientes Libres : MWh
+Total : 5.4 MWh
+- Los montos y horarios señalados corresponden a lo informado por la empresa STS S.A. y el registro histórico almacenado en el
+SITR del Coordinador.
+- Curva de recuperación esperada v/s recuperación real.
+No se aprecian diferencias entre los horarios de recuperación esperada y recuperación real para
+los consumos afectados.
+- Velocidad promedio de recuperación.
+Velocidad de
+Potencia Tiempo
+Rango recuperación
+(MW) recuperación (h)
+(MW/h)
+Primer 80 % 23.35 0.18 127.37
+Último 20 % 5.84 0.18 31.84
+100 % Total 29.19 0.18 159.22
+14:24
+12:00
+09:36
+07:12
+04:48
+02:24
+00:00
+1133::1188
+5%
+1133::1188
+7%
+1133::1188
+9%
+1133::1188 1133::1188
+28% 28%
+Recuperación real
+1133::1188 1133::1188
+38% 38%
+Recuperación esperada
+1133::1188
+42%
+1133::1188
+55%
+1133::1188
+100%
+4. Descripción de las configuraciones en los momentos previo y posterior a la falla
+Demanda del sistema previo a la falla: 11303.1 MW
+Regulación de Frecuencia
+Control distribuido de frecuencia en el Sistema Eléctrico Nacional, previo a la falla, mediante las
+centrales Angostura (U2 y U3), Colbún (U1 y U2), El Toro (U1, U2, U3 y U4), Nueva Renca y Ralco
+(U1).
+Operación Programada
+En Anexo Nº1 se adjunta el detalle de la generación programada para el día 01 de agosto de 2024.
+Operación Real
+En Anexo Nº2 se adjunta el detalle de la generación real del día 01 de agosto de 2024.
+Movimiento de centrales e informe diario del CDC
+En Anexo Nº3 se presenta el detalle del movimiento de centrales e informe diario del CDC para el día
+01 de agosto de 2024.
+Mantenimientos
+En Anexo Nº4 se presenta el detalle de los mantenimientos programados y forzados para el día 01 de
+agosto de 2024.
+Estado y configuración previo a la falla
+Las instalaciones de transmisión se encontraban en servicio normal en los momentos previos a la
+desconexión forzada, con las siguientes particularidades:
+• La línea 66 kV Victoria - Collipulli se encontraba abierta, producto de una falla previa.
+• El transformador N°1 66/23 kV de S/E Deuco se encontraba fuera de servicio, producto de una falla
+previa.
+• El interruptor 52B2 de S/E Negrete, correspondiente a la línea 66 kV Negrete - Nahuelbuta, se
+encontraba cerrado.
+• Las SS/EE Negrete, Angol, Collipulli, Los Sauces, Nahuelbuta y Renaico (FFCC) se encontraban
+alimentadas desde la línea 66 kV Central Parque Eólico Los Buenos Aires - Negrete.
+• Las centrales PE La Esperanza, Picoiquén, Renaico y Alto Renaico se encontraban fuera de servicio.
+Otros antecedentes relevantes
+Según lo informado por la empresa CGE Transmisión S.A.:
+“Operación con reconexión automática exitosa de interruptor 52A9 S/E Charrúa, correspondiente a LT
+154 KV Charrúa-Los Ángeles”.
+Según lo informado por la empresa Enel Green Power Chile S.A.:
+“Interrupción por protecciones 52B2, causa reconexión exitosa línea 154kV Los Ángeles - Charrúa, se
+realiza el cierre de 52B2 en coordinación con CGE, parque Eólico LBA no se ve afectado en esta
+oportunidad”.
+Según lo informado por la empresa STS S.A.:
+“Durante el evento en análisis no operaron ni debieron operar equipos de protección propiedad de
+Sistema de Transmisión del Sur S.A.”.

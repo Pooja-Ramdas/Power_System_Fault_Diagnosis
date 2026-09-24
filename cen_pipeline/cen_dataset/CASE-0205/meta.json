@@ -1,0 +1,23 @@
+{
+  "eaf_id": "EAF-0404-2024",
+  "eaf_num": 404,
+  "year": 2024,
+  "description": "Falla en línea 66 kV Los Maquis – Hualañé",
+  "date": "02-08-2024",
+  "time": "22:58",
+  "pdf_url": "https://www.coordinador.cl/wp-content/uploads/2024/08/EAF-404-2024.pdf",
+  "case_id": "CASE-0205",
+  "event_datetime": "2024-08-02T22:58:00",
+  "fault_label": "line_fault",
+  "telemetry_available": true,
+  "diagram_source": "official_archive_pending_conversion",
+  "image_is_real_infotecnica": false,
+  "pending_conversion_metadata": {
+    "tipo": null,
+    "installation_id": null,
+    "document_id": null,
+    "filename": null,
+    "extension": ".rar"
+  },
+  "pending_conversion_path": null
+}
