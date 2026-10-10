@@ -1,0 +1,9 @@
+{
+  "image_text": 0.5,
+  "telemetry": 0.5,
+  "val_macro_f1": 0.7577116962962052,
+  "fully_developed_cases": 1048,
+  "train_cases": 733,
+  "validation_cases": 157,
+  "test_cases": 158
+}

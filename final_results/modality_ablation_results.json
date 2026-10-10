@@ -1,0 +1,74 @@
+[
+  {
+    "Configuration": "Telemetry Only (1 modality)",
+    "Modalities": "Telemetry",
+    "Accuracy": 0.35443037974683544,
+    "Macro-F1": 0.3184382206196805,
+    "Weighted-F1": 0.38110642602358846,
+    "Type": "Unimodal"
+  },
+  {
+    "Configuration": "Image Only (1 modality)",
+    "Modalities": "Image",
+    "Accuracy": 0.6582278481012658,
+    "Macro-F1": 0.4799887089531938,
+    "Weighted-F1": 0.6470944229061779,
+    "Type": "Unimodal"
+  },
+  {
+    "Configuration": "Text Only (1 modality)",
+    "Modalities": "Text",
+    "Accuracy": 0.7658227848101266,
+    "Macro-F1": 0.7067903076601714,
+    "Weighted-F1": 0.7727083002029562,
+    "Type": "Unimodal"
+  },
+  {
+    "Configuration": "Image + Telemetry (Leave out Text)",
+    "Modalities": "Image + Telemetry",
+    "Accuracy": 0.620253164556962,
+    "Macro-F1": 0.4671802156177156,
+    "Weighted-F1": 0.6374523287893541,
+    "Type": "Bimodal"
+  },
+  {
+    "Configuration": "Text + Telemetry (Leave out Image)",
+    "Modalities": "Text + Telemetry",
+    "Accuracy": 0.8291139240506329,
+    "Macro-F1": 0.7669404091620784,
+    "Weighted-F1": 0.8245924346216005,
+    "Type": "Bimodal"
+  },
+  {
+    "Configuration": "Image + Text (Leave out Telemetry)",
+    "Modalities": "Image + Text",
+    "Accuracy": 0.8417721518987342,
+    "Macro-F1": 0.760908469047456,
+    "Weighted-F1": 0.8441976137931907,
+    "Type": "Bimodal"
+  },
+  {
+    "Configuration": "Early Fusion (All 3 Modalities - Feature Level)",
+    "Modalities": "Image + Text + Telemetry",
+    "Accuracy": 0.879746835443038,
+    "Macro-F1": 0.8220405252930483,
+    "Weighted-F1": 0.8816859374094947,
+    "Type": "Trimodal Full"
+  },
+  {
+    "Configuration": "Hybrid Fusion (All 3 Modalities - Image+Text + Tel)",
+    "Modalities": "Image + Text + Telemetry",
+    "Accuracy": 0.8227848101265823,
+    "Macro-F1": 0.7302883855154965,
+    "Weighted-F1": 0.8240522091850214,
+    "Type": "Trimodal Full"
+  },
+  {
+    "Configuration": "Late Fusion (All 3 Modalities - Decision Level)",
+    "Modalities": "Image + Text + Telemetry",
+    "Accuracy": 0.8354430379746836,
+    "Macro-F1": 0.7651359814762507,
+    "Weighted-F1": 0.8384097542604275,
+    "Type": "Trimodal Full"
+  }
+]

@@ -141,9 +141,15 @@ def main():
         action="store_true",
         help="Ignore the completeness cache and re-check every case folder.",
     )
+    parser.add_argument(
+        "--seed",
+        type=int,
+        default=42,
+        help="Random seed for reproducibility.",
+    )
     args = parser.parse_args()
 
-    du.set_seed()
+    du.set_seed(args.seed)
 
     import torch
     from torch.utils.data import DataLoader, TensorDataset
@@ -166,7 +172,7 @@ def main():
 
     print(f"[hybrid_fusion] fully-developed cases available: {len(cases)}")
 
-    train_cases, val_cases, test_cases = du.stratified_case_split(cases)
+    train_cases, val_cases, test_cases = du.stratified_case_split(cases, seed=args.seed)
     weights = du.class_weights(train_cases)
     class_to_idx = {c: i for i, c in enumerate(du.FAULT_CLASSES)}
 

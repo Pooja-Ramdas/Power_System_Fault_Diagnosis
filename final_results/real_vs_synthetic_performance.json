@@ -1,0 +1,30 @@
+[
+  {
+    "Subset": "Actual CEN Data (Official PDF)",
+    "N": 63,
+    "Accuracy": 0.873015873015873,
+    "Macro-F1": 0.8126644597232833,
+    "Weighted-F1": 0.8763976971259884
+  },
+  {
+    "Subset": "Topology Rendered / Synthetic Fallback",
+    "N": 95,
+    "Accuracy": 0.8842105263157894,
+    "Macro-F1": 0.8316175053017159,
+    "Weighted-F1": 0.8851383519527564
+  },
+  {
+    "Subset": "Pure Synthetic Fallback (Only)",
+    "N": 25,
+    "Accuracy": 0.88,
+    "Macro-F1": 0.811607142857143,
+    "Weighted-F1": 0.8845714285714286
+  },
+  {
+    "Subset": "All Test Cases Combined",
+    "N": 158,
+    "Accuracy": 0.879746835443038,
+    "Macro-F1": 0.8220405252930483,
+    "Weighted-F1": 0.8816859374094947
+  }
+]

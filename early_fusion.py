@@ -63,9 +63,10 @@ def main():
                               "instead of the fast TF-IDF default (needs internet + is slower).")
     parser.add_argument("--force-rescan", action="store_true",
                          help="Ignore the completeness cache and re-check every case folder.")
+    parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility.")
     args = parser.parse_args()
 
-    du.set_seed()
+    du.set_seed(args.seed)
     import torch
     from torch.utils.data import TensorDataset, DataLoader
 
@@ -76,7 +77,7 @@ def main():
         raise SystemExit(f"Only {len(cases)} fully-developed cases found -- need at least "
                           f"~20 to train anything meaningful. Let more cases finish processing.")
 
-    train_cases, val_cases, test_cases = du.stratified_case_split(cases)
+    train_cases, val_cases, test_cases = du.stratified_case_split(cases, seed=args.seed)
     weights = du.class_weights(train_cases)
     print(f"[early_fusion] class weights (train-set inverse frequency): {weights}")
 

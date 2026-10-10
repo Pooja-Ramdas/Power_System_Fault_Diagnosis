@@ -33,7 +33,7 @@ PDF_TEXT_MAX_PAGES = 6                  # stop before the raw SCADA/event-log an
 # QUALITY / BALANCE across fault types, not by an arbitrary byte ceiling.
 # Set to None to process every EAF report found in EAF_YEARS.
 TARGET_N_CASES = 1200
-DATASET_SIZE_HARD_CAP_MB = 2000         # safety net; the run stops if this is hit
+DATASET_SIZE_HARD_CAP_MB = 20000        # safety net; raised to 20 GB to accommodate full 1113 cases (~8.3 MB per telemetry.csv)
 
 # ---------------------------------------------------------------------------
 # Telemetry (numeric modality)

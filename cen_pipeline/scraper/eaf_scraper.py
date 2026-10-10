@@ -57,20 +57,29 @@ _session = new_session  # backwards-compat alias
 def _get_with_cf_retry(session, url, timeout=30):
     """GET that, on a Cloudflare 403, re-solves the challenge once (mutating
     `session`'s cookies/headers in place) and retries -- cf_clearance
-    cookies are time-limited, so a long run can hit this mid-way through."""
-    resp = session.get(url, timeout=timeout)
-    if resp.status_code == 403:
-        print(f"[eaf_scraper] got 403 on {url} -- re-solving Cloudflare challenge ...")
-        import config
-        from scraper.cf_bypass import get_cloudflare_cleared_session
-        fresh = get_cloudflare_cleared_session(
-            "https://www.coordinador.cl/",
-            version_main=getattr(config, "CHROME_MAJOR_VERSION", None),
-        )
-        session.cookies.update(fresh.cookies)
-        session.headers.update(fresh.headers)
-        resp = session.get(url, timeout=timeout)
-    return resp
+    cookies are time-limited, so a long run can hit this mid-way through.
+    Also retries on transient connection timeouts."""
+    for attempt in range(3):
+        try:
+            resp = session.get(url, timeout=timeout)
+            if resp.status_code == 403:
+                print(f"[eaf_scraper] got 403 on {url} -- re-solving Cloudflare challenge ...")
+                import config
+                from scraper.cf_bypass import get_cloudflare_cleared_session
+                fresh = get_cloudflare_cleared_session(
+                    "https://www.coordinador.cl/",
+                    version_main=getattr(config, "CHROME_MAJOR_VERSION", None),
+                )
+                session.cookies.update(fresh.cookies)
+                session.headers.update(fresh.headers)
+                resp = session.get(url, timeout=timeout)
+            return resp
+        except Exception as e:
+            if attempt < 2 and ("timeout" in str(e).lower() or "curl: (28)" in str(e) or "curl: (6)" in str(e)):
+                print(f"[eaf_scraper] transient network error on {url} ({e}); retrying in 3s (attempt {attempt+1}/3)...")
+                time.sleep(3)
+                continue
+            raise
 
 
 def list_eaf_entries(year, listing_url_template, max_pages=40, delay=1.0, session=None):

@@ -1,6 +1,14 @@
-.venv/ 
-__pycache__/ 
-*.pyc 
-.env 
+.venv/
+__pycache__/
+*.pyc
+.env
 .dist/
+
+# Dataset lives locally only — too large for GitHub (8+ GB)
 /cen_dataset
+cen_pipeline/cen_dataset/
+
+# Cache files generated at runtime
+cen_pipeline/cen_dataset/.completeness_cache.json
+cen_pipeline/cen_dataset/.image_features_cache.npz
+cen_pipeline/cen_dataset/.telemetry_cache.npz

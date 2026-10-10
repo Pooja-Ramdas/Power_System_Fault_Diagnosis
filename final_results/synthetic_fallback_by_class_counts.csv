@@ -1,0 +1,7 @@
+fault_label,Actual CEN Diagram (PDF),Official Archive (Pending Conversion / Topology Rendered),Pure Synthetic Fallback,Total
+breaker_fault,65,69,39,173
+busbar_fault,50,58,16,124
+line_fault,233,286,79,598
+other,11,21,5,37
+transformer_fault,55,95,31,181
+Total,414,529,170,1113

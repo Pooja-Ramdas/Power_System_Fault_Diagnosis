@@ -1,0 +1,77 @@
+{
+  "total_cases": 1113,
+  "overall": [
+    {
+      "Data Origin": "Official Archive (Pending Conversion / Topology Rendered)",
+      "Count": 529,
+      "Percentage": 47.52920035938904
+    },
+    {
+      "Data Origin": "Actual CEN Diagram (PDF)",
+      "Count": 414,
+      "Percentage": 37.19676549865229
+    },
+    {
+      "Data Origin": "Pure Synthetic Fallback",
+      "Count": 170,
+      "Percentage": 15.27403414195867
+    }
+  ],
+  "by_class_counts": {
+    "Actual CEN Diagram (PDF)": {
+      "breaker_fault": 65,
+      "busbar_fault": 50,
+      "line_fault": 233,
+      "other": 11,
+      "transformer_fault": 55,
+      "Total": 414
+    },
+    "Official Archive (Pending Conversion / Topology Rendered)": {
+      "breaker_fault": 69,
+      "busbar_fault": 58,
+      "line_fault": 286,
+      "other": 21,
+      "transformer_fault": 95,
+      "Total": 529
+    },
+    "Pure Synthetic Fallback": {
+      "breaker_fault": 39,
+      "busbar_fault": 16,
+      "line_fault": 79,
+      "other": 5,
+      "transformer_fault": 31,
+      "Total": 170
+    },
+    "Total": {
+      "breaker_fault": 173,
+      "busbar_fault": 124,
+      "line_fault": 598,
+      "other": 37,
+      "transformer_fault": 181,
+      "Total": 1113
+    }
+  },
+  "by_class_percentages": {
+    "Actual CEN Diagram (PDF)": {
+      "breaker_fault": 37.57225433526011,
+      "busbar_fault": 40.32258064516129,
+      "line_fault": 38.96321070234114,
+      "other": 29.72972972972973,
+      "transformer_fault": 30.386740331491712
+    },
+    "Official Archive (Pending Conversion / Topology Rendered)": {
+      "breaker_fault": 39.884393063583815,
+      "busbar_fault": 46.774193548387096,
+      "line_fault": 47.82608695652174,
+      "other": 56.75675675675676,
+      "transformer_fault": 52.48618784530387
+    },
+    "Pure Synthetic Fallback": {
+      "breaker_fault": 22.54335260115607,
+      "busbar_fault": 12.903225806451612,
+      "line_fault": 13.210702341137123,
+      "other": 13.513513513513514,
+      "transformer_fault": 17.12707182320442
+    }
+  }
+}

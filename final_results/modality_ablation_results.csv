@@ -1,0 +1,10 @@
+Configuration,Modalities,Accuracy,Macro-F1,Weighted-F1,Type
+Telemetry Only (1 modality),Telemetry,0.35443037974683544,0.3184382206196805,0.38110642602358846,Unimodal
+Image Only (1 modality),Image,0.6582278481012658,0.4799887089531938,0.6470944229061779,Unimodal
+Text Only (1 modality),Text,0.7658227848101266,0.7067903076601714,0.7727083002029562,Unimodal
+Image + Telemetry (Leave out Text),Image + Telemetry,0.620253164556962,0.4671802156177156,0.6374523287893541,Bimodal
+Text + Telemetry (Leave out Image),Text + Telemetry,0.8291139240506329,0.7669404091620784,0.8245924346216005,Bimodal
+Image + Text (Leave out Telemetry),Image + Text,0.8417721518987342,0.760908469047456,0.8441976137931907,Bimodal
+Early Fusion (All 3 Modalities - Feature Level),Image + Text + Telemetry,0.879746835443038,0.8220405252930483,0.8816859374094947,Trimodal Full
+Hybrid Fusion (All 3 Modalities - Image+Text + Tel),Image + Text + Telemetry,0.8227848101265823,0.7302883855154965,0.8240522091850214,Trimodal Full
+Late Fusion (All 3 Modalities - Decision Level),Image + Text + Telemetry,0.8354430379746836,0.7651359814762507,0.8384097542604275,Trimodal Full
