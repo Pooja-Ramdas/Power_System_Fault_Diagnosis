@@ -2,7 +2,7 @@
   {
     "case_id": "CASE-0002",
     "true_class": "busbar_fault",
-    "display_class": "OVERHEATING/OVERLOAD",
+    "display_class": "BUSBAR FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0002",
     "image_path": "cen_dataset\\CASE-0002\\image.png",
@@ -14,7 +14,7 @@
   {
     "case_id": "CASE-0037",
     "true_class": "busbar_fault",
-    "display_class": "OVERHEATING/OVERLOAD",
+    "display_class": "BUSBAR FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0037",
     "image_path": "cen_dataset\\CASE-0037\\image.png",
@@ -26,7 +26,7 @@
   {
     "case_id": "CASE-0045",
     "true_class": "busbar_fault",
-    "display_class": "OVERHEATING/OVERLOAD",
+    "display_class": "BUSBAR FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0045",
     "image_path": "cen_dataset\\CASE-0045\\image.png",
@@ -38,7 +38,7 @@
   {
     "case_id": "CASE-0069",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0069",
     "image_path": "cen_dataset\\CASE-0069\\image.png",
@@ -50,7 +50,7 @@
   {
     "case_id": "CASE-0151",
     "true_class": "breaker_fault",
-    "display_class": "OPEN CIRCUIT",
+    "display_class": "BREAKER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0151",
     "image_path": "cen_dataset\\CASE-0151\\image.png",
@@ -62,7 +62,7 @@
   {
     "case_id": "CASE-0163",
     "true_class": "transformer_fault",
-    "display_class": "EQUIPMENT FAULT",
+    "display_class": "TRANSFORMER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0163",
     "image_path": "cen_dataset\\CASE-0163\\image.png",
@@ -74,7 +74,7 @@
   {
     "case_id": "CASE-0201",
     "true_class": "breaker_fault",
-    "display_class": "OPEN CIRCUIT",
+    "display_class": "BREAKER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0201",
     "image_path": "cen_dataset\\CASE-0201\\image.png",
@@ -86,7 +86,7 @@
   {
     "case_id": "CASE-0231",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0231",
     "image_path": "cen_dataset\\CASE-0231\\image.png",
@@ -98,7 +98,7 @@
   {
     "case_id": "CASE-0262",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0262",
     "image_path": "cen_dataset\\CASE-0262\\image.png",
@@ -110,7 +110,7 @@
   {
     "case_id": "CASE-0282",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0282",
     "image_path": "cen_dataset\\CASE-0282\\image.png",
@@ -122,7 +122,7 @@
   {
     "case_id": "CASE-0306",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0306",
     "image_path": "cen_dataset\\CASE-0306\\image.png",
@@ -134,7 +134,7 @@
   {
     "case_id": "CASE-0309",
     "true_class": "breaker_fault",
-    "display_class": "OPEN CIRCUIT",
+    "display_class": "BREAKER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0309",
     "image_path": "cen_dataset\\CASE-0309\\image.png",
@@ -146,7 +146,7 @@
   {
     "case_id": "CASE-0322",
     "true_class": "breaker_fault",
-    "display_class": "OPEN CIRCUIT",
+    "display_class": "BREAKER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0322",
     "image_path": "cen_dataset\\CASE-0322\\image.png",
@@ -158,7 +158,7 @@
   {
     "case_id": "CASE-0333",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0333",
     "image_path": "cen_dataset\\CASE-0333\\image.png",
@@ -170,7 +170,7 @@
   {
     "case_id": "CASE-0342",
     "true_class": "breaker_fault",
-    "display_class": "OPEN CIRCUIT",
+    "display_class": "BREAKER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0342",
     "image_path": "cen_dataset\\CASE-0342\\image.png",
@@ -182,7 +182,7 @@
   {
     "case_id": "CASE-0390",
     "true_class": "busbar_fault",
-    "display_class": "OVERHEATING/OVERLOAD",
+    "display_class": "BUSBAR FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0390",
     "image_path": "cen_dataset\\CASE-0390\\image.png",
@@ -194,7 +194,7 @@
   {
     "case_id": "CASE-0464",
     "true_class": "breaker_fault",
-    "display_class": "OPEN CIRCUIT",
+    "display_class": "BREAKER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0464",
     "image_path": "cen_dataset\\CASE-0464\\image.png",
@@ -206,7 +206,7 @@
   {
     "case_id": "CASE-0497",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0497",
     "image_path": "cen_dataset\\CASE-0497\\image.png",
@@ -218,7 +218,7 @@
   {
     "case_id": "CASE-0523",
     "true_class": "transformer_fault",
-    "display_class": "EQUIPMENT FAULT",
+    "display_class": "TRANSFORMER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0523",
     "image_path": "cen_dataset\\CASE-0523\\image.png",
@@ -230,7 +230,7 @@
   {
     "case_id": "CASE-0526",
     "true_class": "transformer_fault",
-    "display_class": "EQUIPMENT FAULT",
+    "display_class": "TRANSFORMER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0526",
     "image_path": "cen_dataset\\CASE-0526\\image.png",
@@ -242,7 +242,7 @@
   {
     "case_id": "CASE-0539",
     "true_class": "transformer_fault",
-    "display_class": "EQUIPMENT FAULT",
+    "display_class": "TRANSFORMER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0539",
     "image_path": "cen_dataset\\CASE-0539\\image.png",
@@ -254,7 +254,7 @@
   {
     "case_id": "CASE-0604",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0604",
     "image_path": "cen_dataset\\CASE-0604\\image.png",
@@ -266,7 +266,7 @@
   {
     "case_id": "CASE-0616",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0616",
     "image_path": "cen_dataset\\CASE-0616\\image.png",
@@ -278,7 +278,7 @@
   {
     "case_id": "CASE-0622",
     "true_class": "transformer_fault",
-    "display_class": "EQUIPMENT FAULT",
+    "display_class": "TRANSFORMER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0622",
     "image_path": "cen_dataset\\CASE-0622\\image.png",
@@ -290,7 +290,7 @@
   {
     "case_id": "CASE-0625",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0625",
     "image_path": "cen_dataset\\CASE-0625\\image.png",
@@ -302,7 +302,7 @@
   {
     "case_id": "CASE-0651",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0651",
     "image_path": "cen_dataset\\CASE-0651\\image.png",
@@ -314,7 +314,7 @@
   {
     "case_id": "CASE-0700",
     "true_class": "transformer_fault",
-    "display_class": "EQUIPMENT FAULT",
+    "display_class": "TRANSFORMER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0700",
     "image_path": "cen_dataset\\CASE-0700\\image.png",
@@ -326,7 +326,7 @@
   {
     "case_id": "CASE-0734",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0734",
     "image_path": "cen_dataset\\CASE-0734\\image.png",
@@ -338,7 +338,7 @@
   {
     "case_id": "CASE-0740",
     "true_class": "transformer_fault",
-    "display_class": "EQUIPMENT FAULT",
+    "display_class": "TRANSFORMER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0740",
     "image_path": "cen_dataset\\CASE-0740\\image.png",
@@ -350,7 +350,7 @@
   {
     "case_id": "CASE-0752",
     "true_class": "transformer_fault",
-    "display_class": "EQUIPMENT FAULT",
+    "display_class": "TRANSFORMER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0752",
     "image_path": "cen_dataset\\CASE-0752\\image.png",
@@ -362,7 +362,7 @@
   {
     "case_id": "CASE-0761",
     "true_class": "busbar_fault",
-    "display_class": "OVERHEATING/OVERLOAD",
+    "display_class": "BUSBAR FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0761",
     "image_path": "cen_dataset\\CASE-0761\\image.png",
@@ -374,7 +374,7 @@
   {
     "case_id": "CASE-0814",
     "true_class": "breaker_fault",
-    "display_class": "OPEN CIRCUIT",
+    "display_class": "BREAKER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0814",
     "image_path": "cen_dataset\\CASE-0814\\image.png",
@@ -386,7 +386,7 @@
   {
     "case_id": "CASE-0949",
     "true_class": "breaker_fault",
-    "display_class": "OPEN CIRCUIT",
+    "display_class": "BREAKER FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0949",
     "image_path": "cen_dataset\\CASE-0949\\image.png",
@@ -398,7 +398,7 @@
   {
     "case_id": "CASE-0953",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0953",
     "image_path": "cen_dataset\\CASE-0953\\image.png",
@@ -410,7 +410,7 @@
   {
     "case_id": "CASE-0974",
     "true_class": "busbar_fault",
-    "display_class": "OVERHEATING/OVERLOAD",
+    "display_class": "BUSBAR FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0974",
     "image_path": "cen_dataset\\CASE-0974\\image.png",
@@ -422,7 +422,7 @@
   {
     "case_id": "CASE-0996",
     "true_class": "busbar_fault",
-    "display_class": "OVERHEATING/OVERLOAD",
+    "display_class": "BUSBAR FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-0996",
     "image_path": "cen_dataset\\CASE-0996\\image.png",
@@ -434,7 +434,7 @@
   {
     "case_id": "CASE-1003",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-1003",
     "image_path": "cen_dataset\\CASE-1003\\image.png",
@@ -446,7 +446,7 @@
   {
     "case_id": "CASE-1006",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-1006",
     "image_path": "cen_dataset\\CASE-1006\\image.png",
@@ -458,7 +458,7 @@
   {
     "case_id": "CASE-1051",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-1051",
     "image_path": "cen_dataset\\CASE-1051\\image.png",
@@ -470,7 +470,7 @@
   {
     "case_id": "CASE-1066",
     "true_class": "line_fault",
-    "display_class": "SHORT CIRCUIT",
+    "display_class": "LINE FAULT",
     "element_name": "Grid Asset",
     "case_dir": "cen_dataset\\CASE-1066",
     "image_path": "cen_dataset\\CASE-1066\\image.png",

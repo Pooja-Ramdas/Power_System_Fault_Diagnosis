@@ -31,10 +31,10 @@
   --nexus:     #8fa8ff;
 
   /* Fault class colors */
-  --fault-sc:  #ff4d6d;   /* SHORT CIRCUIT     = line_fault */
-  --fault-oc:  #ffb347;   /* OPEN CIRCUIT      = breaker_fault */
-  --fault-ef:  #c77dff;   /* EQUIPMENT FAULT   = transformer_fault */
-  --fault-oo:  #ff7b3a;   /* OVERHEATING/OVL   = busbar_fault */
+  --fault-sc:  #ff4d6d;   /* LINE FAULT     = line_fault */
+  --fault-oc:  #ffb347;   /* BREAKER FAULT      = breaker_fault */
+  --fault-ef:  #c77dff;   /* TRANSFORMER FAULT   = transformer_fault */
+  --fault-oo:  #ff7b3a;   /* BUSBAR FAULT   = busbar_fault */
 
   /* Modality colors */
   --mod-d: #38e8ff;  /* Diagram */
@@ -497,18 +497,29 @@ body {
   background: var(--bg-1);
 }
 .dock-tab {
+  font-family: inherit;
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--text-dim);
-  padding: 6px 12px;
+  color: var(--text-dim) !important;
+  background: var(--bg-1) !important;
+  border: none !important;
+  border-bottom: 2px solid transparent !important;
+  padding: 6px 14px;
   cursor: pointer;
-  border-bottom: 2px solid transparent;
-  transition: all 0.15s;
+  outline: none !important;
+  transition: all 0.15s ease;
 }
-.dock-tab.active { color: var(--text-live); border-bottom-color: var(--conflux); }
-.dock-tab:hover:not(.active) { color: var(--text-sec); }
+.dock-tab.active {
+  color: var(--text-live) !important;
+  background: var(--bg-2) !important;
+  border-bottom-color: var(--conflux) !important;
+}
+.dock-tab:hover:not(.active) {
+  color: var(--text-pri) !important;
+  background: var(--bg-2) !important;
+}
 
 .dock-content {
   flex: 1;

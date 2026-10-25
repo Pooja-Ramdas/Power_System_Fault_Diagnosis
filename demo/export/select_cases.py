@@ -24,10 +24,10 @@ from demo.export.load_models import load
 
 # Fault class mapping
 CLASS_MAP = {
-    "line_fault": {"display": "SHORT CIRCUIT", "sub": "Transmission Line Fault"},
-    "breaker_fault": {"display": "OPEN CIRCUIT", "sub": "Breaker / Switchgear Fault"},
-    "transformer_fault": {"display": "EQUIPMENT FAULT", "sub": "Power Transformer Fault"},
-    "busbar_fault": {"display": "OVERHEATING/OVERLOAD", "sub": "Busbar Section Overload"},
+    "line_fault": {"display": "LINE FAULT", "sub": "Transmission Line Fault"},
+    "breaker_fault": {"display": "BREAKER FAULT", "sub": "Breaker / Switchgear Fault"},
+    "transformer_fault": {"display": "TRANSFORMER FAULT", "sub": "Power Transformer Fault"},
+    "busbar_fault": {"display": "BUSBAR FAULT", "sub": "Busbar Section Overload"},
 }
 
 def main():

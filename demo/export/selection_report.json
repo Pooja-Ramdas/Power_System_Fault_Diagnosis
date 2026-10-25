@@ -17,10 +17,10 @@
     "busbar_fault": 7
   },
   "display_names": {
-    "line_fault": "SHORT CIRCUIT",
-    "breaker_fault": "OPEN CIRCUIT",
-    "transformer_fault": "EQUIPMENT FAULT",
-    "busbar_fault": "OVERHEATING/OVERLOAD"
+    "line_fault": "LINE FAULT",
+    "breaker_fault": "BREAKER FAULT",
+    "transformer_fault": "TRANSFORMER FAULT",
+    "busbar_fault": "BUSBAR FAULT"
   },
   "model_performance_comparison": {
     "conflux": {

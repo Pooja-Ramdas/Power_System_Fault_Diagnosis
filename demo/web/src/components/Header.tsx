@@ -5,10 +5,10 @@ import type { FaultClass, ModelId } from '../schema'
 import type { ActiveMask } from '../hooks/useConsole'
 
 const CLASS_LABELS: Record<string, string> = {
-  line_fault:         'SHORT CIRCUIT [1]',
-  breaker_fault:      'OPEN CIRCUIT [2]',
-  transformer_fault:  'EQUIPMENT FAULT [3]',
-  busbar_fault:       'OVERHEATING/OVL [4]',
+  line_fault:         'LINE FAULT [1]',
+  breaker_fault:      'BREAKER FAULT [2]',
+  transformer_fault:  'TRANSFORMER FAULT [3]',
+  busbar_fault:       'BUSBAR FAULT [4]',
 }
 const CLASS_COLORS: Record<string, string> = {
   line_fault:        'var(--fault-sc)',

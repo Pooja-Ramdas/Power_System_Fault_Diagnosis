@@ -93,6 +93,9 @@ function reducer(state: ConsoleState, action: Action): ConsoleState {
     case 'RESET_TO_NOMINAL':
       return { ...state, phase: 'idle', results: initResults() }
     case 'CASE_LOADED':
+      if (state.selectedCase && action.data.id !== state.selectedCase.id) {
+        return state
+      }
       return { ...state, caseData: action.data, caseLoading: false }
     case 'CASE_ERR':
       return { ...state, caseLoading: false, errorMsg: action.msg }
@@ -173,10 +176,18 @@ export function useConsole() {
   // Load case when selected
   useEffect(() => {
     if (!state.selectedCase) return
+    let active = true
     fetchCase(state.selectedCase.id)
-      .then(data => dispatch({ type: 'CASE_LOADED', data }))
-      .catch(e => dispatch({ type: 'CASE_ERR', msg: String(e) }))
-  }, [state.selectedCase])
+      .then(data => {
+        if (active) dispatch({ type: 'CASE_LOADED', data })
+      })
+      .catch(e => {
+        if (active) dispatch({ type: 'CASE_ERR', msg: String(e) })
+      })
+    return () => {
+      active = false
+    }
+  }, [state.selectedCase?.id])
 
   // Derived: cases for selected class
   const casesForClass = state.index?.cases.filter(c => c.true_class === state.selectedClass) ?? []

@@ -20,10 +20,10 @@ const FAULT_COLORS: Record<string, string> = {
 }
 
 const FAULT_DISPLAY: Record<string, string> = {
-  line_fault:        'SHORT CIRCUIT',
-  breaker_fault:     'OPEN CIRCUIT',
-  transformer_fault: 'EQUIPMENT FAULT',
-  busbar_fault:      'OVERHEATING/OVL',
+  line_fault:        'LINE FAULT',
+  breaker_fault:     'BREAKER FAULT',
+  transformer_fault: 'TRANSFORMER FAULT',
+  busbar_fault:      'BUSBAR FAULT',
 }
 
 interface Props {
@@ -116,7 +116,8 @@ export default function DiagramStage({
     setPan({ x: 0, y: 0 })
   }, [])
 
-  const imgSrc = caseData
+  const isCaseReady = !!caseData && (!selectedCase || caseData.id === selectedCase.id) && !caseLoading
+  const imgSrc = isCaseReady
     ? (hudMode ? caseData.image.hud : caseData.image.raw)
     : null
 
@@ -151,14 +152,14 @@ export default function DiagramStage({
       )}
 
       {/* Loading Spinner */}
-      {caseLoading && (
+      {(caseLoading || (selectedCase && (!caseData || caseData.id !== selectedCase.id))) && (
         <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <div className="spinner" />
         </div>
       )}
 
       {/* Diagram Canvas with Pan/Zoom Transform */}
-      {imgSrc && !caseLoading && (
+      {imgSrc && (
         <div
           className="diagram-container"
           style={{
@@ -322,7 +323,7 @@ export default function DiagramStage({
       </div>
 
       {/* Case Info & Controls Overlay */}
-      {caseData && (
+      {isCaseReady && (
         <div style={{
           position: 'absolute', bottom: 8, left: 8, right: 8,
           display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between',

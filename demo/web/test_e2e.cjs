@@ -50,7 +50,7 @@ async function run() {
     await page.goto('http://localhost:4173/?fast=1&api=http://127.0.0.1:9999');
     await page.waitForLoadState('networkidle');
 
-    // Select SHORT CIRCUIT and inject
+    // Select LINE FAULT and inject
     console.log('Injecting fault in cache-only fallback mode...');
     await page.click('button.inject-btn');
     
@@ -112,6 +112,9 @@ async function run() {
     console.log('ALL PLAYWRIGHT TESTS PASSED SUCCESSFULLY!');
     console.log('======================================');
 
+  } catch (err) {
+    console.error("E2E ERROR:", err);
+    process.exit(1);
   } finally {
     await browser.close();
     preview.kill();

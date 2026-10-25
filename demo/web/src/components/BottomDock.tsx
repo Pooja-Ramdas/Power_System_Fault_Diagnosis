@@ -146,7 +146,7 @@ function AblationView({ results }: { results: Record<ModelId, ModelResult> }) {
                 const abl = results[m].diagnose?.ablations?.[combo]
                 return [
                   <td key={`${m}-${combo}-pred`} style={{ fontSize: 8 }}>
-                    {abl?.display_pred?.substring(0, 10) ?? '—'}
+                    {abl?.display_pred ?? '—'}
                   </td>,
                   <td key={`${m}-${combo}-conf`}>
                     {abl ? `${(abl.conf * 100).toFixed(0)}%` : '—'}

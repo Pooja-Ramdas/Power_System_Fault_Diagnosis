@@ -307,10 +307,10 @@ def main():
             },
         ],
         "classes": [
-            {"id": "line_fault", "display": "SHORT CIRCUIT", "color": CLASS_COLORS["line_fault"], "key": "1"},
-            {"id": "breaker_fault", "display": "OPEN CIRCUIT", "color": CLASS_COLORS["breaker_fault"], "key": "2"},
-            {"id": "transformer_fault", "display": "EQUIPMENT FAULT", "color": CLASS_COLORS["transformer_fault"], "key": "3"},
-            {"id": "busbar_fault", "display": "OVERHEATING/OVERLOAD", "color": CLASS_COLORS["busbar_fault"], "key": "4"},
+            {"id": "line_fault", "display": "LINE FAULT", "color": CLASS_COLORS["line_fault"], "key": "1"},
+            {"id": "breaker_fault", "display": "BREAKER FAULT", "color": CLASS_COLORS["breaker_fault"], "key": "2"},
+            {"id": "transformer_fault", "display": "TRANSFORMER FAULT", "color": CLASS_COLORS["transformer_fault"], "key": "3"},
+            {"id": "busbar_fault", "display": "BUSBAR FAULT", "color": CLASS_COLORS["busbar_fault"], "key": "4"},
         ],
         "cases": index_cases,
     }

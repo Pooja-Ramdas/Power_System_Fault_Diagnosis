@@ -54,10 +54,10 @@ FAULT_CLASSES = [
 ]
 
 CLASS_DISPLAY = {
-    "line_fault": "SHORT CIRCUIT",
-    "breaker_fault": "OPEN CIRCUIT",
-    "transformer_fault": "EQUIPMENT FAULT",
-    "busbar_fault": "OVERHEATING/OVERLOAD",
+    "line_fault": "LINE FAULT",
+    "breaker_fault": "BREAKER FAULT",
+    "transformer_fault": "TRANSFORMER FAULT",
+    "busbar_fault": "BUSBAR FAULT",
 }
 
 MODALITY_LABELS = {
@@ -401,7 +401,7 @@ def build_narrative_lines(
     return lines
 
 
-def run_full_diagnosis(
+def _run_full_diagnosis_core(
     model_id: str,
     predictor: Any,
     case_input: Dict[str, torch.Tensor],
@@ -620,103 +620,40 @@ def _get_image_feat_for_case(case_id: str, root_dir: Path) -> torch.Tensor:
     return torch.zeros((1, 512), dtype=torch.float32)
 
 
-def run_full_diagnosis(
-    case_data: dict,
-    model_id: str,
-    mask: Sequence[str],
-    predictor: Any,
-) -> Dict[str, Any]:
+def run_full_diagnosis(*args, **kwargs) -> Dict[str, Any]:
     """
-    API-compatible wrapper for run_full_diagnosis.
-    Accepts a case_data dict (from JSON) instead of individual tensors.
-    Reconstructs tensors, calls the core function, and returns a flat result dict.
+    Unified entry point handling both:
+    1) Core invocation from build_demo_data.py:
+       run_full_diagnosis(model_id=..., predictor=..., case_input=..., true_class=..., element_name=..., report_text=..., vectorizer=..., mask=...)
+    2) API invocation from api/main.py:
+       run_full_diagnosis(case_data, model_id, mask, predictor)
     """
-    case_input = build_case_input_from_json(case_data)
-    true_class = case_data["true_class"]
-    element_name = case_data["element_name"]
-    active_text = case_input.pop("_active_text", "")
+    if "case_input" in kwargs or (len(args) >= 3 and isinstance(args[2], dict) and "image_feat" in args[2]):
+        return _run_full_diagnosis_core(*args, **kwargs)
+    elif len(args) >= 1 and isinstance(args[0], dict) and ("true_class" in args[0] or "id" in args[0]):
+        case_data = args[0]
+        model_id = args[1] if len(args) > 1 else kwargs.get("model_id")
+        mask = args[2] if len(args) > 2 else kwargs.get("mask", ("D", "T", "R"))
+        predictor = args[3] if len(args) > 3 else kwargs.get("predictor")
 
-    vectorizer = _get_vectorizer()
+        case_input = build_case_input_from_json(case_data)
+        true_class = case_data.get("true_class", "line_fault")
+        element_name = case_data.get("element_name", "")
+        active_text = case_input.pop("_active_text", "")
+        vectorizer = _get_vectorizer()
 
-    # Use the original internal run_full_diagnosis logic:
-    probs = predictor.predict(case_input, mask=mask)[0]
-    pred_idx = int(np.argmax(probs))
-    pred_class = FAULT_CLASSES[pred_idx]
-    confidence = float(probs[pred_idx])
-    correct = bool(pred_class == true_class)
-
-    # 1. Modality Shapley attribution & ablations
-    shapley_data = compute_shapley_contributions(predictor.predict, case_input, pred_idx)
-
-    # 2. Within-modality evidence
-    tel_importance = compute_telemetry_evidence(model_id, predictor, case_input, pred_idx)
-    top_words, word_scores = compute_report_evidence(
-        model_id, predictor, case_input, active_text, vectorizer, pred_idx
-    )
-
-    # 3. Model-specific architecture diagnostics
-    model_specific = {}
-    if model_id == "quorum":
-        specs = predictor.predict_specialists(case_input)
-        model_specific["specialists"] = {}
-        weights = predictor.config["combination_weights"]
-        for mod, mod_p in specs.items():
-            c_idx = int(np.argmax(mod_p[0]))
-            model_specific["specialists"][mod] = {
-                "pred": FAULT_CLASSES[c_idx],
-                "display_pred": CLASS_DISPLAY[FAULT_CLASSES[c_idx]],
-                "conf": round(float(mod_p[0][c_idx]), 4),
-                "weight": weights[mod],
-            }
-    elif model_id == "nexus":
-        branches = predictor.predict_branches(case_input, mask)
-        model_specific["branches"] = {}
-        weights = predictor.config["combination_weights"]
-        for b_name, b_p in branches.items():
-            c_idx = int(np.argmax(b_p[0]))
-            model_specific["branches"][b_name] = {
-                "pred": FAULT_CLASSES[c_idx],
-                "display_pred": CLASS_DISPLAY[FAULT_CLASSES[c_idx]],
-                "conf": round(float(b_p[0][c_idx]), 4),
-                "weight": weights[b_name],
-            }
-    elif model_id == "conflux":
-        model_specific["joint_dimension"] = 384
-        model_specific["note"] = "Early representation-level fusion via projected concatenation."
-
-    # 4. Grounded deterministic narrative
-    tw_raw = case_input["telemetry_window"][0].detach().cpu().numpy()
-    narrative = build_narrative_lines(
-        model_id=model_id,
-        true_class=true_class,
-        pred_class=pred_class,
-        confidence=confidence,
-        contrib=shapley_data["contrib"],
-        top_words=top_words,
-        telemetry_window=tw_raw,
-        element_name=element_name,
-        model_specific=model_specific,
-    )
-
-    return {
-        "prediction": {
-            "pred": pred_class,
-            "display_pred": CLASS_DISPLAY[pred_class],
-            "probs": {FAULT_CLASSES[i]: round(float(probs[i]), 4) for i in range(len(FAULT_CLASSES))},
-            "confidence": round(confidence, 4),
-            "correct": correct,
-        },
-        "explanation": {
-            "method": "Exact Shapley (Modality) + Gradient Attribution (Within-Modality)",
-            "contrib": shapley_data["contrib"],
-            "dominant": shapley_data["dominant"],
-            "narrative": narrative,
-        },
-        "ablations": shapley_data["ablations"],
-        "phi_raw": shapley_data["phi_raw"],
-        "model_specific": model_specific,
-    }
-
+        return _run_full_diagnosis_core(
+            model_id=model_id,
+            predictor=predictor,
+            case_input=case_input,
+            true_class=true_class,
+            element_name=element_name,
+            report_text=active_text,
+            vectorizer=vectorizer,
+            mask=mask,
+        )
+    else:
+        return _run_full_diagnosis_core(*args, **kwargs)
 
 def compute_full_evidence(
     case_data: dict,
