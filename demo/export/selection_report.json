@@ -1,0 +1,87 @@
+{
+  "curated_total": 40,
+  "target_range": "40-48",
+  "seed": 13,
+  "criteria": {
+    "source": "held-out test split (seed 42)",
+    "image_is_real_infotecnica": true,
+    "image_decodes": true,
+    "telemetry_present": true,
+    "report_text_non_empty": true,
+    "no_filter_by_model_correctness": true
+  },
+  "counts_per_class": {
+    "line_fault": 17,
+    "breaker_fault": 8,
+    "transformer_fault": 8,
+    "busbar_fault": 7
+  },
+  "display_names": {
+    "line_fault": "SHORT CIRCUIT",
+    "breaker_fault": "OPEN CIRCUIT",
+    "transformer_fault": "EQUIPMENT FAULT",
+    "busbar_fault": "OVERHEATING/OVERLOAD"
+  },
+  "model_performance_comparison": {
+    "conflux": {
+      "full_test_accuracy": 0.879746835443038,
+      "curated_set_accuracy": 0.825,
+      "curated_correct_count": 33,
+      "curated_total": 40
+    },
+    "quorum": {
+      "full_test_accuracy": 0.8354430379746836,
+      "curated_set_accuracy": 0.775,
+      "curated_correct_count": 31,
+      "curated_total": 40
+    },
+    "nexus": {
+      "full_test_accuracy": 0.8227848101265823,
+      "curated_set_accuracy": 0.725,
+      "curated_correct_count": 29,
+      "curated_total": 40
+    }
+  },
+  "selected_case_ids": [
+    "CASE-0002",
+    "CASE-0037",
+    "CASE-0045",
+    "CASE-0069",
+    "CASE-0151",
+    "CASE-0163",
+    "CASE-0201",
+    "CASE-0231",
+    "CASE-0262",
+    "CASE-0282",
+    "CASE-0306",
+    "CASE-0309",
+    "CASE-0322",
+    "CASE-0333",
+    "CASE-0342",
+    "CASE-0390",
+    "CASE-0464",
+    "CASE-0497",
+    "CASE-0523",
+    "CASE-0526",
+    "CASE-0539",
+    "CASE-0604",
+    "CASE-0616",
+    "CASE-0622",
+    "CASE-0625",
+    "CASE-0651",
+    "CASE-0700",
+    "CASE-0734",
+    "CASE-0740",
+    "CASE-0752",
+    "CASE-0761",
+    "CASE-0814",
+    "CASE-0949",
+    "CASE-0953",
+    "CASE-0974",
+    "CASE-0996",
+    "CASE-1003",
+    "CASE-1006",
+    "CASE-1051",
+    "CASE-1066"
+  ]
+}
