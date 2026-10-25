@@ -230,8 +230,7 @@ def main():
             "event_ts": event_ts,
             "element_name": elem,
             "true_class": true_cls,
-            "display_class": CLASS_DISPLAY[true_cls],
-            "image": {
+                        "image": {
                 "hud": hud_rel,
                 "raw": raw_rel,
                 "width": width,
@@ -270,8 +269,7 @@ def main():
             "event_ts": event_ts,
             "element_name": elem,
             "true_class": true_cls,
-            "display_class": CLASS_DISPLAY[true_cls],
-            "predictions": {mid: predictions[mid]["pred"] for mid in models},
+                        "predictions": {mid: predictions[mid]["pred"] for mid in models},
         })
 
     # 5. Build index.json

@@ -1,18 +1,8 @@
 // demo/web/public/sw.js
-// Service worker: cache-first for /data and /img, network-first for everything else.
-// No external URLs are ever fetched (self-hosted fonts, no CDN).
-
-const CACHE_NAME = 'triad13-v1'
-const STATIC_ASSETS = [
-  '/',
-  '/index.html',
-  '/data/index.json',
-]
+// Service worker: network-first for /data, cache-first for /img and fonts.
+const CACHE_NAME = 'triad13-2131a07e'
 
 self.addEventListener('install', event => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => cache.addAll(STATIC_ASSETS))
-  )
   self.skipWaiting()
 })
 
@@ -27,15 +17,29 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url)
-
-  // Only handle same-origin GET requests
   if (event.request.method !== 'GET') return
   if (url.origin !== self.location.origin) return
 
   const path = url.pathname
 
-  // Cache-first: static data and images
-  if (path.startsWith('/data/') || path.startsWith('/img/') || path.startsWith('/fonts/')) {
+  // Network-first for /data (always get fresh cache JSON)
+  if (path.startsWith('/data/')) {
+    event.respondWith(
+      fetch(event.request).then(resp => {
+        if (resp.ok) {
+          const clone = resp.clone()
+          caches.open(CACHE_NAME).then(c => c.put(event.request, clone))
+        }
+        return resp
+      }).catch(() =>
+        caches.match(event.request).then(r => r ?? new Response('Offline', { status: 503 }))
+      )
+    )
+    return
+  }
+
+  // Cache-first for images and fonts
+  if (path.startsWith('/img/') || path.startsWith('/fonts/')) {
     event.respondWith(
       caches.open(CACHE_NAME).then(async cache => {
         const cached = await cache.match(event.request)

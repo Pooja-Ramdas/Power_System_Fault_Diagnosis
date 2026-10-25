@@ -4,6 +4,7 @@
 
 import React, { useEffect, useRef, useState, useCallback } from 'react'
 import type { CaseData, ModelId, FaultClass } from '../schema'
+import { classLabel } from '../classLabel'
 import type { InjectionPhase, ModelResult } from '../hooks/useConsole'
 
 const MODEL_COLORS: Record<ModelId, string> = {
@@ -17,13 +18,6 @@ const FAULT_COLORS: Record<string, string> = {
   breaker_fault:     'var(--fault-oc)',
   transformer_fault: 'var(--fault-ef)',
   busbar_fault:      'var(--fault-oo)',
-}
-
-const FAULT_DISPLAY: Record<string, string> = {
-  line_fault:        'LINE FAULT',
-  breaker_fault:     'BREAKER FAULT',
-  transformer_fault: 'TRANSFORMER FAULT',
-  busbar_fault:      'BUSBAR FAULT',
 }
 
 interface Props {
@@ -284,7 +278,7 @@ export default function DiagramStage({
               {/* Bubble Body: Fault Class + Confidence */}
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
                 <span style={{ fontSize: 10, fontWeight: 700, color: faultColor }}>
-                  {pred.display_pred}
+                  {classLabel(pred.pred)}
                 </span>
                 <span className="vt323" style={{ fontSize: 18, color: modelColor, marginLeft: 8 }}>
                   {(pred.confidence * 100).toFixed(0)}%
@@ -310,7 +304,7 @@ export default function DiagramStage({
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <span style={{ color: 'var(--text-dim)', letterSpacing: '0.08em' }}>GROUND TRUTH:</span>
               <span style={{ color: FAULT_COLORS[selectedCase.true_class], fontWeight: 700 }}>
-                {FAULT_DISPLAY[selectedCase.true_class]}
+                {classLabel(selectedCase.true_class)}
               </span>
             </div>
             {modelsDisagree && (

@@ -2,6 +2,7 @@
 // CONFLUX / QUORUM / NEXUS diagnosis bubble card with Shapley contribution bars.
 
 import type { ModelId, DiagnoseResponse } from '../schema'
+import { classLabel } from '../classLabel'
 import type { ModelResult } from '../hooks/useConsole'
 
 const MODEL_META: Record<ModelId, { name: string; fusion: string; color: string; tooltip: string }> = {
@@ -74,7 +75,7 @@ export default function ModelCard({ modelId, result, active, onClick }: Props) {
                 className="model-card__pred"
                 style={{ color: FAULT_COLORS[diag.prediction.pred] }}
               >
-                {diag.prediction.display_pred}
+                {classLabel(diag.prediction.pred)}
               </div>
               <div style={{ fontSize: 9, color: diag.prediction.correct ? 'var(--status-live)' : 'var(--status-err)', marginTop: 2 }}>
                 {diag.prediction.correct ? '✓ CORRECT' : '✗ INCORRECT'}
@@ -117,7 +118,7 @@ export default function ModelCard({ modelId, result, active, onClick }: Props) {
           <div className="prob-grid">
             {Object.entries(diag.prediction.probs).map(([cls, prob]) => (
               <div key={cls} className="prob-item">
-                <div className="prob-item__label">{cls.replace('_fault','').replace('_',' ')}</div>
+                <div className="prob-item__label">{classLabel(cls)}</div>
                 <div className="prob-item__bar">
                   <div
                     className="prob-item__fill"

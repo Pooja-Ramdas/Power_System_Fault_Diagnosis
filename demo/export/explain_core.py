@@ -170,7 +170,6 @@ def compute_shapley_contributions(
         c_idx = int(np.argmax(p))
         ablations[k] = {
             "pred": FAULT_CLASSES[c_idx],
-            "display_pred": CLASS_DISPLAY[FAULT_CLASSES[c_idx]],
             "conf": round(float(p[c_idx]), 4),
         }
 
@@ -440,7 +439,6 @@ def _run_full_diagnosis_core(
             c_idx = int(np.argmax(mod_p[0]))
             model_specific["specialists"][mod] = {
                 "pred": FAULT_CLASSES[c_idx],
-                "display_pred": CLASS_DISPLAY[FAULT_CLASSES[c_idx]],
                 "conf": round(float(mod_p[0][c_idx]), 4),
                 "weight": weights[mod],
             }
@@ -452,7 +450,6 @@ def _run_full_diagnosis_core(
             c_idx = int(np.argmax(b_p[0]))
             model_specific["branches"][b_name] = {
                 "pred": FAULT_CLASSES[c_idx],
-                "display_pred": CLASS_DISPLAY[FAULT_CLASSES[c_idx]],
                 "conf": round(float(b_p[0][c_idx]), 4),
                 "weight": weights[b_name],
             }
@@ -476,8 +473,7 @@ def _run_full_diagnosis_core(
 
     prediction_payload = {
         "pred": pred_class,
-        "display_pred": CLASS_DISPLAY[pred_class],
-        "probs": {FAULT_CLASSES[i]: round(float(probs[i]), 4) for i in range(len(FAULT_CLASSES))},
+                "probs": {FAULT_CLASSES[i]: round(float(probs[i]), 4) for i in range(len(FAULT_CLASSES))},
         "confidence": round(confidence, 4),
         "correct": correct,
     }

@@ -16,7 +16,6 @@ const ContribEntry = z.object({
 
 const PredictionSchema = z.object({
   pred: FaultClass,
-  display_pred: z.string(),
   probs: z.record(z.number()),
   confidence: z.number(),
   correct: z.boolean(),
@@ -41,7 +40,6 @@ export type ExplanationData = z.infer<typeof ExplanationSchema>
 
 const AblationEntry = z.object({
   pred: z.string(),
-  display_pred: z.string(),
   conf: z.number(),
 })
 
@@ -50,7 +48,6 @@ export const CaseSchema = z.object({
   event_ts: z.string(),
   element_name: z.string(),
   true_class: FaultClass,
-  display_class: z.string(),
   image: z.object({
     hud: z.string(),
     raw: z.string(),
@@ -103,7 +100,6 @@ const CaseIndexEntry = z.object({
   event_ts: z.string(),
   element_name: z.string(),
   true_class: FaultClass,
-  display_class: z.string(),
   predictions: z.record(z.string()),
 })
 export type CaseIndexEntry = z.infer<typeof CaseIndexEntry>

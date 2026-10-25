@@ -2,6 +2,7 @@
 // Scrollable case list for the selected fault class.
 
 import type { CaseIndexEntry, FaultClass } from '../schema'
+import { classLabel } from '../classLabel'
 
 const FAULT_COLORS: Record<string, string> = {
   line_fault:        'var(--fault-sc)',
@@ -24,7 +25,7 @@ export default function CaseSelector({ cases, selected, onSelect, faultClass }: 
       <div className="section-hdr">
         <span>FAULT EVENTS · {cases.length} cases</span>
         <span style={{ color: FAULT_COLORS[faultClass] }}>
-          {faultClass.replace('_fault','').replace('_',' ').toUpperCase()}
+          {classLabel(faultClass)}
         </span>
       </div>
       <div style={{ maxHeight: 120, overflowY: 'auto' }}>

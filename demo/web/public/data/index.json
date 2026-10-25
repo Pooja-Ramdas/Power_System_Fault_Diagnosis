@@ -61,7 +61,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "busbar_fault",
-      "display_class": "BUSBAR FAULT",
       "predictions": {
         "conflux": "busbar_fault",
         "quorum": "breaker_fault",
@@ -73,7 +72,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "busbar_fault",
-      "display_class": "BUSBAR FAULT",
       "predictions": {
         "conflux": "busbar_fault",
         "quorum": "busbar_fault",
@@ -85,7 +83,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "busbar_fault",
-      "display_class": "BUSBAR FAULT",
       "predictions": {
         "conflux": "busbar_fault",
         "quorum": "busbar_fault",
@@ -97,7 +94,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "breaker_fault",
         "quorum": "transformer_fault",
@@ -109,7 +105,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "breaker_fault",
-      "display_class": "BREAKER FAULT",
       "predictions": {
         "conflux": "breaker_fault",
         "quorum": "breaker_fault",
@@ -121,7 +116,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "transformer_fault",
-      "display_class": "TRANSFORMER FAULT",
       "predictions": {
         "conflux": "transformer_fault",
         "quorum": "transformer_fault",
@@ -133,7 +127,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "breaker_fault",
-      "display_class": "BREAKER FAULT",
       "predictions": {
         "conflux": "breaker_fault",
         "quorum": "breaker_fault",
@@ -145,7 +138,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",
@@ -157,7 +149,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",
@@ -169,7 +160,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",
@@ -181,7 +171,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",
@@ -193,7 +182,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "breaker_fault",
-      "display_class": "BREAKER FAULT",
       "predictions": {
         "conflux": "breaker_fault",
         "quorum": "breaker_fault",
@@ -205,7 +193,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "breaker_fault",
-      "display_class": "BREAKER FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",
@@ -217,7 +204,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",
@@ -229,7 +215,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "breaker_fault",
-      "display_class": "BREAKER FAULT",
       "predictions": {
         "conflux": "breaker_fault",
         "quorum": "breaker_fault",
@@ -241,7 +226,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "busbar_fault",
-      "display_class": "BUSBAR FAULT",
       "predictions": {
         "conflux": "breaker_fault",
         "quorum": "line_fault",
@@ -253,7 +237,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "breaker_fault",
-      "display_class": "BREAKER FAULT",
       "predictions": {
         "conflux": "breaker_fault",
         "quorum": "breaker_fault",
@@ -265,7 +248,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",
@@ -277,7 +259,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "transformer_fault",
-      "display_class": "TRANSFORMER FAULT",
       "predictions": {
         "conflux": "transformer_fault",
         "quorum": "transformer_fault",
@@ -289,7 +270,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "transformer_fault",
-      "display_class": "TRANSFORMER FAULT",
       "predictions": {
         "conflux": "transformer_fault",
         "quorum": "transformer_fault",
@@ -301,7 +281,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "transformer_fault",
-      "display_class": "TRANSFORMER FAULT",
       "predictions": {
         "conflux": "transformer_fault",
         "quorum": "transformer_fault",
@@ -313,7 +292,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "busbar_fault",
         "quorum": "line_fault",
@@ -325,7 +303,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",
@@ -337,7 +314,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "transformer_fault",
-      "display_class": "TRANSFORMER FAULT",
       "predictions": {
         "conflux": "transformer_fault",
         "quorum": "transformer_fault",
@@ -349,7 +325,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "busbar_fault",
         "quorum": "transformer_fault",
@@ -361,7 +336,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",
@@ -373,7 +347,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "transformer_fault",
-      "display_class": "TRANSFORMER FAULT",
       "predictions": {
         "conflux": "breaker_fault",
         "quorum": "breaker_fault",
@@ -385,7 +358,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",
@@ -397,7 +369,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "transformer_fault",
-      "display_class": "TRANSFORMER FAULT",
       "predictions": {
         "conflux": "transformer_fault",
         "quorum": "transformer_fault",
@@ -409,7 +380,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "transformer_fault",
-      "display_class": "TRANSFORMER FAULT",
       "predictions": {
         "conflux": "transformer_fault",
         "quorum": "busbar_fault",
@@ -421,7 +391,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "busbar_fault",
-      "display_class": "BUSBAR FAULT",
       "predictions": {
         "conflux": "busbar_fault",
         "quorum": "busbar_fault",
@@ -433,7 +402,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "breaker_fault",
-      "display_class": "BREAKER FAULT",
       "predictions": {
         "conflux": "breaker_fault",
         "quorum": "line_fault",
@@ -445,7 +413,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "breaker_fault",
-      "display_class": "BREAKER FAULT",
       "predictions": {
         "conflux": "breaker_fault",
         "quorum": "breaker_fault",
@@ -457,7 +424,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",
@@ -469,7 +435,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "busbar_fault",
-      "display_class": "BUSBAR FAULT",
       "predictions": {
         "conflux": "transformer_fault",
         "quorum": "transformer_fault",
@@ -481,7 +446,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "busbar_fault",
-      "display_class": "BUSBAR FAULT",
       "predictions": {
         "conflux": "busbar_fault",
         "quorum": "busbar_fault",
@@ -493,7 +457,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",
@@ -505,7 +468,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",
@@ -517,7 +479,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",
@@ -529,7 +490,6 @@
       "event_ts": "2024-03-15T14:00:00Z",
       "element_name": "Grid Asset",
       "true_class": "line_fault",
-      "display_class": "LINE FAULT",
       "predictions": {
         "conflux": "line_fault",
         "quorum": "line_fault",

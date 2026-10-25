@@ -184,7 +184,7 @@ body {
   display: flex;
   align-items: flex-end;
   gap: 1px;
-  height: 40px;
+  height: 96px;
   overflow: hidden;
 }
 .telemetry-chart__bar {
@@ -327,7 +327,7 @@ body {
 /* ── Grid layout ────────────────────────────────────────────────────────────── */
 .app-layout {
   display: grid;
-  grid-template-rows: 44px 1fr 160px;
+  grid-template-rows: auto 1fr 160px;
   grid-template-columns: 1fr 320px;
   grid-template-areas:
     "header  header"
@@ -338,7 +338,7 @@ body {
   background: var(--line-dim);
 }
 
-.header-area  { grid-area: header;  background: var(--bg-1); }
+.header-area  { grid-area: header;  background: var(--bg-1); min-height: 64px; padding: 4px 12px; }
 .stage-area   { grid-area: stage;   background: var(--bg-0); position: relative; overflow: hidden; }
 .right-area   { grid-area: right;   background: var(--bg-1); overflow-y: auto; }
 .bottom-area  { grid-area: bottom;  background: var(--bg-0); overflow: hidden; }
@@ -349,7 +349,8 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 16px;
-  height: 44px;
+  min-height: 64px;
+  height: 100%;
   border-bottom: 1px solid var(--line-mid);
 }
 .header__wordmark {
@@ -371,8 +372,8 @@ body {
   gap: 12px;
 }
 .header__canvas {
-  width: 72px;
-  height: 40px;
+  width: 96px;
+  height: 96px;
   border-radius: 2px;
 }
 
@@ -640,7 +641,7 @@ body {
 @media (max-width: 900px) {
   .app-layout {
     grid-template-columns: 1fr;
-    grid-template-rows: 44px 1fr auto 160px;
+    grid-template-rows: auto 1fr auto 160px;
     grid-template-areas:
       "header"
       "stage"

@@ -2,14 +2,10 @@
 import React from 'react'
 import ThreeLogo from '../fx/ThreeLogo'
 import type { FaultClass, ModelId } from '../schema'
+import { classLabel } from '../classLabel'
 import type { ActiveMask } from '../hooks/useConsole'
 
-const CLASS_LABELS: Record<string, string> = {
-  line_fault:         'LINE FAULT [1]',
-  breaker_fault:      'BREAKER FAULT [2]',
-  transformer_fault:  'TRANSFORMER FAULT [3]',
-  busbar_fault:       'BUSBAR FAULT [4]',
-}
+
 const CLASS_COLORS: Record<string, string> = {
   line_fault:        'var(--fault-sc)',
   breaker_fault:     'var(--fault-oc)',
@@ -56,7 +52,7 @@ export default function Header({
               style={selectedClass === c ? { color: CLASS_COLORS[c], borderColor: CLASS_COLORS[c] } : {}}
               onClick={() => onSelectClass(c)}
             >
-              {CLASS_LABELS[c]}
+              {`${classLabel(c)} [${classes.indexOf(c)+1}]`}
             </button>
           ))}
         </div>

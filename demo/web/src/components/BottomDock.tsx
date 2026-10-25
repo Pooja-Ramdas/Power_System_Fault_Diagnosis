@@ -3,6 +3,7 @@
 
 import { useState } from 'react'
 import type { CaseData, ModelId } from '../schema'
+import { classLabel } from '../classLabel'
 import type { ModelResult } from '../hooks/useConsole'
 
 const MODEL_IDS: ModelId[] = ['conflux', 'quorum', 'nexus']
@@ -48,7 +49,7 @@ export default function BottomDock({ caseData, activeModel, results }: Props) {
         {caseData && (
           <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', padding: '0 12px',
                         fontSize: 9, color: 'var(--text-dim)' }}>
-            {caseData.id} · {caseData.element_name} · {caseData.display_class}
+            {caseData.id} · {caseData.element_name} · {classLabel(caseData.true_class)}
           </div>
         )}
       </div>
@@ -146,7 +147,7 @@ function AblationView({ results }: { results: Record<ModelId, ModelResult> }) {
                 const abl = results[m].diagnose?.ablations?.[combo]
                 return [
                   <td key={`${m}-${combo}-pred`} style={{ fontSize: 8 }}>
-                    {abl?.display_pred ?? '—'}
+                    {abl ? classLabel(abl.pred) : '—'}
                   </td>,
                   <td key={`${m}-${combo}-conf`}>
                     {abl ? `${(abl.conf * 100).toFixed(0)}%` : '—'}

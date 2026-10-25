@@ -56,6 +56,16 @@ async function run() {
     
     // Assert bubbles appear within 3.5s
     await page.waitForSelector('text=CONFLUX // EARLY', { timeout: 4000 });
+      // Verify labels: bubbles, cards, tables contain only valid class names and no old names
+      const textContent = await page.content();
+      const oldNames = ['SHORT CIRCUIT', 'OPEN CIRCUIT', 'EQUIPMENT FAULT', 'OVERHEATING'];
+      for (const old of oldNames) {
+        if (textContent.includes(old)) {
+          throw new Error(`Found forbidden old label '${old}' in page content!`);
+        }
+      }
+      console.log('✓ Verified: Zero occurrences of old class names on page');
+
     console.log('✓ Diagnosis bubbles appeared in fallback mode');
 
     // Assert CACHED badge appears

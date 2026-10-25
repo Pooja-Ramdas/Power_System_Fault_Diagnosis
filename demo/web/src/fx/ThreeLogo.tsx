@@ -1,5 +1,5 @@
 // src/fx/ThreeLogo.tsx
-// Three.js hexagonal prism logo — 72x72 canvas, top-right header.
+// Three.js hexagonal prism logo — 96x96 canvas, top-right header.
 // Lazy-loaded after first paint; app works without it.
 
 import { useEffect, useRef } from 'react'
@@ -23,8 +23,8 @@ export default function ThreeLogo({ className, color = '#38e8ff' }: Props) {
       if (!mountRef.current || !canvasRef.current) return
 
       const canvas = canvasRef.current
-      const W = canvas.clientWidth  || 72
-      const H = canvas.clientHeight || 40
+      const W = canvas.clientWidth  || 96
+      const H = canvas.clientHeight || 96
 
       renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true })
       renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
@@ -32,18 +32,18 @@ export default function ThreeLogo({ className, color = '#38e8ff' }: Props) {
 
       scene  = new THREE.Scene()
       camera = new THREE.PerspectiveCamera(50, W / H, 0.1, 100)
-      camera.position.set(0, 0, 3.5)
+      camera.position.set(0, 0, 2.2)
 
       // Hexagonal prism
-      const hexGeo = new THREE.CylinderGeometry(0.6, 0.6, 0.5, 6, 1, false)
-      const mat    = new THREE.MeshBasicMaterial({ color, wireframe: true })
+      const hexGeo = new THREE.CylinderGeometry(0.8, 0.8, 0.65, 6, 1, false)
+      const mat    = new THREE.MeshBasicMaterial({ color, wireframe: true, transparent: true, opacity: 1.0 })
       prism = new THREE.Mesh(hexGeo, mat)
       prism.rotation.x = 0.4
       scene.add(prism)
 
       // Inner rotating cube
-      const boxGeo = new THREE.BoxGeometry(0.45, 0.45, 0.45)
-      const matB   = new THREE.MeshBasicMaterial({ color: 0x5dffb0, wireframe: true })
+      const boxGeo = new THREE.BoxGeometry(0.55, 0.55, 0.55)
+      const matB   = new THREE.MeshBasicMaterial({ color: 0x5dffb0, wireframe: true, transparent: true, opacity: 1.0 })
       cube = new THREE.Mesh(boxGeo, matB)
       scene.add(cube)
 
@@ -69,5 +69,5 @@ export default function ThreeLogo({ className, color = '#38e8ff' }: Props) {
     }
   }, [color])
 
-  return <canvas ref={canvasRef} className={className} style={{ width: 72, height: 40 }} />
+  return <canvas ref={canvasRef} className={className} style={{ width: 96, height: 96 }} />
 }
