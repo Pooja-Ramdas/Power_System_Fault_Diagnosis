@@ -1,0 +1,22 @@
+{
+  "model_id": "quorum",
+  "display_name": "QUORUM",
+  "fusion_type": "LATE FUSION",
+  "tooltip": "Each modality has its own specialist model that reaches an independent verdict; a learned vote combines them.",
+  "image_dim": 512,
+  "text_dim": 128,
+  "telemetry_channels": 7,
+  "d_model": 128,
+  "n_classes": 4,
+  "class_order": [
+    "line_fault",
+    "breaker_fault",
+    "transformer_fault",
+    "busbar_fault"
+  ],
+  "combination_weights": {
+    "image": 0.4,
+    "text": 0.30000000000000004,
+    "telemetry": 0.29999999999999993
+  }
+}

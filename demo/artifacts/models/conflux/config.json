@@ -1,0 +1,18 @@
+{
+  "model_id": "conflux",
+  "display_name": "CONFLUX",
+  "fusion_type": "EARLY FUSION",
+  "tooltip": "Features from diagram, telemetry and report are merged into one joint representation at the input, before any decision is made.",
+  "image_dim": 512,
+  "text_dim": 128,
+  "telemetry_channels": 7,
+  "d_model": 128,
+  "n_classes": 4,
+  "class_order": [
+    "line_fault",
+    "breaker_fault",
+    "transformer_fault",
+    "busbar_fault"
+  ],
+  "decision_thresholds": null
+}

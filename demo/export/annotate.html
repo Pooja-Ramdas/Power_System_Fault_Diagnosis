@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TRIAD-13 // Affected Element Annotator</title>
+  <style>
+    body { font-family: monospace; background: #05080d; color: #cfe9ee; margin: 0; padding: 20px; }
+    h1 { color: #38e8ff; margin-bottom: 5px; }
+    .toolbar { display: flex; gap: 12px; margin-bottom: 15px; align-items: center; }
+    button, select { background: #0a1018; color: #38e8ff; border: 1px solid #16313f; padding: 6px 12px; font-family: monospace; cursor: pointer; }
+    button:hover { background: #16313f; }
+    #canvas-container { position: relative; display: inline-block; border: 1px solid #24566b; cursor: crosshair; }
+    canvas { display: block; max-width: 100%; }
+    .info { margin-top: 10px; font-size: 13px; color: #6f8f99; }
+  </style>
+</head>
+<body>
+  <h1>TRIAD-13 Element Reticle Annotator</h1>
+  <div class="toolbar">
+    <label>Case: <select id="case-select"></select></label>
+    <button id="btn-prev">&lt; Prev</button>
+    <button id="btn-next">Next &gt;</button>
+    <button id="btn-clear">Clear Box</button>
+    <button id="btn-export">Download highlights.json</button>
+    <span id="case-info"></span>
+  </div>
+  <div id="canvas-container">
+    <canvas id="canvas"></canvas>
+  </div>
+  <div class="info">Click and drag on the diagram to set the normalized reticle box {x, y, w, h} around the affected element.</div>
+
+  <script>
+    let cases = [];
+    let currentIdx = 0;
+    let highlights = {};
+    let isDrawing = false;
+    let startX = 0, startY = 0;
+    let img = new Image();
+
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    const select = document.getElementById('case-select');
+
+    fetch('../web/public/data/index.json')
+      .then(r => r.json())
+      .then(data => {
+        cases = data.cases;
+        cases.forEach((c, i) => {
+          const opt = document.createElement('option');
+          opt.value = i;
+          opt.textContent = `${c.id} [${c.true_class}] - ${c.element_name}`;
+          select.appendChild(opt);
+        });
+        loadCase(0);
+      })
+      .catch(() => {
+        // Fallback for standalone run before web public is generated
+        fetch('curated_cases.json')
+          .then(r => r.json())
+          .then(data => {
+            cases = data;
+            cases.forEach((c, i) => {
+              const opt = document.createElement('option');
+              opt.value = i;
+              opt.textContent = `${c.case_id} [${c.true_class}] - ${c.element_name}`;
+              select.appendChild(opt);
+            });
+            loadCase(0);
+          });
+      });
+
+    function loadCase(idx) {
+      currentIdx = idx;
+      select.value = idx;
+      const c = cases[idx];
+      const caseId = c.id || c.case_id;
+      document.getElementById('case-info').textContent = `Element: ${c.element_name}`;
+      img = new Image();
+      img.src = `../web/public/img/${caseId}.hud.webp`;
+      img.onload = () => {
+        canvas.width = img.naturalWidth;
+        canvas.height = img.naturalHeight;
+        draw();
+      };
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(img, 0, 0);
+      const caseId = cases[currentIdx].id || cases[currentIdx].case_id;
+      const box = highlights[caseId];
+      if (box) {
+        ctx.strokeStyle = '#38e8ff';
+        ctx.lineWidth = 3;
+        ctx.strokeRect(box.x * canvas.width, box.y * canvas.height, box.w * canvas.width, box.h * canvas.height);
+      }
+    }
+
+    canvas.addEventListener('mousedown', e => {
+      const rect = canvas.getBoundingClientRect();
+      const scaleX = canvas.width / rect.width;
+      const scaleY = canvas.height / rect.height;
+      startX = (e.clientX - rect.left) * scaleX;
+      startY = (e.clientY - rect.top) * scaleY;
+      isDrawing = true;
+    });
+
+    canvas.addEventListener('mousemove', e => {
+      if (!isDrawing) return;
+      const rect = canvas.getBoundingClientRect();
+      const scaleX = canvas.width / rect.width;
+      const scaleY = canvas.height / rect.height;
+      const currX = (e.clientX - rect.left) * scaleX;
+      const currY = (e.clientY - rect.top) * scaleY;
+      draw();
+      ctx.strokeStyle = '#ff4d6d';
+      ctx.lineWidth = 2;
+      ctx.strokeRect(Math.min(startX, currX), Math.min(startY, currY), Math.abs(currX - startX), Math.abs(currY - startY));
+    });
+
+    canvas.addEventListener('mouseup', e => {
+      if (!isDrawing) return;
+      isDrawing = false;
+      const rect = canvas.getBoundingClientRect();
+      const scaleX = canvas.width / rect.width;
+      const scaleY = canvas.height / rect.height;
+      const endX = (e.clientX - rect.left) * scaleX;
+      const endY = (e.clientY - rect.top) * scaleY;
+      const x = Math.min(startX, endX) / canvas.width;
+      const y = Math.min(startY, endY) / canvas.height;
+      const w = Math.abs(endX - startX) / canvas.width;
+      const h = Math.abs(endY - startY) / canvas.height;
+      if (w > 0.01 && h > 0.01) {
+        const caseId = cases[currentIdx].id || cases[currentIdx].case_id;
+        highlights[caseId] = { x: +x.toFixed(4), y: +y.toFixed(4), w: +w.toFixed(4), h: +h.toFixed(4) };
+      }
+      draw();
+    });
+
+    document.getElementById('btn-clear').onclick = () => {
+      const caseId = cases[currentIdx].id || cases[currentIdx].case_id;
+      delete highlights[caseId];
+      draw();
+    };
+    document.getElementById('btn-prev').onclick = () => { if (currentIdx > 0) loadCase(currentIdx - 1); };
+    document.getElementById('btn-next').onclick = () => { if (currentIdx < cases.length - 1) loadCase(currentIdx + 1); };
+    select.onchange = () => loadCase(+select.value);
+
+    document.getElementById('btn-export').onclick = () => {
+      const blob = new Blob([JSON.stringify(highlights, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'highlights.json';
+      a.click();
+    };
+  </script>
+</body>
+</html>

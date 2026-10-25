@@ -1,0 +1,84 @@
+{
+  "date_utc": "2026-10-25T00:00:00Z",
+  "source_git_sha": "87d90548",
+  "seed": 42,
+  "torch_version": "2.4.1+cpu",
+  "artifacts": {
+    "preprocessing.json": {
+      "sha256": "599477fbf09103e1b8f55e3f8b24555773fc27cbda2465e0e8d77ca2ea342663",
+      "size_bytes": 732
+    },
+    "preprocessing.pkl": {
+      "sha256": "fa0f5ef34484c1526941604d73c72b93024a8266fc0928ce7578fa518775a710",
+      "size_bytes": 2522435
+    },
+    "models/conflux/README.md": {
+      "sha256": "fa756e7dc83a187ecd9419bf64920d7070f9cf5f8234f24683ef3ac2ed184ed3",
+      "size_bytes": 243
+    },
+    "models/conflux/config.json": {
+      "sha256": "09d42d7bbae0787b52b98bfd1be6ea8b936f0eb21a38eb8ebac6becb5f3ecce6",
+      "size_bytes": 490
+    },
+    "models/conflux/metrics.json": {
+      "sha256": "c625e877544321aabf5d29a59082035685adde54e05dc2c0732aa251efdbdadc",
+      "size_bytes": 1612
+    },
+    "models/conflux/model.pt": {
+      "sha256": "bf750c2e6a8aa8357008188189c8a2c74f0faf869c3eba9ac086b79e07f270d9",
+      "size_bytes": 798474
+    },
+    "models/nexus/README.md": {
+      "sha256": "44d860b63d6fdaff232ebfa2e11eaf1de3cd9a42160475d32774b212254c2f6e",
+      "size_bytes": 267
+    },
+    "models/nexus/config.json": {
+      "sha256": "aeabe9294e461342f96069733d6ea752c97b2529262deec93df722041bd65003",
+      "size_bytes": 529
+    },
+    "models/nexus/image_text_model.pt": {
+      "sha256": "5c802e0aa541ca89378b653e5e8825a9f5173de1c62b43164ad8f10cc144a2b7",
+      "size_bytes": 436082
+    },
+    "models/nexus/metrics.json": {
+      "sha256": "35b0ce0cb3de246296e73f9737abcfe5bd2a45dd1ab272bc4afde812b676e426",
+      "size_bytes": 1618
+    },
+    "models/nexus/model.pt": {
+      "sha256": "3981084bea7d8608d8b96081f24683359e10e4edb486e8c0eebcd4619964fb21",
+      "size_bytes": 798869
+    },
+    "models/nexus/telemetry_model.pt": {
+      "sha256": "db8557ab20f7e6fdfa7a29159787012b537ffdc34465ec6f5b7e92c1e2ab7df7",
+      "size_bytes": 366334
+    },
+    "models/quorum/README.md": {
+      "sha256": "2e28c248417bd2e4e29402069afdcea557ae00355fe87b34f2074b01f8b971e8",
+      "size_bytes": 252
+    },
+    "models/quorum/config.json": {
+      "sha256": "e03791265e888556d97c1aa000f4b3a18c257be8c624b1dec81b79ca8539d488",
+      "size_bytes": 562
+    },
+    "models/quorum/image_model.pt": {
+      "sha256": "6e6bb861b6de81125296c68ecb28186e6f741a96d85823853a86f36a30d5bba4",
+      "size_bytes": 318336
+    },
+    "models/quorum/metrics.json": {
+      "sha256": "c656df56bf95fc91b826b03ed9f7ce80191147c471b3a92b02d070ab56bf3c7e",
+      "size_bytes": 1616
+    },
+    "models/quorum/model.pt": {
+      "sha256": "b1c7a02200a866f7b2cc5d53e9bbf9bc504ba30ff89f98869dec8e692ace88f0",
+      "size_bytes": 801729
+    },
+    "models/quorum/telemetry_model.pt": {
+      "sha256": "0721c5876312f7c89d6441dad7a3705a078f2b462fa349ecac72d0b0964b5364",
+      "size_bytes": 366479
+    },
+    "models/quorum/text_model.pt": {
+      "sha256": "80727aea50873f553005677655633f390213c780a366ae3a69de0586b763381a",
+      "size_bytes": 121716
+    }
+  }
+}

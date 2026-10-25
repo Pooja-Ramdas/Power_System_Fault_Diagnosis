@@ -1,0 +1,42 @@
+{
+  "fault_classes": [
+    "line_fault",
+    "breaker_fault",
+    "transformer_fault",
+    "busbar_fault"
+  ],
+  "telemetry_channels": [
+    "total",
+    "thermal",
+    "solar",
+    "hydro",
+    "wind",
+    "bess",
+    "other"
+  ],
+  "telemetry_scaler": {
+    "mean": [
+      9747.4453125,
+      3508.8017578125,
+      2085.678466796875,
+      2704.896240234375,
+      1393.16455078125,
+      54.90635299682617,
+      0.0
+    ],
+    "std": [
+      1110.3555908203125,
+      1497.6060791015625,
+      2486.65625,
+      905.84521484375,
+      677.9375,
+      117.95492553710938,
+      0.0010000000474974513
+    ]
+  },
+  "tfidf_vocabulary_size": 128,
+  "tfidf_ngram_range": [
+    1,
+    2
+  ]
+}
