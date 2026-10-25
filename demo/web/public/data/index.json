@@ -1,0 +1,540 @@
+{
+  "title": "TRIAD-13 Multimodal Fault Console",
+  "models": [
+    {
+      "id": "conflux",
+      "name": "CONFLUX",
+      "fusion": "EARLY FUSION",
+      "color": "#38e8ff",
+      "tooltip": "Features from diagram, telemetry and report are merged into one joint representation at the input, before any decision is made.",
+      "test_accuracy": 0.8797,
+      "test_macro_f1": 0.822
+    },
+    {
+      "id": "quorum",
+      "name": "QUORUM",
+      "fusion": "LATE FUSION",
+      "color": "#5dffb0",
+      "tooltip": "Each modality has its own specialist model that reaches an independent verdict; a learned vote combines them.",
+      "test_accuracy": 0.8354,
+      "test_macro_f1": 0.7651
+    },
+    {
+      "id": "nexus",
+      "name": "NEXUS",
+      "fusion": "HYBRID FUSION",
+      "color": "#8fa8ff",
+      "tooltip": "Encoders exchange evidence through cross-modal attention mid-network, then a decision-level stage combines the result.",
+      "test_accuracy": 0.8228,
+      "test_macro_f1": 0.7303
+    }
+  ],
+  "classes": [
+    {
+      "id": "line_fault",
+      "display": "SHORT CIRCUIT",
+      "color": "#ff4d6d",
+      "key": "1"
+    },
+    {
+      "id": "breaker_fault",
+      "display": "OPEN CIRCUIT",
+      "color": "#ffb347",
+      "key": "2"
+    },
+    {
+      "id": "transformer_fault",
+      "display": "EQUIPMENT FAULT",
+      "color": "#c77dff",
+      "key": "3"
+    },
+    {
+      "id": "busbar_fault",
+      "display": "OVERHEATING/OVERLOAD",
+      "color": "#ff7b3a",
+      "key": "4"
+    }
+  ],
+  "cases": [
+    {
+      "id": "CASE-0002",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "busbar_fault",
+      "display_class": "OVERHEATING/OVERLOAD",
+      "predictions": {
+        "conflux": "busbar_fault",
+        "quorum": "breaker_fault",
+        "nexus": "breaker_fault"
+      }
+    },
+    {
+      "id": "CASE-0037",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "busbar_fault",
+      "display_class": "OVERHEATING/OVERLOAD",
+      "predictions": {
+        "conflux": "busbar_fault",
+        "quorum": "busbar_fault",
+        "nexus": "busbar_fault"
+      }
+    },
+    {
+      "id": "CASE-0045",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "busbar_fault",
+      "display_class": "OVERHEATING/OVERLOAD",
+      "predictions": {
+        "conflux": "busbar_fault",
+        "quorum": "busbar_fault",
+        "nexus": "busbar_fault"
+      }
+    },
+    {
+      "id": "CASE-0069",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "breaker_fault",
+        "quorum": "transformer_fault",
+        "nexus": "breaker_fault"
+      }
+    },
+    {
+      "id": "CASE-0151",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "breaker_fault",
+      "display_class": "OPEN CIRCUIT",
+      "predictions": {
+        "conflux": "breaker_fault",
+        "quorum": "breaker_fault",
+        "nexus": "breaker_fault"
+      }
+    },
+    {
+      "id": "CASE-0163",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "transformer_fault",
+      "display_class": "EQUIPMENT FAULT",
+      "predictions": {
+        "conflux": "transformer_fault",
+        "quorum": "transformer_fault",
+        "nexus": "transformer_fault"
+      }
+    },
+    {
+      "id": "CASE-0201",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "breaker_fault",
+      "display_class": "OPEN CIRCUIT",
+      "predictions": {
+        "conflux": "breaker_fault",
+        "quorum": "breaker_fault",
+        "nexus": "breaker_fault"
+      }
+    },
+    {
+      "id": "CASE-0231",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "line_fault"
+      }
+    },
+    {
+      "id": "CASE-0262",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "breaker_fault"
+      }
+    },
+    {
+      "id": "CASE-0282",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "line_fault"
+      }
+    },
+    {
+      "id": "CASE-0306",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "line_fault"
+      }
+    },
+    {
+      "id": "CASE-0309",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "breaker_fault",
+      "display_class": "OPEN CIRCUIT",
+      "predictions": {
+        "conflux": "breaker_fault",
+        "quorum": "breaker_fault",
+        "nexus": "breaker_fault"
+      }
+    },
+    {
+      "id": "CASE-0322",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "breaker_fault",
+      "display_class": "OPEN CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "line_fault"
+      }
+    },
+    {
+      "id": "CASE-0333",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "line_fault"
+      }
+    },
+    {
+      "id": "CASE-0342",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "breaker_fault",
+      "display_class": "OPEN CIRCUIT",
+      "predictions": {
+        "conflux": "breaker_fault",
+        "quorum": "breaker_fault",
+        "nexus": "breaker_fault"
+      }
+    },
+    {
+      "id": "CASE-0390",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "busbar_fault",
+      "display_class": "OVERHEATING/OVERLOAD",
+      "predictions": {
+        "conflux": "breaker_fault",
+        "quorum": "line_fault",
+        "nexus": "breaker_fault"
+      }
+    },
+    {
+      "id": "CASE-0464",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "breaker_fault",
+      "display_class": "OPEN CIRCUIT",
+      "predictions": {
+        "conflux": "breaker_fault",
+        "quorum": "breaker_fault",
+        "nexus": "breaker_fault"
+      }
+    },
+    {
+      "id": "CASE-0497",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "line_fault"
+      }
+    },
+    {
+      "id": "CASE-0523",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "transformer_fault",
+      "display_class": "EQUIPMENT FAULT",
+      "predictions": {
+        "conflux": "transformer_fault",
+        "quorum": "transformer_fault",
+        "nexus": "transformer_fault"
+      }
+    },
+    {
+      "id": "CASE-0526",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "transformer_fault",
+      "display_class": "EQUIPMENT FAULT",
+      "predictions": {
+        "conflux": "transformer_fault",
+        "quorum": "transformer_fault",
+        "nexus": "transformer_fault"
+      }
+    },
+    {
+      "id": "CASE-0539",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "transformer_fault",
+      "display_class": "EQUIPMENT FAULT",
+      "predictions": {
+        "conflux": "transformer_fault",
+        "quorum": "transformer_fault",
+        "nexus": "transformer_fault"
+      }
+    },
+    {
+      "id": "CASE-0604",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "busbar_fault",
+        "quorum": "line_fault",
+        "nexus": "line_fault"
+      }
+    },
+    {
+      "id": "CASE-0616",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "line_fault"
+      }
+    },
+    {
+      "id": "CASE-0622",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "transformer_fault",
+      "display_class": "EQUIPMENT FAULT",
+      "predictions": {
+        "conflux": "transformer_fault",
+        "quorum": "transformer_fault",
+        "nexus": "transformer_fault"
+      }
+    },
+    {
+      "id": "CASE-0625",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "busbar_fault",
+        "quorum": "transformer_fault",
+        "nexus": "busbar_fault"
+      }
+    },
+    {
+      "id": "CASE-0651",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "breaker_fault"
+      }
+    },
+    {
+      "id": "CASE-0700",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "transformer_fault",
+      "display_class": "EQUIPMENT FAULT",
+      "predictions": {
+        "conflux": "breaker_fault",
+        "quorum": "breaker_fault",
+        "nexus": "breaker_fault"
+      }
+    },
+    {
+      "id": "CASE-0734",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "line_fault"
+      }
+    },
+    {
+      "id": "CASE-0740",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "transformer_fault",
+      "display_class": "EQUIPMENT FAULT",
+      "predictions": {
+        "conflux": "transformer_fault",
+        "quorum": "transformer_fault",
+        "nexus": "busbar_fault"
+      }
+    },
+    {
+      "id": "CASE-0752",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "transformer_fault",
+      "display_class": "EQUIPMENT FAULT",
+      "predictions": {
+        "conflux": "transformer_fault",
+        "quorum": "busbar_fault",
+        "nexus": "transformer_fault"
+      }
+    },
+    {
+      "id": "CASE-0761",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "busbar_fault",
+      "display_class": "OVERHEATING/OVERLOAD",
+      "predictions": {
+        "conflux": "busbar_fault",
+        "quorum": "busbar_fault",
+        "nexus": "breaker_fault"
+      }
+    },
+    {
+      "id": "CASE-0814",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "breaker_fault",
+      "display_class": "OPEN CIRCUIT",
+      "predictions": {
+        "conflux": "breaker_fault",
+        "quorum": "line_fault",
+        "nexus": "breaker_fault"
+      }
+    },
+    {
+      "id": "CASE-0949",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "breaker_fault",
+      "display_class": "OPEN CIRCUIT",
+      "predictions": {
+        "conflux": "breaker_fault",
+        "quorum": "breaker_fault",
+        "nexus": "breaker_fault"
+      }
+    },
+    {
+      "id": "CASE-0953",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "line_fault"
+      }
+    },
+    {
+      "id": "CASE-0974",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "busbar_fault",
+      "display_class": "OVERHEATING/OVERLOAD",
+      "predictions": {
+        "conflux": "transformer_fault",
+        "quorum": "transformer_fault",
+        "nexus": "transformer_fault"
+      }
+    },
+    {
+      "id": "CASE-0996",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "busbar_fault",
+      "display_class": "OVERHEATING/OVERLOAD",
+      "predictions": {
+        "conflux": "busbar_fault",
+        "quorum": "busbar_fault",
+        "nexus": "busbar_fault"
+      }
+    },
+    {
+      "id": "CASE-1003",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "line_fault"
+      }
+    },
+    {
+      "id": "CASE-1006",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "line_fault"
+      }
+    },
+    {
+      "id": "CASE-1051",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "line_fault"
+      }
+    },
+    {
+      "id": "CASE-1066",
+      "event_ts": "2024-03-15T14:00:00Z",
+      "element_name": "Grid Asset",
+      "true_class": "line_fault",
+      "display_class": "SHORT CIRCUIT",
+      "predictions": {
+        "conflux": "line_fault",
+        "quorum": "line_fault",
+        "nexus": "line_fault"
+      }
+    }
+  ]
+}
