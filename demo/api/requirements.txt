@@ -1,0 +1,12 @@
+# demo/api/requirements.txt
+# Pinned runtime dependencies for the FastAPI inference service.
+# The project's existing .venv (Python 3.12.3) already has all ML deps;
+# this file pins what the Docker image needs on top of a fresh Python 3.12 base.
+
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+torch==2.14.0
+numpy==1.24.3
+scikit-learn==1.6.1
+Pillow==10.4.0
+pydantic==2.11.4

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: triad13-fault-api
+    runtime: docker
+    dockerfilePath: demo/api/Dockerfile
+    dockerContext: .
+    envVars:
+      - key: PORT
+        value: 10000
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: false
