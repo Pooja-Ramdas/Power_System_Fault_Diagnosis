@@ -39,6 +39,7 @@ type Action =
   | { type: 'CASE_ERR'; msg: string }
   | { type: 'SET_MODEL'; id: ModelId }
   | { type: 'TOGGLE_MASK'; mod: 'D' | 'T' | 'R' }
+  | { type: 'RESET_TO_NOMINAL' }
   | { type: 'INJECT_START' }
   | { type: 'INJECT_RESULT'; modelId: ModelId; diagnose: DiagnoseResponse; fromCache: boolean }
   | { type: 'INJECT_EVIDENCE'; modelId: ModelId; evidence: EvidenceResponse }
@@ -57,14 +58,40 @@ function initResults(): Record<ModelId, ModelResult> {
 
 function reducer(state: ConsoleState, action: Action): ConsoleState {
   switch (action.type) {
-    case 'INDEX_LOADED':
-      return { ...state, index: action.payload, indexLoading: false }
+    case 'INDEX_LOADED': {
+      const idx = action.payload
+      const defaultCls: FaultClass = 'line_fault'
+      const pool = idx.cases.filter(c => c.true_class === defaultCls)
+      const firstCase = pool.length > 0 ? pool[0] : null
+      return {
+        ...state,
+        index: idx,
+        indexLoading: false,
+        selectedClass: defaultCls,
+        selectedCase: firstCase,
+        caseLoading: !!firstCase,
+      }
+    }
     case 'INDEX_ERR':
       return { ...state, indexLoading: false, errorMsg: action.msg }
-    case 'SELECT_CLASS':
-      return { ...state, selectedClass: action.cls, selectedCase: null, caseData: null, results: initResults(), phase: 'idle' }
+    case 'SELECT_CLASS': {
+      const cls = action.cls
+      const pool = state.index?.cases.filter(c => c.true_class === cls) ?? []
+      const first = pool.length > 0 ? pool[0] : null
+      return {
+        ...state,
+        selectedClass: cls,
+        selectedCase: first,
+        caseData: null,
+        caseLoading: !!first,
+        results: initResults(),
+        phase: 'idle'
+      }
+    }
     case 'SELECT_CASE':
       return { ...state, selectedCase: action.entry, caseData: null, caseLoading: true, results: initResults(), phase: 'idle' }
+    case 'RESET_TO_NOMINAL':
+      return { ...state, phase: 'idle', results: initResults() }
     case 'CASE_LOADED':
       return { ...state, caseData: action.data, caseLoading: false }
     case 'CASE_ERR':
@@ -170,6 +197,20 @@ export function useConsole() {
     dispatch({ type: 'TOGGLE_MASK', mod })
   }, [])
 
+  const resetToNominal = useCallback(() => {
+    dispatch({ type: 'RESET_TO_NOMINAL' })
+  }, [])
+
+  const shuffleCase = useCallback(() => {
+    if (!state.selectedClass || !state.index) return
+    const pool = state.index.cases.filter(
+      c => c.true_class === state.selectedClass && c.id !== state.selectedCase?.id
+    )
+    if (pool.length === 0) return
+    const next = pool[Math.floor(Math.random() * pool.length)]
+    dispatch({ type: 'SELECT_CASE', entry: next })
+  }, [state.selectedClass, state.selectedCase, state.index])
+
   const inject = useCallback(async () => {
     if (!state.selectedCase || !state.caseData || state.phase === 'injecting') return
 
@@ -214,6 +255,8 @@ export function useConsole() {
     selectCase,
     setModel,
     toggleMask,
+    resetToNominal,
+    shuffleCase,
     inject,
   }
 }

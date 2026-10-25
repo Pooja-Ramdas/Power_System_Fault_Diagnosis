@@ -40,10 +40,12 @@ _startup_time = time.time()
 
 # ── Rate limiter (simple sliding-window, no external deps) ────────────────────
 _rate_buckets: Dict[str, list] = defaultdict(list)
-RATE_LIMIT = 60        # requests per minute per IP
+RATE_LIMIT = 120       # requests per minute per IP
 RATE_WINDOW = 60.0     # seconds
 
 def _check_rate(ip: str) -> bool:
+    if ip in ("127.0.0.1", "localhost", "testclient"):
+        return True
     now = time.time()
     bucket = _rate_buckets[ip]
     # Prune old
@@ -70,6 +72,9 @@ def _load_all_cases():
         case_file = CASES_DIR / f"{cid}.json"
         if case_file.exists():
             _cases[cid] = json.loads(case_file.read_text())
+    from export.explain_core import _get_prep, _get_preprocessed_inputs
+    _get_prep()
+    _get_preprocessed_inputs()
     logger.info(f"  {len(_cases)} cases loaded")
 
 # ── FastAPI app ───────────────────────────────────────────────────────────────
@@ -88,11 +93,15 @@ app.add_middleware(
     max_age=600,
 )
 
+def _ensure_loaded():
+    if not _models:
+        _load_all_models()
+    if not _cases:
+        _load_all_cases()
+
 @app.on_event("startup")
-async def startup_event():
-    loop = asyncio.get_event_loop()
-    await loop.run_in_executor(None, _load_all_models)
-    await loop.run_in_executor(None, _load_all_cases)
+def startup_event():
+    _ensure_loaded()
     logger.info("API ready ✓")
 
 # ── Middleware: rate limiting ─────────────────────────────────────────────────
@@ -117,6 +126,7 @@ class EvidenceRequest(BaseModel):
     mask:     Optional[List[str]] = None
 
 def _validate_request(case_id: str, model_id: str):
+    _ensure_loaded()
     if case_id not in _cases:
         raise HTTPException(404, f"case_id '{case_id}' not in curated set")
     if model_id not in _models:
@@ -169,7 +179,7 @@ async def warmup():
     return {"warmup": results}
 
 @app.post("/diagnose")
-async def diagnose(req: DiagnoseRequest):
+def diagnose(req: DiagnoseRequest):
     """
     Live model inference: class probabilities + Shapley modality contributions.
     Returns source:"live".
@@ -181,11 +191,7 @@ async def diagnose(req: DiagnoseRequest):
     t0 = time.perf_counter()
     try:
         from export.explain_core import run_full_diagnosis
-        loop = asyncio.get_event_loop()
-        result = await loop.run_in_executor(
-            None,
-            lambda: run_full_diagnosis(case_data, req.model_id, mask, _models[req.model_id])
-        )
+        result = run_full_diagnosis(case_data, req.model_id, mask, _models[req.model_id])
     except Exception as e:
         logger.error(f"diagnose error {req.case_id}/{req.model_id}: {e}", exc_info=True)
         raise HTTPException(500, f"Inference error: {e}")
@@ -198,7 +204,7 @@ async def diagnose(req: DiagnoseRequest):
     return result
 
 @app.post("/evidence")
-async def evidence(req: EvidenceRequest):
+def evidence(req: EvidenceRequest):
     """
     Live evidence computation: telemetry importance, report word scores, CAM base64, narrative.
     Returns source:"live".
@@ -210,11 +216,7 @@ async def evidence(req: EvidenceRequest):
     t0 = time.perf_counter()
     try:
         from export.explain_core import compute_full_evidence
-        loop = asyncio.get_event_loop()
-        result = await loop.run_in_executor(
-            None,
-            lambda: compute_full_evidence(case_data, req.model_id, mask, _models[req.model_id])
-        )
+        result = compute_full_evidence(case_data, req.model_id, mask, _models[req.model_id])
     except Exception as e:
         logger.error(f"evidence error {req.case_id}/{req.model_id}: {e}", exc_info=True)
         raise HTTPException(500, f"Evidence error: {e}")

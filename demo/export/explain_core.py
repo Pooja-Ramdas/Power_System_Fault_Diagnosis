@@ -26,6 +26,7 @@ from PIL import Image
 
 # ── Preprocessing singleton ───────────────────────────────────────────────────
 _PREP = None  # loaded lazily
+_PREPROCESSED_INPUTS = None
 
 def _get_prep():
     global _PREP
@@ -35,6 +36,15 @@ def _get_prep():
         with open(str(pkl_path), "rb") as f:
             _PREP = pickle.load(f)
     return _PREP
+
+def _get_preprocessed_inputs():
+    global _PREPROCESSED_INPUTS
+    if _PREPROCESSED_INPUTS is None:
+        demo_dir = Path(__file__).resolve().parent.parent
+        pt_path = demo_dir / "artifacts" / "preprocessed_inputs.pt"
+        if pt_path.exists():
+            _PREPROCESSED_INPUTS = torch.load(str(pt_path), map_location="cpu")
+    return _PREPROCESSED_INPUTS
 
 FAULT_CLASSES = [
     "line_fault",
@@ -511,12 +521,21 @@ def _get_scaler():
 
 def build_case_input_from_json(case_data: dict) -> dict:
     """
-    Reconstruct model-ready tensors from a pre-built case JSON dict.
-    The JSON contains:
-      - telemetry.rows: [{ts, channels[7]}] x 48
-      - report.en / report.es: raw text
-    Image features are re-extracted from the feature_utils ResNet-18 extractor.
+    Reconstruct model-ready tensors from preprocessed cache or case JSON dict.
     """
+    case_id = case_data["id"]
+    pre = _get_preprocessed_inputs()
+    if pre and case_id in pre:
+        item = pre[case_id]
+        return {
+            "case_id": case_id,
+            "image_feat": item["image_feat"],
+            "text_feat": item["text_feat"],
+            "telemetry_window": item["telemetry_window"],
+            "telemetry_mask": item["telemetry_mask"],
+            "_active_text": item.get("active_text", case_data.get("report", {}).get("en") or case_data.get("report", {}).get("es") or ""),
+        }
+
     demo_dir = Path(__file__).resolve().parent.parent
     root_dir = demo_dir.parent
 
