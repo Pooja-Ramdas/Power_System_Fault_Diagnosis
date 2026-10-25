@@ -5,6 +5,7 @@ import ModelCard from './ModelCard'
 import CaseSelector from './CaseSelector'
 import type { ModelId, CaseData, CaseIndexEntry, FaultClass } from '../schema'
 import type { ModelResult, ActiveMask, InjectionPhase } from '../hooks/useConsole'
+import { classLabel } from '../classLabel'
 
 const MODEL_IDS: ModelId[] = ['conflux', 'quorum', 'nexus']
 
@@ -24,11 +25,12 @@ interface Props {
   results:       Record<ModelId, ModelResult>
   onSelectModel: (id: ModelId) => void
   phase:         InjectionPhase
+  mask:          ActiveMask
 }
 
 export default function RightColumn({
   cases, selectedCase, caseData, onSelectCase, faultClass,
-  activeModel, results, onSelectModel, phase
+  activeModel, results, onSelectModel, phase, mask
 }: Props) {
   const activeResult = results[activeModel]
   const diag = activeResult?.diagnose
@@ -68,14 +70,19 @@ export default function RightColumn({
       {/* Active model evidence: narrative */}
       {expl?.narrative && expl.narrative.length > 0 && (
         <div>
-          <div className="section-hdr">
+          <div className="section-hdr" style={{ display: 'flex', justifyContent: 'space-between' }}>
             <span>EVIDENCE NARRATIVE · {activeModel.toUpperCase()}</span>
+            {expl.dominant && (
+              <span style={{ fontSize: 8, color: 'var(--text-live)' }}>
+                DOMINANT: {{ D: 'DIAGRAM', T: 'TELEMETRY', R: 'REPORT' }[expl.dominant as 'D'|'T'|'R'] || expl.dominant}
+              </span>
+            )}
           </div>
           <div className="panel">
             {expl.narrative.map((line, i) => (
               <div key={i} className="narrative-line fade-in">
-                {line.split(/(REPORT|TELEMETRY|DIAGRAM|QUORUM|NEXUS|CONFLUX)/g).map((part, j) =>
-                  /^(REPORT|TELEMETRY|DIAGRAM|QUORUM|NEXUS|CONFLUX)$/.test(part)
+                {line.split(/(REPORT|TELEMETRY|DIAGRAM|QUORUM|NEXUS|CONFLUX|OFF|DISABLED)/g).map((part, j) =>
+                  /^(REPORT|TELEMETRY|DIAGRAM|QUORUM|NEXUS|CONFLUX|OFF|DISABLED)$/.test(part)
                     ? <strong key={j}>{part}</strong>
                     : part
                 )}
@@ -85,8 +92,48 @@ export default function RightColumn({
         </div>
       )}
 
-      {/* Report excerpt with word highlights */}
-      {caseData && diag && (
+      {/* QUORUM / NEXUS Specialist and Gating Rows */}
+      {expl?.model_specific && (
+        <div style={{ marginTop: 4 }}>
+          <div className="section-hdr">
+            <span>FUSION ARCHITECTURE · {activeModel.toUpperCase()}</span>
+          </div>
+          <div className="panel" style={{ fontSize: 9 }}>
+            {activeModel === 'quorum' && Boolean(expl.model_specific.specialists) && (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+                {Object.entries(expl.model_specific.specialists as Record<string, any>).map(([mod, sp]) => (
+                  <div key={mod} style={{ display: 'flex', justifyContent: 'space-between', opacity: sp.active ? 1 : 0.4 }}>
+                    <span style={{ textTransform: 'uppercase' }}>{mod}:</span>
+                    <span>
+                      {sp.active ? `${classLabel(sp.pred)} (${(sp.conf*100).toFixed(0)}%, w=${sp.weight})` : 'DISABLED (w=0.0)'}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+            {activeModel === 'nexus' && Boolean(expl.model_specific.branches) && (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+                {Object.entries(expl.model_specific.branches as Record<string, any>).map(([bName, br]) => (
+                  <div key={bName} style={{ display: 'flex', justifyContent: 'space-between', opacity: br.active ? 1 : 0.4 }}>
+                    <span style={{ textTransform: 'uppercase' }}>{bName.replace('_', '+')}:</span>
+                    <span>
+                      {br.active ? `${classLabel(br.pred)} (${(br.conf*100).toFixed(0)}%, w=${br.weight})` : 'DISABLED (w=0.0)'}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+            {activeModel === 'conflux' && (
+              <div style={{ color: 'var(--text-sec)' }}>
+                Joint representation fusion (384-d). Active: {mask.join(', ')}.
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Report excerpt with word highlights (hidden if R disabled) */}
+      {caseData && diag && mask.includes('R') && (
         <div>
           <div className="section-hdr">
             <span>OPERATOR REPORT EXCERPT</span>
@@ -97,6 +144,17 @@ export default function RightColumn({
               text={caseData.report.en || caseData.report.es}
               wordScores={caseData.report.word_scores}
             />
+          </div>
+        </div>
+      )}
+      {caseData && diag && !mask.includes('R') && (
+        <div style={{ marginTop: 4 }}>
+          <div className="section-hdr">
+            <span>OPERATOR REPORT EXCERPT</span>
+            <span style={{ fontSize: 8, color: 'var(--text-dim)' }}>OFF</span>
+          </div>
+          <div className="panel" style={{ color: 'var(--text-dim)', fontSize: 9 }}>
+            Report evidence hidden (modality disabled by active mask).
           </div>
         </div>
       )}

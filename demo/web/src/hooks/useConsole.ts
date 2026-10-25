@@ -109,7 +109,40 @@ function reducer(state: ConsoleState, action: Action): ConsoleState {
         : [...current, mod] as ActiveMask
       // Keep at least one active
       if (next.length === 0) return state
-      return { ...state, mask: next }
+
+      // If already injected, update results immediately for new mask from cache
+      let updatedResults = state.results
+      if (state.caseData && state.phase === 'done') {
+        const maskKey = (next.slice().sort().join('')) || 'DTR'
+        updatedResults = { ...state.results }
+        for (const mid of MODELS) {
+          const prevRes = state.results[mid]
+          if (prevRes?.diagnose) {
+            const maskData = state.caseData.by_mask?.[mid]?.[maskKey]
+            const pred = maskData?.prediction ?? state.caseData.predictions[mid]
+            const expl = maskData?.explanation ?? state.caseData.explanations[mid]
+            const abl = maskData?.ablations ?? state.caseData.ablations[mid] ?? {}
+            const prevSource = prevRes.diagnose.source
+            const prevLatency = prevRes.diagnose.latency_ms
+
+            updatedResults[mid] = {
+              ...prevRes,
+              diagnose: {
+                prediction: pred,
+                explanation: expl,
+                ablations: abl,
+                latency_ms: prevLatency,
+                source: prevSource,
+                model_id: mid,
+                case_id: state.caseData.id,
+                mask: next,
+              },
+            }
+          }
+        }
+      }
+
+      return { ...state, mask: next, results: updatedResults }
     }
     case 'INJECT_START':
       return {
@@ -205,8 +238,29 @@ export function useConsole() {
   }, [])
 
   const toggleMask = useCallback((mod: 'D' | 'T' | 'R') => {
+    const current = state.mask
+    const next = current.includes(mod)
+      ? current.filter(m => m !== mod)
+      : [...current, mod] as ActiveMask
+    if (next.length === 0) return // block turning off last modality
+
     dispatch({ type: 'TOGGLE_MASK', mod })
-  }, [])
+
+    if (state.phase === 'done' && state.caseData && state.selectedCase) {
+      const caseId = state.selectedCase.id
+      const caseData = state.caseData
+      MODELS.forEach(async (mid) => {
+        try {
+          const dr = await diagnose(caseId, mid, next, caseData)
+          if (!dr.fromCache) {
+            dispatch({ type: 'INJECT_RESULT', modelId: mid, diagnose: dr.data, fromCache: false })
+          }
+        } catch {
+          // ignore
+        }
+      })
+    }
+  }, [state.mask, state.phase, state.caseData, state.selectedCase])
 
   const resetToNominal = useCallback(() => {
     dispatch({ type: 'RESET_TO_NOMINAL' })

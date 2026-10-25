@@ -152,6 +152,7 @@ export default function App() {
           hudMode={hudMode}
           onToggleHud={toggleHud}
           onShuffle={shuffleCase}
+          mask={state.mask}
         />
 
         <RightColumn
@@ -164,12 +165,14 @@ export default function App() {
           results={state.results}
           onSelectModel={setModel}
           phase={state.phase}
+          mask={state.mask}
         />
 
         <BottomDock
           caseData={state.caseData}
           activeModel={state.activeModel}
           results={state.results}
+          mask={state.mask}
         />
       </div>
 

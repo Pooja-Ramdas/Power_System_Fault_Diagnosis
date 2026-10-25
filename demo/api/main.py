@@ -201,6 +201,7 @@ def diagnose(req: DiagnoseRequest):
     result["source"] = "live"
     result["model_id"] = req.model_id
     result["case_id"] = req.case_id
+    result["mask"] = list(mask)
     return result
 
 @app.post("/evidence")
@@ -226,6 +227,7 @@ def evidence(req: EvidenceRequest):
     result["source"] = "live"
     result["model_id"] = req.model_id
     result["case_id"] = req.case_id
+    result["mask"] = list(mask)
     return result
 
 @app.get("/cases")

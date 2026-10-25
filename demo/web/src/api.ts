@@ -65,7 +65,7 @@ export async function diagnose(
         const raw = await resp.json()
         const parsed = DiagnoseResponseSchema.safeParse(raw)
         if (parsed.success) {
-          return { data: parsed.data, fromCache: false }
+          return { data: { ...parsed.data, mask: parsed.data.mask ?? mask }, fromCache: false }
         }
       }
     } catch {
@@ -73,13 +73,16 @@ export async function diagnose(
     }
   }
 
-  // Fallback: reconstruct from cached case JSON
+  // Fallback: reconstruct from cached case JSON using requested mask
   if (!cacheCase) {
     cacheCase = await fetchCase(caseId)
   }
-  const pred = cacheCase.predictions[modelId]
-  const expl = cacheCase.explanations[modelId]
-  const ablations = cacheCase.ablations[modelId] ?? {}
+  const maskKey = (mask.slice().sort().join('')) || 'DTR'
+  const maskData = cacheCase.by_mask?.[modelId]?.[maskKey]
+
+  const pred = maskData?.prediction ?? cacheCase.predictions[modelId]
+  const expl = maskData?.explanation ?? cacheCase.explanations[modelId]
+  const ablations = maskData?.ablations ?? cacheCase.ablations[modelId] ?? {}
 
   const cached: DiagnoseResponse = {
     prediction: pred,
@@ -89,6 +92,7 @@ export async function diagnose(
     source: 'cached',
     model_id: modelId,
     case_id: caseId,
+    mask: mask,
   }
   return { data: cached, fromCache: true }
 }
@@ -118,7 +122,7 @@ export async function fetchEvidence(
         const raw = await resp.json()
         const parsed = EvidenceResponseSchema.safeParse(raw)
         if (parsed.success) {
-          return { data: parsed.data, fromCache: false }
+          return { data: { ...parsed.data, mask: parsed.data.mask ?? mask }, fromCache: false }
         }
       }
     } catch {
@@ -126,15 +130,20 @@ export async function fetchEvidence(
     }
   }
 
-  // Cache fallback
+  // Cache fallback honoring active mask
   if (!cacheCase) {
     cacheCase = await fetchCase(caseId)
   }
-  const expl = cacheCase.explanations[modelId]
+  const maskKey = (mask.slice().sort().join('')) || 'DTR'
+  const maskData = cacheCase.by_mask?.[modelId]?.[maskKey]
+  const expl = maskData?.explanation ?? cacheCase.explanations[modelId]
+  const hasT = mask.includes('T')
+  const hasR = mask.includes('R')
+
   const cached: EvidenceResponse = {
-    telemetry_importance: expl.telemetry_importance ?? [],
-    report_top_words: expl.report_top_words ?? [],
-    word_scores: cacheCase.report.word_scores,
+    telemetry_importance: hasT ? (expl.telemetry_importance ?? []) : [],
+    report_top_words: hasR ? (expl.report_top_words ?? []) : [],
+    word_scores: hasR ? cacheCase.report.word_scores : [],
     cam_base64: null,
     latency_ms: 0,
     source: 'cached',

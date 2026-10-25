@@ -198,23 +198,50 @@ def main():
         predictions = {}
         explanations = {}
         ablations = {}
+        by_mask = {}
         first_word_scores = []
 
+        MASK_MAP = {
+            "D": ("D",),
+            "T": ("T",),
+            "R": ("R",),
+            "DT": ("D", "T"),
+            "DR": ("D", "R"),
+            "TR": ("T", "R"),
+            "DTR": ("D", "T", "R"),
+        }
+
         for mid, m in models.items():
-            diag = run_full_diagnosis(
-                model_id=mid,
-                predictor=m,
-                case_input=case_input,
-                true_class=true_cls,
-                element_name=elem,
-                report_text=active_text,
-                vectorizer=vectorizer,
-            )
-            predictions[mid] = diag["prediction"]
-            explanations[mid] = diag["explanation"]
-            ablations[mid] = diag["ablations"]
-            if not first_word_scores:
-                first_word_scores = diag["word_scores"]
+            by_mask[mid] = {}
+            dtr_full = None
+            for k, m_tuple in MASK_MAP.items():
+                diag_m = run_full_diagnosis(
+                    model_id=mid,
+                    predictor=m,
+                    case_input=case_input,
+                    true_class=true_cls,
+                    element_name=elem,
+                    report_text=active_text,
+                    vectorizer=vectorizer,
+                    mask=m_tuple,
+                )
+                by_mask[mid][k] = {
+                    "prediction": diag_m["prediction"],
+                    "explanation": {
+                        "contrib": diag_m["explanation"]["contrib"],
+                        "dominant": diag_m["explanation"]["dominant"],
+                        "narrative": diag_m["explanation"]["narrative"],
+                        "model_specific": diag_m["explanation"].get("model_specific", {}),
+                    },
+                }
+                if k == "DTR":
+                    dtr_full = diag_m
+                    if not first_word_scores:
+                        first_word_scores = diag_m["word_scores"]
+
+            predictions[mid] = dtr_full["prediction"]
+            explanations[mid] = dtr_full["explanation"]
+            ablations[mid] = dtr_full["ablations"]
 
             # Generate CAM WebP overlay
             cam_img = compute_diagram_cam_overlay(item["image_path"], img_f)
@@ -222,8 +249,8 @@ def main():
             cam_img.save(cam_out_path, format="WEBP", quality=75)
 
         # Compile case JSON (trim excerpt to 1800 chars for clean display and <= 40KB budget)
-        disp_en = rpt_en[:1800].strip() if rpt_en else rpt_es[:1800].strip()
-        disp_es = rpt_es[:1800].strip() if rpt_es else rpt_en[:1800].strip()
+        disp_en = rpt_en[:1200].strip() if rpt_en else rpt_es[:1200].strip()
+        disp_es = rpt_es[:1200].strip() if rpt_es else rpt_en[:1200].strip()
 
         case_json = {
             "id": cid,
@@ -253,6 +280,7 @@ def main():
             "predictions": predictions,
             "explanations": explanations,
             "ablations": ablations,
+            "by_mask": by_mask,
         }
 
         # Validate case JSON size (budget: <= 40 KB)

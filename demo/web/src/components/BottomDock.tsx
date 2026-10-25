@@ -4,7 +4,7 @@
 import { useState } from 'react'
 import type { CaseData, ModelId } from '../schema'
 import { classLabel } from '../classLabel'
-import type { ModelResult } from '../hooks/useConsole'
+import type { ModelResult, ActiveMask } from '../hooks/useConsole'
 
 const MODEL_IDS: ModelId[] = ['conflux', 'quorum', 'nexus']
 const MODEL_COLORS: Record<ModelId, string> = {
@@ -24,9 +24,10 @@ interface Props {
   caseData:    CaseData | null
   activeModel: ModelId
   results:     Record<ModelId, ModelResult>
+  mask?:       ActiveMask
 }
 
-export default function BottomDock({ caseData, activeModel, results }: Props) {
+export default function BottomDock({ caseData, activeModel, results, mask = ['D', 'T', 'R'] }: Props) {
   const [tab, setTab] = useState<Tab>('telemetry')
   const TABS: { id: Tab; label: string }[] = [
     { id: 'telemetry', label: 'TELEMETRY' },
@@ -55,7 +56,7 @@ export default function BottomDock({ caseData, activeModel, results }: Props) {
       </div>
 
       <div className="dock-content">
-        {tab === 'telemetry' && <TelemetryView caseData={caseData} results={results} activeModel={activeModel} />}
+        {tab === 'telemetry' && <TelemetryView caseData={caseData} results={results} activeModel={activeModel} mask={mask} />}
         {tab === 'ablation'  && <AblationView  results={results} />}
         {tab === 'legend'    && <LegendView />}
       </div>
@@ -64,9 +65,12 @@ export default function BottomDock({ caseData, activeModel, results }: Props) {
 }
 
 // ── Telemetry minimap ─────────────────────────────────────────────────────────
-function TelemetryView({ caseData, results, activeModel }: { caseData: CaseData | null; results: Record<ModelId, ModelResult>; activeModel: ModelId }) {
+function TelemetryView({ caseData, results, activeModel, mask = ['D', 'T', 'R'] }: { caseData: CaseData | null; results: Record<ModelId, ModelResult>; activeModel: ModelId; mask?: ActiveMask }) {
   if (!caseData) {
     return <div style={{ color: 'var(--text-dim)', fontSize: 9 }}>No case selected.</div>
+  }
+  if (!mask.includes('T')) {
+    return <div style={{ color: 'var(--text-dim)', fontSize: 9, padding: '12px 16px' }}>Telemetry modality disabled by active mask (0% attribution).</div>
   }
   const rows = caseData.telemetry.rows
   const t0   = caseData.telemetry.t0_index

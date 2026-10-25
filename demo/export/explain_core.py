@@ -71,87 +71,71 @@ def compute_shapley_contributions(
     predict_fn,
     case_input: Dict[str, torch.Tensor],
     pred_class_idx: int,
+    active_mask: Sequence[str] = ("D", "T", "R"),
 ) -> Dict[str, Any]:
     """
-    Computes exact Shapley values for 3 modalities: D (Diagram), T (Telemetry), R (Report).
-    Total subsets = 8:
-      emptyset, {D}, {T}, {R}, {D,T}, {D,R}, {T,R}, {D,T,R}
-    Asserts Shapley efficiency: sum(phi) == f(all) - f(none) within 1e-4.
+    Computes exact Shapley values over ACTIVE modalities only.
+    Disabled modalities have phi=0, share=0%, signed=0.
+    Active modalities sum to 100% share.
+    Asserts Shapley efficiency: sum(phi_active) == f(A) - f(none) within 1e-4.
     """
-    # 1. Evaluate all 8 subsets for the predicted class
-    subsets = {
-        (): (),
-        ("D",): ("D",),
-        ("T",): ("T",),
-        ("R",): ("R",),
-        ("D", "T"): ("D", "T"),
-        ("D", "R"): ("D", "R"),
-        ("T", "R"): ("T", "R"),
-        ("D", "T", "R"): ("D", "T", "R"),
-    }
+    A = tuple(sorted(set(active_mask)))
+    if len(A) == 0:
+        A = ("D", "T", "R")
 
+    from itertools import combinations
     f = {}
-    for key, mask in subsets.items():
-        probs = predict_fn(case_input, mask=mask)
-        f[key] = float(probs[0, pred_class_idx])
+    for r in range(len(A) + 1):
+        for sub in combinations(A, r):
+            probs = predict_fn(case_input, mask=sub)
+            f[sub] = float(probs[0, pred_class_idx])
 
     f_none = f[()]
-    f_all = f[("D", "T", "R")]
+    f_all = f[A]
 
-    # Exact Shapley formula for n=3:
-    # phi_i = 1/3 * [f({i}) - f(none)]
-    #       + 1/6 * [f({i, j}) - f({j})] + 1/6 * [f({i, k}) - f({k})]
-    #       + 1/3 * [f({i, j, k}) - f({j, k})]
-    phi = {}
+    phi = {m: 0.0 for m in ("D", "T", "R")}
+    if len(A) == 1:
+        phi[A[0]] = f_all - f_none
+    elif len(A) == 2:
+        i, j = A
+        phi[i] = 0.5 * (f[(i,)] - f_none) + 0.5 * (f_all - f[(j,)])
+        phi[j] = 0.5 * (f[(j,)] - f_none) + 0.5 * (f_all - f[(i,)])
+    elif len(A) == 3:
+        for i in A:
+            j, k = [x for x in A if x != i]
+            phi[i] = (
+                (1.0 / 3.0) * (f[(i,)] - f_none)
+                + (1.0 / 6.0) * (f[tuple(sorted((i, j)))] - f[(j,)])
+                + (1.0 / 6.0) * (f[tuple(sorted((i, k)))] - f[(k,)])
+                + (1.0 / 3.0) * (f_all - f[tuple(sorted((j, k)))])
+            )
 
-    # D
-    phi["D"] = (
-        (1.0 / 3.0) * (f[("D",)] - f_none)
-        + (1.0 / 6.0) * (f[("D", "T")] - f[("T",)])
-        + (1.0 / 6.0) * (f[("D", "R")] - f[("R",)])
-        + (1.0 / 3.0) * (f_all - f[("T", "R")])
-    )
-
-    # T
-    phi["T"] = (
-        (1.0 / 3.0) * (f[("T",)] - f_none)
-        + (1.0 / 6.0) * (f[("D", "T")] - f[("D",)])
-        + (1.0 / 6.0) * (f[("T", "R")] - f[("R",)])
-        + (1.0 / 3.0) * (f_all - f[("D", "R")])
-    )
-
-    # R
-    phi["R"] = (
-        (1.0 / 3.0) * (f[("R",)] - f_none)
-        + (1.0 / 6.0) * (f[("D", "R")] - f[("D",)])
-        + (1.0 / 6.0) * (f[("T", "R")] - f[("T",)])
-        + (1.0 / 3.0) * (f_all - f[("D", "T")])
-    )
-
-    # Assert efficiency
-    phi_sum = phi["D"] + phi["T"] + phi["R"]
+    # Assert efficiency over active coalition
+    phi_active_sum = sum(phi[i] for i in A)
     marginal_total = f_all - f_none
-    diff = abs(phi_sum - marginal_total)
-    assert diff < 1e-4, f"Shapley efficiency failed: sum={phi_sum:.6f}, target={marginal_total:.6f}, diff={diff:.6e}"
+    diff = abs(phi_active_sum - marginal_total)
+    assert diff < 1e-4, f"Shapley efficiency failed: sum={phi_active_sum:.6f}, target={marginal_total:.6f}, diff={diff:.6e}"
 
-    # Calculate normalized shares: share_m = |phi_m| / sum|phi|
-    abs_sum = abs(phi["D"]) + abs(phi["T"]) + abs(phi["R"])
+    # Calculate normalized shares for active modalities
+    abs_sum = sum(abs(phi[i]) for i in A)
     shares = {}
-    if abs_sum > 1e-7:
-        for m in ("D", "T", "R"):
-            shares[m] = {
-                "share": round(float(abs(phi[m]) / abs_sum), 4),
-                "signed": round(float(phi[m]), 4),
-            }
-    else:
-        for m in ("D", "T", "R"):
-            shares[m] = {
-                "share": 0.3333,
-                "signed": 0.0,
-            }
+    for m in ("D", "T", "R"):
+        if m in A:
+            sh = round(abs(phi[m]) / abs_sum, 4) if abs_sum > 1e-7 else round(1.0 / len(A), 4)
+            sgn = 1.0 if phi[m] >= 0 else -1.0
+            shares[m] = {"share": sh, "signed": round(sh * sgn, 4)}
+        else:
+            shares[m] = {"share": 0.0, "signed": 0.0}
 
-    # Dominant modality: highest signed contribution (or highest share)
-    dominant = max(("D", "T", "R"), key=lambda m: (phi[m], shares[m]["share"]))
+    # Normalize active shares to sum to exactly 1.0
+    active_sum = sum(shares[i]["share"] for i in A)
+    if abs(active_sum - 1.0) > 1e-6 and len(A) > 0:
+        max_m = max(A, key=lambda i: shares[i]["share"])
+        shares[max_m]["share"] = round(shares[max_m]["share"] + (1.0 - active_sum), 4)
+        shares[max_m]["signed"] = round(shares[max_m]["share"] * (1.0 if phi[max_m] >= 0 else -1.0), 4)
+
+    # Dominant modality strictly among active ones
+    dominant = max(A, key=lambda m: (phi[m], shares[m]["share"]))
 
     # Ablations table for all 7 combinations
     ablations = {}
@@ -181,7 +165,6 @@ def compute_shapley_contributions(
         "f_none": float(f_none),
         "ablations": ablations,
     }
-
 
 def compute_telemetry_evidence(
     model_id: str,
@@ -347,58 +330,65 @@ def build_narrative_lines(
     telemetry_window: np.ndarray,
     element_name: str,
     model_specific: Dict[str, Any],
+    mask: Sequence[str] = ("D", "T", "R"),
 ) -> List[str]:
-    """
-    Generates deterministic 3-4 sentence narrative lines grounded strictly in real numbers.
-    Never LLM-generated and never invented.
-    """
     lines = []
+    mask_set = set(mask)
+    disabled = [m for m in ("D", "T", "R") if m not in mask_set]
+    mod_names = {"D": "DIAGRAM", "T": "TELEMETRY", "R": "REPORT"}
+
     d_share = int(round(contrib["D"]["share"] * 100))
     t_share = int(round(contrib["T"]["share"] * 100))
     r_share = int(round(contrib["R"]["share"] * 100))
 
-    # Line 1: Report evidence
-    if top_words:
-        kw = ", ".join([f"'{w['word']}'" for w in top_words[:2]])
-        lines.append(f"REPORT carried {r_share}% of decision evidence (key indicators: {kw}).")
+    # Line 1: Report evidence (or disabled notice)
+    if "R" in mask_set:
+        if top_words:
+            kw = ", ".join([f"'{w['word']}'" for w in top_words[:2]])
+            lines.append(f"REPORT carried {r_share}% of decision evidence (key indicators: {kw}).")
+        else:
+            lines.append(f"REPORT carried {r_share}% of decision evidence from incident narrative.")
     else:
-        lines.append(f"REPORT carried {r_share}% of decision evidence from incident narrative.")
+        lines.append("REPORT: disabled by active mask (0% attribution, text features zeroed).")
 
-    # Line 2: Telemetry evidence
-    # Compute generation change around fault window
-    total_ch = telemetry_window[0]  # total generation channel
-    if len(total_ch) >= 2:
-        t_max = np.max(total_ch)
-        t_min = np.min(total_ch)
-        delta_mw = abs(t_max - t_min)
-        lines.append(f"TELEMETRY carried {t_share}%: {delta_mw:.1f} MWh swing across 48 h generation window.")
+    # Line 2: Telemetry evidence (or disabled notice)
+    if "T" in mask_set:
+        total_ch = telemetry_window[0] if len(telemetry_window) > 0 else np.array([])
+        if len(total_ch) >= 2:
+            delta_mw = abs(float(np.max(total_ch)) - float(np.min(total_ch)))
+            lines.append(f"TELEMETRY carried {t_share}%: {delta_mw:.1f} MWh swing across 48 h generation window.")
+        else:
+            lines.append(f"TELEMETRY carried {t_share}%: contextual generation baseline.")
     else:
-        lines.append(f"TELEMETRY carried {t_share}%: contextual generation baseline.")
+        lines.append("TELEMETRY: disabled by active mask (0% attribution, generation window zeroed).")
 
-    # Line 3: Diagram evidence
-    lines.append(f"DIAGRAM carried {d_share}%: single-line topology context for {element_name}.")
+    # Line 3: Diagram evidence (or disabled notice)
+    if "D" in mask_set:
+        lines.append(f"DIAGRAM carried {d_share}%: single-line topology context for {element_name}.")
+    else:
+        lines.append(f"DIAGRAM: disabled by active mask (0% attribution, substation topology masked).")
 
-    # Line 4: Model-specific operational architecture
+    # Line 4: Model-specific architecture description with disabled modalities highlighted
     if model_id == "quorum":
         sp = model_specific.get("specialists", {})
-        lines.append(
-            f"QUORUM consensus: Image ({sp.get('image', {}).get('conf', 0)*100:.0f}%, w=0.40), "
-            f"Text ({sp.get('text', {}).get('conf', 0)*100:.0f}%, w=0.30), "
-            f"Telemetry ({sp.get('telemetry', {}).get('conf', 0)*100:.0f}%, w=0.30)."
-        )
+        active_sp = [f"{m.capitalize()} ({(sp[m]['conf']*100):.0f}%, w={sp[m]['weight']})" for m in sp if sp[m].get("active")]
+        dis_sp = [m.capitalize() for m in sp if not sp[m].get("active")]
+        dis_note = f"; disabled: {', '.join(dis_sp)}" if dis_sp else ""
+        lines.append(f"QUORUM consensus: {', '.join(active_sp) if active_sp else 'None'}{dis_note}.")
     elif model_id == "nexus":
         br = model_specific.get("branches", {})
-        lines.append(
-            f"NEXUS hybrid balance: Feature-fused Diagram+Text ({br.get('image_text', {}).get('conf', 0)*100:.0f}%, w=0.50) "
-            f"balanced against Telemetry ({br.get('telemetry', {}).get('conf', 0)*100:.0f}%, w=0.50)."
-        )
+        active_br = [f"{b.replace('_','+').capitalize()} ({(br[b]['conf']*100):.0f}%, w={br[b]['weight']})" for b in br if br[b].get("active")]
+        dis_br = [b.replace('_','+').capitalize() for b in br if not br[b].get("active")]
+        dis_note = f"; disabled: {', '.join(dis_br)}" if dis_br else ""
+        lines.append(f"NEXUS hybrid balance: {', '.join(active_br) if active_br else 'None'}{dis_note}.")
     elif model_id == "conflux":
-        lines.append(
-            f"CONFLUX joint decision: 384-d unified representation evaluated at representation stage."
-        )
+        if disabled:
+            dis_str = ", ".join([mod_names[m] for m in disabled])
+            lines.append(f"CONFLUX joint decision: 384-d representation with {dis_str} masked.")
+        else:
+            lines.append("CONFLUX joint decision: 384-d unified representation evaluated at representation stage.")
 
     return lines
-
 
 def _run_full_diagnosis_core(
     model_id: str,
@@ -411,53 +401,76 @@ def _run_full_diagnosis_core(
     mask: Sequence[str] = ("D", "T", "R"),
 ) -> Dict[str, Any]:
     """
-    Executes full diagnosis and explainability for a model and case.
+    Executes full diagnosis and explainability for a model and case under active mask.
     Returns payload compatible with both API and cached JSON schemas.
     """
-    probs = predictor.predict(case_input, mask=mask)[0]
+    mask_tuple = tuple(sorted(mask)) if mask else ("D", "T", "R")
+    probs = predictor.predict(case_input, mask=mask_tuple)[0]
     pred_idx = int(np.argmax(probs))
     pred_class = FAULT_CLASSES[pred_idx]
     confidence = float(probs[pred_idx])
     correct = bool(pred_class == true_class)
 
-    # 1. Modality Shapley attribution & ablations
-    shapley_data = compute_shapley_contributions(predictor.predict, case_input, pred_idx)
+    # 1. Modality Shapley attribution over active modalities only
+    shapley_data = compute_shapley_contributions(predictor.predict, case_input, pred_idx, active_mask=mask_tuple)
 
-    # 2. Within-modality evidence
-    tel_importance = compute_telemetry_evidence(model_id, predictor, case_input, pred_idx)
-    top_words, word_scores = compute_report_evidence(
-        model_id, predictor, case_input, report_text, vectorizer, pred_idx
+    # 2. Within-modality evidence (hidden/empty for disabled modalities)
+    tel_importance = (
+        compute_telemetry_evidence(model_id, predictor, case_input, pred_idx)
+        if "T" in mask_tuple else []
+    )
+    if "R" in mask_tuple:
+        top_words, word_scores = compute_report_evidence(
+            model_id, predictor, case_input, report_text, vectorizer, pred_idx
+        )
+    else:
+        top_words, word_scores = [], []
+
+    cam_path = (
+        f"img/{case_input.get('case_id', 'case')}.{model_id}.cam.webp"
+        if "D" in mask_tuple else None
     )
 
-    # 3. Model-specific architecture diagnostics
+    # 3. Model-specific architecture diagnostics with active/disabled statuses
     model_specific = {}
     if model_id == "quorum":
         specs = predictor.predict_specialists(case_input)
         model_specific["specialists"] = {}
         weights = predictor.config["combination_weights"]
         for mod, mod_p in specs.items():
+            mod_code = {"image": "D", "text": "R", "telemetry": "T"}[mod]
+            is_active = mod_code in mask_tuple
             c_idx = int(np.argmax(mod_p[0]))
             model_specific["specialists"][mod] = {
-                "pred": FAULT_CLASSES[c_idx],
-                "conf": round(float(mod_p[0][c_idx]), 4),
-                "weight": weights[mod],
+                "pred": FAULT_CLASSES[c_idx] if is_active else "OFF",
+                "conf": round(float(mod_p[0][c_idx]), 4) if is_active else 0.0,
+                "weight": weights[mod] if is_active else 0.0,
+                "active": is_active,
             }
     elif model_id == "nexus":
-        branches = predictor.predict_branches(case_input, mask)
+        branches = predictor.predict_branches(case_input, mask_tuple)
         model_specific["branches"] = {}
         weights = predictor.config["combination_weights"]
         for b_name, b_p in branches.items():
+            if b_name == "image_text":
+                is_active = ("D" in mask_tuple or "R" in mask_tuple)
+            elif b_name == "telemetry":
+                is_active = ("T" in mask_tuple)
+            else:
+                is_active = True
             c_idx = int(np.argmax(b_p[0]))
             model_specific["branches"][b_name] = {
-                "pred": FAULT_CLASSES[c_idx],
-                "conf": round(float(b_p[0][c_idx]), 4),
-                "weight": weights[b_name],
+                "pred": FAULT_CLASSES[c_idx] if is_active else "OFF",
+                "conf": round(float(b_p[0][c_idx]), 4) if is_active else 0.0,
+                "weight": weights[b_name] if is_active else 0.0,
+                "active": is_active,
             }
     elif model_id == "conflux":
         model_specific["joint_dimension"] = 384
-        model_specific["note"] = "Early representation-level fusion via projected concatenation."
+        model_specific["masked_count"] = 3 - len(mask_tuple)
+        model_specific["active_modalities"] = list(mask_tuple)
 
-    # 4. Grounded deterministic narrative
+    # 4. Grounded deterministic narrative mentioning active & disabled modalities
     tw_raw = case_input["telemetry_window"][0].detach().cpu().numpy()
     narrative = build_narrative_lines(
         model_id=model_id,
@@ -469,11 +482,12 @@ def _run_full_diagnosis_core(
         telemetry_window=tw_raw,
         element_name=element_name,
         model_specific=model_specific,
+        mask=mask_tuple,
     )
 
     prediction_payload = {
         "pred": pred_class,
-                "probs": {FAULT_CLASSES[i]: round(float(probs[i]), 4) for i in range(len(FAULT_CLASSES))},
+        "probs": {FAULT_CLASSES[i]: round(float(probs[i]), 4) for i in range(len(FAULT_CLASSES))},
         "confidence": round(confidence, 4),
         "correct": correct,
     }
@@ -484,7 +498,7 @@ def _run_full_diagnosis_core(
         "dominant": shapley_data["dominant"],
         "telemetry_importance": tel_importance,
         "report_top_words": top_words,
-        "cam": f"img/{case_input.get('case_id', 'case')}.{model_id}.cam.webp",
+        "cam": cam_path,
         "model_specific": model_specific,
         "narrative": narrative,
     }
@@ -494,15 +508,8 @@ def _run_full_diagnosis_core(
         "explanation": explanation_payload,
         "ablations": shapley_data["ablations"],
         "word_scores": word_scores,
+        "mask": list(mask_tuple),
     }
-
-
-# ═══════════════════════════════════════════════════════════════════════════════
-# API-COMPATIBLE WRAPPERS
-# These functions are called by demo/api/main.py with a case_data dict (loaded
-# from the pre-built JSON) and a predictor object. They reconstruct tensors
-# from the stored JSON, then call the core functions above.
-# ═══════════════════════════════════════════════════════════════════════════════
 
 def _get_vectorizer():
     """Return the TF-IDF vectorizer from the preprocessing pickle (lazy load)."""
@@ -660,34 +667,44 @@ def compute_full_evidence(
     """
     API endpoint: compute within-modality evidence (telemetry time steps, report words, CAM).
     Reconstructs tensors from case_data JSON and returns compact evidence payload.
+    Hides evidence for disabled modalities.
     """
     case_input = build_case_input_from_json(case_data)
     active_text = case_input.pop("_active_text", "")
     vectorizer = _get_vectorizer()
 
-    # Get predicted class for attribution target
-    probs = predictor.predict(case_input, mask=mask)[0]
+    mask_tuple = tuple(sorted(mask)) if mask else ("D", "T", "R")
+
+    # Get predicted class for attribution target under active mask
+    probs = predictor.predict(case_input, mask=mask_tuple)[0]
     pred_idx = int(np.argmax(probs))
 
-    # Telemetry time-step importance
-    tel_importance = compute_telemetry_evidence(model_id, predictor, case_input, pred_idx)
-
-    # Report word attribution
-    top_words, word_scores = compute_report_evidence(
-        model_id, predictor, case_input, active_text, vectorizer, pred_idx
+    # Telemetry time-step importance (only if T is active)
+    tel_importance = (
+        compute_telemetry_evidence(model_id, predictor, case_input, pred_idx)
+        if "T" in mask_tuple else []
     )
 
-    # CAM overlay as base64 WebP
-    cam_b64 = None
-    try:
-        cam_img = compute_diagram_cam_overlay(
-            "", case_input["image_feat"], importance_weight=1.0
+    # Report word attribution (only if R is active)
+    if "R" in mask_tuple:
+        top_words, word_scores = compute_report_evidence(
+            model_id, predictor, case_input, active_text, vectorizer, pred_idx
         )
-        buf = io.BytesIO()
-        cam_img.save(buf, format="WEBP", quality=75)
-        cam_b64 = base64.b64encode(buf.getvalue()).decode("ascii")
-    except Exception:
-        pass
+    else:
+        top_words, word_scores = [], []
+
+    # CAM overlay as base64 WebP (only if D is active)
+    cam_b64 = None
+    if "D" in mask_tuple:
+        try:
+            cam_img = compute_diagram_cam_overlay(
+                "", case_input["image_feat"], importance_weight=1.0
+            )
+            buf = io.BytesIO()
+            cam_img.save(buf, format="WEBP", quality=75)
+            cam_b64 = base64.b64encode(buf.getvalue()).decode("ascii")
+        except Exception:
+            pass
 
     return {
         "telemetry_importance": tel_importance,

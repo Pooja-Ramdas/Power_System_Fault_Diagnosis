@@ -5,7 +5,7 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react'
 import type { CaseData, ModelId, FaultClass } from '../schema'
 import { classLabel } from '../classLabel'
-import type { InjectionPhase, ModelResult } from '../hooks/useConsole'
+import type { InjectionPhase, ModelResult, ActiveMask } from '../hooks/useConsole'
 
 const MODEL_COLORS: Record<ModelId, string> = {
   conflux: 'var(--conflux)',
@@ -31,6 +31,7 @@ interface Props {
   hudMode:      boolean
   onToggleHud:  () => void
   onShuffle:    () => void
+  mask?:        ActiveMask
 }
 
 export default function DiagramStage({
@@ -44,6 +45,7 @@ export default function DiagramStage({
   hudMode,
   onToggleHud,
   onShuffle,
+  mask = ['D', 'T', 'R'],
 }: Props) {
   const [showScan, setShowScan] = useState(false)
   const [showShock, setShowShock] = useState(false)

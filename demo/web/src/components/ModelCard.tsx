@@ -91,22 +91,25 @@ export default function ModelCard({ modelId, result, active, onClick }: Props) {
             <div style={{ marginTop: 8 }}>
               {(['D','T','R'] as const).map(m => {
                 const c = diag.explanation.contrib[m]
-                const pct = Math.round((c?.share ?? 0) * 100)
+                const isOff = diag.mask ? !diag.mask.includes(m) : ((c?.share ?? 0) === 0 && (c?.signed ?? 0) === 0)
+                const pct = isOff ? 0 : Math.round((c?.share ?? 0) * 100)
                 const sign = (c?.signed ?? 0) >= 0 ? '+' : '−'
                 return (
-                  <div key={m} className="contrib-row">
-                    <div className="contrib-label" style={{ color: MOD_COLORS[m] }}>
+                  <div key={m} className="contrib-row" style={{ opacity: isOff ? 0.4 : 1 }}>
+                    <div className="contrib-label" style={{ color: isOff ? 'var(--text-dim)' : MOD_COLORS[m] }}>
                       {MOD_LABELS[m]}
                     </div>
                     <div className="contrib-bar-bg">
                       <div
                         className="contrib-bar-fill"
-                        style={{ width: `${pct}%`, background: MOD_COLORS[m] }}
+                        style={{ width: `${pct}%`, background: isOff ? 'var(--line-dim)' : MOD_COLORS[m] }}
                       />
                     </div>
-                    <div className="contrib-pct">{pct}%</div>
-                    <div className="contrib-sign" style={{ color: (c?.signed ?? 0) >= 0 ? 'var(--status-live)' : 'var(--status-err)' }}>
-                      {sign}
+                    <div className="contrib-pct" style={{ color: isOff ? 'var(--text-dim)' : undefined }}>
+                      {isOff ? 'OFF' : `${pct}%`}
+                    </div>
+                    <div className="contrib-sign" style={{ color: isOff ? 'var(--text-dim)' : ((c?.signed ?? 0) >= 0 ? 'var(--status-live)' : 'var(--status-err)') }}>
+                      {isOff ? '0%' : sign}
                     </div>
                   </div>
                 )

@@ -72,6 +72,24 @@ async function run() {
     await page.waitForSelector('.badge-cached', { timeout: 2000 });
     console.log('✓ CACHED badge truthfully displayed');
 
+    // ── Test 1b: Modality Toggling Updates Results Immediately ──
+    console.log('Testing modality toggle behavior (D/R off -> T only)...');
+    // Toggle off D
+    await page.click('button.mod-toggle:has-text("D")');
+    await page.waitForTimeout(300);
+    // Toggle off R
+    await page.click('button.mod-toggle:has-text("R")');
+    await page.waitForTimeout(300);
+
+    // Assert D and R show OFF in model cards
+    const dOff = await page.locator('.contrib-row:has-text("DIAG"):has-text("OFF")').count();
+    const rOff = await page.locator('.contrib-row:has-text("RPT"):has-text("OFF")').count();
+    console.log('Disabled rows count (D, R):', dOff, rOff);
+    if (dOff === 0 || rOff === 0) {
+      throw new Error('Expected DIAG and RPT contrib bars to show OFF after toggle');
+    }
+    console.log('✓ Modality toggle immediately updated UI: D and R display OFF with 0%');
+
     // ── Test 2: Full flow for all 4 classes & screenshots ─────────────────────
     console.log('\n--- TEST 2: Multi-class E2E Flow & Responsive Screenshots ---');
     

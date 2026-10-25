@@ -32,7 +32,7 @@ const ExplanationSchema = z.object({
   dominant: z.string(),
   telemetry_importance: z.array(z.number()).optional(),
   report_top_words: z.array(z.object({ word: z.string(), score: z.number(), rel_importance: z.number().optional() })).optional(),
-  cam: z.string().optional(),
+  cam: z.string().nullable().optional(),
   model_specific: z.record(z.unknown()).optional(),
   narrative: z.array(z.string()),
 })
@@ -74,6 +74,11 @@ export const CaseSchema = z.object({
   predictions: z.record(PredictionSchema),
   explanations: z.record(ExplanationSchema),
   ablations: z.record(z.record(AblationEntry)),
+  by_mask: z.record(z.record(z.object({
+    prediction: PredictionSchema,
+    explanation: ExplanationSchema,
+    ablations: z.record(AblationEntry).optional(),
+  }))).optional(),
 })
 export type CaseData = z.infer<typeof CaseSchema>
 
@@ -123,6 +128,7 @@ export const DiagnoseResponseSchema = z.object({
   source: z.enum(['live', 'cached']),
   model_id: z.string(),
   case_id: z.string(),
+  mask: z.array(z.string()).optional(),
 })
 export type DiagnoseResponse = z.infer<typeof DiagnoseResponseSchema>
 
@@ -135,5 +141,6 @@ export const EvidenceResponseSchema = z.object({
   source: z.enum(['live', 'cached']),
   model_id: z.string(),
   case_id: z.string(),
+  mask: z.array(z.string()).optional(),
 })
 export type EvidenceResponse = z.infer<typeof EvidenceResponseSchema>
