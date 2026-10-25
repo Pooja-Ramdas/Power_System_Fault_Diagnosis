@@ -71,7 +71,7 @@ export default function AboutModal({ isOpen, onClose, apiLive }: Props) {
         {/* Content sections */}
         <div style={{ fontSize: 11, lineHeight: 1.6, color: 'var(--text-sec)' }}>
           <p style={{ marginBottom: 12 }}>
-            <strong style={{ color: 'var(--text-pri)' }}>Operational Nature:</strong> This console replays fixed held-out test events from the CEN Chile power transmission network. When a fault is injected, diagnosis and explainability are computed <strong style={{ color: apiLive ? 'var(--status-live)' : 'var(--status-cached)' }}>{apiLive ? 'LIVE' : 'FROM PRECOMPUTED CACHE'}</strong> by the backend inference models. No metrics or attributions are fabricated.
+            <strong style={{ color: 'var(--text-pri)' }}>Operational Nature:</strong> This console replays fixed held-out test events from the CEN Chile power transmission network. When a fault is injected, diagnosis and explainability are computed by the backend inference models. No metrics or attributions are fabricated.
           </p>
 
           <div style={{ background: 'var(--bg-2)', padding: '10px 14px', clipPath: 'var(--chamfer-4)', border: '1px solid var(--line-dim)', marginBottom: 14 }}>

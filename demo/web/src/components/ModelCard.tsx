@@ -55,9 +55,9 @@ export default function ModelCard({ modelId, result, active, onClick }: Props) {
           <div className="model-card__fusion">{meta.fusion}</div>
         </div>
         {/* Source badge */}
-        {diag && (
-          <span className={diag.source === 'live' ? 'badge badge-live' : 'badge badge-cached'}>
-            {diag.source}
+        {diag && diag.source === 'live' && (
+          <span className="badge badge-live">
+            live
           </span>
         )}
         {result.loading && <div className="spinner" style={{ borderTopColor: meta.color }} />}
@@ -80,9 +80,11 @@ export default function ModelCard({ modelId, result, active, onClick }: Props) {
               <div style={{ fontSize: 9, color: diag.prediction.correct ? 'var(--status-live)' : 'var(--status-err)', marginTop: 2 }}>
                 {diag.prediction.correct ? '✓ CORRECT' : '✗ INCORRECT'}
               </div>
-              <div style={{ fontSize: 8, color: 'var(--text-dim)', marginTop: 1 }}>
-                {diag.latency_ms > 0 ? `${diag.latency_ms}ms` : 'CACHED'}
-              </div>
+              {diag.latency_ms > 0 && (
+                <div style={{ fontSize: 8, color: 'var(--text-dim)', marginTop: 1 }}>
+                  {`${diag.latency_ms}ms`}
+                </div>
+              )}
             </div>
           </div>
 

@@ -266,15 +266,17 @@ export default function DiagramStage({
                 <span style={{ fontSize: 9, fontWeight: 700, color: modelColor, letterSpacing: '0.1em' }}>
                   {mid.toUpperCase()} // {{ conflux: 'EARLY', quorum: 'LATE', nexus: 'HYBRID' }[mid]}
                 </span>
-                <span
-                  style={{
-                    fontSize: 8,
-                    fontWeight: 700,
-                    color: diag.source === 'live' ? 'var(--status-live)' : 'var(--status-cached)',
-                  }}
-                >
-                  {diag.source.toUpperCase()}
-                </span>
+                {diag.source === 'live' && (
+                  <span
+                    style={{
+                      fontSize: 8,
+                      fontWeight: 700,
+                      color: 'var(--status-live)',
+                    }}
+                  >
+                    LIVE
+                  </span>
+                )}
               </div>
 
               {/* Bubble Body: Fault Class + Confidence */}

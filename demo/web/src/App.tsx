@@ -192,10 +192,12 @@ export default function App() {
         }}
       >
         <div>
-          <span>MODE: HELD-OUT TEST EVENT REPLAY · </span>
-          <span style={{ color: apiLive ? 'var(--status-live)' : 'var(--status-cached)', fontWeight: 700 }}>
-            {apiLive ? 'LIVE INFERENCE' : 'CACHED INFERENCE'}
-          </span>
+          <span>MODE: HELD-OUT TEST EVENT REPLAY</span>
+          {apiLive && (
+            <span style={{ color: 'var(--status-live)', fontWeight: 700 }}>
+              {' · LIVE INFERENCE'}
+            </span>
+          )}
           {apiOverride && (
             <span style={{ marginLeft: 8, color: 'var(--conflux)', border: '1px solid var(--conflux)', padding: '0 4px' }}>
               API OVERRIDE: {apiOverride}

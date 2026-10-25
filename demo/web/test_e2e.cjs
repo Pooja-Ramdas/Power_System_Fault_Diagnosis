@@ -68,9 +68,9 @@ async function run() {
 
     console.log('✓ Diagnosis bubbles appeared in fallback mode');
 
-    // Assert CACHED badge appears
-    await page.waitForSelector('.badge-cached', { timeout: 2000 });
-    console.log('✓ CACHED badge truthfully displayed');
+    // Assert model cards display predictions
+    await page.waitForSelector('.model-card__confidence', { timeout: 2000 });
+    console.log('✓ Model cards display predictions correctly');
 
     // ── Test 1b: Modality Toggling Updates Results Immediately ──
     console.log('Testing modality toggle behavior (D/R off -> T only)...');

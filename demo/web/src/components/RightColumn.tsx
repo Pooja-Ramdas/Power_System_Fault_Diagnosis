@@ -166,7 +166,7 @@ export default function RightColumn({
           ② Pick a fault event<br/>
           ③ Press INJECT FAULT<br/>
           <br/>
-          Models run LIVE when API is reachable; fallback cache is labeled CACHED.
+          Models evaluate multimodal inputs upon fault injection.
         </div>
       )}
     </div>

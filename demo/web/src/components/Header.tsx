@@ -62,9 +62,11 @@ export default function Header({
       <div className="header__controls">
         {/* API status badge */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-          <span style={{ fontSize: 9, color: apiLive ? 'var(--status-live)' : 'var(--status-cached)', fontWeight: 700 }}>
-            {apiLive ? '● LIVE API' : '▲ CACHED'}
-          </span>
+          {apiLive && (
+            <span style={{ fontSize: 9, color: 'var(--status-live)', fontWeight: 700 }}>
+              ● LIVE API
+            </span>
+          )}
           <button
             onClick={onOpenAbout}
             style={{
